@@ -1,6 +1,6 @@
-# journey-orchestration.en
+# journey-optimizer.en
 
-Journey Orchestration product documentation
+Journey Optimier product documentation
 
 Documentation including the following features:
 
