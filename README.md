@@ -1,11 +1,10 @@
-# customer-journey-management.en
+# journey-orchestration.en
 
-Customer Journey Management product documentation
+Journey Orchestration product documentation
 
-Customer Journey Management (CJM) documentation including the following features:
+Documentation including the following features:
 
 * Journeys
 * Messages, Content
 * Offers 
 * Admin
-
