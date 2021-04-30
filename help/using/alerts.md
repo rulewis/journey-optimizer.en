@@ -1,7 +1,6 @@
 ---
 title: Alerts in messages
 description: Learn how to check message content validation and troubleshoot
-exl-id: 33c1e60a-8581-4fe1-906e-704d5b6d4fb2
 ---
 # Alerts on your messages {#publish-manage-messages}
 

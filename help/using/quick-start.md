@@ -1,7 +1,6 @@
 ---
 title: Quick Start
 description: Journey Optimizer Quick Start
-exl-id: 2a0ba1ce-daf9-4915-b45a-9947e3610752
 ---
 # Quick Start {#cjm-quick-start}
 

@@ -1,7 +1,6 @@
 ---
 title: journey fields
 description: journey fields
-exl-id: 12e26a4d-a855-49a8-91f1-4eb63dfd60b0
 ---
 # Journey fields {#sharing-journey-fields}
 

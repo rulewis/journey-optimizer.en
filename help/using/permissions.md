@@ -1,7 +1,6 @@
 ---
 title: Manage permissions
 description: Learn how to manage permissions
-exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 ---
 # Manage permissions {#manage-permissions}
 

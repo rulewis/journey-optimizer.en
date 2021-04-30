@@ -1,7 +1,6 @@
 ---
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
-exl-id: 71be0714-0c8e-44fb-bc28-e63b925da686
 ---
 # Push notification configuration {#push-notification-configuration}
 

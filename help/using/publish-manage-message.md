@@ -2,7 +2,6 @@
 title: Publish and modify a message
 description: Learn how to publish and update your messages
 snippet: y
-exl-id: d0c0f9ac-6366-4277-b622-86d46d30b5f9
 ---
 # Publish your messages {#publish-manage-messages}
 

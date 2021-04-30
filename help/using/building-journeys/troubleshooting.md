@@ -1,7 +1,6 @@
 ---
 title: Journey troubleshooting
 description: Learn how to troubleshoot errors in journeys
-exl-id: b1a4f351-48ee-4c50-8961-d721a2762d63
 ---
 # Troubleshooting{#concept_nlv_bcv_2fb}
 

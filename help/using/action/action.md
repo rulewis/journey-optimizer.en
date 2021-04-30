@@ -2,7 +2,6 @@
 solution: Journey Orchestration
 title: About actions
 description: Learn how to configure an action
-exl-id: 06586f71-c3bb-4369-884f-46b5dc19caa5
 ---
 # About actions {#about_actions}
 

@@ -1,7 +1,6 @@
 ---
 title: About Adobe Experience Platform segments
 description: Learn how to configure an Adobe Experience Platform segment
-exl-id: 5429bbe6-e03c-42b3-aee3-ae27edb496bf
 ---
 # About Adobe Experience Platform segments {#about-segments}
 

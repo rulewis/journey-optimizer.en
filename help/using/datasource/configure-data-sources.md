@@ -1,7 +1,6 @@
 ---
 title: Configure a data source
 description: Learn how to configure a data source
-exl-id: 034bd047-a07a-4724-9cac-335c8d89cfd0
 ---
 # Configure a data source {#configure-data-source}
 

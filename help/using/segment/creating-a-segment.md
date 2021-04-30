@@ -1,7 +1,6 @@
 ---
 title: Build a segment
 description: Learn how to build segments
-exl-id: 39a97cc8-0859-4261-bc59-545cdcbfade6
 ---
 # Build segments {#build-segments}
 

@@ -1,7 +1,6 @@
 ---
 title: journeyStep events data fetch fields
 description: journeyStep events data fetch fields
-exl-id: 25a63015-5dca-4881-96c7-fe0a03ca2b30
 ---
 # journeyStep events data fetch fields {#sharing-fetch-fields}
 

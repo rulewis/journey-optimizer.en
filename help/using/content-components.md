@@ -1,7 +1,6 @@
 ---
 title: Use email designer content components
 description: Learn how to use content components in your emails
-exl-id: a991a4d4-be50-44bb-8398-dd768aa85671
 ---
 # Use the Email designer content components {#content-components}
 

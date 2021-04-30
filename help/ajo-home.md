@@ -1,7 +1,6 @@
 ---
 keywords: Journey Optimizer;home;popular topics
 title: Journey Optimizer product documentation
-exl-id: 76140506-44bf-45a8-b4d1-59331a459477
 ---
 # Help Center {#cjm-documentation}
 

@@ -1,7 +1,6 @@
 ---
 title: External data sources 
 description: Learn how to configure external data sources
-exl-id: f1694872-bfd7-4ef9-8848-6f783e270d34
 ---
 # External data sources {#concept_t2s_kqt_52b}
 

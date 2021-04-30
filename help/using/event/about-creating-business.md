@@ -1,7 +1,6 @@
 ---
 title: Configure a business event
 description: Learn how to create a business event
-exl-id: e962a17b-b5af-4897-ab38-c9b9c33fb748
 ---
 # Configure a business event {#configure-a-business-event}
 

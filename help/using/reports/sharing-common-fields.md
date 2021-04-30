@@ -1,7 +1,6 @@
 ---
 title: journeysteps events common fields
 description: journeysteps events common fields
-exl-id: ebf39486-caf2-440b-aaf2-1b2a8e6cb9ea
 ---
 # journeysteps events common fields {#sharing-common-fields}
 

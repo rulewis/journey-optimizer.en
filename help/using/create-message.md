@@ -1,7 +1,6 @@
 ---
 title: Create a message
 description: Learn how to create a message
-exl-id: fe1e1355-c0ee-460f-891c-4b6ccda84b19
 ---
 # Create a message {#create-message}
 

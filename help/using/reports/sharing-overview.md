@@ -1,7 +1,6 @@
 ---
 title: Journey step sharing overview
 description: Journey step sharing overview
-exl-id: c5764f07-7bd2-452b-ad65-bd49c8546a4d
 ---
 # Create journey reports{#design-jo-reports}
 

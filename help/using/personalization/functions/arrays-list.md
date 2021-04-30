@@ -1,7 +1,6 @@
 ---
 title: Functions library
 description: Functions library
-exl-id: 003f2545-1134-49c0-92ae-b74e9d8b0947
 ---
 # Arrays and list functions {#arrays}
 
