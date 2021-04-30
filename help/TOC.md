@@ -1,10 +1,10 @@
 ---
-product: Journey Optimizer
+product: experience cloud
 audience: end-user
 user-guide-title: Journey Optimizer Guide
 user-guide-description: Use Journey Optimizer to deliver connected, contextual, and personalized experiences to customers
 type: Documentation
-solution: Experience Cloud
+solution: Journey Optimizer
 hide: yes
 ---
 

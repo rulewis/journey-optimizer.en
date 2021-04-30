@@ -1,7 +1,6 @@
 ---
 title: Configure an email
 description: Learn how to configure an email in Journey Optimizer
-exl-id: 6f389e93-3332-4137-8662-26b46b914504
 ---
 # Configure an email {#configure-email}
 

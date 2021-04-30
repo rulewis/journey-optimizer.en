@@ -1,7 +1,6 @@
 ---
 title: About ExperienceEvent Schemas for journey events
 description: Learn about ExperienceEvent Schemas for journey events
-exl-id: 99a9f724-bfbc-40b9-a2a1-fd07461a7a5b
 ---
 # About ExperienceEvent Schemas for [!DNL Journey Optimizer] Events 
 

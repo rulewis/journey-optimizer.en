@@ -1,7 +1,6 @@
 ---
 title: Monitor message execution
 description: Learn monitoring guidelines
-exl-id: 1bb8a7ee-de17-4cf3-b72e-f84b5ceee0d1
 ---
 # Message monitoring {#monitor-message-execution}
 

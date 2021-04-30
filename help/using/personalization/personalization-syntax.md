@@ -1,7 +1,6 @@
 ---
 title: Personalization syntax
 description: Learn how to use personalization syntax
-exl-id: c323cfa7-75cf-41e1-a379-cbae1689542b
 ---
 # Personalization syntax {#personalization-syntax}
 

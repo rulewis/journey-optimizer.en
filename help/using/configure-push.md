@@ -1,7 +1,6 @@
 ---
 title: Configure a push notification
 description: Learn how to create a push notification in Journey Optimizer
-exl-id: 3b9deb7d-77cf-47ca-998e-63aa8aca42fd
 ---
 # Configure a push notification {#create-push-notification}
 

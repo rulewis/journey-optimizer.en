@@ -1,7 +1,6 @@
 ---
 title: Monitoring message execution
 description: Learn monitoring and deliverability guidelines
-exl-id: 7a097706-4da2-4f7b-885f-1a9d6b7c9a91
 ---
 # Manage suppression lists {#manage-suppression-lists}
 

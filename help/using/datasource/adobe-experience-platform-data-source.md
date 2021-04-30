@@ -1,7 +1,6 @@
 ---
 title: Adobe Experience Platform data source 
 description: Learn how to configure Adobe Experience Platform data source
-exl-id: e41e17b6-94d7-4429-bdab-a7cb8b2cadda
 ---
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}
 

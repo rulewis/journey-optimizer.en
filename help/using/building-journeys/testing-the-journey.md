@@ -1,7 +1,6 @@
 ---
 title: Testing the journey
 description: Learn about journey testing
-exl-id: 6e91589c-8e12-480b-b8de-8fccb5c479bf
 ---
 # Testing the journey{#testing_the_journey}
 

@@ -1,7 +1,6 @@
 ---
 title: Time zone management
 description: Learn about time zone management
-exl-id: 0bbb0213-2ff0-457b-ad75-c2d86461f797
 ---
 # Time zone management {#timezone_management}
 

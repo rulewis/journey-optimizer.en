@@ -1,7 +1,6 @@
 ---
 title: Condition activity
 description: Learn about condition activity
-exl-id: 6606d879-d4c5-49fa-b8c9-0d863cea2c06
 ---
 # Condition activity{#section_e2n_pft_dgb}
 

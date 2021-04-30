@@ -1,7 +1,6 @@
 ---
 title: Add personalized offers
 description: Learn how to add personalized offers to your messages
-exl-id: a09f8ec5-d888-4e4e-af53-a74ca2a8701b
 ---
 # Add personalized offers {#deliver-personalized-offers}
 

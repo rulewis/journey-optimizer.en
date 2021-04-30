@@ -1,7 +1,6 @@
 ---
 title: Wait activity
 description: Learn about the wait activity
-exl-id: 63ad0d53-5f29-4dc0-8d6a-493c20a24761
 ---
 # Wait activity{#section_rlm_nft_dgb}
 

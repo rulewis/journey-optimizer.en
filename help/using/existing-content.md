@@ -1,7 +1,6 @@
 ---
 title: Import or code your emails
 description: Learn how to import email content or code your emails
-exl-id: 2ceb17cd-7118-4d61-a6ab-4651ce8725ba
 ---
 # Import or code your email content {#existing-content}
 

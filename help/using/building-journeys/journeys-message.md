@@ -1,7 +1,6 @@
 ---
 title: Add a message in a journey
 description: Add a message in a journey
-exl-id: 96ac6236-371e-48e9-b822-eb791e8daf2d
 ---
 # Add a message in a journey
 

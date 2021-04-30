@@ -1,8 +1,8 @@
 ---
 cloud: Experience Cloud
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/customer-journey-management.en
-index: yes
+git-repo: https://git.corp.adobe.com/AdobeDocs/journey-optimizer.en
+hide: yes
 ---
 
 # Metadata for internal use

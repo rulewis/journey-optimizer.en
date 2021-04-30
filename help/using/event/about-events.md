@@ -1,7 +1,6 @@
 ---
 title: About events
 description: Learn about events
-exl-id: 8e97aa5a-93e2-439b-9a35-d175e8ac1e9c
 ---
 # General principle {#concept_gfj_fqt_52b}
 
