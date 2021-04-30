@@ -1,16 +1,7 @@
 ---
 title: Get started with journeys
 description: Get started with journeys
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: send messages
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 631bb1ce-3250-45ab-a787-11cf67103f06
 ---
 # Get started with journeys{#jo-quick-start}
 
@@ -32,7 +23,7 @@ In order to send messages with journeys, the following configuration is required
 
    ![](../assets/jo-datasource.png)  
 
-1. **Configure an action**: Customer Journey Management message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. 
+1. **Configure an action**: Journey Optimizer message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md). This step is performed by a **technical user**. 
 
     ![](../assets/create-content-push.png)  
 

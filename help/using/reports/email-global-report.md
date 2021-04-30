@@ -1,16 +1,7 @@
 ---
 title: Email global report
 description: Learn how to use data from the email global report
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+exl-id: 2296c75e-d3de-4ec6-b4c4-864d188a702f,32c38a18-958d-4dd1-83c3-101fed6c3e81
 ---
 # Email global report {#email-global-report}
 

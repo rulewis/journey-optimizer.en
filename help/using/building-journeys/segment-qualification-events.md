@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
 title: Segment qualification events
 description: Learn about segment qualification events
+exl-id: ed8e3628-1428-455a-ba0a-52c256ba6234
 ---
 # Segment qualification events {#segment-qualification}
 

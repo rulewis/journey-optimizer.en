@@ -1,16 +1,7 @@
 ---
 title: Email live report
 description: Learn how to use data from the email live report
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+exl-id: 30c80877-bfce-4468-99b5-05b93160e577
 ---
 # Email live report {#email-live-report}
 

@@ -1,16 +1,6 @@
 ---
 title: Start journey execution
 description: Learn how to start your journey and send messages
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
 ---
 
 # Journey execution {#message-execution}

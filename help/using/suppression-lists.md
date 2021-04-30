@@ -1,16 +1,7 @@
 ---
 title: Monitoring message execution
 description: Learn monitoring and deliverability guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 7a097706-4da2-4f7b-885f-1a9d6b7c9a91
 ---
 # Manage suppression lists {#manage-suppression-lists}
 
@@ -18,7 +9,7 @@ snippet: y
 
 A suppression list consists of email addresses that you want to exclude from your deliveries because sending to these contacts could hurt your sending reputation and delivery rates.
 
-The Customer Journey Management **suppression list** is managed at your own environment level. It gathers spam complaints, hard bounces, and soft bounces that occur consistently.
+The Journey Optimizer **suppression list** is managed at your own environment level. It gathers spam complaints, hard bounces, and soft bounces that occur consistently.
 
 ## Why suppression lists? {#why-suppression-lists}
 
@@ -40,7 +31,7 @@ In addition to this, the suppression list contains email addresses that hard bou
 
 ## Suppression list management {#suppression-list-management}
 
-The Customer Journey Management suppression list gathers email addresses and domains that are suppressed across all mailings **in a single client environment**, meaning specific to an IMS organization ID associated with a sandbox ID.
+The Journey Optimizer suppression list gathers email addresses and domains that are suppressed across all mailings **in a single client environment**, meaning specific to an IMS organization ID associated with a sandbox ID.
 
 The suppression list allows you to automatically collect:
 * Email addresses that are invalid, or that consistently soft-bounce and could adversely affect your email reputation if you continue to include them in your deliveries.

@@ -1,16 +1,7 @@
 ---
 title: Build a segment
 description: Learn how to build segments
-page-status-flag: never-activated
-uuid:
-contentOwner:
-products:
-audience: build segment
-content-type: reference
-topic-tags: starting-with-segments
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 39a97cc8-0859-4261-bc59-545cdcbfade6
 ---
 # Build segments {#build-segments}
 

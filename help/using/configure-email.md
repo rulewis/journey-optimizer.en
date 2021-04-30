@@ -1,16 +1,7 @@
 ---
 title: Configure an email
-description: Learn how to configure an email in Customer Journey Management
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management content designer
-content-type: reference
-topic-tags: starting-with-creating-content
-discoiquuid:
-internal: n
-snippet: y
+description: Learn how to configure an email in Journey Optimizer
+exl-id: 6f389e93-3332-4137-8662-26b46b914504
 ---
 # Configure an email {#configure-email}
 

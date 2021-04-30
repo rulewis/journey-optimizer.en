@@ -1,6 +1,7 @@
 ---
 title: Personalization validation
-description: Personalization validation
+description: Learn more about personalization validation and how to troubleshoot
+exl-id: 6193d2fa-6b5c-414d-a823-73cbfda449f5
 ---
 # Personalization validation {#personalization-validation}
 
@@ -91,14 +92,14 @@ Resource with id activityID and type OfferActivity not found<br/></td>
   </tr> 
    <tr> 
    <td>The public URL is not present in offer offerId.</td> 
-   <td>The Image Offers (all Personalized and fallback associated with the activity and placement pair) should have public URL populated (deliveryURL should not be empty).</td> 
+   <td>The Image Offers (all Personalized and fallback associated with the decision and placement pair) should have public URL populated (deliveryURL should not be empty).</td> 
   </tr> 
   <tr> 
-   <td>The Offer Activity contains non-profile attributes.</td> 
+   <td>The decision (previously known as offer activity) contains non-profile attributes.</td> 
    <td>Offers Model usage should contain only the profile attributes.</td> 
   </tr> 
   <tr> 
-   <td>An error occurred while fetching the offer activity usage.</td> 
+   <td>An error occurred while fetching the decision usage.</td> 
    <td>This error could occur when the API is trying to fetch the offer model.</td> 
   </tr>
   <tr> 

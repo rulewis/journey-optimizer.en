@@ -1,16 +1,7 @@
 ---
 title: Use a segment in a journey
-description: Learn how to use a segment in a journey.
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: build segment
-content-type: reference
-topic-tags: starting-with-segments
-discoiquuid:
-internal: n
-snippet: y
+description: Learn how to use a segment in a journey
+exl-id: 0584d5b8-8a26-4a65-b5d3-2a7db7a582e6
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 

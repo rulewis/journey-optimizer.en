@@ -1,16 +1,7 @@
 ---
-title: Design emails
-description: Learn how to design your email messages.
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management email designer
-content-type: reference
-topic-tags: starting-with-email-design
-discoiquuid:
-internal: n
-snippet: y
+title: Design emails in Journey Optimizer
+description: Learn how to design your emails content
+exl-id: cd648e61-2082-4695-a3cb-52b507c4778e
 ---
 # Design your email content in the user interface {#create-email-content}
 
@@ -122,17 +113,17 @@ Once the structure is defined, you are able to add content fragments and compone
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Using a preheader"
->abstract="The preheader lets your configure a short summary text that will delivers a higher open rate for your email."
+>abstract="The preheader lets you configure a short summary text that can help you better track and customize your emails."
 
-A preheader is a short summary text that follows the subject line when viewing an email from your inbox. The preheader delivers an higher open rate.
+A preheader is a short summary text that follows the subject line when viewing an email from your email client. The preheader can help you better track and customize your emails.
 
-Select the **[!UICONTROL Preheader]** edit box and complete the content.
+Select the **[!UICONTROL Preheader]** edit box and add  content.
 
 You can add a **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** or a **[!UICONTROL Personalization fields]** in the preheader content.
 
 >[!NOTE]
 >
->Note that preheader is not compatible with all email programs. When not supported, preheader will not display.
+>Note that preheaders are not compatible with all email clients. When not supported, the preheader does not display.
 
 ## Background settings {#about-backgrounds}
 
@@ -221,23 +212,17 @@ In the Email Designer interface, when you select an element and display its sett
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
 
 
-## Generate a text version of the email {#generate-text-version}
+## Create the text version of an email {#generate-text-version}
 
-The Email Designer enables you to edit several rendering of your emails such as a text version of your email.
+It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
 
-By default, the **[!UICONTROL Plain text]** version of your email and personalization fields are automatically generated and synchronized with the HTML version of your content.
+By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
 
-To have a plain text version different from the HTML version:
-
->[!CAUTION]
->
->After disabling the synchronization and editing your **[!UICONTROL Plain text]**, your changes will be replaced with the HTML version if you re-enable the **[!UICONTROL Sync with HTML]** option.
->
->Changes made in **[!UICONTROL Plain text]** view cannot be reflected in HTML view.
+If you prefer using a different content for the plain text version, follow the steps below:
 
 1. From your email, select the **[!UICONTROL Plain text]** tab.
 
-1. Disable this synchronization by clicking the **[!UICONTROL Sync with HTML]** switch.
+1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
 
     ![](assets/text_version_1.png)
 
@@ -246,3 +231,10 @@ To have a plain text version different from the HTML version:
     ![](assets/text_version_2.png)
 
 1. You can then edit the plain text version as desired.
+
+>[!CAUTION]
+>
+>* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
+>
+>*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes will be lost, and replaced with text content generated from the HTML version.
+>

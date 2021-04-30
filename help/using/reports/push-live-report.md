@@ -1,16 +1,7 @@
 ---
-title: Push live report
-description: Learn how to use data from the push live report
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+title: Push notifications live report
+description: Learn how to use data from the push notifications live report
+exl-id: 30c80877-bfce-4468-99b5-05b93160e577
 ---
 # Push live report {#push-live-report}
 

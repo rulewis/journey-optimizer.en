@@ -1,22 +1,13 @@
 ---
-title: Monitoring message execution
-description: Learn monitoring and deliverability guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+title: Track your messages
+description: Learn how to track sent messages
+exl-id: ba935298-0fec-420f-9665-2b99d04f13b3
 ---
 # Message tracking {#tracking}
 
 ![](assets/do-not-localize/badge.png)
 
-Customer Journey Management enables you to track the messages sent and the behavior of your recipients.
+Journey Optimizer enables you to track the messages sent and the behavior of your recipients.
 
 You can enable tracking at the message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options. This will let you track the behavior of your recipients through openings and/or clicks on links. [Learn more about creating messages](create-message.md).
 

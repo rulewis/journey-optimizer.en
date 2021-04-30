@@ -1,27 +1,18 @@
 ---
-title: Design emails
-description: Learn how to design your email messages.
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management email designer
-content-type: reference
-topic-tags: starting-with-email-design
-discoiquuid:
-internal: n
-snippet: y
+title: Use email designer content components
+description: Learn how to use content components in your emails
+exl-id: a991a4d4-be50-44bb-8398-dd768aa85671
 ---
 # Use the Email designer content components {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="About Content components"
->abstract="Content components are empty content placeholders that you can edit to create an email."
+>abstract="Content components are empty content placeholders that you can use to create the layout of an email."
 
 ![](assets/do-not-localize/badge.png)
 
-When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can edit once placed in an email.
+When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
 You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
 
 ## Button {#buttons}
@@ -181,4 +172,10 @@ Use the **[!UICONTROL Social]** component to insert links to social media pages 
 
 ## Offer Decision {#offer-decision}
 
-Use the **[!UICONTROL Offer Decision]** component to insert personalized offers into your messages (see [Add personalized offers](deliver-personalized-offers.md)).
+Use the **[!UICONTROL Offer decision]** component to insert decisions (previously known as offer activities) into your messages. Decisions will leverage Decision Management to pick the best offer to deliver to your customers.
+
+Related topics:
+
+* [Get started with Decision Management](offers/get-started/starting-offer-decisioning.md).
+* [Add personalized offers into messages](deliver-personalized-offers.md).
+

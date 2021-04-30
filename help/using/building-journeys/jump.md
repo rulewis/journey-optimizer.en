@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
 title: Jumping from one journey to another
 description: Jumping from one journey to another
+exl-id: ec51f14b-26f9-4842-b7fe-f47dda2cf205
 ---
 # Jumping from one journey to another {#jump}
 

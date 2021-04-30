@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
 title: About data sources
 description: Learn how to configure a data source
+exl-id: 2011ec5b-256e-4662-bcad-0161a8bbcdab
 ---
 # About data sources {#concept_s1s_dqt_52b}
 

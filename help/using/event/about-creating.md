@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
-title: Creating an event
-description: Learn how to create an event
+title: Configure a unitary event
+description: Learn how to configure a unitary event
+exl-id: 675bb7c4-83ee-4729-9919-370f13121208
 ---
 # Configure a unitary event {#configure-an-event}
 
@@ -74,7 +74,7 @@ The payload definition allows you to choose the information the system expects t
 
     >[!NOTE]
     >
-    >Make sure that you have added the "orchestration" mixin to the XDM schema. This will ensure that your schema contains all the required information to work with [!DNL Customer Journey Management].
+    >Make sure that you have added the "orchestration" mixin to the XDM schema. This will ensure that your schema contains all the required information to work with [!DNL Journey Optimizer].
 
     ![](../assets/journey9.png)
 
@@ -84,7 +84,7 @@ The payload definition allows you to choose the information the system expects t
 
     >[!NOTE]
     >
-    >For system-generated events, the **[!UICONTROL eventID]** field is automatically added in the list of fields selected so that [!DNL Customer Journey Management] can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [this section](../event/about-creating.md#preview-the-payload).
+    >For system-generated events, the **[!UICONTROL eventID]** field is automatically added in the list of fields selected so that [!DNL Journey Optimizer] can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [this section](../event/about-creating.md#preview-the-payload).
 
 1. When you're done selecting the needed fields, click **[!UICONTROL Save]** or press **[!UICONTROL Enter]**.
 
@@ -170,4 +170,4 @@ The payload preview allows you to validate the payload definition.
 
 1. Check the preview to validate the payload definition.
 
-1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to [!DNL Customer Journey Management]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to [!DNL Journey Optimizer]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

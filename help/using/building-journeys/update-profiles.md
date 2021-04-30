@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
-title: Jumping from one journey to another
-description: Jumping from one journey to another
+title: Update profile
+description: Learn how to use the Update profile activity in a journey
+exl-id: 4b0bbcfd-dde7-43d3-87d2-87f673d2ef04
 ---
 # Update profile {#update-profile}
 

@@ -1,10 +1,11 @@
-# journey-optimizer.en
+# customer-journey-management.en
 
-Journey Optimier product documentation
+Journey Optimizer product documentation
 
-Documentation including the following features:
+Journey Optimizer documentation including the following features:
 
 * Journeys
 * Messages, Content
 * Offers 
 * Admin
+

@@ -1,24 +1,15 @@
 ---
-title: Monitoring message execution
+title: Monitor message execution
 description: Learn monitoring guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: monitoring
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 1bb8a7ee-de17-4cf3-b72e-f84b5ceee0d1
 ---
 # Message monitoring {#monitor-message-execution}
 
 ![](assets/do-not-localize/badge.png)
 
-To make sure your messages are successfully executed, sent and delivered, Customer Journey Management enables you to monitor the messages that are currently published and triggered. You can see how they are performing across journeys <!--and APIs--> in real-time from the **[!UICONTROL Executions]** list.
+To make sure your messages are successfully executed, sent and delivered, [!DNL Journey Optimizer] offers capabilities to monitor the messages that are currently published and triggered. You can see how your messages are performing across journeys <!--and APIs--> in real-time from the **[!UICONTROL Executions]** list.
 
-To access this list, from the **Customer Journey Management** home page, select **[!UICONTROL Messages]**, and click the **[!UICONTROL Executions]** tab.
+To access this list, from the **[!DNL Journey Optimizer]** home page, select **[!UICONTROL Messages]**, and click the **[!UICONTROL Executions]** tab.
 
 This tab provides two views: **[!UICONTROL Live view]** and **[!UICONTROL Global view]**.
 

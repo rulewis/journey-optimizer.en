@@ -1,16 +1,7 @@
 ---
 title: Journey limitations
-description: Learn more on Journey limitations
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: Journey limitations
-content-type: reference
-topic-tags: journey-limitations
-discoiquuid:
-internal: n
-snippet: y
+description: Learn more about Journey limitations
+exl-id: 3cc722c4-fb06-4a82-8c6c-c76575c35b60
 ---
 # Limitations {#journey-limitations}
 
@@ -32,7 +23,7 @@ Here are limitations related to the use of journeys.
 
 ## Message action limitations
 
-* The **Message** activity does not allow you to use contextual data coming from the journey. The personalization of messages is performed directly when designing the message in Customer Journey Management.
+* The **Message** activity does not allow you to use contextual data coming from the journey. The personalization of messages is performed directly when designing the message in Journey Optimizer.
 
 * When you add a multichannel message, two messages will be sent.
 
@@ -54,7 +45,7 @@ Here are limitations related to the use of journeys.
  
 ## Events limitations
 
-* For system-generated events, streaming data used to initiate a customer journey must be configured within Customer Journey Management first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
+* For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
  
 ## Data sources limitations
 

@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
-title: Creating an event
-description: Learn how to create an event
+title: Configure a business event
+description: Learn how to create a business event
+exl-id: e962a17b-b5af-4897-ab38-c9b9c33fb748
 ---
 # Configure a business event {#configure-a-business-event}
 
@@ -105,4 +105,4 @@ The payload preview allows you to validate the payload definition.
 
 1. Check the preview to validate the payload definition.
 
-1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to [!DNL Customer Journey Management]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to [!DNL Journey Optimizer]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

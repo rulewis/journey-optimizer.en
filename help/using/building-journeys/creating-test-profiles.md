@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
-title: Creating a test profile
-description: Learn about test profile creation
+title: Create a test profile
+description: Learn how to create a test profile
+exl-id: de42342a-5bec-46c8-915e-f7f102198b49
 ---
 # Create test profiles {#create-test-profiles}
 
@@ -71,7 +71,7 @@ Your journey will be composed of a **Read segment** and an **Update profile** ac
 >
 > Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** mixin. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. In Customer Journey Management, click **Segments** from the left menu, then **Create segment**, in the top right.
+1. In Journey Optimizer, click **Segments** from the left menu, then **Create segment**, in the top right.
     ![](../assets/test-profiles-22.png) 
 1. Define a name for your segment and build the segment: choose the field(s) and value(s) to target the profiles you want.
     ![](../assets/test-profiles-23.png) 

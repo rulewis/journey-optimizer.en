@@ -1,16 +1,7 @@
 ---
 title: Live report
 description: Learn how to use data from the live report
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+exl-id: 2841fef9-59f6-4b6b-b864-e771af394bea,30c80877-bfce-4468-99b5-05b93160e577
 ---
 # Live Report {#live-report}
 

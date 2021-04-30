@@ -1,16 +1,7 @@
 ---
 title: Design your journey
 description: Learn how to design your journey
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: send messages
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 6bb9f9e0-8419-48d9-ac61-56b102346fca
 ---
 # Design your journey
 
@@ -78,7 +69,7 @@ The other activities allow you to add conditions to your journey to define sever
 
 **Actions**
 
-You will find here the **Message** activity which allows you to include a message designed in Customer Journey Management. [Learn more about the Message activity](journeys-message.md)
+You will find here the **Message** activity which allows you to include a message designed in Journey Optimizer. [Learn more about the Message activity](journeys-message.md)
 
 You will also find the custom actions that you've configured to send messages with third-party systems. Learn more in this [section](about-journey-activities.md#action-activities).
 

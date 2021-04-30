@@ -1,22 +1,13 @@
 ---
 title: Add a message in a journey
 description: Add a message in a journey
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: send messages
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 96ac6236-371e-48e9-b822-eb791e8daf2d
 ---
 # Add a message in a journey
 
 ![](../assets/do-not-localize/badge.png)
 
-Customer Journey Management message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). Then you simply add, in your journey, a push or email message designed using Customer Journey Management. 
+Journey Optimizer message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). Then you simply add, in your journey, a push or email message designed using Journey Optimizer. 
 
 If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md).
 
@@ -34,7 +25,7 @@ If you're using a third-party system to send your messages, you can create a cus
 
    ![](../assets/jo-message2.png)
 
-1. Click inside the **Message** field. The list of available messages designed in Customer Journey Management is displayed. You can filter the list by status. 
+1. Click inside the **Message** field. The list of available messages designed in Journey Optimizer is displayed. You can filter the list by status. 
 
    ![](../assets/jo-message3.png)
 

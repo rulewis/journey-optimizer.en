@@ -1,29 +1,29 @@
 ---
-solution: Journey Orchestration
-title: About ExperienceEvent Schemas for Journey Orchestration Events 
-description: Learn about ExperienceEvent Schemas for Journey Orchestration Events
+title: About ExperienceEvent Schemas for journey events
+description: Learn about ExperienceEvent Schemas for journey events
+exl-id: 99a9f724-bfbc-40b9-a2a1-fd07461a7a5b
 ---
-# About ExperienceEvent Schemas for [!DNL Customer Journey Management] Events 
+# About ExperienceEvent Schemas for [!DNL Journey Optimizer] Events 
 
 ![](../assets/do-not-localize/badge.png)
 
-[!DNL Customer Journey Management] events are XDM Experience Events that are sent to Adobe Experience Platform via Streaming Ingestion.
+[!DNL Journey Optimizer] events are XDM Experience Events that are sent to Adobe Experience Platform via Streaming Ingestion.
 
-As such, an important prerequisite for setting up events for [!DNL Customer Journey Management] is that you are familiar with Adobe Experience Platform’s Experience Data Model (or XDM) and how to compose XDM Experience Event schemas, as well as how to stream XDM-formatted data to Adobe Experience Platform.
+As such, an important prerequisite for setting up events for [!DNL Journey Optimizer] is that you are familiar with Adobe Experience Platform’s Experience Data Model (or XDM) and how to compose XDM Experience Event schemas, as well as how to stream XDM-formatted data to Adobe Experience Platform.
 
-## Schema requirements for [!DNL Customer Journey Management] Events 
+## Schema requirements for [!DNL Journey Optimizer] Events 
 
-The first step in setting up an event for [!DNL Customer Journey Management] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on Adobe Experience Platform. Having a dataset for your events is not strictly necessary, but sending the events to a specific dataset will allow you to maintain users’ event history for future reference and analysis, so it is always a good idea. If you do not already have a suitable schema and dataset for your event, both of those tasks can be done in Adobe Experience Platform web interface. 
+The first step in setting up an event for [!DNL Journey Optimizer] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on Adobe Experience Platform. Having a dataset for your events is not strictly necessary, but sending the events to a specific dataset will allow you to maintain users’ event history for future reference and analysis, so it is always a good idea. If you do not already have a suitable schema and dataset for your event, both of those tasks can be done in Adobe Experience Platform web interface. 
 
 ![](../assets/schema1.png)
 
-Any XDM schema that will be used for [!DNL Customer Journey Management] events should meet the following requirements:  
+Any XDM schema that will be used for [!DNL Journey Optimizer] events should meet the following requirements:  
 
 * The schema must be of the XDM ExperienceEvent class. 
 
    ![](../assets/schema2.png)
 
-* For system-generated events, the schema must include the Orchestration eventID mixin. [!DNL Customer Journey Management] uses this field to identify events used in journeys.
+* For system-generated events, the schema must include the Orchestration eventID mixin. [!DNL Journey Optimizer] uses this field to identify events used in journeys.
 
    ![](../assets/schema3.png)
 

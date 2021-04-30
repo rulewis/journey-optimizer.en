@@ -1,16 +1,7 @@
 ---
 title: User Interface
-description: Customer Journey Management User Interface
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management
-content-type: reference
-topic-tags: customer-journey-management-user-interface
-discoiquuid:
-internal: n
-snippet: y
+description: Journey Optimizer User Interface
+exl-id: 0388c81e-794f-4cfb-9273-0a516a64d4c0
 ---
 # User interface {#cjm-user-interface}
 
@@ -18,17 +9,39 @@ snippet: y
 
 >[!NOTE]
 >
->To get the best out of [!DNL Customer Journey Management], we recommend using Chrome as your Internet browser. The interface is displayed in the language defined in IMS. If your IMS language is not supported by [!DNL Customer Journey Management], the interface is displayed in English. 
->
->This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface.
+>This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from your user interface.
+
 
 ## Workspace {#cjm-workspace}
 
-Use the links on the left to browse capabilities. The **[!UICONTROL Recents]** list provides shortcuts to the recently created or updated messages, events and journeys. This list displays their creation and modification dates and status.
+Use the links on the left to browse capabilities. The **[!UICONTROL Recents]** list provides shortcuts to the recently created or updated messages, events and journeys. This list shows their creation and modification dates and status.
 
 ![](assets/cjm-home.png)
 
-Key concepts when browsing the user interface are detailled in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide).
+Key concepts when browsing the user interface are detailled in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide).
+
+## Browser and language support 
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+
+User interface is currently available in the following languages:
+
+* English
+* French
+* German
+
+Your default interface language is determined by the preferred language specified in your user profile.
+
+To change your language:
+
+* Click **Edit Preferences** from your avatar, on the top right.
+* Then click **Visit Adobe Account** to access your Adobe profile.
+* Select the **Notifications** tab on the top and click **Preferences**.
+* Select your preferred language and click **Save**.
+
+>[!NOTE]
+>
+>You need to sign out and sign in again to [!DNL Journey Optimizer] to apply changes.
 
 ## Search and filter{#section_lgm_hpz_pgb}
 
@@ -70,7 +83,7 @@ If a friendly name is available, then the field will be displayed as `<friendly
 
 ## Accessibility{#cjm-accessibility}
 
-Here are the different shortcuts available in the [!DNL Customer Journey Management]'s interface.
+Here are the different shortcuts available in the [!DNL Journey Optimizer]'s interface.
 
 _In the list of journeys, actions, data sources or events:_
 

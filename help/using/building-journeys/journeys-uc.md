@@ -1,16 +1,7 @@
 ---
 title: Journeys use cases
 description: Journeys use cases
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: send messages
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 5b2765b4-86dd-4dbf-bed3-126c4a50785e
 ---
 # Journey use case
 

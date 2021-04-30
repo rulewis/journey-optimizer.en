@@ -1,31 +1,23 @@
 ---
 title: Add personalized offers
-description: Learn how to deliver personalized offers to your customers using the Offer Decisioning service.
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+description: Learn how to add personalized offers to your messages
+exl-id: a09f8ec5-d888-4e4e-af53-a74ca2a8701b
 ---
 # Add personalized offers {#deliver-personalized-offers}
 
 ![](assets/do-not-localize/badge.png)
 
-## About Offer Decisioning {#about-offer-decisioning}
+## About Decision Management {#about-offer-decisioning}
 
-With Customer Journey Management, you can insert in your email messages offer activities that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
+With [!DNL Journey Optimizer], you can insert in your email messages decisions (previously known as offer activities) that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
 
-For example, you can add an offer activity that will display in your email a special discount offer that will vary according to the recipient's loyalty level.
+For example, you can add a decision that will display in your email a special discount offer that will vary according to the recipient's loyalty level.
 
-Offers activities are made up of several components: personalized offers, fallback offers, tags, decision rules, and placements. They are all created in Adobe Experience Platform Offer Library. For more on how to work with the Offer Library, refer to the [Offer Decisioning documentation](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html).
+For more on how to create and manage offers, refer to [this section](offers/get-started/starting-offer-decisioning.md).
 
-## Insert an offer activity in an email {#insert-offers}
+## Insert a decision in an email {#insert-offers}
 
-To insert an offer activity into an email message, follow the steps below:
+To insert a decision into an email message, follow the steps below:
 
 1. Create your email, then open the Email Designer to configure its content.
 
@@ -45,10 +37,10 @@ To insert an offer activity into an email message, follow the steps below:
 
     >[!NOTE]
     >
-    >Note that only Offer activities that are compatible with the selected placement display in the list. In this example, only one offer activity matches the "email top image" placement.
+    >Note that only decisions that are compatible with the selected placement display in the list. In this example, only one offer activity matches the "email top image" placement.
 
     ![](assets/deliver-offer-placement.png)
 
-1. The offer activity is now added to the component. You can preview the different offers that are part of the offer activity using the **[!UICONTROL Offers]** section or the content components arrows.
+1. The offer activity is now added to the component. You can preview the different offers that are part of the decision using the **[!UICONTROL Offers]** section or the content components arrows.
 
     ![](assets/deliver-offer-preview.png)

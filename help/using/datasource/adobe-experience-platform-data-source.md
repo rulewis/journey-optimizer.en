@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
 title: Adobe Experience Platform data source 
 description: Learn how to configure Adobe Experience Platform data source
+exl-id: e41e17b6-94d7-4429-bdab-a7cb8b2cadda
 ---
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}
 
@@ -29,7 +29,7 @@ Here are the main steps to add field groups to the build-in data source.
 
     ![](../assets/journey24.png)
 
-1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in Adobe Experience Platform. Schema creation is not performed in [!DNL Customer Journey Management]. It’s performed in Adobe Experience Platform.
+1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in Adobe Experience Platform. Schema creation is not performed in [!DNL Journey Optimizer]. It’s performed in Adobe Experience Platform.
 1. Select the fields you want to use.
 1. Define the cache duration.
 1. Click on **[!UICONTROL Save]**.

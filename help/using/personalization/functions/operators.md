@@ -1,9 +1,7 @@
 ---
-title: CJM Functions library
-description: CJM Functions library
-audience: personalize content
-content-type: reference
-topic: personalization
+title: Functions library
+description: Functions library
+exl-id: 130b9f03-bfad-490f-8c2b-402e8a9cf738
 ---
 # Operators {#operators}
 

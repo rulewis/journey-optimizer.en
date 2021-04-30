@@ -1,16 +1,7 @@
 ---
 title: General principle
 description: General principle
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: send messages
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: d8155c51-4f1d-4255-b44f-23ad451537a5
 ---
 # General principle{#jo-general-principle}
 
@@ -24,6 +15,6 @@ Design multistep advanced scenarios powered by following capabilities:
 
 * Leverage **contextual data** from events, information from Adobe Experience Platform, or data from third-party API services.
 
-* Use the **built-in action** to send messages designed in Customer Journey Management or create **custom actions** if you're using a third-party system to send your messages.
+* Use the **built-in action** to send messages designed in Journey Optimizer or create **custom actions** if you're using a third-party system to send your messages.
 
 * With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.

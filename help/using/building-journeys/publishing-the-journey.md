@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
-title: Publishing the journey
-description: Learn about journey publication
+title: Publish the journey
+description: Learn how to publish a journey
+exl-id: 6ce2a412-5d2d-452e-8df3-a7b1565e457c
 ---
 # Publishing the journey{#concept_mtc_lrt_52b}
 

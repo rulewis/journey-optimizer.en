@@ -1,16 +1,7 @@
 ---
-title: Push global report
-description: Learn how to use data from the push global report
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+title: Push notifications global report
+description: Learn how to use data from the push notifications global report
+exl-id: 32c38a18-958d-4dd1-83c3-101fed6c3e81
 ---
 # Push global report {#push-global-report}
 

@@ -1,16 +1,7 @@
 ---
 title: Quick Start
-description: Customer Journey Management Quick Start
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management
-content-type: reference
-topic-tags: customer-journey-management-quick-start
-discoiquuid:
-internal: n
-snippet: y
+description: Journey Optimizer Quick Start
+exl-id: 2a0ba1ce-daf9-4915-b45a-9947e3610752
 ---
 # Quick Start {#cjm-quick-start}
 
@@ -18,15 +9,15 @@ snippet: y
 
 ## Key steps to start {#cjm-key-steps}
 
-With Customer Journey Management, you can import existing content and design new content, personalize messages with customer profile data, create events to trigger messages, define segments and refine audiences, send multi-channel messages, and access a complete set of reporing and monitoring tools to measure the impact of your messages and journeys.
+With Journey Optimizer, you can import existing content and design new content, personalize messages with customer profile data, create events to trigger messages, define segments and refine audiences, send multi-channel messages, and access a complete set of reporing and monitoring tools to measure the impact of your messages and journeys.
 
 Based on your organization, you can define several types of users and grant them access to certain capabilities depending on their permissions.
 
 ### Prerequisites {#cjm-prerequisites}
 
-Before starting using Adobe Customer Journey Management, you need to:
+Before starting using Adobe Journey Optimizer, you need to:
 
-* **Define user permissions**: log in to Customer Journey Management and give access to your team members. [Read more](permissions.md)
+* **Define user permissions**: log in to Journey Optimizer and give access to your team members. [Read more](permissions.md)
 
 * **Configure your channels and branding**: work with Adobe to define email and push notification settings and create your presets. [Read more](administration.md)
 

@@ -1,9 +1,7 @@
 ---
-title: CJM Functions library
-description: CJM Functions library
-audience: personalize content
-content-type: reference
-topic: personalization
+title: Functions library
+description: Functions library
+exl-id: c45f08cc-f47b-4889-9a37-91c474bd71c5
 ---
 # String Functions {#string}
 

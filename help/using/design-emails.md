@@ -1,22 +1,13 @@
 ---
 title: Design emails
-description: Learn how to design your email messages.
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management email designer
-content-type: reference
-topic-tags: starting-with-email-design
-discoiquuid:
-internal: n
-snippet: y
+description: Learn how to design your emails
+exl-id: b24afde1-b09c-4d7c-b0ac-849264a0a0c1
 ---
 # Get started with email design {#get-started-content-design}
 
 ![](assets/do-not-localize/badge.png)
 
-When creating email content with Customer Journey Management, you can:
+When creating email content with [!DNL Journey Optimizer], you can:
 
 * **Design your email from scratch** through the email designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md). Learn how to design your email content or use built-in templates [in this section](create-email-content.md).
 

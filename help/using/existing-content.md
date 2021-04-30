@@ -1,22 +1,13 @@
 ---
-title: Design emails
-description: Learn how to design your email messages.
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management email designer
-content-type: reference
-topic-tags: starting-with-email-design
-discoiquuid:
-internal: n
-snippet: y
+title: Import or code your emails
+description: Learn how to import email content or code your emails
+exl-id: 2ceb17cd-7118-4d61-a6ab-4651ce8725ba
 ---
 # Import or code your email content {#existing-content}
 
 ![](assets/do-not-localize/badge.png)
 
-Customer Journey Management allows you to import existing HTML content to design your emails. This content can be raw HTML code or content from an existing HTML file or a zip folder.
+Journey Optimizer allows you to import existing HTML content to design your emails. This content can be raw HTML code or content from an existing HTML file or a zip folder.
 
 To code HTML content or import existing content, follow the steps below:
 
@@ -42,7 +33,7 @@ Use the **[!UICONTROL Code your own]** mode to can import raw HTML and/or code y
 
 1. Enter or paste your raw HTML code. 
 
-1. Use the left pane to leverage [!DNL Customer Journey Management] personalization capabilities. For more on this, refer to [this section](personalization/personalize.md).
+1. Use the left pane to leverage [!DNL Journey Optimizer] personalization capabilities. For more on this, refer to [this section](personalization/personalize.md).
 
     ![](assets/code-editor.png)
 

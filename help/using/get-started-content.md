@@ -1,24 +1,15 @@
 ---
 title: Get started with messages
-description: Learn how to create messages in Customer Journey Management
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: customer journey management content designer
-content-type: reference
-topic-tags: starting-with-creating-content
-discoiquuid:
-internal: n
-snippet: y
+description: Learn how to create messages in Journey Optimizer
+exl-id: 7b8b4022-ee1c-47ff-99f8-3fc67b77ad0e
 ---
 # Get started with messages {#get-sarted-contents-messages}
 
 ![](assets/do-not-localize/badge.png)
 
-Customer Journey Management allows you to leverage in one single place multiple resources like assets and contents, in order to create and publish personalized push and email messages.
+Use [!DNL Journey Optimizer] to leverage multiple resources like assets and contents in a single place, and create and publish personalized push notifications and email messages.
 
-* Leverage Customer Journey Management **email designing capabilities** to create or import responsive emails.
+* Leverage [!DNL Journey Optimizer] **email designing capabilities** to create or import responsive emails.
 
 * Leverage **Adobe Experience Manager Assets Essentials** to build your own assets database, and enrich your emails.
 

@@ -1,9 +1,7 @@
 ---
 title: Personalization syntax
-description: 
-audience: personalize content
-content-type: reference
-topic-tags: starting-with-personalization
+description: Learn how to use personalization syntax
+exl-id: c323cfa7-75cf-41e1-a379-cbae1689542b
 ---
 # Personalization syntax {#personalization-syntax}
 
@@ -11,7 +9,7 @@ topic-tags: starting-with-personalization
 
 ## Introduction
 
-The personalization in CJM is based on the templating syntax called Handlebars.
+The personalization in Journey Optimizer is based on the templating syntax called Handlebars.
 For a complete description of the Handlebars syntax, see [HandlebarsJS](https://handlebarsjs.com/).
 
 It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
@@ -45,7 +43,7 @@ In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. I
 
 This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
-The attributes need to be defined in the schema before being referenced in a Customer Journey Management personalization block.
+The attributes need to be defined in the schema before being referenced in a Journey Optimizer personalization block.
 
 All the references are validated against Profile Schema with a validation mechanism described [here](personalization-validation.md).
 

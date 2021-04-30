@@ -1,15 +1,7 @@
 ---
 title: Known Issues
 description: Known issues
-page-status-flag: never-activated
-uuid:
-contentOwner:
-products:
-audience: 
-content-type: reference
-topic-tags: known-issues
-hide: yes
-hidefromtoc: yes
+exl-id: 00dc763a-8d01-4fc5-9218-a6888cb1b945
 ---
 # Known issues {#known-issues}
 

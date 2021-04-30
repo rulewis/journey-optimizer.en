@@ -1,9 +1,7 @@
 ---
-title: CJM Functions library
-description: CJM Functions library
-audience: personalize content
-content-type: reference
-topic: personalization
+title: Functions library
+description: Functions library
+exl-id: fa159d7e-055f-4130-ba2d-c7f110d38148
 ---
 # Maths Functions {#math}
 

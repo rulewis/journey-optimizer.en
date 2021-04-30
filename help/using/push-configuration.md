@@ -1,16 +1,7 @@
 ---
 title: Push notification configuration
-description: Learn how to configure Adobe Experience Platform to send push notifications with Customer Journey Management
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+description: Learn how to configure your environment to send push notifications with Journey Optimizer
+exl-id: 71be0714-0c8e-44fb-bc28-e63b925da686
 ---
 # Push notification configuration {#push-notification-configuration}
 
@@ -18,7 +9,7 @@ snippet: y
 
 ## Get started with push configuration {#gs-push}
 
-Before starting sending push notifications with [!DNL Customer Journey Management], you need to define settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. 
+Before starting sending push notifications with [!DNL Journey Optimizer], you need to define settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. 
 
 ## Adobe Experience Platform settings {#platform-settings}
 
@@ -256,7 +247,7 @@ You then need to set up an **[!UICONTROL Event schema]** where you will set the 
 
 Your **[!UICONTROL Event schema]** is now created and can now be used in a journey.
 
-1. In the left menu from [!DNL Customer Journey Management] homepage, click **[!UICONTROL Journeys]**.
+1. In the left menu from [!DNL Journey Optimizer] homepage, click **[!UICONTROL Journeys]**.
 
 1. Click **[!UICONTROL Create]** to create a new journey.
 

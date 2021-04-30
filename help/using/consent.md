@@ -1,22 +1,13 @@
 ---
 title: Manage opt-out
 description: Learn how to manage opt-out and privacy
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: manage opt-out and privacy
-content-type: reference
-topic-tags: starting-with-consent
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 4676e767-9b64-4de9-a59d-37003d33023c
 ---
 # Manage opt-out {#consent}
 
 ![](assets/do-not-localize/badge.png)
 
-Customer Journey Management enables you to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions. <!--Their preferences and subscriptions are handled through Consent management.-->
+Use [!DNL Journey Optimizer] to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions. <!--Their preferences and subscriptions are handled through Consent management.-->
 
 Regulations such as GDPR state that you must comply with specific requirements before being able to use information from Data Subjects. Moreover, Data Subjects should be able to modify their consent at any time.
 
@@ -41,9 +32,9 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 
 To add an unsubscribe link, follow the steps below:
 
-1. Build your own unsubscribe landing page outside Customer Journey Management.
+1. Build your unsubscription landing page.
 1. Host your landing page on the third-party system of your choice.
-1. [Create a message](../../help/using/create-message.md) in Customer Journey Management.
+1. [Create a message](../../help/using/create-message.md) in [!DNL Journey Optimizer].
 
     <!--The link to your landing page should contain a static URL and the profile ID.-->
 

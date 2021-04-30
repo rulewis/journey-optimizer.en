@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
 title: journeyStep events action execution fields
 description: journeyStep events action execution fields
+exl-id: a4ec53de-0f86-4040-96c8-396f269c5111
 ---
 # journeyStep events action execution fields {#sharing-execution-fields}
 

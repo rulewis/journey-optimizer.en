@@ -1,16 +1,7 @@
 ---
 title: Monitoring message execution
 description: Learn monitoring and deliverability guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 78dce030-02a4-4083-97f1-655fea149004
 ---
 # Manage deliverability {#manage-deliverability}
 
@@ -28,7 +19,7 @@ The **deliverability rate** is the number of messages that hit the recipients' i
 * Message content
 * Sender reputation
 
-To optimize the deliverability of your Customer Journey Management experiences, we recommend using the best practices listed in this section. Deliverability problems are generally linked to protection against spam implemented by Internet service providers (ISPs) and mail server administrators.
+To optimize the deliverability of your [!DNL Journey Optimizer] experiences, we recommend using the best practices listed in this section. Deliverability problems are generally linked to protection against spam implemented by Internet service providers (ISPs) and mail server administrators.
 
 ## Reduce complaint rate {#reduce-complaint-rate}
 
@@ -40,7 +31,7 @@ Pay extra care when requesting additional confirmation: a user may have two emai
 
 ## Leverage suppression lists {#suppression-lists}
 
-Customer Journey Management manages a suppression list that gathers spam complaints, hard bounces, and soft bounces that occur consistently.
+[!DNL Journey Optimizer] manages a suppression list that gathers spam complaints, hard bounces, and soft bounces that occur consistently.
 
 To protect your deliverability, the recipients whose addresses are on the suppression list are excluded by default from all future deliveries, because sending to these contacts could hurt your sending reputation.
 
@@ -48,7 +39,7 @@ To protect your deliverability, the recipients whose addresses are on the suppre
 
 ## Use monitoring tools {#monitoring-tools}
 
-Use the features offered by Customer Journey Management to monitor your deliverability.
+Use the features offered by [!DNL Journey Optimizer] to monitor your deliverability.
 
 The **[!UICONTROL Executions]** tab of the message list allows you to check how your deliveries are performing through a set of real-time indicators. Amongst other things, this tab displays:
 * The number of messages that are successfully executed, sent and delivered.
@@ -71,6 +62,6 @@ To improve your deliverability rate and make sure that your emails reach your re
 * **Personalize your email**: Personalizing the email increases the chances of your message being opened.
 * **Images and text**: Respect a decent text/image ratio (for example 60% text and 40% images).-->
 * **Unsubscribe link and landing page**: The unsubscribe link is essential. It must be visible and valid, and the form must be functional.
-<!--**Use tools** offered by Customer Journey Management to optimize the content of your email (delivery analysis, anti-spam analysis).-->
+<!--**Use tools** offered by Journey Optimizer to optimize the content of your email (delivery analysis, anti-spam analysis).-->
 
 [Learn more about designing email content](design-emails.md).

@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
 title: Reactions events
 description: Learn about reaction events
+exl-id: 65d69930-ca80-4208-8ffc-cd164820ed76
 ---
 # Reaction events {#section_dhx_gss_dgb}
 

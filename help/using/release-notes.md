@@ -1,21 +1,11 @@
 ---
 title: Release notes
-description: Release notes
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: Release notes
-content-type: reference
-topic-tags: release-notes
-discoiquuid:
-internal: n
-snippet: y
+description: Journey Optimizer Release notes
 ---
 
 # Release Notes {#release-notes}
 
 ![](assets/do-not-localize/badge.png)
 
-This page lists all the new features and improvements for Customer Journey Management.
+This page lists all the new features and improvements for Journey Optimizer.
 You can also consult the latest [Documentation Updates](documentation-updates.md).

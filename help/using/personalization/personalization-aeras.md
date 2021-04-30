@@ -1,21 +1,19 @@
 ---
-title: Personalization aeras in Customer Journey Management
-description: Personalizationn aeras
-audience: personalize content
-content-type: reference
-topic-tags: starting-with-personalization
+title: Personalization contexts in Journey Optimizer
+description: Learn in which contexts you can add personalization
+exl-id: 3b1fe6f0-66c4-4ea0-be2d-ec7fa3b9430f
 ---
 # Personalization areas {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
-The content and display of messages delivered by Customer Journey Management can be personalized in several different ways.
+The content and display of messages delivered by Journey Optimizer can be personalized in several different ways.
 
 All the fields associated with the editor icon can open the personalization editor and receive personalization content.
 
 ![](assets/perso_icon.png)
 
-## Personalize emails
+## Personalize your emails
 
 During email channel message creation, the **Email subject** field is personalizable.
 
@@ -48,9 +46,9 @@ You can add personalization in the following fields:
 For a complete documentation about Push notification configuration, refer to [this section](../configure-push.md).
 
 
-## Expression Editor usage
+## Use the expression editor
 
-The expression editor is the centerpiece of the personalization in Customer Journey Management.
+The expression editor is the centerpiece of the personalization in Journey Optimizer.
 
 It is available in every context where you need to define personalization like emails, push and offers.
 

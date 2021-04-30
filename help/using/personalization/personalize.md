@@ -1,22 +1,20 @@
 ---
-title: Personalize content in Customer Journey Management
-description: Get Started with the personalization
-audience: personalize content
-content-type: reference
-topic-tags: starting-with-personalization
+title: Personalize content in Journey Optimizer
+description: Get Started with personalization
+exl-id: a7c8a227-4378-4b27-b639-7ddb6bd15d02
 ---
 # Get started {#add-personalization}
 
 ![](../assets/do-not-localize/badge.png)
 
-Personalization, in the context of Customer Journey Management is the action of targeting a message to a specific subscriber by leveraging the data and information you have about him. It can be his first name, where he lives, or a number of other data points.
+Personalization, in the context of Journey Optimizer, is the action of targeting a message to a specific subscriber by leveraging the data and information you have about him. It can be his first name, his interests, where he lives, and more.
 
-Customer Journey Management uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Refer to [Personalization syntax](personalization-syntax.md).
+Journey Optimizer uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Refer to [Personalization syntax](personalization-syntax.md).
 
 The personalization is based on the profile data that are managed by the **XDM Individual Profile** schema defined in Adobe Experience Platform. For more on this, refer to  [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 >[!CAUTION]
->The **XDM Individual Profile** schema is the only one that you can use to personalize content in Customer Journey Management.
+>The **XDM Individual Profile** schema is the only one that you can use to personalize content in Journey Optimizer.
 
 **Examples:**
 

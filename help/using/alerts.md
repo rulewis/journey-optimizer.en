@@ -1,16 +1,7 @@
 ---
 title: Alerts in messages
-description: Learn how to check message content validation
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: alerts in messages
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+description: Learn how to check message content validation and troubleshoot
+exl-id: 33c1e60a-8581-4fe1-906e-704d5b6d4fb2
 ---
 # Alerts on your messages {#publish-manage-messages}
 
@@ -48,7 +39,7 @@ The settings and elements checked by the system are listed below. You will also 
 
 * **[!UICONTROL Opt out link not present in the email body]**: adding an unsubscription link into your email body is a best practice. Learn how to configure it in [this section](consent.md).
 
-* **[!UICONTROL Text version of html is empty]**: do not forget to define a text version of your email body, as it will be used when HTML content cannot be displayed. Learn how to generate a text version in [this section](create-email-content.md#generate-text-version).
+* **[!UICONTROL Text version of html is empty]**: do not forget to define a text version of your email body, as it will be used when HTML content cannot be displayed. Learn how to create the text version in [this section](create-email-content.md#generate-text-version).
 
 * **[!UICONTROL Empty link is present in email body]**: check that all the links in your email are correct. Learn how to manage content and links in [this section](create-email-content.md).
 

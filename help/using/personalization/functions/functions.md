@@ -1,12 +1,9 @@
 ---
-title: CJM Functions library
-description: CJM Functions library
-audience: personalize content
-content-type: reference
-topic: personalization
+title: Functions library
+description: Functions library
 ---
 
-# Templating language for CJM {#functionsL}
+# Templating language for Journey Optimizer {#functionsL}
 
 ![](../../assets/do-not-localize/badge.png)
 

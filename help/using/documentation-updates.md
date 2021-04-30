@@ -1,21 +1,11 @@
 ---
 title: Documentation Updates
-description: Learn about documentation updates
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: Documentation Updates
-content-type: reference
-topic-tags: documentation-updates
-discoiquuid:
-internal: n
-snippet: y
+description: Learn about latest documentation updates
 ---
 
 # Documentation Updates
 
 ![](assets/do-not-localize/badge.png)
 
-This page lists all the documentation updates for Customer Journey Management.
+This page lists all the documentation updates for [!DNL Journey Optimizer].
 You can also consult the [Release Notes](release-notes.md).

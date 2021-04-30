@@ -1,16 +1,7 @@
 ---
 title: Global report
 description: Learn how to use data from the global report
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: monitoring and deliverability
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
+exl-id: 32c38a18-958d-4dd1-83c3-101fed6c3e81
 ---
 # Global Report {#global-report}
 

@@ -1,24 +1,15 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Get Started with Assets Essentials
-page-status-flag: never-activated
-uuid:
-contentOwner:
-products:
-audience: content library managers
-content-type: reference
-topic-tags: starting-with-content-library
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 506e301a-4417-4963-a059-2955b4f8e7cf
 ---
-# Use the Adobe Experience Manager Assets Essentials {#experience-manager-assets}
+# Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
 
 ![](assets/do-not-localize/badge.png)
 
-## Get started with the Assets Essentials {#get-started-assets-essentials}
+## Get started with [!DNL Assets Essentials] {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. It can be accessed directly from [!DNL Adobe Customer Journey Management] through the **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content. [Learn more about email design](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. It can be accessed directly from [!DNL Adobe Journey Optimizer] through the **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content. [Learn more about email design](design-emails.md).
 
 You need specific permissions to access the [!DNL Adobe Experience Manager Assets Essentials]. [Learn more about permissions for the Adobe Experience Manager Assets Essentials](permissions.md#assets-permissions).
 
@@ -26,7 +17,7 @@ You need specific permissions to access the [!DNL Adobe Experience Manager Asset
 
 To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into:
 
-1. From [!DNL Adobe Customer Journey Management] home page, select the **[!UICONTROL Assets]** tab to access [!DNL Assets Essentials].
+1. From [!DNL Adobe Journey Optimizer] home page, select the **[!UICONTROL Assets]** tab to access [!DNL Assets Essentials].
 
     ![](assets/media_library_1.png)
 

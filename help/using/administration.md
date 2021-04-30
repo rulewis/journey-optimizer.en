@@ -1,16 +1,7 @@
 ---
-title: Administration and settings
+title: Technical settings
 description: Learn administration and settings guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 ---
 # Technical settings
 
@@ -21,7 +12,7 @@ snippet: y
 Every company has brand visual and technical guidelines. You can define a set of specification to present a consistent brand to your customers, from logos to technical aspects, such as email sender, the domain of the mirror pages' URL, or message tracking settings.
 Brands cannot be created or modified by end-users: this configuration is managed by Adobe.
 
-To set up branding parameters for your Customer Journey Management instance, you need to contact Adobe and share the following details:
+To set up branding parameters for your [!DNL Journey Optimizer] instance, you need to contact Adobe and share the following details:
 
 * Company Name
 
@@ -41,7 +32,7 @@ Learn how to configure push channel in this [section](configure-push.md).
 
 ## Sub-domain delegation
 
-For any new subdomain to be used in Customer Journey Management, the first step will be to delegate it. You need to reach out to your Adobe technical contact.
+For any new subdomain to be used in [!DNL Journey Optimizer], the first step will be to delegate it. You need to reach out to your Adobe technical contact.
 
 When implementing a solution, there are requirements for externally-facing components: these include setting up links and web pages to be tracked, displaying mirror pages, etc.
 
@@ -82,6 +73,6 @@ Learn more about events in this [section](../using/event/about-events.md)
  
 ### Actions 
 
-Customer Journey Management message capabilities are built-in: you only need to design your content and publish your message. If you are using a third-party system to send your messages, you can create a custom action.
+[!DNL Journey Optimizer] message capabilities are built-in: you only need to design your content and publish your message. If you are using a third-party system to send your messages, you can create a custom action.
 
 Learn more about actions in this [section](../using/action/action.md)

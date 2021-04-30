@@ -1,9 +1,9 @@
 ---
-solution: Journey Orchestration
-title: Using custom actions
-description: Learn about action activities
+title: Use custom actions
+description: Learn how to use custom actions
+exl-id: 1ac76935-a94c-4545-93d5-da7b9704c1d9
 ---
-# Using custom actions {#section_f2c_hbg_nhb}
+# Use custom actions {#section_f2c_hbg_nhb}
 
 ![](../assets/do-not-localize/badge.png)
 

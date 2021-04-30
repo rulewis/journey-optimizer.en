@@ -1,7 +1,7 @@
 ---
-solution: Journey Orchestration
 title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
+exl-id: 52039f37-505a-4b01-b023-64eb5f563891
 ---
 # Leveraging Adobe Analytics data{#analytics-data}
 

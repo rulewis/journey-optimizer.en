@@ -1,22 +1,23 @@
 ---
+product: Journey Optimizer
 audience: end-user
-user-guide-title: Customer Journey Management Guide
-user-guide-description: Use Customer Journey Management to deliver connected, contextual, and personalized experiences to customers.
+user-guide-title: Journey Optimizer Guide
+user-guide-description: Use Journey Optimizer to deliver connected, contextual, and personalized experiences to customers
 type: Documentation
 solution: Experience Cloud
 hide: yes
 ---
 
-# [!DNL Customer Journey Management] Help {#using}
+# [!DNL Journey Optimizer] Help {#using}
 
 + [Product documentation](cjm-home.md)
 + Get started{#get-started}
-  + [What is Customer Journey Management](using/get-started.md)
+  + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
   + [Manage permissions](using/permissions.md)
   + [Known issues](using/known-issues.md)
-+ Create and design messages {#create-messages}
++ Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
     + [Create a message](using/create-message.md)
@@ -42,8 +43,8 @@ hide: yes
        + [Objects](using/personalization/functions/objects.md)
        + [String](using/personalization/functions/string.md) 
   + [Add personalized offers](using/deliver-personalized-offers.md)  
-  + Check and publish messages {#create-message}
-    + [Preview messages](using/preview.md)
+  + Validate and publish {#create-message}
+    + [Preview and proofs](using/preview.md)
     + [Check alerts](using/alerts.md)
     + [Publish messages](using/publish-manage-message.md)
   + [Manage opt-out](using/consent.md)
@@ -101,6 +102,79 @@ hide: yes
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression lists](using/suppression-lists.md)
++ Decision Management {#offer-decisioniong}
+  + Get started with Decision Management {#get-started}
+    + [About Decision Management](using/offers/get-started/starting-offer-decisioning.md)
+    + [User interface](using/offers/get-started/user-interface.md)
+    + [Glossary](using/offers/get-started/glossary.md)
+  + Create and manage offers {#managing-offers-in-the-offer-library}
+    + [Key steps to create an offer](using/offers/offer-library/key-steps.md)
+    + [Create placements](using/offers/offer-library/creating-placements.md)
+    + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
+    + [Create tags](using/offers/offer-library/creating-tags.md)
+    + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
+    + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)
+    + [Create collections](using/offers/offer-library/creating-collections.md)
+    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+  + Create and manage decisions {#create-manage-activities}
+    + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
+    + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
+  + Create Decision Management reports {create-reports}
+    + [Get started with Decision Management events](using/offers/reports/get-started-events.md)
+    + [Decision Management events key information](using/offers/reports/key-information.md)
+    + [Access events XDM fields](using/offers/reports/xdm-fields.md)
+  + Export your offer catalog {#export-catalog}
+    + [Get started with offer catalog export ](using/offers/export-catalog/get-started-export.md)
+    + [Access the exported offer catalog](using/offers/export-catalog/access-dataset.md)
+    + [Personalized offers dataset](using/offers/export-catalog/export-offers.md)
+  + API Reference {#api-reference}
+    + [Getting started](using/offers/api-reference/getting-started.md)
+    + Create and manage offers using APIs {#offers-api}
+        + Placements {#placements}
+            + [List placements](using/offers/api-reference/offers-api/placements/placements-list.md)
+            + [Lookup a placement](using/offers/api-reference/offers-api/placements/lookup.md)
+            + [Create a placement](using/offers/api-reference/offers-api/placements/create.md)
+            + [Update a placement](using/offers/api-reference/offers-api/placements/update.md)
+            + [Delete a placement](using/offers/api-reference/offers-api/placements/delete.md)
+        + Decision rules {#decision-rules}
+            + [List decision rules](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+            + [Lookup a decision rule](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+            + [Create a decision rule](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [Update a decision rule](using/offers/api-reference/offers-api/decision-rules/update.md)
+            + [Delete a decision rule](using/offers/api-reference/offers-api/decision-rules/delete.md)
+        + Tags {#tags}
+            + [List tags](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Lookup a tag](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Create a tag](using/offers/api-reference/offers-api/tags/create.md)
+            + [Update a tag](using/offers/api-reference/offers-api/tags/update.md)
+            + [Delete a tag](using/offers/api-reference/offers-api/tags/delete.md)
+        + Personalized offers {#personalized-offers}
+            + [List personalized offers](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+            + [Lookup a personalized offer](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+            + [Create a personalized offer](using/offers/api-reference/offers-api/personalized-offers/create.md)
+            + [Update a personalized offer](using/offers/api-reference/offers-api/personalized-offers/update.md)
+            + [Delete a personalized offer](using/offers/api-reference/offers-api/personalized-offers/delete.md)
+        + Collections {#collections}
+            + [List collections](using/offers/api-reference/offers-api/collections/collections-list.md)
+            + [Lookup a collection](using/offers/api-reference/offers-api/collections/lookup.md)
+            + [Create a collection](using/offers/api-reference/offers-api/collections/create.md)
+            + [Update a collection](using/offers/api-reference/offers-api/collections/update.md)
+            + [Delete a collection](using/offers/api-reference/offers-api/collections/delete.md)
+        + Fallback offers {#fallback-offers}
+            + [List fallback offers](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+            + [Lookup a fallback offer](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+            + [Create a fallback offer](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Update a fallback offer](using/offers/api-reference/offers-api/fallback-offers/update.md)
+            + [Delete a fallback offer](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+    + Create and manage decisions using APIs {#activities-api}
+        + [List decisions](using/offers/api-reference/activities-api/activities/activities-list.md)
+        + [Lookup a decision](using/offers/api-reference/activities-api/activities/lookup.md)
+        + [Create a decision](using/offers/api-reference/activities-api/activities/create.md)
+        + [Update a decision](using/offers/api-reference/activities-api/activities/update.md)
+        + [Delete a decision](using/offers/api-reference/activities-api/activities/delete.md)
+    + Offer Delivery using APIs {#offer-delivery}
+        + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
+        + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + Configuration {#configuration}
   + [Technical settings](using/administration.md)
   + [Push notifications configuration](using/push-configuration.md)

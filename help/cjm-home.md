@@ -1,15 +1,21 @@
 ---
-keywords: Customer Journey Management;home;popular topics
-title: Customer Journey Management product documentation
+keywords: Journey Optimizer;home;popular topics
+title: Journey Optimizer product documentation
+exl-id: 76140506-44bf-45a8-b4d1-59331a459477
 ---
 # Help Center {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png) 
 
 ![](using/assets/do-not-localize/badge.png) 
-**Customer Journey Management** is currently in **Beta version** and subject to frequent changes without notice. As a user, share your experience from the Beta Feedback button in the product UI. Known issues are listed in this [page](using/known-issues.md).
+**[!DNL Journey Optimizer]** is currently in **Beta version** and subject to frequent changes without notice. As a user, share your experience from the Beta Feedback button in the product UI. Known issues are listed in this [page](using/known-issues.md).
 
 ## What's new?
+
+
+* [Decision management](using/offers/get-started/starting-offer-decisioning.md) </br> Create offers and deliver the best offer and experience to your customers
+
+* [Preview and test messages](using/preview.md) </br> Use test profiles to preview messages, send proofs and control email rendering
 
 * [Live reports](using/reports/live-report.md) </br> Discover real-time reports for your journeys and messages
 
@@ -19,7 +25,7 @@ title: Customer Journey Management product documentation
 
 ## Get started
 
-* [What is Customer Journey Management?](using/get-started.md) </br> Discover key features and how to get started
+* [What is Journey Optimizer?](using/get-started.md) </br> Discover key features and how to get started
 
 * [Design an email content](using/design-emails.md) </br>Design a new email or import an existing HTML content
 

@@ -1,13 +1,13 @@
 ---
-solution: Journey Orchestration
-title: Additional steps to send events to Journey Orchestration
-description: Learn about additional steps to send events to Journey Orchestration
+title: Additional steps to send events to a journey
+description: Learn additional steps to send events to a journey
+exl-id: 412b7f4f-ad4c-4e20-bfdd-ed2175668bde
 ---
 # Additional steps to send events {#concept_xrz_n1q_y2b}
 
 ![](../assets/do-not-localize/badge.png)
 
-To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in [!DNL Customer Journey Management], you need to follow these steps:
+To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in [!DNL Journey Optimizer], you need to follow these steps:
 
 1. Get the inlet URL from Adobe Experience Platform APIs. Learn more in [Streaming Ingestion APIs overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
 1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. Learn more in [this page](../event/about-creating.md#define-the-payload-fields).
@@ -15,7 +15,7 @@ To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and 
 You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
 
 1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
-1. Use the payload you copied from [!DNL Customer Journey Management] in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
+1. Use the payload you copied from [!DNL Journey Optimizer] in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
 1. Determine where to get all the variables present in the payload. Example: if the event is supposed to convey the address, the payload pasted will show "address": "string". "string" should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. Note that in the payload preview, in the **[!UICONTROL Header]** section, we autofill many values expected to facilitate your work.
 1. Select "application/json" as a body type.
 1. Pass your IMS Organization ID in the header using the key "x-gw-ims-org-id". For the value, use your IMS Organization ID ("XXX@AdobeOrg").
