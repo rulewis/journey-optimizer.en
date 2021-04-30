@@ -13,14 +13,14 @@ Us the dedicated tabs to define the push notification settings for iOS and Andro
 
 ![](assets/create-content-push.png)
 
-Configuration options for push notification are described below.
-
 ## Title and Body
 
-To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields to access the Expression Editor. 
+To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields. Use the Expression Editor to define content and personalization data. 
 
-![](assets/create-content-push-title.png)
+Learn more about personalization in [this section](personalization/personalize.md)
     
+Use the central section to visualize how the push notification displays in iOS and Android terminals.
+
 >[!NOTE]
 >
 >The **[!UICONTROL Compose Message]** section is common to both the **[!UICONTROL iOS]** and **[!UICONTROL Android]** tabs. Any change in this section will apply to both operating systems.
@@ -97,3 +97,11 @@ Configure the **[!UICONTROL Advanced options]**. Available parameters are:
 ## Custom data
 
 In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](push-configuration.md).
+
+## Send a silent notification
+
+A silent push notification (or background notification) is a hidden instruction that is delivered to the application. It is used for example to notify your application about the availabilty of new content or initiate a download in the background.
+
+Select the **[!UICONTROL Silent Notification]** option to silently notify the application: in this case, the notification is transferred directly to the application. No alert is displayed on the device screen.
+
+Use the **[!UICONTROL Custom data]** section to add key/value pairs.
