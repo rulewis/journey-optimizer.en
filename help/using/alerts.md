@@ -18,7 +18,7 @@ Alerts are displayed on top right of the screen, as shown below:
 >
 >If you do not see this button, no alert has been detected.
 
-There are two types of alerts:
+Two types of alerts can happen:
 
 * **Warnings** refer to recommendations and best practices. For example, a message will display if the opt-out link is missing.
 
