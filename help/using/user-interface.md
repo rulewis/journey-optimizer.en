@@ -16,7 +16,7 @@ exl-id: 0388c81e-794f-4cfb-9273-0a516a64d4c0
 
 Use the links on the left to browse capabilities. The **[!UICONTROL Recents]** list provides shortcuts to the recently created or updated messages, events and journeys. This list shows their creation and modification dates and status.
 
-![](assets/cjm-home.png)
+![](assets/ajo-home.png)
 
 Key concepts when browsing the user interface are detailled in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide).
 
