@@ -11,7 +11,7 @@ exl-id: 33c1e60a-8581-4fe1-906e-704d5b6d4fb2
 
 While you are creating your message, alerts warn you when you need to take important actions before publishing your message.
 
-Alerts are displayed on top right of the screen:
+Alerts are displayed on top right of the screen, as shown below:
 
 ![](assets/message-alerts.png)
 
