@@ -1,7 +1,6 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Get Started with Assets Essentials
-exl-id: 506e301a-4417-4963-a059-2955b4f8e7cf
 ---
 # Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
 

@@ -1,7 +1,6 @@
 ---
 title: Personalization validation
 description: Learn more about personalization validation and how to troubleshoot
-exl-id: 6193d2fa-6b5c-414d-a823-73cbfda449f5
 ---
 # Personalization validation {#personalization-validation}
 

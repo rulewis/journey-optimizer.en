@@ -2,7 +2,6 @@
 solution: Journey Orchestration
 title: General events
 description: Learn how to use general events
-exl-id: 6e8ed746-7901-4b75-b509-989fd2f7354b
 ---
 # General events {#section_ofg_jss_dgb}
 

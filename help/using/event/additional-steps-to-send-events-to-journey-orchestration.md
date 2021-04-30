@@ -1,7 +1,6 @@
 ---
 title: Additional steps to send events to a journey
 description: Learn additional steps to send events to a journey
-exl-id: 412b7f4f-ad4c-4e20-bfdd-ed2175668bde
 ---
 # Additional steps to send events {#concept_xrz_n1q_y2b}
 

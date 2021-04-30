@@ -1,7 +1,6 @@
 ---
 title: Journeys use cases
 description: Journeys use cases
-exl-id: 5b2765b4-86dd-4dbf-bed3-126c4a50785e
 ---
 # Journey use case
 

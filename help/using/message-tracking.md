@@ -1,7 +1,6 @@
 ---
 title: Track your messages
 description: Learn how to track sent messages
-exl-id: ba935298-0fec-420f-9665-2b99d04f13b3
 ---
 # Message tracking {#tracking}
 

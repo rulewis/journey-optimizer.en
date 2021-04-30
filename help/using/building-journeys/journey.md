@@ -1,7 +1,6 @@
 ---
 title: General principle
 description: General principle
-exl-id: d8155c51-4f1d-4255-b44f-23ad451537a5
 ---
 # General principle{#jo-general-principle}
 

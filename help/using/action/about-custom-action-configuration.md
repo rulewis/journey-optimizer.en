@@ -2,7 +2,6 @@
 solution: Journey Orchestration
 title: About custom action configuration
 description: Learn how to configure a custom action
-exl-id: 084bc7ac-50b9-45b3-ab19-f46316f41511
 ---
 # Configure an action {#configure-an-action}
 

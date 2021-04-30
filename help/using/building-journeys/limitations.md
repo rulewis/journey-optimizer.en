@@ -1,7 +1,6 @@
 ---
 title: Journey limitations
 description: Learn more about Journey limitations
-exl-id: 3cc722c4-fb06-4a82-8c6c-c76575c35b60
 ---
 # Limitations {#journey-limitations}
 

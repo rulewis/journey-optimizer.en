@@ -1,7 +1,6 @@
 ---
 title: Design your journey
 description: Learn how to design your journey
-exl-id: 6bb9f9e0-8419-48d9-ac61-56b102346fca
 ---
 # Design your journey
 

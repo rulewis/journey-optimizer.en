@@ -1,7 +1,6 @@
 ---
 title: Journey Optimizer
 description: Get Started with Journey Optimizer
-exl-id: e710066b-114e-4b04-896d-65fee1b7ba8f
 ---
 # Get Started with Journey Optimizer {#cjm-gs}
 

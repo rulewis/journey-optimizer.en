@@ -1,7 +1,6 @@
 ---
 title: Manage opt-out
 description: Learn how to manage opt-out and privacy
-exl-id: 4676e767-9b64-4de9-a59d-37003d33023c
 ---
 # Manage opt-out {#consent}
 

@@ -1,7 +1,6 @@
 ---
 title: Preview messages and send proofs
 description: Learn how to preview and test your messages
-exl-id: 0044a2d7-ba32-4644-915e-69cecbf73910
 ---
 # Preview and test your messages{#preview-and-proof}
 

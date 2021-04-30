@@ -1,7 +1,6 @@
 ---
 title: Monitoring message execution
 description: Learn monitoring and deliverability guidelines
-exl-id: 78dce030-02a4-4083-97f1-655fea149004
 ---
 # Manage deliverability {#manage-deliverability}
 

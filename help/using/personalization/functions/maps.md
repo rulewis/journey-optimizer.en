@@ -1,7 +1,6 @@
 ---
 title: Functions library
 description: Functions library
-exl-id: 5a5080c7-d58f-4508-8d49-240b350bc386
 ---
 # Maps Functions {#maps}
 

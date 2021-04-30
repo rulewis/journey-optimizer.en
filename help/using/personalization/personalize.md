@@ -1,7 +1,6 @@
 ---
 title: Personalize content in Journey Optimizer
 description: Get Started with personalization
-exl-id: a7c8a227-4378-4b27-b639-7ddb6bd15d02
 ---
 # Get started {#add-personalization}
 

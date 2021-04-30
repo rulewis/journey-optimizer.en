@@ -1,7 +1,6 @@
 ---
 title: Get started with journeys
 description: Get started with journeys
-exl-id: 631bb1ce-3250-45ab-a787-11cf67103f06
 ---
 # Get started with journeys{#jo-quick-start}
 

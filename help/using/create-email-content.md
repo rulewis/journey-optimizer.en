@@ -1,7 +1,6 @@
 ---
 title: Design emails in Journey Optimizer
 description: Learn how to design your emails content
-exl-id: cd648e61-2082-4695-a3cb-52b507c4778e
 ---
 # Design your email content in the user interface {#create-email-content}
 

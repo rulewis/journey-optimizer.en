@@ -1,7 +1,6 @@
 ---
 title: Personalization contexts in Journey Optimizer
 description: Learn in which contexts you can add personalization
-exl-id: 3b1fe6f0-66c4-4ea0-be2d-ec7fa3b9430f
 ---
 # Personalization areas {#personalization-areas}
 

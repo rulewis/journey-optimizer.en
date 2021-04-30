@@ -1,7 +1,6 @@
 ---
 title: End activity
 description: Learn how to use the end activity
-exl-id: e99568c3-f641-4a83-84b6-94d5942ac551
 ---
 # End activity{#section_vqp_4ft_dgb}
 

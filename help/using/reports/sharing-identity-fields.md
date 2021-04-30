@@ -1,7 +1,6 @@
 ---
 title: journeyStep event identity fields
 description: journeyStep event identity fields
-exl-id: efaa599e-65e4-4033-a27b-02a8b37b40ef
 ---
 # journeyStep event identity fields {#sharing-identity-fields}
 

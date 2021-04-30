@@ -1,7 +1,6 @@
 ---
 title: Configure a unitary event
 description: Learn how to configure a unitary event
-exl-id: 675bb7c4-83ee-4729-9919-370f13121208
 ---
 # Configure a unitary event {#configure-an-event}
 

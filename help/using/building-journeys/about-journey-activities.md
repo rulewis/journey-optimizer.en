@@ -1,7 +1,6 @@
 ---
 title: About journey activities
 description: Learn about journey activities
-exl-id: 02c32882-5521-47eb-9204-7f056121e806
 ---
 # About journey activities {#about-journey-activities}
 

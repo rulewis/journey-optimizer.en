@@ -1,7 +1,6 @@
 ---
 title: Get started with messages
 description: Learn how to create messages in Journey Optimizer
-exl-id: 7b8b4022-ee1c-47ff-99f8-3fc67b77ad0e
 ---
 # Get started with messages {#get-sarted-contents-messages}
 

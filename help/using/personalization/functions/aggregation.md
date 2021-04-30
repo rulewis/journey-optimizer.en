@@ -1,7 +1,6 @@
 ---
 title: Functions library
 description: Functions library
-exl-id: 3c84411e-1318-406e-a693-8773b74b2fa1
 ---
 # Aggregation Functions {#aggregation}
 

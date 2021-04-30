@@ -1,7 +1,6 @@
 ---
 title: User Interface
 description: Journey Optimizer User Interface
-exl-id: 0388c81e-794f-4cfb-9273-0a516a64d4c0
 ---
 # User interface {#cjm-user-interface}
 

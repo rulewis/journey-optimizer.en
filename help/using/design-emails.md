@@ -1,7 +1,6 @@
 ---
 title: Design emails
 description: Learn how to design your emails
-exl-id: b24afde1-b09c-4d7c-b0ac-849264a0a0c1
 ---
 # Get started with email design {#get-started-content-design}
 

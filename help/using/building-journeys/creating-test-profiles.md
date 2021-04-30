@@ -1,7 +1,6 @@
 ---
 title: Create a test profile
 description: Learn how to create a test profile
-exl-id: de42342a-5bec-46c8-915e-f7f102198b49
 ---
 # Create test profiles {#create-test-profiles}
 
