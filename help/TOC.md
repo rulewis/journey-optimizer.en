@@ -176,7 +176,6 @@ hide: yes
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + Configuration {#configuration}
-  + [Technical settings](using/administration.md)
   + [Push notifications configuration](using/push-configuration.md)
   + Event configuration {#events-journeys}
     + [General principle](using/event/about-events.md)
@@ -194,3 +193,12 @@ hide: yes
   + Action configuration {#action-journeys}
     + [About actions](using/action/action.md)
     + [Configure an action](using/action/about-custom-action-configuration.md)
++ Administration {#administration}
+  + [Technical settings](using/administration/administration.md)
+  + Access control {#access-control}
+    + [Access control overview](using/administration/permissions-overview.md)
+    + [Manage users and product profiles](using/administration/permissions.md)
+    + [Built-in product profiles](using/administration/ootb-product-profiles.md)
+    + [Permission levels](using/administration/high-low-permissions.md)
+    + [Sandboxes management](using/administration/sandboxes.md)
+    

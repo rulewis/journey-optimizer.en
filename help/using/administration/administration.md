@@ -4,7 +4,7 @@ description: Learn administration and settings guidelines
 ---
 # Technical settings
 
-![](assets/do-not-localize/badge.png)
+![](../assets/do-not-localize/badge.png)
 
 ## Set up branding parameters{#cjm-branding}
 
@@ -23,11 +23,11 @@ To set up branding parameters for your [!DNL Journey Optimizer] instance, you ne
  
 Once branding parameters have been configured, you will be able to select them when creating messages. 
 
-Once branding parameters have been configured, you will be able to select them when creating messages from the **[!UICONTROL Presets]** list. [Learn more about content creation](create-message.md).
+Once branding parameters have been configured, you will be able to select them when creating messages from the **[!UICONTROL Presets]** list. [Learn more about content creation](../create-message.md).
 
 ## Configure the push notification channel
 
-Learn how to configure push channel in this [section](configure-push.md).
+Learn how to configure push channel in this [section](../configure-push.md).
 
 ## Sub-domain delegation
 
@@ -54,13 +54,13 @@ Parameters established by Adobe are only valid from the time that the delegation
 
 Use the **[!UICONTROL Admin]** section to manage **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**.
 
-![](assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 ### Data Sources
 
 The Data Source configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys.
 
-Learn more about Data Sources in this [section](../using/datasource/about-data-sources.md)
+Learn more about Data Sources in this [section](../datasource/about-data-sources.md)
 
 ### Events 
 
@@ -68,10 +68,10 @@ Events allow you to trigger your journeys unitarily to send messages, in real-ti
 
 In the event configuration, you configure the events expected in the journeys. The incoming events’ data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events).
 
-Learn more about events in this [section](../using/event/about-events.md)
+Learn more about events in this [section](../event/about-events.md)
  
 ### Actions 
 
 [!DNL Journey Optimizer] message capabilities are built-in: you only need to design your content and publish your message. If you are using a third-party system to send your messages, you can create a custom action.
 
-Learn more about actions in this [section](../using/action/action.md)
+Learn more about actions in this [section](../action/action.md)
