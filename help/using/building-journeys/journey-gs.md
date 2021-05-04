@@ -26,7 +26,7 @@ In order to send messages with journeys, the following configuration is required
 
     ![](../assets/create-content-push.png)  
 
-## Building your journey
+## Building your journey{#jo-build}
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 
