@@ -2,7 +2,7 @@
 title: About data sources
 description: Learn how to configure a data source
 ---
-# Set up your data sources {#concept_s1s_dqt_52b}
+# About data sources {#concept_s1s_dqt_52b}
 
 ![](../assets/do-not-localize/badge.png)
 

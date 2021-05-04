@@ -3,7 +3,7 @@ solution: Journey Orchestration
 title: About actions
 description: Learn how to configure an action
 ---
-# Set up your actions {#about_actions}
+# About actions {#about_actions}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -14,7 +14,7 @@ description: Learn how to configure an action
 
 Actions are connections through which you deliver personalized, real-time experiences to customers such as push notifications, email, SMS, or any other means of digital engagement you use in your business.
 
-Customer Journey Manegement comes with built-in message capability. Refer to [this section](../get-started-content.md).
+[!DNL Journey Optimizer] comes with built-in message capability. Refer to [this section](../get-started-content.md).
 
 If you're using a third-party system to send messages such as Epsilon, Facebook, Adobe.io, Firebase, etc, you need to add and configure a custom action. Refer to [this page](../action/about-custom-action-configuration.md).
 

@@ -182,7 +182,7 @@ hide: yes
   + [Technical settings](using/administration.md)
   + [Push notifications configuration](using/push-configuration.md)
   + Event configuration {#events-journeys}
-    + [General principle](using/event/about-events.md)
+    + [About events](using/event/about-events.md)
     + Configure a unitary event {#unitary-events}  
       + [Get started with unitary events](using/event/about-creating.md)
       + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)

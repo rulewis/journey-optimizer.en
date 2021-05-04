@@ -2,7 +2,7 @@
 title: About events
 description: Learn about events
 ---
-# Set up your events{#concept_gfj_fqt_52b}
+# About events{#concept_gfj_fqt_52b}
 
 ![](../assets/do-not-localize/badge.png)
 
