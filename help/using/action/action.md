@@ -3,7 +3,7 @@ solution: Journey Orchestration
 title: About actions
 description: Learn how to configure an action
 ---
-# About actions {#about_actions}
+# Set up your actions {#about_actions}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -20,11 +20,11 @@ If you're using a third-party system to send messages such as Epsilon, Facebook,
 
 Custom actions enable you to configure connection of a third-party system to send messages or API calls. An action can be configured with any service from any provider that can be called through a REST API with a JSON-formatted payload.
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. See [this page](../building-journeys/about-journey-activities.md#action-activities).
-
->[!NOTE]
+>[!CAUTION]
 >
->The configuration of custom actions is always performed by a **technical user**.
+>The configuration of custom actions must be performed by a **technical user**.
+
+The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. See [this page](../building-journeys/about-journey-activities.md#action-activities).
 
 In the list of **Actions**, you can press c to create a new journey, action, data source or event. For more information on shortcuts, see [this section](../user-interface.md#cjm-accessibility).
 
