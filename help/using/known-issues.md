@@ -12,11 +12,9 @@ This content is subject to changes without prior notice.
 
 **Expression Editor**
 
-* The **Esc** key closes without warning and saving. (CJM-7412)
-* In push notification content, personalization elements are not highlighted.  (CJM-6807)
-* Some personalization attributes available in the expression list cannot be found when saving changes. Error message is: Path '' '' not found.
 * When browsing to the personalization attributes in the expression list, the cursor position on the central section can disappear. (CJM-6756)
 * The '+' icon is visible on all elements in the left pane, even containers encapsulating other attributes - which is not the correct behavior. For example, profile attributes which are maps should not be inserted into the expression editor. (CJM-6748)
+* When inserting an offer decision in the Expression Editor with a syntax error, validation does not fail. (CJM-8461)
 
 **Personalization**
 
