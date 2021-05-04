@@ -16,19 +16,134 @@ The most recent successful batch in the dataset is displayed on the right. The h
 
 Here is the list of all the fields that can be used in the **[!UICONTROL Decision Object Repository - Fallback Offers]** dataset.
 
-## _id
+## Identifier
     
-* **Identifier**
-    
-    A unique identifier for the record.
-    Type: string
+A unique identifier for the record.
+
+Type: string
 
 ## _experience
 
 ### decisioning
 
+#### characteristics 
+
+**Decision Option Characteristics**. Additional properties or attributes belonging to this particular decision option. Different instances can have different characteristics (keys in the map). The characteristics are name value pairs used to distinguish one decision option from others. Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an option. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from decision option detail.
+
+Type: object
+
+<!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
+
+#### contents
+
+**Content Details**. Content items to render the decision item in different contexts. A single decision option can have multiple contents variants. Content is information that is directed towards an audience for consumption in a (digital) experience. Content is delivered through channels into a particular placement.
+
+Type: array
+
+* **components**
+
+    The components of the content representing the decision option, including all their language variants. Specific components are found by 'dx:format', 'dc:subject' and 'dc:language' or a combination thereof. This metadata is used to locate or represent the content that is associated with an offer and integrate it according to the placement contract.
+
+    Type: array
+
+    * **Content Component Type**
+
+        An enumerated set of URIs where each value maps to a type given to the content component. Some consumers of the content representations are expecting the @type value to be a reference to schema that describes additional properties of the content component.
+
+        Type: string
+
+    * **_dc**
+        
+        * **Format**
+
+            The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](http://www.iana.org/ assignments/media-types/) defining computer media formats).
+
+            Type: string
+
+        * **Language**
+
+            The language or languages of the resource.\nLanguages are specified in language code as defined in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), which is part of BCP 47, which is used elsewhere in XDM.
+
+            Type: string
+
+    * **_repo**
+
+        * **id**
+
+            An optional unique identifier to reference the asset in a content repository. When Platform APIs are used to retrieve the representation the client can expect an addtional propery \"repo:resolveUrl\" to retrieve the asset.
+
+            Type: string
+
+        * **name**
+
+            Some hint about where to locate the repository that stores the external asset by the \"repo:id\".
+
+            Type: string
+
+        * **repositoryID**
+
+            An optional unique identifier to reference the asset in a content repository. When Platform APIs are used to retrieve the representation the client can expect an addtional propery \"repo:resolveUrl\" to retrieve the asset.
+
+            Type: string
+
+        * **resolveURL**
+
+            An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset whithout the client understanding where the asset is manages and what APIs to call. This is similar to a HAL link but the semantic is simpler and more pursposeful.
+
+            Type: string
+
+    * **content**
+        
+        An optional field to hold content directly. Instead of referencing content in an asset repository the component can hold simple content directly. This field is not used for composite, complex and binary content assets.
+
+        Type: string
+
+    * **deliveryURL**
+
+        An optional unique resource locator to obtain the asset from a content delivery network or service endpoint. This URL is used to access the asset publicly by a user agent.
+
+        Type: string
+
+    * **linkURL**
+
+        An optional unique resource locator for user interactions. This URL is used to refer the end user to in a user agent and can be tracked.
+
+        Type: string
+
+* **Placement**
+    
+    Placement to comply with. The value is the URI (@id) of the offer placement that is referenced. See schema https://ns.adobe.com/experience/decisioning/placement.
+
+    Type: string
+
+
+
+#### Lifecycle Status
+
+Lifecycle status allows workflows to be conducted with an object. The status may affect where an object is visible or considered relevant. Status changes are driven by the clients or services that use the objects.
+
+Type: string
+
+Possible values: "draft", "approved", "live", "completed", "archived"
+
+Default value: "draft"
+
+#### Decision Option Name
+
+Option name that is displayed in various user interfaces.
+
+Type: string
+
+#### Tags
+
+The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a sub set (category).
+
+Type: array
+
 ## _repo
     
-**Placement ETag**
+### Decision Option ETag
+
 The revision that the decision option object was at when the snapshot was taken.
+
 Type: string
