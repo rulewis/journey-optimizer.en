@@ -11,7 +11,6 @@ hide: yes
 # [!DNL Journey Optimizer] Help {#using}
 
 + [Product documentation](ajo-home.md)
-+ [Product documentation](cjm-home.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
