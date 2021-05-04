@@ -19,9 +19,13 @@ Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse 
 Key concepts when browsing the user interface are detailled in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide).
 
 Use the links on the left to browse capabilities. 
-<!-- Capabilities available on the left rail depend on your permissions. -->
 
-You can find below the full list of entries in the left rail and links to related documentation.
+>[!NOTE]
+>
+>Available capabilities may vary depending on your permissions and licence agreement.
+>
+
+You can find below the full list of entries in the left rail and links to associated documentation.
 
 1. **Home**
 
