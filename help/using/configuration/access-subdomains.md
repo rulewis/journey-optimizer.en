@@ -30,4 +30,3 @@ The Status column provides information on the subdomain delegation process:
 * **[!UICONTROL Success]** (!!or Verified?): the subdomain has gone through the checks successfully and can be used to deliver messages.
 
 * **[!UICONTROL Failed]**: one or several checks have failed after the subdomain delegation was submitted.
-

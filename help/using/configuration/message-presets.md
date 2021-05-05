@@ -44,7 +44,7 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-email.png)
 
-    For the push notification channel, specify the IOS and/or Android mobile applications to use for your messages.
+    For the push notification channel, specify the IOS and/or Android mobile applications to use for your messages. For more on how to configure your environment to send push notifications, refer to [this section](../push-configuration.md).
 
     ![](../assets/preset-push.png)
 
@@ -58,7 +58,7 @@ To create a message preset, follow these steps:
 
     You can track the verification process by opening the message preset from the list.
 
-    -SCREENSHOT SHOWING THE TWO CHECKS-
+        -SCREENSHOT SHOWING THE TWO CHECKS-
 
     !!no processing preset on stage + unable to submit a preset 
 
@@ -73,7 +73,7 @@ To create a message preset, follow these steps:
         * IP pool verification,
         * A/PTR record, t/m/res subdomain verification.
 
-1. Once the checks are successfull, the message preset gets the **[!UICONTROL Active]** status. It now ready to be used to deliver messages.
+1. Once the checks are successfull, you will be notified (!!where?). and the message preset will get the **[!UICONTROL Active]** status. It now ready to be used to deliver messages.
 
 ## Manage and edit message presets
 
