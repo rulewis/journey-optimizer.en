@@ -10,8 +10,8 @@ description: Personalization use case
 In this use case, you will see how to use multiple types of personalization in a single push notification message. Three types of personalization will be used:
 
 * Profile: message personalization based on a profile field
-* Offer decision: personalized offer
-* Context: contextual data from the journey event
+* Offer decision: personalization based on offer decisionning variables
+* Context: personalization based on contextual data from the journey
 
 The goal of this example is to push an event to Journey Optimizer every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
 
@@ -19,7 +19,7 @@ For this use case, the following prerequisites are needed:
 
 * create and design a push notification message, without publishing it. Refer to this [section](../create-message.md).
 * configure an order event including the order number, status and item name. Refer to this [section](../event/about-events.md).
-* create a personalized offer, refer to this [section](../offers/offer-library/creating-personalized-offers.md).
+* create a decision (previously known as ‘offer activity’), refer to this [section](../offers/offer-library/create-offer-activities.md).
 
 ## Step 1 - Add personalization on profile
 
@@ -31,7 +31,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc2.png)
 
-1. Type in the subject and add profile personalization. Use the search bar to find the profile's first name field. In the subject text, place the cursor where you want to insert the personalization field, and click the + icon. Click **Save**.
+1. Type in the subject and add profile personalization. Use the search bar to find the profile's first name field. In the subject text, place the cursor where you want to insert the personalization field, and click the **+** icon. Click **Save**.
 
    ![](assets/perso-uc3.png)
 
@@ -63,7 +63,7 @@ For this use case, the following prerequisites are needed:
 
 ## Step 3 - Add personalization on contextual data
 
-1. From the **Message** activity, open the message. The message opens in a new tab.
+1. From the **Message** activity, click the **Open the message** icon. The message opens in a new tab.
 
    ![](assets/perso-uc8.png)
 
@@ -78,7 +78,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc10.png)
 
-1. Expand the **Events** item, and look for the order number field related to your event. You can also use the search box. Click the + icon to insert the personalization field in the subject text. Click **Save**.
+1. Expand the **Events** item, and look for the order number field related to your event. You can also use the search box. Click the **+** icon to insert the personalization field in the subject text. Click **Save**.
 
    ![](assets/perso-uc11.png)
 
@@ -90,7 +90,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc13.png)
 
-1. From the drop-down, select **Offer decision** to insert an offer decisioning variable. Select the placement and click the + icon next to the personalized offer to add it to the body.  
+1. From the drop-down, select **Offer decision** to insert an offer decisioning variable. Select the placement and click the **+** icon next to the decision (previously known as 'offer activity') to add it to the body.  
 
    ![](assets/perso-uc14.png)
 
@@ -108,7 +108,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc17.png)
 
-1. Enter the different values to pass in the test. Test mode only works with test profiles. The profile identifier needs to be a test profile. Click **Send**.
+1. Enter the different values to pass in the test. Test mode only works with test profiles. The profile identifier needs to correspong to a test profile. Click **Send**.
 
    ![](assets/perso-uc18.png)
 
