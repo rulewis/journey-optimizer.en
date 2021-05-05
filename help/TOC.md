@@ -34,6 +34,7 @@ hide: yes
     + [Personalization areas](using/personalization/personalization-aeras.md)
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + [Personalization validation](using/personalization/personalization-validation.md) 
+    + [Personalization use case](using/personalization/personalization-validation.md) 
     + Templating language{#functions}
        + [Operators](using/personalization/functions/operators.md)
        + [Aggregation](using/personalization/functions/aggregation.md)
