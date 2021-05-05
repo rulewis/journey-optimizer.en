@@ -190,7 +190,7 @@ hide: yes
     + [Create message presets](using/configuration/message-presets.md)
     + [Configure push notifications](using/push-configuration.md)
   + Monitor email addresses' reputation {#manage-quarantines}  
-    + [Get started with email addresses' reputation](using/configuration/get-started-quarantines.md)
+    + [Get started with suppression lists](using/configuration/get-started-quarantines.md)
     + [Suppression categories and reasons](using/configuration/suppression-categories-reasons.md)
     + [Retries before sending to the suppression list](using/configuration/retries-suppression-list.md)
   + Configure Journeys {#configure-journeys}
