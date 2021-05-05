@@ -15,9 +15,9 @@ snippet: y
 
 # Determine profiles' primary addresses
 
-When you target a profile, several email addresses may be available in the database (personal, profesionnal email address, etc.).
+When you target a profile, several email addresses may be available in the database (personal, professional email address, etc.).
 
-With Journey Optimizer, you can determine which email address to use in priority when several addresses are available in the database. To do this, follow these steps:
+With Journey Optimizer, you can determine which email address to use from the profile service and prioritize when several addresses are available. To do this, follow these steps:
 
 1. Access the Settings / General settings menu.
 1. The Execution addresses field shows which field is currently used by default to determine the profiles' email addresses. Click the Edit button to change it.
@@ -30,7 +30,7 @@ With Journey Optimizer, you can determine which email address to use in priority
 
 1. The list of all email address-type XDM fields displays. Select the field to use, then click Add.
 
--SCREENSHOT-
+    -SCREENSHOT-
 
 !!no xdm fields available on stage
 

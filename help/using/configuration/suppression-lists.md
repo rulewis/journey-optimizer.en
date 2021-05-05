@@ -67,7 +67,7 @@ Email addresses are added to the suppression list as follows:
 
 * All **hard bounces** and **spam complaints** automatically send the corresponding email addresses to the suppression list after a single occurrence.
 
-* **Soft bounces** do not immediately send an email address to the suppression list, but they increment an error counter. Wen the error counter reaches the threshold, the address is then added to the suppression list.
+* **Soft bounces** do not immediately send an email address to the suppression list, but they increment an error counter. When the error counter reaches the threshold, the address is then added to the suppression list.
 
     The threshold is set at three errors:
     * For the same delivery, at the third attempt, the address is suppressed.

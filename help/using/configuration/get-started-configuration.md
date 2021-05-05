@@ -18,7 +18,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 
 When accessing Journey Optimizer for the first time, you are provisioned a production sandbox and allocated a certain number of IPs depending on your contract.
 
-To be able to create your journeys and send messages, you need to go though several configuration steps listed in this page.
+To be able to create your journeys and send messages, you need to go though configuration steps listed in this page.
 
 ## Delegate subdomains
 
@@ -52,4 +52,4 @@ Monitor the email addresses that have been sent to the suppression list and mana
 
 <img src="../assets/do-not-localize/icon-journey.svg" width="50px">
 
-In order to send messages with journeys, you need to configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. [Learn more](about-data-sources-events-actions.md)
+In order to build journeys, you need to configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. [Learn more](about-data-sources-events-actions.md)
