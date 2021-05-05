@@ -11,9 +11,9 @@ In this use case, you will see how to use multiple types of personalization in a
 
 * Profile: message personalization based on a profile field
 * Offer management: personalized offer
-* Context: contuextual data from the journey event
+* Context: contextual data from the journey event
 
-The goal of this example is push an event to  Journey Optimizer every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
+The goal of this example is to push an event to Journey Optimizer every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
 
 For this use case, the following prerequisites are needed:
 
@@ -31,7 +31,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc2.png)
 
-1. Type in the subject and add profile personalization. Use the seach bar to find the profile's first name field. In the subject text, place the cursor where you want to insert the personalization field, and click the + icon. Click **Save**.
+1. Type in the subject and add profile personalization. Use the search bar to find the profile's first name field. In the subject text, place the cursor where you want to insert the personalization field, and click the + icon. Click **Save**.
 
    ![](assets/perso-uc3.png)
 
@@ -90,7 +90,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc13.png)
 
-1. From the drop-down, select **Offer decision** to insert an offer decisionning variable. Select the placement and click the + icon next to the personalized offer to add it to the body.  
+1. From the drop-down, select **Offer decision** to insert an offer decisioning variable. Select the placement and click the + icon next to the personalized offer to add it to the body.  
 
    ![](assets/perso-uc14.png)
 
