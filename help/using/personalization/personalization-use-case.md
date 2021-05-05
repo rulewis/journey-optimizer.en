@@ -23,15 +23,15 @@ For this use case, you need to perform the following actions:
 
 1. Click the **[!UICONTROL Message]** menu, and select your message.
 
-   ![](assets/perso_uc.png)
+   ![](assets/perso-uc.png)
 
 1. Click the **Title** field.
 
-   ![](assets/perso_uc2.png)
+   ![](assets/perso-uc2.png)
 
 1. Type in the subject and add profile personalization. Use the seach bar to find the profile's first name field. In the subject text, place the cursor where you want to insert the personalization field, and click the + icon. Click **Save**.
 
-   ![](assets/perso_uc3.png)
+   ![](assets/perso-uc3.png)
 
    >[!NOTE]
    >
@@ -39,15 +39,15 @@ For this use case, you need to perform the following actions:
 
 1. Click the **[!UICONTROL Journeys]** menu, and create a new journey.
 
-   ![](assets/perso_uc4.png)
+   ![](assets/perso-uc4.png)
 
 1. Add your entry event, a **Message** and an **End** activity.
 
-   ![](assets/perso_uc5.png)
+   ![](assets/perso-uc5.png)
 
 1. In the **Message** activity, select the message previously created. Click **Ok**
 
-   ![](assets/perso_uc6.png)
+   ![](assets/perso-uc6.png)
 
    A message is displayed to inform you that the event and journey data are passed to the message.
 
@@ -55,55 +55,55 @@ For this use case, you need to perform the following actions:
    >
    >The message appears with a warning icon. This is because the message is not published yet.
 
-   ![](assets/perso_uc7.png)
+   ![](assets/perso-uc7.png)
 
 1. From the **Message** activity, open the message. The message opens in a new tab.
 
-   ![](assets/perso_uc8.png)
+   ![](assets/perso-uc8.png)
 
 1. Click the **Title** field.
 
-   ![](assets/perso_uc9.png)
+   ![](assets/perso-uc9.png)
 
 1. Select the **Context** category. This item is only available is a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
 
    * **Events**: all fields from the event
    * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Refer to the [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=en#building-advanced-conditions-journeys)
 
-   ![](assets/perso_uc10.png)
+   ![](assets/perso-uc10.png)
 
 1. Using the arrow icon, expand the **Events** item, and look for the order number field. You can also use the search box. Click the + icon to insert the personalization field in the subject text. Click **Save**
 
-   ![](assets/perso_uc11.png)
+   ![](assets/perso-uc11.png)
 
 1. Now click the **Body** field.
 
-   ![](assets/perso_uc12.png)
+   ![](assets/perso-uc12.png)
 
 1. Type the message and insert, from the **Context** category, the order item name and the order progress. 
 
-   ![](assets/perso_uc13.png)
+   ![](assets/perso-uc13.png)
 
 1. From the drop-down, select **Offer decision** to insert an offer decisionning variable. Select the placement and click the + icon next to the personalized offer to add it to the body.  
 
-   ![](assets/perso_uc14.png)
+   ![](assets/perso-uc14.png)
 
 1. Click validate to make sure that there are no errors, and click **Save**.
 
-   ![](assets/perso_uc15.png)
+   ![](assets/perso-uc15.png)
 
 1. Now, publish the message. 
 
-   ![](assets/perso_uc16.png)
+   ![](assets/perso-uc16.png)
 
 1. Open the journey again. If the journey is already open, make sure you refresh the page. Now that the message is published, you can see that there is no error in the journey. Click the **Test** button, then click **Trigger an event**.
 
-   ![](assets/perso_uc17.png)
+   ![](assets/perso-uc17.png)
 
 1. Enter the different values to pass in the test and click **Send**.
 
-   ![](assets/perso_uc18.png)
+   ![](assets/perso-uc18.png)
 
    The push notification is sent to the test profile.
 
-    ![](assets/perso_uc19.png)
+    ![](assets/perso-uc19.png)
