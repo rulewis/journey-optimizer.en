@@ -10,7 +10,7 @@ description: Personalization use case
 In this use case, you will see how to use multiple types of personalization in a single push notification message. Three types of personalization will be used:
 
 * Profile: message personalization based on a profile field
-* Offer management: personalized offer
+* Offer decision: personalized offer
 * Context: contextual data from the journey event
 
 The goal of this example is to push an event to Journey Optimizer every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
@@ -41,7 +41,7 @@ For this use case, the following prerequisites are needed:
 
 ## Step 2 - Create the journey
 
-1. Click the **[!UICONTROL Journeys]** menu, and create a new journey.
+1. Click the **[!UICONTROL Journeys]** menu and create a new journey.
 
    ![](assets/perso-uc4.png)
 
@@ -49,7 +49,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc5.png)
 
-1. In the **Message** activity, select the message previously created. Click **Ok**
+1. In the **Message** activity, select the message previously created. Click **Ok**.
 
    ![](assets/perso-uc6.png)
 
@@ -73,12 +73,12 @@ For this use case, the following prerequisites are needed:
 
 1. Select the **Context** category. This item is only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
 
-   * **Events**: all fields from the event
-   * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Refer to the [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=en#building-advanced-conditions-journeys)
+   * **Events**: this category regroups all fields from the event(s) placed before the **Message** activity in the journey.
+   * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Refer to the [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys).
 
    ![](assets/perso-uc10.png)
 
-1. Using the arrow icon, expand the **Events** item, and look for the order number field. You can also use the search box. Click the + icon to insert the personalization field in the subject text. Click **Save**
+1. Expand the **Events** item, and look for the order number field related to your event. You can also use the search box. Click the + icon to insert the personalization field in the subject text. Click **Save**.
 
    ![](assets/perso-uc11.png)
 
@@ -108,11 +108,11 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc17.png)
 
-1. Enter the different values to pass in the test and click **Send**.
+1. Enter the different values to pass in the test. Test mode only works with test profiles. The profile identifier needs to be a test profile. Click **Send**.
 
    ![](assets/perso-uc18.png)
 
-   The push notification is sent to the test profile.
+   The push notification is sent and displayed on the test profile's mobile phone.
 
     ![](assets/perso-uc19.png)
 
