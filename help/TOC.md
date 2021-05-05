@@ -189,8 +189,8 @@ hide: yes
     + [Determine profiles' primary addresses](using/configuration/primary-email-addresses.md) 
     + [Create message presets](using/configuration/message-presets.md)
     + [Configure push notifications](using/push-configuration.md)
-  + Manage quarantines {#manage-quarantines}  
-    + [Get started with quarantine management](using/configuration/get-started-quarantines.md)
+  + Monitor email addresses' reputation {#manage-quarantines}  
+    + [Get started with email addresses' reputation](using/configuration/get-started-quarantines.md)
     + [Suppression categories and reasons](using/configuration/suppression-categories-reasons.md)
     + [Retries before sending to the suppression list](using/configuration/retries-suppression-list.md)
   + Configure Journeys {#configure-journeys}

@@ -65,8 +65,8 @@ To create a message preset, follow these steps:
     * **xxxx**: 
     * **Audit step**: deliverability tests are performed by Adobe deliverability team. This step can take up to 10 days if some steps fail during the audit. The checks include:
 
-        * SPF validation,,
-        * DKIM validation
+        * SPF validation,
+        * DKIM validation,
         * MX record validation,
         * Check IPs blacklisting,
         * Helo host check,

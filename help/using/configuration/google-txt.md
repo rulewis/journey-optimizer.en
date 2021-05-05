@@ -21,7 +21,7 @@ In order to ensure good deliverability and successful delivery of emails to Gmai
 
 >[!NOTE]
 >
-> This operation can only be performed once a subdomain has the **[!UICONTROL Verified]** status.
+> This operation can only be performed once a subdomain has the **[!UICONTROL Verified]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
 To add a Google TXT record to your subdomain, follow these steps:
 

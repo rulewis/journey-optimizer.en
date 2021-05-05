@@ -1,5 +1,5 @@
 ---
-title: Get started with quarantine management
+title: Get started with suppression lists
 description: Learn how to xxxx
 page-status-flag: never-activated
 uuid: 
@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Get started with quarantine management
+# Get started with suppression lists
 
 With Journey Optimizer, you can monitor all the email addresses that are automatically excluded from the sending in a journey.
 
