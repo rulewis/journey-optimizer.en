@@ -13,13 +13,15 @@ In this use case, you will see how to use multiple types of personalization in a
 * Offer management: personalized offer
 * Context: contuextual data from the journey event
 
-Every time a customer order is updated, an event is pushed to Journey Optimizer. A push notification is then sent to the customer with the status of the order and a personalized offer.
+The goal of this example is push an event to  Journey Optimizer every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
 
-For this use case, you need to perform the following actions:
+For this use case, the following prerequisites are needed:
 
-* create a personalized offer, refer to this [section](../offers/offer-library/creating-personalized-offers.md).
 * create and design a push notification message, without publishing it. Refer to this [section](../create-message.md).
-* configure an event including the order number and status. Refer to this [section](../event/about-events.md).
+* configure an order event including the order number, status and item name. Refer to this [section](../event/about-events.md).
+* create a personalized offer, refer to this [section](../offers/offer-library/creating-personalized-offers.md).
+
+## Step 1 - Add personalization on profile
 
 1. Click the **[!UICONTROL Message]** menu, and select your message.
 
@@ -37,6 +39,8 @@ For this use case, you need to perform the following actions:
    >
    >Leave the message in draft. Do not publish it yet.
 
+## Step 2 - Create the journey
+
 1. Click the **[!UICONTROL Journeys]** menu, and create a new journey.
 
    ![](assets/perso-uc4.png)
@@ -49,13 +53,15 @@ For this use case, you need to perform the following actions:
 
    ![](assets/perso-uc6.png)
 
-   A message is displayed to inform you that the event and journey data are passed to the message.
+   A message is displayed to inform you that the entry event data and journey properties have been passed to the message.
+
+   ![](assets/perso-uc7.png)
 
    >[!NOTE]
    >
    >The message appears with a warning icon. This is because the message is not published yet.
 
-   ![](assets/perso-uc7.png)
+## Step 3 - Add personalization on contextual data
 
 1. From the **Message** activity, open the message. The message opens in a new tab.
 
@@ -65,7 +71,7 @@ For this use case, you need to perform the following actions:
 
    ![](assets/perso-uc9.png)
 
-1. Select the **Context** category. This item is only available is a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
+1. Select the **Context** category. This item is only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
 
    * **Events**: all fields from the event
    * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Refer to the [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=en#building-advanced-conditions-journeys)
@@ -96,6 +102,8 @@ For this use case, you need to perform the following actions:
 
    ![](assets/perso-uc16.png)
 
+## Step 4 - Test and publish the journey
+
 1. Open the journey again. If the journey is already open, make sure you refresh the page. Now that the message is published, you can see that there is no error in the journey. Click the **Test** button, then click **Trigger an event**.
 
    ![](assets/perso-uc17.png)
@@ -107,3 +115,6 @@ For this use case, you need to perform the following actions:
    The push notification is sent to the test profile.
 
     ![](assets/perso-uc19.png)
+
+1. Verify that there is no error and publish the journey. 
+
