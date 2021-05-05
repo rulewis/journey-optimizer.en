@@ -15,11 +15,15 @@ snippet: y
 
 # Delegate a subdomain
 
-To delegate a new subdomain, follow the steps below.
+Journey Optimizer allows you to fully delegate your subdomains to Adobe. By doing so, Adobe will be able to deliver messages as a managed service by controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking of email campaigns.
 
 >[!NOTE]
 >
->Note that you can delegate up to 10 subdomains (!!to confirm)
+>You can delegate up to 10 subdomains.
+>
+>The use of CNAMEs for subdomain delegation is currently not supported by Journey Optimizer.
+
+To delegate a new subdomain, follow the steps below:
 
 1. Access the **[!UICONTROL Message Configuration]** / **[!UICONTROL Subdomain delegation]** menu, then click **[!UICONTROL Delegate subdomain]**.
 
@@ -29,7 +33,7 @@ To delegate a new subdomain, follow the steps below.
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
-    Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, confirm the statement then click **[!UICONTROL Submit]**.
+    Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
 
     ![](../assets/subdomain-submit.png)
 
@@ -37,16 +41,16 @@ To delegate a new subdomain, follow the steps below.
     >
     >You can create the records and submit the subdomain configuration later on using the **[!UICONTROL Save as draft]** button. You will then be able to resume the subdomain delegation by opening it from the subdomains list.
 
-1. Once the subdomain delegation has been subdmitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status.
+1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
     ![](../assets/subdomain-processing.png)
 
-    The configuration checks below will be performed until the subdomain is verified and can be used to deliver messages:
+    The configuration checks below will be performed until the subdomain is verified and can be used to configure message presets in order to send messages:
 
-    1. xxx
-    1. xxx
-    1. xxx
-    1. xxx
+    1. NS records,
+    1. DNS creation,
+    1. URLs configuration,
+    1. Deliverability audit.
 
     You can follow the validation progress for a subdomain at any time by opening it from the list.
 
@@ -54,7 +58,7 @@ To delegate a new subdomain, follow the steps below.
 
 1. Once the checks are successfull, you will be notified xxxxx (!!where are users notified: need to manually check the page or emailed/notified in pulse?).
 
-    The subdomain gets the **[!UICONTROL Success]** (!!or Verified?) status and is now ready to be used to deliver messages.
+    The subdomain gets the **[!UICONTROL Success]** (!!or Verified?) status and is now ready to be used to deliver messages. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
     You can access detailed information by opening the subdomain from the list:
     

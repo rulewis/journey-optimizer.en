@@ -40,13 +40,13 @@ Before starting sending push notifications with [!DNL Journey Optimizer], you ne
 
 Create message presets to configure all the technical parameters required for email and push notification messages. [Learn more](message-presets.md)
 
-Determine which email address to use in priority for your recipients when several addresses are available in the database. [Learn more](primary-email-addresses.md)
+Determine which email address to use in priority for your recipients when several addresses are available in Adobe Experience Platform. [Learn more](primary-email-addresses.md)
 
-## Manage quarantines
+## Monitor email addresses' reputation
 
 <img src="../assets/do-not-localize/icon-quarantines.svg" width="50px">
 
-Monitor the email addresses that have been sent to the suppression list and manage the number of days during which retries are performed before exluding them. [Learn more](get-started-quarantines.md)
+Monitor and export the email addresses that have been sent to the suppression list and manage the number of days during which retries are performed before excluding them. [Learn more](get-started-quarantines.md)
 
 ## Configure journeys
 
