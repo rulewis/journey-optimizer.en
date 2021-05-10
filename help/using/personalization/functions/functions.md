@@ -41,9 +41,9 @@ They are grouped into three categories: Functions, Helpers and Operators
 * [Includes](arrays-list.md#includes) 
 * [Intersects](arrays-list.md#intersects)
 * [Last n in array](arrays-list.md#last-n) (lastN)
-* [Maximum](aggregation.md#maximum)
-* [Minimum](aggregation.md#minimum)
-* [Not in](arrays-list.md#notin)
+* [Maximum](aggregation.md#maximum) (max)
+* [Minimum](aggregation.md#minimum) (min)
+* [Not in](arrays-list.md#notin) (notIn)
 * [Subset of](arrays-list.md#subset)
 * Sum
 * [Superset of](arrays-list.md#superset)
@@ -122,7 +122,7 @@ The **lowerCase** function converts a string to lower case letters.
 
 Syntax:
 
-```
+```sql
 {%=lowerCase(string)%}
 ```
 
@@ -130,7 +130,7 @@ Example:
 
 This function converts the profile first name to lower case letters.
 
-```
+```sql
 {%=lowerCase(profile.person.name.firstName)%}
 ```
 
@@ -140,7 +140,7 @@ The **upper** function converts a string to lower case letters.
 
 Syntax:
 
-```
+```sql
 {%=upperCase(string)%}
 ```
 
@@ -148,6 +148,6 @@ Example:
 
 This function converts the profile last name to upper case letters.
 
-```
+```sql
 {%=upperCase(profile.person.name.lastName)%}
 ```

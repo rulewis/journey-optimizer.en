@@ -18,7 +18,7 @@ isNull({OBJECT})
 
 **Example**
 
-The following PQL query checks if the person's home address does not exist.
+The following operation checks if the person's home address does not exist.
 
 ```sql
 isNull(person.homeAddress)
@@ -36,7 +36,7 @@ isNotNull({OBJECT})
 
 **Example**
 
-The following PQL query checks if the person's home address exists.
+The following operation checks if the person's home address exists.
 
 ```sql
 isNotNull(person.homeAddress)

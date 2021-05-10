@@ -22,7 +22,7 @@ The `+` (addition) function is used to find the sum of two argument expressions.
 
 The following operation sums the price of two different products.
 
-```
+```sql
 {%=product1.price + product2.price%}
 ```
 
@@ -40,7 +40,7 @@ The `*` (multiplication) function is used to find the product of two argument ex
 
 The following operation finds the product of the inventory and the price of a product to find the gross value of the product.
 
-```
+```sql
 {%=product.inventory * product.price%}
 ```
 
@@ -58,7 +58,7 @@ The `-` (subtraction) function is used to find the difference of two argument ex
 
 The following operation finds the difference in price between two different products.
 
-```
+```sql
 {%=product1.price - product2.price%}
 ```
 
@@ -76,7 +76,7 @@ The `/` (division) function is used to find the quotient of two argument express
 
 The following operation finds the quotient between the total products sold and total money earned to see the average cost per item.
 
-```
+```sql
 {%=totalProduct.price / totalProduct.sold%}
 ```
 
@@ -94,6 +94,6 @@ The `%` (modulo/remainder) function is used to find the remainder after dividing
 
 The following operation checks if the person's age is divisible by five.
 
-```
+```sql
 {%=person.age % 5 = 0%}
 ```

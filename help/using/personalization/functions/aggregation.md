@@ -20,10 +20,10 @@ count({ARRAY})
 
 **Example**
 
-The following PQL query returns the number of orders in the array.
+The following operation returns the number of orders in the array.
 
 ```sql
-count(orders)
+{%=count(orders)%}
 ```
 
 ## Sum{#sum}
@@ -38,10 +38,10 @@ sum({ARRAY})
 
 **Example**
 
-The following PQL query returns the sum of all the orders' prices.
+The following operation returns the sum of all the orders' prices.
 
 ```sql
-sum(orders.order.price)
+{%=sum(orders.order.price)%}
 ```
 
 ## Average{#average}
@@ -56,10 +56,10 @@ average({ARRAY})
 
 **Example**
 
-The following PQL query returns the average price of all the orders.
+The following operation returns the average price of all the orders.
 
 ```sql
-average(orders.order.price)
+{%=average(orders.order.price)%}
 ```
 
 ## Minimum{#min}
@@ -74,10 +74,10 @@ min({ARRAY})
 
 **Example**
 
-The following PQL query returns the lowest price of all the orders.
+The following operation returns the lowest price of all the orders.
 
 ```sql
-min(orders.order.price)
+{%=min(orders.order.price)%}
 ```
 
 ## Maximum{#max}
@@ -92,8 +92,8 @@ max({ARRAY})
 
 **Example**
 
-The following PQL query returns the highest price of all the orders.
+The following operation returns the highest price of all the orders.
 
 ```sql
-max(orders.order.price)
+{%=max(orders.order.price)%}
 ```
