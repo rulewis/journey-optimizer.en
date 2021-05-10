@@ -32,7 +32,7 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 **Array Functions**
  
-<table>
+<table style="table-layout:fixed">
     <tr><td>[Average](aggregation.md#average)</td><td>[In](arrays-list.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
     <tr><td>[Count](aggregation.md#count)</td><td>[Includes](arrays-list.md#includes)</td><td>[Not in](arrays-list.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](arrays-list.md#distinct)</td><td>[Intersects](arrays-list.md#intersects)</td><td>[Subset of](arrays-list.md#subset)</td></tr>
