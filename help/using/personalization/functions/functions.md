@@ -32,6 +32,8 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 **Array Functions**
 
+|  |  |  |
+| --------- | ----------- | ----------- |
 | [Average](aggregation.md#average) | [In](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
 | [Count](aggregation.md#count) | [Includes](arrays-list.md#includes)  | [Not in](arrays-list.md#notin) (notIn) |
 | [Distinct](arrays-list.md#distinct) | [Intersects](arrays-list.md#intersects) | [Subset of](arrays-list.md#subset) |
