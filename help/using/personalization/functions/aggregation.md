@@ -22,7 +22,7 @@ count({ARRAY})
 
 The following operation returns the number of orders in the array.
 
-```
+```sql
 {%=count(orders)%}
 ```
 
@@ -40,7 +40,7 @@ sum({ARRAY})
 
 The following operation returns the sum of all the orders' prices.
 
-```
+```sql
 {%=sum(orders.order.price)%}
 ```
 
@@ -58,7 +58,7 @@ average({ARRAY})
 
 The following operation returns the average price of all the orders.
 
-```
+```sql
 {%=average(orders.order.price)%}
 ```
 
@@ -76,7 +76,7 @@ min({ARRAY})
 
 The following operation returns the lowest price of all the orders.
 
-```
+```sql
 {%=min(orders.order.price)%}
 ```
 
@@ -94,6 +94,6 @@ max({ARRAY})
 
 The following operation returns the highest price of all the orders.
 
-```
+```sql
 {%=max(orders.order.price)%}
 ```

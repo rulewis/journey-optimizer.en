@@ -122,7 +122,7 @@ The **lowerCase** function converts a string to lower case letters.
 
 Syntax:
 
-```
+```sql
 {%=lowerCase(string)%}
 ```
 
@@ -130,7 +130,7 @@ Example:
 
 This function converts the profile first name to lower case letters.
 
-```
+```sql
 {%=lowerCase(profile.person.name.firstName)%}
 ```
 
@@ -140,7 +140,7 @@ The **upper** function converts a string to lower case letters.
 
 Syntax:
 
-```
+```sql
 {%=upperCase(string)%}
 ```
 
@@ -148,6 +148,6 @@ Example:
 
 This function converts the profile last name to upper case letters.
 
-```
+```sql
 {%=upperCase(profile.person.name.lastName)%}
 ```

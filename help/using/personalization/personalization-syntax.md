@@ -15,7 +15,7 @@ It uses a template and an input object to generate HTML or other text formats. H
 
 Simple expression sample:
 
-```
+```sql
 {{profile.person.name}}
 ```
 
@@ -58,7 +58,7 @@ All the references are validated against Profile Schema with a validation mechan
 
 **Determine email address extension**:
 
-```
+```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
 {%else if contains(profile.personalEmail.address, ".org")%}
@@ -74,7 +74,7 @@ To learn more about segmentation and segmentation service, refer to this [sectio
 
 **Render different content based on segment membership**:
 
-```
+```sql
 {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
   Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
 {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
@@ -84,7 +84,7 @@ To learn more about segmentation and segmentation service, refer to this [sectio
 
 **Determine if a profile is already a member**:
 
-```
+```sql
 {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
     You're a member!
 {%else%}
@@ -142,7 +142,7 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 The **if** helper is used to define a conditional block.
 If the expression evaluation returns true, the block is rendered otherwise it is skipped.
 
-```
+```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
@@ -152,7 +152,7 @@ The **else if** statement will specify a new condition to test if the first stat
 
 **Render different store links based on conditional expressions**:
 
-``` 
+```sql
 {%#if profile.homeAddress.countryCode = "FR"%}
   <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
 {%else%}
@@ -166,7 +166,7 @@ The **else if** statement will specify a new condition to test if the first stat
 
 **Render some content based on email address extension**:
 
-```
+```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
@@ -182,14 +182,14 @@ We can refer to the individual array items by using the keyword **this** inside 
 
 Example:
 
-```
+```sql
 {{#each profile.productsInCart}}
     <li>{{this.name}}</li>
     </br>
 {{/each}}
 ```
 
-```
+```sql
 {{#each profile.homeAddress.city}}
   {{@index}} : {{this}}<br>
 {{/each}}
@@ -197,7 +197,7 @@ Example:
 
 **Render a list of products that this user has in their cart**:
 
-```
+```sql
 {{#each profile.products as |product|}}
     <li>{{product.productName}} {{product.productRating}}</li>
    </br>
@@ -210,7 +210,7 @@ The **#with** helper is used to change the evaluation token of template-part.
 
 Example:
 
-```
+```sql
 {{#with profile.person.name}}
 {{this.firstName}} {{this.lastName}}
 {{/with}}

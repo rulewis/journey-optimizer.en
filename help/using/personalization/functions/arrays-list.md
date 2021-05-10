@@ -44,7 +44,7 @@ notIn ({VALUE},{ARRAY})
 
 The following operation defines people with birthdays that are not in March, June, or September.
 
-```
+```sql
 {%=notIn(person.birthMonth ,[3, 6, 9])%}
 ```
 
@@ -62,7 +62,7 @@ intersects({ARRAY},{ARRAY})
 
 The following operation defines people whose favorite colors include at least one of red, blue, or green.
 
-```
+```sql
 {%=intersects(person.favoriteColors,["red", "blue", "green"])%}
 ```
 
@@ -84,6 +84,7 @@ The following operation defines if person 1 and person 2 both have favorite colo
 intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
 ```
 --> 
+
 ## Subset of{#subset}
 
 The `subsetOf` function is used to determine if a specific array (array A) is a subset of another array (array B). In other words, that all elements in array A are elements of array B.
@@ -98,7 +99,7 @@ subsetOf({ARRAY},{ARRAY})
 
 The following operation defines people who have visited all of their favorite cities.
 
-```
+```sql
 {%=subsetOf(person.favoriteCities,person.visitedCities)%}
 ```
 
@@ -116,7 +117,7 @@ supersetOf({ARRAY},{ARRAY})
 
 The following operation defines people who have eaten sushi and pizza at least once.
 
-```
+```sql
 {%=supersetOf(person.eatenFoods,["sushi", "pizza"]%}
 ```
 
@@ -134,7 +135,7 @@ includes({ARRAY},{ITEM})
 
 The following operation defines people whose favorite color includes red.
 
-```
+```sql
 {%=includes(person.favoriteColors,"red")%}
 ```
 
@@ -152,7 +153,7 @@ distinct({ARRAY})
 
 The following operation specifies people who have placed orders in more than one store.
 
-```
+```sql
 {%=distinct(person.orders.storeId).count() > 1%}
 ```
 
@@ -176,7 +177,7 @@ topN({ARRAY},{VALUE}, {AMOUNT})
 
 The following operation returns the top five orders with the highest price.
 
-```
+```sql
 {%=topN(orders,price, 5)%}
 ```
 
@@ -200,7 +201,7 @@ bottomN({ARRAY},{VALUE}, {AMOUNT})
 
 The following operation returns the top five orders with the lowest price.
 
-```
+```sql
 {%=bottomN(orders,price, 5)%
 ```
 
@@ -218,6 +219,6 @@ head({ARRAY})
 
 The following operation returns the first of the top five orders with the highest price. More information about the `topN` function can be found in the [first `n` in array](#first-n) section.
 
-```
+```sql
 {%=head(topN(orders,price, 5))%}
 ```
