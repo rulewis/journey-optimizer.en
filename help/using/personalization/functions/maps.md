@@ -20,7 +20,7 @@ get({MAP},{STRING})
 
 **Example**
 
-The following PQL query gets the value of the identity map for the key `example@example.com`.
+The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
 get(identityMap,"example@example.com")
@@ -38,7 +38,7 @@ keys({MAP})
 
 **Example**
 
-The following PQL query gets all the keys for the map `identityMap`.
+The following operation gets all the keys for the map `identityMap`.
 
 ```sql
 keys(identityMap)
@@ -56,7 +56,7 @@ values({MAP})
 
 **Example**
 
-The following PQL query gets all the values for the map `identityMap`.
+The following operation gets all the values for the map `identityMap`.
 
 ```sql
 values(identityMap)
