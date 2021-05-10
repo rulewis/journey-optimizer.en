@@ -26,11 +26,17 @@ Templating language is leveraged in helper functions available in the expression
 
 ![](../assets/access-helper-functions.png)
 
-They are grouped into three categories: Functions, Helpers and Operators
+They are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
 
-### Functions
+### Functions{#functions-helper}
 
 **Array Functions**
+
+| [Average](aggregation.md#average) | [In](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
+| [Count](aggregation.md#count) | [Includes](arrays-list.md#includes)  | [Not in](arrays-list.md#notin) (notIn) |
+| [Distinct](arrays-list.md#distinct) | [Intersects](arrays-list.md#intersects) | [Subset of](arrays-list.md#subset) |
+| [First item](arrays-list.md#head) (head) | [Last n in array](arrays-list.md#last-n) (lastN) | Sum |
+| [First n in array](arrays-list.md#first-n) (topN)| [Maximum](aggregation.md#maximum) (max) | [Superset of](arrays-list.md#superset) |
 
 * [Average](aggregation.md#average)
 * [Count](aggregation.md#count)
@@ -87,7 +93,7 @@ They are grouped into three categories: Functions, Helpers and Operators
 * Trim
 * [Upper Case](#upper)
 
-### Helpers
+### Helpers{#helper-helper}
 
 * [Each](../personalization-syntax.md#each)
 * [if](../personalization-syntax.md#if)
@@ -95,7 +101,7 @@ They are grouped into three categories: Functions, Helpers and Operators
 * [unless](../personalization-syntax.md#unless)
 * [with](../personalization-syntax.md#with)
 
-### Operators
+### Operators{#operators-helper}
 
 These operators can only be used with numbers.
 
