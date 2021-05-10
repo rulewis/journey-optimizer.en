@@ -257,3 +257,42 @@ The following query is used to extract the domain name from an email address.
 ```sql
 regexGroup(emailAddress,"@(\w+)", 1)
 ```
+
+
+## Functions
+
+## Lower Case{#lower}
+
+The **lowerCase** function converts a string to lower case letters.
+
+Syntax:
+
+```sql
+{%=lowerCase(string)%}
+```
+
+Example:
+
+This function converts the profile first name to lower case letters.
+
+```sql
+{%=lowerCase(profile.person.name.firstName)%}
+```
+
+## Upper Case{#upper}
+
+The **upper** function converts a string to lower case letters.
+
+Syntax:
+
+```sql
+{%=upperCase(string)%}
+```
+
+Example:
+
+This function converts the profile last name to upper case letters.
+
+```sql
+{%=upperCase(profile.person.name.lastName)%}
+```
