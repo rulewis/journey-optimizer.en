@@ -88,7 +88,7 @@ These operators can only be used with numbers.
 
 <table>
     <tr><td>[Addition](maths.md#add) (+)</td><td>This operator adds two numbers</td></tr>
-    <tr><td>[[And](operators.md#and) (and)</td><td>This operator creates a logical conjunction</td></tr>
+    <tr><td>[And](operators.md#and) (and)</td><td>This operator creates a logical conjunction</td></tr>
     <tr><td>[Division](maths.md#divide) (/)</td><td>This operator is used to find the quotient of two numbers</td></tr>
     <tr><td>[Equals to](operators.md#and) (=)</td><td>This operation checks if values are equal</td></tr>
     <tr><td>[Greater than](operators.md#greaterthan) (>) </td><td>This operator checks if first value is greater than the second value</td></tr>
@@ -98,7 +98,7 @@ These operators can only be used with numbers.
     <tr><td>[Not equals to](operators.md#notequal) (=!) </td><td>This operator checks if given expression not equal to give value</td></tr>
     <tr><td>[Or](operators.md#or) (or) </td><td>This operator creates a logical disjunction</td></tr>
     <tr><td>[Remainder](maths.md#remainder) (%) </td><td>This operator is used to calculate the remaindes after dividing two numbers</td></tr>
-    <tr><td>Smaller than (<) </td><td>This operator checks if first value is less than the second value</td></tr>
-    <tr><td>Smaller or equals to (<=) </td><td>This operator checks if first value is less than or equal to the second value</td></tr>
+    <tr><td>Smaller than</td><td>This operator checks if first value is less than the second value</td></tr>
+    <tr><td>Smaller or equals to</td><td>This operator checks if first value is less than or equal to the second value</td></tr>
     <tr><td>[Substraction](maths.md#substract) (-) </td><td>This operator substracts two numbers</td></tr>
 </table>
