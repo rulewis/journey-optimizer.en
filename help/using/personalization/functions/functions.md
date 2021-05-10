@@ -32,7 +32,7 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 **Array Functions**
  
-<table style="table-layout:fixed">
+<table>
     <tr><td>[Average](aggregation.md#average)</td><td>[In](arrays-list.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
     <tr><td>[Count](aggregation.md#count)</td><td>[Includes](arrays-list.md#includes)</td><td>[Not in](arrays-list.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](arrays-list.md#distinct)</td><td>[Intersects](arrays-list.md#intersects)</td><td>[Subset of](arrays-list.md#subset)</td></tr>
@@ -40,21 +40,6 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
     <tr><td>[First n in array](arrays-list.md#first-n) (topN)</td><td>[Maximum](aggregation.md#maximum) (max)</td><td>[Superset of](arrays-list.md#superset)</td></tr>
 </table>
 
-* [Average](aggregation.md#average)
-* [Count](aggregation.md#count)
-* [Distinct](arrays-list.md#distinct)
-* [First item](arrays-list.md#head) (head)
-* [First n in array](arrays-list.md#first-n) (topN)
-* [In](arrays-list.md#in)
-* [Includes](arrays-list.md#includes) 
-* [Intersects](arrays-list.md#intersects)
-* [Last n in array](arrays-list.md#last-n) (lastN)
-* [Maximum](aggregation.md#maximum) (max)
-* [Minimum](aggregation.md#minimum) (min)
-* [Not in](arrays-list.md#notin) (notIn)
-* [Subset of](arrays-list.md#subset)
-* Sum
-* [Superset of](arrays-list.md#superset)
 
 **Map Functions**
 
@@ -69,31 +54,25 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 **String Functions**
 
-* Camel Case
-* Concat
-* [Contains](string.md#contains)
-* [Does not contain](string.md#doesNotContain)
-* [Does not end with](string.md#doesNotEndWith)
-* [Does not start with](string.md#doesNotStartWith)
-* Encode64
-* [Ends with](string.md#endsWith)
-* [Equals](string.md#equals)
-* EqualsIgnoreCase
-* IsEmpty
-* Length
-* [Like](string.md#like)
-* [Lower Case](#lower)
-* [Matches](string.md#matches) 
-* MD5
-* [Not equal to](string.md#notEqualTo)
-* [Regular expression group](string.md#regexGroup) (regexGroup)
-* Replace
-* ReplaceAll
-* Split
-* [Starts with](string.md#startsWith)
-* Title Case
-* Trim
-* [Upper Case](#upper)
+<table>
+    <tr><td>[Average](aggregation.md#average)</td><td>[In](arrays-list.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
+    <tr><td>[Count](aggregation.md#count)</td><td>[Includes](arrays-list.md#includes)</td><td>[Not in](arrays-list.md#notin) (notIn)</td></tr>
+    <tr><td>[Distinct](arrays-list.md#distinct)</td><td>[Intersects](arrays-list.md#intersects)</td><td>[Subset of](arrays-list.md#subset)</td></tr>
+    <tr><td>[First item](arrays-list.md#head) (head)</td><td>[Last n in array](arrays-list.md#last-n) (lastN)</td><td>Sum</td></tr>
+    <tr><td>[First n in array](arrays-list.md#first-n) (topN)</td><td>[Maximum](aggregation.md#maximum) (max)</td><td>[Superset of](arrays-list.md#superset)</td></tr>
+</table>
+
+    
+<table>
+    <tr><td> Camel Case</td><td>Concat</td><td>[Contains](string.md#contains)</td></tr>
+    <tr><td> [Does not contain](string.md#doesNotContain)</td><td>[Does not end with](string.md#doesNotEndWith)</td><td>[Does not start with](string.md#doesNotStartWith)</td></tr>
+    <tr><td> Encode64</td><td>[Ends with](string.md#endsWith)</td><td>[Equals](string.md#equals)</td></tr>
+    <tr><td> EqualsIgnoreCase</td><td>IsEmpty</td><td>Length</td></tr>
+    <tr><td> [Like](string.md#like)</td><td>[Lower Case](string.md#lower)</td><td>[Matches](string.md#matches)</td></tr>
+    <tr><td> MD5</td><td>[Not equal to](string.md#notEqualTo)</td><td>[Regular expression group](string.md#regexGroup) (regexGroup)</td></tr>
+    <tr><td> Replace</td><td>ReplaceAll</td><td>Split</td></tr>
+    <tr><td> [Starts with](string.md#startsWith)</td><td>Title Case</td><td>Trim</td></tr>
+    <tr><td> [Upper Case](string.md#upper)</td><td>--</td><td>--</td></tr>
 
 ### Helpers{#helper-helper}
 
@@ -107,55 +86,19 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 These operators can only be used with numbers.
 
-* [Addition](maths.md#add) (+) - This operator adds two numbers
-* [And](operators.md#and) (and) - This operator creates a logical conjunction
-* [Division](maths.md#divide) (/) - This operator is used to find the quotient of two numbers
-* [Equals to](operators.md#and) (=) - This operation checks if values are equal
-* [Greater than](operators.md#greaterthan) (>) - This operator checks if first value is greater than the second value
-* [Greater or equals to](operators.md#greaterthanorequal) (>=) - This operator checks if first value is greater than or equal to the second value
-* [Multiplication](maths.md#multiply) (*) - This operator multiplies two numbers
-* [Negation](operators.md#not) (!) - This operator creates a logical negation
-* [Not equals to](operators.md#notequal) (=!) - This operator checks if given expression not equal to give value
-* [Or](operators.md#or) (or) - This operator creates a logical disjunction
-* [Remainder](maths.md#remainder) (%) - This operator is used to calculate the remaindes after dividing two numbers
-* Smaller than (<) - This operator checks if first value is less than the second value
-* Smaller or equals to (<=) - This operator checks if first value is less than or equal to the second value
-* [Substraction](maths.md#substract) (-) - This operator substracts two numbers
-
-## Functions
-
-### Lower Case{#lower}
-
-The **lowerCase** function converts a string to lower case letters.
-
-Syntax:
-
-```sql
-{%=lowerCase(string)%}
-```
-
-Example:
-
-This function converts the profile first name to lower case letters.
-
-```sql
-{%=lowerCase(profile.person.name.firstName)%}
-```
-
-### Upper Case{#upper}
-
-The **upper** function converts a string to lower case letters.
-
-Syntax:
-
-```sql
-{%=upperCase(string)%}
-```
-
-Example:
-
-This function converts the profile last name to upper case letters.
-
-```sql
-{%=upperCase(profile.person.name.lastName)%}
-```
+<table>
+    <tr><td>[Addition](maths.md#add) (+)</td><td>This operator adds two numbers</td></tr>
+    <tr><td>[And](operators.md#and) (and)</td><td>This operator creates a logical conjunction</td></tr>
+    <tr><td>[Division](maths.md#divide) (/)</td><td>This operator is used to find the quotient of two numbers</td></tr>
+    <tr><td>[Equals to](operators.md#and) (=)</td><td>This operation checks if values are equal</td></tr>
+    <tr><td>[Greater than](operators.md#greaterthan) (>) </td><td>This operator checks if first value is greater than the second value</td></tr>
+    <tr><td>[Greater or equals to](operators.md#greaterthanorequal) (>=) </td><td>This operator checks if first value is greater than or equal to the second value</td></tr>
+    <tr><td>[Multiplication](maths.md#multiply) (*) </td><td>This operator multiplies two numbers</td></tr>
+    <tr><td>[Negation](operators.md#not) (!) </td><td>This operator creates a logical negation</td></tr>
+    <tr><td>[Not equals to](operators.md#notequal) (=!) </td><td>This operator checks if given expression not equal to give value</td></tr>
+    <tr><td>[Or](operators.md#or) (or) </td><td>This operator creates a logical disjunction</td></tr>
+    <tr><td>[Remainder](maths.md#remainder) (%) </td><td>This operator is used to calculate the remaindes after dividing two numbers</td></tr>
+    <tr><td>Smaller than</td><td>This operator checks if first value is less than the second value</td></tr>
+    <tr><td>Smaller or equals to</td><td>This operator checks if first value is less than or equal to the second value</td></tr>
+    <tr><td>[Substraction](maths.md#substract) (-) </td><td>This operator substracts two numbers</td></tr>
+</table>
