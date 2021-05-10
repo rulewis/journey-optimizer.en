@@ -186,9 +186,9 @@ hide: yes
     + [Access PTR records](using/configuration/ptr-records.md)
   + [Create IP pools](using/configuration/ip-pools.md)
   + Configure Messages {#configure-messages}
-    + [Determine profiles' primary addresses](using/configuration/primary-email-addresses.md) 
-    + [Create message presets](using/configuration/message-presets.md)
     + [Configure push notifications](using/push-configuration.md)
+    + [Create message presets](using/configuration/message-presets.md)
+    + [Determine profiles' primary addresses](using/configuration/primary-email-addresses.md) 
   + Monitor email addresses' reputation {#manage-quarantines}  
     + [Get started with suppression lists](using/configuration/get-started-quarantines.md)
     + [Suppression categories and reasons](using/configuration/suppression-categories-reasons.md)

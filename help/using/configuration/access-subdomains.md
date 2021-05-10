@@ -15,18 +15,18 @@ snippet: y
 
 # Access delegated subdomains
 
-All your delegated subdomains display in the **[!UICONTROL Message Configuration]** / **[!UICONTROL Subdomain delegation]** menu.
+All your delegated subdomains display in the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu.
 
 Several filters are available to help you refine the list (delegation date, user or status).
 
 ![](../assets/subdomain-list.png)
 
-The Status column provides information on the subdomain delegation process:
+The **[!UICONTROL Status]** column provides information on the subdomain delegation process:
 
-* **[!UICONTROL Draft]**: the subdomain delegation has been saved as a draft. Click on the line to resume the subdomain delegation.
+* **[!UICONTROL Draft]**: The subdomain delegation has been saved as a draft. Click the subdomain name to resume the delegation process,
 
-* **[!UICONTROL Processing]**: the subdomain is going through several configuration checks before it can be used.
+* **[!UICONTROL Processing]**: The subdomain is going through several configuration checks before it can be used,
 
-* **[!UICONTROL Success]** (!!or Verified?): the subdomain has gone through the checks successfully and can be used to deliver messages.
+* **[!UICONTROL Success]**: The subdomain has gone through the checks successfully and can be used to deliver messages,
 
-* **[!UICONTROL Failed]**: one or several checks have failed after the subdomain delegation was submitted.
+* **[!UICONTROL Failed]**: One or several checks have failed after the subdomain delegation was submitted.

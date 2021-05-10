@@ -25,7 +25,7 @@ Once message presets have been configured, you be able to select them when creat
 
 To create a message preset, follow these steps:
 
-1. Access the **[!UICONTROL Message Configuration]** / **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create message preset]**.
+1. Access the **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create Message preset]**.
 
     ![](../assets/preset-create.png)
 
@@ -56,28 +56,23 @@ To create a message preset, follow these steps:
 
     During this step, several checks will be performed to verify that it has been configured properly. The processing time is around 48h-72h, and can take up to 7-10 days.
 
-    You can track the verification process by opening the message preset from the list.
+    These checks include deliverability tests that are performed by Adobe deliverability team:
 
-        -SCREENSHOT SHOWING THE TWO CHECKS-
+    * SPF validation,
+    * DKIM validation,
+    * MX record validation,
+    * Check IPs blacklisting,
+    * Helo host check,
+    * IP pool verification,
+    * A/PTR record, t/m/res subdomain verification.
 
-    !!no processing preset on stage + unable to submit a preset 
+1. Once the checks are successfull, you are informed via a **[!DNL Journey Optimizer]** notification, and the message preset gets the **[!UICONTROL Active]** status. It is now ready to be used to deliver messages.
 
-    * **xxxx**: 
-    * **Audit step**: deliverability tests are performed by Adobe deliverability team. This step can take up to 10 days if some steps fail during the audit. The checks include:
+    ![](../assets/preset-active.png)
 
-        * SPF validation,
-        * DKIM validation,
-        * MX record validation,
-        * Check IPs blacklisting,
-        * Helo host check,
-        * IP pool verification,
-        * A/PTR record, t/m/res subdomain verification.
+## Monitor message presets
 
-1. Once the checks are successfull, you will be notified (!!where?). and the message preset will get the **[!UICONTROL Active]** status. It now ready to be used to deliver messages.
-
-## Manage and edit message presets
-
-All your message presets display in the **[!UICONTROL Message Configuration]** / **[!UICONTROL Message presets]** menu. Filters are available to help you browse through the list (channel type, user, status).
+All your message presets display in the **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** menu. Filters are available to help you browse through the list (channel type, user, status).
 
 ![](../assets/preset-filters.png)
 
@@ -89,9 +84,9 @@ Message presets can have the following statuses:
 * **[!UICONTROL Failed]**: One or several checks have failed during the message preset verification.
 * **[!UICONTROL De-activated]**: The message preset is de-activated. It cannot be used to create messages.
 
-To edit a message preset, you first need to de-activate it to make it unavailable to create new messages (published messages using this preset will not be affected and will continue working).
+## Edit message presets
 
-You then need to duplicate the message preset to create a new version to use to create new messages:
+To edit a message preset, you first need to de-activate it to make it unavailable to create new messages (published messages using this preset will not be affected and will continue working). You then need to duplicate the message preset to create a new version to use to create new messages:
 
 1. Access the message presets list, then deactivate the message preset that you want to edit.
 
@@ -104,7 +99,5 @@ You then need to duplicate the message preset to create a new version to use to 
 1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
 
 1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.
-
-    ![](../assets/preset-active.png)
 
 <!--que fait-on ensuite avec l'ancienne version deactivated: reste là pour être utilisée par les anciens messages?). quand un deactivate preset est-il enlevé de la liste?-->
