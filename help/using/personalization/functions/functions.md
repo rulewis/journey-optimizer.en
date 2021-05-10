@@ -34,19 +34,19 @@ They are grouped into three categories: Functions, Helpers and Operators
 
 * [Average](aggregation.md#average)
 * [Count](aggregation.md#count)
-* [Distinct](array-list.md#distinct)
-* [First item](array-list.md#head) (head)
-* [First n in array](array-list.md#first-n) (topN)
-* [In](array-list.md#in)
-* [Includes](array-list.md#includes) 
-* [Intersects](array-list.md#intersects)
-* [Last n in array](array-list.md#last-n) (lastN)
+* [Distinct](arrays-list.md#distinct)
+* [First item](arrays-list.md#head) (head)
+* [First n in array](arrays-list.md#first-n) (topN)
+* [In](arrays-list.md#in)
+* [Includes](arrays-list.md#includes) 
+* [Intersects](arrays-list.md#intersects)
+* [Last n in array](arrays-list.md#last-n) (lastN)
 * [Maximum](aggregation.md#maximum)
 * [Minimum](aggregation.md#minimum)
-* [Not in](array-list.md#notin)
-* [Subset of](array-list.md#subset)
+* [Not in](arrasy-list.md#notin)
+* [Subset of](arrays-list.md#subset)
 * Sum
-* [Superset of](array-list.md#superset)
+* [Superset of](arrays-list.md#superset)
 
 **Map Functions**
 
