@@ -31,14 +31,14 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 ### Functions{#functions-helper}
 
 **Array Functions**
-
-|  |  |  |
-| --------- | ----------- | ----------- |
-| [Average](aggregation.md#average) | [In](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
-| [Count](aggregation.md#count) | [Includes](arrays-list.md#includes)  | [Not in](arrays-list.md#notin) (notIn) |
-| [Distinct](arrays-list.md#distinct) | [Intersects](arrays-list.md#intersects) | [Subset of](arrays-list.md#subset) |
-| [First item](arrays-list.md#head) (head) | [Last n in array](arrays-list.md#last-n) (lastN) | Sum |
-| [First n in array](arrays-list.md#first-n) (topN)| [Maximum](aggregation.md#maximum) (max) | [Superset of](arrays-list.md#superset) |
+ 
+<table>
+    <tr><td>[Average](aggregation.md#average)</td><td>[In](arrays-list.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
+    <tr><td>[Count](aggregation.md#count)</td><td>[Includes](arrays-list.md#includes)</td><td>[Not in](arrays-list.md#notin) (notIn)</td></tr>
+    <tr><td>[Distinct](arrays-list.md#distinct)</td><td>[Intersects](arrays-list.md#intersects)</td><td>[Subset of](arrays-list.md#subset)</td></tr>
+    <tr><td>[First item](arrays-list.md#head) (head)</td><td>[Last n in array](arrays-list.md#last-n) (lastN)</td><td>Sum</td></tr>
+    <tr><td>[First n in array](arrays-list.md#first-n) (topN)</td><td>[Maximum](aggregation.md#maximum) (max)</td><td>[Superset of](arrays-list.md#superset)</td></tr>
+</table>
 
 * [Average](aggregation.md#average)
 * [Count](aggregation.md#count)
