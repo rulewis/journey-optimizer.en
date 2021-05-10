@@ -24,11 +24,11 @@ To be able to create your journeys and send messages, you need to go though thes
 
     For any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)
 
-2. **Create IP pools.**
+1. **Create IP pools.**
 
     Improve your email deliverability and reputation by grouping together IP addresses provisioned with your instance. [Learn more](ip-pools.md)
 
-3. **Configure email and push messages**.
+1. **Configure email and push messages**.
 
     1. Before starting sending push notifications with [!DNL Journey Optimizer], you need to define settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push-configuration.md)
 
