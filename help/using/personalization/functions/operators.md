@@ -6,7 +6,7 @@ description: Functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-## And
+## And{#and}
 
 The `and` function is used to create a logical conjunction.
 
@@ -24,7 +24,7 @@ The following PQL query will return all people with home country as Canada and b
 homeAddress.countryISO = "CA" and person.birthYear = 1985
 ```
 
-## Or
+## Or{#or}
 
 The `or` function is used to create a logical disjunction.
 
@@ -42,7 +42,7 @@ The following PQL query will return all people with home country as Canada or bi
 homeAddress.countryISO = "CA" or person.birthYear = 1985
 ```
 
-## Not
+## Not{#not}
 
 The `not` (or `!`) function is used to create a logical negation.
 
@@ -61,7 +61,7 @@ The following PQL query will return all people who do not have their home countr
 not (homeAddress.countryISO = "CA")
 ```
 
-## If
+## If{#if}
 
 The `if` function is used to resolve an expression depending on whether a specified condition is true.
 
@@ -85,7 +85,7 @@ The following PQL query will set the value as `1` if the home country is Canada 
 if (homeAddress.countryISO = "CA", 1, 2)
 ```
 
-## Equals
+## Equals{#equals}
 
 The `=` (equals) function checks whether one value or expression is equal to another value or expression.
 
@@ -103,7 +103,7 @@ The following PQL query checks if the home address country is in Canada.
 homeAddress.countryISO = "CA"
 ```
 
-## Not equal
+## Not equal{#notequal}
 
 The `!=` (not equal) function checks whether one value or expression is **not** equal to another value or expression.
 
@@ -121,7 +121,7 @@ The following PQL query checks if the home address country is not in Canada.
 homeAddress.countryISO != "CA"
 ```
 
-## Greater than
+## Greater than{#greaterthan}
 
 The `>` (greater than) function is used to check if the first value is greater than the second value.
 
@@ -139,7 +139,7 @@ The following PQL query defines people whose birthdays do not fall in January or
 person.birthMonth > 2
 ```
 
-## Greater than or equal to
+## Greater than or equal to{#greaterthanorequal}
 
 The `>=` (greater than or equal to) function is used to check if the first value is greater than or equal to the second value.
 
@@ -157,7 +157,7 @@ The following PQL query defines people whose birthdays do not fall in January or
 person.birthMonth >= 3
 ```
 
-## Less than
+## Less than{#lessthan}
 
 The `<` (less than) comparison function is used to check if the first value is less than the second value.
 
@@ -175,7 +175,7 @@ The following PQL query defines people whose birthday is in January.
 person.birthMonth < 2
 ```
 
-## Less than or equal to
+## Less than or equal to{#lessthanorequal}
 
 The `<=` (less than or equal to) comparison function is used to check if the first value is less than or equal to the second value.
 
@@ -193,7 +193,7 @@ The following PQL query defines people whose birthday is in January or February.
 person.birthMonth <= 2
 ```
 
-## Add
+## Add{#add}
 
 The `+` (addition) function is used to find the sum of two argument expressions.
 
@@ -211,7 +211,7 @@ The following PQL query sums the price of two different products.
 product1.price + product2.price
 ```
 
-## Multiply
+## Multiply{#multiply}
 
 The `*` (multiplication) function is used to find the product of two argument expressions.
 
@@ -229,7 +229,7 @@ The following PQL query finds the product of the inventory and the price of a pr
 product.inventory * product.price
 ```
 
-## Subtract
+## Subtract{#substract}
 
 The `-` (subtraction) function is used to find the difference of two argument expressions.
 
@@ -247,7 +247,7 @@ The following PQL query finds the difference in price between two different prod
 product1.price - product2.price
 ```
 
-## Divide
+## Divide{#divide}
 
 The `/` (division) function is used to find the quotient of two argument expressions.
 
@@ -265,7 +265,7 @@ The following PQL query finds the quotient between the total products sold and t
 totalProduct.price / totalProduct.sold
 ```
 
-## Remainder
+## Remainder{#remainder}
 
 The `%` (modulo/remainder) function is used to find the remainder after dividing the two argument expressions. 
 

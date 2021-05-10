@@ -2,7 +2,7 @@
 title: Personalization contexts in Journey Optimizer
 description: Learn in which contexts you can add personalization
 ---
-# Personalization areas {#personalization-areas}
+# Personalization context and tool {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -14,7 +14,7 @@ All the fields associated with the editor icon can open the personalization edit
 
 ## Personalize your emails
 
-During email channel message creation, the **Email subject** field is personalizable.
+When you create an email, you can add personalization in the **Email subject** field of the message.
 
 ![](assets/perso_subject.png)
 
@@ -30,9 +30,7 @@ In the Email designer, you can personalize the content:
 
 ## Personalize push notifications
 
-In the **Push channel**, the personalization lets you fine-tune your push notification.
-
-You can add personalization in the following fields:
+You can also personalize your **Push notifications** in the following fields:
 
 * **Title**
 * **Body**
@@ -42,8 +40,7 @@ You can add personalization in the following fields:
 
 ![](assets/perso_push.png)
 
-For a complete documentation about Push notification configuration, refer to [this section](../configure-push.md).
-
+Learn more about Push notification configuration in [this section](../configure-push.md).
 
 ## Use the expression editor
 

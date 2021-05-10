@@ -8,7 +8,7 @@ description: Functions library
 
 Aggregation functions are used to group together multiple values within [!DNL Profile Query Language] (PQL) arrays to form a single summary value.
 
-## Count
+## Count{#count}
 
 The `count` function returns the number of elements within the given array.
 
@@ -26,7 +26,7 @@ The following PQL query returns the number of orders in the array.
 count(orders)
 ```
 
-## Sum
+## Sum{#sum}
 
 The `sum` function returns the sum of all the selected values within the array.
 
@@ -44,7 +44,7 @@ The following PQL query returns the sum of all the orders' prices.
 sum(orders.order.price)
 ```
 
-## Average
+## Average{#average}
 
 The `average` function returns the arithmetic mean of all the selected values within the array.
 
@@ -62,7 +62,7 @@ The following PQL query returns the average price of all the orders.
 average(orders.order.price)
 ```
 
-## Minimum
+## Minimum{#min}
 
 The `min` function returns the smallest of all the selected values within the array.
 
@@ -80,7 +80,7 @@ The following PQL query returns the lowest price of all the orders.
 min(orders.order.price)
 ```
 
-## Maximum
+## Maximum{#max}
 
 The `max` function returns the largest of all the selected values within the array.
 

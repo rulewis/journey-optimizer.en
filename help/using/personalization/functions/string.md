@@ -9,7 +9,7 @@ description: Functions library
 
 TBC CJM String functions
 
-## Like
+## Like{#like}
 
 The `like` function is used to determine if a string matches a specified pattern.
 
@@ -32,7 +32,7 @@ The following  query retrieves all the cities containing the pattern "es".
 like (city ,"%es%")
 ```
 
-## Starts with
+## Starts with{#startsWith}
 
 The `startsWith` function is used to determine if a string starts with a specified substring.
 
@@ -56,7 +56,7 @@ The following  query determines, with case sensitivity, if the person's name sta
 startsWith(person.name,"Joe")
 ```
 
-## Does not start with
+## Does not start with{#doesNotStartWith}
 
 The `doesNotStartWith` function is used to determine if a string does not start with a specified substring.
 
@@ -80,7 +80,7 @@ The following query determines, with case sensitivity, if the person's name does
 doesNotStartWith(person.name,"Joe")
 ```
 
-## Ends with
+## Ends with{#endsWith}
 
 The `endsWith` function is used to determine if a string ends with a specified substring.
 
@@ -104,7 +104,7 @@ The following query determines, with case sensitivity, if the person's email add
 endsWith(person.emailAddress,".com")
 ```
 
-## Does not end with
+## Does not end with{#doesNotEndWith}
 
 The `doesNotEndWith` function is used to determine if a string does not end with a specified substring.
 
@@ -128,7 +128,7 @@ The following query determines, with case sensitivity, if the person's email add
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Contains
+## Contains{#contains}
 
 The `contains` function is used to determine if a string contains a specified substring.
 
@@ -152,7 +152,7 @@ The following query determines, with case sensitivity, if the person's email add
 contains(person.emailAddress,"2010@gm")
 ```
 
-## Does not contain
+## Does not contain{#doesNotContain}
 
 The `doesNotContain` function is used to determine if a string does not contain a specified substring.
 
@@ -176,7 +176,7 @@ The following query determines, with case sensitivity, if the person's email add
 doesNotContain(person.emailAddress,"2010@gm")
 ```
 
-## Equals
+## Equals{#equals}
 
 The `equals` function is used to determine if a string is equal to the specified string.
 
@@ -199,7 +199,7 @@ The following query determines, with case sensitivity, if the person's name is "
 equals(person.name,"John")
 ```
 
-## Not equal to
+## Not equal to{#notEqualTo}
 
 The `notEqualTo` function is used to determine if a string is not equal to the specified string.
 
@@ -222,7 +222,7 @@ The following query determines, with case sensitivity, if the person's name is n
 notEqualTo(person.name,"John")
 ```
 
-## Matches
+## Matches{#matches}
 
 The `matches` function is used to determine if a string matches a specific regular expression. Please refer to [this document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) for more information on matching patterns in regular expressions.
 
@@ -240,7 +240,7 @@ The following query determines, without being case sensitive, if the person's na
 matches(person.name.,"(?i)^John")
 ```
 
-## Regular expression group
+## Regular expression group{#regexGroup}
 
 The `regexGroup` function is used to extract specific information, based on the regular expression provided.
 
