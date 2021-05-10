@@ -30,4 +30,5 @@ Possible failure reasons and their associated category are as follows:
 |Mail box full| The mail box of the recipient is full and could not receive the message. |Soft|
 |DNS failure| xxx |Soft|
 |Invalid recipient| xxx |Hard|
-!!- to enrich 
+
+    !! list to enrich 

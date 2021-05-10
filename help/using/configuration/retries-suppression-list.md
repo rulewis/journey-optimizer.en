@@ -19,6 +19,6 @@ When a message fails due to a soft bounce failure, several retries are performed
 
 In the default configuration, the limit threshold number is set at 3 errors, meaning that the address is sent to the quaratine list at the third encountered error. If a delivery is successful after a retry, the error counter is reinitialized.
 
-You can modify the limit threshold directly from the General settings menu using the Edit button.
+You can modify the limit threshold using the **[!UICONTROL Edit]** button.
 
 ![](../assets/retries-edition.png)

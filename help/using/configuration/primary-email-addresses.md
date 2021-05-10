@@ -19,8 +19,8 @@ When you target a profile, several email addresses may be available in the datab
 
 With Journey Optimizer, you can determine which email address to use from the profile service and prioritize when several addresses are available. To do this, follow these steps:
 
-1. Access the Settings / General settings menu.
-1. The Execution addresses field shows which field is currently used by default to determine the profiles' email addresses. Click the Edit button to change it.
+1. Access the  **[!UICONTROL Channels]** / **[!UICONTROL General]** menu.
+1. The field that is currently used by default to determine the profiles' email addresses displays in this screen. Click **[!UICONTROL Edit]** to change it.
 
 ![](../assets/primary-address.png)
 
@@ -28,10 +28,8 @@ With Journey Optimizer, you can determine which email address to use from the pr
 
 ![](../assets/primary-address-edit.png)
 
-1. The list of all email address-type XDM fields displays. Select the field to use, then click Add.
+1. The list of available XDM fields displays. Select the field to use, then click **[!UICONTROL Save]**.
 
-    -SCREENSHOT-
+    ![](../assets/primary-address-field.png)
 
-!!no xdm fields available on stage
-
-1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile.
+<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile.-->

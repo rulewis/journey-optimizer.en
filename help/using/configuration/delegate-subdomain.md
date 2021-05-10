@@ -25,11 +25,13 @@ Journey Optimizer allows you to fully delegate your subdomains to Adobe. By doin
 
 To delegate a new subdomain, follow the steps below:
 
-1. Access the **[!UICONTROL Message Configuration]** / **[!UICONTROL Subdomain delegation]** menu, then click **[!UICONTROL Delegate subdomain]**.
+1. Access the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Delegate subdomain]**.
 
     ![](../assets/subdomain-delegate.png)
 
 1. Specify the name of the subdomain to delegate.
+
+    ![](../assets/subdomain-name.png)
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
@@ -43,8 +45,6 @@ To delegate a new subdomain, follow the steps below:
 
 1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
-    ![](../assets/subdomain-processing.png)
-
     The configuration checks below will be performed until the subdomain is verified and can be used to configure message presets in order to send messages:
 
     1. NS records,
@@ -52,15 +52,15 @@ To delegate a new subdomain, follow the steps below:
     1. URLs configuration,
     1. Deliverability audit.
 
-    You can follow the validation progress for a subdomain at any time by opening it from the list.
+    ![](../assets/subdomain-processing.png)
 
-    ![](../assets/subdomain-processing-steps.png)
+1. Once the checks are successfull, you are informed via a **[!DNL Journey Optimizer]** notification, and the subdomain gets the **[!UICONTROL Success]** status. It is now ready to be used to deliver messages.
 
-1. Once the checks are successfull, you will be notified xxxxx (!!where are users notified: need to manually check the page or emailed/notified in pulse?).
+    For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
-    The subdomain gets the **[!UICONTROL Success]** (!!or Verified?) status and is now ready to be used to deliver messages. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
+    ![](../assets/subdomain-notification.png)
 
-    You can access detailed information by opening the subdomain from the list:
+    You can access detailed information about the subdomain by opening it from the list. You can:
     
     * Retrieve the subdomain name (read-only) configured during the delegation process, as well as the generated URLs (resources, mirror page, tracking URLs),
     * Add a Google site verification TXT record to your subdomain to ensure that it is verified (see [Add a Google TXT record to a subdomain](google-txt.md)). 

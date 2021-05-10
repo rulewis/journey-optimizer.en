@@ -17,7 +17,7 @@ snippet: y
 
 ## About IP pools
 
-With Journey Optimizer, you can create IP pools to group together IP addresses of your subdomains.
+With Journey Optimizer, you can create IP pools to group together the IP addresses of your subdomains.
 
 Creating IP pools is strongly recommended for email deliverability. By doing so, you can prevent the reputation of a subdomain from impacting your other subdomains.
 
@@ -27,7 +27,7 @@ For example, one best practice is to have one IP pool for your marketing message
 
 To create an IP pool, follow these steps:
 
-1. Access the **[Message Configuration]** / **[!UICONTROL IP Pool]** menu, then click **[!UICONTROL Create IP Pool]**.
+1. Access the **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** menu, then click **[!UICONTROL Create IP Pool]**.
 
     ![](../assets/ip-pool-create.png)
 
@@ -35,22 +35,18 @@ To create an IP pool, follow these steps:
 
 1. Select the IP addresses to include in the pool from the drop-down list, then click **[!UICONTROL Submit]**.
 
+    ![](../assets/ip-pool-config.png) 
+
     >[!NOTE]
     >
     >All the IP addresses provisioned with your instance are available in the list.
-
-    ![](../assets/ip-pool-config.png) 
-    
-    !! Submit button greyed on stage instance
     
 The IP pool is now created and displays in the list. You can select it to access its properties and display the associated message presets (see [Create a message preset](message-presets.md)).
 
-    -SCREENSHOT-
-    
-    !!no created ip pool on stage
+![](../assets/ip-pool-created.png)
 
-To edit an IP pool, open it, then edit its properties as desired. 
+To edit an IP pool, open it, then edit its properties as desired.
 
 >[!NOTE]
 >
->If a message preset has been associated, you first need to remove it to edit the IP pool. Once the IP pool has been modified, you can associate the message preset again.
+>If a message preset has been associated to the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.
