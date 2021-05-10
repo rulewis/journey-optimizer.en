@@ -137,7 +137,7 @@ Each parameter is a Handlebars expression. These helpers can be accessed from an
 These block helpers are identified by a # preceeding the helper name and require a matching closing /, of the same name. 
 Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
-### If
+### If{#if}
 
 The **if** helper is used to define a conditional block.
 If the expression evaluation returns true, the block is rendered otherwise it is skipped.
@@ -160,7 +160,7 @@ The **else if** statement will specify a new condition to test if the first stat
 {%/if%}
 ```
 
-### Unless
+### Unless{#unless}
 
 **#unless** helper is used to define a conditional block. By opposition to the **#if** helper, if the expression evaluation returns false, the block is rendered.
 
@@ -174,7 +174,7 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-### Each
+### Each{#each}
 
 The **each** helper is used to iterate over an array.
 The syntax of the helper is ```{{#each ArrayName}}``` YourContent {{/each}} 
@@ -204,7 +204,7 @@ Example:
 {{/each}}
 ```
 
-### With
+### With{#with}
 
 The **#with** helper is used to change the evaluation token of template-part.
 

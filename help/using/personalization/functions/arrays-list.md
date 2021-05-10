@@ -8,7 +8,7 @@ description: Functions library
 
 [!DNL Profile Query Language] (PQL) offers functions to make interaction with arrays, lists, and strings easier.
 
-## In
+## In{#in}
 
 The `in` function is used to determine if an item is a member of an array or list.
 
@@ -26,7 +26,7 @@ The following PQL query defines people with birthdays in March, June, or Septemb
 in (person.birthMonth, [3, 6, 9])
 ```
 
-## Not in
+## Not in{#notin}
 
 The `notIn` function is used to determine if an item is not a member of an array or list.
 
@@ -48,7 +48,7 @@ The following PQL query defines people with birthdays that are not in March, Jun
 notIn (person.birthMonth ,[3, 6, 9])
 ```
 
-## Intersects
+## Intersects{#intersects}
 
 The `intersects` function is used to determine if two arrays or lists have at least one common member.
 
@@ -66,7 +66,7 @@ The following PQL query defines people whose favorite colors include at least on
 intersects(person.favoriteColors,["red", "blue", "green"])
 ```
 
-## Intersection
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -84,7 +84,7 @@ The following PQL query defines if person 1 and person 2 both have favorite colo
 intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
 ```
 
-## Subset of
+## Subset of{#subset}
 
 The `subsetOf` function is used to determine if a specific array (array A) is a subset of another array (array B). In other words, that all elements in array A are elements of array B.
 
@@ -102,7 +102,7 @@ The following PQL query defines people who have visited all of their favorite ci
 subsetOf(person.favoriteCities,person.visitedCities)
 ```
 
-## Superset of
+## Superset of{#superset}
 
 The `supersetOf` function is used to determine if a specific array (array A) is a superset of another array (array B). In other words, that array A contains all elements in array B.
 
@@ -120,7 +120,7 @@ The following PQL query defines people who have eaten sushi and pizza at least o
 supersetOf(person.eatenFoods,["sushi", "pizza"])
 ```
 
-## Includes
+## Includes{#includes}
 
 The `includes` function is used to determine if an array or list contains a given item.
 
@@ -138,7 +138,7 @@ The following PQL query defines people whose favorite color includes red.
 includes(person.favoriteColors,"red")
 ```
 
-## Distinct
+## Distinct{#distinct}
 
 The `distinct` function is used to remove duplicate values from an array or list.
 
@@ -204,7 +204,7 @@ The following PQL query returns the top five orders with the lowest price.
 bottomN(orders,price, 5)
 ```
 
-## First item
+## First item{#head}
 
 The `head` function is used to return the first item in the array or list.
 

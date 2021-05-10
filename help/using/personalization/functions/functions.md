@@ -1,17 +1,153 @@
 ---
-title: Functions library
-description: Functions library
+title: Helper functions library
+description: Journey Optimizer Helper functions library
 ---
 
-# Templating language for Journey Optimizer {#functionsL}
+# Templating language and helper functions {#functionsL}
 
 ![](../../assets/do-not-localize/badge.png)
 
 
-* [Operators.md](operators.md)
-* [Aggregation.md](aggregation.md)
-* [Arrays and list.md](arrays-list.md)
-* [Maths.md](maths.md)
-* [Maps.md](maps.md)
-* [Objects.md](objects.md)
-* [String.md](string.md)
+## About templating language
+
+Use Journey Optimizer templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization.
+
+Available functions are listed in these pages:
+
+* [Operators](operators.md)
+* [Aggregation](aggregation.md)
+* [Arrays and list](arrays-list.md)
+* [Maths](maths.md)
+* [Maps](maps.md)
+* [Objects](objects.md)
+* [String](string.md)
+
+Templating language is leveraged in helper functions available in the expression editor personalization drop-down list. 
+
+![](../assets/access-helper-functions.png)
+
+They are grouped into three categories: Functions, Helpers and Operators
+
+### Functions
+
+**Array Functions**
+
+* [Average](aggregation.md#average)
+* [Count](aggregation.md#count)
+* [Distinct](array-list.md#distinct)
+* [First item](array-list.md#head) (head)
+* [First n in array](array-list.md#first-n) (topN)
+* [In](array-list.md#in)
+* [Includes](array-list.md#includes) 
+* [Intersects](array-list.md#intersects)
+* [Last n in array](array-list.md#last-n) (lastN)
+* [Maximum](aggregation.md#maximum)
+* [Minimum](aggregation.md#minimum)
+* [Not in](array-list.md#notin)
+* [Subset of](array-list.md#subset)
+* Sum
+* [Superset of](array-list.md#superset)
+
+**Map Functions**
+
+* [Get](maps.md#get)
+* [Keys](maps.md#keys)
+* [Values](maps.md#values)
+
+**Object Functions**
+
+* [Is not null](objects.md#isNotNull)
+* [Is null](objects.md#isNull)
+
+**String Functions**
+
+* Camel Case
+* Concat
+* [Contains](string.md#contains)
+* [Does not contain](string.md#doesNotContain)
+* [Does not end with](string.md#doesNotEndWith)
+* [Does not start with](string.md#doesNotStartWith)
+* Encode64
+* [Ends with](string.md#endsWith)
+* [Equals](string.md#equals)
+* EqualsIgnoreCase
+* IsEmpty
+* Length
+* [Like](string.md#like)
+* [Lower Case](#lower)
+* [Matches](string.md#matches) 
+* MD5
+* [Not equal to](string.md#notEqualTo)
+* [Regular expression group](string.md#regexGroup) (regexGroup)
+* Replace
+* ReplaceAll
+* Split
+* [Starts with](string.md#startsWith)
+* Title Case
+* Trim
+* [Upper Case](#upper)
+
+### Helpers
+
+* [Each](../personalization-syntax.md#each)
+* [if](../personalization-syntax.md#if)
+* let
+* [unless](../personalization-syntax.md#unless)
+* [with](../personalization-syntax.md#with)
+
+### Operators
+
+These operators can only be used with numbers.
+
+* [Addition](maths.md#add) (+) - This operator adds two numbers
+* [And](operators.md#and) (and) - This operator creates a logical conjunction
+* [Division](maths.md#divide) (/) - This operator is used to find the quotient of two numbers
+* [Equals to](operators.md#and) (=) - This operation checks if values are equal
+* [Greater than](operators.md#greaterthan) (>) - This operator checks if first value is greater than the second value
+* [Greater or equals to](operators.md#greaterthanorequal) (>=) - This operator checks if first value is greater than or equal to the second value
+* [Multiplication](maths.md#multiply) (*) - This operator multiplies two numbers
+* [Negation](operators.md#not) (!) - This operator creates a logical negation
+* [Not equals to](operators.md#notequal) (=!) - This operator checks if given expression not equal to give value
+* [Or](operators.md#or) (or) - This operator creates a logical disjunction
+* [Remainder](maths.md#remainder) (%) - This operator is used to calculate the remaindes after dividing two numbers
+* Smaller than (<) - This operator checks if first value is less than the second value
+* Smaller or equals to (<=) - This operator checks if first value is less than or equal to the second value
+* [Substraction](maths.md#substract) (-) - This operator substracts two numbers
+
+## Functions
+
+### Lower Case{#lower}
+
+The **lowerCase** function converts a string to lower case letters.
+
+Syntax:
+
+```
+{%=lowerCase(string)%}
+```
+
+Example:
+
+This function converts the profile first name to lower case letters.
+
+```
+{%=lowerCase(profile.person.name.firstName)%}
+```
+
+### Upper Case{#upper}
+
+The **upper** function converts a string to lower case letters.
+
+Syntax:
+
+```
+{%=upperCase(string)%}
+```
+
+Example:
+
+This function converts the profile last name to upper case letters.
+
+```
+{%=upperCase(profile.person.name.lastName)%}
+```

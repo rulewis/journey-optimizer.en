@@ -31,10 +31,11 @@ hide: yes
     + [Use email designer content components](using/content-components.md)
   + Personalization{#personalization}
     + [Get started](using/personalization/personalize.md)
-    + [Personalization areas](using/personalization/personalization-aeras.md)
+    + [Personalization context](using/personalization/personalization-aeras.md)
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + [Personalization validation](using/personalization/personalization-validation.md) 
-    + Templating language{#functions}
+    + Personalization functions{#functions}
+       + [Helper functions](using/personalization/functions/functions.md)
        + [Operators](using/personalization/functions/operators.md)
        + [Aggregation](using/personalization/functions/aggregation.md)
        + [Arrays and list](using/personalization/functions/arrays-list.md)
