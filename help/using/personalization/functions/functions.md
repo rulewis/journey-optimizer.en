@@ -43,7 +43,7 @@ They are grouped into three categories: Functions, Helpers and Operators
 * [Last n in array](arrays-list.md#last-n) (lastN)
 * [Maximum](aggregation.md#maximum)
 * [Minimum](aggregation.md#minimum)
-* [Not in](arrasy-list.md#notin)
+* [Not in](arrays-list.md#notin)
 * [Subset of](arrays-list.md#subset)
 * Sum
 * [Superset of](arrays-list.md#superset)
