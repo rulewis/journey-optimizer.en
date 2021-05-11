@@ -14,61 +14,98 @@ The most recent successful batch in the dataset is displayed on the right. The h
 >
 >Learn how to access the exported datasets for each object of your Offer Library in [this section](../export-catalog/access-dataset.md).
 
-Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.
-
 Here is the list of all the fields that can be used in the **[!UICONTROL Decision Object Repository - Personalized Offers]** dataset.
+
+<!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
     
 ## Identifier
     
-A unique identifier for the record.
-Type: string
+**Field:** _id
+**Title:** Identifier
+**Description:** A unique identifier for the record.
+**Type:** string
 
 ## _experience
 
+**Field:** _experience
+**Title:** 
+**Description:** 
+**Type:** object
+
 ### decisioning
+
+**Field:** decisioning
+**Title:** 
+**Description:** 
+**Type:** object
 
 #### calendarConstraints 
 
-**Calendar Constraint Details**. Calendar constraints decide if a decision option is valid given a date range. Outside that date range the option cannot be proposed.
-Type: object
+**Field:** calendarConstraints
+**Title:** Calendar Constraint Details
+**Description:** Calendar constraints decide if a decision option is valid given a date range. Outside that date range the option cannot be proposed.
+**Type:** object
 
 * **End Date & Time**
-
-    The end date of a decision options validity. Options that have passed their end date can no longer cannot be proposed in the decisioning process.
-
-    Type: string
+    
+    **Field:** endDate
+    **Title:** End Date & Time
+    **Description:** The end date of a decision options validity. Options that have passed their end date can no longer be proposed in the decisioning process.
+    **Type:** string
 
 * **Start Date & Time**
-    
-    The start date of a decision options validity. Options that have not reached their start date cannot be proposed yet in the decisioning process.
 
-    Type: string
+    **Field:** startDate
+    **Title:** Start Date & Time
+    **Description:** The start date of a decision options validity. Options that have not reached their start date cannot be proposed yet in the decisioning process.
+    **Type:** string
 
 #### characteristics
 
-**Decision Option Characteristics**. Additional properties or attributes belonging to this particular decision option. Different instances can have different characteristics (keys in the map). The characteristics are name value pairs used to distinguish one decision option from others. Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an option. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from decision option detail.
-
-Type: object
+**Field:** characteristics
+**Title:** Decision Option Characteristics
+**Description:** Additional properties or attributes belonging to this particular decision option. Different instances can have different characteristics (keys in the map). The characteristics are name value pairs used to distinguish one decision option from others. Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an option. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from decision option detail.
+**Type:** object
 
 #### contents
 
-**Content Details**. Content items to render the decision item in different contexts. A single decision option can have multiple contents variants. Content is information that is directed towards an audience for consumption in a (digital) experience. Content is delivered through channels into a particular placement.
+**Field:** contents
+**Title:** 
+**Description:** Content items to render the decision item in different contexts. A single decision option can have multiple contents variants. Content is information that is directed towards an audience for consumption in a (digital) experience. Content is delivered through channels into a particular placement.
+**Type:** array
+
+**Content Details**. 
 
 Type: array
 
 * **components**
-The components of the content representing the decision option, including all their language variants. Specific components are found by 'dx:format', 'dc:subject' and 'dc:language' or a combination thereof. This metadata is used to locate or represent the content that is associated with an offer and integrate it according to the placement contract.
+
+    **Field:** components
+    **Title:** 
+    **Description:** The components of the content representing the decision option, including all their language variants. Specific components are found by 'dx:format', 'dc:subject' and 'dc:language' or a combination thereof. This metadata is used to locate or represent the content that is associated with an offer and integrate it according to the placement contract.
+    **Type:** array
 
     * **Content Component Type**
-    An enumerated set of URIs where each value maps to a type given to the content component. Some consumers of the content representations are expecting the @type value to be a reference to schema that describes additional properties of the content component.
-    Type: string
+
+        **Field:** _type
+        **Title:** Content Component Type
+        **Description:** An enumerated set of URIs where each value maps to a type given to the content component. Some consumers of the content representations are expecting the @type value to be a reference to the schema that describes additional properties of the content component.
+        **Type:** string
 
     * **_dc**
 
-        * **Format**
-            The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](http://www.iana.org/ assignments/media-types/) defining computer media formats).
+        **Field:** _dc
+        **Title:**
+        **Description:** 
+        **Type:** object
 
-            Type: string
+        * **Format**
+            
+            **Field:** format
+            **Title:** Format
+            **Description:** The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](http://www.iana.org/ assignments/media-types/) defining computer media formats).
+
+            **Type:** string
 
             Example: "application/vnd.adobe.photoshop"
 
@@ -100,6 +137,10 @@ The components of the content representing the decision option, including all th
             Type: string
 
             Example: "C87932A55B06F7070A49412D@AdobeOrg"
+
+            | Field | Title | Description | Type | Example |
+            |--- |--- |--- |--- |
+            | _id| Identifier | A unique identifier for the record. | string |
 
         * **resolveURL**
         
