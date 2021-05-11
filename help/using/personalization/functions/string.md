@@ -258,9 +258,6 @@ The following query is used to extract the domain name from an email address.
 regexGroup(emailAddress,"@(\w+)", 1)
 ```
 
-
-## Functions
-
 ## Lower Case{#lower}
 
 The **lowerCase** function converts a string to lower case letters.

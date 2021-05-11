@@ -33,7 +33,7 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 **Array Functions**
  
 <table>
-    <tr><td>[Average](aggregation.md#average)</td><td>[In](arrays-list.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
+    <tr><td><a href="aggregation.md#average">Average</a></td><td><a href="arrays-list.md#in">In</a></td><td><a href="aggregation.md#minimum">Minimum</a></td></tr>
     <tr><td>[Count](aggregation.md#count)</td><td>[Includes](arrays-list.md#includes)</td><td>[Not in](arrays-list.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](arrays-list.md#distinct)</td><td>[Intersects](arrays-list.md#intersects)</td><td>[Subset of](arrays-list.md#subset)</td></tr>
     <tr><td>[First item](arrays-list.md#head) (head)</td><td>[Last n in array](arrays-list.md#last-n) (lastN)</td><td>Sum</td></tr>
