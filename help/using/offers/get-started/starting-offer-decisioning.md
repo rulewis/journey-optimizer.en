@@ -20,7 +20,7 @@ Benefits include:
 * Improved workflows: instead of creating multiple deliveries or campaigns, marketing teams can improve workflows by creating a single delivery and vary the offers in different parts of the template,
 * Control over the number of times an offer is shown across campaigns and customers.
 
-![](../assets/do-not-localize/how-to-video.png) [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
+![](../../assets/do-not-localize/how-to-video.png) [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
 
 ## About offers and decisions {#offers-offer-activities}
 
@@ -28,7 +28,7 @@ An **Offer** is made up of content, eligibility rules and constraints that defin
 
 It is created using the **Offer Library**, which provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [Offer Library user interface](../get-started/user-interface.md)).
 
-![](../assets/offer_structure.png) 
+![](../../assets/offer_structure.png) 
 
 Once the Offer Library has been enriched with offers, you can integrate your offers into **decisions** (previously known as 'offer activities').
 
@@ -40,11 +40,11 @@ Decision Management capabilities and integration with Adobe Experience Platform 
 
 * Display on your website homepage offers that will match the visiting customer's point of interest, based on data from Adobe Experience Platform.
 
-    ![](../assets/website.png) 
+    ![](../../assets/website.png) 
 
 * If customers walk near one of your stores, send them push notifications reminding them of available offers according to their attributes (loyalty level, gender, former purchases...).
 
-    ![](../assets/push_sample.png) 
+    ![](../../assets/push_sample.png) 
 
 * Decision Management also helps you enhance your customers' experience when contacting your support team. Decision Management APIs allow you to display in your call center agents' portal information about the customer's redeemed and next best offers.
 
