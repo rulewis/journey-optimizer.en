@@ -242,7 +242,7 @@ These operators can only be used with numbers.
         <td><a href="operators.md#remainder">Smaller than</a> (<)</td><td>This operator checks if first value is less than the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Smaller or equals to</a> (<=)</td><td>This operator checks if first value is smaller than or equal to the second value</td>
+        <td><a href="operators.md#greaterthanorequal">Smaller or equals to</a> ('<=')</td><td>This operator checks if first value is smaller than or equal to the second value</td>
     </tr>
     <tr>
         <td><a href="operators.md#substract">Substraction</a> (-)</td><td>This operator substracts two numbers</td>
