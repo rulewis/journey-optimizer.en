@@ -56,29 +56,49 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 <table>
     <tr>
-        <td>[Average](aggregation.md#average)</td>
-        <td>[In](arrays-list.md#in)</td>
-        <td>[Minimum](aggregation.md#minimum) (min)</td>
+        <td>[Average](aggregation.md#average)</td><td>The `average` function returns the arithmetic mean of all the selected values within the array</td>
     </tr>
     <tr>
-        <td>[Count](aggregation.md#count)</td>
-        <td>[Includes](arrays-list.md#includes)</td>
-        <td>[Not in](arrays-list.md#notin) (notIn)</td>
+        <td>[In](arrays-list.md#in)</td><td>The `in` function is used to determine if an item is a member of an array or list</td>
     </tr>
     <tr>
-        <td>[Distinct](arrays-list.md#distinct)</td>
-        <td>[Intersects](arrays-list.md#intersects)</td>
-        <td>[Subset of](arrays-list.md#subset)</td>
+        <td>[Minimum](aggregation.md#minimum) (min)</td><td>The `min` function returns the smallest of all the selected values within the array</td>
     </tr>
     <tr>
-        <td>[First item](arrays-list.md#head) (head)</td>
-        <td>[Last n in array](arrays-list.md#last-n) (lastN)</td>
-        <td>Sum</td>
+        <td>[Count](aggregation.md#count)</td><td></td>
     </tr>
     <tr>
-        <td>[First n in array](arrays-list.md#first-n) (topN)</td>
-        <td>[Maximum](aggregation.md#maximum) (max)</td>
-        <td>[Superset of](arrays-list.md#superset)</td>
+        <td>[Includes](arrays-list.md#includes)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Not in](arrays-list.md#notin) (notIn)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Distinct](arrays-list.md#distinct)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Intersects](arrays-list.md#intersects)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Subset of](arrays-list.md#subset)</td><td></td>
+    </tr>
+    <tr>
+        <td>[First item](arrays-list.md#head) (head)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Last n in array](arrays-list.md#last-n) (lastN)</td><td></td>
+    </tr>
+    <tr>
+        <td>Sum</td><td></td>
+    </tr>
+    <tr>
+        <td>[First n in array](arrays-list.md#first-n) (topN)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Maximum](aggregation.md#maximum) (max)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Superset of](arrays-list.md#superset)</td><td></td>
     </tr>
 </table>
 
