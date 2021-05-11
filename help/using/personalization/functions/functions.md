@@ -97,51 +97,99 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 **Object Functions**
 
-* [Is not null](objects.md#isNotNull)
-* [Is null](objects.md#isNull)
+<table>
+    <tr>
+        <td><a href="objects.md#isNotNull">Is not null</a> (isNotNull)</td><td>This function is used to determine if an object reference exists</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#isNull">Is null</a> (isNull)</td><td>This function is used to determine if an object reference does not exist</td>
+    </tr>
+</table>
 
 **String Functions**
 
 <table>
     <tr>
-        <td>Camel Case</td>
-        <td>Concat</td>
-        <td>[Contains](string.md#contains)</td>
+        <td><a href="objects.md#isNotNull">Camel Case</a> (camelCase)</td><td>This function is used to</td>
     </tr>
     <tr>
-        <td>[Does not contain](string.md#doesNotContain)</td>
-        <td>[Does not end with](string.md#doesNotEndWith)</td>
-        <td>[Does not start with](string.md#doesNotStartWith)</td>
+        <td><a href="objects.md#isNull">Concat</a> (Concat)</td><td>This function is used to</td>
     </tr>
     <tr>
-        <td>Encode64</td>
-        <td>[Ends with](string.md#endsWith)</td>
-        <td>[Equals](string.md#equals)</td>
+        <td><a href="string.md#contains">Contains</a> (contains)</td><td>This function is used to determine if a string contains a specified substring</td>
     </tr>
     <tr>
-        <td>EqualsIgnoreCase</td>
-        <td>IsEmpty</td>
-        <td>Length</td>
+        <td><a href="string.md#doesNotContain">Does not contain</a> (doesNotContain)</td><td>This function is used to determine if a string does not contain a specified substring</td>
     </tr>
     <tr>
-        <td>[Like](string.md#like)</td>
-        <td>[Lower Case](string.md#lower)</td>
-        <td>[Matches](string.md#matches)</td>
+        <td><a href="string.md#doesNotEndWith">Does not end with</a> (doesNotEndWith)</td><td>This function is used to determine if a string does not end with a specified substring</td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#doesNotStartWith">Does not start with</a> (doesNotStartWith)</td><td>This function is used to determine if a string does not start with a specified substring</td>
     </tr>
     <tr>
-        <td> MD5</td>
-        <td>[Not equal to](string.md#notEqualTo)</td>
-        <td>[Regular expression group](string.md#regexGroup) (regexGroup)</td>
+        <td><a href="string.md#doesNotContain">Encode64</a> ()</td><td>This function is used to</td>
     </tr>
     <tr>
-        <td>Replace</td><td>ReplaceAll</td>
-        <td>Split</td>
-        <td>[Starts with](string.md#startsWith)</td>
+        <td><a href="string.md#endsWith">Ends with</a> (endsWith)</td><td>This function is used to determine if a string ends with a specified substring</td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#equals">Equals</a> (=)</td><td>This function is used to determine if a string does not start with a specified substring</td>
     </tr>
     <tr>
-        <td>Title Case</td>
-        <td>Trim</td>
-        <td>[Upper Case](string.md#upper)</td>
+        <td><a href="string.md#doesNotContain">EqualsIgnoreCase</a> ()</td><td>This function is used to</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#endsWith">IsEmpty</a> ()</td><td>This function is used to </td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#equals">Length</a> ()</td><td>This function is used to</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">Like</a> (like)</td><td>This function is used to determine if a string matches a specified pattern</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#lower">Lower Case</a> (lowerCase)</td><td>This function converts a string to lower case letters</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#matches">Matches</a> (matches)</td><td>This function is used to determine if a string matches a specific regular expression</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">MD5</a> ()</td><td>This function is used to </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">Not equal to</a> (notEqualsTo)</td><td>This function is used to determine if a string is not equal to the specified string</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Regular expression group</a> (regexGroup)</td><td>This function is used to extract specific information, based on the regular expression provided</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">Replace</a> (replace)</td><td>This function is used to </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">Replace all</a> (replaceAll)</td><td>This function is used to</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Split</a> (split)</td><td>This function is used to</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#startsWith">Starts with</a> (startsWith)</td><td>This function is used to determine if a string starts with a specified substring</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#startsWith">Title Case</a> (titleCase)</td><td>This function is used to</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Trim</a> (trim)</td><td>This function is used to</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#upper">Upper case</a> (upperCase)</td><td>This function converts a string to upper case letters</td>
     </tr>
 </table>
 
