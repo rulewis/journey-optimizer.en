@@ -278,7 +278,7 @@ This function converts the profile first name to lower case letters.
 
 ## Upper Case{#upper}
 
-The **upper** function converts a string to lower case letters.
+The **upper** function converts a string to upper case letters.
 
 Syntax:
 
