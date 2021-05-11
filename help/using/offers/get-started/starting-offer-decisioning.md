@@ -12,7 +12,7 @@ The Decision Management capability consists in two main components:
 * The **Centralized Offer Library** which is the interface where you create and manage the different elements that compose your offers, and define their rules and constraints.
 * The **Offer Decision Engine** which leverages Adobe Experience Platform data and Real-time Customer profiles, along with the Offer Library, in order to select the right time, customers and channels to which offers will be delivered.
 
-![](../assets/architecture.png) 
+![](../../assets/architecture.png) 
 
 Benefits include:
 
@@ -48,7 +48,7 @@ Decision Management capabilities and integration with Adobe Experience Platform 
 
 * Decision Management also helps you enhance your customers' experience when contacting your support team. Decision Management APIs allow you to display in your call center agents' portal information about the customer's redeemed and next best offers.
 
-    ![](../assets/call-center.png) 
+    ![](../../assets/call-center.png) 
 
 ## Tutorial videos {#tutorial-videos}
 
