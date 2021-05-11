@@ -141,7 +141,7 @@ The following operation defines people whose favorite color includes red.
 
 ## Distinct{#distinct}
 
-The `distinct` function is used to remove duplicate values from an array or list.
+The `distinct` function is used to get values from an array or list with duplicate values removed.
 
 **Format**
 
