@@ -195,11 +195,11 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 ### Helpers{#helper-helper}
 
-* [Each](../personalization-syntax.md#each)
-* [if](../personalization-syntax.md#if)
-* let
-* [unless](../personalization-syntax.md#unless)
-* [with](../personalization-syntax.md#with)
+* Each - [Learn more](../personalization-syntax.md#each)
+* If  - [Learn more](../personalization-syntax.md#if)
+* Let - Learn more
+* Unless  - [Learn more](../personalization-syntax.md#unless)
+* With  - [Learn more](../personalization-syntax.md#with)
 
 ### Operators{#operators-helper}
 
@@ -207,59 +207,44 @@ These operators can only be used with numbers.
 
 <table>
     <tr>
-        <td>[Addition](maths.md#add) (+)</td>
-        <td>This operator adds two numbers</td>
+        <td><a href="operators.md#add">Addition</a> (+)</td><td>This operator adds two numbers</td>
     </tr>
     <tr>
-        <td>[And](operators.md#and) (and)</td>
-        <td>This operator creates a logical conjunction</td>
+        <td><a href="operators.md#and">And</a> (and)</td><td>This operator creates a logical conjunction</td>
+    <tr>
+        <td><a href="operators.md#divide">Divide</a> (/)</td><td>This operator is used to find the quotient of two numbers</td>
     </tr>
     <tr>
-        <td>[Division](maths.md#divide) (/)</td>
-        <td>This operator is used to find the quotient of two numbers</td>
+        <td><a href="operators.md#and">Equals to</a> (=)</td><td>This operation checks if values are equal</td>
     </tr>
     <tr>
-        <td>[Equals to](operators.md#and) (=)</td>
-        <td>This operation checks if values are equal</td>
+        <td><a href="operators.md#greaterthan">Greater than</a> (>)</td><td>This operator checks if first value is greater than the second value</td>
     </tr>
     <tr>
-        <td>[Greater than](operators.md#greaterthan)</td>
-        <td>This operator checks if first value is greater than the second value</td>
+        <td><a href="operators.md#greaterthanorequal">Greater or equals to</a> (=>)</td><td>This operator checks if first value is greater than or equal to the second value</td>
     </tr>
     <tr>
-        <td>[Greater or equals to](operators.md#greaterthanorequal)</td>
-        <td>This operator checks if first value is greater than or equal to the second value</td>
+        <td><a href="operators.md#multiply">Multiplication</a> (*)</td><td>This operator multiplies two numbers</td>
     </tr>
     <tr>
-        <td>[Multiplication](maths.md#multiply) (*) </td>
-        <td>This operator multiplies two numbers</td>
+        <td><a href="operators.md#not">Negation</a> (!)</td><td>This operator creates a logical negation</td>
     </tr>
     <tr>
-        <td>[Negation](operators.md#not) (!) </td>
-        <td>This operator creates a logical negation</td>
+        <td><a href="operators.md#notequal">Not equals to</a> (=!)</td><td>This operator checks if given expression not equal to give value</td>
     </tr>
     <tr>
-        <td>[Not equals to](operators.md#notequal) (=!) </td>
-        <td>This operator checks if given expression not equal to give value</td>
+        <td><a href="operators.md#or">Or</a> (or)</td><td>This operator creates a logical disjunction</td>
     </tr>
     <tr>
-        <td>[Or](operators.md#or) (or) </td>
-        <td>This operator creates a logical disjunction</td>
+        <td><a href="operators.md#remainder">Remainder</a> (%)</td><td>This operator is used to calculate the remaindes after dividing two numbers</td>
     </tr>
     <tr>
-        <td>[Remainder](maths.md#remainder) (%) </td>
-        <td>This operator is used to calculate the remaindes after dividing two numbers</td>
+        <td><a href="operators.md#remainder">Smaller than</a> (<)</td><td>This operator checks if first value is less than the second value</td>
     </tr>
     <tr>
-        <td>Smaller than</td>
-        <td>This operator checks if first value is less than the second value</td>
+        <td><a href="operators.md#greaterthanorequal">Smaller or equals to</a> (<=)</td><td>This operator checks if first value is smaller than or equal to the second value</td>
     </tr>
     <tr>
-        <td>Smaller or equals to</td>
-        <td>This operator checks if first value is less than or equal to the second value</td>
-    </tr>
-    <tr>
-        <td>[Substraction](maths.md#substract) (-) </td>
-        <td>This operator substracts two numbers</td>
+        <td><a href="operators.md#substract">Substraction</a> (-)</td><td>This operator substracts two numbers</td>
     </tr>
 </table>
