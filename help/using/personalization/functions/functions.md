@@ -212,25 +212,25 @@ These operators can only be used with numbers.
     <tr>
         <td><a href="operators.md#and">And</a> (and)</td><td>This operator creates a logical conjunction</td>
     <tr>
-        <td><a href="operators.md#divide">Divide</a> ( \/)</td><td>This operator is used to find the quotient of two numbers</td>
+        <td><a href="operators.md#divide">Divide</a> (/)</td><td>This operator is used to find the quotient of two numbers</td>
     </tr>
     <tr>
-        <td><a href="operators.md#and">Equals to</a> (\=)</td><td>This operation checks if values are equal</td>
+        <td><a href="operators.md#and">Equals to</a> (=)</td><td>This operation checks if values are equal</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a> (\>)</td><td>This operator checks if first value is greater than the second value</td>
+        <td><a href="operators.md#greaterthan">Greater than</a> ()</td><td>This operator checks if first value is greater than the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Greater or equals to</a> (\=>)</td><td>This operator checks if first value is greater than or equal to the second value</td>
+        <td><a href="operators.md#greaterthanorequal">Greater or equals to</a> (=>)</td><td>This operator checks if first value is greater than or equal to the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#multiply">Multiplication</a> (\*)</td><td>This operator multiplies two numbers</td>
+        <td><a href="operators.md#multiply">Multiplication</a> (*)</td><td>This operator multiplies two numbers</td>
     </tr>
     <tr>
         <td><a href="operators.md#not">Negation</a> (!)</td><td>This operator creates a logical negation</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Not equals to</a> (\=!)</td><td>This operator checks if given expression not equal to give value</td>
+        <td><a href="operators.md#notequal">Not equals to</a> (=!)</td><td>This operator checks if given expression not equal to give value</td>
     </tr>
     <tr>
         <td><a href="operators.md#or">Or</a> (or)</td><td>This operator creates a logical disjunction</td>
@@ -239,12 +239,12 @@ These operators can only be used with numbers.
         <td><a href="operators.md#remainder">Remainder</a> (%)</td><td>This operator is used to calculate the remaindes after dividing two numbers</td>
     </tr>
     <tr>
-        <td><a href="operators.md#remainder">Smaller than</a> (\<)</td><td>This operator checks if first value is less than the second value</td>
+        <td><a href="operators.md#remainder">Smaller than</a> ()</td><td>This operator checks if first value is less than the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Smaller or equals to</a> (\<=)</td><td>This operator checks if first value is smaller than or equal to the second value</td>
+        <td><a href="operators.md#greaterthanorequal">Smaller or equals to</a> ()</td><td>This operator checks if first value is smaller than or equal to the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#substract">Substraction</a> (-)</td><td>This operator substracts two numbers</td>
+        <td><a href="operators.md#substract">Substraction</a> ()</td><td>This operator substracts two numbers</td>
     </tr>
 </table>
