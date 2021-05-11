@@ -34,58 +34,66 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
  
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Average</a></td><td>This function returns the arithmetic mean of all the selected values within the array</td>
+        <td><a href="aggregation.md#average">Average</a> (average)</td><td>This function returns the arithmetic mean of all the selected values within the array</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>This function is used to determine if an item is a member of an array or list</td>
+        <td><a href="arrays-list.md#in">In</a> (in)</td><td>This function is used to determine if an item is a member of an array or list</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimum</a>(min)</td><td>This function returns the smallest of all the selected values within the array</td>
+        <td><a href="aggregation.md#min">Minimum</a> (min)</td><td>This function returns the smallest of all the selected values within the array</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Count</a></td><td>This function returns the number of elements within the given array</td>
+        <td><a href="aggregation.md#count">Count</a> (count)</td><td>This function returns the number of elements within the given array</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">Includes</a></td><td>This function determines if an array or list contains a given item</td>
+        <td><a href="arrays-list.md#includes">Includes</a> (includes)</td><td>This function determines if an array or list contains a given item</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Not in</a>(notIn)</td><td>This function determines if an item is not a member of an array or list.</td>
+        <td><a href="arrays-list.md#notin">Not in</a> (notIn)</td><td>This function determines if an item is not a member of an array or list.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>This function gets values from an array or list with duplicate values removed.</td>
+        <td><a href="arrays-list.md#distinct">Distinct</a> (distinct)</td><td>This function gets values from an array or list with duplicate values removed.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>This function determines if two arrays or lists have at least one common member</td>
+        <td><a href="arrays-list.md#intersects">Intersects</a> (intersects)</td><td>This function determines if two arrays or lists have at least one common member</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">Subset of</a>(subsetOf)</td><td>This function determines if a specific array (array A) is a subset of another array (array B), i.e. if all elements in array A are elements of array B</td>
+        <td><a href="arrays-list.md#subset">Subset of</a> (subsetOf)</td><td>This function determines if a specific array (array A) is a subset of another array (array B), i.e. if all elements in array A are elements of array B</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">First item</a>(head)</td><td>This function returns the first item in the array or list</td>
+        <td><a href="arrays-list.md#head">First item</a> (head)</td><td>This function returns the first item in the array or list</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">Last n in array</a>(lastN)</td><td>This function returns the last `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
+        <td><a href="arrays-list.md#last-n">Last n in array</a> (lastN)</td><td>This function returns the last `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
     </tr>
     <tr>
         <td>Sum</td><td></td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">First n in array</a>(topN)</td><td>This function returns the first `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
+        <td><a href="arrays-list.md#first-n">First n in array</a> (topN)</td><td>This function returns the first `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">Maximum</a>(max)</td><td>This function returns the largest of all the selected values within the array</td>
+        <td><a href="aggregation.md#max">Maximum</a> (max)</td><td>This function returns the largest of all the selected values within the array</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset of</td><td>This function termines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B.</td>
+    <td><a href="arrays-list.md#superset">Superset of</a> (supersetOf)</td><td>This function termines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B.</td>
     </tr>
 </table>
 
 
 **Map Functions**
 
-* [Get](maps.md#get)
-* [Keys](maps.md#keys)
-* [Values](maps.md#values)
+<table>
+    <tr>
+        <td><a href="maps.md#get">Get</a> (get)</td><td>This function is used to retrieve the value of a map for a given key</td>
+    </tr>
+    <tr>
+        <td><a href="maps.md#keys">Keys</a> (keys)</td><td>This function is used to retrieve all the keys for a given map</td>
+    </tr>
+    <tr>
+        <td><a href="maps.md#values">Values</a> (values)</td><td>This function retrieves all the values of a given map</td>
+    </tr>
+</table>
 
 **Object Functions**
 
