@@ -34,49 +34,49 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
  
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Average</a></td><td>The `average` function returns the arithmetic mean of all the selected values within the array</td>
+        <td><a href="aggregation.md#average">Average</a></td><td>This function returns the arithmetic mean of all the selected values within the array</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>The `in` function is used to determine if an item is a member of an array or list</td>
+        <td><a href="arrays-list.md#in">In</a></td><td>This function is used to determine if an item is a member of an array or list</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimum</a></td><td>The `min` function returns the smallest of all the selected values within the array</td>
+        <td><a href="aggregation.md#min">Minimum</a>(min)</td><td>This function returns the smallest of all the selected values within the array</td>
     </tr>
     <tr>
-        <td>[Count](aggregation.md#count)</td><td></td>
+        <td><a href="aggregation.md#count">Count</a></td><td>This function returns the number of elements within the given array</td>
     </tr>
     <tr>
-        <td>[Includes](arrays-list.md#includes)</td><td></td>
+        <td><a href="arrays-list.md#includes">Includes</a></td><td>This function determines if an array or list contains a given item</td>
     </tr>
     <tr>
-        <td>[Not in](arrays-list.md#notin) (notIn)</td><td></td>
+        <td><a href="arrays-list.md#notin">Not in</a>(notIn)</td><td>This function determines if an item is not a member of an array or list.</td>
     </tr>
     <tr>
-        <td>[Distinct](arrays-list.md#distinct)</td><td></td>
+        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>This function gets values from an array or list with duplicate values removed.</td>
     </tr>
     <tr>
-        <td>[Intersects](arrays-list.md#intersects)</td><td></td>
+        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>This function determines if two arrays or lists have at least one common member</td>
     </tr>
     <tr>
-        <td>[Subset of](arrays-list.md#subset)</td><td></td>
+        <td><a href="arrays-list.md#subset">Subset of</a>(subsetOf)</td><td>This function determines if a specific array (array A) is a subset of another array (array B), i.e. if all elements in array A are elements of array B</td>
     </tr>
     <tr>
-        <td>[First item](arrays-list.md#head) (head)</td><td></td>
+        <td><a href="arrays-list.md#head">First item</a>(head)</td><td>This function returns the first item in the array or list</td>
     </tr>
     <tr>
-        <td>[Last n in array](arrays-list.md#last-n) (lastN)</td><td></td>
+        <td><a href="arrays-list.md#last-n">Last n in array</a>(lastN)</td><td>This function returns the last `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
     </tr>
     <tr>
         <td>Sum</td><td></td>
     </tr>
     <tr>
-        <td>[First n in array](arrays-list.md#first-n) (topN)</td><td></td>
+        <td><a href="arrays-list.md#first-n">First n in array</a>(topN)</td><td>This function returns the first `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
     </tr>
     <tr>
-        <td>[Maximum](aggregation.md#maximum) (max)</td><td></td>
+        <td><a href="aggregation.md#max">Maximum</a>(max)</td><td>This function returns the largest of all the selected values within the array</td>
     </tr>
     <tr>
-    <td>[Superset of](arrays-list.md#superset)</td><td></td>
+    <td><a href="arrays-list.md#superset">Superset of</td><td>This function termines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B.</td>
     </tr>
 </table>
 
