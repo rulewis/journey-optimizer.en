@@ -196,7 +196,8 @@ equals({STRING_1},{STRING_2})
 The following query determines, with case sensitivity, if the person's name is "John".
 
 ```sql
-equals(person.name,"John")
+{%=equals(profile.person.name,"John")%}
+
 ```
 
 ## Not equal to{#notEqualTo}
@@ -219,7 +220,7 @@ notEqualTo({STRING_1},{STRING_2})
 The following query determines, with case sensitivity, if the person's name is not "John".
 
 ```sql
-notEqualTo(person.name,"John")
+{%=notEqualTo(profile.person.name,"John")%}
 ```
 
 ## Matches{#matches}

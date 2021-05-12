@@ -15,7 +15,7 @@ The `get` function is used to retrieve the value of a map for a given key.
 **Format**
 
 ```sql
-get({MAP},{STRING})
+{%={%= get(map, string)}%}
 ```
 
 **Example**
@@ -23,7 +23,7 @@ get({MAP},{STRING})
 The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
-get(identityMap,"example@example.com")
+{%={%= get(identityMap,"example@example.com")}%}
 ```
 
 ## Keys{#keys}
@@ -33,7 +33,7 @@ The `keys` function is used to retrieve all the keys for a given map.
 **Format**
 
 ```sql
-keys({MAP})
+{%={%= keys(map)}%}
 ```
 
 **Example**
@@ -41,7 +41,7 @@ keys({MAP})
 The following operation gets all the keys for the map `identityMap`.
 
 ```sql
-keys(identityMap)
+{%={%= keys(identityMap)}%}
 ```
 
 ## Values{#values}
@@ -51,7 +51,7 @@ The `values` function is used to retrieve all the values of a given map.
 **Format**
 
 ```sql
-values({MAP})
+{%={%= values(map)}%}
 ```
 
 **Example**
@@ -59,5 +59,5 @@ values({MAP})
 The following operation gets all the values for the map `identityMap`.
 
 ```sql
-values(identityMap)
+{%={%= values(identityMap)}%}
 ```
