@@ -114,30 +114,31 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
     <tr>
         <td><a href="string.md#doesNotEndWith">Does not end with</a> (doesNotEndWith)</td><td>This function is used to determine if a string does not end with a specified substring</td>
     </tr>
-        </tr>
     <tr>
         <td><a href="string.md#doesNotStartWith">Does not start with</a> (doesNotStartWith)</td><td>This function is used to determine if a string does not start with a specified substring</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">Encode64</a> ()</td><td>This function is used to</td>
+        <td><a href="string.md#encode64">Encode 64</a> (encode64)</td><td>This function is used to</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">Ends with</a> (endsWith)</td><td>This function is used to determine if a string ends with a specified substring</td>
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Equals</a> (=)</td><td>This function is used to determine if a string does not start with a specified substring, with case sensitivity</td>
+        <td><a href="string.md#equals">Equals</a> (equals)</td><td>This function is used to determine if a string does not start with a specified substring, with case sensitivity</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">EqualsIgnoreCase</a> ()</td><td>This function is used to determine if a string does not start with a specified substring, without case sensitivity</td>
+        <td><a href="string.md#equalsIgnoreCase">Equals Ignore Case</a> (equalsIgnoreCase)</td><td>This function is used to determine if a string does not start with a specified substring, without case sensitivity</td>
     </tr>
     <tr>
-        <td><a href="string.md#extractEmailDomain">extractEmailDomain</a> ()</td><td>This function is used to extract the domain of an email address</td>
+        <td><a href="string.md#extractEmailDomain">Extract Email Domain</a> (extractEmailDomain)</td><td>This function is used to extract the domain of an email address</td>
     </tr>
     <tr>
-        <td><a href="string.md#isEmpty">IsEmpty</a> ()</td><td>This function is used to check if a string or expression is empty.</td>
+        <td><a href="string.md#isEmpty">IsEmpty</a> (isEmpty)</td><td>This function is used to check if a string or expression is empty.</td>
     </tr>
-        </tr>
+    <tr>
+        <td><a href="string.md#leftTrim">Left trim</a>(leftTrim)</td><td>This function is used to </td>
+    </tr>
     <tr>
         <td><a href="string.md#length">Length</a> ()</td><td>This function is used to get the number of characters in a string or an expression</td>
     </tr>
@@ -146,7 +147,6 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
     </tr>
     <tr>
         <td><a href="string.md#lower">Lower Case</a> (lowerCase)</td><td>This function converts a string to lower case letters</td>
-    </tr>
     </tr>
     <tr>
         <td><a href="string.md#matches">Matches</a> (matches)</td><td>This function is used to determine if a string matches a specific regular expression</td>
@@ -157,7 +157,6 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
     <tr>
         <td><a href="string.md#notEqualTo">Not equal to</a> (notEqualsTo)</td><td>This function is used to determine if a string is not equal to the specified string</td>
     </tr>
-    </tr>
     <tr>
         <td><a href="string.md#regexGroup">Regular expression group</a> (regexGroup)</td><td>This function is used to extract specific information, based on the regular expression provided</td>
     </tr>
@@ -167,6 +166,8 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
     <tr>
         <td><a href="string.md#notEqualTo">Replace all</a> (replaceAll)</td><td>This function is used to</td>
     </tr>
+    <tr>
+        <td><a href="string.md#rightTrim">Right trim</a>(rightTrim)</td><td>This function is used to </td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Split</a> (split)</td><td>This function is used to</td>
@@ -176,7 +177,6 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Title Case</a> (titleCase)</td><td>This function is used to</td>
-    </tr>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Trim</a> (trim)</td><td>This function is used to</td>
