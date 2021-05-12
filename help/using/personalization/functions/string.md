@@ -10,7 +10,7 @@ Learn how to use String functions in the Expression Editor.
 
 ## Camel Case {#camelCase}
 
-The `camelCase` function
+The `camelCase` function capitalizes the first letter of each word of a string.
 
 **Format**
 
@@ -20,10 +20,10 @@ The `camelCase` function
 
 **Example**
 
-The following function
+The following function will capitalize the first letter of word in the profile's street address.
 
 ```sql
-{%= camelCase(string)%}
+{%= camelCase(profile.homeAddress.street) %}
 ```
 
 ## Concat {#concate}
@@ -33,7 +33,7 @@ The `concat` function combines two strings into one.
 **Format**
 
 ```sql
-{%= concat(string,string)%}
+{%= concat(string,string) %}
 ```
 
 **Example**
@@ -41,7 +41,7 @@ The `concat` function combines two strings into one.
 The following function will combine profile city and country in a single string.
 
 ```sql
-{%= concat(profile.homeAddress.city,profile.homeAddress.country)%}
+{%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
 ## Contains {#contains}
@@ -51,7 +51,7 @@ The `contains` function is used to determine if a string contains a specified su
 **Format**
 
 ```sql
-{%= contains(STRING_1, STRING_2, CASE_SENSITIVE)%}
+{%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
 ```
 
 | Argument | Description |
@@ -65,13 +65,13 @@ The `contains` function is used to determine if a string contains a specified su
 * The following function will check if the profile first name contains the letter A (in upper or lower case). If this is the case, it will return 'true', else it will return 'false'.
 
     ```sql
-    {%= contains(profile.person.name.firstName, "A", false)%}
+    {%= contains(profile.person.name.firstName, "A", false) %}
     ```
 
 * The following query determines, with case sensitivity, if the person's email address contains the string "2010@gm".
 
     ```sql
-    {%= contains(profile.person.emailAddress,"2010@gm")%}
+    {%= contains(profile.person.emailAddress,"2010@gm") %}
     ```
 
 ## Does not contain{#doesNotContain}
@@ -149,20 +149,12 @@ The following query determines, with case sensitivity, if the person's name does
 
 ## Encode 64{#encode64}
 
-The `encode64` function is used to 
+The `encode64` function is used to encode or decode a string.
 
 **Format**
 
 ```sql
-{%= encode64(string)%}
-```
-
-**Example**
-
-The following query
-
-```sql
-{%= 
+{%= encode64(string) %}
 ```
 
 ## Ends with{#endsWith}
@@ -274,7 +266,6 @@ The following function returns 'true' if the profile's mobile phone number is em
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-
 ## Left trim {#leftTrim}
 
 The `leftTrim` function is used to.
@@ -352,7 +343,6 @@ This function converts the profile first name to lower case letters.
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-
 ## Matches{#matches}
 
 The `matches` function is used to determine if a string matches a specific regular expression. Please refer to [this document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) for more information on matching patterns in regular expressions.
@@ -394,7 +384,6 @@ The following query determines, with case sensitivity, if the person's name is n
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-
 ## Regular expression group{#regexGroup}
 
 The `Group` function is used to extract specific information, based on the regular expression provided.
@@ -417,6 +406,24 @@ The following query is used to extract the domain name from an email address.
 
 ```sql
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
+```
+
+## Right trim {#rightTrim}
+
+The `rightTrim` function is used to.
+
+**Format**
+
+```sql
+{%= rightTrim(string) %}
+```
+
+**Example**
+
+The following function .
+
+```sql
+
 ```
 
 ## Starts with{#startsWith}
@@ -442,9 +449,6 @@ The following  query determines, with case sensitivity, if the person's name sta
 ```sql
 startsWith(person.name,"Joe")
 ```
-
-
-
 
 ## Upper Case{#upper}
 
