@@ -68,7 +68,7 @@ All the references are validated against Profile Schema with a validation mechan
 {%/if%}
 ```
 
-## Segments
+## Segments{#perso-segments}
 
 To learn more about segmentation and segmentation service, refer to this [section](../segment/about-segments.md).
 
@@ -129,7 +129,7 @@ All the references are validated against Offers Schema with a validation mechani
 ```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content``` 
 
 
-## Helpers
+## Helpers{#helpers-all}
 
 A Handlebars helper is a simple identifier that may be followed by parameters.
 Each parameter is a Handlebars expression. These helpers can be accessed from any context in a template.
@@ -227,6 +227,21 @@ The **#with** helper is useful to define a shortcut variable too.
 {{/with}}
 ```
 
+### Let{#let}
+
+The **let** function allows an expression to be stored as a variable to be used later in a query.
+
+```sql
+{% let variable = expression %} {{variable}}
+```
+
+Example:
+
+The following example lets all sums of product totals with the transaction in USD where the sum is greater than $100 and less than $1000.
+
+```sql
+{% let variable = expression %} {{variable}}
+```
 
 ## Limitations 
 

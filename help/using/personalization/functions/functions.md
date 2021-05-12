@@ -185,9 +185,13 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 ### Helpers{#helper-helper}
 
+Helpers are detailed in [this page](../personalization-syntax.md#helpers-all).
+
+Available helpers are:
+
 * Each - [Learn more](../personalization-syntax.md#each)
 * If  - [Learn more](../personalization-syntax.md#if)
-* Let - Learn more
+* Let - [Learn more](../personalization-syntax.md#let)
 * Unless  - [Learn more](../personalization-syntax.md#unless)
 * With  - [Learn more](../personalization-syntax.md#with)
 
