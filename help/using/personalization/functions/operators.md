@@ -43,6 +43,7 @@ The following operation will return all people with home country as France or bi
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985%}
 ```
+
 <!--
 ## Not{#not}
 
@@ -95,7 +96,7 @@ The following operation will add a link to the 'www.adobe.com/academia' website 
 {%/if%}
 ```
 
-You will find other samples in [this section](personalization-syntax.md#perso-segments).
+You will find other samples in [this section](../personalization-syntax.md#perso-segments).
 
 ## Equals{#equals}
 

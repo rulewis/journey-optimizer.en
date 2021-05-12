@@ -185,7 +185,7 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 ### Helpers{#helper-helper}
 
-Helpers are detailed in [this page](personalization-syntax.md#helpers-all).
+Helpers are detailed in [this page](../personalization-syntax.md#helpers-all).
 
 Available helpers are:
 
