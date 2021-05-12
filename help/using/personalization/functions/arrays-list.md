@@ -8,7 +8,7 @@ description: Functions library
 
 [!DNL Profile Query Language] (PQL) offers functions to make interaction with arrays, lists, and strings easier.
 
-## In
+## In{#in}
 
 The `in` function is used to determine if an item is a member of an array or list.
 
@@ -20,13 +20,13 @@ in ({VALUE},{ARRAY})
 
 **Example**
 
-The following PQL query defines people with birthdays in March, June, or September.
+The following operation defines people with birthdays in March, June, or September.
 
 ```sql
 in (person.birthMonth, [3, 6, 9])
 ```
 
-## Not in
+## Not in{#notin}
 
 The `notIn` function is used to determine if an item is not a member of an array or list.
 
@@ -42,13 +42,13 @@ notIn ({VALUE},{ARRAY})
 
 **Example**
 
-The following PQL query defines people with birthdays that are not in March, June, or September.
+The following operation defines people with birthdays that are not in March, June, or September.
 
 ```sql
-notIn (person.birthMonth ,[3, 6, 9])
+{%=notIn(person.birthMonth ,[3, 6, 9])%}
 ```
 
-## Intersects
+## Intersects{#intersects}
 
 The `intersects` function is used to determine if two arrays or lists have at least one common member.
 
@@ -60,13 +60,13 @@ intersects({ARRAY},{ARRAY})
 
 **Example**
 
-The following PQL query defines people whose favorite colors include at least one of red, blue, or green.
+The following operation defines people whose favorite colors include at least one of red, blue, or green.
 
 ```sql
-intersects(person.favoriteColors,["red", "blue", "green"])
+{%=intersects(person.favoriteColors,["red", "blue", "green"])%}
 ```
 
-## Intersection
+<!-- ## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -78,13 +78,14 @@ intersection({ARRAY},{ARRAY})
 
 **Example**
 
-The following PQL query defines if person 1 and person 2 both have favorite colors of red, blue, and green.
+The following operation defines if person 1 and person 2 both have favorite colors of red, blue, and green.
 
 ```sql
 intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
 ```
+--> 
 
-## Subset of
+## Subset of{#subset}
 
 The `subsetOf` function is used to determine if a specific array (array A) is a subset of another array (array B). In other words, that all elements in array A are elements of array B.
 
@@ -96,13 +97,13 @@ subsetOf({ARRAY},{ARRAY})
 
 **Example**
 
-The following PQL query defines people who have visited all of their favorite cities.
+The following operation defines people who have visited all of their favorite cities.
 
 ```sql
-subsetOf(person.favoriteCities,person.visitedCities)
+{%=subsetOf(person.favoriteCities,person.visitedCities)%}
 ```
 
-## Superset of
+## Superset of{#superset}
 
 The `supersetOf` function is used to determine if a specific array (array A) is a superset of another array (array B). In other words, that array A contains all elements in array B.
 
@@ -114,13 +115,13 @@ supersetOf({ARRAY},{ARRAY})
 
 **Example**
 
-The following PQL query defines people who have eaten sushi and pizza at least once.
+The following operation defines people who have eaten sushi and pizza at least once.
 
 ```sql
-supersetOf(person.eatenFoods,["sushi", "pizza"])
+{%=supersetOf(person.eatenFoods,["sushi", "pizza"]%}
 ```
 
-## Includes
+## Includes{#includes}
 
 The `includes` function is used to determine if an array or list contains a given item.
 
@@ -132,15 +133,15 @@ includes({ARRAY},{ITEM})
 
 **Example**
 
-The following PQL query defines people whose favorite color includes red.
+The following operation defines people whose favorite color includes red.
 
 ```sql
-includes(person.favoriteColors,"red")
+{%=includes(person.favoriteColors,"red")%}
 ```
 
-## Distinct
+## Distinct{#distinct}
 
-The `distinct` function is used to remove duplicate values from an array or list.
+The `distinct` function is used to get values from an array or list with duplicate values removed.
 
 **Format**
 
@@ -150,10 +151,10 @@ distinct({ARRAY})
 
 **Example**
 
-The following PQL query specifies people who have placed orders in more than one store.
+The following operation specifies people who have placed orders in more than one store.
 
 ```sql
-distinct(person.orders.storeId).count() > 1
+{%=distinct(person.orders.storeId).count() > 1%}
 ```
 
 ## First `n` in array {#first-n}
@@ -174,13 +175,13 @@ topN({ARRAY},{VALUE}, {AMOUNT})
 
 **Example**
 
-The following PQL query returns the top five orders with the highest price.
+The following operation returns the top five orders with the highest price.
 
 ```sql
-topN(orders,price, 5)
+{%=topN(orders,price, 5)%}
 ```
 
-## Last `n` in array
+## Last `n` in array{#last-n}
 
 The `bottomN` function is used to return the last `N` items in an array, when sorted in ascending order based on the given numerical expression.
 
@@ -198,13 +199,13 @@ bottomN({ARRAY},{VALUE}, {AMOUNT})
 
 **Example**
 
-The following PQL query returns the top five orders with the lowest price.
+The following operation returns the top five orders with the lowest price.
 
 ```sql
-bottomN(orders,price, 5)
+{%=bottomN(orders,price, 5)%
 ```
 
-## First item
+## First item{#head}
 
 The `head` function is used to return the first item in the array or list.
 
@@ -216,8 +217,8 @@ head({ARRAY})
 
 **Example**
 
-The following PQL query returns the first of the top five orders with the highest price. More information about the `topN` function can be found in the [first `n` in array](#first-n) section.
+The following operation returns the first of the top five orders with the highest price. More information about the `topN` function can be found in the [first `n` in array](#first-n) section.
 
 ```sql
-head(topN(orders,price, 5))
+{%=head(topN(orders,price, 5))%}
 ```

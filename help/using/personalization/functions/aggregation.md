@@ -8,7 +8,7 @@ description: Functions library
 
 Aggregation functions are used to group together multiple values within [!DNL Profile Query Language] (PQL) arrays to form a single summary value.
 
-## Count
+## Count{#count}
 
 The `count` function returns the number of elements within the given array.
 
@@ -20,13 +20,13 @@ count({ARRAY})
 
 **Example**
 
-The following PQL query returns the number of orders in the array.
+The following operation returns the number of orders in the array.
 
 ```sql
-count(orders)
+{%=count(orders)%}
 ```
 
-## Sum
+## Sum{#sum}
 
 The `sum` function returns the sum of all the selected values within the array.
 
@@ -38,13 +38,13 @@ sum({ARRAY})
 
 **Example**
 
-The following PQL query returns the sum of all the orders' prices.
+The following operation returns the sum of all the orders' prices.
 
 ```sql
-sum(orders.order.price)
+{%=sum(orders.order.price)%}
 ```
 
-## Average
+## Average{#average}
 
 The `average` function returns the arithmetic mean of all the selected values within the array.
 
@@ -56,13 +56,13 @@ average({ARRAY})
 
 **Example**
 
-The following PQL query returns the average price of all the orders.
+The following operation returns the average price of all the orders.
 
 ```sql
-average(orders.order.price)
+{%=average(orders.order.price)%}
 ```
 
-## Minimum
+## Minimum{#min}
 
 The `min` function returns the smallest of all the selected values within the array.
 
@@ -74,13 +74,13 @@ min({ARRAY})
 
 **Example**
 
-The following PQL query returns the lowest price of all the orders.
+The following operation returns the lowest price of all the orders.
 
 ```sql
-min(orders.order.price)
+{%=min(orders.order.price)%}
 ```
 
-## Maximum
+## Maximum{#max}
 
 The `max` function returns the largest of all the selected values within the array.
 
@@ -92,8 +92,8 @@ max({ARRAY})
 
 **Example**
 
-The following PQL query returns the highest price of all the orders.
+The following operation returns the highest price of all the orders.
 
 ```sql
-max(orders.order.price)
+{%=max(orders.order.price)%}
 ```

@@ -6,7 +6,7 @@ description: Functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Is null
+## Is null{#isNull}
 
 The `isNull` function determines if an object reference does not exist.
 
@@ -18,13 +18,13 @@ isNull({OBJECT})
 
 **Example**
 
-The following PQL query checks if the person's home address does not exist.
+The following operation checks if the person's home address does not exist.
 
 ```sql
 isNull(person.homeAddress)
 ```
 
-## Is not null
+## Is not null{#isNotNull}
 
 The `isNotNull` function determines if an object reference exists.
 
@@ -36,7 +36,7 @@ isNotNull({OBJECT})
 
 **Example**
 
-The following PQL query checks if the person's home address exists.
+The following operation checks if the person's home address exists.
 
 ```sql
 isNotNull(person.homeAddress)
