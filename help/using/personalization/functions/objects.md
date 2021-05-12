@@ -13,7 +13,7 @@ The `isNull` function determines if an object reference does not exist.
 **Format**
 
 ```sql
-{%={%= isNull(object)}%}
+{%= isNull(object)%}
 ```
 
 **Example**
@@ -21,7 +21,7 @@ The `isNull` function determines if an object reference does not exist.
 The following operation checks if the person's home address does not exist.
 
 ```sql
-{%={%= isNull(person.homeAddress)}%}
+{%= isNull(person.homeAddress)%}
 ```
 
 ## Is not null{#isNotNull}
@@ -31,7 +31,7 @@ The `isNotNull` function determines if an object reference exists.
 **Format**
 
 ```sql
-{%={%= isNotNull(object)}%}
+{%= isNotNull(object)%}
 ```
 
 **Example**
@@ -39,5 +39,5 @@ The `isNotNull` function determines if an object reference exists.
 The following operation checks if the person's home address exists.
 
 ```sql
-{%={%= isNotNull(person.homeAddress)}%}
+{%= isNotNull(person.homeAddress)%}
 ```
