@@ -6,7 +6,7 @@ description: Functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-Aggregation functions are used to group together multiple values within [!DNL Profile Query Language] (PQL) arrays to form a single summary value.
+Aggregation functions are used to group together multiple values to form a single summary value.
 
 ## Count{#count}
 
@@ -15,7 +15,7 @@ The `count` function returns the number of elements within the given array.
 **Format**
 
 ```sql
-count({ARRAY})
+{%= count(array) %}
 ```
 
 **Example**
@@ -23,7 +23,7 @@ count({ARRAY})
 The following operation returns the number of orders in the array.
 
 ```sql
-{%=count(orders)%}
+{%= count(orders) %}
 ```
 
 ## Sum{#sum}
@@ -33,7 +33,7 @@ The `sum` function returns the sum of all the selected values within the array.
 **Format**
 
 ```sql
-sum({ARRAY})
+{%= sum(array) %}
 ```
 
 **Example**
@@ -51,7 +51,7 @@ The `average` function returns the arithmetic mean of all the selected values wi
 **Format**
 
 ```sql
-average({ARRAY})
+{%= average(array) %}
 ```
 
 **Example**
@@ -69,7 +69,7 @@ The `min` function returns the smallest of all the selected values within the ar
 **Format**
 
 ```sql
-min({ARRAY})
+{%= min(array) %}
 ```
 
 **Example**
@@ -87,7 +87,7 @@ The `max` function returns the largest of all the selected values within the arr
 **Format**
 
 ```sql
-max({ARRAY})
+{%= max(array) %}
 ```
 
 **Example**
