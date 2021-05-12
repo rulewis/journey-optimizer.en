@@ -141,7 +141,7 @@ The `>` (greater than) function is used to check if the first value is greater t
 **Format**
 
 ```sql
-{%= expression1 > expression2}%}
+{%= expression1 > expression2%}
 ```
 
 **Example**
@@ -159,7 +159,7 @@ The `>=` (greater than or equal to) function is used to check if the first value
 **Format**
 
 ```sql
-{%= expression1 >= expression2}%}
+{%= expression1 >= expression2%}
 ```
 
 **Example**
@@ -177,7 +177,7 @@ The `<` (less than) comparison function is used to check if the first value is l
 **Format**
 
 ```sql
-{%= expression1 < expression2}%}
+{%= expression1 < expression2%}
 ```
 
 **Example**
@@ -195,7 +195,7 @@ The `<=` (less than or equal to) comparison function is used to check if the fir
 **Format**
 
 ```sql
-{%= expression1 <= expression2}%}
+{%= expression1 <= expression2%}
 ```
 
 **Example**
@@ -215,7 +215,7 @@ The `+` (addition) function is used to find the sum of two argument expressions.
 **Format**
 
 ```sql
-{%={%= double + double}%}
+{%= double + double%}
 ```
 
 **Example**
@@ -223,7 +223,7 @@ The `+` (addition) function is used to find the sum of two argument expressions.
 The following operation sums the price of two different products.
 
 ```sql
-{%={%= product1.price + product2.price}%}
+{%= product1.price + product2.price%}
 ```
 
 ## Multiply{#multiply}
@@ -233,7 +233,7 @@ The `*` (multiplication) function is used to find the product of two argument ex
 **Format**
 
 ```sql
-{%={%= double * double}%}
+{%= double * double%}
 ```
 
 **Example**
@@ -241,7 +241,7 @@ The `*` (multiplication) function is used to find the product of two argument ex
 The following operation finds the product of the inventory and the price of a product to find the gross value of the product.
 
 ```sql
-{%={%= product.inventory * product.price}%}
+{%= product.inventory * product.price%}
 ```
 
 ## Subtract{#substract}
@@ -251,7 +251,7 @@ The `-` (subtraction) function is used to find the difference of two argument ex
 **Format**
 
 ```sql
-{%={%= double - double}%}
+{%= double - double%}
 ```
 
 **Example**
@@ -259,7 +259,7 @@ The `-` (subtraction) function is used to find the difference of two argument ex
 The following operation finds the difference in price between two different products.
 
 ```sql
-{%={%= product1.price - product2.price}%}
+{%= product1.price - product2.price%}
 ```
 
 ## Divide{#divide}
@@ -269,7 +269,7 @@ The `/` (division) function is used to find the quotient of two argument express
 **Format**
 
 ```sql
-{%={%= double / double}%}
+{%= double / double%}
 ```
 
 **Example**
@@ -277,7 +277,7 @@ The `/` (division) function is used to find the quotient of two argument express
 The following operation finds the quotient between the total products sold and total money earned to see the average cost per item.
 
 ```sql
-{%={%= totalProduct.price / totalProduct.sold}%}
+{%= totalProduct.price / totalProduct.sold%}
 ```
 
 ## Remainder{#remainder}
@@ -287,7 +287,7 @@ The `%` (modulo/remainder) function is used to find the remainder after dividing
 **Format**
 
 ```sql
-{%={%= double % double}%}
+{%= double % double%}
 ```
 
 **Example**
@@ -295,5 +295,5 @@ The `%` (modulo/remainder) function is used to find the remainder after dividing
 The following operation checks if the person's age is divisible by five.
 
 ```sql
-{%={%= person.age % 5 = 0}%}
+{%= person.age % 5 = 0%}
 ```
