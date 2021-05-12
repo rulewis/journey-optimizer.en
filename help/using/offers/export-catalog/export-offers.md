@@ -234,6 +234,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         **Title:** Namespace
         **Description:** The namespace associated with the `xid` attribute.
         **Type:** object
+        **Required:** "code"
 
         * **Code**
         
@@ -249,7 +250,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         **Description:** When present, this value represents a cross-namespace identifier that is unique across all namespace-scoped identifiers in all namespaces.
         **Type:** string
 
-#### Ranking Details
+#### ranking
 
 **Field:** ranking
 **Title:** Ranking Details
@@ -294,7 +295,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Minimum value:** 0
     **Default value:** 0
 
-#### Tags
+#### tags
 
 **Field:** tags
 **Title:** Tags
