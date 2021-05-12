@@ -1,6 +1,7 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Get Started with Assets Essentials
+exl-id: 506e301a-4417-4963-a059-2955b4f8e7cf
 ---
 # Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
 
@@ -10,7 +11,7 @@ description: Get Started with Assets Essentials
 
 [!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. It can be accessed directly from [!DNL Adobe Journey Optimizer] through the **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content. [Learn more about email design](design-emails.md).
 
-You need specific permissions to access the [!DNL Adobe Experience Manager Assets Essentials]. [Learn more about permissions for the Adobe Experience Manager Assets Essentials](permissions.md#assets-permissions).
+<!--You need specific permissions to access the [!DNL Adobe Experience Manager Assets Essentials]. Learn more about permissions for the Adobe Experience Manager Assets Essentials.-->
 
 ## Upload assets{#add-asset}
 
@@ -97,6 +98,32 @@ Following actions are available in the toolbar:
 
 When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
 
-For more information on how to share access to your folders, refer to this [page](permissions.md#assets-permissions).
+For more information on how to share access to your folders, refer to this [page](#assets-permissions).
 
+### Assets permissions {#assets-permissions}
+
+The Media library provides a single, centralized repository of assets that you can use to populate your messages.
+Each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
+
+1. From the **[!UICONTROL Assets]** tab, navigate through your folders to find the one you need to share.
+
+1. Select your folder or asset and click **[!UICONTROL Share]**.
+
+    ![](assets/share_media_1.png)
+
+1. Enter the email address of the different person you want to share access to your folder with.
+
+1. Choose between the different access level:
+
+    * **[!UICONTROL Can view]**
+    * **[!UICONTROL Can edit]**
+    * **[!UICONTROL Has ownership (can share, edit, and delete)]**
+
+    ![](assets/share_media_2.png)
+
+1. Add a message to your invite if needed.
+
+1. Click **[!UICONTROL Invite]**.
+
+    ![](assets/share_media_3.png)
 -->

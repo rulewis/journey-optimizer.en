@@ -15,7 +15,6 @@ hide: yes
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
-  + [Manage permissions](using/permissions.md)
   + [Known issues](using/known-issues.md)
 + Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
@@ -214,3 +213,11 @@ hide: yes
     + Action configuration {#action-journeys}
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
+  + Administration {#administration}
+    + [Technical settings](using/administration/administration.md)
+    + Access control {#access-control}
+      + [Access control overview](using/administration/permissions-overview.md)
+      + [Manage users and product profiles](using/administration/permissions.md)
+      + [Built-in product profiles](using/administration/ootb-product-profiles.md)
+      + [Permission levels](using/administration/high-low-permissions.md)
+      + [Sandboxes management](using/administration/sandboxes.md)
