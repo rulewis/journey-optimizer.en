@@ -75,6 +75,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     **Field:** components
     **Description:** The components of the content representing the decision option, including all their language variants. Specific components are found by 'dx:format', 'dc:subject' and 'dc:language' or a combination thereof. This metadata is used to locate or represent the content that is associated with an offer and integrate it according to the placement contract.
     **Type:** array
+    **Required:** "_type", "_dc" <!--TBC?-->
 
     * **Content Component Type**
 
@@ -82,7 +83,6 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         **Title:** Content Component Type
         **Description:** An enumerated set of URIs where each value maps to a type given to the content component. Some consumers of the content representations are expecting the @type value to be a reference to the schema that describes additional properties of the content component.
         **Type:** string
-        **Required:** "_type", "_dc"
 
     * **_dc**
 
@@ -133,9 +133,9 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
         * **resolveURL**
         
             **Field:** resolveURL
-            **Description:** An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset whithout the client understanding where the asset is managed and what APIs to call. This is similar to a HAL link, but the semantic is simpler and more pursposeful.
+            **Description:** An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset whithout the client understanding where the asset is managed and what APIs to call. This is similar to a HAL link, but the semantic is simpler and more purposeful.
             **Type:** string
-            **Example:** "https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot"
+            **Example:** "https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;"
 
     * **content**
     
@@ -175,8 +175,9 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 #### Decision Option Name
 
+**Field:** name
 **Title:** Decision Option Name
-**Description:** Option name. The name is displayed in various user interfaces.
+**Description:** Option name that is displayed in various user interfaces.
 **Type:** string
 
 #### profileConstraints
@@ -302,11 +303,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Description:** The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a subset (category).
 **Type:** array
 
-* **items**
-
-    **Field:** items
-    **Description:** An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag.
-    **Type:** string
+<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 ## _repo
 
@@ -316,7 +313,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 ### Decision Option ETag
 
 **Field:** etag
-**Type:** Decision Option ETag
+**Title:** Decision Option ETag
 **Description:** The revision that the decision option object was at when the snapshot was taken.
 **Type:** string
 
