@@ -28,15 +28,11 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 ## _experience
 
 **Field:** _experience
-**Title:** 
-**Description:** 
 **Type:** object
 
 ### decisioning
 
 **Field:** decisioning
-**Title:** 
-**Description:** 
 **Type:** object
 
 #### calendarConstraints 
@@ -70,18 +66,13 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 #### contents
 
 **Field:** contents
-**Title:** 
+**Title:** Content Details
 **Description:** Content items to render the decision item in different contexts. A single decision option can have multiple contents variants. Content is information that is directed towards an audience for consumption in a (digital) experience. Content is delivered through channels into a particular placement.
 **Type:** array
-
-**Content Details**. 
-
-Type: array
 
 * **components**
 
     **Field:** components
-    **Title:** 
     **Description:** The components of the content representing the decision option, including all their language variants. Specific components are found by 'dx:format', 'dc:subject' and 'dc:language' or a combination thereof. This metadata is used to locate or represent the content that is associated with an offer and integrate it according to the placement contract.
     **Type:** array
 
@@ -91,219 +82,242 @@ Type: array
         **Title:** Content Component Type
         **Description:** An enumerated set of URIs where each value maps to a type given to the content component. Some consumers of the content representations are expecting the @type value to be a reference to the schema that describes additional properties of the content component.
         **Type:** string
+        **Required:** "_type", "_dc"
 
     * **_dc**
 
         **Field:** _dc
-        **Title:**
-        **Description:** 
         **Type:** object
+        **Required:** "format"
 
         * **Format**
             
             **Field:** format
             **Title:** Format
-            **Description:** The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](http://www.iana.org/ assignments/media-types/) defining computer media formats).
-
+            **Description:** The physical or digital manifestation of the resource. Typically, Format should include the media-type of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of [Internet Media Types](http://www.iana.org/assignments/media-types/) defining computer media formats).
             **Type:** string
-
-            Example: "application/vnd.adobe.photoshop"
+            **Example:** "application/vnd.adobe.photoshop"
 
         * **Language**
-            The language or languages of the resource.\nLanguages are specified in language code as defined in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), which is part of BCP 47, which is used elsewhere in XDM.
-
-            Type: string
-
-            Examples: "/n", "pt-BR", "es-ES"
+            **Field:** language
+            **Title:** Language
+            **Description:** The language or languages of the resource. \nLanguages are specified in language code as defined in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), which is part of BCP 47, which is used elsewhere in XDM.
+            **Type:** array
+            **Examples:** "\n", "pt-BR", "es-ES"
 
     * **_repo**
 
+        **Field:** _repo
+        **Type:** object
+
         * **id**
         
-            An optional unique identifier to reference the asset in a content repository. When Platform APIs are used to retrieve the representation the client can expect an addtional propery \"repo:resolveUrl\" to retrieve the asset.
-
-            Type: string
+            **Field:** id
+            **Description:** An optional unique identifier to reference the asset in a content repository. When Platform APIs are used to retrieve the representation, the client can expect an additional property \"repo:resolveUrl\" to retrieve the asset.
+            **Type:** string
+            **Example:** "urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e"
 
         * **name**
             
-            Some hint about where to locate the repository that stores the external asset by the \"repo:id\".
-            
-            Type: string
+            **Field:** name
+            **Description:** Some hint about where to locate the repository that stores the external asset by the \"repo:id\".
+            **Type:** string
 
         * **repositoryID**
 
-            An optional unique identifier to reference the asset in a content repository. When Platform APIs are used to retrieve the representation the client can expect an addtional propery \"repo:resolveUrl\" to retrieve the asset.
-
-            Type: string
-
-            Example: "C87932A55B06F7070A49412D@AdobeOrg"
-
-            | Field | Title | Description | Type | Example |
-            |--- |--- |--- |--- |
-            | _id| Identifier | A unique identifier for the record. | string |
+            **Field:** repositoryID
+            **Description:** An optional unique identifier to reference the asset in a content repository. When Platform APIs are used to retrieve the representation, the client can expect an additional property \"repo:resolveUrl\" to retrieve the asset.
+            **Type:** string
+            **Example:** "C87932A55B06F7070A49412D@AdobeOrg"
 
         * **resolveURL**
         
-            An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset whithout the client understanding where the asset is manages and what APIs to call. This is similar to a HAL link but the semantic is simpler and more pursposeful.
-
-            Type: string
-
-            Example: "https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot"
+            **Field:** resolveURL
+            **Description:** An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset whithout the client understanding where the asset is managed and what APIs to call. This is similar to a HAL link, but the semantic is simpler and more pursposeful.
+            **Type:** string
+            **Example:** "https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot"
 
     * **content**
     
-        An optional field to hold content directly. Instead of referencing content in an asset repository the component can hold simple content directly. This field is not used for composite, complex and binary content assets.
-
-        Type: string
+        **Field:** content
+        **Description:** An optional field to hold content directly. Instead of referencing content in an asset repository, the component can hold simple content directly. This field is not used for composite, complex and binary content assets.
+        **Type:** string
 
     * **deliveryURL**
     
-        An optional unique resource locator to obtain the asset from a content delivery network or service endpoint. This URL is used to access the asset publicly by a user agent.
-    
-        Type: string
-    
-        Example: "https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg"
+        **Field:** deliveryURL
+        **Description:** An optional unique resource locator to obtain the asset from a content delivery network or service endpoint. This URL is used to access the asset publicly by a user agent.
+        **Type:** string
+        **Example:** "https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg"
 
     * **linkURL**
         
-        An optional unique resource locator for user interactions. This URL is used to refer the end user to in a user agent and can be tracked.
-        
-        Type: string
-        
-        Example: "https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg
+        **Field:** linkURL
+        **Description:** An optional unique resource locator for user interactions. This URL is used to refer the end user to in a user agent and can be tracked.
+        **Type:** string
+        **Example:** "https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg"
 
 * **Placement**
 
-    Placement to comply with. The value is the URI (@id) of the offer placement that is referenced. See schema https://ns.adobe.com/experience/decisioning/placement.
+    **Field:** placement
+    **Title:** Placement
+    **Description:** Placement to comply with. The value is the URI (@id) of the offer placement that is referenced. See schema https://ns.adobe.com/experience/decisioning/placement.
+    **Type:** string
 
 #### Lifecycle Status
 
-Lifecycle status allows workflows to be conducted with an object. The status may affect where an object is visible or considered relevant. Status changes are driven by the clients or services that use the objects.
-Type: string
-Possible values: Draft, Approved, Live, Completed, Archived
+**Field:** lifecycleStatus
+**Title:** Lifecycle Status
+**Description:** Lifecycle status allows workflows to be conducted with an object. The status may affect where an object is visible or considered relevant. Status changes are driven by the clients or services that use the objects.
+**Type:** string
+**Possible values:** "Draft", "Approved", "Live", "Completed", "Archived"
+**Default value:** "Draft"
 
 #### Decision Option Name
 
-Option name. The name is displayed in various user interfaces.
-Type: string
+**Title:** Decision Option Name
+**Description:** Option name. The name is displayed in various user interfaces.
+**Type:** string
 
-#### Profile Constraint Details
+#### profileConstraints
 
-The profile constraints decide if an option is eligible for this profile identity, at this moment, in this context. If the profile constraint does not need to consider values of each of the option, i.e. it is invariant of the options from the option selection, the profile constraint that evaluates to 'false' cancels out the entire option selection. On the other hand, a profile constraint rule that takes an option as a parameter is evaluated for each qualifiying option of the option selection.
-Type: object
+**Field:** profileConstraints
+**Title:** Profile Constraint Details
+**Description:** The profile constraints decide if an option is eligible for this profile identity, at this moment, in this context. If the profile constraint does not need to consider values of each of the option, i.e. it is invariant of the options from the option selection, the profile constraint that evaluates to 'false' cancels out the entire option selection. On the other hand, a profile constraint rule that takes an option as a parameter is evaluated for each qualifiying option of the option selection.
+**Type:** object
 
 * **Description**
 
-    Profile constraint description. It is used to convey human readable intentions on how or why this profile constraint was constructed and/or what option will be included or excluded by it.
-    Type: string
+    **Field:** description
+    **Title:** Description
+    **Description:** Profile constraint description. It is used to convey human readable intentions on how or why this profile constraint was constructed and/or what option will be included or excluded by it.
+    **Type:** string
 
 * **Eligibility Rule**
 
-    A reference to a decision rule that evaluates to true or false for a given profile and/or other given contextual XDM objects. The rule is used to decide if the option qualifies for a given profile. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/rule.
-
-    Type: string
+    **Field:** eligibilityRule
+    **Title:** Eligibility Rule
+    **Description:** A reference to a decision rule that evaluates to true or false for a given profile and/or other given contextual XDM objects. The rule is used to decide if the option qualifies for a given profile. The value is the URI (@id) of the decision rule that is referenced. See schema https://ns.adobe.com/experience/decisioning/rule.
+    **Type:** string
 
 * **Profile Constraint Type**
 
-    Determines if any constraints are currently set and how the contraints are expressed. It could be though a rule or through one or more segment memberships.
-    Type: string
-    Possible values:
-
-    * none
-
-    * "eligibilityRule": "The profile constraint is expressed as a single rule that must evaluate to true before the constrained action is allowed",
-
-    * "Any Segments": "The profile constraint is expressed as one or more segments and the profile must be a member of at least one of them before the constrained action is allowed",
-
-    * "All Segments": "The profile constraint is expressed as one or more segments and the profile must be a member of all of them before the constrained action is allowed",
-
-    * "rules": "The profile constraint is expressed as a number of different rules, e.g. eligibility, applicability, suitability, which all must evaluate to true before the constrained action is allowed"
+    **Field:** profileConstraintType
+    **Title:** Profile Constraint Type
+    **Description:** Determines if any constraints are currently set and how the contraints are expressed. It could be through a rule or through one or more segment memberships.
+    **Type:** string
+    **Possible values:**
+    * "none"
+    * "eligibilityRule": "The profile constraint is expressed as a single rule that must evaluate to true before the constrained action is allowed."
+    * "anySegments": "The profile constraint is expressed as one or more segments and the profile must be a member of at least one of them before the constrained action is allowed."
+    * "allSegments": "The profile constraint is expressed as one or more segments and the profile must be a member of all of them before the constrained action is allowed."
+    * "rules": "The profile constraint is expressed as a number of different rules, e.g. eligibility, applicability, suitability, which all must evaluate to true before the constrained action is allowed."
+    **Default value:** "none"
 
 * **Segment Identifiers**
 
-    Identifiers of the segments
+    **Field:** segmentIdentities
+    **Title:** Segment Identifiers
+    **Description:** Identifiers of the segments
+    **Type:** array
 
    * **Identifier**
         
-        Identity of the segment in the related namespace.
-        
-        Type: string
+        **Field:** _id
+        **Title:** Identifier
+        **Description:** Identity of the segment in the related namespace.
+        **Type:** string
 
     * **Namespace**
-    
-        The namespace associated with the `xid` attribute.
-        
-        Type: object
+
+        **Field:** namespace
+        **Title:** Namespace
+        **Description:** The namespace associated with the `xid` attribute.
+        **Type:** object
 
         * **Code**
         
-            The code is a human readable identifier for the namespace and can be used to request the technical namespace id which is used for identity graph processing.
-        
-            Type: string
+            **Field:** code
+            **Title:** Code
+            **Description:** The code is a human readable identifier for the namespace and can be used to request the technical namespace id which is used for identity graph processing.
+            **Type:** string
 
     * **Experience identifier**
     
-        When present, this value represents a cross-namespace identifier that is unique across all namespace-scoped identifiers in all namespaces.
-
-        Type: string
+        **Field:** xid
+        **Title:** Experience identifier
+        **Description:** When present, this value represents a cross-namespace identifier that is unique across all namespace-scoped identifiers in all namespaces.
+        **Type:** string
 
 #### Ranking Details
 
-Rank (priority). Defines what is considered the \"best action\" given the context of the decision criterion. Among all the selected options that meet the eligibility constraint, the ranking order will decide the top (or top N) option(s) to be proposed.
-
-Type: object
+**Field:** ranking
+**Title:** Ranking Details
+**Description:** Rank (priority). Defines what is considered the \"best action\" given the context of the decision criterion. Among all the selected options that meet the eligibility constraint, the ranking order will decide the top (or top N) option(s) to be proposed.
+**Type:** object
 
 * **Order Evaluation**
 
-    Evaluation of a relative order of one or more decision options. Options with higher ordinal values are selected over any options with lower ordinal values. The values determined by this method can be ordered but distances between them cannot be measured and neither can sums nor products be calculated. The median and the mode are the only measures of central tendency that can be used for ordinal data.
-    
-    Type: object
+    **Field:** order
+    **Title:** Order Evaluation
+    **Description:** Evaluation of a relative order of one or more decision options. Options with higher ordinal values are selected over any options with lower ordinal values. The values determined by this method can be ordered but distances between them cannot be measured and neither can sums nor products be calculated. The median and the mode are the only measures of central tendency that can be used for ordinal data.
+    **Type:** object
 
     * **Scoring Function**
         
-        A reference to a function that computes a numerical score for this decision option. Decision options will then be ordered (ranked) by that score. The value of this property is the URI (@id) of the function to be invoked with on option at a time. See schema https://ns.adobe.com/experience/decisioning/function.
-        
-        Type: string
+        **Field:** function
+        **Title:** Scoring Function
+        **Description:** A reference to a function that computes a numerical score for this decision option. Decision options will then be ordered (ranked) by that score. The value of this property is the URI (@id) of the function to be invoked with on option at a time. See schema https://ns.adobe.com/experience/decisioning/function.
+        **Type:** string
 
     * **Order Evaluation Type**
         
-        Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a  numeric value for every option or a ranking strategy that receives a list to order it.
-        
-        Type: string
-        
-        Possible values: "static", "scoringFunction", "rankingStrategy" <!--(TBC)-->
+        **Field:** orderEvaluationType
+        **Title:** Order Evaluation Type
+        **Description:** Specifies which order evaluation mechanism is used, static priority of the decision options, a scoring function that calculates a  numeric value for every option or a ranking strategy that receives a list to order it.
+        **Type:** string
+        **Possible values:** "static", "scoringFunction", "rankingStrategy"
 
     * **Ranking Strategy**
         
-        A reference to a strategy that ranks a list of decision option. Decision options will be returned in an ordered list. The value of this property is the URI (@id) of the function to be invoked with on option at a time. See schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-        
-        Type: string
+        **Field:** rankingStrategy
+        **Title:** Ranking Strategy
+        **Description:** A reference to a strategy that ranks a list of decision option. Decision options will be returned in an ordered list. The value of this property is the URI (@id) of the function to be invoked with on option at a time. See schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+        **Type:** string
 
 * **Priority**
     
-    The priority of a single decision option relative to all other options. Options for which no order function is given are prioritized using this propery. Options with higher priority values are selected before any lower priority options. If two or more qualifying options share the highest priority value, one is chosen at uniform random and used for the decision proposition.
-    
-    Type: integer
-    
-    Minimum value: 0
-    
-    Default value: 0
+    **Field:** priority
+    **Title:** Priority
+    **Description:** The priority of a single decision option relative to all other options. Options for which no order function is given are prioritized using this propery. Options with higher priority values are selected before any lower priority options. If two or more qualifying options share the highest priority value, one is chosen at uniform random and used for the decision proposition.
+    **Type:** integer
+    **Minimum value:** 0
+    **Default value:** 0
 
 #### Tags
 
-The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a sub set (category).
+**Field:** tags
+**Title:** Tags
+**Description:** The set of tags associated with this entity. The tags are used in filter expressions to constrain the overall inventory to a subset (category).
+**Type:** array
 
 * **items**
 
-    An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag.
+    **Field:** items
+    **Description:** An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag.
+    **Type:** string
 
 ## _repo
+
+**Field:** _repo
+**Type:** object
     
 ### Decision Option ETag
 
-The revision that the decision option object was at when the snapshot was taken.
-
-Type: string
+**Field:** etag
+**Type:** Decision Option ETag
+**Description:** The revision that the decision option object was at when the snapshot was taken.
+**Type:** string
 
 
 
