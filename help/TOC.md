@@ -126,6 +126,9 @@ hide: yes
     + [Get started with offer catalog export ](using/offers/export-catalog/get-started-export.md)
     + [Access the exported offer catalog](using/offers/export-catalog/access-dataset.md)
     + [Personalized offers dataset](using/offers/export-catalog/export-offers.md)
+    + [Decisions dataset](using/offers/export-catalog/export-decisions.md)
+    + [Placements dataset](using/offers/export-catalog/export-placements.md)
+    + [Fallback dataset](using/offers/export-catalog/export-fallback.md)
   + API Reference {#api-reference}
     + [Getting started](using/offers/api-reference/getting-started.md)
     + Create and manage offers using APIs {#offers-api}
@@ -177,7 +180,7 @@ hide: yes
 + Configuration {#configuration}
   + [Push notifications configuration](using/push-configuration.md)
   + Event configuration {#events-journeys}
-    + [General principle](using/event/about-events.md)
+    + [About events](using/event/about-events.md)
     + Configure a unitary event {#unitary-events}  
       + [Get started with unitary events](using/event/about-creating.md)
       + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)

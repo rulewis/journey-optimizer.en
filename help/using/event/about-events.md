@@ -2,7 +2,7 @@
 title: About events
 description: Learn about events
 ---
-# General principle {#concept_gfj_fqt_52b}
+# About events{#concept_gfj_fqt_52b}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -11,17 +11,22 @@ description: Learn about events
 >title="About events"
 >abstract="An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions."
 
-This configuration is **mandatory**, as journeys are designed to listen to events, and always performed by a **technical user**.
+The event configuration allows you to define the information [!DNL Journey Optimizer] will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event.
 
-There are two types of events:
+>[!CAUTION]
+>
+>Event configuration is **mandatory** and must be performed by a **technical user**.
+
+You can  configure two types of events:
 
 * **Unitary** events: these event are linked to a person. They relate to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions. Unirary events can be rule-based or system generated. To learn how to create a unitary event, refer to this [page](../event/about-creating.md).
 
 * **Business** events: a business event is an event that, in contrast to a unitary event, is not linked to a specific profile. For example, it can be a news alert, a sports update, a flight change or cancellation, an inventory update, weather events, etc. While these events are not specific to a profile, they may be of interest to any number of profiles: individuals subscribed to particular news topics, passengers on a flight, shoppers interested in an out-of-stock product, etc. Business events are always rule-based. When you drop a business event in a journey, it automatically adds a **Read segment** activity right after. To learn how to create a business event, refer to this [page](../event/about-creating-business.md).
 
-The event configuration allows you to define the information [!DNL Journey Optimizer] will receive as events. You can use several events (in different steps of a journey) and several journeys can use the same event.
 
-If you edit an event used in a draft or live journey, you can only change the name, the description or add payload fields. We strictly limit the edition of draft or live journeys to avoid breaking journeys.
+>[!NOTE]
+>
+>If you edit an event used in a draft or live journey, you can only change the name, the description or add payload fields. We strictly limit the edition of draft or live journeys to avoid breaking journeys.
 
 ## Event ID type{#event-id-type}
 
