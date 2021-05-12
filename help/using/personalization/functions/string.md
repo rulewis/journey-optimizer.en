@@ -408,6 +408,44 @@ The following query is used to extract the domain name from an email address.
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
+## Replace {#replace}
+
+The `replace` function is used to.
+
+**Format**
+
+```sql
+{%= replace(string,string,string) %}
+```
+
+**Example**
+
+The following function .
+
+```sql
+
+```
+
+
+## Replace All{#replaceAll}
+
+The `replaceAll` function is used to.
+
+**Format**
+
+```sql
+{%= replaceAll(string,string,string) %}
+```
+
+**Example**
+
+The following function .
+
+```sql
+
+```
+
+
 ## Right trim {#rightTrim}
 
 The `rightTrim` function is used to.
@@ -426,6 +464,24 @@ The following function .
 
 ```
 
+## Split {#split}
+
+The `split` function is used to.
+
+**Format**
+
+```sql
+{%= split(string,string) %}
+```
+
+**Example**
+
+The following function .
+
+```sql
+
+```
+
 ## Starts with{#startsWith}
 
 The `startsWith` function is used to determine if a string starts with a specified substring.
@@ -433,37 +489,74 @@ The `startsWith` function is used to determine if a string starts with a specifi
 **Format**
 
 ```sql
-startsWith({STRING_1},{STRING_2}, {BOOLEAN})
+{%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
+
 ```
 
 | Argument | Description |
 | --------- | ----------- |
 | `{STRING_1}` | The string to perform the check on. |
 | `{STRING_2}` | The string to search for within the first string. |
-| `{BOOLEAN}` | An optional parameter to determine if the check is case sensitive. By default, this is set to true. |
+| `{CASE_SENSITIVE}` | An optional parameter to determine if the check is case sensitive. By default, this is set to true. |
 
 **Example**
 
 The following  query determines, with case sensitivity, if the person's name starts with "Joe".
 
 ```sql
-startsWith(person.name,"Joe")
+{%= startsWith(person.name,"Joe") %}
+```
+
+## Title Case{#titleCase}
+
+The **upper** function .
+
+**Syntax**
+
+```sql
+{%= titleCase(string) %}
+```
+
+**Example**
+
+This function .
+
+```sql
+
+```
+
+## Trim{#trim}
+
+The **trim** function .
+
+**Syntax**
+
+```sql
+{%= trim(string) %}
+```
+
+**Example**
+
+This function .
+
+```sql
+
 ```
 
 ## Upper Case{#upper}
 
-The **upper** function converts a string to upper case letters.
+The **upperCase** function converts a string to upper case letters.
 
-Syntax:
+**Syntax**
 
 ```sql
-{%=upperCase(string)%}
+{%= upperCase(string) %}
 ```
 
-Example:
+**Example**
 
 This function converts the profile last name to upper case letters.
 
 ```sql
-{%=upperCase(profile.person.name.lastName)%}
+{%= upperCase(profile.person.name.lastName) %}
 ```
