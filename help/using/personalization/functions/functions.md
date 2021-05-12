@@ -100,10 +100,10 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 <table>
     <tr>
-        <td><a href="objects.md#isNotNull">Camel Case</a> (camelCase)</td><td>This function is used to</td>
+        <td><a href="objects.md#camelCase">Camel Case</a> (camelCase)</td><td>This function is used to</td>
     </tr>
     <tr>
-        <td><a href="objects.md#isNull">Concat</a> (Concat)</td><td>This function is used to</td>
+        <td><a href="objects.md#concat">Concat</a> (Concat)</td><td>This function is used to</td>
     </tr>
     <tr>
         <td><a href="string.md#contains">Contains</a> (contains)</td><td>This function is used to determine if a string contains a specified substring</td>
@@ -119,24 +119,27 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
         <td><a href="string.md#doesNotStartWith">Does not start with</a> (doesNotStartWith)</td><td>This function is used to determine if a string does not start with a specified substring</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotContain">Encode64</a> ()</td><td>This function is used to</td>
+        <td><a href="string.md#encode64">Encode64</a> ()</td><td>This function is used to</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">Ends with</a> (endsWith)</td><td>This function is used to determine if a string ends with a specified substring</td>
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Equals</a> (=)</td><td>This function is used to determine if a string does not start with a specified substring</td>
+        <td><a href="string.md#equals">Equals</a> (=)</td><td>This function is used to determine if a string does not start with a specified substring, with case sensitivity</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotContain">EqualsIgnoreCase</a> ()</td><td>This function is used to</td>
+        <td><a href="string.md#equalsIgnoreCase">EqualsIgnoreCase</a> ()</td><td>This function is used to determine if a string does not start with a specified substring, without case sensitivity</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">IsEmpty</a> ()</td><td>This function is used to </td>
+        <td><a href="string.md#extractEmailDomain">extractEmailDomain</a> ()</td><td>This function is used to extract the domain of an email address</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#isEmpty">IsEmpty</a> ()</td><td>This function is used to check if a string or expression is empty.</td>
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Length</a> ()</td><td>This function is used to</td>
+        <td><a href="string.md#length">Length</a> ()</td><td>This function is used to get the number of characters in a string or an expression</td>
     </tr>
     <tr>
         <td><a href="string.md#like">Like</a> (like)</td><td>This function is used to determine if a string matches a specified pattern</td>
