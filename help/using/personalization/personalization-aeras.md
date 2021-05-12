@@ -58,8 +58,8 @@ In the expression editor interface, you will select, arrange, customize and vali
 The left part of the screen displays a domain selector that lets you select the source for personalization.
 
 * **Profile** : lists all the references associated to the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
-* **Segment membership** : lists all the segments created in the Adobe Experience Platform Segmentation service. More information on segmentation available [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
-* **Offers** : lists all the offers associated to a specific placement. Select the placement then insert the offers in your content. For a complete documentation on how to manage offers, refer to [this section](https://experienceleague.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
+* **Segment membership** : lists all the segments created in the Adobe Experience Platform Segmentation service. More information on segmentation available [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
+* **Offers** : lists all the offers associated to a specific placement. Select the placement then insert the offers in your content. For a complete documentation on how to manage offers, refer to [this section](../../using/offers/get-started/starting-offer-decisioning.md).
 
 On selection, the reference is added in the editor. 
 
