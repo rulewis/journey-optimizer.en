@@ -12,7 +12,7 @@ description: Journey Optimizer Helper functions library
 
 Use Journey Optimizer templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization.
 
-Templating language is leveraged in helper functions available in the expression editor personalization drop-down list. 
+Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
 
 ![](../assets/access-helper-functions.png)
 
