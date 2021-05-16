@@ -6,43 +6,46 @@ description: Functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-## And
+**Logical operators**
+
+## And{#and}
 
 The `and` function is used to create a logical conjunction.
 
 **Format**
 
 ```sql
-{QUERY} and {QUERY}
+{%= query1 and query2 %}
 ```
 
 **Example**
 
-The following PQL query will return all people with home country as Canada and birth year of 1985.
+The following operation will return all people with home country as France and birth year of 1985.
 
 ```sql
-homeAddress.countryISO = "CA" and person.birthYear = 1985
+{%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
 ```
 
-## Or
+## Or{#or}
 
 The `or` function is used to create a logical disjunction.
 
 **Format**
 
 ```sql
-{QUERY} or {QUERY}
+{%= query1 or query2 %}
 ```
 
 **Example**
 
-The following PQL query will return all people with home country as Canada or birth year of 1985.
+The following operation will return all people with home country as France or birth year of 1985.
 
 ```sql
-homeAddress.countryISO = "CA" or person.birthYear = 1985
+{%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
 ```
 
-## Not
+<!--
+## Not{#not}
 
 The `not` (or `!`) function is used to create a logical negation.
 
@@ -55,230 +58,242 @@ not ({QUERY})
 
 **Example**
 
-The following PQL query will return all people who do not have their home country as Canada.
+The following operation will return all people who do not have their home country as Canada.
 
 ```sql
 not (homeAddress.countryISO = "CA")
 ```
+-->
 
-## If
+## If{#if}
 
 The `if` function is used to resolve an expression depending on whether a specified condition is true.
 
 **Format**
 
 ```sql
-if ({TEST_EXPRESSION}, {TRUE_EXPRESSION}, {FALSE_EXPRESSION})
+{
+    {
+        {%#if condition1%} element_1 
+        {%else if condition2%} element_2 
+        {%else%} default_element 
+        {%/if%}
+    }
+}
 ```
-
-| Argument | Description |
-| --------- | ----------- |
-| `{TEST_EXPRESSION}` | The boolean expression which is being tested. |
-| `{TRUE_EXPRESSION}` | The expression whose value will be used if `{TEST_EXPRESSION}` is true. |
-| `{FALSE_EXPRESSION}` | The expression whose value will be used if `{TEST_EXPRESSION}` is false. |
 
 **Example**
 
-The following PQL query will set the value as `1` if the home country is Canada and `2` if the home country is not Canada.
+The following operation will add a link to the 'www.adobe.com/academia' website for profiles with '.edu' email adresses only, to the 'www.adobe.com/org' website for profiles with '.org' email addresses, and the default URL 'www.adobe.com/users' for all other profiles.
 
 ```sql
-if (homeAddress.countryISO = "CA", 1, 2)
+{%#if contains(profile.personalEmail.address, ".edu")%}
+<a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
+{%else if contains(profile.personalEmail.address, ".org")%}
+<a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
+{%else%}
+<a href="https://www.adobe.com/users">Checkout our page</a>
+{%/if%}
 ```
 
-## Equals
+You will find other samples in [this section](../personalization-syntax.md#perso-segments).
+
+## Equals{#equals}
 
 The `=` (equals) function checks whether one value or expression is equal to another value or expression.
 
 **Format**
 
 ```sql
-{EXPRESSION} = {VALUE}
+{%= expression = value %}
 ```
 
 **Example**
 
-The following PQL query checks if the home address country is in Canada.
+The following operation checks if the home address country is France.
 
 ```sql
-homeAddress.countryISO = "CA"
+{%= profile.homeAddress.country = "France" %}
 ```
 
-## Not equal
+## Not equal{#notequal}
 
 The `!=` (not equal) function checks whether one value or expression is **not** equal to another value or expression.
 
 **Format**
 
 ```sql
-{EXPRESSION} != {VALUE}
+{%= expression != value %}
 ```
 
 **Example**
 
-The following PQL query checks if the home address country is not in Canada.
+The following operation checks if the home address country is not France.
 
 ```sql
-homeAddress.countryISO != "CA"
+{%= profile.homeAddress.country != "France" %}
 ```
 
-## Greater than
+## Greater than{#greaterthan}
 
 The `>` (greater than) function is used to check if the first value is greater than the second value.
 
 **Format**
 
 ```sql
-{EXPRESSION} > {EXPRESSION} 
+{%= expression1 > expression2 %}
 ```
 
 **Example**
 
-The following PQL query defines people whose birthdays do not fall in January or February.
+The following operation defines people born strictly after 1970.
 
 ```sql
-person.birthMonth > 2
+{%= profile.person.birthYear > 1970 %}
 ```
 
-## Greater than or equal to
+## Greater than or equal to{#greaterthanorequal}
 
 The `>=` (greater than or equal to) function is used to check if the first value is greater than or equal to the second value.
 
 **Format**
 
 ```sql
-{EXPRESSION} >= {EXPRESSION} 
+{%= expression1 >= expression2 %}
 ```
 
 **Example**
 
-The following PQL query defines people whose birthdays do not fall in January or February.
+The following operation defines people born in or after 1970.
 
 ```sql
-person.birthMonth >= 3
+{%= profile.person.birthYear >= 1970 %}
 ```
 
-## Less than
+## Less than{#lessthan}
 
 The `<` (less than) comparison function is used to check if the first value is less than the second value.
 
 **Format**
 
 ```sql
-{EXPRESSION} < {EXPRESSION} 
+{%= expression1 < expression2 %}
 ```
 
 **Example**
 
-The following PQL query defines people whose birthday is in January.
+The following operation defines people born before 2000.
 
 ```sql
-person.birthMonth < 2
+{%= profile.person.birthYear < 2000 %}
 ```
 
-## Less than or equal to
+## Less than or equal to{#lessthanorequal}
 
 The `<=` (less than or equal to) comparison function is used to check if the first value is less than or equal to the second value.
 
 **Format**
 
 ```sql
-{EXPRESSION} <= {EXPRESSION} 
+{%= expression1 <= expression2 %}
 ```
 
 **Example**
 
-The following PQL query defines people whose birthday is in January or February.
+The following operation defines people born in 2000 or before.
 
 ```sql
-person.birthMonth <= 2
+{%= profile.person.birthYear <= 2000 %}
 ```
 
-## Add
+**Operations with numbers**
+
+## Add{#add}
 
 The `+` (addition) function is used to find the sum of two argument expressions.
 
 **Format**
 
 ```sql
-{NUMBER} + {NUMBER}
+{%= double + double %}
 ```
 
 **Example**
 
-The following PQL query sums the price of two different products.
+The following operation sums the price of two different products.
 
 ```sql
-product1.price + product2.price
+{%= product1.price + product2.price %}
 ```
 
-## Multiply
+## Multiply{#multiply}
 
 The `*` (multiplication) function is used to find the product of two argument expressions.
 
 **Format**
 
 ```sql
-{NUMBER} * {NUMBER}
+{%= double * double %}
 ```
 
 **Example**
 
-The following PQL query finds the product of the inventory and the price of a product to find the gross value of the product.
+The following operation finds the product of the inventory and the price of a product to find the gross value of the product.
 
 ```sql
-product.inventory * product.price
+{%= product.inventory * product.price %}
 ```
 
-## Subtract
+## Subtract{#substract}
 
 The `-` (subtraction) function is used to find the difference of two argument expressions.
 
 **Format**
 
 ```sql
-{NUMBER} - {NUMBER}
+{%= double - double %}
 ```
 
 **Example**
 
-The following PQL query finds the difference in price between two different products.
+The following operation finds the difference in price between two different products.
 
 ```sql
-product1.price - product2.price
+{%= product1.price - product2.price %}
 ```
 
-## Divide
+## Divide{#divide}
 
 The `/` (division) function is used to find the quotient of two argument expressions.
 
 **Format**
 
 ```sql
-{NUMBER} / {NUMBER}
+{%= double / double %}
 ```
 
 **Example**
 
-The following PQL query finds the quotient between the total products sold and total money earned to see the average cost per item.
+The following operation finds the quotient between the total products sold and total money earned to see the average cost per item.
 
 ```sql
-totalProduct.price / totalProduct.sold
+{%= totalProduct.price / totalProduct.sold %}
 ```
 
-## Remainder
+## Remainder{#remainder}
 
 The `%` (modulo/remainder) function is used to find the remainder after dividing the two argument expressions. 
 
 **Format**
 
 ```sql
-{NUMBER} % {NUMBER}
+{%= double % double %}
 ```
 
 **Example**
 
-The following PQL query checks if the person's age is divisible by five.
+The following operation checks if the person's age is divisible by five.
 
 ```sql
-person.age % 5 = 0
+{%= person.age % 5 = 0 %}
 ```

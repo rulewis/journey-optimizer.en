@@ -30,15 +30,15 @@ hide: yes
     + [Use email designer content components](using/content-components.md)
   + Personalization{#personalization}
     + [Get started](using/personalization/personalize.md)
-    + [Personalization areas](using/personalization/personalization-aeras.md)
+    + [Personalization context](using/personalization/personalization-aeras.md)
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + [Personalization validation](using/personalization/personalization-validation.md) 
     + [Personalization use case](using/personalization/personalization-use-case.md) 
-    + Templating language{#functions}
+    + Personalization functions{#functions}
+       + [Helper functions](using/personalization/functions/functions.md)
        + [Operators](using/personalization/functions/operators.md)
        + [Aggregation](using/personalization/functions/aggregation.md)
        + [Arrays and list](using/personalization/functions/arrays-list.md)
-       + [Maths](using/personalization/functions/maths.md)
        + [Maps](using/personalization/functions/maps.md)
        + [Objects](using/personalization/functions/objects.md)
        + [String](using/personalization/functions/string.md) 
@@ -179,29 +179,45 @@ hide: yes
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + Configuration {#configuration}
-  + [Push notifications configuration](using/push-configuration.md)
-  + Event configuration {#events-journeys}
-    + [About events](using/event/about-events.md)
-    + Configure a unitary event {#unitary-events}  
-      + [Get started with unitary events](using/event/about-creating.md)
-      + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
-      + [Leverage Adobe Analytics](using/event/about-analytics.md)
-    + [Configure a business event](using/event/about-creating-business.md)
-    + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-  + Data source configuration{#data-source-journeys}
-    + [About data sources](using/datasource/about-data-sources.md)
-    + [Configure a data source](using/datasource/configure-data-sources.md)
-    + [Adobe Experience Platform data source](using/datasource/adobe-experience-platform-data-source.md)
-    + [External data sources](using/datasource/external-data-sources.md)
-  + Action configuration {#action-journeys}
-    + [About actions](using/action/action.md)
-    + [Configure an action](using/action/about-custom-action-configuration.md)
-+ Administration {#administration}
-  + [Technical settings](using/administration/administration.md)
-  + Access control {#access-control}
-    + [Access control overview](using/administration/permissions-overview.md)
-    + [Manage users and product profiles](using/administration/permissions.md)
-    + [Built-in product profiles](using/administration/ootb-product-profiles.md)
-    + [Permission levels](using/administration/high-low-permissions.md)
-    + [Sandboxes management](using/administration/sandboxes.md)
-    
+  + [Get started](using/configuration/get-started-configuration.md)
+  + Delegate subdomains {#delegate-subdomains}
+    + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
+    + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
+    + [Access delegated subdomains](using/configuration/access-subdomains.md)
+    + [Add a Google TXT record](using/configuration/google-txt.md)
+    + [Access PTR records](using/configuration/ptr-records.md)
+  + [Create IP pools](using/configuration/ip-pools.md)
+  + Configure Messages {#configure-messages}
+    + [Configure push notifications](using/push-configuration.md)
+    + [Create message presets](using/configuration/message-presets.md)
+    + [Determine profiles' primary addresses](using/configuration/primary-email-addresses.md) 
+  + Monitor email addresses' reputation {#manage-quarantines}  
+    + [Get started with suppression lists](using/configuration/get-started-quarantines.md)
+    + [Suppression categories and reasons](using/configuration/suppression-categories-reasons.md)
+    + [Retries before sending to the suppression list](using/configuration/retries-suppression-list.md)
+  + Configure Journeys {#configure-journeys}
+    + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
+    + Event configuration {#events-journeys}
+      + [General principle](using/event/about-events.md)
+      + Configure a unitary event {#unitary-events}  
+        + [Get started with unitary events](using/event/about-creating.md)
+        + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
+        + [Leverage Adobe Analytics](using/event/about-analytics.md)
+      + [Configure a business event](using/event/about-creating-business.md)
+      + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+    + Data source configuration{#data-source-journeys}
+      + [About data sources](using/datasource/about-data-sources.md)
+      + [Configure a data source](using/datasource/configure-data-sources.md)
+      + [Adobe Experience Platform data source](using/datasource/adobe-experience-platform-data-source.md)
+      + [External data sources](using/datasource/external-data-sources.md)
+    + Action configuration {#action-journeys}
+      + [About actions](using/action/action.md)
+      + [Configure an action](using/action/about-custom-action-configuration.md)
+  + Administration {#administration}
+    + [Technical settings](using/administration/administration.md)
+    + Access control {#access-control}
+      + [Access control overview](using/administration/permissions-overview.md)
+      + [Manage users and product profiles](using/administration/permissions.md)
+      + [Built-in product profiles](using/administration/ootb-product-profiles.md)
+      + [Permission levels](using/administration/high-low-permissions.md)
+      + [Sandboxes management](using/administration/sandboxes.md)

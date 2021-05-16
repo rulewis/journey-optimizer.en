@@ -1,6 +1,7 @@
 ---
 title: Configure a push notification
 description: Learn how to create a push notification in Journey Optimizer
+exl-id: 3b9deb7d-77cf-47ca-998e-63aa8aca42fd
 ---
 # Configure a push notification {#create-push-notification}
 
@@ -8,7 +9,7 @@ description: Learn how to create a push notification in Journey Optimizer
 
 Push notification are configured when creating a message, in the **[!UICONTROL Push Notification]** tab (see [Create a message](create-message.md)).
 
-You can configure push notification contents for iOS or Android operating systems using the dedicated tabs.
+Us the dedicated tabs to define the push notification settings for iOS and Android operating systems.
 
 ![](assets/create-content-push.png)
 
@@ -32,6 +33,40 @@ Select the behaviour when a recipient clicks on the body of the push notificatio
 * Use the **[!UICONTROL Deeplink]** option to redirect the recipient to a specific content located inside the application. Enter the deeplink in the associated field.
 * Use the **[!UICONTROL Web URL]** option to redirect the recipient to an external URL. Enter the URL in the associated field.
 
+## Add media
+
+In the iOS version, you can add an image, a video or a GIF that will be displayed within your notification.
+
+In the Android version, you can only add an image icon, and an image for expanded notifications. 
+
+Click on the **[!UICONTROL Add media]** button to select an asset in [!DNL Adobe Experience Manager Assets Essentials].
+
+![](assets/push-config-add-media.png)
+
+Learn how to use [!DNL Adobe Experience Manager Assets Essentials] in [this page](assets-essentials.md).
+
+You can also enter the URL of the media and add personalization by clicking on the **[!UICONTROL Add media]** field. **TO CHECK / DOES NOT WORK**
+
+Once added, the media displays on the right of the notification body.
+
+![](assets/push-config-media-preview.png)
+
+## Add buttons 
+
+You can create actionable notifications by adding buttons to your push notifications. 
+
+If the device screen is locked, these buttons are not displayed: only the the Title and the Message of the notification are visible. If their device is unlocked, recipients will see the buttons.
+
+In the iOS version, you can add up to 4 buttons. In the Android version, you can add up to 3 buttons.
+
+Click **[!UICONTROL Add button]** to define settings: the label and associated action. Possible actions are the same as for [on-click behavior](#on-click-behavior). 
+
+**DOES NOT WORK** 
+
+>[!NOTE]
+>
+>For iOS, use the **[!UICONTROL iOS category]** field to associate actions with a notification  category.
+
 ## Send a silent notification
 
 A silent push notification (or background notification) is a hidden instruction that is delivered to the application. It is used for example to notify your application about the availabilty of new content or initiate a download in the background.
@@ -39,6 +74,8 @@ A silent push notification (or background notification) is a hidden instruction 
 Select the **[!UICONTROL Silent Notification]** option to silently notify the application: in this case, the notification is transferred directly to the application. No alert is displayed on the device screen.
 
 Use the **[!UICONTROL Custom data]** section to add key/value pairs.
+
+![](assets/push-config-silent-notification.png)
 
 ## Advanced options
 
@@ -59,5 +96,12 @@ Configure the **[!UICONTROL Advanced options]**. Available parameters are:
 
 ## Custom data
 
-In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](push-configuration.md)
+In the **[!UICONTROL Custom data]** section, you can add custom variables to the payload, depending on your mobile application configuration. For more on how to set up push notifications in Adobe Experience Platform and Adobe Launch, refer to [this section](push-configuration.md).
 
+## Send a silent notification
+
+A silent push notification (or background notification) is a hidden instruction that is delivered to the application. It is used for example to notify your application about the availabilty of new content or initiate a download in the background.
+
+Select the **[!UICONTROL Silent Notification]** option to silently notify the application: in this case, the notification is transferred directly to the application. No alert is displayed on the device screen.
+
+Use the **[!UICONTROL Custom data]** section to add key/value pairs.
