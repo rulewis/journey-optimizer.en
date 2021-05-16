@@ -20,16 +20,16 @@ To create a ranking formula, follow the steps below:
 
 * Click **[!UICONTROL Create formula]** to create a new ranking formula.
 
-    ![](../assets/ranking-create-formula.png)
+    ![](../../assets/ranking-create-formula.png)
 
 * Specify the ranking formula name, description, and formula. 
 
     In this example, we want to boost the priority of all offers with the "hot" attribute if the actual weather is hot. To do this, the **contextData.weather=hot** was passed in the decisioning call.
 
-    ![](../assets/ranking-syntax.png)
+    ![](../../assets/ranking-syntax.png)
 
 * Click **[!UICONTROL Save]**. Your ranking formula is created, you can select it from the list to get details and edit or delete it.
 
     It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
 
-    ![](../assets/ranking-formula-created.png)
+    ![](../../assets/ranking-formula-created.png)
