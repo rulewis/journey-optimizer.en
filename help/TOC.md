@@ -180,7 +180,6 @@ hide: yes
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + Configuration {#configuration}
-  + [Technical settings](using/administration.md)
   + [Push notifications configuration](using/push-configuration.md)
   + Event configuration {#events-journeys}
     + [About events](using/event/about-events.md)
