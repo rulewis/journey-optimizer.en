@@ -4,7 +4,7 @@ description: Learn administration and settings guidelines
 ---
 # Technical settings
 
-![](assets/do-not-localize/badge.png)
+![](../assets/do-not-localize/badge.png)
 
 ## Set up branding parameters{#cjm-branding}
 
@@ -54,7 +54,7 @@ Parameters established by Adobe are only valid from the time that the delegation
 
 Use the **[!UICONTROL Admin]** section to manage **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**.
 
-![](assets/admin-menu.png)
+![]()../assets/do-not-localize/admin-menu.png)
 
 ### Data Sources
 
