@@ -16,9 +16,9 @@ Based on your organization, you can define several types of users and grant them
 
 Before starting using Adobe Journey Optimizer, you need to:
 
-* **Define user permissions**: log in to Journey Optimizer and give access to your team members. [Read more](permissions.md)
+* **Define user permissions**: log in to Journey Optimizer and give access to your team members. [Read more](../using/administration/permissions.md)
 
-* **Configure your channels and branding**: work with Adobe to define email and push notification settings and create your presets. [Read more](administration.md)
+* **Configure your channels and branding**: work with Adobe to define email and push notification settings and create your presets. [Read more](../using/administration/administration.md)
 
 * **Identify data and create schema and dataset**: get your data into Adobe Experience Platform, create an identity namespace and a dataset enabled for profiles, create segments and test profiles. [Read more](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
