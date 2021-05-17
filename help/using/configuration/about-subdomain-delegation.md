@@ -15,9 +15,7 @@ snippet: y
 
 # Get started with subdomain delegation
 
-## About subdomain delegation
-
-### Isolate your brands to protect your reputation
+## Isolate your brands to protect your reputation
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
 Let's take the example of the "mybrand.com" domain, that is used to send both transactional and marketing communications. In this situation, you can decide to set up two subdomains:
@@ -27,7 +25,7 @@ Let's take the example of the "mybrand.com" domain, that is used to send both tr
 
 By doing so, you will help preserve the reputation of your domain and other subdomains. For example, if the "marketing.mybrand.com" subdomains ended up being added to the block list by Internet Service Providers due to bad deliverability, this would prevent the whole "mybrand.com" domain and the "info.mybrand.com" subdomain from being added to the block list.
 
-### Keep your resources URLs transparent to customers
+## Keep your resources URLs transparent to customers
 
 When implementing a solution, there are requirements for externally-facing components: these include setting up links and web pages to be tracked, displaying mirror pages, etc.
 

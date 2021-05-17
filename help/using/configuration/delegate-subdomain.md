@@ -56,11 +56,11 @@ To delegate a new subdomain, follow the steps below:
 
 1. Once the checks are successfull, you are informed via a **[!DNL Journey Optimizer]** notification, and the subdomain gets the **[!UICONTROL Success]** status. It is now ready to be used to deliver messages.
 
-    For more on subdomains' statuses, refer to [this section](access-subdomains.md).
+    You can access detailed information about the subdomain by opening it from the list.
 
     ![](../assets/subdomain-notification.png)
 
-    You can access detailed information about the subdomain by opening it from the list. You can:
+     You can:
     
     * Retrieve the subdomain name (read-only) configured during the delegation process, as well as the generated URLs (resources, mirror page, tracking URLs),
     * Add a Google site verification TXT record to your subdomain to ensure that it is verified (see [Add a Google TXT record to a subdomain](google-txt.md)). 
