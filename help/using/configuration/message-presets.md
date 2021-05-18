@@ -66,7 +66,9 @@ To create a message preset, follow these steps:
     * IP pool verification,
     * A/PTR record, t/m/res subdomain verification.
 
-1. Once the checks are successfull, you are informed via a **[!DNL Journey Optimizer]** notification, and the message preset gets the **[!UICONTROL Active]** status. It is now ready to be used to deliver messages.
+1. Once the checks are successfull, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+
+    <!-- later on, users will be notified in Pulse -->
 
     ![](../assets/preset-active.png)
 
@@ -82,7 +84,7 @@ Message presets can have the following statuses:
 * **[!UICONTROL Processing]**: The message preset has been submitted and is going through several verifications steps.
 * **[!UICONTROL Active]**: The message preset has been verified and can be selected to create messages.
 * **[!UICONTROL Failed]**: One or several checks have failed during the message preset verification.
-* **[!UICONTROL De-activated]**: The message preset is de-activated. It cannot be used to create messages.
+* **[!UICONTROL De-activated]**: The message preset is de-activated. It cannot be used to create new messages.
 
 ## Edit message presets
 
@@ -100,4 +102,6 @@ To edit a message preset, you first need to de-activate it to make it unavailabl
 
 1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.
 
-<!--que fait-on ensuite avec l'ancienne version deactivated: reste là pour être utilisée par les anciens messages?). quand un deactivate preset est-il enlevé de la liste?-->
+    >[!NOTE]
+    >
+    >De-activated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
