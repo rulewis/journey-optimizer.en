@@ -19,7 +19,7 @@ Journey Optimizer allows you to fully delegate your subdomains to Adobe. By doin
 
 >[!NOTE]
 >
->You can delegate up to 10 subdomains.
+>By default, [!DNL Journey Optimizer] license contract allows you to delegate up to 10 subdomains. Reach out to your Adobe contact if you want to increase this limitation.
 >
 >The use of CNAMEs for subdomain delegation is currently not supported by Journey Optimizer.
 
@@ -45,15 +45,24 @@ To delegate a new subdomain, follow the steps below:
 
 1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
-    The configuration checks below will be performed until the subdomain is verified and can be used to configure message presets in order to send messages:
+    The checks and actions below will be performed until the subdomain is verified and can be used to send messages.
+    
+    This step is performed by Adobe and can take up to 3 hours.
 
-    1. NS records,
-    1. DNS creation,
-    1. URLs configuration,
-    1. Deliverability audit.
+    1. Check wether the subdomain has been delegated to Adobe DNS (NS record, SOA record, Zone setup, ownership record),
+    1. Configure DNS for the domain,
+    1. Create tracking and mirror URLs,
+    1. Provision CDN Cloud Front,
+    1. Create, validate and attach CDN SSL certificate,
+    1. Create Forward DNS,
+    1. Create PTR record.
 
     ![](../assets/subdomain-processing.png)
 
-1. Once the checks are successfull, you are informed via a **[!DNL Journey Optimizer]** notification, and the subdomain gets the **[!UICONTROL Success]** status. It is now ready to be used to deliver messages.
+1. Once the checks are successfull, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to deliver messages.
+
+    <!-- later on, users will be notified in Pulse -->
 
     ![](../assets/subdomain-notification.png)
+
+
