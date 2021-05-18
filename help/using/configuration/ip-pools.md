@@ -33,6 +33,10 @@ To create an IP pool, follow these steps:
 
 1. Provide a name and a description (optional) for the IP pool.
 
+    >[!NOTE]
+    >
+    >The subdomain's name must begin with a letter (A-Z) and include only alpha-numeric characters or special characters ( _, ., - ).
+
 1. Select the IP addresses to include in the pool from the drop-down list, then click **[!UICONTROL Submit]**.
 
     ![](../assets/ip-pool-config.png) 
@@ -41,7 +45,7 @@ To create an IP pool, follow these steps:
     >
     >All the IP addresses provisioned with your instance are available in the list.
     
-The IP pool is now created and displays in the list. You can select it to access its properties and display the associated message presets (see [Create a message preset](message-presets.md)).
+The IP pool is now created and displays in the list. You can select it to access its properties and display the associated message preset. For more on how to a message preset to an IP pool, refer to [this section](message-presets.md)).
 
 ![](../assets/ip-pool-created.png)
 
