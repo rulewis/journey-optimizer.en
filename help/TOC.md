@@ -101,7 +101,7 @@ hide: yes
     + [Identity fields](using/reports/sharing-identity-fields.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
-    + [Suppression lists](using/suppression-lists.md)
+    + [Suppression list](using/suppression-list.md)
 + Decision Management {#offer-decisioniong}
   + Get started with Decision Management {#get-started}
     + [About Decision Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -191,10 +191,9 @@ hide: yes
     + [Configure push notifications](using/push-configuration.md)
     + [Create message presets](using/configuration/message-presets.md)
     + [Determine profiles' primary addresses](using/configuration/primary-email-addresses.md) 
-  + Monitor email addresses' reputation {#manage-quarantines}  
-    + [Get started with suppression lists](using/configuration/get-started-quarantines.md)
-    + [Suppression categories and reasons](using/configuration/suppression-categories-reasons.md)
-    + [Retries before sending to the suppression list](using/configuration/retries-suppression-list.md)
+  + Monitor email addresses' reputation {#monitor-reputation}  
+    + [Manage suppression list](using/configuration/manage-suppression-list.md)
+    + [Retries](using/configuration/retries.md)
   + Configure Journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + Event configuration {#events-journeys}

@@ -51,7 +51,7 @@ For each message execution, a number of indicators are displayed:
 * **[!UICONTROL Excluded]**: Number of profiles that have been excluded from the initial target due to exclusion rules.
 * **[!UICONTROL Sent]**: Number of messages that have been sent.
 * **[!UICONTROL Delivered]**: Number of messages successfully delivered in the recipient's mailbox (email) or device (push) without generating a bounce or any other delivery error.
-* **[!UICONTROL Bounces]**: Number of messages that cannot be delivered because of a delivery failure. [Learn more about bounces](suppression-lists.md#delivery-failures).
+* **[!UICONTROL Bounces]**: Number of messages that cannot be delivered because of a delivery failure. [Learn more about bounces](suppression-list.md#delivery-failures).
 * **[!UICONTROL Opens]**: Number of messages that have been opened.
 * **[!UICONTROL Clicks]**: Number of clicks on links in an email.
 

@@ -40,7 +40,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
     1. Determine which email address to use in priority for your recipients when several addresses are available in Adobe Experience Platform. [Learn more](primary-email-addresses.md)
 
-    1. Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](get-started-quarantines.md)
+    1. Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
 
 1. **Configure journeys**.
 
