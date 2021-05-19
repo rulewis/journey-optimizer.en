@@ -89,7 +89,7 @@ If needed, you can also create new product profile with specific permissions. Fo
 
 For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
 
-In this example, we will create a product profile named **Journeys read-only** where we will grant read-only rights to the Journey feature. Users will only be able to access and view journeys and will not be able to access other features such as **[!UICONTROL Offers]** or **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
+In this example, we will create a product profile named **Journeys read-only** where we will grant read-only rights to the Journey feature. Users will only be able to access and view journeys and will not be able to access other features such as **[!UICONTROL Decision management]** or **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
 
 To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
@@ -107,7 +107,7 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
 1. When finished, click **[!UICONTROL Done]**.
 
-1. To add permissions for users to access different features, select between the different capabilities such as **[!UICONTROL Messages]**, **[!UICONTROL Segments]** or **[!UICONTROL Offers]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
+1. To add permissions for users to access different features, select between the different capabilities such as **[!UICONTROL Messages]**, **[!UICONTROL Segments]** or **[!UICONTROL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
     
     Here we select the **[!UICONTROL Journeys]** capability.
 

@@ -197,15 +197,15 @@ It includes the following low-level permissions:
   * queries.write
   * queries.delete
 
-## Offers capability {#offers-permissions}
+## Decision management capability {#decisions-permissions}
 
-### Manage offers decisioning permission {#manage-offers-decisioning}
+### Manage decisions permission {#manage-decisioning}
 
-The **[!UICONTROL Manage offers decisioning]** high-level permission allows users to create new and edit/delete existing **[!UICONTROL Activity entities]**, as well as manage the objects that are used in those activities to make the decisions.
+The **[!UICONTROL Manage decisions]** high-level permission allows users to create new and edit/delete existing **[!UICONTROL Activity entities]**, as well as manage the objects that are used in those activities to make the decisions.
 
 It includes the following low-level permissions: 
 
-* Offers specific:
+* Decision management specific:
   * activities.Read
   * activities.Write
   * activities.Delete
@@ -224,13 +224,13 @@ It includes the following low-level permissions:
   * profile.read
   * segments.read
 
-### View offers decisioning permission {#view-offers}
+### View decisions permission {#view-decisions}
 
-The **[!UICONTROL View offers decisioning]** high-level permission allows users to use an existing Activity and related business objects to make the decisions. 
+The **[!UICONTROL View decisions]** high-level permission allows users to use an existing Activity and related business objects to make the decisions. 
 
 It includes the following low-level permissions: 
 
-* Offers specific: 
+* Decision management specific: 
   * activities.Read
   * offers.read
   * placements.read
@@ -244,11 +244,11 @@ It includes the following low-level permissions:
 
 ### Publish offers decisioning permission {#publish-offers}
 
-The **[!UICONTROL Publish offers decisioning]** high-level permission allows users to access to approve/un-Approve Offer activities.
+The **[!UICONTROL Publish offers decisioning]** high-level permission allows users to access to approve/un-approve Offer activities.
 
 It includes the following low-level permissions: 
 
-* Offers specific:
+* Decision management specific:
   * offers_activity.read
   * offers_activity.write
   * offers_activity.delete
