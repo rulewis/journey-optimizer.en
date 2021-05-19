@@ -15,14 +15,17 @@ snippet: y
 
 # Get started with suppression lists
 
-With Journey Optimizer, you can monitor all the email addresses that are automatically excluded from the sending in a journey.
+With Journey Optimizer, you can monitor all the email addresses that are automatically excluded from sending in a journey.
 
-To access the detailed list of excluded email addresses, open the **[!UICONTROL Channels]** / **[!UICONTROL General]** menu, then click the **[!UICONTROL View suppression lists]** link.
+Learn more on suppression lists and how to manage them in [this section](using/suppression-lists.md).
+
+To access the detailed list of excluded email addresses, open the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, then click the **[!UICONTROL View suppression lists]** link.
 
 ![](../assets/message-settings.png)
 
-Filters are available to help you browse through the list (suppression date,  category and reason). You can also download the list as a CSV file for analysis and reporting purposes. 
+Filters are available to help you browse through the list.
+<!--suppression date,  category and reason, but on staging, only creation date filter is available-->
 
 ![](../assets/suppression-list.png)
 
-    !! on staging, only creation date filter is available
+You can also download the list as a CSV file for analysis and reporting purpose.<!--how?-->

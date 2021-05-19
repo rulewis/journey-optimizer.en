@@ -26,7 +26,9 @@ This could lead to your IP address or sending domain being blocked, which can be
 
 ### Bounces {#bounces}
 
-In addition to this, the suppression list contains email addresses that hard bounce, or that soft bounce too many times. If you continue sending to these addresses, it may affect your delivery rates, because it tells ISPs that you may not be following email address list maintenance best practices, and therefore may not be a trustworthy sender.
+In addition to this, the suppression list contains email addresses that hard bounce, or that soft bounce too many times. Learn more on [delivery failure types](#delivery-failures).
+
+If you continue sending to these addresses, it may affect your delivery rates, because it tells ISPs that you may not be following email address list maintenance best practices, and therefore may not be a trustworthy sender.
 
 ## Suppression list management {#suppression-list-management}
 
