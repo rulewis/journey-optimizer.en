@@ -89,13 +89,17 @@ Your default interface language is determined by the preferred language specifie
 To change your language:
 
 * Click **Edit Preferences** from your avatar, on the top right.
-* Then click **Visit Adobe Account** to access your Adobe profile.
-* Select the **Notifications** tab on the top and click **Preferences**.
-* Select your preferred language and click **Save**.
 
->[!NOTE]
->
->You need to sign out and sign in again to [!DNL Journey Optimizer] to apply changes.
+    ![](assets/edit-profile.png)
+
+* Then click your default language under your email in your Experience Cloud preferences.
+
+    ![](assets/profile-language.png)
+
+* Select your preferred languages and click **Save**. Your second preferred language is used when a service is not available in your first preferred language.
+
+    ![](assets/profile-preferred-languages.png)
+
 
 ## Search and filter{#section_lgm_hpz_pgb}
 
