@@ -1,6 +1,6 @@
 ---
-title: Suppression categories and reasons
-description: Learn how to xxxx
+title: Manage the suppression list
+description: Learn how to access and manage the Journey Optimizer suppression list 
 page-status-flag: never-activated
 uuid: 
 contentOwner:
@@ -13,33 +13,49 @@ internal: n
 snippet: y
 ---
 
-# Suppression categories and reasons
+# Manage the suppression list {#manage-suppression-list}
 
-When a message fails to be delivered to an email address, Journey Optimizer determines why the delivery failed and associates to it a suppression category.
+With Journey Optimizer, you can monitor all the email addresses that are automatically excluded from sending in a journey, such as:
 
-The suppression category determines when the email address is sent to to the suppression list:
+* Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
+* Recipients who issue a spam complaint of some kind against one of your email messages.
 
-* **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. Learn more on [retries](using/suppression-lists.md#retries).
-* **Hard**: The email address is immediately sent to the suppression list.
-* **Spam complaint**: The email address of recipients who issue a spam complaint of some kind against one of your email messages is immediately sent to the suppression list.
-* **Manual**: You can also manually add an email address to the suppression list.<!--how?-->
-<!--more categories?-->
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. [Learn more this section](using/suppression-list.md)
 
-Learn more on soft bounces and hard bounces in the [Delivery failure types](#delivery-failures) section.
+## Access the suppression list {#access-suppression-list}
 
-<!--Possible failure reasons and their associated category are as follows:
+To access the detailed list of excluded email addresses, open the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, then click the **[!UICONTROL View suppression lists]** link.
 
-|Reason|Description|Suppression category|
-|------|-----------|----|
-|Mail box full| The mail box of the recipient is full and could not receive the message. |Soft|
-|DNS failure| xxx |Soft|
-|Invalid recipient| xxx |Hard|-->
+![](../assets/message-settings.png)
+
+Filters are available to help you browse through the list.
+<!--suppression date,  category and reason, but on staging, only creation date filter is available-->
 
 ![](../assets/suppression-list.png)
 
-For each email address that is listed, you can see the **[!UICONTROL Suppression category]** (**[!UICONTROL Soft]**, **[!UICONTROL Hard]**, or **[!UICONTROL Manual]**), the **[!UICONTROL Reason]** for excluding it and the date/time it was added to the suppression list.
+You can also download the list as a CSV file for analysis and reporting purpose.<!--how?-->
 
-The possible reasons for a delivery failure are:<!--from ACS doc-->
+## Suppression categories and reasons {#suppression-categories-and-reasons}
+
+When a message fails to be delivered to an email address, Journey Optimizer determines why the delivery failed and associates it with a suppression category.
+
+The suppression categories are as follows:
+
+* **Hard**: The email address is immediately sent to the suppression list.
+* **Spam complaint**: The email address of recipients who issue a spam complaint against one of your email messages is immediately sent to the suppression list.
+* **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](configuration/retries.md)
+* **Manual**: You can also manually add an email address to the suppression list.<!--how?-->
+<!--More categories?-->
+
+>[!NOTE]
+>
+>Learn more on soft bounces and hard bounces in the [Delivery failure types](suppression-list.md#delivery-failures) section.
+
+![](../assets/suppression-list.png)
+
+For each email address that is listed, you can also check the **[!UICONTROL Reason]** for excluding it and the date/time it was added to the suppression list.
+
+<!--The possible reasons for a delivery failure are:(from ACS doc)
 
 | Reason | Suppression category | Description |
 ---------|----------|--------- |
@@ -58,3 +74,5 @@ The possible reasons for a delivery failure are:<!--from ACS doc-->
 | **[!UICONTROL Invalid domain]** | Soft | The domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow. |
 | **[!UICONTROL DNS Failure]** | Soft | xxx |
 | **[!UICONTROL Invalid Recipient]** | Hard | xxx |
+
+-->
