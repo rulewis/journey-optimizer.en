@@ -20,7 +20,7 @@ With Journey Optimizer, you can monitor all the email addresses that are automat
 * Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
-Such email addresses are automatically collected into the Journey Optimizer **suppression list**. [Learn more this section](using/suppression-list.md)
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. [Learn more this section](../suppression-list.md)
 
 ## Access the suppression list {#access-suppression-list}
 
@@ -43,13 +43,13 @@ The suppression categories are as follows:
 
 * **Hard**: The email address is immediately sent to the suppression list.
 * **Spam complaint**: The email address of recipients who issue a spam complaint against one of your email messages is immediately sent to the suppression list.
-* **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](configuration/retries.md)
+* **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md)
 * **Manual**: You can also manually add an email address to the suppression list.<!--how?-->
 <!--More categories?-->
 
 >[!NOTE]
 >
->Learn more on soft bounces and hard bounces in the [Delivery failure types](suppression-list.md#delivery-failures) section.
+>Learn more on soft bounces and hard bounces in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
 
 ![](../assets/suppression-list.png)
 
