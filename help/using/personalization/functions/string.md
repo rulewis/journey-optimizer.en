@@ -149,7 +149,7 @@ The following query determines, with case sensitivity, if the person's name does
 
 ## Encode 64{#encode64}
 
-The `encode64` function is used to encode or decode a string.
+The `encode64` function is used to encode a string to preserve Personal Information (PI) if to be included for example in a URL.
 
 **Format**
 
@@ -268,20 +268,12 @@ The following function returns 'true' if the profile's mobile phone number is em
 
 ## Left trim {#leftTrim}
 
-The `leftTrim` function is used to.
+The `leftTrim` function is used to remove white spaces from beginning of a string.
 
 **Format**
 
 ```sql
 {%= leftTrim(string) %}
-```
-
-**Example**
-
-The following function .
-
-```sql
-
 ```
 
 ## Length {#length}
@@ -410,7 +402,7 @@ The following query is used to extract the domain name from an email address.
 
 ## Replace {#replace}
 
-The `replace` function is used to.
+The `replace` function is used to replace a given substring in a string with another substring.
 
 **Format**
 
@@ -429,7 +421,7 @@ The following function .
 
 ## Replace All{#replaceAll}
 
-The `replaceAll` function is used to.
+The `replaceAll` function is used to replace all substrings of a text that matches the "target" with the specified literal "replacement" string. The replacement proceeds from the beginning of the string to the end, for example, replacing "aa" with "b" in the string "aaa" will result in "ba" rather than "ab".
 
 **Format**
 
@@ -437,18 +429,11 @@ The `replaceAll` function is used to.
 {%= replaceAll(string,string,string) %}
 ```
 
-**Example**
-
-The following function .
-
-```sql
-
-```
-
 
 ## Right trim {#rightTrim}
 
-The `rightTrim` function is used to.
+The `rightTrim` function is used removes white spaces from end of a string.
+
 
 **Format**
 
@@ -456,17 +441,9 @@ The `rightTrim` function is used to.
 {%= rightTrim(string) %}
 ```
 
-**Example**
-
-The following function .
-
-```sql
-
-```
-
 ## Split {#split}
 
-The `split` function is used to.
+The `split` function is used to split a string by a given character.
 
 **Format**
 
@@ -474,6 +451,7 @@ The `split` function is used to.
 {%= split(string,string) %}
 ```
 
+<!--
 **Example**
 
 The following function .
@@ -481,6 +459,8 @@ The following function .
 ```sql
 
 ```
+
+-->
 
 ## Starts with{#startsWith}
 
@@ -501,7 +481,7 @@ The `startsWith` function is used to determine if a string starts with a specifi
 
 **Example**
 
-The following  query determines, with case sensitivity, if the person's name starts with "Joe".
+The following query determines, with case sensitivity, if the person's name starts with "Joe".
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
@@ -509,7 +489,7 @@ The following  query determines, with case sensitivity, if the person's name sta
 
 ## Title Case{#titleCase}
 
-The **upper** function .
+The **titleCase** function is used to capitalize first letters of each words of a string.
 
 **Syntax**
 
@@ -519,28 +499,20 @@ The **upper** function .
 
 **Example**
 
-This function .
+If the person lives in Washington high street, this function will return Washington High Street.
 
 ```sql
-
+{%= titleCase(profile.person.location.Street) %}
 ```
 
 ## Trim{#trim}
 
-The **trim** function .
+The **trim** function removes all white spaces from the beginning and at the end of a string.
 
 **Syntax**
 
 ```sql
 {%= trim(string) %}
-```
-
-**Example**
-
-This function .
-
-```sql
-
 ```
 
 ## Upper Case{#upper}
