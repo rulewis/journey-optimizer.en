@@ -57,7 +57,7 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
         <td><a href="arrays-list.md#last-n">Last n in array</a> (lastN)</td><td>This function returns the last `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
     </tr>
     <tr>
-        <td>Sum</td><td>TBD</td>
+        <td><a href="aggregation.md#sum">Sum</a>(sum)</td><td>This function returns the sum of all the selected values within the array</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#first-n">First n in array</a> (topN)</td><td>This function returns the first `N` items in an array, when sorted in ascending order based on the given numerical expression</td>
