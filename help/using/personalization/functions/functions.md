@@ -137,7 +137,7 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
         <td><a href="string.md#isEmpty">IsEmpty</a> (isEmpty)</td><td>This function is used to check if a string or expression is empty.</td>
     </tr>
     <tr>
-        <td><a href="string.md#leftTrim">Left trim</a>(leftTrim)</td><td>TBD</td>
+        <td><a href="string.md#leftTrim">Left trim</a>(leftTrim)</td><td>This function removes white spaces from beginning of a string</td>
     </tr>
     <tr>
         <td><a href="string.md#length">Length</a> ()</td><td>This function is used to get the number of characters in a string or an expression</td>
@@ -152,34 +152,31 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
         <td><a href="string.md#matches">Matches</a> (matches)</td><td>This function is used to determine if a string matches a specific regular expression</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">MD5</a> ()</td><td>TBD</td>
-    </tr>
-    <tr>
         <td><a href="string.md#notEqualTo">Not equal to</a> (notEqualsTo)</td><td>This function is used to determine if a string is not equal to the specified string</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Regular expression group</a> (regexGroup)</td><td>This function is used to extract specific information, based on the regular expression provided</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a> (replace)</td><td>TBD </td>
+        <td><a href="string.md#replace">Replace</a> (replace)</td><td>This function replaces a given substring in a string with another substring</td>
     </tr>
     <tr>
-        <td><a href="string.md#replaceAll">Replace all</a> (replaceAll)</td><td>TBD</td>
+        <td><a href="string.md#replaceAll">Replace all</a> (replaceAll)</td><td>This function replaces all substrings of a text that matches the "target" with the specified literal "replacement" string</td>
     </tr>
     <tr>
-        <td><a href="string.md#rightTrim">Right trim</a>(rightTrim)</td><td>TBD </td>
+        <td><a href="string.md#rightTrim">Right trim</a>(rightTrim)</td><td>This function removes white spaces from end of a string </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Split</a> (split)</td><td>TBD</td>
+        <td><a href="string.md#split">Split</a> (split)</td><td>This function is used to split a string by a given character</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Starts with</a> (startsWith)</td><td>This function is used to determine if a string starts with a specified substring</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">Title Case</a> (titleCase)</td><td>TBD</td>
+        <td><a href="string.md#titleCase">Title Case</a> (titleCase)</td><td>This function is used to capitalize first letters of each words of a string</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Trim</a> (trim)</td><td>TBD</td>
+        <td><a href="string.md#trim">Trim</a> (trim)</td><td>This function removes white spaces from the beginning and from end of a string</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Upper case</a> (upperCase)</td><td>This function converts a string to upper case letters</td>
