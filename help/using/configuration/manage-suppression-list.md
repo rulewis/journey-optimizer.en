@@ -33,7 +33,7 @@ Filters are available to help you browse through the list.
 
 ![](../assets/suppression-list.png)
 
-You can also download the list as a CSV file for analysis and reporting purpose.<!--how?-->
+<!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
 
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
