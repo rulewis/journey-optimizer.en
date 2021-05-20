@@ -105,3 +105,42 @@ To edit a message preset, you first need to de-activate it to make it unavailabl
     >[!NOTE]
     >
     >De-activated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
+
+<!-- To add when questions are answered + add link to this section in Create message presets section.
+
+## Header parameters
+
+The fields below allow you to enter information necessary to elaborate email message headers. This information can be personalized??
+
+>[!NOTE]
+>
+>All fields are required.
+
+
+To define the name and address of the sender which will appear in the header of messages sent, edit the settings below:
+
+**[!UICONTROL Sender email]**: Address of the sender
+
+**[!UICONTROL Sender name]**: Name of the sender. you can change the sender name
+
+**[!UICONTROL Reply to (email)]**: The email address to use when the recipient clicks the Reply button in their e-mail client software,
+
+**[!UICONTROL Reply to (name)]**: The name, which is customizable, that will be used when the recipient clicks the Reply button in their e-mail client software,
+
+**[!UICONTROL Reply to (forward email)]**:
+Cf. https://jira.corp.adobe.com/browse/CJM-9824
+
+**[!UICONTROL Error email]**: Email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the AJO server due to non-existent target addresses.
+This fields is automatically populated with the value you add in the Reply to (forward email) field.
+
+>[!NOTE]
+>
+>The sender’s address will be used for replies by default.
+>The header parameters must not be empty. By default, they contain the values input >when configuring the deployment wizard??
+>The sender’s address is mandatory to allow an email to be sent (RFC standard).
+Journey Optimizer checks the syntax of email addresses entered.
+
+>[!CAUTION]
+>
+>In the context of the checks implemented by Internet Access Providers (ISPs) to combat unsolicited email (spam), Adobe recommends creating email accounts that correspond to the addresses specified for deliveries and replies. Check with your messaging system administrator.-->
+
