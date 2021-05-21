@@ -116,6 +116,17 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 >
 >Helpers are detailed in [this section](functions/helpers.md).
 
+
+[!DNL Adobe Journey Optimizer] supports the following literal types:
+
+| Literal | Definition |
+| ------- | ---------- |
+| String | A data type comprised of characters surrounded by double quotes. Ex: `"pizza"`, `"jobs"`, `"antidisestablishmentarianism"` |
+| Boolean | A data type that is either true or false.  |
+| Integer | A data type representing a whole number. It can be positive, negative, or zero. ex: `-201`, `0`, `412` |
+| Array | A data type that is comprised as a group of other literal values. It uses square brackets to group and commas to delimit between different values. <br> **Note:** You cannot directly access properties of items within an array. So, if you need to access a property within an array, the supported method is `select X from array where X.item = ...`. <br> PQL reserves the word `xEvent` to refer to an array of experience events linked to a profile. Ex: `[1, 4, 7]`, `["US", "CA"]` |  
+
+
 ## Limitations 
 
 * The use of **xEvent** variable is not available in personalization expressions. Any reference to xEvent will result in validation failures.

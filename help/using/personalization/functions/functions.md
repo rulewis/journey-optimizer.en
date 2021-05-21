@@ -7,13 +7,15 @@ description: Journey Optimizer Helper functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-Use Journey Optimizer templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization.
+Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn  personalization syntax guidelines in [this page](../personalization-syntax.md).
 
 Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
 
 ![](../assets/access-helper-functions.png)
 
 They are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
+
+
 
 ## Functions{#functions-helper}
 
