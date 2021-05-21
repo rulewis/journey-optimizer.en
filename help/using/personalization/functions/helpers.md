@@ -3,11 +3,12 @@ title: Helpers
 description: Functions library
 ---
 
-# Helpers {#helpers}
+# Helpers {#gs-helpers}
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Conditions{#if}
+
+## Conditions{#if-function}
 
 The `if` helper is used to define a conditional block.
 If the expression evaluation returns true, the block is rendered otherwise it is skipped.
