@@ -173,7 +173,7 @@ The `with` helper is useful to define a shortcut variable too.
 
 Use with for aliasing long variable names to shorter ones:
 
-```
+```sql
 {{#with profile.person.name as |name|}}
  Hi {{name.firstName}} {{name.lastName}}!
  Checkout our trending products for today!
