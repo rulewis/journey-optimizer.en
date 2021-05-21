@@ -191,7 +191,7 @@ Helpers are detailed in [this page](helpers.md).
         <td><a href="helpers.md#each">Each</a></td><td>This function is used to iterate over an array</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if">If</a></td><td>This function is used to define a conditional block - if the expression evaluation returns true, the block is rendered</td>
+        <td><a href="helpers.md#if-function">If</a></td><td>This function is used to define a conditional block - if the expression evaluation returns true, the block is rendered</td>
     </tr>
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>This function allows an expression to be stored as a variable to be used later in a query</td>
