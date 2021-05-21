@@ -182,15 +182,15 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 ## Helpers{#helper-helper}
 
-Helpers are detailed in [this page](../personalization-syntax.md#helpers-all).
+Helpers are detailed in [this page](helpers.md).
 
 Available helpers are:
 
-* Each - [Learn more](../helpers.md#each)
-* If  - [Learn more](../helpers.md#if)
-* Let - [Learn more](../helpers.md#let)
-* Unless  - [Learn more](../helpers.md#unless)
-* With  - [Learn more](../helpers.md#with)
+* Each - [Learn more](helpers.md#each)
+* If  - [Learn more](helpers.md#if)
+* Let - [Learn more](helpers.md#let)
+* Unless  - [Learn more](helpers.md#unless)
+* With  - [Learn more](helpers.md#with)
 
 ## Operators{#operators-helper}
 

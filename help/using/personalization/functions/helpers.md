@@ -1,7 +1,8 @@
 ---
-title: Functions library
+title: Helpers
 description: Functions library
 ---
+
 # Helpers {#helpers}
 
 ![](../../assets/do-not-localize/badge.png)
@@ -95,7 +96,7 @@ The `elseif` statement will specify a new condition to test if the first stateme
 
 >[!NOTE]
 >
->To learn more about segmentation and segmentation service, refer to this [section](../segment/about-segments.md).
+>To learn more about segmentation and segmentation service, refer to this [section](../../segment/about-segments.md).
 
 
 ## Unless{#unless}
