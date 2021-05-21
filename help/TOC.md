@@ -39,7 +39,7 @@ hide: yes
        + [Operators](using/personalization/functions/operators.md)
        + [Aggregation](using/personalization/functions/aggregation.md)
        + [Arrays and list](using/personalization/functions/arrays-list.md)
-       + [Maths](using/personalization/functions/maths.md)
+       + [Maths](using/personalization/functions/arithmetic-functions.md)
        + [Maps](using/personalization/functions/maps.md)
        + [Objects](using/personalization/functions/objects.md)
        + [String](using/personalization/functions/string.md) 

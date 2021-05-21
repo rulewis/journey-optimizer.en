@@ -6,9 +6,12 @@ description: Functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-**Logical operators**
 
-## And{#and}
+## Boolean functions
+
+Boolean functions are used to perform boolean logic on different elements.
+
+### And{#and}
 
 The `and` function is used to create a logical conjunction.
 
@@ -26,7 +29,7 @@ The following operation will return all people with home country as France and b
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
 ```
 
-## Or{#or}
+### Or{#or}
 
 The `or` function is used to create a logical disjunction.
 
@@ -65,7 +68,7 @@ not (homeAddress.countryISO = "CA")
 ```
 -->
 
-## If{#if}
+### If{#if}
 
 The `if` function is used to resolve an expression depending on whether a specified condition is true.
 
@@ -98,7 +101,11 @@ The following operation will add a link to the 'www.adobe.com/academia' website 
 
 You will find other samples in [this section](../personalization-syntax.md#perso-segments).
 
-## Equals{#equals}
+## Comparison functions
+
+Comparison functions are used to compare between different expressions and values, returning true or false accordingly. 
+
+### Equals{#equals}
 
 The `=` (equals) function checks whether one value or expression is equal to another value or expression.
 
@@ -116,7 +123,7 @@ The following operation checks if the home address country is France.
 {%= profile.homeAddress.country = "France" %}
 ```
 
-## Not equal{#notequal}
+### Not equal{#notequal}
 
 The `!=` (not equal) function checks whether one value or expression is **not** equal to another value or expression.
 
@@ -134,7 +141,7 @@ The following operation checks if the home address country is not France.
 {%= profile.homeAddress.country != "France" %}
 ```
 
-## Greater than{#greaterthan}
+### Greater than{#greaterthan}
 
 The `>` (greater than) function is used to check if the first value is greater than the second value.
 
@@ -152,7 +159,7 @@ The following operation defines people born strictly after 1970.
 {%= profile.person.birthYear > 1970 %}
 ```
 
-## Greater than or equal to{#greaterthanorequal}
+### Greater than or equal to{#greaterthanorequal}
 
 The `>=` (greater than or equal to) function is used to check if the first value is greater than or equal to the second value.
 
@@ -170,7 +177,7 @@ The following operation defines people born in or after 1970.
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-## Less than{#lessthan}
+### Less than{#lessthan}
 
 The `<` (less than) comparison function is used to check if the first value is less than the second value.
 
@@ -188,7 +195,7 @@ The following operation defines people born before 2000.
 {%= profile.person.birthYear < 2000 %}
 ```
 
-## Less than or equal to{#lessthanorequal}
+### Less than or equal to{#lessthanorequal}
 
 The `<=` (less than or equal to) comparison function is used to check if the first value is less than or equal to the second value.
 
@@ -208,92 +215,3 @@ The following operation defines people born in 2000 or before.
 
 **Operations with numbers**
 
-## Add{#add}
-
-The `+` (addition) function is used to find the sum of two argument expressions.
-
-**Format**
-
-```sql
-{%= double + double %}
-```
-
-**Example**
-
-The following operation sums the price of two different products.
-
-```sql
-{%= product1.price + product2.price %}
-```
-
-## Multiply{#multiply}
-
-The `*` (multiplication) function is used to find the product of two argument expressions.
-
-**Format**
-
-```sql
-{%= double * double %}
-```
-
-**Example**
-
-The following operation finds the product of the inventory and the price of a product to find the gross value of the product.
-
-```sql
-{%= product.inventory * product.price %}
-```
-
-## Subtract{#substract}
-
-The `-` (subtraction) function is used to find the difference of two argument expressions.
-
-**Format**
-
-```sql
-{%= double - double %}
-```
-
-**Example**
-
-The following operation finds the difference in price between two different products.
-
-```sql
-{%= product1.price - product2.price %}
-```
-
-## Divide{#divide}
-
-The `/` (division) function is used to find the quotient of two argument expressions.
-
-**Format**
-
-```sql
-{%= double / double %}
-```
-
-**Example**
-
-The following operation finds the quotient between the total products sold and total money earned to see the average cost per item.
-
-```sql
-{%= totalProduct.price / totalProduct.sold %}
-```
-
-## Remainder{#remainder}
-
-The `%` (modulo/remainder) function is used to find the remainder after dividing the two argument expressions. 
-
-**Format**
-
-```sql
-{%= double % double %}
-```
-
-**Example**
-
-The following operation checks if the person's age is divisible by five.
-
-```sql
-{%= person.age % 5 = 0 %}
-```

@@ -137,7 +137,7 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
         <td><a href="string.md#leftTrim">Left trim</a>(leftTrim)</td><td>This function removes white spaces from beginning of a string</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Length</a> ()</td><td>This function is used to get the number of characters in a string or an expression</td>
+        <td><a href="string.md#length">Length</a> (length)</td><td>This function is used to get the number of characters in a string or an expression</td>
     </tr>
     <tr>
         <td><a href="string.md#like">Like</a> (like)</td><td>This function is used to determine if a string matches a specified pattern</td>
@@ -194,48 +194,68 @@ Available helpers are:
 
 ## Operators{#operators-helper}
 
-These operators can only be used with numbers.
+### Arithmetic functions {#arithmetic-helper}
+
+Arithmetic functions are used to perform basic calculations on values.
 
 <table>
     <tr>
-        <td><a href="operators.md#add">Addition</a> ('+')</td><td>This operator adds two numbers</td>
+        <td><a href="arithmetic-functions.md#add">Addition</a> (`+`)</td><td>This operator is used to find the sum of two argument expressions</td>
     </tr>
+    <tr>
+        <td><a href="arithmetic-functions.md#divide">Divide</a> (`/`)</td><td>This operator is used to find the quotient of two argument expressions</td>
+    </tr>
+    <tr>
+        <td><a href="arithmetic-functions.md#multiply">Multiplication</a> (`*`)</td><td>This operator is used to find the product of two argument expressions</td>
+    </tr>
+    <tr>
+        <td><a href="arithmetic-functions.md#remainder">Remainder</a> (`%`)</td><td>This operator is used to  find the remainder after dividing the two argument expressions</td>
+    </tr>
+    <tr>
+        <td><a href="arithmetic-functions.md#substract">Subtraction</a> (`-`)</td><td>This operator finds the difference between two expressions</td>
+    </tr>
+</table>
+
+
+### Boolean functions
+
+Boolean functions are used to perform boolean logic on different elements.
+
+<table>
     <tr>
         <td><a href="operators.md#and">And</a> (and)</td><td>This operator creates a logical conjunction</td>
-    <tr>
-        <td><a href="operators.md#divide">Divide</a> (/)</td><td>This operator is used to find the quotient of two numbers</td>
     </tr>
     <tr>
-        <td><a href="operators.md#and">Equals to</a> (=)</td><td>This operation checks if values are equal</td>
+        <td><a href="operators.md#not">If</a> (if)</td><td>This operator resolves an expression depending on whether a specified condition is true</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a> ()</td><td>This operator checks if first value is greater than the second value</td>
-    </tr>
-    <tr>
-        <td><a href="operators.md#greaterthanorequal">Greater or equals to</a> (=>)</td><td>This operator checks if first value is greater than or equal to the second value</td>
-    </tr>
-    <tr>
-        <td><a href="operators.md#multiply">Multiplication</a> (*)</td><td>This operator multiplies two numbers</td>
-    </tr>
-    <tr>
-        <td><a href="operators.md#not">Negation</a> (!)</td><td>This operator creates a logical negation</td>
-    </tr>
-    <tr>
-        <td><a href="operators.md#notequal">Not equals to</a> (=!)</td><td>This operator checks if given expression not equal to give value</td>
+        <td><a href="operators.md#not">Not</a> (!)</td><td>This operator creates a logical negation</td>
     </tr>
     <tr>
         <td><a href="operators.md#or">Or</a> (or)</td><td>This operator creates a logical disjunction</td>
     </tr>
+</table>
+
+
+### Comparison functions
+
+Comparison functions are used to compare between different expressions and values, returning true or false accordingly.
+
+<table>
     <tr>
-        <td><a href="operators.md#remainder">Remainder</a> (%)</td><td>This operator is used to calculate the remaindes after dividing two numbers</td>
+        <td><a href="operators.md#and">Equals to</a> (`=`)</td><td>This operation checks if values are equal</td>
     </tr>
     <tr>
-        <td><a href="operators.md#remainder">Smaller than</a> ()</td><td>This operator checks if first value is less than the second value</td>
+        <td><a href="operators.md#greaterthan">Greater than</a> (`>`)</td><td>This operator checks if first value is greater than the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Smaller or equals to</a> ()</td><td>This operator checks if first value is smaller than or equal to the second value</td>
+        <td><a href="operators.md#greaterthanorequal">Greater or equals to</a> (`>=`)</td><td>This operator checks if first value is greater than or equal to the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#substract">Substraction</a> ()</td><td>This operator substracts two numbers</td>
+        <td><a href="operators.md#notequal">Not equals to</a> (`=!`)</td><td>This operator checks if given expression not equal to give value</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#lessthanorequal">Less than or equals to</a> (`<=`)</td><td>This operator checks if first value is smaller than or equal to the second value</td>
     </tr>
 </table>
+
