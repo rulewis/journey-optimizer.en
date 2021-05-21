@@ -114,8 +114,9 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
 >[!NOTE]
 >
->Helpers are detailed in [this section](functions/helpers.md).
+>Helper functions are detailed in [this section](functions/helpers.md).
 
+## Literal types
 
 [!DNL Adobe Journey Optimizer] supports the following literal types:
 
