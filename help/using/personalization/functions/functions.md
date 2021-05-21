@@ -7,13 +7,13 @@ description: Journey Optimizer Helper functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-Use Journey Optimizer templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization.
+Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn  personalization syntax guidelines in [this page](../personalization-syntax.md).
 
 Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
 
 ![](../assets/access-helper-functions.png)
 
-They are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
+In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
 
 ## Functions{#functions-helper}
 
@@ -180,17 +180,29 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
     </tr>
 </table>
 
+
 ## Helpers{#helper-helper}
 
 Helpers are detailed in [this page](helpers.md).
 
-Available helpers are:
 
-* Each - [Learn more](helpers.md#each)
-* If  - [Learn more](helpers.md#if)
-* Let - [Learn more](helpers.md#let)
-* Unless  - [Learn more](helpers.md#unless)
-* With  - [Learn more](helpers.md#with)
+<table>
+    <tr>
+        <td><a href="helpers.md#each">Each</a></td><td>This function is used to iterate over an array</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#if">If</a></td><td>This function is used to define a conditional block - if the expression evaluation returns true, the block is rendered</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#let">Let</a></td><td>This function allows an expression to be stored as a variable to be used later in a query</td>
+    </tr>
+   <tr>
+        <td><a href="helpers.md#unless">Unless</a></td><td>This function is used to define a conditional block - if the expression evaluation returns false, the block is rendered</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#with">With</a></td><td>This function is used to change the evaluation token of template-part</td>
+    </tr>
+</table>
 
 ## Operators{#operators-helper}
 
