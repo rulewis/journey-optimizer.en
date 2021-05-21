@@ -88,20 +88,20 @@ All the references are validated against Offers Schema with a validation mechani
 
 * Location where the image is hosted:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
+    ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
 
 * Target URL when you click on the image:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
+    ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
 
 * Text content of the offer coming from the decisionning engine:
 
-```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+    ```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
 
 * HTML content of the offer coming from the decisionning engine:
 
-```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content``` 
-
+    ```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content``` 
+    
 
 ## Helpers{#helpers-all}
 
@@ -115,6 +115,7 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 >[!NOTE]
 >
 >Helper functions are detailed in [this section](functions/helpers.md).
+>
 
 ## Literal types
 
