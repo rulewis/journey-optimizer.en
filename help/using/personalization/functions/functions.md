@@ -182,15 +182,15 @@ They are grouped into three categories: [Functions](#functions-helper), [Helpers
 
 ## Helpers{#helper-helper}
 
-Helpers are detailed in [this page](../personalization-syntax.md#helpers-all).
+Helpers are detailed in [this page](helpers.md).
 
 Available helpers are:
 
-* Each - [Learn more](../personalization-syntax.md#each)
-* If  - [Learn more](../personalization-syntax.md#if)
-* Let - [Learn more](../personalization-syntax.md#let)
-* Unless  - [Learn more](../personalization-syntax.md#unless)
-* With  - [Learn more](../personalization-syntax.md#with)
+* Each - [Learn more](helpers.md#each)
+* If  - [Learn more](helpers.md#if)
+* Let - [Learn more](helpers.md#let)
+* Unless  - [Learn more](helpers.md#unless)
+* With  - [Learn more](helpers.md#with)
 
 ## Operators{#operators-helper}
 
@@ -243,16 +243,16 @@ Comparison functions are used to compare between different expressions and value
 
 <table>
     <tr>
-        <td><a href="operators.md#and">Equals to</a> (`=`)</td><td>This operation checks if values are equal</td>
+        <td><a href="operators.md#and">Equals to</a></td><td>This operation checks if values are equal</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a> (`>`)</td><td>This operator checks if first value is greater than the second value</td>
+        <td><a href="operators.md#greaterthan">Greater than</a></td><td>This operator checks if first value is greater than the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Greater or equals to</a> (`>=`)</td><td>This operator checks if first value is greater than or equal to the second value</td>
+        <td><a href="operators.md#greaterthanorequal">Greater or equals to</a></td><td>This operator checks if first value is greater than or equal to the second value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Not equals to</a> (`=!`)</td><td>This operator checks if given expression not equal to give value</td>
+        <td><a href="operators.md#notequal">Not equals to</a></td><td>This operator checks if given expression not equal to give value</td>
     </tr>
     <tr>
         <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>This operator checks if first value is smaller than or equal to the second value</td>

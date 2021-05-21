@@ -6,7 +6,6 @@ description: Functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-
 ## Boolean functions
 
 Boolean functions are used to perform boolean logic on different elements.
@@ -68,38 +67,9 @@ not (homeAddress.countryISO = "CA")
 ```
 -->
 
-### If{#if}
 
-The `if` function is used to resolve an expression depending on whether a specified condition is true.
 
-**Format**
 
-```sql
-{
-    {
-        {%#if condition1%} element_1 
-        {%else if condition2%} element_2 
-        {%else%} default_element 
-        {%/if%}
-    }
-}
-```
-
-**Example**
-
-The following operation will add a link to the 'www.adobe.com/academia' website for profiles with '.edu' email adresses only, to the 'www.adobe.com/org' website for profiles with '.org' email addresses, and the default URL 'www.adobe.com/users' for all other profiles.
-
-```sql
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
-{%else if contains(profile.personalEmail.address, ".org")%}
-<a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
-{%else%}
-<a href="https://www.adobe.com/users">Checkout our page</a>
-{%/if%}
-```
-
-You will find other samples in [this section](../personalization-syntax.md#perso-segments).
 
 ## Comparison functions
 

@@ -6,9 +6,7 @@ description: Learn how to use personalization syntax
 
 ![](../assets/do-not-localize/badge.png)
 
-## Introduction
-
-The personalization in Journey Optimizer is based on the templating syntax called Handlebars.
+Personalization in [!DNL Journey Optimizer] is based on the templating syntax called Handlebars.
 For a complete description of the Handlebars syntax, see [HandlebarsJS](https://handlebarsjs.com/).
 
 It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
@@ -42,7 +40,7 @@ In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. I
 
 This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
-The attributes need to be defined in the schema before being referenced in a Journey Optimizer personalization block.
+The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
 
 All the references are validated against Profile Schema with a validation mechanism described [here](personalization-validation.md).
 
@@ -56,41 +54,17 @@ All the references are validated against Profile Schema with a validation mechan
 * ```{{profile.homeAddress.city}}```
 * ```{{profile.faxPhone.number}}```
 
-**Determine email address extension**:
-
-```sql
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
-{%else if contains(profile.personalEmail.address, ".org")%}
-<a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
-{%else%}
-<a href="https://www.adobe.com/users">Checkout our page</a>
-{%/if%}
-```
+>[!NOTE]
+>
+>Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if).
 
 ## Segments{#perso-segments}
 
-To learn more about segmentation and segmentation service, refer to this [section](../segment/about-segments.md).
+Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if).
 
-**Render different content based on segment membership**:
-
-```sql
-{%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
-  Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-{%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
-  Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
-{%/if%}
-```
-
-**Determine if a profile is already a member**:
-
-```sql
-{%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
-    You're a member!
-{%else%}
-    You should be a member! Sign up now!
-{%/if%}
-```
+>[!NOTE]
+>To learn more about segmentation and segmentation service, refer to this [section](../segment/about-segments.md).
+>
 
 ## Offers
 
@@ -137,111 +111,10 @@ Each parameter is a Handlebars expression. These helpers can be accessed from an
 These block helpers are identified by a # preceeding the helper name and require a matching closing /, of the same name. 
 Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
-### If{#if}
 
-The **if** helper is used to define a conditional block.
-If the expression evaluation returns true, the block is rendered otherwise it is skipped.
-
-```sql
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Check out this link</a>
-```
-
-Following the **if** helper, you can enter an **else** statement to specify a block of code to be executed, if the same condition is false.
-The **else if** statement will specify a new condition to test if the first statement returns false.
-
-**Render different store links based on conditional expressions**:
-
-```sql
-{%#if profile.homeAddress.countryCode = "FR"%}
-  <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
-{%else%}
-  <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
-{%/if%}
-```
-
-### Unless{#unless}
-
-**#unless** helper is used to define a conditional block. By opposition to the **#if** helper, if the expression evaluation returns false, the block is rendered.
-
-**Render some content based on email address extension**:
-
-```sql
-{%#unless endsWith(profile.personalEmail.address, ".edu")%}
-Some Normal Content
-{%else%}
-Some edu specific content Content
-{%/unless%}
-```
-
-### Each{#each}
-
-The **each** helper is used to iterate over an array.
-The syntax of the helper is ```{{#each ArrayName}}``` YourContent {{/each}} 
-We can refer to the individual array items by using the keyword **this** inside the block. The index of the array’s element can be rendered by using {{@index}}. 
-
-Example:
-
-```sql
-{{#each profile.productsInCart}}
-    <li>{{this.name}}</li>
-    </br>
-{{/each}}
-```
-
-```sql
-{{#each profile.homeAddress.city}}
-  {{@index}} : {{this}}<br>
-{{/each}}
-```
-
-**Render a list of products that this user has in their cart**:
-
-```sql
-{{#each profile.products as |product|}}
-    <li>{{product.productName}} {{product.productRating}}</li>
-   </br>
-{{/each}}
-```
-
-### With{#with}
-
-The **#with** helper is used to change the evaluation token of template-part.
-
-Example:
-
-```sql
-{{#with profile.person.name}}
-{{this.firstName}} {{this.lastName}}
-{{/with}}
-```
-
-The **#with** helper is useful to define a shortcut variable too.
-
-**Use with for aliasing long variable names to shorter ones**:
-
-```
-{{#with profile.person.name as |name|}}
- Hi {{name.firstName}} {{name.lastName}}!
- Checkout our trending products for today!
-{{/with}}
-```
-
-### Let{#let}
-
-The **let** function allows an expression to be stored as a variable to be used later in a query.
-
-```sql
-{% let variable = expression %} {{variable}}
-```
-
-Example:
-
-The following example lets all sums of product totals with the transaction in USD where the sum is greater than $100 and less than $1000.
-
-```sql
-{% let variable = expression %} {{variable}}
-```
+>[!NOTE]
+>
+>Helpers are detailed in [this section](functions/helpers.md).
 
 ## Limitations 
 
