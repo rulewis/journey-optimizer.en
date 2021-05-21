@@ -88,20 +88,20 @@ All the references are validated against Offers Schema with a validation mechani
 
 * Location where the image is hosted:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
+    ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
 
 * Target URL when you click on the image:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
+    ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
 
 * Text content of the offer coming from the decisionning engine:
 
-```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+    ```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
 
 * HTML content of the offer coming from the decisionning engine:
 
-```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content``` 
-
+    ```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content``` 
+    
 
 ## Helpers{#helpers-all}
 
@@ -115,6 +115,7 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 >[!NOTE]
 >
 >Helper functions are detailed in [this section](functions/helpers.md).
+>
 
 ## Literal types
 
@@ -122,12 +123,11 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
 | Literal | Definition |
 | ------- | ---------- |
-| String | A data type comprised of characters surrounded by double quotes. Ex: `"pizza"`, `"jobs"`, `"antidisestablishmentarianism"` |
-| Boolean | A data type that is either true or false.  |
-| Integer | A data type representing a whole number. It can be positive, negative, or zero. ex: `-201`, `0`, `412` |
-| Array | A data type that is comprised as a group of other literal values. It uses square brackets to group and commas to delimit between different values. <br> **Note:** You cannot directly access properties of items within an array. So, if you need to access a property within an array, the supported method is `select X from array where X.item = ...`. <br> PQL reserves the word `xEvent` to refer to an array of experience events linked to a profile. Ex: `[1, 4, 7]`, `["US", "CA"]` |  
+| String | A data type comprised of characters surrounded by double quotes. <br>Examples: `"prospect"`, `"jobs"`, `"articles"` |
+| Boolean | A data type that is either true or false.|
+| Integer | A data type representing a whole number. It can be positive, negative, or zero. <br>Examples: `-201`, `0`, `412` |
+| Array | A data type that is comprised as a group of other literal values. It uses square brackets to group and commas to delimit between different values. <br> **Note:** You cannot directly access properties of items within an array. <br> Examples: `[1, 4, 7]`, `["US", "FR"]` |  
 
-
-## Limitations 
-
-* The use of **xEvent** variable is not available in personalization expressions. Any reference to xEvent will result in validation failures.
+>[!CAUTION]
+>
+>The use of **xEvent** variable is not available in personalization expressions. Any reference to xEvent will result in validation failures.
