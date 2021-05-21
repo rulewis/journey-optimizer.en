@@ -255,7 +255,7 @@ Comparison functions are used to compare between different expressions and value
         <td><a href="operators.md#notequal">Not equals to</a> (`=!`)</td><td>This operator checks if given expression not equal to give value</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">Less than or equals to</a> (`<=`)</td><td>This operator checks if first value is smaller than or equal to the second value</td>
+        <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>This operator checks if first value is smaller than or equal to the second value</td>
     </tr>
 </table>
 
