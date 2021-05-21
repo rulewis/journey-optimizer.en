@@ -13,9 +13,7 @@ Templating language is leveraged in helper functions available in personalizatio
 
 ![](../assets/access-helper-functions.png)
 
-They are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
-
-
+In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
 
 ## Functions{#functions-helper}
 
