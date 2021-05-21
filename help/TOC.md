@@ -35,11 +35,12 @@ hide: yes
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + [Personalization validation](using/personalization/personalization-validation.md) 
     + [Personalization use case](using/personalization/personalization-use-case.md) 
-    + Templating language{#functions}
+    + Helper functions{#functions}
+       + [List of helper functions](using/personalization/functions/functions.md)
        + [Operators](using/personalization/functions/operators.md)
        + [Aggregation](using/personalization/functions/aggregation.md)
        + [Arrays and list](using/personalization/functions/arrays-list.md)
-       + [Maths](using/personalization/functions/maths.md)
+       + [Maths](using/personalization/functions/arithmetic-functions.md)
        + [Maps](using/personalization/functions/maps.md)
        + [Objects](using/personalization/functions/objects.md)
        + [String](using/personalization/functions/string.md) 
