@@ -21,8 +21,8 @@ hide: yes
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
     + [Create a message](using/create-message.md)
-    + [Configure an email](using/configure-email.md)
-    + [Configure a push notification](using/configure-push.md)
+    + [Configure an email](using/create-email.md)
+    + [Configure a push notification](using/create-push.md)
   + [Add and manage assets](using/assets-essentials.md)
   + Email designer {#email-designer} 
     + [Get started with email design](using/design-emails.md)

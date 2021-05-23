@@ -53,8 +53,8 @@ To create a new message, follow the steps below:
 
     You can now create the content of the message and adapt settings. Detailed information about email and push notification configuration is available in the following sections:
 
-    * [Configure emails](configure-email.md)
-    * [Configure push notifications](configure-push.md)
+    * [Create an email](create-email.md)
+    * [Create a push notifications](create-push.md)
 
     >[!NOTE]
     >   
