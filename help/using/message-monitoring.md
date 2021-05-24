@@ -28,9 +28,13 @@ If a message is published but not triggered yet by a journey, it it not listed i
 * Messages that have been triggered, but not yet started (pending).
 * Messages that have been triggered and that are currently running (in progress).
 
-For multichannel messages, one row per channel is displayed for each message.
+<!--For multichannel messages, one row per channel is displayed for each message. STILL VALID? looks like NOT-->
 
-![](assets/message-execution-multichannel.png)
+>[!NOTE]
+>
+>If a message has been used in several journeys, one row per journey is displayed for each execution.
+
+<!--![](assets/message-execution-multichannel.png)-->
 
 <!--If a message has been used in several journeys, the **[!UICONTROL Source]** column displays **[!UICONTROL Multiple]**.-->
 
@@ -49,11 +53,9 @@ For each message execution, a number of indicators are displayed:
   <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
   **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
 
-* **[!UICONTROL Journey - Version - Action]**: Name of the journey leveraging the message, version of the message, and label of the action leveraging the message.
+* **[!UICONTROL Journey - Version - Action]**: Name of the journey leveraging the message, version of the journey, and label of the action leveraging the message in the journey.
 
-  <!--version/action defintions to check>
-
-* **[!UICONTROL Status]**: Message execution status. <!--List all the possible statuses?-->
+* **[!UICONTROL Status]**: Message execution status. <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
 
 * **[!UICONTROL Start date]**: Date and time when the message has been executed from the journey.
 
@@ -75,8 +77,8 @@ For each message execution, a number of indicators are displayed:
   >
   >Clicks do not exist for push notifications: when a user clicks a push notification, it opens the app, which can only be considered as an open.
 
-* **[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. [Learn more on complaints](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
-
 * **[!UICONTROL Errors]**: Number of messages that cannot be sent because of a technical failure.
+
+* **[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. [Learn more on complaints](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
 
 Clicking each hyperlink will open the corresponding message summary view. [Learn more on messages](create-message.md).
