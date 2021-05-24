@@ -12,7 +12,7 @@ To detect possible errors in email content or personalization settings, send pro
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. [Learn more](building-journeys/testing-the-journey.md#create-test-profile).
+>You need to have test profiles available to be able to preview your messages and send proofs. Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md).
 
 To test your message content, you need to:
 
@@ -25,7 +25,7 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 
 ## Select test profiles{#select-test-profiles}
 
-Test profiles allow you to target additional recipients who do not match the defined targeting criteria.
+Use [Test profiles](building-journeys/creating-test-profiles.md) to target additional recipients who do not match the defined targeting criteria.
 
 To select test profiles, follow the steps below: 
 
