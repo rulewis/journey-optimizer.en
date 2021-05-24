@@ -32,7 +32,7 @@ For multichannel messages, one row per channel is displayed for each message.
 
 ![](assets/message-execution-multichannel.png)
 
-If a message has been used in several journeys, the **[!UICONTROL Source]** column displays **[!UICONTROL Multiple]**.
+<!--If a message has been used in several journeys, the **[!UICONTROL Source]** column displays **[!UICONTROL Multiple]**.-->
 
 By default, the messages are displayed starting from the most recent execution date. Click the **[!UICONTROL Filters]** icon to search the messages according to the channel, the start date, and/or the end date.
 
@@ -44,20 +44,38 @@ The <!--**[!UICONTROL Quick action]**-->second column enables to open the corres
 
 For each message execution, a number of indicators are displayed:
 
-* **[!UICONTROL Message label]**: Message title that you defined upon [creating the message](create-message.md).
-* **[!UICONTROL Execution ID]**: Automatically generated identifier.
-* **[!UICONTROL Source]**: Name of the journey leveraging that message.
+* **[!UICONTROL Message label]**: Message title that you defined upon [creating the message](create-message.md). The execution ID, which is automatically generated, is displayed in parentheses.
+
+  <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
+  **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
+
+* **[!UICONTROL Journey - Version - Action]**: Name of the journey leveraging the message, version of the message, and label of the action leveraging the message.
+
+  <!--version/action defintions to check>
+
+* **[!UICONTROL Status]**: Message execution status. <!--List all the possible statuses?-->
+
 * **[!UICONTROL Start date]**: Date and time when the message has been executed from the journey.
+
+  <!--Targeted: Number of targeted profiles for each message execution. To come?-->
+
 * **[!UICONTROL Excluded]**: Number of profiles that have been excluded from the initial target due to exclusion rules.
+
 * **[!UICONTROL Sent]**: Number of messages that have been sent.
+
 * **[!UICONTROL Delivered]**: Number of messages successfully delivered in the recipient's mailbox (email) or device (push) without generating a bounce or any other delivery error.
-* **[!UICONTROL Bounces]**: Number of messages that cannot be delivered because of a delivery failure. [Learn more about bounces](suppression-lists.md#delivery-failures).
+
+* **[!UICONTROL Bounces]**: Number of messages that cannot be delivered because of a delivery failure. [Learn more on bounces](suppression-lists.md#delivery-failures).
+
 * **[!UICONTROL Opens]**: Number of messages that have been opened.
+
 * **[!UICONTROL Clicks]**: Number of clicks on links in an email.
 
   >[!NOTE]
   >
   >Clicks do not exist for push notifications: when a user clicks a push notification, it opens the app, which can only be considered as an open.
+
+* **[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. [Learn more on complaints](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
 
 * **[!UICONTROL Errors]**: Number of messages that cannot be sent because of a technical failure.
 
