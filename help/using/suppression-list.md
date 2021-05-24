@@ -28,22 +28,15 @@ Email addresses are added to the suppression list as follows:
 
 * All **hard bounces** and **spam complaints** automatically send the corresponding email addresses to the suppression list after a single occurrence.
 
-* **Soft bounces** and **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. [Learn more on retries](configuration/retries.md)
+* **Soft bounces** and temporary **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. [Learn more on retries](configuration/retries.md)
+
+* Email addresses of recipients who **unsubscribe** from your sendings are automatically sent to the suppression list. [Learn more on opting-out](../consent.md)
 
 * You can also manually add an address to the suppression list.<!--how??-->
-<!--anything else?-->
 
 For each address, the basic reason for being suppressed and the suppression category (soft, hard, etc.) are displayed in the suppression list. Learn more on accessing and managing it in [this section](configuration/manage-suppression-list.md).
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
-
-### Spam complaints {#spam-complaints}
-
-The suppression list collects email addresses that mark your message as spam. For example, if someone writes to a customer service requesting to never receive mail again from you, the email address of that person will be suppressed across your instance and you won't be able to deliver to that address anymore.
-
-Sending to recipients after they submit a spam complaint may have a huge impact on your sending reputation, because it informs ISPs that you may send unwanted emails and may not listen to your recipients.
-
-This could lead to your IP address or sending domain being blocked, which can be avoided with these addresses being on the suppression list.
 
 ### Delivery failures {#delivery-failures}
 
@@ -61,6 +54,17 @@ A **soft bounce** or an **ignored** error that occurs too many times also sends 
 
 If you continue sending to these addresses, it may affect your delivery rates, because it tells ISPs that you may not be following email address list maintenance best practices, and therefore may not be a trustworthy sender.
 
+### Spam complaints {#spam-complaints}
+
+The suppression list collects email addresses that mark your message as spam. For example, if someone writes to a customer service requesting to never receive mail again from you, the email address of that person will be suppressed across your instance and you won't be able to deliver to that address anymore.
+
+Sending to recipients after they submit a spam complaint may have a huge impact on your sending reputation, because it informs ISPs that you may send unwanted emails and may not listen to your recipients.
+
+This could lead to your IP address or sending domain being blocked, which can be avoided with these addresses being on the suppression list.
+
+### Unsubscriptions {#unsubscriptions}
+
+Every email sent to recipients must include an unsubscribe link. Upon clicking this link, if a recipient confirms [opting out](../consent.md), the corresponding email address is immediately sent to the suppression list. This user must not receive communication from your brand until subscribed again.
 
 <!--MOVED to Configuration/Retries section
 
