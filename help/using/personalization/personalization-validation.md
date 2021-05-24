@@ -2,6 +2,7 @@
 title: Personalization validation
 description: Learn more about personalization validation and how to troubleshoot
 ---
+
 # Personalization validation {#personalization-validation}
 
 ![](../assets/do-not-localize/badge.png)

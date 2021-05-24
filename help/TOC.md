@@ -11,7 +11,6 @@ hide: yes
 # [!DNL Journey Optimizer] Help {#using}
 
 + [Product documentation](ajo-home.md)
-+ [Product documentation](cjm-home.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
@@ -22,8 +21,8 @@ hide: yes
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
     + [Create a message](using/create-message.md)
-    + [Configure an email](using/configure-email.md)
-    + [Configure a push notification](using/configure-push.md)
+    + [Create an email](using/create-email.md)
+    + [Create a push notification](using/create-push.md)
   + [Add and manage assets](using/assets-essentials.md)
   + Email designer {#email-designer} 
     + [Get started with email design](using/design-emails.md)
@@ -35,14 +34,17 @@ hide: yes
     + [Personalization areas](using/personalization/personalization-aeras.md)
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + [Personalization validation](using/personalization/personalization-validation.md) 
-    + Templating language{#functions}
-       + [Operators](using/personalization/functions/operators.md)
-       + [Aggregation](using/personalization/functions/aggregation.md)
-       + [Arrays and list](using/personalization/functions/arrays-list.md)
-       + [Maths](using/personalization/functions/maths.md)
-       + [Maps](using/personalization/functions/maps.md)
-       + [Objects](using/personalization/functions/objects.md)
-       + [String](using/personalization/functions/string.md) 
+    + [Personalization use case](using/personalization/personalization-use-case.md) 
+    + Helper functions{#functions}
+       + [List of helper functions](using/personalization/functions/functions.md)
+       + [Aggregation functions](using/personalization/functions/aggregation.md)
+       + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+       + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+       + [Boolean and comparison functions](using/personalization/functions/operators.md)
+       + [Helpers](using/personalization/functions/helpers.md)
+       + [Map functions](using/personalization/functions/maps.md)
+       + [Object functions](using/personalization/functions/objects.md)
+       + [String functions](using/personalization/functions/string.md) 
   + [Add personalized offers](using/deliver-personalized-offers.md)  
   + Validate and publish {#create-message}
     + [Preview and proofs](using/preview.md)
@@ -128,6 +130,9 @@ hide: yes
     + [Get started with offer catalog export ](using/offers/export-catalog/get-started-export.md)
     + [Access the exported offer catalog](using/offers/export-catalog/access-dataset.md)
     + [Personalized offers dataset](using/offers/export-catalog/export-offers.md)
+    + [Decisions dataset](using/offers/export-catalog/export-decisions.md)
+    + [Placements dataset](using/offers/export-catalog/export-placements.md)
+    + [Fallback dataset](using/offers/export-catalog/export-fallback.md)
   + API Reference {#api-reference}
     + [Getting started](using/offers/api-reference/getting-started.md)
     + Create and manage offers using APIs {#offers-api}

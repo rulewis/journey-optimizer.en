@@ -27,7 +27,7 @@ Once branding parameters have been configured, you will be able to select them w
 
 ## Configure the push notification channel
 
-Learn how to configure push channel in this [section](configure-push.md).
+Learn how to configure push channel in this [section](create-push.md).
 
 ## Sub-domain delegation
 
