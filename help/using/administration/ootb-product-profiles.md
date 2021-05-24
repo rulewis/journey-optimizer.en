@@ -27,9 +27,9 @@ This product profile includes the following permissions:
 |-|-|
 |Journeys| <ul><li> **Manage journeys**: access to read, create, edit, and delete journeys.</li><li>**Publish journeys**: access to publish journeys.</li><li>**Manage journeys events, data sources and actions**: access to read, create, edit, and delete event and sources and actions.</li><li>**View journeys report**: access to read, edit, journeys report.</li></ul>|
 |Messages|<ul><li> **Manage messages**: access to read, create and edit message preview and send test/proof.</li><li>**Manage messages preview and test**: access to publish messages.</li><li>**Publish messages**: access to read, create and edit message preview and send test/proof.</li><li>**View messages report**: access to read, edit, messages report.</li></ul>|
-|Administration|<ul><li>**Manage subdomains delegation**: access to read, create, edit, and delete subdomain delegation.</li><li>**Manage ip pools**: access to read, create, edit, and delete ip pool.</li><li>**View PTR records**: read-only access to PTR records.</li><li> **Manage messages general settings**: access to read, create, edit, and delete message general settings.</li><li>**Manage messages presets**: access to read, create, edit, and delete content branding.</li><li>**Manage suppression rules**: access read, create, edit and delete suppression rules.</li><li>**View suppression list**: access to read and export local suppression list.</li><li>**Manage alerts**: access to enable/disable alerts for journeys, messages and entitlements.</li></ul>|
-|Decision management|<ul><li>**Manage decisions**: access to read, create, edit, and delete decisions.</li><li>**Publish decisions**: access to publish decisions.</li></ul>|
-|Adobe Experience Platform|<ul><li>**Sandbox**: access to provide access to sandboxes.</li><li>**Manage segments**: access to read, create, edit, and delete segments.</li><li>**Manage profiles**: access to read, create, edit, and delete profiles.</li><li>**Read datasets**: read-only access to datasets.</li><li>**Read schemas**: read-only access to schemas.</li></ul>|
+|Administration|<ul><li>**Manage subdomains delegation**: access to read, create, edit, and delete subdomain delegation.</li><li>**Manage IP pools**: access to read, create, edit, and delete ip pool.</li><li>**View PTR records**: read-only access to PTR records.</li><li> **Manage messages general settings**: access to read, create, edit, and delete message general settings.</li><li>**Manage messages presets**: access to read, create, edit, and delete content branding.</li><li>**Manage suppression rules**: access read, create, edit and delete suppression rules.</li><li>**View suppression list**: access to read and export local suppression list.</li><li>**Manage alerts**: access to enable/disable alerts for journeys, messages and entitlements.</li></ul>|
+|Decision management|<ul><li>**Manage decisions**: access to read, create, edit, and delete decisions.</li><li>**Manage ranking strategies**: access to read, create, edit, and delete custom messages report and use action features.</li></ul>|
+|Adobe Experience Platform|<ul><li>**Sandbox**: access to provide access to sandboxes.</li><li>**Manage segments**: access to read, create, edit, and delete segments.</li><li>**Manage profiles**: access to read, create, edit, and delete profiles.</li><li>**Read datasets**: read-only access to datasets.</li><li>**Read schemas**: read-only access to schemas.</li><li>**Read Identity namespace**: read-only access to identity namespace.</li></ul>|
 
 ## Journey Approver {#journey-approver}
 
@@ -41,10 +41,9 @@ This product profile includes the following permissions:
 |-|-|
 |Journeys| <ul><li>**Manage journeys**: access to read, create, edit, and delete journeys.</li><li>**Publish journey**: access to publish journeys.</li><li>**View journeys events, data sources and actions**: read-only access to journey event, journey custom actions and journey data sources sources.</li><li>**View journeys report**: access to read, edit journey report and use action features like report sharing.</li></ul>|
 |Messages| <ul><li>**Manage messages**: access to read, create, edit, and delete messages.</li><li>**Publish messages** access to publish messages.</li><li>**Manage messages preview and test**: access to read, create and edit message preview and send test/proof.</li><li>**View messages report**: access to read, create, edit, and delete messages report.</li></ul>|
-|Decision management| <ul><li>**Manage decisions**: access to read, create, edit, and delete decisioning entities.</li><li>**Publish decisions**: access to publish activities.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Manage segments**: access to read, create, edit, and delete segments.</li><li>**Manage profiles**: access to read, create, edit, and delete profiles.</li><li>**ead datasets**: read-only access to datasets.</li><li>**Read schemas**: read-only access to schemas.</li></ul>|
+|Decision management| <ul><li>**Manage decisions**: access to read, create, edit, and delete decisioning entities.</li><li>**Manage ranking strategies**: access to read, create, edit, and delete custom messages report and use action features.</li></ul>|
+|Adobe Experience Platform| <ul><li>**Manage segments**: access to read, create, edit, and delete segments.</li><li>**Manage profiles**: access to read, create, edit, and delete profiles.</li><li>**Read datasets**: read-only access to datasets.</li><li>**Read schemas**: read-only access to schemas.</li></ul>|
 |Administration| <ul><li>**View messages presets**: read-only access to messages presets.</li></ul>|
-
 
 ## Journey Manager {#journey-manager}
 
@@ -56,7 +55,7 @@ This product profile includes the following permissions:
 |-|-|
 |Journeys| <ul><li>**Manage journeys**: access to read, create, edit, and delete journeys.</li><li>**View journeys events**, data sources and actions: read-only access to journey event, journey custom actions and journey data sources sources.</li><li>**View journeys report**: access to read, edit journey report and use action features like report sharing.</li></ul>|
 |Messages| <ul><li>**Manage messages**: access to read, create, edit, and delete messages.</li><li> **Manage messages preview and test**: access to read, create and edit message preview and send test/proof.</li><li>**View messages report**: access to read, create, edit, and delete  messages report.</li></ul>|
-|Decision management| <ul><li>**Manage decisions**: access to read, create, edit, and delete decisioning entities.</li></ul>|
+|Decision management| <ul><li>**Manage decisions**: access to read, create, edit, and delete decisioning entities.</li><li>**Manage ranking strategies**: access to read, create, edit, and delete custom messages report and use action features.</li></ul>|
 |Adobe Experience Platform| <ul><li> **Manage segments**: access to read, create, edit, and delete segments.</li><li>**Manage profiles**: access to read, create, edit, and delete profiles.</li><li>**Read datasets**: read-only access to datasets.</li><li>**Read schemas**: read-only access to schemas.</li></ul>|
 |Administration| <ul><li>**View messages presets**: read-only access to messages presets.</li></ul>|
 
@@ -96,4 +95,4 @@ This product profile includes the following permissions:
 
 | Capability | Permissions|
 |-|-|
-|Decision management| <ul><li>**Manage decisions**: access to read, create, edit, and delete decisioning entities.</li><li>**View decisions**:  read-only access to decisioning entities.</li><li>**Publish decisions**: access to Approve/Un-Approve decisioning activities.</li></ul>|
+|Decision management| <ul><li>**Manage decisions**: access to read, create, edit, and delete decisioning entities.</li><li>**View decisions**:  read-only access to decisioning entities.</li><li>**Manage ranking strategies**: access to read, create, edit, and delete custom messages report and use action features.</li><li>**Publish decisions**: access to Approve/Un-Approve decisioning activities.</li></ul>|

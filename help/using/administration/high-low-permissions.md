@@ -39,6 +39,7 @@ It includes the following low-level permissions:
   * journeys.read
   * journeys.write
   * journeys.delete
+  * messages.read
 
 * Adobe Experience Platform specific:
 
@@ -83,7 +84,9 @@ It includes the following low-level permissions:
   * journeys_data_sources.read
   * journeys_data_sources.write
   * journeys_data_sources.delete 
-
+  * journeys_actions.read
+  * journeys_actions.write
+  * journeys_actions.delete
 * Adobe Experience Platform specific:
   * schemas.read
   * datasets.read
@@ -133,6 +136,7 @@ It includes the following low-level permissions:
   *  messages.write
   * messages.read
   * messages.delete
+  * messages_presets.read
 
 * Adobe Experience Platform specific:
   * segments.read
@@ -146,11 +150,19 @@ It includes the following low-level permissions:
 
 * Journey Optimizer specific: 
   * messages.publish
+  * messages_preview_and_test.write
+  * messages.publish
 
 * Adobe Experience Platform specific:
-  * segments.read
   * profiles.read
+  * profiles.write
+  * schemas.read
+  * datasets.write
   * datasets.read
+  * identity_namespace.read
+  * segments.read
+  * queries.write
+  * merge_policies.read
 
 ### Publish messages permission {#publish-messages}
 
@@ -159,16 +171,12 @@ The **[!UICONTROL Publish messages]** high-level permission allows users to publ
 It includes the following low-level permissions:
 
 * Journey Optimizer specific: 
-  * messages.read
-  * messages_preview_and_test.write
+  * messages.publish
 
 * Adobe Experience Platform specific:
   * profiles.read
   * schemas.read
   * datasets.read
-  * identity_namespace.read
-  * segments.read
-  * merge_policies.read
 
 ### View messages permission {#view-messages}
 
@@ -177,10 +185,10 @@ The **[!UICONTROL View messages]** high-level permission allows users to read me
 It includes the following low-level permissions:
 
 * Journey Optimizer specific: 
-  *  messages.read
+  * messages.read
+  * messages_presets.read
 
 * Adobe Experience Platform specific:
-  * profiles.read
   * schemas.read 
   * segments.read
 
@@ -196,6 +204,7 @@ It includes the following low-level permissions:
   * queries.read
   * queries.write
   * queries.delete
+  * journey.read
 
 ## Decision management capability {#decisions-permissions}
 
@@ -206,15 +215,16 @@ The **[!UICONTROL Manage decisions]** high-level permission allows users to crea
 It includes the following low-level permissions: 
 
 * Decision management specific:
-  * activities.Read
-  * activities.Write
-  * activities.Delete
-  * offers.Read
-  * offers.Write
-  * offers.Delete
-  * placements.Read
-  * placements.Write
-  * placements.Delete
+  * activities.read
+  * activities.write
+  * activities.delete
+  * offers.read
+  * offers.write
+  * offers.delete
+  * placements.read
+  * placements.write
+  * placements.delete
+  * ranking_strategy.read
 
 * Adobe Experience Platform specific:
   * datasets.read
@@ -231,9 +241,10 @@ The **[!UICONTROL View decisions]** high-level permission allows users to use an
 It includes the following low-level permissions: 
 
 * Decision management specific: 
-  * activities.Read
+  * activities.read
   * offers.read
   * placements.read
+  * ranking_strategy.read
 
 * Adobe Experience Platform specific:
   * schemas.read
@@ -250,16 +261,33 @@ It includes the following low-level permissions:
 
 * Decision management specific:
   * offers_activity.read
-  * offers_activity.write
-  * offers_activity.delete
   * offers.read
-  * placement.read
+  * offers.write
+  * offers.delete
+  * placements.read
+  * placements.write
+  * placements.delete
+  * ranking_strategy.read
 
 * Adobe Experience Platform specific:
   * schemas.read
   * segment.read 
   * datasets.read
   * profiles.read
+
+### Manage ranking strategies permission {#publish-offers}
+
+The **[!UICONTROL Manage ranking strategies]** high-level permission allows users to read, create, edit, and delete custom messages report and use action features.
+
+It includes the following low-level permissions: 
+
+* Decision management specific:
+  * ranking_strategy.read
+  * ranking_strategy.write
+  * ranking_strategy.delete
+  * activities.read
+  * offers.read
+  * placements.read
 
 ## Administration capability {#administration-permissions}
 
@@ -322,11 +350,12 @@ The **[!UICONTROL Manage messages presets]** high-level permission allows users 
 It includes the following low-level permissions: 
 
 * Journey Optimizer specific:
-  * messages_general_settings.read
-  * messages_general_settings.write
-  * messages_general_settings.delete
-* Adobe Experience Platform specific:
-  * schemas.read
+  * messages_presets.read
+  * messages_presets.write
+  * messages_presets.delete
+  * subdomains_delegation.read
+  * IP_pools.read
+  * mobile_setting.read (from Adobe Experience Platform Launch)
 
 ### View messages presets permission {#view-message-presets}
 
@@ -367,8 +396,6 @@ The **[!UICONTROL Export suppression list]** high-level permission allows users 
 
 It includes the following low-level permissions:
 
-* Journey Optimizer specific:
-  * suppression_list.export
 * Adobe Experience Platform specific:
   * profiles.read
   * datasets.read

@@ -55,6 +55,8 @@ For more information on users management, refer to the [Admin Console documentat
 
 When accessing the instance, your user will see a specific view depending on the assigned permissions in the **[!UICONTROL Product profile]**. If the user does not have the right access to a feature, the following screen will appear.
 
+![](../assets/access_control_1.png)
+
 ## Editing an existing product profile {#edit-product-profile}
 
 For out-of-the-box or custom **[!UICONTROL Product profiles]**, you can decide at any time to add or delete permissions.
@@ -112,6 +114,8 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
     Here we select the **[!UICONTROL Journeys]** capability.
 
 1. From the **[!UICONTROL Available Permission Items]** list, select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon.
+
+    Here we select **[!UICONTROL View journeys]** and **[!UICONTROL View journeys event, data sources, actions]**.
 
 1. Select the **[!UICONTROL Sandbox access]** capability to choose which sandbox(es) to assign to your **[!UICONTROL Product profile]**. 
 
