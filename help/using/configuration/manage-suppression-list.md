@@ -70,13 +70,14 @@ The possible reasons for a delivery failure are:
 | **[!UICONTROL Invalid Recipient]** | The recipient is invalid. | Hard |
 | **[!UICONTROL Soft Bounce]** | The message soft bounced. | Soft |
 | **[!UICONTROL DNS Failure]** | The message bounced due to a DNS failure. | Soft |
-| **[!UICONTROL Mailbox full]** | The message bounced due to the remote mailbox being over quota. | Soft |
+| **[!UICONTROL Mailbox Full]** | The message bounced due to the remote mailbox being over quota. | Soft |
 | **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. | Ignored |
 | **[!UICONTROL Timeout]** | The message timed out. | Ignored |
- **[!UICONTROL Admin Failure]** | The message was failed by Momentum's configured policies. | Ignored |
+ **[!UICONTROL Admin Failure]** | The message was failed by the sending system's configured policies. | Ignored |
 | **[!UICONTROL Generic Bounce: No RCPT]** | No recipient could be determined for the message. | Ignored |
 | **[!UICONTROL Generic Bounce]** | The message failed for unspecified reasons. | Ignored |
 | **[!UICONTROL Mail Block]** | The message was blocked by the receiver. | Ignored |
+| **[!UICONTROL Spam Block]** | The message was blocked by the receiver as coming from a known spam source. | Ignored |
 | **[!UICONTROL Spam Content]** | The message was blocked by the receiver as spam. | Ignored |
 | **[!UICONTROL Prohibited Attachment]** | The message was blocked by the receiver because it contained an attachment. | Ignored |
 | **[!UICONTROL Relaying Denied]** | The message was blocked by the receiver because relaying is not allowed. | Soft |
@@ -84,6 +85,6 @@ The possible reasons for a delivery failure are:
 | **[!UICONTROL Transient Failure]** | Message transmission has been temporarily delayed. | Ignored |
 | **[!UICONTROL Subscribe]** | The message is a subscribe request. | Ignored |
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
-| **[!UICONTROL Challenge-Response]** | The message is an auto-reply/vacation mail. | The message is a challenge-response probe. |
+| **[!UICONTROL Challenge-Response]** | The message is a challenge-response probe. | Soft |
 
 
