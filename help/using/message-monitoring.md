@@ -74,7 +74,7 @@ For each message execution, a number of indicators are displayed:
   >
   >Clicks do not exist for push notifications: when a user clicks a push notification, it opens the app, which can only be considered as an open.
 
-**[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. [Learn more on complaints](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. [Learn more on complaints](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
 
 * **[!UICONTROL Errors]**: Number of messages that cannot be sent because of a technical failure.
 
