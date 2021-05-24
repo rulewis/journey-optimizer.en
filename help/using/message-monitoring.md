@@ -46,17 +46,18 @@ For each message execution, a number of indicators are displayed:
 
 * **[!UICONTROL Message label]**: Message title that you defined upon [creating the message](create-message.md). The execution ID, which is automatically generated, is displayed in parentheses.
 
-<!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
+  <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
+  **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
 
-**[!UICONTROL Source]**: Name of the journey leveraging that message.-->
+* **[!UICONTROL Journey - Version - Action]**: Name of the journey leveraging the message, version of the message, and label of the action leveraging the message.
 
-* **[!UICONTROL Journey - Version - Action]**: Name of the journey leveraging the message, version of the message<!--??-->, and label of the action leveraging the message<!--??-->.
+  <!--version/action defintions to check>
 
 * **[!UICONTROL Status]**: Message execution status. <!--List all the possible statuses?-->
 
 * **[!UICONTROL Start date]**: Date and time when the message has been executed from the journey.
 
-<!--Targeted: Number of targeted profiles for each message execution. To come?-->
+  <!--Targeted: Number of targeted profiles for each message execution. To come?-->
 
 * **[!UICONTROL Excluded]**: Number of profiles that have been excluded from the initial target due to exclusion rules.
 
