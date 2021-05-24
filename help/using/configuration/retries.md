@@ -29,10 +29,10 @@ You can modify the limit threshold using the **[!UICONTROL Edit]** button from t
 
 ![](../assets/retries-edition.png)
 
-## Retry duration {#retry-duration}
+## Message retry duration {#retry-duration}
 
 Retries will be performed for **3.5 days** from the time the message was added to the email queue.
 
 The minimum delay between retries and the maximum number of retries to be performed are <!--managed by the Enhanced MTA,--> based on how well an IP is performing, both historically and currently at a given domain.
 
-After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.
+After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.<!--???-->

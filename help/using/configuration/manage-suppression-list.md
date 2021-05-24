@@ -47,12 +47,10 @@ The suppression categories are as follows:
 * **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md)
 
 * **Ignored**:
-    * When the error occurred for a valid email address but is known to be temporary, such as a failed connection attempt or a temporary technical issue, the email address is to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md).
+    * When the error occurred for a valid email address but is known to be temporary, such as a failed connection attempt or a temporary technical issue, the email address is added to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md).
     * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
 
-* **Manual**: You can also manually add an email address to the suppression list.
-
-<!--**Spam complaint??**: The email address of recipients who issue a spam complaint against one of your email messages is immediately sent to the suppression list.-->
+<!--**Manual**: You can also manually add an email address to the suppression list. => Manual category will be available when manually adding an address to the suppression list (via API)-->
 
 >[!NOTE]
 >
@@ -70,7 +68,7 @@ The possible reasons for a delivery failure are:
 | **[!UICONTROL Invalid Recipient]** | The recipient is invalid. | Hard |
 | **[!UICONTROL Soft Bounce]** | The message soft bounced. | Soft |
 | **[!UICONTROL DNS Failure]** | The message bounced due to a DNS failure. | Soft |
-| **[!UICONTROL Mailbox Full]** | The message bounced due to the remote mailbox being over quota. | Soft |
+| **[!UICONTROL Mailbox Full]** | The message bounced due to the mailbox of the recipient being full and unable to accept more messages. | Soft |
 | **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. | Ignored |
 | **[!UICONTROL Timeout]** | The message timed out. | Ignored |
  **[!UICONTROL Admin Failure]** | The message was failed by the sending system's configured policies. | Ignored |
