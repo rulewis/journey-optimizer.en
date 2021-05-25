@@ -41,11 +41,17 @@ To assign a **[!UICONTROL Product profile]**:
 
 1. Select a **[!UICONTROL Product profile]**.
 
+    ![](../assets/access_control_2.png)
+
 1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add user]**.
+
+    ![](../assets/access_control_3.png)
 
 1. Type in your user's name or email address and select the user.
 
    If the user was not previously created in the [!DNL Admin Console], refer to the [Add users documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+
+    ![](../assets/access_control_4.png)
 
 1. Carry out the same steps as above to add other users to your **[!UICONTROL Product profile]**. Then, click **[!UICONTROL Save]**.
 
@@ -67,21 +73,29 @@ Note that if you modify an out-of-the-box or custom **[!UICONTROL Product profil
 
 1. In the [!DNL Admin Console], from the **[!UICONTROL Products]** tab, select the **[!UICONTROL Experience Cloud - Platform powered applications]** product.
 
-1. Select your previously configured Journey Read-only **[!UICONTROL Product profile]**.
+1. Select the Journey viewer **[!UICONTROL Product profile]**.
 
 1. Select the **[!UICONTROL Permissions]** tab.
 
     The **[!UICONTROL Permissions]** tab displays the list of capabilities that apply to the ***[!UICONTROL Experience Cloud - Platform powered applications]** product.
 
+    ![](../assets/access_control_5.png)
+
 1. Select the **[!UICONTROL Messages]** capability.
+
+    ![](../assets/access_control_6.png)
 
 1. From the **[!UICONTROL Available Permission Items]** list, select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon. 
 
     Here, we add the **[!UICONTROL Publish messages]** permission.
 
+    ![](../assets/access_control_7.png)
+
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
 
 1. When finished, click **[!UICONTROL Save]**.
+
+    ![](../assets/access_control_8.png)
 
 If needed, you can also create new product profile with specific permissions. For more on this, refer to [Creating a product profile](#create-product-profile).
 
@@ -101,23 +115,33 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
 1. Click **[!UICONTROL New Profile]**.
 
-1. Add a **[!UICONTROL Profile Name]** and **[!UICONTROL Description]** for your new **[!UICONTROL product profiles]**. 
-    
-    If you want your profile's **[!UICONTROL Display name]** to be different, uncheck **[!UICONTROL Same as Profile Name]** and type in your **[!UICONTROL Display name]**.
+    ![](../assets/access_control_9.png)
 
-1. In the **[!UICONTROL User Notifications]** category, choose whether users will be notified by email when they are added or removed from this product profile.
+1. Add a **[!UICONTROL Product Profile Name]**, **[!UICONTROL Display Name]** and **[!UICONTROL Description]** for your new **[!UICONTROL product profiles]**. 
 
-1. When finished, click **[!UICONTROL Done]**.
+    ![](../assets/access_control_10.png)
 
-1. To add permissions for users to access different features, select between the different capabilities such as **[!UICONTROL Messages]**, **[!UICONTROL Segments]** or **[!UICONTROL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
+1. In the **[!UICONTROL Notifications]** category, choose whether users will be notified by email when they are added or removed from this product profile.
+
+1. When finished, click **[!UICONTROL Save]** and select your newly created **[!UICONTROL product profiles]**.
+
+1. To add permissions for users to access different features, select the **[!UICONTROL Permissions]** tab.
+
+1. Select between the different capabilities such as **[!UICONTROL Messages]**, **[!UICONTROL Segments]** or **[!UICONTROL Decision management]** available in [!DNL Journey Optimizer] listed in the left-hand menu. 
     
     Here we select the **[!UICONTROL Journeys]** capability.
+
+    ![](../assets/access_control_11.png)
 
 1. From the **[!UICONTROL Available Permission Items]** list, select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon.
 
     Here we select **[!UICONTROL View journeys]** and **[!UICONTROL View journeys event, data sources, actions]**.
 
+    ![](../assets/access_control_12.png)
+
 1. Select the **[!UICONTROL Sandbox access]** capability to choose which sandbox(es) to assign to your **[!UICONTROL Product profile]**. 
+
+    ![](../assets/access_control_13.png)
 
 1. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. [Learn more about sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
