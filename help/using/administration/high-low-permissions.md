@@ -253,7 +253,7 @@ It includes the following low-level permissions:
   * datasets.write
   * datasets.delete
 
-### Publish offers decisioning permission {#publish-offers}
+### Publish offers decisioning permission {#publish-decisions}
 
 The **[!UICONTROL Publish offers decisioning]** high-level permission allows users to access to approve/un-approve Offer activities.
 
@@ -275,7 +275,7 @@ It includes the following low-level permissions:
   * datasets.read
   * profiles.read
 
-### Manage ranking strategies permission {#publish-offers}
+### Manage ranking strategies permission {#manage-decisions}
 
 The **[!UICONTROL Manage ranking strategies]** high-level permission allows users to read, create, edit, and delete custom messages report and use action features.
 
