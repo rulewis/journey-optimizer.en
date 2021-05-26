@@ -28,6 +28,6 @@ The actions are available in the left palette of your journey, in the **[!UICONT
 
 In the list of **Actions**, you can press c to create a new journey, action, data source or event. For more information on shortcuts, see [this section](../user-interface.md#cjm-accessibility).
 
-To view the action list or configure a new action, click **[!UICONTROL Admin]** / **[!UICONTROL Actions]** in the left menus. The list of actions is displayed. See [this page](../user-interface.md) for more information on the interface.
+To view the action list or configure a new action, browse to **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** in the left navigation. The list of actions is displayed. See [this page](../user-interface.md) for more information on the interface.
 
 ![](../assets/custom1.png)

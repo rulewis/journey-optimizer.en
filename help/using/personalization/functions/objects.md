@@ -6,38 +6,38 @@ description: Functions library
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Is null
+## Is null{#isNull}
 
 The `isNull` function determines if an object reference does not exist.
 
 **Format**
 
 ```sql
-isNull({OBJECT})
+{%= isNull(object) %}
 ```
 
 **Example**
 
-The following PQL query checks if the person's home address does not exist.
+The following operation checks if the person's home address does not exist.
 
 ```sql
-isNull(person.homeAddress)
+{%= isNull(person.homeAddress) %}
 ```
 
-## Is not null
+## Is not null{#isNotNull}
 
 The `isNotNull` function determines if an object reference exists.
 
 **Format**
 
 ```sql
-isNotNull({OBJECT})
+{%= isNotNull(object) %}
 ```
 
 **Example**
 
-The following PQL query checks if the person's home address exists.
+The following operation checks if the person's home address exists.
 
 ```sql
-isNotNull(person.homeAddress)
+{%= isNotNull(person.homeAddress) %}
 ```
