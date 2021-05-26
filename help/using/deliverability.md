@@ -34,7 +34,7 @@ Pay extra care when requesting additional confirmation: a user may have two emai
 
 To protect your deliverability, the recipients whose addresses are on the suppression list are excluded by default from all future deliveries, because sending to these contacts could hurt your sending reputation.
 
-[Learn more about suppression lists](suppression-lists.md).
+[Learn more about the suppression list](suppression-list.md).
 
 ## Use monitoring tools {#monitoring-tools}
 

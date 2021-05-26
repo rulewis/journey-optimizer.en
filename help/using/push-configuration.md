@@ -292,3 +292,9 @@ Your event will be triggered and you will receive your push notification to your
 
 ![](assets/test_push_14.png)
 -->
+
+## Step 7: Create a message preset {#message-preset}
+
+Once your mobile app has been set up in [!DNL Adobe Experience Platform Launch], you need to create a message preset to be able to send push notifications from **[!DNL Journey Optimizer]**.
+
+Learn how to create and configure a message preset in [this section](configuration/message-presets.md).
