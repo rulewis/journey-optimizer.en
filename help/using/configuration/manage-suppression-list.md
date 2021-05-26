@@ -19,7 +19,7 @@ With Journey Optimizer, you can monitor all the email addresses that are automat
 
 * Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
-* Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md).
+* Profiles who unsubscribe from your sendings. Learn more on [opting-out](../../using/consent.md).
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
 

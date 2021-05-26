@@ -30,7 +30,7 @@ Email addresses are added to the suppression list as follows:
 
 * **Soft bounces** and temporary **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. Learn more on [retries](configuration/retries.md).
 
-* Email addresses of recipients who **unsubscribe** from your sendings are automatically sent to the suppression list. Learn more on [opting-out](../consent.md).
+* Email addresses of recipients who **unsubscribe** from your sendings are automatically sent to the suppression list. Learn more on [opting-out](../using/consent.md).
 
 <!--You can also manually add an address to the suppression list. //Manual category will be available when ability to manually add an address to the suppression list (via API) is available.-->
 
@@ -64,7 +64,7 @@ This could lead to your IP address or sending domain being blocked, which can be
 
 ### Unsubscriptions {#unsubscriptions}
 
-Every email sent to recipients must include an unsubscribe link. Upon clicking this link, if a recipient confirms [opting out](../consent.md), the corresponding email address is immediately sent to the suppression list. This user must not receive communication from your brand until subscribed again.
+Every email sent to recipients must include an unsubscribe link. Upon clicking this link, if a recipient confirms [opting out](consent.md), the corresponding email address is immediately sent to the suppression list. This user must not receive communication from your brand until subscribed again.
 
 <!--MOVED to Configuration/Retries section
 
