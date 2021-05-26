@@ -10,8 +10,6 @@ description: Get Started with Assets Essentials
 
 [!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. It can be accessed directly from [!DNL Adobe Journey Optimizer] through the **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content. [Learn more about email design](design-emails.md).
 
-You need specific permissions to access the [!DNL Adobe Experience Manager Assets Essentials]. [Learn more about permissions for the Adobe Experience Manager Assets Essentials](permissions.md#assets-permissions).
-
 ## Upload assets{#add-asset}
 
 To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into:
@@ -97,6 +95,6 @@ Following actions are available in the toolbar:
 
 When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
 
-For more information on how to share access to your folders, refer to this [page](permissions.md#assets-permissions).
+For more information on how to share access to your folders, refer to this page.
 
 -->

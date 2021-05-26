@@ -18,7 +18,7 @@ In order to be able to create profiles, you first need to create a schema and a 
 
 First, you need to **create a schema**. Follow these steps:
 
-1. From the left menu, click **[!UICONTROL Schemas]**.
+1. In the ADMINISTRATION section, click **[!UICONTROL Schemas]**.
     ![](../assets/test-profiles-0.png)
 1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **XDM Individual Profile**.
     ![](../assets/test-profiles-1.png)
@@ -47,7 +47,7 @@ First, you need to **create a schema**. Follow these steps:
 
 Then you need to **create the dataset** in which the profiles will be imported. Follow these steps:
 
-1. From the left menu, click **[!UICONTROL Datasets]**, then click **[!UICONTROL Create dataset]**.
+1. Browse to **[!UICONTROL Datasets]**, then click **[!UICONTROL Create dataset]**.
     ![](../assets/test-profiles-6.png) 
 1. Choose **[!UICONTROL Create dataset from schema]**.
     ![](../assets/test-profiles-7.png) 
@@ -64,9 +64,9 @@ Then you need to **create the dataset** in which the profiles will be imported. 
 
 ## Turn a profile into a test profile{#turning-profile-into-test}
 
-You can turn an existing profile into a test profile. In Adobe Experience Platform, you can update profiles attributes in the same way as when you create a profile. 
+You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-A simpler way to do this is by using an **[!UICONTROL Update profile]** action activity in a journey and change the testProfile boolean field from false to true.
+A simple way to do this is by using an **[!UICONTROL Update profile]** action activity in a journey and change the testProfile boolean field from false to true.
 
 Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICONTROL Update profile]** activity. You first need to create a segment targeting the profiles you want to turn into test profiles. 
 
@@ -74,7 +74,7 @@ Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICO
 >
 > Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** mixin. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. In Journey Optimizer, click **Segments** from the left menu, then **Create segment**, in the top right.
+1. Browse to **Segments**, then **Create segment**, in the top right.
     ![](../assets/test-profiles-22.png) 
 1. Define a name for your segment and build the segment: choose the field(s) and value(s) to target the profiles you want.
     ![](../assets/test-profiles-23.png) 
@@ -89,7 +89,7 @@ Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICO
 1. Choose the previously created segment and the namespace that your profiles use.
     ![](../assets/test-profiles-25.png)
 1. Add an **[!UICONTROL Update profile]** action activity. 
-1. Select the schema, the **testProfiles** field, the dataset and set the value to "true".
+1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
     ![](../assets/test-profiles-26.png)
 1. Add an **End** activity and click **[!UICONTROL Publish]**.
 1. In the **[!UICONTROL Segments]** section, check that the profiles have been correctly updated.
@@ -109,7 +109,7 @@ In Adobe Experience Platform, you can create profiles by uploading a csv file co
 1. Add one line per profile and fill in the values for each field. 
     ![](../assets/test-profiles-12.png) 
 1. Save the spreadsheet as a csv file. Make sure commas are used as separators.
-1. In Adobe Experience Platform, click **Workflows**, in the left menu. 
+1. Browse to Adobe Experience Platform **Workflows**. 
     ![](../assets/test-profiles-14.png) 
 1. Choose **Map CSV to XDM schema**, then click **Launch**.
     ![](../assets/test-profiles-16.png) 

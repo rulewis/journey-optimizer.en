@@ -28,7 +28,7 @@ Personal and sensitive data needs to be managed carefully. Follow the general pr
 
 * Refrain from sending unsolicited messages ("spam"). Adobe strongly believes in the principles of permission marketing in fostering customer lifetime value and loyalty, and therefore strictly forbids the use of Journey Optimizer in sending unsolicited messages.
 
-Journey Optimizer provides you with the ability to manage the rights assigned to your users via different pre-built or custom product profiles. This allows you to manage who within your company can access, modify or export different types of data. Lean more about managing user access rights in [Manage permissions](permissions.md).
+Journey Optimizer provides you with the ability to manage the rights assigned to your users via different pre-built or custom product profiles. This allows you to manage who within your company can access, modify or export different types of data. Lean more about managing user access rights in [Manage permissions](../administration/permissions.md).
 
 Journey Optimizer also enables you to track the messages sent and the behavior of your recipients through openings and clicks on links. [Learn more about tracking management](message-tracking.md).
 
@@ -47,7 +47,7 @@ Therefore, to correctly handle privacy and manage personal data, you must work w
 
 Journey Optimizer inherits most dataset changes made in Adobe Experience Platform.
 
-Consequently, Privacy requests (Right to Access and Right to be Forgotten) are managed through Experience Platform. You need to send your requests using [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html), and select **Profile** and **AEP Data Lake** from the product list when [creating your privacy request](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--Learn more in the [Privacy Service documentation](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html).-->
+Consequently, Privacy requests (Right to Access and Right to be Forgotten) are managed through Experience Platform. You need to send your requests using [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html), and select **Profile** and **AEP Data Lake** from the product list when [creating your privacy request](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
