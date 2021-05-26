@@ -18,7 +18,7 @@ In order to be able to create profiles, you first need to create a schema and a 
 
 First, you need to **create a schema**. Follow these steps:
 
-1. From the left menu, click **[!UICONTROL Schemas]**.
+1. In the ADMINISTRATION section, click **[!UICONTROL Schemas]**.
     ![](../assets/test-profiles-0.png)
 1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **XDM Individual Profile**.
     ![](../assets/test-profiles-1.png)
@@ -47,7 +47,7 @@ First, you need to **create a schema**. Follow these steps:
 
 Then you need to **create the dataset** in which the profiles will be imported. Follow these steps:
 
-1. From the left menu, click **[!UICONTROL Datasets]**, then click **[!UICONTROL Create dataset]**.
+1. Browse to **[!UICONTROL Datasets]**, then click **[!UICONTROL Create dataset]**.
     ![](../assets/test-profiles-6.png) 
 1. Choose **[!UICONTROL Create dataset from schema]**.
     ![](../assets/test-profiles-7.png) 
@@ -74,7 +74,7 @@ Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICO
 >
 > Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** mixin. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. In [!DNL Journey Optimizer], click **Segments** from the left menu, then **Create segment**, in the top right.
+1. Browse to **Segments**, then **Create segment**, in the top right.
     ![](../assets/test-profiles-22.png) 
 1. Define a name for your segment and build the segment: choose the field(s) and value(s) to target the profiles you want.
     ![](../assets/test-profiles-23.png) 
