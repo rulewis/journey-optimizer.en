@@ -27,7 +27,7 @@ Business events can be "a product is back in stock", "the stock price of a compa
 
 Here are the first steps to configure a business event:
 
-1. From the left menu, click the **[!UICONTROL Admin]** icon, then click **[!UICONTROL Events]**. The list of events is displayed. 
+1. In the ADMINISTRATION section, browse to **[!UICONTROL Configurations]**, then click **[!UICONTROL Events]**. The list of events is displayed. 
 
    ![](../assets/jo-event1.png)
 

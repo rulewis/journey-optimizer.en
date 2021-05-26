@@ -24,7 +24,7 @@ Use the links on the left to browse capabilities.
 >
 >Available capabilities may vary depending on your permissions and licence agreement.
 
-You can find below the full list of entries in the left rail and links to associated documentation.
+You can find below the full list of services and capabilities available in the left navigation and links to associated documentation.
 
 **Home**
 
