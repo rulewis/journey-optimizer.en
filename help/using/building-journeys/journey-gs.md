@@ -32,7 +32,7 @@ This step is performed by the **business user**. This is where you create your j
 
 Here are the main steps to send messages through journeys:
 
-1. In the left menu, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
+1. In the JOURNEY MANAGEMENT section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
 
     ![](../assets/interface-journeys.png)
 

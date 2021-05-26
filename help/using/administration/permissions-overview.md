@@ -27,6 +27,6 @@ User management in [!DNL Journey Optimizer] is based on three concepts:
 
 * **[!UICONTROL Sandbox]**: Virtual sandboxes that partition instances into separate, isolated virtual environments. Refer to the [Using sandboxes](sandboxes.md)
 
-Each concept can be managed by Administrators that have access to the Admin console. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Each concept can be managed by **[!UICONTROL Product administrators]** that have access to the Admin console. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 ![](../assets/do-not-localize/permissions_2.png)

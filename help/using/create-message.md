@@ -12,6 +12,7 @@ Messages are available from the **[!UICONTROL Messages]** shortcut on the left r
 >
 >Every user can access, create, edit and publish messages. Learn more about user permissions [in this section](../using/administration/permissions-overview.md).
 
+
 ![](assets/messages-list.png)
 
 Use the **[!UICONTROL Show recents]** toggle to add direct links to the messages you accessed in the last 5 days.
@@ -38,6 +39,7 @@ To create a new message, follow the steps below:
 
         Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about branding](configuration/about-subdomain-delegation.md).
 
+
     * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
 
     Note that you can access and modify the message's title, description and preset at any time using the **[!UICONTROL Properties]** button in the message interface.
@@ -53,8 +55,8 @@ To create a new message, follow the steps below:
 
     You can now create the content of the message and adapt settings. Detailed information about email and push notification configuration is available in the following sections:
 
-    * [Configure emails](configure-email.md)
-    * [Configure push notifications](configure-push.md)
+    * [Create an email](create-email.md)
+    * [Create a push notifications](create-push.md)
 
     >[!NOTE]
     >   

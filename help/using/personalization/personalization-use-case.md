@@ -9,9 +9,9 @@ description: Personalization use case
 
 In this use case, you will see how to use multiple types of personalization in a single push notification message. Three types of personalization will be used:
 
-* Profile: message personalization based on a profile field
-* Offer decision: personalization based on offer decisionning variables
-* Context: personalization based on contextual data from the journey
+* **Profile**: message personalization based on a profile field
+* **Offer decision**: personalization based on offer decisionning variables
+* **Context**: personalization based on contextual data from the journey
 
 The goal of this example is to push an event to Journey Optimizer every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
 

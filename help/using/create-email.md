@@ -1,13 +1,12 @@
 ---
-title: Configure an email
-description: Learn how to configure an email in Journey Optimizer
-exl-id: 6f389e93-3332-4137-8662-26b46b914504
+title: Create an email
+description: Learn how to create an email in Journey Optimizer
 ---
-# Configure an email {#configure-email}
+# Create an email {#configure-email}
 
 ![](assets/do-not-localize/badge.png)
 
-Emails are configured when creating a message, in the **[!UICONTROL Email]** tab (see [Create a message](create-message.md)).
+Once you [created a message](create-message.md), use the **[!UICONTROL Email]** tab to define the settings and content for the email channel.
 
 ![](assets/emails-configuration.png)
 

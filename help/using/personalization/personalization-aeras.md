@@ -40,7 +40,7 @@ You can also personalize your **Push notifications** in the following fields:
 
 ![](assets/perso_push.png)
 
-Learn more about Push notification configuration in [this section](../configure-push.md).
+Learn more about Push notification configuration in [this section](../create-push.md).
 
 ## Use the expression editor
 
@@ -55,8 +55,12 @@ In the expression editor interface, you will select, arrange, customize and vali
 The left part of the screen displays a domain selector that lets you select the source for personalization.
 
 * **Profile** : lists all the references associated to the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
-* **Segment membership** : lists all the segments created in the Adobe Experience Platform Segmentation service. More information on segmentation available [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
-* **Offers** : lists all the offers associated to a specific placement. Select the placement then insert the offers in your content. For a complete documentation on how to manage offers, refer to [this section](../../using/offers/get-started/starting-offer-decisioning.md).
+* **Segment membership** : lists all the segments created in the Adobe Experience Platform Segmentation service. More information on segmentation available [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
+* **Offers** : lists all the offers associated to a specific placement. Select the placement then insert the offers in your content. For a complete documentation on how to manage offers, refer to [this section](../deliver-personalized-offers.md)
+* **Context** : when the **Message** activity is used in a journey, contextual journey fields are available in this menu. Refer to [this section](personalization-use-case.md)
+* **Helper functions** : lists all the helper functions available to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. [Learn more](functions/functions.md)
+
+
 
 On selection, the reference is added in the editor. 
 
