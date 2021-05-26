@@ -28,11 +28,11 @@ Email addresses are added to the suppression list as follows:
 
 * All **hard bounces** and **spam complaints** automatically send the corresponding email addresses to the suppression list after a single occurrence.
 
-* **Soft bounces** and temporary **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. [Learn more on retries](configuration/retries.md)
+* **Soft bounces** and temporary **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. Learn more on [retries](configuration/retries.md).
 
-* Email addresses of recipients who **unsubscribe** from your sendings are automatically sent to the suppression list. [Learn more on opting-out](../consent.md)
+* Email addresses of recipients who **unsubscribe** from your sendings are automatically sent to the suppression list. Learn more on [opting-out](../consent.md).
 
-* You can also manually add an address to the suppression list.<!--how??-->
+<!--You can also manually add an address to the suppression list. //Manual category will be available when ability to manually add an address to the suppression list (via API) is available.-->
 
 For each address, the basic reason for being suppressed and the suppression category (soft, hard, etc.) are displayed in the suppression list. Learn more on accessing and managing it in [this section](configuration/manage-suppression-list.md).
 

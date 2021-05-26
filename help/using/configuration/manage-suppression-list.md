@@ -19,20 +19,21 @@ With Journey Optimizer, you can monitor all the email addresses that are automat
 
 * Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
-* Profiles who unsubscribe from your sendings. [Learn more on opting-out](../consent.md)
+* Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md).
 
-Such email addresses are automatically collected into the Journey Optimizer **suppression list**. [Learn more this section](../suppression-list.md)
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
 
 ## Access the suppression list {#access-suppression-list}
 
 To access the detailed list of excluded email addresses, open the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, then click the **[!UICONTROL View suppression lists]** link.
 
-![](../assets/message-settings.png)
+![](../assets/suppression-list-link.png)
 
 Filters are available to help you browse through the list.
-<!--suppression date,  category and reason, but on staging, only creation date filter is available-->
 
-![](../assets/suppression-list.png)
+![](../assets/suppression-list-filters.png)
+
+<!--suppression date,  category and reason, but on staging, only creation date filter is available-->
 
 <!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
 
@@ -56,7 +57,8 @@ The suppression categories are as follows:
 >
 >Learn more on soft bounces and hard bounces in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
 
-![](../assets/suppression-list.png)
+![](../assets/suppression-list-temp.png)
+<!--to replace with suppression-list.png when Manual category is available (through API)-->
 
 For each email address that is listed, you can also check the **[!UICONTROL Reason]** for excluding it and the date/time it was added to the suppression list.
 
