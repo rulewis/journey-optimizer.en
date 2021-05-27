@@ -181,43 +181,44 @@ hide: yes
     + Offer delivery using APIs {#offer-delivery}
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
-+ Configure messages {#configuration}
++ Configuration{#get-started}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
-  + [Technical settings](using/administration/administration.md)
-  + [Create message presets](using/configuration/message-presets.md)
-  + Push notifications configuration{#push-config}
-    + [Get started with push notifications](using/push-gs.md)
-    + [Configure push channel](using/push-configuration.md)
-  + Email configuration {#email-config}
-    + Delegate subdomains {#delegate-subdomains}
-      + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
-      + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
-      + [Access delegated subdomains](using/configuration/access-subdomains.md)
-      + [Add a Google TXT record](using/configuration/google-txt.md)
-      + [Access PTR records](using/configuration/ptr-records.md)
-    + [Create IP pools](using/configuration/ip-pools.md)
-    + Monitor email addresses {#monitor-reputation}  
-      + [Manage suppression list](using/configuration/manage-suppression-list.md)
-      + [Retries](using/configuration/retries.md)
-    + [Change email primary address](using/configuration/primary-email-addresses.md) 
-+ Configure journeys {#configure-journeys}
-  + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
-  + Event configuration {#events-journeys}
-    + [General principle](using/event/about-events.md)
-    + Configure a unitary event {#unitary-events}  
-      + [Get started with unitary events](using/event/about-creating.md)
-      + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
-      + [Leverage Adobe Analytics](using/event/about-analytics.md)
-    + [Configure a business event](using/event/about-creating-business.md)
-    + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-  + Data source configuration{#data-source-journeys}
-    + [About data sources](using/datasource/about-data-sources.md)
-    + [Configure a data source](using/datasource/configure-data-sources.md)
-    + [Adobe Experience Platform data source](using/datasource/adobe-experience-platform-data-source.md)
-    + [External data sources](using/datasource/external-data-sources.md)
-  + Action configuration {#action-journeys}
-    + [About actions](using/action/action.md)
-    + [Configure an action](using/action/about-custom-action-configuration.md)
+  + Configure messages {#configuration}
+    + [Technical settings](using/administration/administration.md)
+    + [Create message presets](using/configuration/message-presets.md)
+    + Push notifications configuration{#push-config}
+      + [Get started with push notifications](using/push-gs.md)
+      + [Configure push channel](using/push-configuration.md)
+    + Email configuration {#email-config}
+      + Delegate subdomains {#delegate-subdomains}
+        + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
+        + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
+        + [Access delegated subdomains](using/configuration/access-subdomains.md)
+        + [Add a Google TXT record](using/configuration/google-txt.md)
+        + [Access PTR records](using/configuration/ptr-records.md)
+      + [Create IP pools](using/configuration/ip-pools.md)
+      + Monitor email addresses {#monitor-reputation}  
+        + [Manage suppression list](using/configuration/manage-suppression-list.md)
+        + [Retries](using/configuration/retries.md)
+      + [Change email primary address](using/configuration/primary-email-addresses.md) 
+  + Configure journeys {#configure-journeys}
+    + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
+    + Event configuration {#events-journeys}
+      + [General principle](using/event/about-events.md)
+      + Configure a unitary event {#unitary-events}  
+        + [Get started with unitary events](using/event/about-creating.md)
+        + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
+        + [Leverage Adobe Analytics](using/event/about-analytics.md)
+      + [Configure a business event](using/event/about-creating-business.md)
+      + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+    + Data source configuration{#data-source-journeys}
+      + [About data sources](using/datasource/about-data-sources.md)
+      + [Configure a data source](using/datasource/configure-data-sources.md)
+      + [Adobe Experience Platform data source](using/datasource/adobe-experience-platform-data-source.md)
+      + [External data sources](using/datasource/external-data-sources.md)
+    + Action configuration {#action-journeys}
+      + [About actions](using/action/action.md)
+      + [Configure an action](using/action/about-custom-action-configuration.md)
 + Access control {#administration}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
