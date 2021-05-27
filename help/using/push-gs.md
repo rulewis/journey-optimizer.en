@@ -23,7 +23,6 @@ This document will walk you through a basic push notifications end-to-end data f
     * Firebase Cloud Messaging (FCM) - to send notifications to Android mobile app
     * Apple Push Notification Service (APNs) - to send notifications to iOS mobile app
 
-
 * **Mobile App Integrated with Adobe Mobile SDK** which helps integrate your mobile apps with Adobe Experience Cloud Solutions. Mobile SDK is comprised of various Experience Cloud solution extensions to provide features specific to the service they represent. These extensions expose various APIs to enable data flow like registering the push token or sending push tracking events or any other custom experience events to Adobe Experience Platform.
 
 * **Adobe Launch** (or Data Collection) is the next generation of mobile SDK management capabilities which enables data flow from Mobile SDK to [!DNL Adobe Experience Platform]. It provides capabilities to register extensions, create rules and data elements to send data from your mobile app to the Adobe Experience Cloud solutions. With respect to the push notifications data flow, the primary configurations required in Adobe Launch are:

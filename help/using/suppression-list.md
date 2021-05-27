@@ -30,7 +30,7 @@ Email addresses are added to the suppression list as follows:
 
 * **Soft bounces** and temporary **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. Learn more on [retries](configuration/retries.md).
 
-<!--You can also manually add an address to the suppression list. //Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
 
 >[!NOTE]
 >
