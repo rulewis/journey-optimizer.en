@@ -8,7 +8,7 @@ description: Learn what the suppression list is, its purpose and what is include
 
 A suppression list consists of email addresses that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates.
 
-The Journey Optimizer suppression list is managed at your own environment level.
+The [!DNL Journey Optimizer] suppression list is managed at your own environment level.
 
 It gathers email addresses and domains that are suppressed across all mailings in a single client environment, meaning specific to an IMS organization ID associated with a sandbox ID.
 
@@ -30,17 +30,18 @@ Email addresses are added to the suppression list as follows:
 
 * **Soft bounces** and temporary **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. Learn more on [retries](configuration/retries.md).
 
-* Email addresses of recipients who **unsubscribe** from your sendings are automatically sent to the suppression list. Learn more on [opting-out](../using/consent.md).
+<!--You can also manually add an address to the suppression list. //Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
 
-<!--You can also manually add an address to the suppression list. //Manual category will be available when ability to manually add an address to the suppression list (via API) is available.-->
+>[!NOTE]
+>
+>Unsubscribed users' addresses cannot be sent to the suppression list as they are not receiving emails from [!DNL Journey Optimizer]. Their choice is handled at the Experience Platform level. Learn more on [opting-out](../using/consent.md).
+<!--Email addresses of recipients who **unsubscribe** from your sendings are NOT sent to the suppression list. Confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
-For each address, the basic reason for being suppressed and the suppression category (soft, hard, etc.) are displayed in the suppression list. Learn more on accessing and managing it in [this section](configuration/manage-suppression-list.md).
+For each address, the basic reason for being suppressed and the suppression category (soft, hard, etc.) are displayed in the suppression list. Learn more on accessing and managing the suppression list in [this section](configuration/manage-suppression-list.md).
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
 ### Delivery failures {#delivery-failures}
-
-<!--In addition to this, the suppression list contains email addresses that hard bounce, or that soft bounce too many times.-->
 
 There are three types of errors when a delivery fails:
 
@@ -62,9 +63,10 @@ Sending to recipients after they submit a spam complaint may have a huge impact 
 
 This could lead to your IP address or sending domain being blocked, which can be avoided with these addresses being on the suppression list.
 
-### Unsubscriptions {#unsubscriptions}
+<!--### Unsubscriptions {#unsubscriptions}
 
 Every email sent to recipients must include an unsubscribe link. Upon clicking this link, if a recipient confirms [opting out](consent.md), the corresponding email address is immediately sent to the suppression list. This user must not receive communication from your brand until subscribed again.
+NOT TRUE > "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
 <!--MOVED to Configuration/Retries section
 
