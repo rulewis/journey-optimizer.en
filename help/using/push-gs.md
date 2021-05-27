@@ -1,6 +1,8 @@
 ---
 title: Get started with push configuration
 description: Understand push notification data flow and components
+hide: yes
+hidefromtoc: yes
 ---
 # Get started with push configuration {#get-started-push}
 
