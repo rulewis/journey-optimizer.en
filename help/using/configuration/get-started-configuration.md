@@ -40,7 +40,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
 1. **Configure journeys**: in order to build journeys, you need to configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. [Learn more](about-data-sources-events-actions.md)
 
-    ![](../assets/do-not-localize/admin-menu.png)
+    ![](../assets/admin-menu.png)
 
     * The **Data Source** configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys. Learn more about Data Sources in this [section](../datasource/about-data-sources.md)
 
