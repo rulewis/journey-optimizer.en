@@ -150,8 +150,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Title:** Lifecycle Status
 **Description:** Lifecycle status allows workflows to be conducted with an object. The status may affect where an object is visible or considered relevant. Status changes are driven by the clients or services that use the objects.
 **Type:** string
-**Possible values:** "Draft", "Approved", "Live", "Completed", "Archived"
-**Default value:** "Draft"
+**Possible values:** "Draft" (default), "Approved", "Live", "Completed", "Archived"
 
 #### _experience > decisioning > Decision Option Name
 

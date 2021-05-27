@@ -54,11 +54,11 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Field:** contentTypes
 **Type:** array
 
-**_experience > decisioning > contentTypes > MIME Media Type**
+* **MIME Media Type**
 
-**Title:** MIME Media Type
-**Description:** A constraint for the media type of the components that is expected in that placement. There could be more than one media type possible for one component such as different image format.
-**Type:** string
+    **Title:** MIME Media Type
+    **Description:** A constraint for the media type of the components that is expected in that placement. There could be more than one media type possible for one component such as different image format.
+    **Type:** string
 
 #### _experience > decisioning > Placement Description
 
