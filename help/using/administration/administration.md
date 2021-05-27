@@ -1,6 +1,8 @@
 ---
 title: Technical settings
 description: Learn administration and settings guidelines
+hidefromtoc: yes
+hide: yes
 ---
 # Technical settings
 
