@@ -30,44 +30,44 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Field:** _experience
 **Type:** object
 
-### decisioning
+### _experience > decisioning
 
 **Field:** decisioning
 **Type:** object
 
-#### Placement's Channel Identifier
+#### _experience > decisioning > Placement's Channel Identifier
 
 **Field:** channelID
 **Title:** Placement's Channel Identifier
 **Description:** The channel in which proposition was made. The value is a valid Channel URI. See https://ns.adobe.com/xdm/channels/channel.
 **Type:** string
 
-#### Content Component Type
+#### _experience > decisioning > Content Component Type
 
 **Field:** componentType
 **Title:** Content Component Type
 **Description:** An enumerated set of URIs where each value maps to a type given to the content component. Some consumers of the content representations are expecting the @type value to be a reference to schema that describes additional properties of the content component.
 **Type:** string
 
-#### contentTypes
+#### _experience > decisioning > contentTypes
 
 **Field:** contentTypes
 **Type:** array
 
-* **MIME Media Type**
+**_experience > decisioning > contentTypes > MIME Media Type**
 
-    **Title:** MIME Media Type
-    **Description:** A constraint for the media type of the components that is expected in that placement. There could be more than one media type possible for one component such as different image format.
-    **Type:** string
+**Title:** MIME Media Type
+**Description:** A constraint for the media type of the components that is expected in that placement. There could be more than one media type possible for one component such as different image format.
+**Type:** string
 
-#### Placement Description
+#### _experience > decisioning > Placement Description
 
 **Field:** description
 **Title:** Placement Description
 **Description:** It is used to convey human readable intentions on how dynamic content is used in the overall message delivery. That a certain space is a \"Banner\" in a web page is often conveyed via the description and not by a formal method.
 **Type:** string
 
-#### Placement Name
+#### _experience > decisioning > Placement Name
 
 **Field:** name
 **Title:** Placement Name
@@ -79,7 +79,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Field:** _repo
 **Type:** object
     
-### Placement ETag
+### _repo > Placement ETag
 
 **Field:** etag
 **Title:** Placement ETag
