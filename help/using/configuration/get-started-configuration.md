@@ -14,14 +14,16 @@ snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 ---
 
-# Get started
+# Get started with [!DNL Journey Optimizer] configuration
 
-When accessing Journey Optimizer for the first time, you are provisioned a production sandbox and allocated a certain number of IPs depending on your contract.
+When accessing [!DNL Journey Optimizer] for the first time, you are provisioned a production sandbox and allocated a certain number of IPs depending on your contract.
 
 To be able to create your journeys and send messages, you need to go though these configuration steps:
 
 1. **Configure messages and channels**: define presets, adapt and customize email and push messages
 
+    * Understant push notification flow. [Learn more](../push-gs.md)
+    
     * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push-configuration.md)
 
     * Create message presets to configure all the technical parameters required for email and push notification messages. [Learn more](message-presets.md)
@@ -40,7 +42,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
 1. **Configure journeys**: in order to build journeys, you need to configure **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**. [Learn more](about-data-sources-events-actions.md)
 
-    ![]()../assets/do-not-localize/admin-menu.png)
+    ![](../assets/admin-menu.png)
 
     * The **Data Source** configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys. Learn more about Data Sources in this [section](../datasource/about-data-sources.md)
 
