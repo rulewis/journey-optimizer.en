@@ -31,5 +31,5 @@ With Journey Optimizer, you can determine which email address to use from the pr
 1. The list of available email-type XDM fields displays. Select the field to use, then click **[!UICONTROL Save]**.
 
     ![](../assets/primary-address-field.png)
-
+    
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. >> will be done later on-->

@@ -99,7 +99,10 @@ You can configure **[!UICONTROL Advanced options]** for your push notification. 
 
 **Related topics**
 
+<!--
 * [Understand push notification flow](push-gs.md)
+-->
+
 * [Configure push channel](push-configuration.md)
 * [Create a new message](create-message.md)
 * [Add a message in a journey](building-journeys/journeys-message.md)

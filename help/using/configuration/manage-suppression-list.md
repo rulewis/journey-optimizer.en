@@ -19,7 +19,8 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 
 * Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
-* Profiles who unsubscribe from your sendings. Learn more on [opting-out](../../using/consent.md).
+
+<!--Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md). NOT TRUE as confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
 
@@ -57,34 +58,44 @@ The suppression categories are as follows:
 >
 >Learn more on soft bounces and hard bounces in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
 
+For each email address that is listed, you can also check the **[!UICONTROL Reason]** for excluding it and the date/time it was added to the suppression list.
+
 ![](../assets/suppression-list-temp.png)
 <!--to replace with suppression-list.png when Manual category is available (through API)-->
-
-For each email address that is listed, you can also check the **[!UICONTROL Reason]** for excluding it and the date/time it was added to the suppression list.
 
 The possible reasons for a delivery failure are:
 
 | Reason | Description | Suppression category |
 ---------|----------|--------- |
-| **[!UICONTROL Undetermined]** | The response text could not be identified. | Ignored |
-| **[!UICONTROL Invalid Recipient]** | The recipient is invalid. | Hard |
-| **[!UICONTROL Soft Bounce]** | The message soft bounced. | Soft |
+| **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Messsage Transfer Agent (MTA) could not be identified. | Ignored |
+| **[!UICONTROL Invalid Recipient]** | The recipient is invalid or does not exist. | Hard |
+| **[!UICONTROL Soft Bounce]** | The message soft bounced for a reason other than the soft errors listed in this table, such as when sending over the allowed rate recommended by an ISP. | Soft |
 | **[!UICONTROL DNS Failure]** | The message bounced due to a DNS failure. | Soft |
 | **[!UICONTROL Mailbox Full]** | The message bounced due to the mailbox of the recipient being full and unable to accept more messages. | Soft |
-| **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. | Ignored |
-| **[!UICONTROL Timeout]** | The message timed out. | Ignored |
- **[!UICONTROL Admin Failure]** | The message was failed by the sending system's configured policies. | Ignored |
+| **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. [Retries](retries.md) will be performed: you can edit the message size and re-inject it for delivery. | Ignored |
+| **[!UICONTROL Timeout]** | The message timed out, meaning it soft bounced and reached the message retry limit (3.5 days). | Ignored |
+ **[!UICONTROL Admin Failure]** | The message was failed according to the policies configured by the sending system administrator. <!--For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used.--> | Ignored |
 | **[!UICONTROL Generic Bounce: No RCPT]** | No recipient could be determined for the message. | Ignored |
 | **[!UICONTROL Generic Bounce]** | The message failed for unspecified reasons. | Ignored |
-| **[!UICONTROL Mail Block]** | The message was blocked by the receiver. | Ignored |
-| **[!UICONTROL Spam Block]** | The message was blocked by the receiver as coming from a known spam source. | Ignored |
-| **[!UICONTROL Spam Content]** | The message was blocked by the receiver as spam. | Ignored |
+| **[!UICONTROL Mail Block]** | The message was blocked by the receiver (i.e. recipient MTA). | Ignored |
+| **[!UICONTROL Spam Block]** | The message was blocked by the receiver as coming from a known spam source. It could be a sending IP block for example. | Ignored |
+| **[!UICONTROL Spam Content]** | The message content was blocked by the receiver (recipient MTA) as spam. | Ignored |
 | **[!UICONTROL Prohibited Attachment]** | The message was blocked by the receiver because it contained an attachment. | Ignored |
 | **[!UICONTROL Relaying Denied]** | The message was blocked by the receiver because relaying is not allowed. | Soft |
 | **[!UICONTROL Auto-Reply]** | The message is an auto-reply/vacation mail. | Ignored |
 | **[!UICONTROL Transient Failure]** | Message transmission has been temporarily delayed. | Ignored |
+| **[!UICONTROL Challenge-Response]** | The message is a challenge-response probe. | Soft |
+
+>[!NOTE]
+>
+>Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. Learn more on [opting-out](../consent.md).
+
+<!--
+Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Subscribe]** | The message is a subscribe request. | Ignored |
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
-| **[!UICONTROL Challenge-Response]** | The message is a challenge-response probe. | Soft |
+-->
+
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
 
 

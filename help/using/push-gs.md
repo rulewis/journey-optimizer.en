@@ -1,6 +1,8 @@
 ---
 title: Get started with push configuration
 description: Understand push notification data flow and components
+hide: yes
+hidefromtoc: yes
 ---
 # Get started with push configuration {#get-started-push}
 
@@ -20,7 +22,6 @@ This document will walk you through a basic push notifications end-to-end data f
     [!DNL Adobe Journey Optimizer]  supports both Android and iOS platforms and deal with two primary cloud messaging services:
     * Firebase Cloud Messaging (FCM) - to send notifications to Android mobile app
     * Apple Push Notification Service (APNs) - to send notifications to iOS mobile app
-
 
 * **Mobile App Integrated with Adobe Mobile SDK** which helps integrate your mobile apps with Adobe Experience Cloud Solutions. Mobile SDK is comprised of various Experience Cloud solution extensions to provide features specific to the service they represent. These extensions expose various APIs to enable data flow like registering the push token or sending push tracking events or any other custom experience events to Adobe Experience Platform.
 
