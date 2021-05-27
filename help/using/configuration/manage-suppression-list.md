@@ -20,7 +20,7 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 * Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
-<!--Profiles who unsubscribe from your sendings. Learn more on [opting-out](../../using/consent.md). NOT TRUE as confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
+<!--Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md). NOT TRUE as confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
 
@@ -88,7 +88,7 @@ The possible reasons for a delivery failure are:
 
 >[!NOTE]
 >
->Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. Learn more on [opting-out](../using/consent.md).
+>Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. Learn more on [opting-out](../consent.md).
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -96,6 +96,6 @@ Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
 -->
 
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)>
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
 
 
