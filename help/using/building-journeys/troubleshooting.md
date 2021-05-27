@@ -73,7 +73,7 @@ Here are a few things to check:
 
 If individuals flow the right way in the journey but don't receive messages they should receive, you can check if:
 
-* Journey Optimizer has correctly taken into account the request to send the message. A business user can access the message supposed to be sent and check if the time of the latest execution corresponds to the execution time of your journey. He can also check the latest API calls/events received.
-* Journey Optimizer has successfully sent the message. In the sending logs of the message, you can see the status of each execution. You can see if it's green, red and what was the issue. A business user can access this screen and send the logs to an administrator for further investigations.
+* [!DNL Journey Optimizer] has correctly taken into account the request to send the message. A business user can access the message supposed to be sent and check if the time of the latest execution corresponds to the execution time of your journey. He can also check the latest API calls/events received.
+* [!DNL Journey Optimizer] has successfully sent the message. In the sending logs of the message, you can see the status of each execution. You can see if it's green, red and what was the issue. A business user can access this screen and send the logs to an administrator for further investigations.
 
 In case of a message sent via a custom action, the only thing that can be checked during journey test is the fact that the call of the custom action’s system leads to an error or not. If the call to the external system associated with the custom action does not lead to an error but does not lead to a message sending, some investigations should be done on the external system’s side.

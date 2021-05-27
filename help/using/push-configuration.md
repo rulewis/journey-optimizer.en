@@ -2,7 +2,7 @@
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
 ---
-# Push notification configuration {#push-notification-configuration}
+# Configure Push notification channel {#push-notification-configuration}
 
 ![](assets/do-not-localize/badge.png)
 
