@@ -22,7 +22,7 @@ To be able to create your journeys and send messages, you need to go though thes
 
 1. **Configure messages and channels**: define presets, adapt and customize email and push messages
 
-    * Understant push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../push-gs.md)
     
     * Define push notifications settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push-configuration.md)
 

@@ -15,7 +15,7 @@ snippet: y
 
 # Manage the suppression list {#manage-suppression-list}
 
-With Journey Optimizer, you can monitor all the email addresses that are automatically excluded from sending in a journey, such as:
+With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey, such as:
 
 * Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.

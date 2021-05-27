@@ -15,7 +15,7 @@ snippet: y
 
 # Create message presets
 
-With Journey Optimizer, you can set up message presets that define all the technical parameters required for email and push notification messages (email type, sender email and name, mobile apps, etc.).
+With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification messages (email type, sender email and name, mobile apps, etc.).
 
 You can set up as many message presets as desired according, depending on the different brands you need to communicate for.
 

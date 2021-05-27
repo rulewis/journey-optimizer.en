@@ -97,4 +97,10 @@ You can configure **[!UICONTROL Advanced options]** for your push notification. 
 |**[!UICONTROL Delivery priority]** (Android only) | Sets up a high or normal priority for your push notifications. For more information on message priority, refer to the [Google developer documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).|
 
 
+**Related topics**
+
+* [Understand push notification flow](../push-gs.md)
+* [Configure push channel](push-configuration.md)
+* [Create a new message](create-message.md)
+* [Add a message in a journey](building-journeys/journeys-message.md)
 
