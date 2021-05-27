@@ -36,7 +36,7 @@ To create a new message, follow the steps below:
 
     * Select the **[!UICONTROL Preset]** to use for the message.
         
-        Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about branding](../using/administration/administration.md#cjm-branding).
+        Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about presets](../using/configuration/message-presets.md).
         
     * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
 
