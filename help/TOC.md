@@ -104,10 +104,10 @@ hide: yes
     + [Identity fields](using/reports/sharing-identity-fields.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
-    + [Suppression lists](using/suppression-lists.md)
-+ Decision Management {#offer-decisioniong}
+    + [Suppression list](using/suppression-list.md)
++ Decision management {#offer-decisioniong}
   + Get started with Decision Management {#get-started}
-    + [About Decision Management](using/offers/get-started/starting-offer-decisioning.md)
+    + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
     + [Glossary](using/offers/get-started/glossary.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
@@ -123,7 +123,7 @@ hide: yes
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
   + Create Decision Management reports {create-reports}
-    + [Get started with Decision Management events](using/offers/reports/get-started-events.md)
+    + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
     + [Access events XDM fields](using/offers/reports/xdm-fields.md)
   + Export your offer catalog {#export-catalog}
@@ -178,32 +178,50 @@ hide: yes
         + [Create a decision](using/offers/api-reference/activities-api/activities/create.md)
         + [Update a decision](using/offers/api-reference/activities-api/activities/update.md)
         + [Delete a decision](using/offers/api-reference/activities-api/activities/delete.md)
-    + Offer Delivery using APIs {#offer-delivery}
+    + Offer delivery using APIs {#offer-delivery}
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
-+ Configuration {#configuration}
-  + [Push notifications configuration](using/push-configuration.md)
-  + Event configuration {#events-journeys}
-    + [About events](using/event/about-events.md)
-    + Configure a unitary event {#unitary-events}  
-      + [Get started with unitary events](using/event/about-creating.md)
-      + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
-      + [Leverage Adobe Analytics](using/event/about-analytics.md)
-    + [Configure a business event](using/event/about-creating-business.md)
-    + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-  + Data source configuration{#data-source-journeys}
-    + [About data sources](using/datasource/about-data-sources.md)
-    + [Configure a data source](using/datasource/configure-data-sources.md)
-    + [Adobe Experience Platform data source](using/datasource/adobe-experience-platform-data-source.md)
-    + [External data sources](using/datasource/external-data-sources.md)
-  + Action configuration {#action-journeys}
-    + [About actions](using/action/action.md)
-    + [Configure an action](using/action/about-custom-action-configuration.md)
-+ Administration {#administration}
-  + [Technical settings](using/administration/administration.md)
-  + Access control {#access-control}
-    + [Access control overview](using/administration/permissions-overview.md)
-    + [Built-in product profiles](using/administration/ootb-product-profiles.md)
-    + [Manage users and product profiles](using/administration/permissions.md)
-    + [Permission levels](using/administration/high-low-permissions.md)
-    + [Sandboxes management](using/administration/sandboxes.md)
++ Configuration{#get-started}
+  + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
+  + Configure messages {#configuration}
+    + [Technical settings](using/administration/administration.md)
+    + [Create message presets](using/configuration/message-presets.md)
+    + Push notifications configuration{#push-config}
+      + [Get started with push notifications](using/push-gs.md)
+      + [Configure push channel](using/push-configuration.md)
+    + Email configuration {#email-config}
+      + Delegate subdomains {#delegate-subdomains}
+        + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
+        + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
+        + [Access delegated subdomains](using/configuration/access-subdomains.md)
+        + [Add a Google TXT record](using/configuration/google-txt.md)
+        + [Access PTR records](using/configuration/ptr-records.md)
+      + [Create IP pools](using/configuration/ip-pools.md)
+      + Monitor email addresses {#monitor-reputation}  
+        + [Manage suppression list](using/configuration/manage-suppression-list.md)
+        + [Retries](using/configuration/retries.md)
+      + [Change email primary address](using/configuration/primary-email-addresses.md) 
+  + Configure journeys {#configure-journeys}
+    + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
+    + Event configuration {#events-journeys}
+      + [General principle](using/event/about-events.md)
+      + Configure a unitary event {#unitary-events}  
+        + [Get started with unitary events](using/event/about-creating.md)
+        + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
+        + [Leverage Adobe Analytics](using/event/about-analytics.md)
+      + [Configure a business event](using/event/about-creating-business.md)
+      + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+    + Data source configuration{#data-source-journeys}
+      + [About data sources](using/datasource/about-data-sources.md)
+      + [Configure a data source](using/datasource/configure-data-sources.md)
+      + [Adobe Experience Platform data source](using/datasource/adobe-experience-platform-data-source.md)
+      + [External data sources](using/datasource/external-data-sources.md)
+    + Action configuration {#action-journeys}
+      + [About actions](using/action/action.md)
+      + [Configure an action](using/action/about-custom-action-configuration.md)
++ Access control {#administration}
+  + [Access control overview](using/administration/permissions-overview.md)
+  + [Built-in product profiles](using/administration/ootb-product-profiles.md)
+  + [Manage users and product profiles](using/administration/permissions.md)
+  + [Permission levels](using/administration/high-low-permissions.md)
+  + [Sandboxes management](using/administration/sandboxes.md)

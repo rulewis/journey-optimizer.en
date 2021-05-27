@@ -1,6 +1,8 @@
 ---
 title: Technical settings
 description: Learn administration and settings guidelines
+hidefromtoc: yes
+hide: yes
 ---
 # Technical settings
 
@@ -54,7 +56,7 @@ Parameters established by Adobe are only valid from the time that the delegation
 
 Use the **[!UICONTROL Admin]** section to manage **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]**.
 
-![]()../assets/do-not-localize/admin-menu.png)
+![](../assets/admin-menu.png)
 
 ### Data Sources
 
