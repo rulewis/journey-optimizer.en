@@ -72,11 +72,17 @@ This namespace allows you to reference existing offers decisions.
 To reference an offer you need to declare a path with the different information that define an offer.
 
 This path has the following structure:
-0 - 'offers' : identifies the path expression belonging to offer namespace
-1 - Type : determines the type of offer representation. Valid values are 'image', 'html' and 'text'
-2 - Placement Id
-3 - Activity Id
-4 - Offer specific attributes. Depending on the offer type supported attributes can be used. For example for images `deliveryUrl`.
+
+```
+offers.Type.[Placement Id].[Activity Id].Attribute
+```
+
+where:
+
+* `offers` identifies the path expression belonging to offer namespace
+* `Type`  determines the type of offer representation. Possible values are: `image`, `html` and `text`
+* `Placement Id` and `Activity Id` are placement and activity identifiers
+* `Attributes` are offer specific attributes which depend on the offer type. Example: `deliveryUrl` for images.
 
 For more information on Decisions API and on Offers Representation, refer to [this page](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
