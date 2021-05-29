@@ -26,7 +26,7 @@ where:
 
 Identifiers may be any unicode character except for the following:
 
-```
+```sql
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 ```
 
@@ -78,9 +78,7 @@ This path has the following structure:
 3 - Activity Id
 4 - Offer specific attributes. Depending on the offer type supported attributes can be used. For example for images `deliveryUrl`.
 
-For more information on Decisions API, refer to [this page](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
-
-For more information on Offers Representation, refer to [this page](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
+For more information on Decisions API and on Offers Representation, refer to [this page](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
 All the references are validated against Offers Schema with a validation mechanism described in [this page](personalization-validation.md).
 

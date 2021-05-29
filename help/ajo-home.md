@@ -11,6 +11,8 @@ title: Journey Optimizer product documentation
 
 ## What's new?
 
+* [Access control](using/administration/permissions-overview.md) </br> Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
+
 * [Helper functions](using/personalization/functions/functions.md) </br> Leverage Helper functions in the Expression editor to personalize message content
 
 * [Decision management](using/offers/get-started/starting-offer-decisioning.md) </br> Create offers and deliver the best offer and experience to your customers
