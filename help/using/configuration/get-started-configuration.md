@@ -1,16 +1,12 @@
 ---
 title: Administration and settings
 description: Learn administration and settings guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
 audience: administrators
 content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+role: Administrator
+level: Intermediate
+product: Adobe Journey Optimizer
+solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 ---
 

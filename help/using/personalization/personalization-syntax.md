@@ -44,6 +44,10 @@ The attributes need to be defined in the schema before being referenced in a [!D
 
 All the references are validated against Profile Schema with a validation mechanism described in [this page](personalization-validation.md).
 
+>[!NOTE]
+>
+>Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if-function).
+
 **Sample references:**
 
 * ```{{profile.person.name.fullName}}```
@@ -53,10 +57,6 @@ All the references are validated against Profile Schema with a validation mechan
 * ```{{profile.mobilePhone.number}}```
 * ```{{profile.homeAddress.city}}```
 * ```{{profile.faxPhone.number}}```
-
->[!NOTE]
->
->Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if-function).
 
 ## Segments{#perso-segments}
 
