@@ -35,15 +35,13 @@ The syntax is case sensitive.
 
 The words **true**, **false**, **null** and **undefined** are only allowed in the first part of a path expression.
 
-In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains ```&```, then the returned HTML-escaped output is generated as ```&amp;``. If you don't want Handlebars to escape a value, use the "triple-stash".
+In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains ```&```, then the returned HTML-escaped output is generated as ```&amp;```. If you don't want Handlebars to escape a value, use the "triple-stash".
 
 ## Profile
 
 This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
-
-
 
 >[!NOTE]
 >
