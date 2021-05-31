@@ -12,8 +12,6 @@ For a complete description of the Handlebars syntax, refer to [HandlebarsJS docu
 
 It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
 
-All the references are validated against Profile Schema with a validation mechanism described in [this page](personalization-validation.md).
-
 Simple expression sample:
 
 ```
@@ -40,7 +38,7 @@ The words **true**, **false**, **null** and **undefined** are only allowed in th
 In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains ```&```, then the returned HTML-escaped output is generated as ```&amp;``. If you don't want Handlebars to escape a value, use the "triple-stash".
 
 ## Profile
-`
+
 This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
