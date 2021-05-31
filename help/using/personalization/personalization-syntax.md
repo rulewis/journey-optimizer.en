@@ -18,6 +18,8 @@ Simple expression sample:
 {{profile.person.name}}
 ```
 
+Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if-function).
+
 where:
 
 * **profile** is a namespace.
@@ -33,9 +35,13 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 The syntax is case sensitive.
 
+Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if-function).
+
 The words **true**, **false**, **null** and **undefined** are only allowed in the first part of a path expression.
 
 In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains ```&```, then the returned HTML-escaped output is generated as ```&amp;```. If you don't want Handlebars to escape a value, use the "triple-stash".
+
+Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if-function).
 
 ## Profile
 
