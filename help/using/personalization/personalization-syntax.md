@@ -2,6 +2,7 @@
 title: Personalization syntax
 description: Learn how to use personalization syntax
 ---
+
 # Personalization syntax {#personalization-syntax}
 
 ![](../assets/do-not-localize/badge.png)
@@ -11,9 +12,11 @@ For a complete description of the Handlebars syntax, refer to [HandlebarsJS docu
 
 It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
 
+All the references are validated against Profile Schema with a validation mechanism described in [this page](personalization-validation.md).
+
 Simple expression sample:
 
-```sql
+```
 {{profile.person.name}}
 ```
 
@@ -26,7 +29,7 @@ where:
 
 Identifiers may be any unicode character except for the following:
 
-```sql
+```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 ```
 
@@ -42,7 +45,7 @@ This namespace allows you to reference all the attributes defined in the profile
 
 The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
 
-All the references are validated against Profile Schema with a validation mechanism described in [this page](personalization-validation.md).
+
 
 >[!NOTE]
 >
