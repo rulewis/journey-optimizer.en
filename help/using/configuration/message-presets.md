@@ -1,16 +1,6 @@
 ---
-title: Content branding
-description: Learn how xxxx
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+title: Create message presets
+description: Learn how create email and push notification message presets
 ---
 
 # Create message presets
