@@ -1,6 +1,6 @@
 ---
-title: Administration and settings
-description: Learn administration and settings guidelines
+title: Journey Optimizer settings and configuration guidelines
+description: Learn message and journey configuration guidelines
 audience: administrators
 content-type: reference
 role: Administrator
