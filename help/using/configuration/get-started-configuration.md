@@ -26,9 +26,10 @@ To be able to create your journeys and send messages, you need to go though thes
 
     * Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
 
-<!--
-* Understand push notification flow. [Learn more](../push-gs.md)
--->
+    <!--
+    * Understand push notification flow. [Learn more](../push-gs.md)
+    -->
+    
 1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)
 
     ![](../assets/subdomain.png)
