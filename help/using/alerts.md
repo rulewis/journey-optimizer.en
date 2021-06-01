@@ -46,17 +46,17 @@ The settings and elements checked by the system are listed below. You will also 
 
 **Errors**:
 
-* **[!UICONTROL Subject Line Not Present]**: email subject line is mandatory. Learn how to define and personalize it in [this section](configure-email.md).
+* **[!UICONTROL Subject Line Not Present]**: email subject line is mandatory. Learn how to define and personalize it in [this section](create-email.md).
 
     <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL Push Variant is empty]**: this error is displayed when the push notification body or title is missing. Learn how to define push notification content in [this section](configure-push.md).
+* **[!UICONTROL Push Variant is empty]**: this error is displayed when the push notification body or title is missing. Learn how to define push notification content in [this section](create-push.md).
 
 * **[!UICONTROL Email Variant is empty]**: this error is displayed when the email content has not been configured. Learn how to design email content in [this section](design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist]**: you cannot publish your message if the preset you have selected is deleted after the message creation. If this error occurs, select another preset in the message **[!UICONTROL Properties]**. Learn more on branding in [this section](administration.md#cjm-branding).
+* **[!UICONTROL Preset doesn’t exist]**: you cannot publish your message if the preset you have selected is deleted after the message creation. If this error occurs, select another preset in the message **[!UICONTROL Properties]**. Learn more on branding in [this section](configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: the push notification size cannot exceed 4KB. To respect this limit, try to reduce the use of images or emojis. Learn how to manage your push notification content in [this section](configure-push.md).
+* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: the push notification size cannot exceed 4KB. To respect this limit, try to reduce the use of images or emojis. Learn how to manage your push notification content in [this section](create-push.md).
 
 >[!CAUTION]
 >

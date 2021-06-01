@@ -6,11 +6,11 @@ description: Learn how to create a message
 
 ![](assets/do-not-localize/badge.png)
 
-Messages are available from the **[!UICONTROL Messages]** shortcut on the left rail. All messages are listed, sorted by publication date (for published messages) or creation date (for draft messages).
+Messages are available from the **[!UICONTROL Messages]** shortcut on the left navigation. All messages are listed, sorted by publication date (for published messages) or creation date (for draft messages).
 
 >[!NOTE]
 >
->Every user can access, create, edit and publish messages. Learn more about user permissions [in this section](permissions.md).
+>Every user can access, create, edit and publish messages. Learn more about user permissions [in this section](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -35,9 +35,9 @@ To create a new message, follow the steps below:
     * Enter a **[!UICONTROL Title]** (mandatory) and a **[!UICONTROL Description]**. 
 
     * Select the **[!UICONTROL Preset]** to use for the message.
-
-        Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about branding](administration.md#cjm-branding).
-
+        
+        Presets include all the parameters that are required for an email and/or push notification to be sent according to your brand. [Learn more about presets](../using/configuration/message-presets.md).
+        
     * Select the channel(s) you want to use for that message: Email and/or Push notification. You must select at least one channel to be able to create the message.
 
     Note that you can access and modify the message's title, description and preset at any time using the **[!UICONTROL Properties]** button in the message interface.
@@ -53,8 +53,8 @@ To create a new message, follow the steps below:
 
     You can now create the content of the message and adapt settings. Detailed information about email and push notification configuration is available in the following sections:
 
-    * [Configure emails](configure-email.md)
-    * [Configure push notifications](configure-push.md)
+    * [Create an email](create-email.md)
+    * [Create a push notifications](create-push.md)
 
     >[!NOTE]
     >   

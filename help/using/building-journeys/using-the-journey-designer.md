@@ -68,7 +68,7 @@ The other activities allow you to add conditions to your journey to define sever
 
 **Actions**
 
-You will find here the **Message** activity which allows you to include a message designed in Journey Optimizer. [Learn more about the Message activity](journeys-message.md)
+You will find here the **Message** activity which allows you to include a message designed in [!DNL Journey Optimizer]. [Learn more about the Message activity](journeys-message.md)
 
 You will also find the custom actions that you've configured to send messages with third-party systems. Learn more in this [section](about-journey-activities.md#action-activities).
 

@@ -52,7 +52,7 @@ You need to configure an event that is sent to your journey when a customer make
 
 For this, we use a rule-based event. For more information on events, refer to this [page](../event/about-events.md).
 
-1. From the left menu, click the **[!UICONTROL Admin]** icon, then click **[!UICONTROL Events]**. Click **[!UICONTROL Add]** to create a new event. 
+1. In the ADMINISTRATION section, browse to **[!UICONTROL Configurations]**, then click **[!UICONTROL Events]**. Click **[!UICONTROL Add]** to create a new event. 
 
 1. Enter the name of your event.
 

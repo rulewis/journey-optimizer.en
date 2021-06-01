@@ -6,13 +6,13 @@ description: Learn more about the DecisioningEvents XDM schema.
 
 You can access the DecisioningEvents XDM schema directly from a dataset containing Decision Management events.
 
-![](../assets/access-schema.png)
+![](../../assets/access-schema.png)
 
 The schema contains all the fields that are required to send information from Decision Management to Adobe Experience Platform.
 
 To get more information on a specific field, select it to display an information pane with the field's properties.
 
-![](../assets/schema-fields.png)
+![](../../assets/schema-fields.png)
 
 Detailed information on how to work with XDM schemas and fields is available in the Experience Data Model documentation:
 
