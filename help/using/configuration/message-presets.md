@@ -37,10 +37,17 @@ To create a message preset, follow these steps:
 
     For the email channel, specify:
 
-    * The type of communications that will be sent with the preset (transactional or marketing messages),
-    * The [subdomain](about-subdomain-delegation.md) to use to send the emails,
-    * The [IP pool](ip-pools.md) to associate with the preset,
+    * The type of communications that will be sent with the preset: **transactional** or **marketing** messages
+
+        >[!CAUTION]
+        >
+        > Transactional messages can be sent to profiles who unsubscribed from communications, or to addresses added to the suppression list after hard bounces for example. These mmessages can only be sent in specific contexts.
+        >
+    
+    * The [subdomain](about-subdomain-delegation.md) to use to send the emails
+    * The [IP pool](ip-pools.md) to associate with the preset
     * The header parameters to use for the emails sent using the preset.
+
 
     ![](../assets/preset-email.png)
 
