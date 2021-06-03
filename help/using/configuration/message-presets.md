@@ -73,7 +73,7 @@ To create a message preset, follow these steps:
     * SPF validation,
     * DKIM validation,
     * MX record validation,
-    * Check IPs blacklisting,
+    * Check IPs denylisting,
     * Helo host check,
     * IP pool verification,
     * A/PTR record, t/m/res subdomain verification.
