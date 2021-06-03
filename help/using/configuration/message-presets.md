@@ -29,11 +29,11 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-create.png)
 
-1. Provide a name and a description (optional) for the preset, then specify the channel(s) that you want to configure.
+1. Enter a name and a description (optional) for the preset, then specify the channel(s) that you want to configure.
 
     ![](../assets/preset-general.png)
 
-1. Configure the email and push notification settings.
+1. Configure the message settings.
 
     For the **email** channel, define the following settings:
 
@@ -43,7 +43,7 @@ To create a message preset, follow these steps:
 
         >[!CAUTION]
         >
-        > Transactional messages can be sent to profiles who unsubscribed from communications, or to addresses added to the suppression list after hard bounces for example. These messages can only be sent in specific contexts, such as password reset for example.
+        > Transactional messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts, such as password reset, order status, delivery notification, and more.
         >
     
     * The [subdomain](about-subdomain-delegation.md) to use to send the emails
