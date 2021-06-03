@@ -15,9 +15,9 @@ snippet: y
 
 # Create message presets
 
-With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification messages (email type, sender email and name, mobile apps, etc.).
+With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more.
 
-You can set up as many message presets as desired according, depending on the different brands you need to communicate for.
+You can set up as many message presets as needed depending on your different brands and usage of the product.
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
@@ -33,9 +33,11 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-general.png)
 
-1. Configure the email and push notification settings:
+1. Configure the email and push notification settings.
 
-    For the email channel, specify:
+    For the **email** channel, define the following settings:
+
+    ![](../assets/preset-email.png)
 
     * The type of message that will be sent with the preset: **Transactional** or **Marketing**
 
@@ -46,14 +48,17 @@ To create a message preset, follow these steps:
     
     * The [subdomain](about-subdomain-delegation.md) to use to send the emails
     * The [IP pool](ip-pools.md) to associate with the preset
-    * The header parameters to use for the emails sent using the preset.
+    * The header parameters to use for the emails sent using the preset
 
+    For the **push notification** channel, define the following settings:
 
-    ![](../assets/preset-email.png)
-
-    For the push notification channel, specify the IOS and/or Android mobile applications to use for your messages. For more on how to configure your environment to send push notifications, refer to [this section](../push-configuration.md).
-
-    ![](../assets/preset-push.png)
+     ![](../assets/preset-push.png)
+   
+    * Select at least one platform: IOS and/or Android
+    
+    * Select the mobile applications to use for each platform 
+        
+        For more on how to configure your environment to send push notifications, refer to [this section](../push-configuration.md).
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
