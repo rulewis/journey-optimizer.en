@@ -37,7 +37,7 @@ To create a message preset, follow these steps:
 
     For the email channel, specify:
 
-    * The type of communications that will be sent with the preset: **transactional** or **marketing** messages
+    * The type of message that will be sent with the preset: **Transactional** or **Marketing**
 
         >[!CAUTION]
         >
