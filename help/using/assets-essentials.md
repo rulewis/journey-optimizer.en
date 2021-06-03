@@ -10,9 +10,13 @@ description: Get Started with Assets Essentials
 
 [!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. It can be accessed directly from [!DNL Adobe Journey Optimizer] through the **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content. [Learn more about email design](design-emails.md).
 
+For more detailed procedures on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+
 ## Upload assets{#add-asset}
 
-To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into:
+To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into.
+
+For more information on how to upload assets, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
 
 1. From [!DNL Adobe Journey Optimizer] home page, select the **[!UICONTROL Assets]** tab to access [!DNL Assets Essentials].
 
@@ -40,7 +44,7 @@ To upload files in the [!DNL Assets Essentials], you first need to browse or cre
 
 ## Manage assets{#manage-asset}
 
-You can manage assets available in [!DNL Adobe Experience Manager Assets Essentials]. Click your asset to access further options. 
+You can manage assets available in [!DNL Adobe Experience Manager Assets Essentials]. Click your asset to access further options.
 
 ![](assets/media_library_12.png)
 
@@ -53,6 +57,8 @@ Following actions are available in the toolbar:
 * **[!UICONTROL Delete]** to remove the asset from [!DNL Assets Essentials].
 * **[!UICONTROL Copy]** to copy/paste the asset in another folder.
 * **[!UICONTROL Move]** to move your asset to other folders.
+
+For more information on how to manage assets, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html).
 
 ## Insert assets in messages {#use-assets}
 
