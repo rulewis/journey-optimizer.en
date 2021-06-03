@@ -43,7 +43,7 @@ To create a message preset, follow these steps:
 
         >[!CAUTION]
         >
-        > Transactional messages can be sent to profiles who unsubscribed from communications, or to addresses added to the suppression list after hard bounces for example. These messages can only be sent in specific contexts, such as password reset.
+        > Transactional messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts, such as password reset, order status, delivery notification, and more.
         >
     
     * The [subdomain](about-subdomain-delegation.md) to use to send the emails
