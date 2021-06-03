@@ -29,11 +29,11 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-create.png)
 
-1. Provide a name and a description (optional) for the preset, then specify the channel(s) that you want to configure.
+1. Enter a name and a description (optional) for the preset, then specify the channel(s) that you want to configure.
 
     ![](../assets/preset-general.png)
 
-1. Configure the email and push notification settings.
+1. Configure the message settings.
 
     For the **email** channel, define the following settings:
 
