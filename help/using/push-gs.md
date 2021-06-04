@@ -23,7 +23,6 @@ The following pictorial shows the systems and services involved with associated 
 
 ![](assets/push-flow.png)
 
-
 1. Registration of your branded mobile app (Android or iOS) with Apple's APNs and Google FCM push messaging messaging services
 1. Messaging services generate a push token, which, is an identifier that Adobe Journey Optimizer will use to target the specific device with a push notification.
 1. The previously generated push token is passed to Adobe Experience Platform and synchronized with the Real-time Customer Profile; this is done OOTB with an easy to integrate client SDK
@@ -42,8 +41,8 @@ The following pictorial shows the systems and services involved with associated 
 * **Push notification service providers** are the core component web services that deliver notifications from remote servers to mobile apps.
     
     [!DNL Adobe Journey Optimizer]  supports both Android and iOS platforms and consequently integrate with following:
-    * Firebase Cloud Messaging (FCM) - to send notifications to Android mobile app
-    * Apple Push Notification Service (APNs) - to send notifications to iOS mobile app
+    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - to send notifications to Android mobile app
+    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - to send notifications to iOS mobile app
 
 * **Adobe Experience Platform Mobile SDK** which provides client-side integration APIs for your mobiles via Android and iOS compatible SDKs. The SDK provides an Adobe Journey Optimizer extension exposing a variety of APIs specific for push messaging and enable data flow like registering the push token or sending push tracking events or any other custom experience events to Adobe Experience Platform. The SDK also provides a variety of other extensions that enable other Adobe Experience Cloud as well as 3rd party partner capabilities.
 
