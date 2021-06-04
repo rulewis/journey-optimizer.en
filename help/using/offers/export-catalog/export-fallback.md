@@ -150,8 +150,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Title:** Lifecycle Status
 **Description:** Lifecycle status allows workflows to be conducted with an object. The status may affect where an object is visible or considered relevant. Status changes are driven by the clients or services that use the objects.
 **Type:** string
-**Possible values:** "Draft", "Approved", "Live", "Completed", "Archived"
-**Default value:** "Draft"
+**Possible values:** "Draft" (default), "Approved", "Live", "Completed", "Archived"
 
 #### _experience > decisioning > Decision Option Name
 
@@ -170,6 +169,9 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 ## _repo
+
+**Field:** _repo
+**Type:** object
     
 ### _repo > Decision Option ETag
 

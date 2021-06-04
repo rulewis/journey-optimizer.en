@@ -2,6 +2,7 @@
 title: Personalization syntax
 description: Learn how to use personalization syntax
 ---
+
 # Personalization syntax {#personalization-syntax}
 
 ![](../assets/do-not-localize/badge.png)
@@ -13,7 +14,7 @@ It uses a template and an input object to generate HTML or other text formats. H
 
 Simple expression sample:
 
-```sql
+```
 {{profile.person.name}}
 ```
 
@@ -34,7 +35,7 @@ The syntax is case sensitive.
 
 The words **true**, **false**, **null** and **undefined** are only allowed in the first part of a path expression.
 
-In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains &, then the returned HTML-escaped output is generated as &amp;. If you don't want Handlebars to escape a value, use the "triple-stash".
+In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. If the expression contains `&`, then the returned HTML-escaped output is generated as `&amp;`. If you don't want Handlebars to escape a value, use the "triple-stash".
 
 ## Profile
 
@@ -42,21 +43,21 @@ This namespace allows you to reference all the attributes defined in the profile
 
 The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
 
-All the references are validated against Profile Schema with a validation mechanism described in [this page](personalization-validation.md).
-
-**Sample references:**
-
-* ```{{profile.person.name.fullName}}```
-* ```{{profile.person.name.firstName}}```
-* ```{{profile.person.gender}}```
-* ```{{profile.personalEmail.address}}```
-* ```{{profile.mobilePhone.number}}```
-* ```{{profile.homeAddress.city}}```
-* ```{{profile.faxPhone.number}}```
-
 >[!NOTE]
 >
 >Learn how to leverage profile attributes in conditions in [this section](functions/helpers.md#if-function).
+
+**Sample references:**
+
+```
+{{profile.person.name.fullName}}
+{{profile.person.name.firstName}}
+{{profile.person.gender}}
+{{profile.personalEmail.address}}
+{{profile.mobilePhone.number}}
+{{profile.homeAddress.city}}
+{{profile.faxPhone.number}}
+```
 
 ## Segments{#perso-segments}
 
@@ -72,15 +73,19 @@ This namespace allows you to reference existing offers decisions.
 To reference an offer you need to declare a path with the different information that define an offer.
 
 This path has the following structure:
-0 - 'offers' : identifies the path expression belonging to offer namespace
-1 - Type : determines the type of offer representation. Valid values are 'image', 'html' and 'text'
-2 - Placement Id
-3 - Activity Id
-4 - Offer specific attributes. Depending on the offer type supported attributes can be used. For example for images `deliveryUrl`.
 
-For more information on Decisions API, refer to [this page](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
+```
+offers.Type.[Placement Id].[Activity Id].Attribute
+```
 
-For more information on Offers Representation, refer to [this page](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
+where:
+
+* `offers` identifies the path expression belonging to offer namespace
+* `Type`  determines the type of offer representation. Possible values are: `image`, `html` and `text`
+* `Placement Id` and `Activity Id` are placement and activity identifiers
+* `Attributes` are offer specific attributes which depend on the offer type. Example: `deliveryUrl` for images.
+
+For more information on Decisions API and on Offers Representation, refer to [this page](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
 All the references are validated against Offers Schema with a validation mechanism described in [this page](personalization-validation.md).
 
@@ -88,19 +93,19 @@ All the references are validated against Offers Schema with a validation mechani
 
 * Location where the image is hosted:
 
-    ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * Target URL when you click on the image:
 
-    ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * Text content of the offer coming from the decisionning engine:
 
-    ```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * HTML content of the offer coming from the decisionning engine:
 
-    ```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content``` 
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## Helpers{#helpers-all}

@@ -1,16 +1,12 @@
 ---
-title: Administration and settings
-description: Learn administration and settings guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
+title: Journey Optimizer settings and configuration guidelines
+description: Learn message and journey configuration guidelines
 audience: administrators
 content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+role: Administrator
+level: Intermediate
+product: Adobe Journey Optimizer
+solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 ---
 
@@ -30,9 +26,10 @@ To be able to create your journeys and send messages, you need to go though thes
 
     * Manage the number of days during which retries are performed before sending email addresses to the suppression list. [Learn more](manage-suppression-list.md)
 
-<!--
-* Understand push notification flow. [Learn more](../push-gs.md)
--->
+    <!--
+    * Understand push notification flow. [Learn more](../push-gs.md)
+    -->
+    
 1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)
 
     ![](../assets/subdomain.png)
