@@ -12,6 +12,7 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 > Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
 >
 
+
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
 ## Create a message preset {#create-message-preset}
@@ -21,6 +22,7 @@ To create a message preset, follow these steps:
 1. Access the **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create Message preset]**.
 
     ![](../assets/preset-create.png)
+
 
 1. Enter a name and a description (optional) for the preset, then select the channel(s) to configure.
 
@@ -61,7 +63,7 @@ To create a message preset, follow these steps:
     
     * Select the mobile applications to use for each platform. 
         
-        For more on how to configure your environment to send push notifications, refer to [this section](../push-configuration.md).
+      For more on how to configure your environment to send push notifications, refer to [this section](../push-configuration.md).
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
@@ -73,6 +75,7 @@ To create a message preset, follow these steps:
 
     These checks include deliverability tests that are performed by Adobe deliverability team:
 
+
     * SPF validation
     * DKIM validation
     * MX record validation
@@ -80,6 +83,7 @@ To create a message preset, follow these steps:
     * Helo host check
     * IP pool verification
     * A/PTR record, t/m/res subdomain verification
+
 
 1. Once the checks are successfull, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
