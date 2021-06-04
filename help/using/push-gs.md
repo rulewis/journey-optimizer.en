@@ -2,7 +2,7 @@
 title: Get started with push configuration
 description: Understand push notification data flow and components
 ---
-# Get started with push configuration {#get-started-push}
+# Push notification configuration {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -62,5 +62,3 @@ The following pictorial shows the various steps, end-to-end, involved in configu
 
 ![](assets/user-flow.png)
 
-
-Detailed steps to configure push channel and enable push notifications in [!DNL Journey Optimizer] are available in [this page](push-configuration.md).
