@@ -66,7 +66,7 @@ To create a message preset, follow these steps:
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
     ![](../assets/preset-submit.png)
-
+    
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
     During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 days**.
