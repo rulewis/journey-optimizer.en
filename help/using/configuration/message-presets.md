@@ -31,7 +31,7 @@ To create a message preset, follow these steps:
 
     >[!NOTE]
     >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters and  `_` `.` `-` characters. 
+    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
 
 1. Configure **email** settings.
 
@@ -50,7 +50,7 @@ To create a message preset, follow these steps:
 
         >[!NOTE]
         >
-        > * Names must begin with a letter (A-Z). It can only contain alpha-numeric characters and  `_`, `.`, `-` characters. 
+        > * Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
         > 
         > * Except for the **Reply to (forward email)**, email addresses domain must use the current selected sub-domain.
 
