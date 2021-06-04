@@ -29,7 +29,7 @@ To create a message preset, follow these steps:
 
     >[!NOTE]
     >
-    > * Names must begin with a letter (A-Z). It can only contain alpha-numeric characters and  `_`, `.`, `-` characters. 
+    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters and  `_` `.` `-` characters. 
 
 1. Configure **email** settings.
 
@@ -57,7 +57,7 @@ To create a message preset, follow these steps:
 
      ![](../assets/preset-push.png)
    
-    * Select at least one platform: iOS and/or Android
+    * Select at least one platform: **iOS** and/or **Android**
     
     * Select the mobile applications to use for each platform. 
         
@@ -69,7 +69,7 @@ To create a message preset, follow these steps:
 
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around 48h-72h, and can take up to 7-10 days.
+    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 days**.
 
     These checks include deliverability tests that are performed by Adobe deliverability team:
 
