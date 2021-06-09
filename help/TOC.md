@@ -202,6 +202,7 @@ hide: yes
       + [Change email primary address](using/configuration/primary-email-addresses.md) 
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
+    + [Integrating with external systems](using/configuration/external-systems.md)
     + Event configuration {#events-journeys}
       + [General principle](using/event/about-events.md)
       + Configure a unitary event {#unitary-events}  
