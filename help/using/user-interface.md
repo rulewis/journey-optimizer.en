@@ -88,22 +88,30 @@ Your default interface language is determined by the preferred language specifie
 
 To change your language:
 
-* Click **Edit Preferences** from your avatar, on the top right.
-* Then click **Visit Adobe Account** to access your Adobe profile.
-* Select the **Notifications** tab on the top and click **Preferences**.
-* Select your preferred language and click **Save**.
+* Click **Preferences** from your avatar, on the top right.
+    ![](assets/preferences.png)
+* Then click the language displayed under your email address
+* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your forst language.
+    ![](assets/select-language.png)
 
->[!NOTE]
->
->You need to sign out and sign in again to [!DNL Journey Optimizer] to apply changes.
+## Search
 
-## Search and filter{#section_lgm_hpz_pgb}
+Use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages accross your sandboxes. Start entering content to display top results.
 
-In the most of the lists, a search bar allows you to search for an item.
+![](assets/unified-search.png)
 
-The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
+Press **Enter** to access all results and filter. 
 
-In the journey list, in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can choose to display only journeys which use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**). The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](building-journeys/using-the-journey-designer.md).
+![](assets/search-and-filter.png)
+
+
+## Filter lists{#section_lgm_hpz_pgb}
+
+In most of the lists, a search bar allows you to search for a specific item and select filtering criteria.
+
+Filters can be accessed by clicking on the filter icon on the top left of the list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days. Options differ depending on the context.
+
+In the list of journeys, you can filter journeys according to their status and version  from the **[!UICONTROL Status and version filters]**. You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -111,7 +119,7 @@ In the journey list, in addition to the **[!UICONTROL Creation filters]**, you c
 
 Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 In the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
