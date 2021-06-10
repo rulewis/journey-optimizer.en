@@ -1,23 +1,17 @@
 ---
-title: Content branding
-description: Learn how xxxx
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
+title: Create message presets
+description: Learn how to configure and monitor message presets
 ---
 
 # Create message presets
 
-With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification messages (email type, sender email and name, mobile apps, etc.).
+With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more.
 
-You can set up as many message presets as desired according, depending on the different brands you need to communicate for.
+>[!CAUTION]
+>
+> Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
+>
+
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
@@ -29,42 +23,67 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-create.png)
 
-1. Provide a name and a description (optional) for the preset, then specify the channel(s) that you want to configure.
+
+1. Enter a name and a description (optional) for the preset, then select the channel(s) to configure.
 
     ![](../assets/preset-general.png)
 
-1. Configure the email and push notification settings:
 
-    For the email channel, specify:
+    >[!NOTE]
+    >
+    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
 
-    * The type of communications that will be sent with the preset (transactional or marketing messages),
-    * The [subdomain](about-subdomain-delegation.md) to use to send the emails,
-    * The [IP pool](ip-pools.md) to associate with the preset,
-    * The header parameters to use for the emails sent using the preset.
+1. Configure **email** settings.
 
     ![](../assets/preset-email.png)
 
-    For the push notification channel, specify the IOS and/or Android mobile applications to use for your messages. For more on how to configure your environment to send push notifications, refer to [this section](../push-configuration.md).
+    * Select the type of message that will be sent with the preset: **Transactional** or **Marketing**
 
-    ![](../assets/preset-push.png)
+        >[!CAUTION]
+        >
+        > **Transactional** messages can be sent to profiles who unsubscribed from marketing communications. These messages can only be sent in specific contexts, such as password reset, order status, delivery notification for example.
+        >
+    
+    * Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
+    * Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
+    * Enter the header parameters for the emails sent using the preset. 
+
+        >[!NOTE]
+        >
+        > * Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
+        > 
+        > * Except for the **Reply to (forward email)**, email addresses domain must use the current selected sub-domain.
+
+
+1. Configure **push notification** settings.
+
+     ![](../assets/preset-push.png)
+   
+    * Select at least one platform: **iOS** and/or **Android**
+    
+    * Select the mobile applications to use for each platform. 
+        
+      For more on how to configure your environment to send push notifications, refer to [this section](../push-gs.md).
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 
     ![](../assets/preset-submit.png)
-
+    
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around 48h-72h, and can take up to 7-10 days.
+    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 days**.
 
     These checks include deliverability tests that are performed by Adobe deliverability team:
 
-    * SPF validation,
-    * DKIM validation,
-    * MX record validation,
-    * Check IPs blacklisting,
-    * Helo host check,
-    * IP pool verification,
-    * A/PTR record, t/m/res subdomain verification.
+
+    * SPF validation
+    * DKIM validation
+    * MX record validation
+    * Check IPs denylisting
+    * Helo host check
+    * IP pool verification
+    * A/PTR record, t/m/res subdomain verification
+
 
 1. Once the checks are successfull, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
@@ -104,4 +123,5 @@ To edit a message preset, you first need to de-activate it to make it unavailabl
 
     >[!NOTE]
     >
-    >De-activated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
+    >Deactivated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
+

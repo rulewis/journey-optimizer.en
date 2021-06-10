@@ -1,66 +1,64 @@
 ---
 title: Get started with push configuration
 description: Understand push notification data flow and components
-hide: yes
-hidefromtoc: yes
 ---
-# Get started with push configuration {#get-started-push}
+# Push notification configuration {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
-Push notifications serve as a quick communication channel enabling you to convey messages, offers, or other information to your mobile app users. Typically, the end user must opt-in to receive push notifications; opt-in usually takes place during the install process and end users are provided with a way to manage notifications if they change their minds later on. An important advantage of push notifications in mobile computing is that the technology does not require specific applications on a mobile device to be open in order for a message to be received. This allows a smartphone to receive and display notifications even when the device's screen is locked and the mobile app is in the background or closed.
+Push notifications help you reach your mobile app users at any time - especially when they are not actively using your app. Push notifications may help you achieve a variety of use cases such as providing updates about your service, ask a user to take action, alert the user to a new deal, etc. Device platforms require opt-in before end-users may receive or view your notifications. User opt-in may be received as early as after the app is launched for the first time post-install or in a subsequent session or workflow as appropriate. [!DNL Journey Optimizer] supports push notifications and helps you send highly relevant notifications at industry-leading throughput rates. Push notifications may include personalization and Journey-based context in order to leverage data insights your brand has with Adobe Experience Cloud.
 
-**[!DNL Adobe Journey Optimizer]**  allows you to send time-sensitive, relevant, and personalized push messages on a large-scale. A segment of customer profiles can be targeted to receive rich push notifications on their iOS and Android mobile devices. These segments can be created on the basis of past or live user experience events, user record data, or a combination of user interactions and data. Once a journey is live, you can view detailed reports on how many messages were sent, failed for what reason and also push tracking information like how many users clicked on them.
+This page will help you setup and understand key services & workflows involved with push notifications in [!DNL Journey Optimizer].
 
-This document will walk you through a basic push notifications end-to-end data flow using [!DNL Journey Optimizer] and a user flow diagram to explain how each role fulfills its responsibilities and collaborates to bring the push data flow together.
+## Set Push Notifications with Adobe Journey Optimizer
 
+To send push notifications with Adobe Journey Optimizer, you'll need to complete the following steps:
 
-## Components and Services involved
+1. Follow documentation to get setup with [Adobe Journey Optimizer & Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) in your app.
+1. Create [preset for the push messaging channel](configuration/message-presets.md)
 
-* **Cloud Messaging Providers** are third-party services that enable us to deliver notifications from remote servers to mobile apps.
-    
-    [!DNL Adobe Journey Optimizer]  supports both Android and iOS platforms and deal with two primary cloud messaging services:
-    * Firebase Cloud Messaging (FCM) - to send notifications to Android mobile app
-    * Apple Push Notification Service (APNs) - to send notifications to iOS mobile app
+## Push Notifications and Adobe Journey Optimizer
 
-* **Mobile App Integrated with Adobe Mobile SDK** which helps integrate your mobile apps with Adobe Experience Cloud Solutions. Mobile SDK is comprised of various Experience Cloud solution extensions to provide features specific to the service they represent. These extensions expose various APIs to enable data flow like registering the push token or sending push tracking events or any other custom experience events to Adobe Experience Platform.
-
-* **Adobe Launch** (or Data Collection) is the next generation of mobile SDK management capabilities which enables data flow from Mobile SDK to [!DNL Adobe Experience Platform]. It provides capabilities to register extensions, create rules and data elements to send data from your mobile app to the Adobe Experience Cloud solutions. With respect to the push notifications data flow, the primary configurations required in Adobe Launch are:
-
-    * Creating a datastream to configure the profile and experience event datasets against which the data flows into experience platform.
-    * Creating a client-side mobile property and adding extensions. Mobile SDK closely integrates with these extensions to provide a seamless data collection experience.
-    * Registering the mobile app bundle identifier and app credentials that would help to uniquely identify and validate sanity of the app at the time of delivering push notification.
-
-* **Real-time Customer Profile** is the component in Adobe Experience Platform that allows you to see a holistic view of each individual customer by combining data from multiple channels, including web, mobile, CRM, and third party. Profile allows you to consolidate your customer data into a unified view offering an actionable, timestamped account of every customer interaction. Static data that identifies the user of the mobile app such as a push token, is stored against the user's profile as record data while the interactions the user does with push notifications are tracked as time-series events data.
-
-* **[!DNL Adobe Journey Optimizer]** : once your mobile app integrations with above mentioned components are in place and your customer profiles are available as Real-time customer profiles, you can take advantage of powerful audience segmentation capabilities in [!DNL Adobe Journey Optimizer]  to ensure the optimal experience for each person.
-
-
-## Push Data Flow
-
-This diagram shows a basic push messaging data flow and gives a peek at the various Adobe products and components involved in the flow.
+The following pictorial shows the systems and services involved with associated data flows highlighting how push notifications are delivered from an end-to-end service standpoint.
 
 ![](assets/push-flow.png)
 
+1. Registration of your branded mobile app (Android or iOS) with Apple's APNs and Google FCM push messaging messaging services
+1. Messaging services generate a push token, which, is an identifier that Adobe Journey Optimizer will use to target the specific device with a push notification.
+1. The previously generated push token is passed to Adobe Experience Platform and synchronized with the Real-time Customer Profile; this is done OOTB with an easy to integrate client SDK
+1. Push messages are authored in Adobe Journey Optimizer, push messages are created against a message preset
+1. Push messages may be included on the orchestration canvas in Journeys
+1. Upon Journey publication, customer profiles based on Journey conditions are qualified to receive push notifications, push messaging payloads are personalized at this step
+1. Personalized push payloads are forwarded to an internal push messaging delivery service
+1. This internal service then validates the credentials of the app associated with the message, and
+1. Sends the message to Apple & Google messaging services for final delivery
+1. Feedback from messaging services are noted, errors and successes are logged for reporting in Journey Live & Global reports
+1. Push notifications are delivered to end-user devices
+1. End-user push notification interactions are send in as Experience Events from the end-user client via SDK integration
 
-1. The customer develops a mobile app on Android or iOS that they would release to their users. In order to use the push capability provided by push providers i.e APNS by Apple and FCM by Google, the mobile app registers itself and enables the push capability.
-1. The push providers generate and send a push token to the mobile app. A Push Token is an identifier that senders use to target specific devices with a push notification.
-1. The mobile app is integrated with Adobe Mobile SDK which exposes various extensions and APIs. The Messaging extension exposes an API to register the push token into Adobe Experience Platform against customer's profile.
-1. Once the mobile app is ready, it is configured in **[!DNL Journey Launch]**  `>` **App Configurations** along with the credentials.
-The marketer now authors a push notification in **[!DNL Adone Journey Optimizer]**  `>` **Messages** against the mobile app registered. 
-1. The marketer orchestrates a customer journey defining the flow of events and actions. To send a push notification at a stage of the journey, the marketer adds an action of type 'Message' and associates it with the message authored in the previous step. 
-1. Whenever a customer profile qualifies to receive the push notification for any reason say on trigger of an event or on qualification of a segment, the message is personalized against the profile, if applicable.
-1. The personalized push message is sent for further processing to the Push delivery service.
-1. The Push delivery service validates the credentials of the app associated with the message.
-1. The message is sent to the push providers for delivery to the mobile app against the specific push token and credentials.
-1. The push providers send a feedback suggesting whether the message was successfully delivered to the provider or not. In case not, the relevant error message is part of the feedback. This feedback is sent to Adobe reporting for the customer to view in their Journey [Live](reports/live-report.md) and [Global Reports](reports/global-report.md).
-1. In the meantime, the push providers asynchronously deliver the successful push notification to the mobile app.
-1. As the customer interacts with the notification, the impressions such as click/open can then be tracked as **Experience Events**. The Messaging extension exposes APIs to send tracking events into Adobe Experience Platform against customer's profile.
+## Roles of Key Services in Push Notifications
 
-## Push user flow
+* **Push notification service providers** are the core component web services that deliver notifications from remote servers to mobile apps.
+    
+    [!DNL Adobe Journey Optimizer]  supports both Android and iOS platforms and consequently integrate with following:
+    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - to send notifications to Android mobile app
+    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - to send notifications to iOS mobile app
 
-This diagram shows the various steps involved in configuring the components that form the skeleton of push data flow. The action items have been categorized based on the role performing the configuration and the component being configured. As you can see, before beginning to send push notifications with **[!DNL Adobe Journey Optimizer]** , you need to ensure configurations and integrations are in place on the mobile app, **[!DNL Adobe Launch]**  and **[!DNL Adobe Experience Platform]**.
+* **Adobe Experience Platform Mobile SDK** which provides client-side integration APIs for your mobiles via Android and iOS compatible SDKs. The SDK provides an Adobe Journey Optimizer extension exposing a variety of APIs specific for push messaging and enable data flow like registering the push token or sending push tracking events or any other custom experience events to Adobe Experience Platform. The SDK also provides a variety of other extensions that enable other Adobe Experience Cloud as well as 3rd party partner capabilities.
+
+    SDK integration also requires setup of Adobe Experience Platform [Data Collection](https://experienceleague.adobe.com/docs/launch/using/home.html) services such as:
+
+    * Creating a datastream to configure the profile and experience event datasets against which the data flows into Adobe Experience Platform
+    * Creating client-side mobile property and adding extensions. The SDK closely integrates with these extensions to provide a seamless data collection experience.
+    * Registering the mobile app bundle identifier and app credentials
+
+* **Adobe Experience Platform Real-time Customer Profile**  maintains a holistic view of each individual customer by combining data from multiple channels, including web, mobile, CRM, and third party. Profile allows you to consolidate your customer data into a unified view offering an actionable, timestamped account of every customer interaction. The push token for a given app user is stored against the user's profile as record data while the interactions the user does with push notifications are tracked as time-series events data. [Learn more about Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+
+* **[!DNL Adobe Journey Optimizer]** : once your mobile app integrations with above mentioned components are in place and your customer profiles in Adobe Experience Platform, you may author and orchestrate push notifications in Adobe Journey Optimizer to engage with your users.
+
+## Push Technical Setup and Practitioner Workflows
+
+The following pictorial shows the various steps, end-to-end, involved in configuring the components that form the skeleton of push data flow. The action items have been categorized based on the role performing the configuration and the component being configured. 
 
 ![](assets/user-flow.png)
 
-Detailed steps to configure push channel and enable push notifications in [!DNL Journey Optimizer] are available in [this page](push-configuration.md).

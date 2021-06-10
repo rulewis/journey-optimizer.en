@@ -1,23 +1,16 @@
 ---
 title: Delegate subdomains
 description: Learn how to delegate your subdomains
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
 internal: n
 snippet: y
 ---
 
-# Get started with subdomain delegation
+# Subdomain delegation in [!DNL Journey Optimizer]
 
-## Isolate your brands to protect your reputation
+Creating a subdomain for email campaigns allows brands to isolate varying types of traffic (marketing vs. corporate for example) into specific IP pools and with specific domains, which will speed the IP warming process and improve deliverability overall. If you share a domain and it gets blocked or added to the deny list, it could impact your corporate mail delivery. However, reputation issues or blocks on a domain specific to your email marketing communications will impact just that flow of email. Using your main domain as the sender or ‘From’ address for multiple mail streams could also break email authentication, causing your messages to be blocked or placed in the spam folder.
 
-A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
+A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic - for example transactional messages and marketing communications.
+
 Let's take the example of the "mybrand.com" domain, that is used to send both transactional and marketing communications. In this situation, you can decide to set up two subdomains:
 
 * "info.mybrand.com" subdomain for your transactional communications (purchases confirmation, password reset, etc.),
@@ -25,16 +18,12 @@ Let's take the example of the "mybrand.com" domain, that is used to send both tr
 
 By doing so, you will help preserve the reputation of your domain and other subdomains. For example, if the "marketing.mybrand.com" subdomains ended up being added to the block list by Internet Service Providers due to bad deliverability, this would prevent the whole "mybrand.com" domain and the "info.mybrand.com" subdomain from being added to the block list.
 
-## Keep your resources URLs transparent to customers
-
 When implementing a solution, there are requirements for externally-facing components: these include setting up links and web pages to be tracked, displaying mirror pages, etc.
 
-While these requirements are being managed through components hosted by both Adobe and the customer, they include URLs which can be seen by the recipients of the emails. To avoid having URLs which indicate the underlying technical solution or hosting provider, subdomains can be set up to make this transparent to the recipients of the emails. [Learn more about Domain Delegation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+While these requirements are being managed through components hosted by both Adobe and the customer, they include URLs which can be seen by the recipients of the emails. To avoid having URLs which indicate the underlying technical solution or hosting provider, subdomains can be set up to make this transparent to the recipients of the emails.
 
-## Subdomain delegation in Journey Optimizer
+**Learn more**
 
-Journey Optimizer provides several features to help you manage subdomains:
-
-* [Delegate your subdomains](delegate-subdomain.md) directly from the interface,
-* [Add Google TXT records](google-txt.md) to your subdomains to ensure the successfull delivery of emails to Gmail addresses,
-* [Access the PTR records](ptr-records.md) generated for your subdomains, allowing them to be verified by sending mail servers.
+* Learn how to [delegate your subdomains](delegate-subdomain.md) directly from the interface
+* Learn how to [add Google TXT records](google-txt.md) to your subdomains to ensure the successfull delivery of emails to Gmail addresses
+* Learn how to [access the PTR records](ptr-records.md) generated for your subdomains, allowing them to be verified by sending mail servers

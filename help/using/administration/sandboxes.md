@@ -40,14 +40,22 @@ To assign sandboxes:
 1. In the [!DNL Admin Console], from the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Apps]** product.
 
 1. Select a **[!UICONTROL Product profile]**.
+    
+    ![](../assets/sandbox_1.png)
 
 1. Select the **[!UICONTROL Permissions]** tab.
 
-1. Select the **[!UICONTROL Sandbox access]** capability.
+1. Select the **[!UICONTROL Sandboxes]** capability.
+
+    ![](../assets/sandbox_2.png)
 
 1. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. [Learn more about sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
+    ![](../assets/sandbox_3.png)
+
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove sandboxes access to your **[!UICONTROL Product profile]**.
+
+    ![](../assets/sandbox_4.png)
 
 1. Click **[!UICONTROL Save]**.
 

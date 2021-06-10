@@ -6,6 +6,10 @@ description: Learn how to use data from the global report
 
 ![](../assets/do-not-localize/badge.png)
 
+>[!NOTE]
+>
+> If custom queries are made through APIs when using Query service, please expect some delay for your reports.
+
 The **[!UICONTROL Global report]** allows you to measure the effectiveness of your journeys and deliveries over a selected time period.
 
 * If you want to target a journey or deliveries in a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL Global report]** icon. You can then find the Journey, Email and Push **[!UICONTROL Global report]**.

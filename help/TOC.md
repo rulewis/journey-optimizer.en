@@ -186,9 +186,8 @@ hide: yes
   + Configure messages {#configuration}
     + [Technical settings](using/administration/administration.md)
     + [Create message presets](using/configuration/message-presets.md)
-    + Push notifications configuration{#push-config}
-      + [Get started with push notifications](using/push-gs.md)
-      + [Configure push channel](using/push-configuration.md)
+    + [Configure push channel](using/push-configuration.md)
+    + [Push notification configuration](using/push-gs.md)
     + Email configuration {#email-config}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
