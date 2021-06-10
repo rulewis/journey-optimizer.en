@@ -59,7 +59,8 @@ hide: yes
     + [General principle](using/building-journeys/journey.md)
     + [Limitations](using/building-journeys/limitations.md)
     + [Journey versions](using/building-journeys/journey-versions.md)
-    + [Test profiles](using/building-journeys/creating-test-profiles.md)   
+    + [Test profiles](using/building-journeys/creating-test-profiles.md)  
+    + [Integrate with Intelligent Services](ai-services-overview.md) 
   + Create a journey{#create-journey}
     + [Get started with journeys](using/building-journeys/journey-gs.md)
     + [Design your journey](using/building-journeys/using-the-journey-designer.md)
