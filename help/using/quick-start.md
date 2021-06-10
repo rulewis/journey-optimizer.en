@@ -18,11 +18,19 @@ Before starting using [!DNL Adobe Journey Optimizer], you need to:
 
 * **Set user permissions**: log in to [!DNL Adobe Journey Optimizer] and give access to your team members. [Read more](../using/administration/permissions.md)
 
-* **Configure your channels**: define your email and push notification settings. [Read more](../using/configuration/message-presets.md)
+* **Configure your channels**: define your email and push notification settings. [Read more](../using/configuration/get-started-configuration.md)
 
 * **Define your presets**: create your presets and configure your branding parameters. [Read more](../using/configuration/message-presets.md)
 
-* **Identify data and create schema and dataset**: get your data into Adobe Experience Platform, create an identity namespace and a dataset enabled for profiles, create segments and test profiles. [Read more](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
+* **Identify data and create schema and dataset**: get your data into Adobe Experience Platform, create an identity namespace and a dataset enabled for profiles, create segments and test profiles.
+
+    * Learn how to preview and create a dataset in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)
+
+    * Learn how to create an identity namespace in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces)
+
+    * Learn how to create test profiles in [this page](../using/building-journeys/creating-test-profiles.md)
+    
+    * Learn more about data ingestion in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
 
 ### Usage flow
@@ -33,7 +41,9 @@ Refer to the following sections to set up your first journey and send messages:
 
 * **Upload assets**: use Adobe Experience Manager Assets Essentials to manage assets and images. [Read more](assets-essentials.md)
 
-<!--* **Define audience**: create segments, create events, manage consent and privacy. [Read more](audiences.md)-->
+* **Add offers**: Use Journey Optimizer Decision Management to add personalized offers in your messages. [Read more](../using/offers/get-started/starting-offer-decisioning.md)
+
+* **Define audience**: create segments, create events, manage consent and privacy. [Read more](../using/segment/about-segments.md)
 
 * **Create journeys**: send messages, leverage contextual data, refine audiences, design and execute multi-step use case. [Read more](building-journeys/journey.md)
 
