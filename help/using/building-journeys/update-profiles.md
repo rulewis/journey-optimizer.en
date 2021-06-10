@@ -43,7 +43,7 @@ For more information on the how to turn an existing profile into a test profile,
 
    >[!NOTE]
    >
-   >Only profiles are updated with this action. Datasets are not actually updated. The dataset selection is needed as the profile is a record related to a dataset.
+   >The **Update profile** action updates the profile data in realtime, but it does not update datasets. The dataset selection is needed as the profile is a record related to a dataset.
 
 1. Click on the **Value** field to define the value you want to use:
 
