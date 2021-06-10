@@ -50,7 +50,6 @@ Two options are available. You can:
 
 Once added, the media displays on the right of the notification body.
 
-
 ## Add buttons 
 
 You can create an actionable notification by adding buttons to your push content. 
@@ -59,13 +58,15 @@ If the device screen is locked, these buttons are not displayed: only the the **
 
 In the iOS version, you can add up to 4 buttons. In the Android version, you can add up to 3 buttons.
 
-Click **[!UICONTROL Add button]** to define settings: the label and associated action. Possible actions are the same as for [on-click behavior](#on-click-behavior). 
-
-
 >[!NOTE]
 >
 >For iOS, use the **[!UICONTROL iOS category]** field to associate actions with a notification category.
 
+Click **[!UICONTROL Add button]** to define settings: the label and associated action. Possible actions are the same as for [on-click behavior](#on-click-behavior). 
+
+Click **[!UICONTROL Expand view]** to preview your personalized buttons.
+
+![](assets/push_buttons.png)
 
 ## Send a silent notification
 
@@ -95,7 +96,6 @@ You can configure **[!UICONTROL Advanced options]** for your push notification. 
 |**[!UICONTROL Notification visibility]** (Android only) | Defines the push notification's visibility. <br/><b>private</b> will show the notification on all lockscreens, but conceal sensitive or private information on secure lockscreens. <br/><b>Public</b> will show the notification in its entirety on all lockscreens. <br/><b>Secret</b> will not reveal any part of the notification on a secure lockscreen. <br/>For more on this, refer the [Android developer documentation](https://developer.android.com/reference/android/app/Notification).|
 |**[!UICONTROL Notification priority]** (Android only) | Defines the push notification's importance from Low to Max. This determines how "intrusive" the push notification will be when it is delivered. For more on this, refer to the [Android developer documentation](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)|
 |**[!UICONTROL Delivery priority]** (Android only) | Sets up a high or normal priority for your push notifications. For more information on message priority, refer to the [Google developer documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).|
-
 
 **Related topics**
 

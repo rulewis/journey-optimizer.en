@@ -62,7 +62,9 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_26.png)
 
-1. Click **[!UICONTROL Preview]** to check your email rendering. You can choose the desktop or mobile view.
+1. Click **[!UICONTROL Show preview]** to check your email rendering. You can choose the desktop or mobile view.
+
+    For more information on how preview your email, refer to [Preview and test your messages](preview.md).
 
     ![](assets/email_designer_8.png)
 
