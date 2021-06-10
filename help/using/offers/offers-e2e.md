@@ -1,4 +1,4 @@
----
+* ---
 title: Use personalized offers in an email
 description: Learn how to add personalized offers to your messages
 ---
@@ -8,18 +8,20 @@ description: Learn how to add personalized offers to your messages
 
 In this exercise you’ll improve your newsletter email message with personalized offers based on a decision you previously created.
 
-This is an end-to-end example to show how to configure offers and use them in a email.
+This is an end-to-end example to show how to configure offers and use the relevant offers in a email.
 
 ## Main steps
+
+The key steps to configure offers, include them in a decision and leverage this decision in an email are listed below:
 
 1. Before creating offers, define your components:
     
     * Create placements
     * Create decision rules
-    * Create tags (optional?)
-    * Create rankings(?)
+    * Create tags
+    * Create rankings (optional)
 
-    Learn more in [this section](#define-components)
+    [!DNL :bulb:] Learn more in [this section](#define-components)
 
 1. Configure the offers
 
@@ -30,15 +32,15 @@ This is an end-to-end example to show how to configure offers and use them in a 
         * Add a rule for each offer
         * Define a priority for each offer
 
-        Learn more in [this section]()
+        [!DNL :bulb:] Learn more in [this section](#configure-offers)
 
 1. Create a fallback offer
 
-    Learn more in [this section]()
+    [!DNL :bulb:] Learn more in [this section](#create-fallback)
 
 1. Create a collection to include the offers you just created
 
-    Learn more in [this section]()
+    [!DNL :bulb:] Learn more in [this section](#create-collection)
 
 1. Configure the decision:
 
@@ -47,7 +49,7 @@ This is an end-to-end example to show how to configure offers and use them in a 
     * For each placement, select the collection
     * Select the fallback
 
-    Learn more in [this section]()
+    [!DNL :bulb:] Learn more in [this section](#configure-decision)
 
 1. Insert the decision in an email
 
@@ -55,38 +57,69 @@ This is an end-to-end example to show how to configure offers and use them in a 
     * Select the decision from the items compatible with the selected placement 
     * Preview your offers
 
-    Learn more in [this section]()
+    [!DNL :bulb:] Learn more in [this section](#insert-decision-in-email)
+
+The overall Decision Management process can be described as follows:
+
+![](assets/.png)
 
 ## Define the components {#define-components}
 
-To create an offer decision, follow the main steps below:
+Before starting to create offers, you must define several components that you will use in your offers.
 
-1. Start by creating **placements** for your offers. You will then use these placements to define where the resulting offer will appear when defining your offer decision. Learn more on placements in [this section](). In this example, create three placements:
+You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
 
-    * *Web - Image* placement
-    * *Email - Image* placement
-    * *Non-digital - Text* placement
+1. Start by creating **placements** for your offers.
 
-1. Create **decision rules**, that will provide the best offer to a profile in the Adobe Experience Platform. Let's configure two simple rules by using the **[!UICONTROL XDM Individual Profile > Person > Gender]** attribute:
+    You will use these placements to define where the resulting offer will appear when defining your offer decision.
 
-    * *Male Customers*
+    In this example, create three placements with the following channel and content types:
+
+    * *Web - Image*
+    * *Email - Image*
+    * *Non-digital - Text*
+
+    ![](../assets/offers-e2e-placements.png)
+
+    The detailed steps to create placements are described in [this section]().
+
+1. Create **decision rules**.
+
+    Decision rules will provide the best offer to a profile in the Adobe Experience Platform.
+    
+    Configure two simple rules by using the **[!UICONTROL XDM Individual Profile > Person > Gender]** attribute:
+
     * *Female Customers*
+    * *Male Customers*
 
-    Learn more on rules in [this section]().
+    ![](../assets/offers-e2e-rules.png)
 
-1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can create a [**ranking formula**](../../using/offers/offer-library/create-ranking-formulas.md#about-ranking-formulas).
+    The detailed steps to create rules are described in [this section]().
 
-    Learn how to create a ranking formula in [this section](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula).
+1. You can also create a **tag**.
 
-1. You can also create a **tag**. You will then be able to associate it to your offers and use this tag to group your offers together into a collection.
+    You will then be able to associate it to your offers and use this tag to group your offers together into a collection.
 
     In this example, create the *Yoga* tag.
 
-    Learn how to create tags in [this section](../../using/offers/offer-library/creating-tags.md).
+    ![](../assets/offers-e2e-tag.png)
 
-## Configure offers
+    The detailed steps to create tags are described in [this section](../../using/offers/offer-library/creating-tags.md).
 
-1. Create an offer.
+1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can create a [**ranking formula**](../../using/offers/offer-library/create-ranking-formulas.md#about-ranking-formulas).
+
+    The detailed steps to create ranking formulas are described in [this section](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula).
+
+    >[!NOTE]
+    >
+    >In this example, we will only use the priority scores. Learn more on [eligibility rules and constraints](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+
+
+## Configure offers {#configure-offers}
+
+You can now create and configure your offers. In this example, you will create four offers corresponding to the four offers you want to display according to each profile and priority(?).
+
+1. Create an offer. Learn more in [this section](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. In this offer, create three representations (combinations of a placement that you created earlier and an asset):
 
@@ -94,33 +127,61 @@ To create an offer decision, follow the main steps below:
     * One corresponding to the *Email - Image* placement
     * One corresponding to the *Non-digital - Text* placement
 
-1. Select an appropriate image for the first two placements and enter custom text for the last placement. Learn more on representations in [this section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+    Learn more on representations in [this section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
-1. In the Offer eligiblity section, select By defined decision rule and click the + icon to add the rule Female Customers.
+    >[!NOTE]
+    >
+    >An offer can be displayed at different places in a message to create more opportunities to use the offer in different placement contexts.
 
-1. Fill out the priority.
+1. Select an appropriate image for the first two placements. Enter custom text for the *Non-digital - Text* placement.
 
-1. Click Save and approve.
+    ![](../assets/offers-e2e-representations.png)
+
+1. In the **[!UICONTROL Offer eligiblity]** section, select **[!UICONTROL By defined decision rule]** and drag and drop the rule of your choice.
+
+    ![](../assets/offers-e2e-eligibility.png)
+
+1. Fill out the priority. In this example, add *25*.
+
+1. Review your offer, then click **[!UICONTROL Save and approve]**.
+
+    ![](../assets/offers-e2e-review.png)
 
 1. Create three more offers with the same representations but with different assets. Assign them one of the two rules and define a different priority for each one.
 
-## Create a fallback offer
+The detailed steps to create and configure offers are described in [this section]().
 
-## Create a collection
+## Create a fallback offer {#create-fallback}
+
+Create a fallback offer with the same representations as for the offers, with appropriate assets.
+
+![](../assets/offers-e2e-fallback.png)
+
+The detailed steps to create and configure a fallback offer are described in [this section]().
+
+## Create a collection {#create-collection}
 
 1. To speed up the decision process, create a collection.
 
 1. Select the four Personalized Offers you created in the previous exercises. You can use the tag you created earlier.
 
-## Configure the decision
+The detailed steps to create and configure a collection are described in [this section]().
 
-1. Create your decision: select the Placements Web - Image, Email - Image and Non-digital - Text by clicking the + icon on the Placement. For each placement, add the collection you just created. Select the fallback offer that you created.
+## Configure the decision {#configure-decision}
+
+To create and configure an offer decision, follow the main steps below:
+
+1. Create your decision.
+
+1. Select the Placements Web - Image, Email - Image and Non-digital - Text by clicking the + icon on the Placement.
+
+1. For each placement, add the collection you just created. Select the fallback offer that you created.
 
 1. Save and activate.
 
 You’ve now successfully configured your Decision. Your Decision is now live, and can be used to deliver optimized and personalized offers to your customers, in real-time.
 
-## Insert the decision in an email
+## Insert the decision in an email {#insert-decision-in-email}
 
 To insert a decision into an email message, follow the steps below:
 
@@ -171,7 +232,7 @@ To insert a decision into an email message, follow the steps below:
 
 1. To choose the namespace to use to identify test profiles, select **[!UICONTROL Email]** from the **[!UICONTROL Identity namespace]** field.
 
-    ![](assets/deliver-offer-identity-namespace.png)
+    ![](assets/deliver-offer-identity-namespace.png)****
 
     >[!NOTE]
     >

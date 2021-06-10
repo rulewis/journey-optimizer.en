@@ -24,17 +24,19 @@ To insert a decision into an email message, follow the steps below:
 
 1. Create your email, then open the Email Designer to configure its content.
 
-1. Add an **[!UICONTROL Offer decision]** content component (see [Use content components](content-components.md)).
+1. Add an **[!UICONTROL Offer decision]** content component.
 
     ![](assets/deliver-offer-component.png)
 
-1. An **[!UICONTROL Offer decision]** tab is added to the component. Click **[!UICONTROL Add personalization - Offer decision]** to add an offer activity.
+    Learn how to use content components in [this section](content-components.md).
+
+1. The **[!UICONTROL Offer decision]** tab displays in the right palette. Click **[!UICONTROL Select Offer decision]**.
 
     ![](assets/deliver-offer-tab.png)
 
 1. Select the placement corresponding to the offers that you want to display.
 
-    Placements are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
+    [Placements](../../using/offers/offer-library/creating-placements.md) are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
 
 1. Select the offer activity to use in the content component, then click **[!UICONTROL Add]**.
 
@@ -47,3 +49,9 @@ To insert a decision into an email message, follow the steps below:
 1. The offer activity is now added to the component. You can preview the different offers that are part of the decision using the **[!UICONTROL Offers]** section or the content components arrows.
 
     ![](assets/deliver-offer-preview.png)
+
+1. You can also display the different offers that are part of the decision with a customer profile using the **[!UICONTROL Preview]** button.
+
+    Learn more on the detailed steps to [check the message preview](#preview-your-messages).
+    
+For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](../../using/offers/offers-e2e.md#insert-decision-in-email/gi).
