@@ -14,13 +14,13 @@ Based on your organization, you can define several types of users and grant them
 
 ### Prerequisites {#cjm-prerequisites}
 
-Before starting using Adobe Journey Optimizer, you need to:
+Before starting using [!DNL Adobe Journey Optimizer], you need to:
 
-* **Set user permissions**: log in to Journey Optimizer and give access to your team members. [Read more](../using/administration/permissions.md)
+* **Set user permissions**: log in to [!DNL Adobe Journey Optimizer] and give access to your team members. [Read more](../using/administration/permissions.md)
 
-* **Configure your channels and presets**: work with Adobe to define email and push notification settings and create your presets. [Read more](../using/configuration/message-presets.md)
+* **Configure your channels**: define your email and push notification settings. [Read more](../using/configuration/message-presets.md)
 
-* **Define your presets**: work with Adobe to define email and push notification settings and create your presets. [Read more](../using/configuration/message-presets.md)
+* **Define your presets**: create your presets and configure your branding parameters. [Read more](../using/configuration/message-presets.md)
 
 * **Identify data and create schema and dataset**: get your data into Adobe Experience Platform, create an identity namespace and a dataset enabled for profiles, create segments and test profiles. [Read more](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
