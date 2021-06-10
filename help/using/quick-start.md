@@ -8,7 +8,7 @@ description: Journey Optimizer Quick Start
 
 ## Key steps to start {#cjm-key-steps}
 
-With Journey Optimizer, you can import existing content and design new content, personalize messages with customer profile data, create events to trigger messages, define segments and refine audiences, send multi-channel messages, and access a complete set of reporing and monitoring tools to measure the impact of your messages and journeys.
+With [!DNL Adobe Journey Optimizer], you can import existing message content or design a new content, personalize messages with customer profile data, create events to trigger messages, define segments and refine audiences, send multi-channel messages, create and add offers, and access a complete set of reporting and monitoring tools to measure the impact of your messages and customer journeys.
 
 Based on your organization, you can define several types of users and grant them access to certain capabilities depending on their permissions.
 
@@ -16,9 +16,11 @@ Based on your organization, you can define several types of users and grant them
 
 Before starting using Adobe Journey Optimizer, you need to:
 
-* **Define user permissions**: log in to Journey Optimizer and give access to your team members. [Read more](../using/administration/permissions.md)
+* **Set user permissions**: log in to Journey Optimizer and give access to your team members. [Read more](../using/administration/permissions.md)
 
 * **Configure your channels and presets**: work with Adobe to define email and push notification settings and create your presets. [Read more](../using/configuration/message-presets.md)
+
+* **Define your presets**: work with Adobe to define email and push notification settings and create your presets. [Read more](../using/configuration/message-presets.md)
 
 * **Identify data and create schema and dataset**: get your data into Adobe Experience Platform, create an identity namespace and a dataset enabled for profiles, create segments and test profiles. [Read more](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
