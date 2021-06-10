@@ -1,11 +1,17 @@
-# customer-journey-management.en
+# journey-optimizer.en
 
 Journey Optimizer product documentation
 
-Journey Optimizer documentation including the following features:
+Adobe Journey Optimizer is an agile and scalable application for creating and delivering personalized, connected, and timely
+customer experiences across any app, device, or channel.
 
+Topics:
+
+* Get started
+* Messages
+* Segments
 * Journeys
-* Messages, Content
-* Offers 
-* Admin
-
+* Reporting
+* Offer Decisioning / Decision management
+* Configuration guidelines
+* Access control

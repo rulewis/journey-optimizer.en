@@ -15,7 +15,6 @@ hide: yes
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
-  + [Manage permissions](using/permissions.md)
   + [Known issues](using/known-issues.md)
 + Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
@@ -59,7 +58,8 @@ hide: yes
     + [General principle](using/building-journeys/journey.md)
     + [Limitations](using/building-journeys/limitations.md)
     + [Journey versions](using/building-journeys/journey-versions.md)
-    + [Test profiles](using/building-journeys/creating-test-profiles.md)   
+    + [Test profiles](using/building-journeys/creating-test-profiles.md)  
+    + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Create a journey{#create-journey}
     + [Get started with journeys](using/building-journeys/journey-gs.md)
     + [Design your journey](using/building-journeys/using-the-journey-designer.md)
@@ -202,6 +202,7 @@ hide: yes
       + [Change email primary address](using/configuration/primary-email-addresses.md) 
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
+    + [Integrate with external systems](using/configuration/external-systems.md)
     + Event configuration {#events-journeys}
       + [General principle](using/event/about-events.md)
       + Configure a unitary event {#unitary-events}  
