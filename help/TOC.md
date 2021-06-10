@@ -15,7 +15,6 @@ hide: yes
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
-  + [Manage permissions](using/permissions.md)
   + [Known issues](using/known-issues.md)
 + Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
