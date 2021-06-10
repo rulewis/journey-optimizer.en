@@ -60,7 +60,7 @@ hide: yes
     + [Limitations](using/building-journeys/limitations.md)
     + [Journey versions](using/building-journeys/journey-versions.md)
     + [Test profiles](using/building-journeys/creating-test-profiles.md)  
-    + [Integrate with Intelligent Services](ai-services-overview.md) 
+    + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
   + Create a journey{#create-journey}
     + [Get started with journeys](using/building-journeys/journey-gs.md)
     + [Design your journey](using/building-journeys/using-the-journey-designer.md)
