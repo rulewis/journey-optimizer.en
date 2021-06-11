@@ -21,7 +21,7 @@ Your deliveries' data will be available in the **[!UICONTROL Live report]** as s
 
 Each reporting dashboard can be modified by resizing or removing widgets. Changing the widgets only impacts the current user's dashboard. Other users will see their own dashboards or the ones set by default. 
 
-1. From your live report, click **[!UICONTROL Modify dashboard]**.
+1. From your live report, click **[!UICONTROL Modify]**.
 
     ![](../assets/report_modify_1.png)
 
