@@ -29,7 +29,7 @@ Use [Test profiles](building-journeys/creating-test-profiles.md) to target addit
 
 To select test profiles, follow the steps below: 
 
-1. In the message interface or in the email designer, click the **[!UICONTROL Preview]** button to access the test profile selection.
+1. In the message interface or in the email designer, click the **[!UICONTROL Show preview]** button to access the test profile selection.
 
     ![](assets/email-preview-button.png)
 

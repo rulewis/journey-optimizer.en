@@ -26,7 +26,7 @@ Each reporting dashboard can be modified by resizing or removing widgets or chan
 
     ![](../assets/global_report_6.png)
 
-1. click **[!UICONTROL Modify dashboard]**.
+1. click **[!UICONTROL Modify]**.
 
     ![](../assets/global_report_8.png)
 
