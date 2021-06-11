@@ -2,7 +2,7 @@
 title: Get started with push configuration
 description: Understand push notification data flow and components
 ---
-# Get started with push configuration {#get-started-push}
+# Push notification configuration {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -61,5 +61,3 @@ The following pictorial shows the systems and services involved with associated 
 The following pictorial shows the various steps, end-to-end, involved in configuring the components that form the skeleton of push data flow. The action items have been categorized based on the role performing the configuration and the component being configured. 
 
 ![](assets/user-flow.png)
-
-Detailed steps to configure push channel and enable push notifications in [!DNL Journey Optimizer] are available in [this page](push-configuration.md).

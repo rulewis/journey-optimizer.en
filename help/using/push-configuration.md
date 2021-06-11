@@ -1,6 +1,8 @@
 ---
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
+hide: yes
+hidefromtoc: yes
 ---
 # Configure Push notification channel {#push-notification-configuration}
 

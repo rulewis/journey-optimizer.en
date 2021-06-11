@@ -63,7 +63,7 @@ To create a message preset, follow these steps:
     
     * Select the mobile applications to use for each platform. 
         
-      For more on how to configure your environment to send push notifications, refer to [this section](../push-configuration.md).
+      For more on how to configure your environment to send push notifications, refer to [this section](../push-gs.md).
 
 1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the message preset as draft and resume its configuration later on.
 

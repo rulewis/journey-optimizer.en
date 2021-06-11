@@ -88,22 +88,30 @@ Your default interface language is determined by the preferred language specifie
 
 To change your language:
 
-* Click **Edit Preferences** from your avatar, on the top right.
-* Then click **Visit Adobe Account** to access your Adobe profile.
-* Select the **Notifications** tab on the top and click **Preferences**.
-* Select your preferred language and click **Save**.
+* Click **Preferences** from your avatar, on the top right.
+    ![](assets/preferences.png)
+* Then click the language displayed under your email address
+* Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your forst language.
+    ![](assets/select-language.png)
 
->[!NOTE]
->
->You need to sign out and sign in again to [!DNL Journey Optimizer] to apply changes.
+## Search
 
-## Search and filter{#section_lgm_hpz_pgb}
+Use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages accross your sandboxes. Start entering content to display top results.
 
-In the most of the lists, a search bar allows you to search for an item.
+![](assets/unified-search.png)
 
-The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
+Press **Enter** to access all results and filter. 
 
-In the journey list, in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can choose to display only journeys which use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**). The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](building-journeys/using-the-journey-designer.md).
+![](assets/search-and-filter.png)
+
+
+## Filter lists{#section_lgm_hpz_pgb}
+
+In most of the lists, a search bar allows you to search for a specific item and select filtering criteria.
+
+Filters can be accessed by clicking on the filter icon on the top left of the list. The filter menu allows you to filter the displayed elements according to different criteria. You can choose to display only elements of a certain type or status, the ones you created, or the ones modified in the last 30 days. Options differ depending on the context.
+
+In the list of journeys, you can filter journeys according to their status and version  from the **[!UICONTROL Status and version filters]**. You can choose to display only journeys which use a specific event, field group or action from the **[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**. The **[!UICONTROL Publication filters]** let you select a publication date or a user. You can choose, for example, to display the latest versions of live journeys that were published yesterday. [Learn more](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -111,7 +119,7 @@ In the journey list, in addition to the **[!UICONTROL Creation filters]**, you c
 
 Use the **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns to check when happened the last update of your journeys and who saved it.
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 In the Event, Data source and Action configuration panes, the **[!UICONTROL Used in]** field displays the number of journeys that use that particular event, field group or action. You can click the **[!UICONTROL View journeys]** button to display the list of corresponding journeys.
 
@@ -134,59 +142,3 @@ If a friendly name is available, then the field will be displayed as `<friendly
 >[!NOTE]
 >
 >Friendly names are not retrieved when you select fields from a union of schemas.
-
-## Accessibility{#cjm-accessibility}
-
-Here are the different shortcuts available in the [!DNL Journey Optimizer]'s interface.
-
-_In the list of journeys, actions, data sources or events:_
-
-* Press **c** to create a new journey, action, data source or event.
-
-_When configuring an activity in a journey:_
-
-The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
-
-* Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **[!UICONTROL Cancel]** button.
-* Press **Enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **[!UICONTROL Ok]** button.
-* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
-
-_In pop-ups:_
-
-* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
-* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
-
-_In the event, data source or action configuration pane:_
-
-* Press **escape** to close the configuration pane without saving.
-* Press **Enter** to save modifications and close the configuration pane.
-* Press **tab** to jump between the different fields to configure.
-
-_In the simple expression editor_
-
-* Double-click on a field, on the left, to add a query (equivalent to drag & drop).
-
-_When browsing through XDM fields:_
-
-* Checking a "node" will select all the fields of the node.
-
-_In all text areas:_
-
-* Use the **Ctrl/Command + A** key combination to select the text. In the payload preview, it selects the payload.
-
-_In a screen with a search bar:_
-
-* Use the **Ctrl/Command + F** key combination to select the search bar.
-
-_In the canvas of a journey:_
-
-* Use the **Ctrl/Command + A** key combination to select all activities.
-* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
-* Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
-
-_In a journey:_
-
-* Press **T** to enable/disable the test mode.
-* In an event-based journey in test mode, press **E** to trigger an event.
-* In a segment-based journey, when the **Single profile at a time** option is selected in test mode, press **P** to trigger an event.
-* In test mode, press **L** to display the logs.
