@@ -63,7 +63,7 @@ Here are the first steps to configure a new event:
 
 The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. For more information on XDM, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
-1. Select an XDM schema from the list and click on the **[!UICONTROL Payload]** field or on the **[!UICONTROL Edit]** icon.
+1. Select an XDM schema from the list and click on the **[!UICONTROL Fields]** field or on the **[!UICONTROL Edit]** icon.
 
     ![](../assets/journey8.png)
 
@@ -83,7 +83,7 @@ The payload definition allows you to choose the information the system expects t
 
 1. When you're done selecting the needed fields, click **[!UICONTROL Ok]** or press **[!UICONTROL Enter]**.
 
-    The number of selected fields appears in the **[!UICONTROL Payload]** field.
+    The number of selected fields appears in the **[!UICONTROL Fields]** field.
 
     ![](../assets/journey12.png)
 
