@@ -2,7 +2,7 @@
 title: Push notifications global report
 description: Learn how to use data from the push notifications global report
 ---
-# Push global report {#push-global-report}
+# Push Global report {#push-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 

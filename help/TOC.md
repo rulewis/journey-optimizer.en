@@ -86,15 +86,15 @@ hide: yes
   + [Message tracking](using/message-tracking.md)
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
-    + [Overview](using/reports/live-report.md)
-    + [Journey live report](using/reports/journey-live-report.md)
-    + [Email live report](using/reports/email-live-report.md)
-    + [Push live report](using/reports/push-live-report.md)
+    + [Access Live report dashboard](using/reports/live-report.md)
+    + [Journey Live report](using/reports/journey-live-report.md)
+    + [Email Live report](using/reports/email-live-report.md)
+    + [Push Live report](using/reports/push-live-report.md)
   + Global report {#global-report}
-    + [Overview](using/reports/global-report.md)
-    + [Journey global report](using/reports/journey-global-report.md)
-    + [Email global report](using/reports/email-global-report.md)
-    + [Push global report](using/reports/push-global-report.md)
+    + [Access Global report dashboard](using/reports/global-report.md)
+    + [Journey Global report](using/reports/journey-global-report.md)
+    + [Email Global report](using/reports/email-global-report.md)
+    + [Push Global report](using/reports/push-global-report.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
     + [Journey fields](using/reports/sharing-journey-fields.md)

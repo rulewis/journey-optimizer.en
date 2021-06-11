@@ -2,7 +2,7 @@
 title: Journey global report
 description: Learn how to use data from the journey global report
 ---
-# Journey global report {#journey-global-report}
+# Journey Global report {#journey-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
