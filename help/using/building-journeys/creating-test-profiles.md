@@ -36,7 +36,7 @@ First, you need to **create a schema**. Follow these steps:
 1. In the list of fields, click on the field that you want to define as the primary identity.
     ![](../assets/test-profiles-3.png)
 1. In the **[!UICONTROL Field properties]** right panel, check the ****[!UICONTROL Identity]** and ****[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **Email** namespace. Click **Apply**.
-    ![](../assets/test-profiles-4.png)
+    ![](../assets/test-profiles-4bis.png)
 1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]**.
     ![](../assets/test-profiles-5.png) 
 1. Click **Save**.
