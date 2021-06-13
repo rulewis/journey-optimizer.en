@@ -6,11 +6,11 @@ description: Learn how to leverage Adobe Analytics data
 
 ![](../assets/do-not-localize/badge.png)
 
+You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers.
+
 >[!NOTE]
 >
 >This section only applies for rule-based events and customers who need to use Adobe Analytics data.
-
-You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers.
 
 For this to work, you need to activate, in Adobe Experience Platform, the report suite that you want to leverage:
 
@@ -24,4 +24,4 @@ This enables the Analytics source connector for that report suite. Whenever the 
 
 ![](../assets/jo-event9.png)
 
-For more information on the Adobe Analytics source connector, refer to the [documentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Learn more about Adobe Analytics source connector in  [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).

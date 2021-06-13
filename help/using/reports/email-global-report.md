@@ -2,7 +2,7 @@
 title: Email global report
 description: Learn how to use data from the email global report
 ---
-# Email global report {#email-global-report}
+# Email Global report {#email-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 

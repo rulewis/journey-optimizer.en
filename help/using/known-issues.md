@@ -1,6 +1,8 @@
 ---
 title: Known Issues
 description: Known issues
+hide: yes
+hidefromtoc: yes
 ---
 # Known issues {#known-issues}
 
