@@ -186,7 +186,7 @@ hide: yes
   + Configure messages {#configuration}
     + [Technical settings](using/administration/administration.md)
     + [Create message presets](using/configuration/message-presets.md)
-    + [Push notification configuration]{#push-config}
+    + Push notification configuration{#push-config}
       + [Get started with push configuration](using/push-gs.md)
       + [Configure push notification channel](using/push-configuration.md)
     + Email configuration {#email-config}
