@@ -147,7 +147,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 1. Click **[!UICONTROL Save]** to create your app configuration.
 
 
-### Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
+## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
 
 Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs attributes such as Session Timeouts, the [!DNL Adobe Experience Platform] sandbox to be targeted and the **[!UICONTROL Adobe Experience Platform Datasets]** to be used for mobile SDK to send data to.
 
