@@ -4,6 +4,8 @@ title: Journey Optimizer product documentation
 ---
 # Help Center {#cjm-documentation}
 
+![](using/assets/do-not-localize/banner-cjm.png) 
+
 ## What's new?
 
 * [Access control](using/administration/permissions-overview.md) </br> Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
