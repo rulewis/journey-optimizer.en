@@ -26,7 +26,7 @@ title: Journey Optimizer product documentation
 
 * [Design an email content](using/design-emails.md) </br>Design a new email or import an existing HTML content
 
-* [Send messages](using/building-journeys/journey.md) </br> Learn how to add push and email messages in your customer journeys
+* [Send messages](using/building-journeys/journeys-message.md) </br> Learn how to add push and email messages in your customer journeys
 
 * [Create your first journey](using/building-journeys/journeys-uc.md) </br>Learn how to build and execute a journey
 
