@@ -10,7 +10,7 @@ This section presents an end-to-end example to show how to configure offers and 
 
 The key steps to configure offers, include them in a decision and leverage this decision in an email are listed below:
 
-1. Before creating offers, define your components:
+1. Before creating offers, define your components
     
     * Create placements
     * Create decision rules
@@ -38,11 +38,12 @@ The key steps to configure offers, include them in a decision and leverage this 
 
     [!DNL :bulb:] Learn more in [this section](#create-collection)
 
-1. Configure the decision:
+1. Configure the decision
 
     * Create a decision
     * Select the placements you created
     * For each placement, select the collection
+    * For each placement, select a ranking (optional)
     * Select the fallback
 
     [!DNL :bulb:] Learn more in [this section](#configure-decision)
