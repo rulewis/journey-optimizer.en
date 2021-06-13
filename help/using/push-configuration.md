@@ -1,12 +1,8 @@
 ---
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
-hide: yes
-hidefromtoc: yes
 ---
 # Configure Push notification channel {#push-notification-configuration}
-
-![](assets/do-not-localize/badge.png)
 
 Before starting sending push notifications with [!DNL Journey Optimizer], you need to define settings in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. 
 
