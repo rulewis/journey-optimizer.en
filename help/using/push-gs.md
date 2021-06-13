@@ -2,7 +2,7 @@
 title: Get started with push configuration
 description: Understand push notification data flow and components
 ---
-# Push notification configuration {#get-started-push}
+# Get started with push configuration {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
