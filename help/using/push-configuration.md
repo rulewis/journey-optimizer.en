@@ -23,13 +23,13 @@ Before creating a mobile application, you first need to make sure that you have 
 
 **Permissions in Adobe Journey Optimizer**
 
-    You need to have the correct permissions to be able to configure push configurations in [!DNL Adobe Journey Optimizer].
+You need to have the correct permissions to be able to configure push configurations in [!DNL Adobe Journey Optimizer].
 
-    Minimal permissions are:
+Minimal permissions are:
 
-    ... LIST PERMISSIONS ...
+... LIST PERMISSIONS ...
 
-    Learn more about access control in [!DNL Adobe Journey Optimizer] in [this section](administration/permissions-overview.md).
+Learn more about access control in [!DNL Adobe Journey Optimizer] in [this section](administration/permissions-overview.md).
 
 **Permissions in Adobe Experience Platform**
 
@@ -107,8 +107,8 @@ The technical setup involves close collaboration between the app developer and b
 
 Follow implementation steps detailed in the links below:
 
-* Apple iOS: Learn how to register your app with APNs in [Apple Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)
-* Google Android: Learn how to setup up a Firebase Cloud Messaging client app on Android in [Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client)
+* For **Apple iOS**: Learn how to register your app with APNs in [Apple Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)
+* For **Google Android**: Learn how to setup up a Firebase Cloud Messaging client app on Android in [Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client)
 
 ## Step 1: Add your app push credentials in Adobe Experience Platform Launch {#push-credentials-launch}
 
@@ -124,34 +124,36 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. From the **[!UICONTROL Messaging Service Type]** drop-down menu, select the **[!UICONTROL Messaging service type]** to be used for these credentials.
 
-    1. **For Android**
+    * **For Android**
 
         ![](assets/add-app-config-android.png)
 
-        Provide the **[!UICONTROL App ID (Android package name)]**: usually the package name is the app id in your `build.gradle` file.
+        1. Provide the **[!UICONTROL App ID (Android package name)]**: usually the package name is the app id in your `build.gradle` file.
 
-        Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+        1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk).
     
-    1. **For iOS**
+    * **For iOS**
 
         ![](assets/add-app-config-ios.png)
 
-        Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
+        1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
         
-        Drag and drop the **Apple Push Notification Authentication Key** for your Apple developer account. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
+        1. Drag and drop the **Apple Push Notification Authentication Key** for your Apple developer account. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
 
-        Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
+        1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
         
-        Provide the **Team ID**. This is a string value which can be found under the Membership tab.
+        1. Provide the **Team ID**. This is a string value which can be found under the Membership tab.
 
 1. Click **[!UICONTROL Save]** to create your app configuration.
-
 
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
 
 Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs attributes such as Session Timeouts, the [!DNL Adobe Experience Platform] sandbox to be targeted and the **[!UICONTROL Adobe Experience Platform Datasets]** to be used for mobile SDK to send data to.
 
 For further details and procedures on how to set up a **[!UICONTROL Platform Launch property]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+
+
+... ARE DETAILS BELOW STILL NEEDED ? ....
 
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
@@ -167,9 +169,11 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 The **Adobe Journey Optimizer** extension for Adobe Experience Platform Mobile SDKs  powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
 
+... LINK TO BETA DOC BELOW TO REPLACE  BY PUBLIC DOC OR LIST ALL STEPS IN THIS PAGE....
+
+
 Learn how to create **[!UICONTROL Edge configuration]**in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer).
 
-... LINK TO BETA DOC TO REPLACE....
 
 
 <!-- 
