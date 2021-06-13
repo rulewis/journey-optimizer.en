@@ -204,6 +204,10 @@ To create and configure an offer decision, follow the main steps below:
 
     ![](../assets/offers-e2e-decision-collection.png)
 
+1. If you defined a ranking when [building your components](#define-components), you can assign it to a placement in the decision. If mutiple offers are eligible to be presented in this placement, the decision will use this formula to calculate which offer to deliver first.
+
+    The detailed steps to assign a ranking formula to a placement are described in [this section](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
+
 1. Select the fallback offer that you created. It will be displayed as an available fallback offer for the three selected placements.
 
     ![](../assets/offers-e2e-decision-fallback.png)
@@ -232,77 +236,31 @@ Now that your decision is live, you can insert it into an email message. To do s
 
     ![](../assets/offers-e2e-select-offer-decision.png)
 
-1. Select the placement corresponding to the offers that you want to display.
+1. Select the placement corresponding to the offers that you want to display from the **[!UICONTROL Placements]** dropdown list.
 
-    In this case, from the one that you created, only the **Email - Image** placement is available as you want to use the decision in an email.
-
-    >[!NOTE]
-    >
-    >    Placements are containers that are used to showcase your offers. In this example, select **Email - Image** from the **[!UICONTROL Placements]** dropdown menu. This placement has been created in the Offer Library to display image-type offers in emails. Learn more on [creating placements](../../using/offers/offer-library/creating-placements.md).
+    In this case, from the placements that you created earlier as part of this example, only the **Email - Image** placement is available as you want to use the decision in an email. Learn more on [creating placements](../../using/offers/offer-library/creating-placements.md).
 
     ![](../assets/offers-e2e-select-placement-in-decision.png)
 
-    Decisions matching the the "email image" placement are displayed.
+1. Decisions matching the **Email - Image** placement are displayed. Select the decision to use in the content component, then click **[!UICONTROL Add]**.
 
     ![](../assets/offers-e2e-matching-placement-in-decision.png)
 
     >[!NOTE]
     >
     >Only decisions that are compatible with the selected placement display in the list.
-    
-1. Select the decision to use in the content component, then click **[!UICONTROL Add]**.
 
-    ![](assets/deliver-offer-placement.png)
+You can now see all personalized offers and the fallback offer being visualized in the Email Designer.
 
-1. You can now see all personalized offers and the fallback offer being visualized in the Email Designer.
+![](../assets/offers-e2e-offers-displayed.png)
 
-    ![](assets/deliver-offer-offers-displayed.png)
-
-1. Use the **[!UICONTROL Offers]** section or the content components arrows (right and left arrows) to browse data.
-
-    ![](assets/deliver-offer-preview.png)
-
-1. To display the different offers that are part of the decision with a customer profile, click **[!UICONTROL Preview]**.
-
-    ![](assets/deliver-offer-preview-button.png)
-
-    >[!NOTE]
-    >
-    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](create-test-profile.md).
-
-1. To choose the namespace to use to identify test profiles, select **[!UICONTROL Email]** from the **[!UICONTROL Identity namespace]** field.
-
-    ![](assets/deliver-offer-identity-namespace.png)
-
-    >[!NOTE]
-    >
-    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
-
-1. In the list of identity namespaces, select **[!UICONTROL Email]**. Click **[!UICONTROL Select]**.
-
-    ![](assets/deliver-offer-identity-namespace-email.png)
-
-1. In the **[!UICONTROL Identity value]** field, enter the value to identify the test profile. In this example, enter the email address of a test profile.
-
-    For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.
-
-    Add other profiles so that you can test different variants of the message depending on the profile data.
-
-    ![](assets/deliver-offer-test-profiles.png)
-
-1. Click the **[!UICONTROL Preview]** tab to test your message.
-
-1. Select a test profile. You can check the values available in the columns.
-
-    ![](assets/deliver-offer-test-profiles-preview.png)
-
-1. Select other test profiles to preview the email content for each variant of your message.
-
-    In the message content, the offer corresponding to the selected test profile is displayed.
-
-    The detailed steps to check the message preview are described in [this section](#preview-your-messages).
+Use the **[!UICONTROL Offers]** section or the content components arrows (right and left arrows) to browse data. You can also display the different offers that are part of the decision with a customer profile. Learn more in [this section](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 After saving your changes and once the message is published, your offers are ready to be displayed to the relevant profiles when sending the message as part of a journey.
+
+**Related topics:**
+
+* Learn how to check the message preview in [this section](#preview-your-messages).
 
 * Learn how to publish messages in [this section](publish-manage-message.md).
 
