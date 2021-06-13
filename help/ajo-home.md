@@ -4,11 +4,6 @@ title: Journey Optimizer product documentation
 ---
 # Help Center {#cjm-documentation}
 
-![](using/assets/do-not-localize/banner-cjm.png) 
-
-![](using/assets/do-not-localize/badge.png) 
-**[!DNL Journey Optimizer]** is currently in **Beta version** and subject to frequent changes without notice. As a user, share your experience from the Beta Feedback button in the product UI. Known issues are listed in this [page](using/known-issues.md).
-
 ## What's new?
 
 * [Access control](using/administration/permissions-overview.md) </br> Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
