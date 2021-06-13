@@ -55,9 +55,9 @@ The key steps to configure offers, include them in a decision and leverage this 
 
     [!DNL :bulb:] Learn more in [this section](#insert-decision-in-email)
 
-The overall Decision Management process can be described as follows:
+The overall Decision Management process to use offers in an email can be described as follows:
 
-![](assets/.png)
+![](../assets/offers-e2e-process.png)
 
 ## Define the components {#define-components}
 
