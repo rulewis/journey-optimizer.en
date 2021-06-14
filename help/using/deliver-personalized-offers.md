@@ -18,7 +18,7 @@ For more on how to create and manage offers, refer to [this section](offers/get-
 
 >[!CAUTION]
 >
->You need to first define an offer decision. Learn how to create decisions in [this section](../../using/offers/offer-activities/create-offer-activities.md).
+>You need to first define an offer decision. Learn how to create decisions in [this section](offers/offer-activities/create-offer-activities.md).
 
 To insert a decision into an email message, follow the steps below:
 
@@ -36,7 +36,7 @@ To insert a decision into an email message, follow the steps below:
 
 1. In the window that displays, select the placement corresponding to the offers that you want to display.
 
-    [Placements](../../using/offers/offer-library/creating-placements.md) are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
+    [Placements](offers/offer-library/creating-placements.md) are containers that are used to showcase your offers. In this example, we will use the "email top image" placement. This placement has been created in the Offer Library to display image-type offers situated to the top of messages.
 
 1. Select the offer activity to use in the content component, then click **[!UICONTROL Add]**.
 
@@ -48,7 +48,7 @@ To insert a decision into an email message, follow the steps below:
 
 The offer activity is now added to the component.
     
-For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](../../using/offers/offers-e2e.md#insert-decision-in-email).
+For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
 
 ## Preview offers in an email {#preview-offers-in-email}
 
@@ -66,11 +66,9 @@ You can also display the different offers that are part of the decision with a c
 
     >[!NOTE]
     >
-    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](create-test-profile.md).
+    >You need to have test profiles available to be able to preview your messages. Learn how to [create test profiles](building-journeys/creating-test-profiles.md).
 
 1. To choose the namespace to use to identify test profiles, select **[!UICONTROL Email]** from the **[!UICONTROL Identity namespace]** field.
-
-    ![](assets/deliver-offer-identity-namespace.png)
 
     >[!NOTE]
     >
@@ -78,11 +76,9 @@ You can also display the different offers that are part of the decision with a c
 
 1. In the list of identity namespaces, select **[!UICONTROL Email]**. Click **[!UICONTROL Select]**.
 
-    ![](assets/deliver-offer-identity-namespace-email.png)
-
 1. In the **[!UICONTROL Identity value]** field, enter the value to identify the test profile. In this example, enter the email address of a test profile.
 
-    For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.
+    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
     Add other profiles so that you can test different variants of the message depending on the profile data.
 
@@ -90,12 +86,12 @@ You can also display the different offers that are part of the decision with a c
 
 1. Click the **[!UICONTROL Preview]** tab to test your message.
 
-1. Select a test profile. You can check the values available in the columns.
+1. Select a test profile. The offer corresponding to the selected profile (a woman) is displayed.
 
-    ![](assets/deliver-offer-test-profiles-preview.png)
+    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. Select other test profiles to preview the email content for each variant of your message.
+1. Select other test profiles to preview the email content for each variant of your message. In the message content, the offer corresponding to the selected test profile (now a man) is now displayed.
 
-    In the message content, the offer corresponding to the selected test profile is displayed.
+    ![](assets/deliver-offer-test-profile-male-preview.png)
 
 Learn more on the detailed steps to [check the message preview](#preview-your-messages).

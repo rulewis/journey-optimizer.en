@@ -111,7 +111,6 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
     >
     >In this example, we will only use the priority scores. Learn more on [eligibility rules and constraints](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
-
 ## Configure offers {#configure-offers}
 
 You can now create and configure your offers. In this example, you will create four offers that you want to display according to each specific profile.
@@ -263,7 +262,7 @@ After saving your changes and once the message is published, your offers are rea
 
 * Learn how to check the message preview in [this section](../../using/preview.md#preview-your-messages).
 
-* Learn how to publish messages in [this section](../../publish-manage-message.md).
+* Learn how to publish messages in [this section](../../using/publish-manage-message.md).
 
-* Learn how messages are triggered by one or more journeys in [this section](../../building-journeys/journey.md).
+* Learn how messages are triggered by one or more journeys in [this section](../using/building-journeys/journey.md).
 
