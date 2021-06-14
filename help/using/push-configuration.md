@@ -25,10 +25,6 @@ Before creating a mobile application, you first need to make sure that you have 
 
 You need to have the correct permissions to be able to configure push configurations in [!DNL Adobe Journey Optimizer].
 
-Minimal permissions are:
-
-... LIST PERMISSIONS ...
-
 Learn more about access control in [!DNL Adobe Journey Optimizer] in [this section](administration/permissions-overview.md).
 
 **Permissions in Adobe Experience Platform**
@@ -40,8 +36,6 @@ You need to your have access to perform following roles :
 * Manage Datastreams
 * Manage Client-side Properties
 * Manage App Configurations
-
-... TO CHECK ... NOT CONSISTENT WITH DETAILS BELOW...
 
 For more information on user management with [!DNL Adobe Experience Platform Launch], refer to [Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#experience-cloud-permissions).
 
@@ -153,8 +147,6 @@ Setting up a mobile property allows the mobile app developer or marketer to conf
 For further details and procedures on how to set up a **[!UICONTROL Platform Launch property]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
 
-... ARE DETAILS BELOW STILL NEEDED ? ....
-
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
 * **[!UICONTROL Mobile Core]** (installed automatically)
@@ -169,10 +161,8 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 The **Adobe Journey Optimizer** extension for Adobe Experience Platform Mobile SDKs  powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
 
-... LINK TO BETA DOC BELOW TO REPLACE  BY PUBLIC DOC OR LIST ALL STEPS IN THIS PAGE....
 
-
-Learn how to create **[!UICONTROL Edge configuration]**in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer).
+Learn how to create **[!UICONTROL Edge configuration]** in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer).
 
 
 
@@ -192,10 +182,8 @@ For further details and procedures on how to create **[!UICONTROL Edge configura
 1. Fill in the **[!UICONTROL Sandbox]**, **[!UICONTROL Event dataset]** and **[!UICONTROL Profile Dataset]** fields. Then, click **[!UICONTROL Save]**.
     
     ![](assets/push-config-4.png)
--->
 
 
-<!--
 
 1. From [!DNL Adobe Experience Platform Launch], ensure that **[!UICONTROL Client Side]** is selected in the drop-down menu.
 
@@ -227,15 +215,13 @@ To configure **[!UICONTROL Adobe Experience Platform Messaging]** extension to s
 -->
 
 
-... ARE STEPS 4 & 5 NO LONGER REQUIRED ?.....
-
-### Step 4: Publish the Property {#publish-property}
+## Step 4: Publish the Property {#publish-property}
 
 You now need to publish the property to integrate your configuration and to use it in the mobile app. 
 
 To publish your property, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)
 
-### Step 5: Configure the ProfileDataSource {#configure-profiledatasource}
+## Step 5: Configure the ProfileDataSource {#configure-profiledatasource}
 
 To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Adobe Experience Platform] setup and add the following in the mobile app:
 
@@ -246,8 +232,6 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 
 ### Test your mobile app with custom action {#mobile-app-test}
-
-... DOES THIS SECTION STILL APPLY? ... 
 
 After configuring your mobile app in both Adobe Experience Platform and Adobe Launch, you can now test it before sending push notifications to your profiles. In this use case, we will create a journey to target our mobile app and set a custom action which will trigger the push notification.
 
@@ -346,7 +330,7 @@ Your **[!UICONTROL Event schema]** is now created and can now be used in a journ
 Your event will be triggered and you will receive your push notification to your mobile app.
 
 ![](assets/test_push_14.png)
--->
+
 
 ## Step 6: Create a message preset {#message-preset}
 
