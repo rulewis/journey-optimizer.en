@@ -3,6 +3,9 @@ cloud: Experience Cloud
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/journey-optimizer.en
 hide: yes
+product: Journey Optimizer
+solution: Journey Optimizer
+solution-title: Journey Optimizer Documentation
 ---
 
 # Metadata for internal use
