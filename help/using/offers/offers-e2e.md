@@ -224,7 +224,7 @@ The detailed steps to create and configure a decision are described in [this sec
 
 Now that your decision is live, you can insert it into an email message. To do so, follow the steps below:
 
-1. Create your email, then open the [Email Designer](design-emails.md) to configure its content.
+1. Create your email, then open the [Email Designer](../../using/design-emails.md) to configure its content.
 
 1. Add a structure component from the left palette.
 
@@ -264,5 +264,5 @@ After saving your changes and once the message is published, your offers are rea
 
 * Learn how to publish messages in [this section](../../using/publish-manage-message.md).
 
-* Learn how messages are triggered by one or more journeys in [this section](../using/building-journeys/journey.md).
+* Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
 
