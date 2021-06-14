@@ -4,8 +4,6 @@ description: Learn about journey activities
 ---
 # About journey activities {#about-journey-activities}
 
-![](../assets/do-not-localize/badge.png)
-
 Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 
 ## Events activities {#event-activities}

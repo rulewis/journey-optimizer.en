@@ -9,8 +9,6 @@ description: Get Started with Journey Optimizer
 >title="Some test Content"
 >abstract="Test Content for contextual help integration into AJO."
 
-![](assets/do-not-localize/badge.png)
-
 ## What is [!DNL Adobe Journey Optimizer]?{#about-cjm}
 
 [!DNL Adobe Journey Optimizer] helps companies deliver connected, contextual, and personalized experiences to their customers. The customer journey is the entire process of a customer’s interactions with the brand, from the first moment of contact until the customer leaves. It starts with the awareness phase, where the customer learns about the brand and starts engaging. The customer will then further interact with the brand, visit online and physical sites, and make purchases, send messages or post reviews.

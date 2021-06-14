@@ -4,8 +4,6 @@ description: Learn about journey versions
 ---
 # Journey versions{#concept_ldc_k55_zgb}
 
-![](../assets/do-not-localize/badge.png)
-
 In the journey list, all journey versions are displayed with the version number. See [this page](../building-journeys/using-the-journey-designer.md). 
 
 When you search for a journey, newest versions appear at the top of the list the first time the application opens. Then, you can define the sorting you want and the application will keep it as a user preference. The journey's version is also displayed at the top of the journey edition interface, above the canvas.

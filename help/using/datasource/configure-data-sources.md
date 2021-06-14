@@ -4,8 +4,6 @@ description: Learn how to configure a data source
 ---
 # Configure a data source {#configure-data-source}
 
-![](../assets/do-not-localize/badge.png)
-
 Here are the main data source configuration steps:
 
 >[!NOTE]

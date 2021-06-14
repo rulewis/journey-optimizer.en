@@ -4,8 +4,6 @@ description: Learn how to design your emails content
 ---
 # Design your email content in the user interface {#create-email-content}
 
-![](assets/do-not-localize/badge.png)
-
 Once you have [created your message](create-message.md), you can start creating your email content.
 
 1. From your newly created message, select **[!UICONTROL Email designer]** in the **[!UICONTROL Edit content]** section.

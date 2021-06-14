@@ -4,8 +4,6 @@ description: Learn about condition activity
 ---
 # Condition activity{#section_e2n_pft_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 Four types of conditions are available:
 
 * [Data Source condition](#data_source_condition) 

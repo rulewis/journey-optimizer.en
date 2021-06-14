@@ -4,8 +4,6 @@ description: Learn how to use data from the journey global report
 ---
 # Journey Global report {#journey-global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 Journey global report can be accessed directly from your journey with the **[!UICONTROL Global report]** button. 
 
 ![](../assets/global_report_1.png)

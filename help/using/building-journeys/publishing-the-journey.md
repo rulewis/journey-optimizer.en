@@ -4,8 +4,6 @@ description: Learn how to publish a journey
 ---
 # Publishing the journey{#concept_mtc_lrt_52b}
 
-![](../assets/do-not-localize/badge.png)
-
 You can publish a journey after testing its validity.
 
 If you need to make modifications to a published journey, you need to create a new version of your journey. See [this page](../building-journeys/journey-versions.md). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.

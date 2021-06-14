@@ -4,8 +4,6 @@ description: Learn how to use data from the global report
 ---
 # Global Report {#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > If custom queries are made through APIs when using Query service, please expect some delay for your reports.

@@ -4,16 +4,14 @@ description: Get Started with personalization
 ---
 # Get started with personalization{#add-personalization}
 
-![](../assets/do-not-localize/badge.png)
+Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about him/her. It can be his first name, his interests, where he lives, what he bought, and more.
 
-Discover Journey Optimier personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about him/her. It can be his first name, his interests, where he lives, what he bought, and more.
-
-Journey Optimizer uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
+[!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
 
 The personalization is based on the profile data that are managed by the **XDM Individual Profile** schema defined in Adobe Experience Platform. For more on this, refer to  [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 >[!CAUTION]
->The **XDM Individual Profile** schema is the only schema you can use to personalize content in Journey Optimizer.
+>The **XDM Individual Profile** schema is the only schema you can use to personalize content in [!DNL Journey Optimizer].
 
 **Examples:**
 

@@ -4,8 +4,6 @@ description: Jumping from one journey to another
 ---
 # Jumping from one journey to another {#jump}
 
-![](../assets/do-not-localize/badge.png)
-
 The **[!UICONTROL Jump]** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
 * simplify the design of very complex journeys by splitting them into several ones  

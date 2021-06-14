@@ -15,8 +15,6 @@ exl-id:
 ---
 # Sandboxes management {#sandboxes}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Use sandboxes {#using-sandbox}
 
 [!DNL Journey Optimizer] allows you to partition your instance into separated virtual environments called sandboxes.

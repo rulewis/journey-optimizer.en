@@ -4,8 +4,6 @@ description: Learn about time zone management
 ---
 # Time zone management {#timezone_management}
 
-![](../assets/do-not-localize/badge.png)
-
 You can define a time zone in the [properties](../building-journeys/journey-gs.md#change-properties) of your journey.
 
 To access Properties,click on the pencil icon in the top-right of the screen.

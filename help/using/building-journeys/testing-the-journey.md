@@ -4,8 +4,6 @@ description: Learn about journey testing
 ---
 # Testing the journey{#testing_the_journey}
 
-![](../assets/do-not-localize/badge.png)
-
 Before being able to test your journey, you must resolve all errors if any. See [this section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.

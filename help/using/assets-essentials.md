@@ -4,8 +4,6 @@ description: Get Started with Assets Essentials
 ---
 # Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
 
-![](assets/do-not-localize/badge.png)
-
 ## Get started with [!DNL Assets Essentials] {#get-started-assets-essentials}
 
 [!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. It can be accessed directly from [!DNL Adobe Journey Optimizer] through the **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content. [Learn more about email design](design-emails.md).

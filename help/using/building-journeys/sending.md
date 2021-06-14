@@ -5,8 +5,6 @@ description: Learn how to start your journey and send messages
 
 # Journey execution {#message-execution}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Test your journey
 
 You can test your journey using test profiles. This step is recommended to validate your settings and messages.

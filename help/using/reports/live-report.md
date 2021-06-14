@@ -4,8 +4,6 @@ description: Learn how to use data from the live report
 ---
 # Get started with Live Report {#live-report}
 
-![](../assets/do-not-localize/badge.png)
-
 Use the **[!UICONTROL Live report]** to measure and visualize in real-time the impact and performances of your journeys and your messages in a built-in dashboard.
 Data are available in the **[!UICONTROL Live report]** as soon as your delivery is sent or your journey is executed. 
 

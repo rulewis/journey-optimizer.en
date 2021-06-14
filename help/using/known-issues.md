@@ -6,8 +6,6 @@ hidefromtoc: yes
 ---
 # Known issues {#known-issues}
 
-![](assets/do-not-localize/badge.png)
-
 This page describes known issues in the product.
 
 This content is subject to changes without prior notice.

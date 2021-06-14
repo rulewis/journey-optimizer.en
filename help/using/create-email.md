@@ -4,8 +4,6 @@ description: Learn how to create an email in Journey Optimizer
 ---
 # Create an email {#configure-email}
 
-![](assets/do-not-localize/badge.png)
-
 Once you [created a message](create-message.md), use the **[!UICONTROL Email]** tab to define the settings and content for the email channel.
 
 ![](assets/emails-configuration.png)

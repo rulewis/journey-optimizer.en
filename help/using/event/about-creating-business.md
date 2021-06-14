@@ -4,8 +4,6 @@ description: Learn how to create a business event
 ---
 # Configure a business event {#configure-a-business-event}
 
-![](../assets/do-not-localize/badge.png)
-
 Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based. Read more on business events in [this section](../event/about-events.md). 
 
 Read segment based journeys can be triggered in one-shot, by a scheduler on a regular basis or by a business event, when the event occurs.

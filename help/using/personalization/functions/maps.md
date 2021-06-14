@@ -4,8 +4,6 @@ description: Functions library
 ---
 # Maps Functions{#maps}
 
-![](../../assets/do-not-localize/badge.png)
-
 [!DNL Profile Query Language] (PQL) offers functions to make interaction with maps easier. 
 
 ## Get{#get}

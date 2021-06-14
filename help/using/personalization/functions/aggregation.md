@@ -4,8 +4,6 @@ description: Functions library
 ---
 # Aggregation Functions {#aggregation}
 
-![](../../assets/do-not-localize/badge.png)
-
 Aggregation functions are used to group together multiple values to form a single summary value.
 
 ## Count{#count}

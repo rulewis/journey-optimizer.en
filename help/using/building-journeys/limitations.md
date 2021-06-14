@@ -4,8 +4,6 @@ description: Learn more about Journey limitations
 ---
 # Limitations {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 Here are limitations related to the use of journeys.
 
 ## Journey list limitations

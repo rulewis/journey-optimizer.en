@@ -4,9 +4,7 @@ description: Learn in which contexts you can add personalization
 ---
 # Personalization context and tool {#personalization-areas}
 
-![](../assets/do-not-localize/badge.png)
-
-The content and display of messages delivered by Journey Optimizer can be personalized in several different ways.
+The content and display of messages delivered by [!DNL Journey Optimizer] can be personalized in several different ways.
 
 All the fields associated with the editor icon can open the personalization editor and receive personalization content.
 
@@ -40,7 +38,7 @@ You can also personalize your **Push notifications** in the following fields:
 
 ![](assets/perso_push.png)
 
-Learn more about Push notification configuration in [this section](../create-push.md).
+Learn more about Push notification configuration in [this section](../push-gs.md).
 
 ## Use the expression editor
 

@@ -4,8 +4,6 @@ description: Journey Optimizer Quick Start
 ---
 # Quick Start {#cjm-quick-start}
 
-![](assets/do-not-localize/badge.png)
-
 ## Key steps to start {#cjm-key-steps}
 
 With [!DNL Adobe Journey Optimizer], you can import existing message content or design a new content, personalize messages with customer profile data, create events to trigger messages, define segments and refine audiences, send multi-channel messages, create and add offers, and access a complete set of reporting and monitoring tools to measure the impact of your messages and customer journeys.

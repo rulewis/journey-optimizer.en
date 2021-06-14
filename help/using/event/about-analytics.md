@@ -2,9 +2,7 @@
 title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
 ---
-# Leveraging Adobe Analytics data{#analytics-data}
-
-![](../assets/do-not-localize/badge.png)
+# Leverage Adobe Analytics data{#analytics-data}
 
 You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers.
 

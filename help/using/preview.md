@@ -4,8 +4,6 @@ description: Learn how to preview and test your messages
 ---
 # Preview and test your messages{#preview-and-proof}
 
-![](assets/do-not-localize/badge.png)
-
 Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data.
 
 To detect possible errors in email content or personalization settings, send proofs to test profiles. A proof should be sent each time a change is made, to validate latest content. 

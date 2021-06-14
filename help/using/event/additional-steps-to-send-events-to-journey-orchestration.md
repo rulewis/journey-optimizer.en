@@ -4,8 +4,6 @@ description: Learn additional steps to send events to a journey
 ---
 # Additional steps to send events {#concept_xrz_n1q_y2b}
 
-![](../assets/do-not-localize/badge.png)
-
 To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in [!DNL Journey Optimizer], you need to follow these steps:
 
 1. Get the inlet URL from Adobe Experience Platform APIs. Learn more in [Streaming Ingestion APIs overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).

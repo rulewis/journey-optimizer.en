@@ -4,8 +4,6 @@ description: journey fields
 ---
 # Journey fields {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
 This mixin is used in the journey schema (in relation with journeyStepEvent). It contains the following fields:
 
 ## journeyID

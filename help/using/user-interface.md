@@ -4,8 +4,6 @@ description: Journey Optimizer User Interface
 ---
 # User interface {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
 This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from your user interface.
 
 ## Workspace {#cjm-workspace}

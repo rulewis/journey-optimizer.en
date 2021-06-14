@@ -4,8 +4,6 @@ description: Learn how to import email content or code your emails
 ---
 # Import or code your email content {#existing-content}
 
-![](assets/do-not-localize/badge.png)
-
 Journey Optimizer allows you to import existing HTML content to design your emails. This content can be raw HTML code or content from an existing HTML file or a zip folder.
 
 To code HTML content or import existing content, follow the steps below:

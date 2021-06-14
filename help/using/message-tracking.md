@@ -4,9 +4,7 @@ description: Learn how to track sent messages
 ---
 # Message tracking {#tracking}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer enables you to track the messages sent and the behavior of your recipients.
+Use [!DNL Journey Optimizer] to track the messages sent and the behavior of your recipients.
 
 You can enable tracking at the message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options. This will let you track the behavior of your recipients through openings and/or clicks on links. [Learn more about creating messages](create-message.md).
 

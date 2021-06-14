@@ -4,8 +4,6 @@ description: Learn about events
 ---
 # About events{#concept_gfj_fqt_52b}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="About events"
