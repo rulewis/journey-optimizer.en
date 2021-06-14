@@ -10,7 +10,9 @@ By default, when several offers are eligible for a given placement in a decision
 
 ![](../../assets/offer-priority.png)
 
-Additionally, Journey Optimizer allows you to create **ranking formulas**. These are formulas that determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores. For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running". 
+Additionally, Journey Optimizer allows you to create **ranking formulas**. These are formulas that determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores.
+
+For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running". 
 
 For more on how to create a ranking formula, refer to [this section](../offer-library/create-ranking-formulas.md).
 
@@ -18,14 +20,18 @@ For more on how to create a ranking formula, refer to [this section](../offer-li
 
 Once a ranking formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
 
-* Create a decision or edit an existing one, then create the placements that will contain your offers (see [Create decisions](../offer-activities/create-offer-activities.md)).
+1. Create a decision or edit an existing one, then create the placements that will contain your offers (see [Create decisions](../offer-activities/create-offer-activities.md)).
 
-* For each placement, select **[!UICONTROL Ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
+1. For each placement, select **[!UICONTROL Ranking]** from the drop-down list.
+
+1. Click **[!UICONTROL Add ranking]**.
 
     ![](../../assets/offer-activity-ranking.png)
 
-* Select the desired ranking formula, then click **[!UICONTROL Select]**.
+1. Select the desired ranking formula, then click **[!UICONTROL Select]**.
 
     ![](../../assets/ranking-selection.png)
 
-The ranking formula is now associated to the placement. If mutiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.
+The ranking formula is now associated to the placement.
+
+If mutiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.

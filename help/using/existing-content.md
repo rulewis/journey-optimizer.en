@@ -46,7 +46,6 @@ Use the **[!UICONTROL Code your own]** mode to can import raw HTML and/or code y
 
     ![](assets/code-editor-save.png)
 
-
 ## Import HTML {#import-html-content-from-file}
 
 You can import HTML content in the email designer. This content can be:

@@ -1,5 +1,5 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer Guide
 user-guide-description: Use Journey Optimizer to deliver connected, contextual, and personalized experiences to customers
@@ -122,6 +122,7 @@ hide: yes
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
+  + [End-to-end example: use offers in an email](using/offers/offers-e2e.md)
   + Create Decision Management reports {create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
