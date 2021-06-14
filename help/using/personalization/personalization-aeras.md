@@ -26,6 +26,11 @@ In the Email designer, you can personalize the content:
 
     ![](assets/perso_link.png)
 
+In both cases, you access the personalization editor.
+
+![](assets/perso_ee.png)
+
+
 ## Personalize push notifications
 
 You can also personalize your **Push notifications** in the following fields:
