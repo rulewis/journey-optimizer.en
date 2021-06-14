@@ -110,15 +110,16 @@ hide: yes
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
     + [Glossary](using/offers/get-started/glossary.md)
-  + Create and manage offers {#managing-offers-in-the-offer-library}
-    + [Key steps to create an offer](using/offers/offer-library/key-steps.md)
+  + Create components {#create-components}
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
+    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+  + Create and manage offers {#managing-offers-in-the-offer-library}
+    + [Key steps to create an offer](using/offers/offer-library/key-steps.md)
     + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)
     + [Create collections](using/offers/offer-library/creating-collections.md)
-    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
