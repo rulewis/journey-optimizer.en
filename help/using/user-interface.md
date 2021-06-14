@@ -4,15 +4,15 @@ description: Journey Optimizer User Interface
 ---
 # User interface {#cjm-user-interface}
 
-This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from your user interface.
-
-## Workspace {#cjm-workspace}
-
 Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse to [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Key concepts when browsing the user interface are detailled in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide).
+>* Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) for more details.
+>
+>* This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
+
+## Left navigation
 
 Use the links on the left to browse capabilities. 
 
@@ -72,9 +72,12 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more about sandboxes in this documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
 
-## Browser and language support 
+
+## Supported browsers
 
 Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+
+## Language preferences
 
 User interface is currently available in the following languages:
 
