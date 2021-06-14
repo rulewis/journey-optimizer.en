@@ -10,16 +10,14 @@ This section presents an end-to-end example to show how to configure offers and 
 
 The key steps to configure offers, include them in a decision and leverage this decision in an email are listed below:
 
-1. Before creating offers, define your components
+1. Before creating offers, [define your components](#define-components)
     
     * Create placements
     * Create decision rules
     * Create tags
     * Create rankings (optional)
 
-    [!DNL :bulb:] Learn more in [this section](#define-components)
-
-1. Configure the offers
+1. [Configure the offers](#configure-offers)
 
     * Create offers
     * For each offer:
@@ -28,17 +26,11 @@ The key steps to configure offers, include them in a decision and leverage this 
         * Add a rule for each offer
         * Define a priority for each offer
 
-        [!DNL :bulb:] Learn more in [this section](#configure-offers)
+1. [Create a fallback offer](#create-fallback)
 
-1. Create a fallback offer
+1. [Create a collection](#create-collection) to include the offers you created
 
-    [!DNL :bulb:] Learn more in [this section](#create-fallback)
-
-1. Create a collection to include the offers you created
-
-    [!DNL :bulb:] Learn more in [this section](#create-collection)
-
-1. Configure the decision
+1. [Configure the decision](#configure-decision)
 
     * Create a decision
     * Select the placements you created
@@ -46,15 +38,11 @@ The key steps to configure offers, include them in a decision and leverage this 
     * For each placement, select a ranking (optional)
     * Select the fallback
 
-    [!DNL :bulb:] Learn more in [this section](#configure-decision)
-
-1. Insert the decision in an email
+1. [Insert the decision in an email](#insert-decision-in-email)
 
     * Select a placement matching the offers you want to display
     * Select the decision from the items compatible with the selected placement 
     * Preview your offers
-
-    [!DNL :bulb:] Learn more in [this section](#insert-decision-in-email)
 
 The overall Decision Management process to use offers in an email can be described as follows:
 
