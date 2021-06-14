@@ -1,6 +1,10 @@
 ---
 title: Create fallback offers
 description: Learn how to create offers in Adobe Experience Platform.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Create fallback offers {#creating-fallback-offers}
 

@@ -1,6 +1,10 @@
 ---
-title: Functions library
-description: Functions library
+title: Maps functions library
+description: Maps functions library
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 # Maps Functions{#maps}
 

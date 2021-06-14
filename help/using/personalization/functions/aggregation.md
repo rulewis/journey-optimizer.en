@@ -1,6 +1,10 @@
 ---
-title: Functions library
-description: Functions library
+title: Aggregation functions library
+description: Aggregation functions library
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 # Aggregation Functions {#aggregation}
 

@@ -2,6 +2,10 @@
 solution: Journey Orchestration
 title: General events
 description: Learn how to use general events
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # General events {#section_ofg_jss_dgb}
 

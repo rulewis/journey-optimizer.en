@@ -1,6 +1,10 @@
 ---
 title: Create a test profile
 description: Learn how to create a test profile
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Create test profiles {#create-test-profiles}
 

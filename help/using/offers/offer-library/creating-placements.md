@@ -1,6 +1,10 @@
 ---
 title: Create placements
 description: Learn how to create placements in Adobe Experience Platform.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Create placements {#creating-placements}
 

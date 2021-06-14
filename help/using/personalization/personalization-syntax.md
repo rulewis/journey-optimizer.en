@@ -1,6 +1,10 @@
 ---
 title: Personalization syntax
 description: Learn how to use personalization syntax
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Intermediate
 ---
 
 # Personalization syntax {#personalization-syntax}

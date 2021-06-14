@@ -1,6 +1,10 @@
 ---
 title: Get started with Decision Management
 description: Get started with Decision Management. Learn more about its architecture, offers and decisions, as well as common use cases it allows you to perform.
+feature: Offers
+topic: Integrations
+role: User
+level: Beginner
 ---
 
 # About Decision Management {#about-offer-decision}

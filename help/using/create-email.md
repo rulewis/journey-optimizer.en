@@ -1,6 +1,10 @@
 ---
 title: Create an email
 description: Learn how to create an email in Journey Optimizer
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
 ---
 # Create an email {#configure-email}
 

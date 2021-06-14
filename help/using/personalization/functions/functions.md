@@ -1,6 +1,10 @@
 ---
 title: Helper functions library
 description: Journey Optimizer Helper functions library
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 
 # Templating language and helper functions {#functionsL}

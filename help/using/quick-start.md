@@ -1,6 +1,10 @@
 ---
 title: Quick Start
 description: Journey Optimizer Quick Start
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
 ---
 # Quick Start {#cjm-quick-start}
 

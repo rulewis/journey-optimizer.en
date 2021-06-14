@@ -1,6 +1,10 @@
 ---
 title: Create personalized offers
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Create a personalized offer
 

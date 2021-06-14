@@ -1,6 +1,10 @@
 ---
 title: Create tags
 description: Learn how to create offers in Adobe Experience Platform.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Create tags {#creating-tags}
 

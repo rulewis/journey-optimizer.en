@@ -1,6 +1,10 @@
 ---
 title: Time zone management
 description: Learn about time zone management
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Time zone management {#timezone_management}
 

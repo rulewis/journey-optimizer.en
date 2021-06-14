@@ -1,6 +1,10 @@
 ---
 title: Preview messages and send proofs
 description: Learn how to preview and test your messages
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Preview and test your messages{#preview-and-proof}
 

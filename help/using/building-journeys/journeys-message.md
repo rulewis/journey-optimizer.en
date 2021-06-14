@@ -1,6 +1,10 @@
 ---
 title: Add a message in a journey
 description: Add a message in a journey
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Add a message in a journey
 

@@ -1,6 +1,10 @@
 ---
 title: journeysteps events common fields
 description: journeysteps events common fields
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # journeysteps events common fields {#sharing-common-fields}
 

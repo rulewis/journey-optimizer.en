@@ -1,6 +1,10 @@
 ---
-title: Functions library
-description: Functions library
+title: Arithmetic functions library
+description: Arithmetic functions library
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 # Arithmetic functions {#maths}
 

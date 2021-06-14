@@ -1,6 +1,6 @@
 ---
 title: PTR records
-description: Learn how to xxxx
+description: "Learn how to manage ptr-records"
 page-status-flag: never-activated
 uuid: 
 contentOwner:
@@ -11,6 +11,10 @@ topic-tags:
 discoiquuid:
 internal: n
 snippet: y
+feature: Application Settings
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 
 # PTR records

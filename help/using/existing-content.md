@@ -1,6 +1,10 @@
 ---
 title: Import or code your emails
 description: Learn how to import email content or code your emails
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Import or code your email content {#existing-content}
 

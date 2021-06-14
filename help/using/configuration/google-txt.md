@@ -11,6 +11,10 @@ topic-tags:
 discoiquuid:
 internal: n
 snippet: y
+feature: Application Settings
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 
 # Add a Google TXT record to a subdomain

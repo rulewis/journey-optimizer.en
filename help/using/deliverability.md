@@ -1,6 +1,10 @@
 ---
 title: Monitoring message execution
 description: Learn monitoring and deliverability guidelines
+feature: Deliverability
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Manage deliverability {#manage-deliverability}
 

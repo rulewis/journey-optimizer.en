@@ -1,6 +1,10 @@
 ---
 title: Global report
 description: Learn how to use data from the global report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Global Report {#global-report}
 

@@ -1,6 +1,10 @@
 ---
 title: Segment qualification events
 description: Learn about segment qualification events
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Segment qualification events {#segment-qualification}
 

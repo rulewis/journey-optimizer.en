@@ -1,6 +1,10 @@
 ---
 title: User Interface
 description: Journey Optimizer User Interface
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # User interface {#cjm-user-interface}
 

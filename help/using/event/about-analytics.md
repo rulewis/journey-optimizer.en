@@ -1,6 +1,10 @@
 ---
 title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
+feature: Events
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Leveraging Adobe Analytics data{#analytics-data}
 

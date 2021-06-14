@@ -1,6 +1,10 @@
 ---
 title: Jumping from one journey to another
 description: Jumping from one journey to another
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Jumping from one journey to another {#jump}
 

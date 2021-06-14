@@ -1,6 +1,10 @@
 ---
 title: Personalization validation
 description: Learn more about personalization validation and how to troubleshoot
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Intermediate
 ---
 
 # Personalization validation {#personalization-validation}

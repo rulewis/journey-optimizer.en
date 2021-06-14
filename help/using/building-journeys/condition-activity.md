@@ -1,6 +1,10 @@
 ---
 title: Condition activity
 description: Learn about condition activity
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Condition activity{#section_e2n_pft_dgb}
 

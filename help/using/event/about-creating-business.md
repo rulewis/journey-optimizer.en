@@ -1,6 +1,10 @@
 ---
 title: Configure a business event
 description: Learn how to create a business event
+feature: Events
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Configure a business event {#configure-a-business-event}
 

@@ -1,6 +1,10 @@
 ---
 title: Use custom actions
 description: Learn how to use custom actions
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Use custom actions {#section_f2c_hbg_nhb}
 
