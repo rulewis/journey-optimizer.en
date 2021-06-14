@@ -2,7 +2,7 @@
 title: Use personalized offers in an email
 description: Discover an end-to-end example showing all the steps needed to configure offers and use them in a email.
 ---
-# Configure personalized offers and use them in an email {#configure-add-personalized-offers-email}
+# Use case: Configure personalized offers and use them in an email {#configure-add-personalized-offers-email}
 
 This section presents an end-to-end example to show how to configure offers and use them in a email, based on a decision you previously created.
 
