@@ -1,8 +1,8 @@
 ---
 title: Use personalized offers in an email
-description: Discover an end-to-end example showing how to configure offers and use them in a email.
+description: Discover an end-to-end example showing all the steps needed to configure offers and use them in a email.
 ---
-# Configure and add personalized offers in an email {#configure-add-personalized-offers-email}
+# Configure personalized offers and use them in an email {#configure-add-personalized-offers-email}
 
 This section presents an end-to-end example to show how to configure offers and use them in a email, based on a decision you previously created.
 
@@ -78,7 +78,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
     ![](../assets/offers-e2e-placements.png)
 
-    The detailed steps to create placements are described in [this section]().
+    The detailed steps to create placements are described in [this section](../../using/offers/offer-library/creating-placements.md).
 
 1. Create **decision rules**.
 
@@ -91,7 +91,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
     ![](../assets/offers-e2e-rules.png)
 
-    The detailed steps to create rules are described in [this section]().
+    The detailed steps to create rules are described in [this section](../../using/offers/offer-library/creating-decision-rules.md).
 
 1. You can also create a **tag**.
 
@@ -153,7 +153,7 @@ You can now create and configure your offers. In this example, you will create f
 
     ![](../assets/offers-e2e-offers-created.png)
 
-The detailed steps to create and configure offers are described in [this section]().
+The detailed steps to create and configure offers are described in [this section](../../using/offers/offer-library/creating-personalized-offers.md).
 
 ## Create a fallback offer {#create-fallback}
 
@@ -175,7 +175,7 @@ Your fallback offer is now ready to be used in a decision.
 
 ![](../assets/offers-e2e-fallback.png)
 
-The detailed steps to create and configure a fallback offer are described in [this section]().
+The detailed steps to create and configure a fallback offer are described in [this section](../../using/offers/offer-library/creating-fallback-offers.md).
 
 ## Create a collection {#create-collection}
 
@@ -185,7 +185,7 @@ The detailed steps to create and configure a fallback offer are described in [th
 
     ![](../assets/offers-e2e-collection-using-tag.png)
 
-The detailed steps to create a collection are described in [this section]().
+The detailed steps to create a collection are described in [this section](../../using/offers/offer-library/creating-collections.md).
 
 ## Configure the decision {#configure-decision}
 
@@ -219,7 +219,7 @@ To create and configure an offer decision, follow the main steps below:
 
 Your decision is now ready to be used to deliver optimized and personalized offers.
 
-The detailed steps to create and configure a decision are described in [this section]().
+The detailed steps to create and configure a decision are described in [this section](../../using/offers/offer-activities/create-offer-activities.md).
 
 ## Insert the decision in an email {#insert-decision-in-email}
 
@@ -229,7 +229,7 @@ Now that your decision is live, you can insert it into an email message. To do s
 
 1. Add a structure component from the left palette.
 
-1. Add an **[!UICONTROL Offer decision]** content component. Learn how to use content components in [this section](content-components.md).
+1. Add an **[!UICONTROL Offer decision]** content component. Learn how to use content components in [this section](../../using/content-components.md).
 
     ![](../assets/offers-e2e-decision-component.png)
 
@@ -261,9 +261,9 @@ After saving your changes and once the message is published, your offers are rea
 
 **Related topics:**
 
-* Learn how to check the message preview in [this section](#preview-your-messages).
+* Learn how to check the message preview in [this section](../../using/preview.md#preview-your-messages).
 
-* Learn how to publish messages in [this section](publish-manage-message.md).
+* Learn how to publish messages in [this section](../../publish-manage-message.md).
 
-* Learn how messages are triggered by one or more journeys in [this section](building-journeys/journey.md).
+* Learn how messages are triggered by one or more journeys in [this section](../../building-journeys/journey.md).
 
