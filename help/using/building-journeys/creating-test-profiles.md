@@ -8,7 +8,7 @@ Test profiles are required when using the test mode To learn how to use the [tes
 
 Available methods to create test profiles are detailed below:
 
-* You can turn an [existing profile](>#turning-profile-into-test) into a test profile
+* You can turn an [existing profile](#turning-profile-into-test) into a test profile
 
 * You can create a test profile by uploading a [csv file](#create-test-profiles-csv) or using [API calls](#create-test-profiles-api). In addition to these two methods, Adobe Journey Optimizer comes with a specific [in-product use case](#use-case-1) to facilitate test profile creation.
 
