@@ -12,7 +12,7 @@ In order to send messages with journeys, the following configuration is required
 
 1. **Configure an event**: if you want to trigger your journeys unitarily when an event is received, you need to configure an event. You define the expected information and how to process it. This step is performed by a **technical user**. [Read more](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)  
+   ![](../assets/jo-event7bis.png)  
  
 1. **Create a segment**: your journey can also listen to Adobe Experience Platform segments in order to send messages in batch to a specified set of profiles. For this, you need to create segments. [Read more](../segment/about-segments.md).
 
