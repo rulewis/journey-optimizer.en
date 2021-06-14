@@ -18,7 +18,8 @@ The personalization is based on the profile data that are managed by the **XDM I
 ```
 Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}
 
-Hello {{profile.person.gender}} {{profile.person.name.fullName}}
+Hello {{profile.person.name.fullName}}
+
 ```
 
 When processing the message (email and push), Journey Optimizer replaces the expression with the data contained in the Experience Cloud Platform database.
