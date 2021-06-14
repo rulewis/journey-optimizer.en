@@ -73,6 +73,27 @@ You can find below the full list of services and capabilities available in the l
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more about sandboxes in this documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
 
 
+## Use cases
+
+Leverage [!DNL Adobe Journey Optimizer] use cases and provide a few quick inputs to create a customer journey.
+
+
+![](assets/use-cases-home.png)
+
+Available use cases are:
+
+* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys.
+* **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. Select Begin to start now.
+* **Send emails to enboard new customers**, to easily send up to two emails to welcome your newly registered customers.
+* **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file.
+
+Click **[!UICONTROL View details]** to learn more about each use case.
+
+Click the **[!UICONTROL Begin]** button to start the use case.
+
+You can access executed use cases from the **[!UICONTROL View use case library]** button.
+
+
 ## Supported browsers
 
 Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
