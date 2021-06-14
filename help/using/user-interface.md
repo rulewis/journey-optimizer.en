@@ -12,8 +12,7 @@ Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse 
 >
 >* This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
-
-### Left navigation
+## Left navigation
 
 Use the links on the left to browse capabilities. 
 
