@@ -12,7 +12,7 @@ Once you have [created your message](create-message.md), you can start creating 
 
 1. In the Email Designer home page, choose how you want to design your email from the following options:
 
-    * Select **[!UICONTROL Design from scratch]** to use the email designer capabilities to create your email content.
+    * Select **[!UICONTROL Design from scratch]** to use the email designer capabilities to create your email content. [Learn more](#design-scratch)
 
     * Select **[!UICONTROL Start from template]** to create your email from a built-in list of templates. Note that you cannot create other templates.
 
@@ -22,13 +22,39 @@ Once you have [created your message](create-message.md), you can start creating 
 
     ![](assets/email_designer_25.png)
 
-## Design from scratch
+## Design from scratch {#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="About Structure components"
+>abstract="Structure components define the layout of the email."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Defining email columns"
+>abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
+
+The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
 To start building your email content with the email designer, follow the steps below:
 
 1. After selecting the **[!UICONTROL Design from scratch]** option, start designing your email content by drag and dropping **[!UICONTROL Structure components]** to define the layout of your email.
 
+   >[!NOTE]
+   >
+   >Note that stack of columns are not compatible with all email programs. When not supported, columns will not be stacked.
+   >
+   >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
+
     ![](assets/email_designer_2.png)
+
+1. Add as many **[!UICONTROL Structure components]** as needed.
+
+   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
+
+   >[!NOTE]
+   >
+   >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
 1. From the **[!UICONTROL Content components]** drop-down, you can add as many **[!UICONTROL Content components]** as you need in your structure component. [Learn more about Content components](content-components.md).
 
@@ -70,42 +96,33 @@ To start building your email content with the email designer, follow the steps b
 
 Your email content can now be used in a message. [Learn how to send a message](publish-manage-message.md).
 
-## Define the email structure {#defining-the-email-structure}
+## Create the text version of an email {#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="About Structure components"
->abstract="Structure components define the layout of the email."
+It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="Defining email columns"
->abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
+By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
 
-The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
+If you prefer using a different content for the plain text version, follow the steps below:
 
-To edit the structure of an email:
+1. From your email, select the **[!UICONTROL Plain text]** tab.
 
-1. Open an existing content or create a new email content.
-1. Access the **[!UICONTROL Structure components]** by selecting the **+** icon on the left.
-1. Drag and drop the structure components that you need to shape your email.
-   A blue line materializes the exact location of the structure components before you drop it. You can drop it above, between or below any other component, but not inside.
+    ![](assets/text_version_3.png)
 
-   >[!NOTE]
-   >
-   >Note that stack of columns are not compatible with all email programs. When not supported, columns will not be stacked.
-   >
-   >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
+1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
 
-1. Several structure components composed of one or more columns are available.
+    ![](assets/text_version_1.png)
 
-   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
+1. Click the check mark to confirm your choice.
 
-   >[!NOTE]
-   >
-   >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
+    ![](assets/text_version_2.png)
 
-Once the structure is defined, you are able to add content fragments and components to your email.
+1. You can then edit the plain text version as desired.
+
+>[!CAUTION]
+>
+>* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
+>
+>*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes will be lost, and replaced with text content generated from the HTML version.
 
 ## Use a preheader {#preheader}
 
@@ -162,7 +179,7 @@ Below are the available background settings that you can use.
 
   You can also set a background image at the column level, but this is rarely used.
 
-### Example: adjust vertical alignment and padding {#example--adjusting-vertical-alignment-and-padding}
+## Adjust vertical alignment and padding {#adjusting-vertical-alignment-and-padding}
 
 You want to adjust padding and vertical alignment inside a structure component composed of three columns. To do this, follow the steps below:
 
@@ -211,29 +228,4 @@ In the Email Designer interface, when you select an element and display its sett
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
 
 
-## Create the text version of an email {#generate-text-version}
 
-It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
-
-By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
-
-If you prefer using a different content for the plain text version, follow the steps below:
-
-1. From your email, select the **[!UICONTROL Plain text]** tab.
-
-1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
-
-    ![](assets/text_version_1.png)
-
-1. Click the check mark to confirm your choice.
-
-    ![](assets/text_version_2.png)
-
-1. You can then edit the plain text version as desired.
-
->[!CAUTION]
->
->* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
->
->*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes will be lost, and replaced with text content generated from the HTML version.
->
