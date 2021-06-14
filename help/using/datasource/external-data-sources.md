@@ -1,6 +1,10 @@
 ---
 title: External data sources 
 description: Learn how to configure external data sources
+feature: Data Sources
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # External data sources {#concept_t2s_kqt_52b}
 

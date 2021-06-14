@@ -1,6 +1,10 @@
 ---
 title: Push notifications live report
 description: Learn how to use data from the push notifications live report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Push live report {#push-live-report}
 

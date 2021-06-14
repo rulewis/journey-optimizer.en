@@ -1,6 +1,10 @@
 ---
-title: Glossary
+title: Offers Glossary
 description: Glossary for Offers
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Glossary {#glossary}
 

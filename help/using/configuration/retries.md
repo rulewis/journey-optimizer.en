@@ -11,6 +11,10 @@ topic-tags:
 discoiquuid:
 internal: n
 snippet: y
+feature: Application Settings
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 
 # Retries {#retries}

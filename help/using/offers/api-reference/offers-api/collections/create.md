@@ -1,6 +1,10 @@
 ---
 title: Create a collection
 description: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Create a collection
 

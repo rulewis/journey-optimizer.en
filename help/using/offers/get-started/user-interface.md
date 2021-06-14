@@ -1,6 +1,10 @@
 ---
 title: User interface
 description: Learn more about the Offer Library User Interface.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # User Interface {#user-interface}
 

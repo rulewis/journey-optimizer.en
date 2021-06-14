@@ -1,6 +1,10 @@
 ---
 title: End activity
 description: Learn how to use the end activity
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # End activity{#section_vqp_4ft_dgb}
 

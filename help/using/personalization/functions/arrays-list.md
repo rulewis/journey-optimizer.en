@@ -1,6 +1,10 @@
 ---
-title: Functions library
-description: Functions library
+title: Arrays functions library
+description: Arrays functions library
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 # Arrays and list functions {#arrays}
 

@@ -1,6 +1,10 @@
 ---
 title: Get started with offer catalog export
 description: Learn how to export your offer catalog as a dataset.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Get started with offer catalog export {#export-catalog}
 

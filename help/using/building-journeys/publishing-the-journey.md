@@ -1,6 +1,10 @@
 ---
 title: Publish the journey
 description: Learn how to publish a journey
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Publishing the journey{#concept_mtc_lrt_52b}
 

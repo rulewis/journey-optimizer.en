@@ -1,6 +1,10 @@
 ---
 title: Update profile
 description: Learn how to use the Update profile activity in a journey
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Update profile {#update-profile}
 

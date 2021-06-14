@@ -1,6 +1,10 @@
 ---
 title: Design emails in Journey Optimizer
 description: Learn how to design your emails content
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Design your email content in the user interface {#create-email-content}
 

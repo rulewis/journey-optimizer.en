@@ -1,6 +1,10 @@
 ---
 title: Journey step sharing overview
 description: Journey step sharing overview
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Create journey reports{#design-jo-reports}
 

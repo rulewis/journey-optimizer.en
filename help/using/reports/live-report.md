@@ -1,6 +1,10 @@
 ---
 title: Live report
 description: Learn how to use data from the live report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Live Report {#live-report}
 

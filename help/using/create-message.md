@@ -1,6 +1,10 @@
 ---
 title: Create a message
 description: Learn how to create a message
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
 ---
 # Create a message {#create-message}
 

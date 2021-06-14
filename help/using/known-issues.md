@@ -1,6 +1,10 @@
 ---
 title: Known Issues
 description: Known issues
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Known issues {#known-issues}
 

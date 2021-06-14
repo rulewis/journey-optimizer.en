@@ -12,6 +12,10 @@ discoiquuid:
 internal: n
 snippet: y
 exl-id:
+feature: Control Groups
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Built-in product profiles {#ootb-product-profiles}
 

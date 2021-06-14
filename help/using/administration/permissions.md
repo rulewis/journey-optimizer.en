@@ -12,6 +12,10 @@ discoiquuid:
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
+feature: Control Groups
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Manage users and product profiles {#manage-permissions}
 

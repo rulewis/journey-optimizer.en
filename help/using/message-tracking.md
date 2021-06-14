@@ -1,6 +1,10 @@
 ---
 title: Track your messages
 description: Learn how to track sent messages
+feature: Monitoring
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Message tracking {#tracking}
 

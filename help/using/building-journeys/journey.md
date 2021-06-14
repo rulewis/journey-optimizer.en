@@ -1,6 +1,10 @@
 ---
 title: General principle
 description: General principle
+feature: Journeys
+topic: Content Management
+role: User
+level: Beginner
 ---
 # General principle{#jo-general-principle}
 

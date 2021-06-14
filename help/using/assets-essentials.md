@@ -1,6 +1,10 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Get Started with Assets Essentials
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
 ---
 # Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
 

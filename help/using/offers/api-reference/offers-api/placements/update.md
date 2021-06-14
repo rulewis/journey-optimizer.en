@@ -1,6 +1,10 @@
 ---
 title: update a placement
 description: Placements are containers that are used to showcase your offers.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Update a placement
 

@@ -1,6 +1,10 @@
 ---
 title: Deliver offers
 description: Decision Management is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Deliver offers using the Decisions API
 

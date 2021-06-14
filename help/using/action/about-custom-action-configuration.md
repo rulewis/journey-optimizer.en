@@ -2,6 +2,10 @@
 solution: Journey Orchestration
 title: About custom action configuration
 description: Learn how to configure a custom action
+feature: Actions
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Configure an action {#configure-an-action}
 

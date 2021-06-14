@@ -1,6 +1,10 @@
 ---
 title: Push notifications global report
 description: Learn how to use data from the push notifications global report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Push global report {#push-global-report}
 

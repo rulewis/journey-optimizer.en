@@ -1,6 +1,10 @@
 ---
 title: Add personalized offers
 description: Learn how to add personalized offers to your messages
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Add personalized offers {#deliver-personalized-offers}
 
