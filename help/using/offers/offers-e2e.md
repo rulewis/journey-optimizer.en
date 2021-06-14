@@ -2,7 +2,7 @@
 title: Use personalized offers in an email
 description: Discover an end-to-end example showing all the steps needed to configure offers and use them in a email.
 ---
-# Use case: Configure personalized offers and use them in an email {#configure-add-personalized-offers-email}
+# Use case: Configure personalized offers to use them in an email {#configure-add-personalized-offers-email}
 
 This section presents an end-to-end example to show how to configure offers and use them in a email, based on a decision you previously created.
 
@@ -111,11 +111,11 @@ You can now create and configure your offers. In this example, you will create f
     * One corresponding to the *Email - Image* placement
     * One corresponding to the *Non-digital - Text* placement
 
-    Learn more on representations in [this section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
-
     >[!NOTE]
     >
     >An offer can be displayed at different places in a message to create more opportunities to use the offer in different placement contexts.
+
+    Learn more on representations in [this section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
 1. Select an appropriate image for the first two placements. Enter custom text for the *Non-digital - Text* placement.
 
