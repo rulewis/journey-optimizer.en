@@ -4,8 +4,6 @@ description: Understand push notification data flow and components
 ---
 # Get started with push configuration {#get-started-push}
 
-![](assets/do-not-localize/badge.png)
-
 Push notifications help you reach your mobile app users at any time - especially when they are not actively using your app. Push notifications may help you achieve a variety of use cases such as providing updates about your service, ask a user to take action, alert the user to a new deal, etc. Device platforms require opt-in before end-users may receive or view your notifications. User opt-in may be received as early as after the app is launched for the first time post-install or in a subsequent session or workflow as appropriate. [!DNL Journey Optimizer] supports push notifications and helps you send highly relevant notifications at industry-leading throughput rates. Push notifications may include personalization and Journey-based context in order to leverage data insights your brand has with Adobe Experience Cloud.
 
 This page will help you setup and understand key services & workflows involved with push notifications in [!DNL Journey Optimizer].

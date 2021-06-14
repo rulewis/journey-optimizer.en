@@ -4,8 +4,6 @@ description: Get started with journeys
 ---
 # Get started with journeys{#jo-quick-start}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Pre-requisites
 
 In order to send messages with journeys, the following configuration is required:

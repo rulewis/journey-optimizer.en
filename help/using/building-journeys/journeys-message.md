@@ -4,8 +4,6 @@ description: Add a message in a journey
 ---
 # Add a message in a journey
 
-![](../assets/do-not-localize/badge.png)
-
 [!DNL Journey Optimizer] message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). Then you simply add, in your journey, a push or email message designed using Journey Optimizer. 
 
 If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md).

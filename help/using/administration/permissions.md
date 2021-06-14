@@ -15,8 +15,6 @@ exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 ---
 # Manage users and product profiles {#manage-permissions}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!IMPORTANT]
 >
 > Each of the procedures detailed below can only be carried out by a **[!UICONTROL Product]** or **[!UICONTROL System]** administrator. For more information on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).

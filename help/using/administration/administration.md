@@ -6,8 +6,6 @@ hide: yes
 ---
 # Technical settings
 
-![](../assets/do-not-localize/badge.png)
-
 ## Set up branding parameters{#cjm-branding}
 
 Every company has brand visual and technical guidelines. You can define a set of specification to present a consistent brand to your customers, from logos to technical aspects, such as email sender, the domain of the mirror pages' URL, or message tracking settings.

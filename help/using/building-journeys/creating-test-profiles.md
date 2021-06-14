@@ -4,8 +4,6 @@ description: Learn how to create a test profile
 ---
 # Create test profiles {#create-test-profiles}
 
-![](../assets/do-not-localize/badge.png)
-
 Test profiles are required when using the test mode in a journey. You can either turn an [existing profile](../building-journeys/creating-test-profiles.md#turning-profile-into-test) into a test profile, or [create a test profile](../building-journeys/creating-test-profiles.md#create-test-profiles-csv). To learn how to use the test mode, refer to [this section](../building-journeys/testing-the-journey.md).
 
 There are different ways to create a test profile in Adobe Experience Platform. In this documentation, we focus on two methods: uploading a [csv file](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) and using [API calls](../building-journeys/creating-test-profiles.md#create-test-profiles-api). You can also upload a json file in a dataset, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).

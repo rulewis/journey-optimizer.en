@@ -4,8 +4,6 @@ description: Learn how to manage opt-out and privacy
 ---
 # Manage opt-out {#consent}
 
-![](assets/do-not-localize/badge.png)
-
 Use [!DNL Journey Optimizer] to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions. <!--Their preferences and subscriptions are handled through Consent management.-->
 
 Regulations such as GDPR state that you must comply with specific requirements before being able to use information from Data Subjects. Moreover, Data Subjects should be able to modify their consent at any time.

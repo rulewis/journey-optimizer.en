@@ -4,8 +4,6 @@ description: Functions library
 ---
 # Arithmetic functions {#maths}
 
-![](../../assets/do-not-localize/badge.png)
-
 Arithmetic functions are used to perform basic calculations on values.
 
 ## Add{#add}

@@ -4,8 +4,6 @@ description: Learn how to check message content validation and troubleshoot
 ---
 # Alerts on your messages {#publish-manage-messages}
 
-![](assets/do-not-localize/badge.png)
-
 ## Checks before publication {#message-alerting}
 
 While you are creating your message, alerts warn you when you need to take important actions before publishing your message.

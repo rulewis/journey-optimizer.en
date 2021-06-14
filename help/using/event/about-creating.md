@@ -4,8 +4,6 @@ description: Learn how to configure a unitary event
 ---
 # Configure a unitary event {#configure-an-event}
 
-![](../assets/do-not-localize/badge.png)
-
 Unitary events are linked to a specific profile. They can be rule-based or system-generated.  Read more on unitary event [this section](../event/about-events.md).
 
 Here are the first steps to configure a new event:

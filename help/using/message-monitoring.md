@@ -4,8 +4,6 @@ description: Learn monitoring guidelines
 ---
 # Message monitoring {#monitor-message-execution}
 
-![](assets/do-not-localize/badge.png)
-
 To make sure your messages are successfully executed, sent and delivered, [!DNL Journey Optimizer] offers capabilities to monitor the messages that are currently published and triggered. You can see how your messages are performing across journeys <!--and APIs--> in real-time from the **[!UICONTROL Executions]** list.
 
 To access this list, from the **[!DNL Journey Optimizer]** home page, select **[!UICONTROL Messages]**, and click the **[!UICONTROL Executions]** tab.

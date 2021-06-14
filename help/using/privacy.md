@@ -5,9 +5,7 @@ description: Learn how to manage privacy
 
 # Privacy {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer is a powerful tool for processing large amounts of data, including personal information and sensitive data.
+[!DNL Journey Optimizer] is a powerful tool for processing large amounts of data, including personal information and sensitive data.
 
 * **Personal Data** is information that can directly or indirectly identify a living individual.
 * **Sensitive Personal Data** is information related to an individual’s race, political views, religious beliefs, criminal background, genetic information, health data, sexual preference, biometric information, as well as trade union membership.

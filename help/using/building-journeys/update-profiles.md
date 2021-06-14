@@ -4,8 +4,6 @@ description: Learn how to use the Update profile activity in a journey
 ---
 # Update profile {#update-profile}
 
-![](../assets/do-not-localize/badge.png)
-
 The **[!UICONTROL Update profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value.
 
 ## Important notes

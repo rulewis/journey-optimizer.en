@@ -4,8 +4,6 @@ description: Learn how to design your journey
 ---
 # Design your journey
 
-![](../assets/do-not-localize/badge.png)
-
 The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available. Each activity has a specific role and place in the process. The activities are sequenced. When an activity is finished, the flow continues and processes the next activity, and so on. 
 
 ## Get started with journey design 

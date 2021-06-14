@@ -4,8 +4,6 @@ description: Learn how to create a push notification in Journey Optimizer
 ---
 # Create a push notification {#create-push-notification}
 
-![](assets/do-not-localize/badge.png)
-
 Once you [created a message](create-message.md), click the **[!UICONTROL Push Notification]** tab to define the settings and content of the push notification. 
 
 ![](assets/create-content-push.png)

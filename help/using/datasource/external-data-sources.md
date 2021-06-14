@@ -4,8 +4,6 @@ description: Learn how to configure external data sources
 ---
 # External data sources {#concept_t2s_kqt_52b}
 
-![](../assets/do-not-localize/badge.png)
-
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.
 
 REST APIs using POST or GET and returning JSON are supported. API Key, basic and custom authentication modes are supported.

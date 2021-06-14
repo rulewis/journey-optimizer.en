@@ -4,8 +4,6 @@ description: Journey step sharing overview
 ---
 # Create journey reports{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 In addition to [real-time reports](live-report.md) and built-in [global reporting capabilities](global-report.md), [!DNL Journey Optimizer] can automatically send journey performance data to Adobe Experience Platform so it can be combined with other data for analysis purposes. 
 
 >[!NOTE]

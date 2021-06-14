@@ -4,8 +4,6 @@ description: journeyStep events action execution fields
 ---
 # journeyStep events action execution fields {#sharing-execution-fields}
 
-![](../assets/do-not-localize/badge.png)
-
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 If the step has an action to be processed, those fields will be added to the event payload. 

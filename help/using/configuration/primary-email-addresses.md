@@ -13,13 +13,13 @@ internal: n
 snippet: y
 ---
 
-# Determine profiles' primary addresses
+# Change the primary email addresses
 
 When you target a profile, several email addresses may be available in the database (personal, professional email address, etc.).
 
 With Journey Optimizer, you can determine which email address to use from the profile service and prioritize when several addresses are available. To do this, follow these steps:
 
-1. Access the  **[!UICONTROL Channels]** / **[!UICONTROL General]** menu.
+1. Access the  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** menu.
 1. The field that is currently used by default to determine the profiles' email addresses displays in this screen. Click **[!UICONTROL Edit]** to change it.
 
     ![](../assets/primary-address.png)

@@ -15,8 +15,6 @@ exl-id:
 ---
 # Built-in product profiles {#ootb-product-profiles}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Journey Administrator {#journey-administrator}
 
 The **[!UICONTROL Journey Administrator]** product profile allows the administration menus with the possibility to manage and publish Journeys, Messages and Decision management. 

@@ -4,8 +4,6 @@ description: Learn how to add personalized offers to your messages
 ---
 # Add personalized offers {#deliver-personalized-offers}
 
-![](assets/do-not-localize/badge.png)
-
 ## About Decision Management {#about-offer-decisioning}
 
 With [!DNL Journey Optimizer], you can insert in your email messages decisions (previously known as offer activities) that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.

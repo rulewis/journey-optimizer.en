@@ -5,8 +5,6 @@ description: Learn how to configure an action
 ---
 # About actions {#about_actions}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!CONTEXTUALHELP]
 >id="jo_actions"
 >title="About actions"

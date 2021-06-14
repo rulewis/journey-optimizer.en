@@ -5,8 +5,6 @@ description: Learn how to use personalization syntax
 
 # Personalization syntax {#personalization-syntax}
 
-![](../assets/do-not-localize/badge.png)
-
 Personalization in [!DNL Journey Optimizer] is based on the templating syntax called Handlebars.
 For a complete description of the Handlebars syntax, refer to [HandlebarsJS documentation](https://handlebarsjs.com/).
 

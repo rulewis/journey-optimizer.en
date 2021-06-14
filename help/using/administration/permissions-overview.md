@@ -15,8 +15,6 @@ exl-id:
 ---
 # User management overview {#permissions-overview}
 
-![](../assets/do-not-localize/badge.png)
-
 [!DNL Journey Optimizer] allows you to define and manage the permissions assigned to different users. Permissions are a set of rights and restrictions that authorize or deny access access to in-product features and capabilities. 
 
 User management in [!DNL Journey Optimizer] is based on three concepts:

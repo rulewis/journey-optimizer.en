@@ -4,8 +4,6 @@ description: Learn how to use data from the journey live report
 ---
 # Journey live report {#journey-live-report}
 
-![](../assets/do-not-localize/badge.png)
-
 Journey live report can be accessed directly from your journey with the **[!UICONTROL Live report]** button. 
 
 ![](../assets/report_1.png)

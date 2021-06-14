@@ -4,9 +4,7 @@ description: Learn how to configure an Adobe Experience Platform segment
 ---
 # About Adobe Experience Platform segments {#about-segments}
 
-![](../assets/do-not-localize/badge.png)
-
-Journey Optimizer allows you to create Adobe Experience Platform segments using Real-Time Customer Profile data directly from the **[!UICONTROL Segments]** menu, and leverage them into your journeys.
+[!DNL Journey Optimizer]  allows you to create Adobe Experience Platform segments using Real-Time Customer Profile data directly from the **[!UICONTROL Segments]** menu, and leverage them into your journeys.
 
 Note that segments can also be created from the Segmentation service itself. Learn more in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 

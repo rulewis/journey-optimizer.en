@@ -9,7 +9,6 @@ description: Learn how to use content components in your emails
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of an email."
 
-![](assets/do-not-localize/badge.png)
 
 When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
 You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.

@@ -4,8 +4,6 @@ description: Journeys use cases
 ---
 # Journey use case
 
-![](../assets/do-not-localize/badge.png)
-
 This section presents a use case that combines a Read segment, an event, reaction events and email/push messages.
 
 ![](../assets/jo-uc1.png)

@@ -4,8 +4,6 @@ description: Learn how to use a segment in a journey
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 
-![](../assets/do-not-localize/badge.png)
-
 ## About the Read Segment activity {#about-segment-trigger-actvitiy}
 
 The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.

@@ -4,8 +4,6 @@ description: Functions library
 ---
 # Object Functions {#objects}
 
-![](../../assets/do-not-localize/badge.png)
-
 ## Is null{#isNull}
 
 The `isNull` function determines if an object reference does not exist.

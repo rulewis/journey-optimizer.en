@@ -4,8 +4,6 @@ description: Learn about segment qualification events
 ---
 # Segment qualification events {#segment-qualification}
 
-![](../assets/do-not-localize/badge.png)
-
 ## About segment qualification events{#about-segment-qualification}
 
 This activity allows your journey to listen to the entrances and exits of profiles in Adobe Experience Platform segments in order to make individuals enter or move forward in a journey. For more information on segment creation, refer to this [section](../segment/about-segments.md).

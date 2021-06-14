@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 ---
-# Intgrate with Intelligent Services {#ai-overview}
+# Integrate with Intelligent Services {#ai-overview}
 
 The integration with Intelligent Services allows you to leverage the power of artificial intelligence and machine learning in customer experience use cases. This allows for marketing analysts to set up predictions specific to a company's needs using business-level configurations without the need for data science expertise.
 

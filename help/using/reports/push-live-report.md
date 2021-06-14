@@ -4,8 +4,6 @@ description: Learn how to use data from the push notifications live report
 ---
 # Push live report {#push-live-report}
 
-![](../assets/do-not-localize/badge.png)
-
 The push **[!UICONTROL Live report]** only targets one specific push delivery. 
 
 From the **[!UICONTROL Executions]** tab of the **[!UICONTROL Messages]** menu, select **[!UICONTROL Live view]** then from the advanced menu of the selected delivery select **[!UICONTROL Live report]**.
