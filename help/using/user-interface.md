@@ -73,25 +73,60 @@ You can find below the full list of services and capabilities available in the l
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more about sandboxes in this documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
 
 
-## Use cases
+## In-product use cases
 
-Leverage [!DNL Adobe Journey Optimizer] use cases and provide a few quick inputs to create a customer journey.
-
+Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
 
 ![](assets/use-cases-home.png)
 
 Available use cases are:
 
-* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys.
-* **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. Select Begin to start now.
-* **Send emails to enboard new customers**, to easily send up to two emails to welcome your newly registered customers.
-* **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file.
+* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [below](#use-case-1).
+* **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. (coming soon)
+* **Send emails to enboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
+* **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)
 
 Click **[!UICONTROL View details]** to learn more about each use case.
 
 Click the **[!UICONTROL Begin]** button to start the use case.
 
 You can access executed use cases from the **[!UICONTROL View use case library]** button.
+
+### In-product use case: create test profiles{#use-case-1}
+
+This use case facilitates the creation of test profiles used for testing journeys before publishing.
+The use case requires the following information:
+
+1. **Identity namespace**: The [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
+
+2. **CSV file**: A comma separated file containing the list of test profiles to create. The use case expects a predefined format for the CSV file that contains the list of test profiles to create. Each row in the file should include the following fields in the correct order as follows:
+
+    1. **Person Id**: Unique identifier of the test profile. The values of this field should reflect the identity namespace that was selected. (As an example, if **Phone** is selected for the identity namespace, then the values of this field should be phone numbers. Similarly if **Email** is selected, then the values of this field should be emails)
+    1. **Email**: Test profile email address. (The **Person Id** field and the **Email** field could potentially contain the same values if **Email** is selected as the identity namespace)
+    1. **First Name**: Test profile first name.
+    1. **Last Name**: Test profile last name.
+    1. **City**: Test profile city of residence
+    1. **Country**: Test profile country of residence
+    1. **Gender**: Test profile gender. Available values are **male**, **female** and **non_specified**
+
+After selecting the identity namespace and providing the CSV file based on the format above, click on **[!UICONTROL Run]** button at the top right. The use case might take a few minutes to complete. Once the use case completes processing and creating the test profiles, a notification will be sent to notify the user.
+ 
+>[!NOTE]
+>
+>Test profiles may override existing profiles. Before executing the use case make sure the CSV contains test profiles only and that it is executed against the correct sandbox.
+ 
+**See also**
+
+* [Use test profiles to preview and test your messages](preview.md)
+* [Create test profiles or turn an existing profile to a test profile](building-journeys/creating-test-profiles.md)
+* [Test a journey](building-journeys/testing-the-journey.md).
+
+## Find help and support
+
+Access Adobe Journey Optimizer help pages from the lower section of the home page.
+
+Use the Help icon to access help pages, contact support and share feedback . You can search help articles and videos from the search field.
+
 
 
 ## Supported browsers
@@ -118,7 +153,7 @@ To change your language:
 
 ## Search
 
-Use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages accross your sandboxes. Start entering content to display top results.
+Anywhere from Adobe Journey Optimizer interface, use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages accross your sandboxes. Start entering content to display top results.
 
 ![](assets/unified-search.png)
 
