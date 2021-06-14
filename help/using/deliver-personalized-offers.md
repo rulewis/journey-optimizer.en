@@ -54,9 +54,7 @@ You can preview the different offers that are part of the decision added to the 
 
 ![](assets/deliver-offer-preview.png)
 
-You can also display the different offers that are part of the decision with a customer profile using the **[!UICONTROL Preview]** button.
-
-1. To display the different offers that are part of the decision with a customer profile, follow the steps below.
+To display the different offers that are part of the decision with a customer profile, follow the steps below.
 
 1. Click **[!UICONTROL Preview]**.
 
@@ -72,13 +70,13 @@ You can also display the different offers that are part of the decision with a c
     >
     >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
 
-1. In the list of identity namespaces, select **[!UICONTROL Email]**. Click **[!UICONTROL Select]**.
+1. In the list of identity namespaces, select **[!UICONTROL Email]** and click **[!UICONTROL Select]**.
 
 1. In the **[!UICONTROL Identity value]** field, enter the value to identify the test profile. In this example, enter the email address of a test profile.
 
     <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-    Add other profiles so that you can test different variants of the message depending on the profile data.
+1. Add other profiles so that you can test different variants of the message depending on the profile data.
 
     ![](assets/deliver-offer-test-profiles.png)
 
@@ -92,4 +90,4 @@ You can also display the different offers that are part of the decision with a c
 
     ![](assets/deliver-offer-test-profile-male-preview.png)
 
-Learn more on the detailed steps to [check the message preview](#preview-your-messages).
+Learn more on the detailed steps to check the message preview in [this section](#preview-your-messages).

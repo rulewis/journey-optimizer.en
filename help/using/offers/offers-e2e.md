@@ -2,7 +2,7 @@
 title: Use personalized offers in an email
 description: Discover an end-to-end example showing all the steps needed to configure offers and use them in a email.
 ---
-# Configure personalized offers and use them in an email {#configure-add-personalized-offers-email}
+# Use case: Configure personalized offers to use them in an email {#configure-add-personalized-offers-email}
 
 This section presents an end-to-end example to show how to configure offers and use them in a email, based on a decision you previously created.
 
@@ -10,16 +10,14 @@ This section presents an end-to-end example to show how to configure offers and 
 
 The key steps to configure offers, include them in a decision and leverage this decision in an email are listed below:
 
-1. Before creating offers, define your components
+1. Before creating offers, [define your components](#define-components)
     
     * Create placements
     * Create decision rules
     * Create tags
     * Create rankings (optional)
 
-    [!DNL :bulb:] Learn more in [this section](#define-components)
-
-1. Configure the offers
+1. [Configure the offers](#configure-offers)
 
     * Create offers
     * For each offer:
@@ -28,17 +26,11 @@ The key steps to configure offers, include them in a decision and leverage this 
         * Add a rule for each offer
         * Define a priority for each offer
 
-        [!DNL :bulb:] Learn more in [this section](#configure-offers)
+1. [Create a fallback offer](#create-fallback)
 
-1. Create a fallback offer
+1. [Create a collection](#create-collection) to include the offers you created
 
-    [!DNL :bulb:] Learn more in [this section](#create-fallback)
-
-1. Create a collection to include the offers you created
-
-    [!DNL :bulb:] Learn more in [this section](#create-collection)
-
-1. Configure the decision
+1. [Configure the decision](#configure-decision)
 
     * Create a decision
     * Select the placements you created
@@ -46,15 +38,11 @@ The key steps to configure offers, include them in a decision and leverage this 
     * For each placement, select a ranking (optional)
     * Select the fallback
 
-    [!DNL :bulb:] Learn more in [this section](#configure-decision)
-
-1. Insert the decision in an email
+1. [Insert the decision in an email](#insert-decision-in-email)
 
     * Select a placement matching the offers you want to display
     * Select the decision from the items compatible with the selected placement 
     * Preview your offers
-
-    [!DNL :bulb:] Learn more in [this section](#insert-decision-in-email)
 
 The overall Decision Management process to use offers in an email can be described as follows:
 
@@ -123,11 +111,11 @@ You can now create and configure your offers. In this example, you will create f
     * One corresponding to the *Email - Image* placement
     * One corresponding to the *Non-digital - Text* placement
 
-    Learn more on representations in [this section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
-
     >[!NOTE]
     >
     >An offer can be displayed at different places in a message to create more opportunities to use the offer in different placement contexts.
+
+    Learn more on representations in [this section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
 1. Select an appropriate image for the first two placements. Enter custom text for the *Non-digital - Text* placement.
 
@@ -170,9 +158,9 @@ The detailed steps to create and configure offers are described in [this section
 
 1. Review your fallback offer, then click **[!UICONTROL Save and approve]**.
 
-Your fallback offer is now ready to be used in a decision.
-
 ![](../assets/offers-e2e-fallback.png)
+
+Your fallback offer is now ready to be used in a decision.
 
 The detailed steps to create and configure a fallback offer are described in [this section](../../using/offers/offer-library/creating-fallback-offers.md).
 
@@ -180,7 +168,7 @@ The detailed steps to create and configure a fallback offer are described in [th
 
 1. To speed up the decision process, create a dynamic collection.
 
-1. Use the tag you created earlier to select the four personalized offers you created earlier.
+1. Use the *Yoga* tag to select the four personalized offers you created earlier.
 
     ![](../assets/offers-e2e-collection-using-tag.png)
 
@@ -190,7 +178,7 @@ The detailed steps to create a collection are described in [this section](../../
 
 Now you must create a decision that will combine placements with the personalized offers and the fallback offer you just created.
 
-This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile, in this example based on the priority and decision rule you assigned to each offer. 
+This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile: in this example, it will be based on the priority and decision rule you assigned to each offer. 
 
 To create and configure an offer decision, follow the main steps below:
 
@@ -232,7 +220,7 @@ Now that your decision is live, you can insert it into an email message. To do s
 
     ![](../assets/offers-e2e-decision-component.png)
 
-1. Select it and in the right palette, click **[!UICONTROL Select offer decision]** to add an offer activity.
+1. Select it. In the right palette, click **[!UICONTROL Select offer decision]** to add a decision.
 
     ![](../assets/offers-e2e-select-offer-decision.png)
 
