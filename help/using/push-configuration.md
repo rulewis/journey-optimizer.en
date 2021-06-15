@@ -49,10 +49,7 @@ To assign **Property** and **Company** rights, follow the steps below:
     * **[!UICONTROL Develop]**
     * **[!UICONTROL Manage Environments]**-->
     * **[!UICONTROL Manage Extensions]**
-    <!--* **[!UICONTROL Publish]**
-
-    ![](assets/push_product_3.png)
-    -->
+    <!--* **[!UICONTROL Publish]** -->
 
 1. Then, select **[!UICONTROL Company rights]** in the left-hand menu.
 
