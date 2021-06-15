@@ -1,6 +1,10 @@
 ---
 title: Manage opt-out
 description: Learn how to manage opt-out and privacy
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Manage opt-out {#consent}
 

@@ -1,6 +1,10 @@
 ---
 title: journey fields
 description: journey fields
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Journey fields {#sharing-journey-fields}
 

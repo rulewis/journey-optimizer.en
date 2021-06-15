@@ -1,6 +1,10 @@
 ---
 title: Wait activity
 description: Learn about the wait activity
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Wait activity{#section_rlm_nft_dgb}
 

@@ -1,6 +1,10 @@
 ---
 title: Testing the journey
 description: Learn about journey testing
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Testing the journey{#testing_the_journey}
 

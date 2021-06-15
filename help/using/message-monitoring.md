@@ -1,6 +1,10 @@
 ---
 title: Monitor message execution
 description: Learn monitoring guidelines
+feature: Monitoring
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Message monitoring {#monitor-message-execution}
 

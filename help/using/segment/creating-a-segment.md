@@ -1,6 +1,10 @@
 ---
 title: Build a segment
 description: Learn how to build segments
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Build segments {#build-segments}
 

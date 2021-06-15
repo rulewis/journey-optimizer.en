@@ -1,6 +1,10 @@
 ---
 title: Getting started
 description: Learn how to start using the Offer Library API to perform key operations using the Decision Management Engine.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Decision Management API developer guide
 

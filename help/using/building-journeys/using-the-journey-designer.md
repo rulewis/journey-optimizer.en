@@ -1,6 +1,10 @@
 ---
 title: Design your journey
 description: Learn how to design your journey
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Design your journey
 

@@ -1,6 +1,10 @@
 ---
 title: Personalization use case
 description: Personalization use case
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Intermediate
 ---
 
 # Personalization use case {#personalization-use-case}

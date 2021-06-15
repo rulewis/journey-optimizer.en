@@ -1,6 +1,10 @@
 ---
 title: Journey troubleshooting
 description: Learn how to troubleshoot errors in journeys
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Troubleshooting{#concept_nlv_bcv_2fb}
 

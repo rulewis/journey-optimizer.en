@@ -1,8 +1,10 @@
 ---
 title: Known Issues
 description: Known issues
-hide: yes
-hidefromtoc: yes
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Known issues {#known-issues}
 

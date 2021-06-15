@@ -1,6 +1,10 @@
 ---
 title: Configure a data source
 description: Learn how to configure a data source
+feature: Data Sources
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Configure a data source {#configure-data-source}
 

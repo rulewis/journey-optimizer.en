@@ -1,6 +1,10 @@
 ---
 title: Create message presets
 description: Learn how to configure and monitor message presets
+feature: Application Settings
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 
 # Create message presets

@@ -1,6 +1,10 @@
 ---
 title: Get started with Decision Management events
 description: Learn how to create Decision Management reports in Adobe Experience Platform.
+feature: Offers
+topic: Integrations
+role: User
+level: Beginner
 ---
 # Get started with Decision Management events {#monitor-offer-events}
 

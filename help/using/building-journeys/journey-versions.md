@@ -1,6 +1,10 @@
 ---
 title: Journey versions
 description: Learn about journey versions
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Journey versions{#concept_ldc_k55_zgb}
 

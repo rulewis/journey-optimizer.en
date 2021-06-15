@@ -1,6 +1,10 @@
 ---
 title: Delete a fallback offer
 description: A fallback offer is sent to customers if they are not eligible for other offers
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Delete a fallback offer
 

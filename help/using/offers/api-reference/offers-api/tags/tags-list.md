@@ -1,6 +1,10 @@
 ---
 title: List tags
 description: Tags allow you to better organize and sort through your offers.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # List tags
 

@@ -1,6 +1,10 @@
 ---
 title: Delete decisions
 description: A decision contains the logic that informs the selection of an offer.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Delete a decision
 

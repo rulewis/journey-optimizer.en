@@ -1,6 +1,10 @@
 ---
 title: Placements dataset
 description: This section lists all the fields used in the exported dataset for placements.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Placements dataset {#placements-dataset}
 

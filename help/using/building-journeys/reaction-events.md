@@ -1,6 +1,10 @@
 ---
 title: Reactions events
 description: Learn about reaction events
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Reaction events {#section_dhx_gss_dgb}
 
