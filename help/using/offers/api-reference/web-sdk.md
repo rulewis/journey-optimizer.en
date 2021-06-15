@@ -1,6 +1,10 @@
 ---
 title: Adobe Experience Platform Web SDK
 description: The Adobe Experience Platform Web SDK allows you to retrieve and render personalized offers that you have created using APIs or the Offer Library.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Adobe Experience Platform Web SDK
 

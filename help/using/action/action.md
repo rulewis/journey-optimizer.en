@@ -2,6 +2,10 @@
 solution: Journey Orchestration
 title: About actions
 description: Learn how to configure an action
+feature: Actions
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # About actions {#about_actions}
 

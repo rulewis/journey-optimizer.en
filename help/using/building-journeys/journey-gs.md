@@ -1,6 +1,10 @@
 ---
 title: Get started with journeys
 description: Get started with journeys
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Get started with journeys{#jo-quick-start}
 

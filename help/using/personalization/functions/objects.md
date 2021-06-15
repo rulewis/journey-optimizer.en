@@ -1,6 +1,10 @@
 ---
-title: Functions library
-description: Functions library
+title: Objects functions library
+description: Objects functions library
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 # Object Functions {#objects}
 

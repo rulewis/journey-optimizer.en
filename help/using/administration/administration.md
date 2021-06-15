@@ -3,6 +3,10 @@ title: Technical settings
 description: Learn administration and settings guidelines
 hidefromtoc: yes
 hide: yes
+feature: Application Settings
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Technical settings
 

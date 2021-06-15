@@ -1,6 +1,10 @@
 ---
 title: Create personalized offers
 description: Learn how to create personalized offers in Adobe Experience Platform.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Create personalized offers {#creating-personalized-offers}
 

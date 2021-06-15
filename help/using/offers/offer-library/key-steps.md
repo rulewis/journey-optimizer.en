@@ -1,6 +1,10 @@
 ---
 title: Key steps to create an offer
 description: Discover the key steps that are required to create an offer.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Key steps to create an offer {#key-steps}
 

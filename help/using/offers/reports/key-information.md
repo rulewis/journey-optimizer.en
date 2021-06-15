@@ -1,6 +1,10 @@
 ---
 title: Decision Management events key information
 description: Learn more about the key information sent with each Decision Management event.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Decision Management events key information {#events-key-information}
 

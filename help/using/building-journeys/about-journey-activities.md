@@ -1,6 +1,10 @@
 ---
 title: About journey activities
 description: Learn about journey activities
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # About journey activities {#about-journey-activities}
 

@@ -1,6 +1,10 @@
 ---
 title: journeyStep event identity fields
 description: journeyStep event identity fields
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # journeyStep event identity fields {#sharing-identity-fields}
 

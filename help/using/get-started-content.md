@@ -1,6 +1,10 @@
 ---
 title: Get started with messages
 description: Learn how to create messages in Journey Optimizer
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
 ---
 # Get started with messages {#get-sarted-contents-messages}
 

@@ -1,6 +1,10 @@
 ---
 title: Journey limitations
 description: Learn more about Journey limitations
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Limitations {#journey-limitations}
 

@@ -1,6 +1,10 @@
 ---
 title: Email live report
 description: Learn how to use data from the email live report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Email live report {#email-live-report}
 

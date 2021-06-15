@@ -1,6 +1,10 @@
 ---
 title: Journey Optimizer
 description: Get Started with Journey Optimizer
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
 ---
 # Get Started with Journey Optimizer {#cjm-gs}
 
