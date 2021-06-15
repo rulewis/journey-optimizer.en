@@ -14,13 +14,13 @@ level: Beginner
 
 For more detailed procedures on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
-## Upload assets{#add-asset}
+## Upload and insert assets{#add-asset}
 
-To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into.
+To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into. You will then be able to insert them to your email content.
 
 For more information on how to upload assets, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
 
-1. From [!DNL Adobe Journey Optimizer] home page, select the **[!UICONTROL Assets]** tab to access [!DNL Assets Essentials].
+1. From [!DNL Adobe Journey Optimizer] home page, select the **[!UICONTROL Assets]** tab under the **[!UICONTROL Content management]** menu to access [!DNL Assets Essentials].
 
     ![](assets/media_library_1.png)
 
@@ -38,71 +38,26 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
     ![](assets/media_library_3.png)
 
-1. Select the file you want to upload. When done, click **[!UICONTROL Upload]**.
+1. Select the file you want to upload. When done, click **[!UICONTROL Upload]**. 
 
-1. Once your asset is uploaded, you can manage it through different options detailed in this [section](#manage-asset). Your asset can also be further edited with the **Edit** mode of [!DNL Assets Essentials]. For more on this, refer to this [page](#edit-assets).
+    To learn more on how to manage your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+
+1. Once your asset is uploaded, you can now insert your assets in one of your messages via the Email designer.
+
+    Your asset can also be further edited with the **Edit** mode of [!DNL Assets Essentials]. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html).
 
     ![](assets/media_library_12.png)
 
-## Manage assets{#manage-asset}
-
-You can manage assets available in [!DNL Adobe Experience Manager Assets Essentials]. Click your asset to access further options.
-
-![](assets/media_library_12.png)
-
-Following actions are available in the toolbar:
-
-![](assets/media_library_4.png)
-
-* **[!UICONTROL Details]** to access further details on your assets.
-* **[!UICONTROL Download]** to start direct local download.
-* **[!UICONTROL Delete]** to remove the asset from [!DNL Assets Essentials].
-* **[!UICONTROL Copy]** to copy/paste the asset in another folder.
-* **[!UICONTROL Move]** to move your asset to other folders.
-
-For more information on how to manage assets, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html).
-
-## Insert assets in messages {#use-assets}
-
-You can insert assets in one of your messages via the Email designer. [Learn more about email design](design-emails.md).
-
-To insert an asset from [!DNL Adobe Experience Manager Assets Essentials]:
-
-1. From the Email designer, select **[!UICONTROL Asset picker]** from the left pane.
+1.  From [!DNL Adobe Journey Optimizer], select **[!UICONTROL Asset picker]** from the left pane of the email designer.
 
     ![](assets/media_library_5.png)
 
-1. Select the asset folder. You can also search for your asset or your folder in the search bar.
+1. Select your Assets folder. You can also search for your asset or your folder in the search bar.
 
-1. Drag and drop your asset in a **[!UICONTROL Structure component]**.
+1. Drag and drop your asset in your email content.
 
     ![](assets/media_library_6.png)
 
-You can further customize your assets such as adding an external link or a text with the **[!UICONTROL Components settings]**. [Learn more about components settings](content-components.md)
+1. You can further customize your assets such as adding an external link or a text with the **[!UICONTROL Components settings]**. [Learn more about components settings](content-components.md)
 
-<!--
-
-## Edit and modify assets {#edit-assets}
-
-Your assets can be edited through the **[!UICONTROL Edit mode]** in [!DNL Assets Essentials]. Through this mode, you can crop, resize and rotate your asset. Click the **[!UICONTROL Edit]** button to access the editing mode of your asset.
-
-![](assets/media_library_10.png)
-
-Following actions are available in the toolbar:
-
-![](assets/media_library_11.png)
-
-* **[!UICONTROL Start crop]** to focus on only the content you want in your asset.
-* **[!UICONTROL Rotate left]** to rotate your asset counter-clockwise by 90 degrees.
-* **[!UICONTROL Rotate right]** to rotate your asset clockwise by 90 degrees.
-* **[!UICONTROL Flip vertically]** to vertically mirror your asset.
-* **[!UICONTROL Flip horizontally]** to horizontally mirror your asset.
-* **[!UICONTROL Launch map]** to insert an image map. For more on this, refer to the [Add image maps](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/image-maps.html?lang=en#using) documentation.
-
-## Share assets {#share-assets}
-
-When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
-
-For more information on how to share access to your folders, refer to this page.
-
--->
+    ![](assets/media_library_13.png)
