@@ -12,7 +12,7 @@ The main steps to create, configure and manage offers, as well as use them in a 
 
 ![](../../assets/offer-create-manage-process.png)
 
-For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this page](offers/offers-e2e.md#insert-decision-in-email).
+For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this page](../../using/offers/offers-e2e.md).
 
 ## Create components
 
@@ -46,7 +46,7 @@ Before starting to create offers, you must define several components that you wi
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Create offers</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Create fallback offers</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../using/offers/offer-library/creating-collections.md">Create collections</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Create collections</a></p></td></tr>
 </table>
 
 ## Create and configure decisions
@@ -57,7 +57,7 @@ Before starting to create offers, you must define several components that you wi
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../using/offers/offer-activities/create-offer-activities.md">Create decisions</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../using/offers/offer-activities/create-offer-activities.md#add-offers">Configure decisions</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">Create decisions</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">Configure decisions</a></p></td>
 </tr>
 </table>
