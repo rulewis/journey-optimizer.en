@@ -58,4 +58,3 @@ The following pictorial shows the systems and services involved with associated 
 The following pictorial shows the various steps, end-to-end, involved in configuring the components that form the skeleton of push data flow. The action items have been categorized based on the role performing the configuration and the component being configured. 
 
 ![](assets/user-flow.png)
-
