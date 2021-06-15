@@ -1,6 +1,10 @@
 ---
 title: Use personalized offers in an email
 description: Discover an end-to-end example showing all the steps needed to configure offers and use them in a email.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Use case: Configure personalized offers to use them in an email {#configure-add-personalized-offers-email}
 
@@ -28,7 +32,7 @@ The key steps to configure offers, include them in a decision and leverage this 
 
 1. [Create a fallback offer](#create-fallback)
 
-1. [Create a collection](#create-collection) to include the offers you created
+1. [Create a collection](#create-collection) to include the personalized offers you created
 
 1. [Configure the decision](#configure-decision)
 
@@ -91,7 +95,7 @@ You will find them under the **[!UICONTROL Decision Management]** > **[!UICONTRO
 
     The detailed steps to create tags are described in [this section](../../using/offers/offer-library/creating-tags.md).
 
-1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can create a [**ranking formula**](../../using/offers/offer-library/create-ranking-formulas.md#about-ranking-formulas).
+1. If you want to define rules that will determine which offer should be presented first for a given placement (rather than taking into account the offers' priority scores), you can create a **ranking formula**.
 
     The detailed steps to create ranking formulas are described in [this section](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula).
 
@@ -165,6 +169,8 @@ Your fallback offer is now ready to be used in a decision.
 The detailed steps to create and configure a fallback offer are described in [this section](../../using/offers/offer-library/creating-fallback-offers.md).
 
 ## Create a collection {#create-collection}
+
+When configuring the decision, you will need to add your personalized offers as part of a collection.
 
 1. To speed up the decision process, create a dynamic collection.
 
