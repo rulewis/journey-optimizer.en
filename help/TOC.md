@@ -105,24 +105,24 @@ hide: yes
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
 + Decision management {#offer-decisioniong}
-  + Get started with Decision Management {#get-started}
+  + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
     + [Glossary](using/offers/get-started/glossary.md)
+    + [Key steps to create and manage offers](using/offers/offer-library/key-steps.md)
+    + [End-to-end example: use offers in an email](using/offers/offers-e2e.md)
   + Create components {#create-components}
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
     + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
-    + [Key steps to create an offer](using/offers/offer-library/key-steps.md)
     + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)
     + [Create collections](using/offers/offer-library/creating-collections.md)
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
-  + [End-to-end example: use offers in an email](using/offers/offers-e2e.md)
   + Create Decision Management reports {create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
