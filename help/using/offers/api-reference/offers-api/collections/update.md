@@ -1,6 +1,10 @@
 ---
 title: Update collections
 description: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
 ---
 # Update a collection
 

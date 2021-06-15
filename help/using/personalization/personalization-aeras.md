@@ -1,6 +1,10 @@
 ---
 title: Personalization contexts in Journey Optimizer
 description: Learn in which contexts you can add personalization
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Intermediate
 ---
 # Personalization context and tool {#personalization-areas}
 

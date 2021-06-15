@@ -1,6 +1,10 @@
 ---
 title: Journey global report
 description: Learn how to use data from the journey global report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Journey Global report {#journey-global-report}
 

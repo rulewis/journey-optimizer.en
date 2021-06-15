@@ -1,6 +1,10 @@
 ---
 title: Personalize content in Journey Optimizer
 description: Get Started with personalization
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Beginner
 ---
 # Get started with personalization{#add-personalization}
 

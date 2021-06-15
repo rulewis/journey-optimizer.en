@@ -1,6 +1,10 @@
 ---
 title: Create decision rules
 description: Learn how to create decision rules in Adobe Experience Platform.
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Create decision rules {#creating-decision-rules}
 

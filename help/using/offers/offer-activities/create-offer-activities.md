@@ -1,6 +1,10 @@
 ---
 title: Create decisions
 description: Learn how to create decisions
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
 ---
 # Create decisions {#create-offer-activities}
 

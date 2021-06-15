@@ -1,6 +1,10 @@
 ---
 title: Design emails
 description: Learn how to design your emails
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Get started with email design {#get-started-content-design}
 

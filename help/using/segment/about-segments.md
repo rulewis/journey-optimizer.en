@@ -1,6 +1,10 @@
 ---
 title: About Adobe Experience Platform segments
 description: Learn how to configure an Adobe Experience Platform segment
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # About Adobe Experience Platform segments {#about-segments}
 

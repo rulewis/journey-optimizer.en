@@ -1,6 +1,12 @@
 ---
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
+hide: yes
+hidefromtoc: yes
+feature: Application Settings
+topic: Administration
+role: Administrator
+level: Intermediate
 ---
 # Configure push notification channel {#push-notification-configuration}
 

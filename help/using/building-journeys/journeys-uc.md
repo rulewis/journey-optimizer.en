@@ -1,6 +1,10 @@
 ---
 title: Journeys use cases
 description: Journeys use cases
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Journey use case
 

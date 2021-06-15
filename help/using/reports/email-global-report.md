@@ -1,6 +1,10 @@
 ---
 title: Email global report
 description: Learn how to use data from the email global report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Email Global report {#email-global-report}
 

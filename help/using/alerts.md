@@ -1,6 +1,10 @@
 ---
 title: Alerts in messages
 description: Learn how to check message content validation and troubleshoot
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Alerts on your messages {#publish-manage-messages}
 

@@ -1,6 +1,10 @@
 ---
 title: Use email designer content components
 description: Learn how to use content components in your emails
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Use the Email designer content components {#content-components}
 

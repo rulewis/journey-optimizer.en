@@ -1,6 +1,10 @@
 ---
 title: Journey ive report
 description: Learn how to use data from the journey live report
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Journey live report {#journey-live-report}
 

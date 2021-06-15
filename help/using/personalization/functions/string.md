@@ -1,6 +1,10 @@
 ---
-title: Functions library
-description: Functions library
+title: String functions library
+description: String functions library
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 # String Functions {#string}
 

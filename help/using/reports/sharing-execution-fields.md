@@ -1,6 +1,10 @@
 ---
 title: journeyStep events action execution fields
 description: journeyStep events action execution fields
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # journeyStep events action execution fields {#sharing-execution-fields}
 

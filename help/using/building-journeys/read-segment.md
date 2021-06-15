@@ -1,6 +1,10 @@
 ---
 title: Use a segment in a journey
 description: Learn how to use a segment in a journey
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 

@@ -1,6 +1,10 @@
 ---
 title: Helpers
-description: Functions library
+description: Helpers
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Experienced
 ---
 
 # Helpers {#gs-helpers}
