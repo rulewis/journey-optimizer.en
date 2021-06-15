@@ -45,7 +45,7 @@ Key capabilities include:
 >
 > Adobe Experience Cloud general privacy guidelines and procedures apply to [!DNL Journey Optimizer]. [Learn more about Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html).
 > You also need to be aware of [Guardrails for Real-time Customer Profile data before starting](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
->
+
 
 **See also**
 

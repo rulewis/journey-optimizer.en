@@ -49,11 +49,11 @@ To assign **Property** and **Company** rights, follow the steps below:
     ![](assets/push_product_2.png)
 
 1. Click **[!UICONTROL Add all]**. This will add the following right to your product profile:
-    <!--* **[!UICONTROL Approve]**
+    * **[!UICONTROL Approve]**
     * **[!UICONTROL Develop]**
-    * **[!UICONTROL Manage Environments]**-->
+    * **[!UICONTROL Manage Environments]**
     * **[!UICONTROL Manage Extensions]**
-    <!--* **[!UICONTROL Publish]** -->
+    * **[!UICONTROL Publish]**
 
 1. Then, select **[!UICONTROL Company rights]** in the left-hand menu.
 
@@ -62,7 +62,7 @@ To assign **Property** and **Company** rights, follow the steps below:
 1. Add the following rights:
 
     * **[!UICONTROL Manage App Configurations]**
-    <!--* **[!UICONTROL Manage Properties]**-->
+    * **[!UICONTROL Manage Properties]**
 
     ![](assets/push_product_5.png)
 
@@ -158,7 +158,7 @@ To get the SDKs needed for push notification to work you will need the following
 Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-## Step 3: Configure Adobe Journey Optimizer Extension in your mobile property
+## Step 2: Configure Adobe Journey Optimizer Extension in your mobile property
 
 The **Adobe Journey Optimizer** extension for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
 
@@ -232,7 +232,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Step 4: Test your mobile app with custom action {#mobile-app-test}
+## Step 3: Test your mobile app with custom action {#mobile-app-test}
 
 After configuring your mobile app in both Adobe Experience Platform and Adobe Launch, you can now test it before sending push notifications to your profiles. In this use case, we will create a journey to target our mobile app and set a custom action which will trigger the push notification.
 
@@ -328,7 +328,7 @@ Your **[!UICONTROL Event schema]** is now created and can now be used in a journ
 
 Your event will be triggered and you will receive your push notification to your mobile app.
 
-## Step 5: Create a message preset for push{#message-preset}
+## Step 4: Create a message preset for push{#message-preset}
 
 Once your mobile app has been set up in [!DNL Adobe Experience Platform Launch], you need to create a message preset to be able to send push notifications from **[!DNL Journey Optimizer]**.
 
