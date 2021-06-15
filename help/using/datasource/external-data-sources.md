@@ -19,7 +19,7 @@ The call is composed of a main URL (_https://api.adobeweather.org/weather_), two
 
 Here are the main steps to create and configure a new external data source:
 
-1. From the list of data sources, Click **[!UICONTROL Add]** to create a new external data source.
+1. From the list of data sources, Click **[!UICONTROL Create Data Source]** to create a new external data source.
 
     ![](../assets/journey25.png)
 
@@ -46,8 +46,8 @@ Here are the main steps to create and configure a new external data source:
 
 
     * **[!UICONTROL Type]**: "API key"
-    * **[!UICONTROL Value]**: "1234" (this is the value of our API key)
     * **[!UICONTROL Name]**: "appid" (this is the API key parameter name)
+    * **[!UICONTROL Value]**: "1234" (this is the value of our API key)
     * **[!UICONTROL Location]**: "Query parameter" (the API key is located in the URL)
 
     ![](../assets/journey28.png)
@@ -59,8 +59,8 @@ For the "long/lat" parameter set, we create a field group with the following inf
 * **[!UICONTROL Used in]**: displays the number of journeys that use a field group. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this field group.
 * **[!UICONTROL Method]**: select the POST or GET method. In our case, we select the GET method.
 * **[!UICONTROL Cache duration]**: in our case, we want the weather to be cached for 10 minutes.
-* **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
 * **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [this page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+* **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
 * **[!UICONTROL Sent Payload]**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
 
 In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Dynamic Values]** field and they are automatically added at the end of the call. In case of a POST call, you need to:
