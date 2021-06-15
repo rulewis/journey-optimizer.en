@@ -49,15 +49,19 @@ The attributes need to be defined in the schema before being referenced in a [!D
 
 **Sample references:**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## Segments{#perso-segments}
 
