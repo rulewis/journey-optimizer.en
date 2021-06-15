@@ -5,6 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 # Known issues {#known-issues}
 
