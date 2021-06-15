@@ -25,7 +25,11 @@ where:
 
 ## Syntax general rules
 
-Identifiers may be any unicode character except for the following: `Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ``` { | } ~`
+Identifiers may be any unicode character except for the following: 
+
+```
+Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
+````
 
 The syntax is case sensitive.
 
