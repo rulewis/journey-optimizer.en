@@ -29,8 +29,7 @@ hide: yes
     + [Import or code your email content](using/existing-content.md)
     + [Use email designer content components](using/content-components.md)
   + Personalization{#personalization}
-    + [Get started](using/personalization/personalize.md)
-    + [Personalization areas](using/personalization/personalization-aeras.md)
+    + [Get started with personalization](using/personalization/personalize.md)
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + [Personalization validation](using/personalization/personalization-validation.md) 
     + [Personalization use case](using/personalization/personalization-use-case.md) 
