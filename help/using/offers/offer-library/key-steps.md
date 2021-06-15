@@ -12,7 +12,7 @@ The main steps to create, configure and manage offers, as well as use them in a 
 
 ![](../../assets/offer-create-manage-process.png)
 
-For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this page](../../using/offers/offers-e2e.md).
+For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this page](../offers-e2e.md).
 
 ## Create components
 
