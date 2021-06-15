@@ -53,11 +53,14 @@ Before starting to create offers, you must define several components that you wi
 
 1. **Create a decision** that will combine placements with the personalized offers and the fallback offers. This combination will be used by the Offer Decisioning engine to find the best offer for a specific profile. 
 
-1. **Configure the decision**. To do so, select the placements, and for each placement, select a collection and a ranking if needed. Finally, select the fallback.
+1. **Configure the decision**. To do so, select the placements, and for each placement, select a collection and a fallback.
+
+1. If needed, you can **assign a ranking formula** to a placement when configuring the decision.
 
 <table>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">Create decisions</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">Configure decisions</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">Assign ranking</a></p></td>
 </tr>
 </table>
