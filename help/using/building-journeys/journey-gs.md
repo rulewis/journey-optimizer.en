@@ -141,9 +141,9 @@ When closed, a journey will have the status **[!UICONTROL Closed (no entrance)]*
 
 A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it. Only finished journeys can be deleted.
 
-You can close a journey by clicking **[!UICONTROL Close to new entrances]** while hovering over a journey in the list of journeys.
+To close a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Close to new entrances]**.
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 You can also:
 
