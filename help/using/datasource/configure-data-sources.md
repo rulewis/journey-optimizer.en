@@ -14,9 +14,7 @@ Here are the main data source configuration steps:
 >
 >The data source configuration is always performed by a **technical user**.
 
-1. Select the **[!UICONTROL Admin]** / **[!UICONTROL Data Sources]** menu.
-
-    The list of data sources is displayed. See [this page](../user-interface.md) for more information on the interface.
+1. In the ADMINISTRATION section, browse to **[!UICONTROL Configurations]**. In the  **[!UICONTROL Data Sources]** section, click **[!UICONTROL Manage]**. The list of data sources is displayed. See [this page](../user-interface.md) for more information on the interface. 
 
     ![](../assets/journey18.png)
 

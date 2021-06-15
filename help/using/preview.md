@@ -14,7 +14,10 @@ To detect possible errors in email content or personalization settings, send pro
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md).
+>You need to have test profiles available to be able to preview your messages and send proofs. 
+>
+>Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md). 
+
 
 To test your message content, you need to:
 

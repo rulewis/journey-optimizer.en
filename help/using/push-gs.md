@@ -12,12 +12,7 @@ Push notifications help you reach your mobile app users at any time - especially
 
 This page will help you setup and understand key services & workflows involved with push notifications in [!DNL Journey Optimizer].
 
-## Set Push Notifications with Adobe Journey Optimizer
-
-To send push notifications with Adobe Journey Optimizer, you'll need to complete the following steps:
-
-1. Follow documentation to get setup with [Adobe Journey Optimizer & Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) in your app.
-1. Create [preset for the push messaging channel](configuration/message-presets.md)
+Steps to configure push channel in [!DNL Adobe Journey Optimizer] are detailed in [this page](push-configuration.md).
 
 ## Push Notifications and Adobe Journey Optimizer
 
