@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 ---
-# Help Center {#cjm-documentation}
+# Adobe Journey Optimizer Documentation {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png) 
 

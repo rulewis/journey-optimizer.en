@@ -77,10 +77,12 @@ hide: yes
     + [Read segment](using/building-journeys/read-segment.md)
     + [Message](using/building-journeys/journeys-message.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
+    + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
     + [Update profile](using/building-journeys/update-profiles.md)
   + Use cases {#journey-use-cases}
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
+    + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Track and monitor {#reporting}
   + [Message tracking](using/message-tracking.md)
   + [Message monitoring](using/message-monitoring.md)
@@ -201,7 +203,7 @@ hide: yes
       + Monitor email addresses {#monitor-reputation}  
         + [Manage suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
-      + [Change email primary address](using/configuration/primary-email-addresses.md) 
+      + [Change email primary address](using/configuration/primary-email-addresses.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)
@@ -221,6 +223,7 @@ hide: yes
     + Action configuration {#action-journeys}
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
+      + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
 + Access control {#administration}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
