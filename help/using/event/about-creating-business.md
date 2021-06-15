@@ -33,7 +33,7 @@ Here are the first steps to configure a business event:
 
    ![](../assets/jo-event1.png)
 
-1. Click **[!UICONTROL Create event]** to create a new event. The event configuration pane opens on the right side of the screen.
+1. Click **[!UICONTROL Create Event]** to create a new event. The event configuration pane opens on the right side of the screen.
 
    ![](../assets/jo-event2.png)
 
