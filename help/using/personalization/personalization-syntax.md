@@ -14,20 +14,18 @@ For a complete description of the Handlebars syntax, refer to [HandlebarsJS docu
 
 It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
 
-Simple expression sample:
+Simple expression sample: 
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 where:
 
-* **profile** is a namespace.
-* **person.name** is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+* `profile` is a namespace.
+* `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 ## Syntax general rules
 
-Identifiers may be any unicode character except for the following:
+Identifiers may be any unicode character except for the following: 
 
 ```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -76,9 +74,7 @@ To reference an offer you need to declare a path with the different information 
 
 This path has the following structure:
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 where:
 
