@@ -106,6 +106,32 @@ You can enter a fixed time zone or use Adobe Experience Platform profiles to def
 
 For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
 
+### Burst mode {#burst}
+
+Burst mode is a paid add-on that allows very fast push message sending in large volumes. It is used for simple journeys that include a read segment and a simple push message. Burst is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
+
+Limitations:
+
+* The journey must start with a read segment. Events are not allowed.
+* The next step must be a push message. No other activity or step is allowed (except the optional end activity):
+   * Push channel only
+   * No personalization is allowed in the message
+   * The message must be small (<2KB)
+
+Important note:
+
+If any of the requirements is not fullfilled, burst mode will not be available in the journey.
+
+To activate Burst mode, open your journey and click the pencil icon, in the top right to access the journey's properties. Then, activate the **Enable burst mode** toggle.
+
+![](../assets/burst.png)
+
+Burst mode will be deactivated if you modify a burst journey and add an activity that is not compliant with burst (message, any other action, an event etc.). A message will be displayed.
+
+![](../assets/burst2.png)
+
+Then test and publish your journey normally. Test mode messages are not sent via the burst mode.
+
 ## Ending a journey
 
 A journey can end for an individual because of two reasons:
