@@ -32,9 +32,9 @@ Here are limitations related to the use of journeys.
 
 * a journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
 * a journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
-* The segment and namespace chosen in **Segment qualification** (first node) can not be changed in new versions.
+* The segment and namespace chosen in **Segment Qualification** (first node) can not be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
-* A journey starting with a **Read segment** cannot start with another event in next versions.
+* A journey starting with a **Read Segment** cannot start with another event in next versions.
  
 ## Custom actions limitations
 
