@@ -8,7 +8,7 @@ level: Intermediate
 ---
 # Journey use case
 
-This section presents a use case that combines a Read segment, an event, reaction events and email/push messages.
+This section presents a use case that combines a Read Segment, an event, reaction events and email/push messages.
 
 ![](../assets/jo-uc1.png)
 
@@ -46,7 +46,7 @@ For more information on segments, refer to this [page](../segment/about-segments
 
    ![](../assets/add-attributes.png)
 
-The segment is now created and ready to be used in your journey. Using a **Read segment** activity, you can make all individuals belonging to the segment enter the journey. 
+The segment is now created and ready to be used in your journey. Using a **Read Segment** activity, you can make all individuals belonging to the segment enter the journey. 
 
 ### Configure the event
 
@@ -86,7 +86,7 @@ Refer to this [section](../segment/about-segments.md) to learn how to design and
 
 ## Design the journey
 
-1. Start the journey with a **Read segment** activity. Select the segment created previously. All individuals belonging to the segment enter the journey.
+1. Start the journey with a **Read Segment** activity. Select the segment created previously. All individuals belonging to the segment enter the journey.
 
    ![](../assets/jo-uc4.png)
 

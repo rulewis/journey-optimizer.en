@@ -38,11 +38,11 @@ Once a message is sent, you can monitor its execution through multiple indicator
 
 ## Schedule messages {#schedule-messages}
 
-Messages can be scheduled through the **[!UICONTROL Read segment]** activity in a [journey](journey.md). You can specify when the segment will enter the journey. [Learn more about the Read segment activity](read-segment.md).
+Messages can be scheduled through the **[!UICONTROL Read Segment]** activity in a [journey](journey.md). You can specify when the segment will enter the journey. [Learn more about the Read Segment activity](read-segment.md).
 
 To do this, follow the steps below:
 
-1. Edit a journey, drag and drop a **[!UICONTROL Read segment]** activity and start configuring it. [Learn more about configuring the Read segment activity](read-segment.md#configuring-segment-trigger-activity).
+1. Edit a journey, drag and drop a **[!UICONTROL Read Segment]** activity and start configuring it. [Learn more about configuring the Read Segment activity](read-segment.md#configuring-segment-trigger-activity).
 
 1. Click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties.
     

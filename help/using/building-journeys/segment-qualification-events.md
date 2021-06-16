@@ -1,12 +1,12 @@
 ---
-title: Segment qualification events
+title: Segment Qualification events
 description: Learn about segment qualification events
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 ---
-# Segment qualification events {#segment-qualification}
+# Segment Qualification events {#segment-qualification}
 
 ## About segment qualification events{#about-segment-qualification}
 
@@ -23,7 +23,7 @@ This type of event can be positioned as the first step or later in the journey.
 >If the selected segment is streamed, the individuals belonging to this segment will potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on Adobe Experience Platform.
 
 
-1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment qualification]** activity into your canvas.
+1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas.
 
    ![](../assets/segment5.png)
 
@@ -59,7 +59,7 @@ The payload contains the following context information, which you can use in con
 * the timestamp of qualification
 * the segment id
 
-When using the expression editor in a condition or action that follows a **[!UICONTROL Segment qualification]** activity, you have access to the **[!UICONTROL SegmentQualification]** node. You can choose between the **[!UICONTROL Last qualification time]** and the **[!UICONTROL status]** (enter or exit).
+When using the expression editor in a condition or action that follows a **[!UICONTROL Segment Qualification]** activity, you have access to the **[!UICONTROL SegmentQualification]** node. You can choose between the **[!UICONTROL Last qualification time]** and the **[!UICONTROL status]** (enter or exit).
 
 See [Condition activity](../building-journeys/condition-activity.md#about_condition).
 

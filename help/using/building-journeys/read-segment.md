@@ -22,7 +22,7 @@ Let's take as an example the "Luma app opening and checkout" segment created in 
 
 ### Configure the activity {#configuring-segment-trigger-activity}
 
-The steps to configure the Read segment activity are as follows:
+The steps to configure the Read Segment activity are as follows:
 
 1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Read Segment]** activity into your canvas.
 
@@ -95,7 +95,7 @@ Once the tests are successfull, you can publish your journey (see [Publishing th
 
 ## Audience targeting in segment-based journeys
 
-Segment-based journeys always start with a **Read segment** activity to retrieve individuals belonging to an Adobe Experience Platform segment.
+Segment-based journeys always start with a **Read Segment** activity to retrieve individuals belonging to an Adobe Experience Platform segment.
 
 The audience belonging to the segment is retrieved once or on a regular basis.
 
