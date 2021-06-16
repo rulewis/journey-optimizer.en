@@ -174,7 +174,7 @@ To close a journey from the list of journeys, click the **[!UICONTROL Ellipsis]*
 You can also:
 
 1. In the **[!UICONTROL Journeys]** list, click on the journey you want to close.
-1. On the top-right, click on the down arrow.
+1. On the top-right, click the down arrow.
 
     ![](../assets/finish_drop_down_list.png)
 
@@ -189,9 +189,9 @@ A stopped journey version cannot be restarted.
 
 When stopped, a journey will have the status **[!UICONTROL Stopped]**. 
 
-You can stop a journey (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **[!UICONTROL Stop]** while hovering over a journey in the list of journeys.
+You can stop a journey, for example, if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly. To stop a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Stop]**.
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 You can also:
 
