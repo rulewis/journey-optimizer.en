@@ -36,7 +36,9 @@ In our journey, we want to leverage a specific segment of customers. All individ
 
 For more information on segments, refer to this [page](../segment/about-segments.md).
 
-1. From the **[!UICONTROL Segments]** menu, click **[!UICONTROL Create segment]**.
+1. From the CUSTOMER menu section, select **[!UICONTROL Segments]**.
+
+1. Click the **[!UICONTROL Create segment]** button that is located at the top right of the segment list.
 
 1. In the **[!UICONTROL Segment properties]** pane, enter a name for the segment.
 
@@ -54,7 +56,7 @@ You need to configure an event that is sent to your journey when a customer make
 
 For this, we use a rule-based event. For more information on events, refer to this [page](../event/about-events.md).
 
-1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**, then click **[!UICONTROL Events]**. Click **[!UICONTROL Add]** to create a new event. 
+1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**, then click **[!UICONTROL Events]**. Click **[!UICONTROL Create event]** to create a new event. 
 
 1. Enter the name of your event.
 
@@ -64,7 +66,7 @@ For this, we use a rule-based event. For more information on events, refer to th
 
 1. In the **[!UICONTROL Event ID condition]** field, define the condition used by the system to identify the events that trigger your journey. For example, you can add a `purchaseMessage` field and define the following rule: `purchaseMessage="thank you"`
 
-1. Define the **[!UICONTROL Namespace]** and **[!UICONTROL Key]**.
+1. Define the **[!UICONTROL Namespace]** and **[!UICONTROL Profile Identifier]**.
 
 1. Click **[!UICONTROL Save]**. 
 

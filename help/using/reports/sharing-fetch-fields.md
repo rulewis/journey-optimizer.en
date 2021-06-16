@@ -8,7 +8,7 @@ level: Intermediate
 ---
 # journeyStep events data fetch fields {#sharing-fetch-fields}
 
-This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
+This field group will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 During a step processing, we can have N data fetch on field groups.
 

@@ -8,7 +8,7 @@ level: Intermediate
 ---
 # journeysteps events common fields {#sharing-common-fields}
 
-This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
+This field group will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 These are the common XDM fields that [!DNL Journey Optimizer] sends to Adobe Experience Platform. Common fields will be sent for every step that is processed in a journey. More specific fields are used for custom actions and enrichments.
 

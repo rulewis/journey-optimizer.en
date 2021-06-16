@@ -43,9 +43,9 @@ First, you need to **create a schema**. Follow these steps:
 
 1. In the list of fields, click on the field that you want to define as the primary identity.
     ![](../assets/test-profiles-3.png)
-1. In the **[!UICONTROL Field properties]** right panel, check the **[!UICONTROL Identity]** and **[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **[!UICONTROL Email]** namespace. Click **[!UICONTROL Apply]**.
+1. In the **[!UICONTROL Field properties]** right pane, check the **[!UICONTROL Identity]** and **[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **[!UICONTROL Email]** namespace. Click **[!UICONTROL Apply]**.
     ![](../assets/test-profiles-4bis.png)
-1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]** panel.
+1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]** pane.
     ![](../assets/test-profiles-5.png) 
 1. Click **Save**.
 
@@ -108,7 +108,7 @@ Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICO
 
 >[!NOTE]
 >
-> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** mixin. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Browse to **Segments**, then **Create segment**, in the top right.
     ![](../assets/test-profiles-22.png) 
@@ -169,8 +169,7 @@ Your test profiles are added and can now be used when testing a journey. Refer t
 
 You can also create test profiles via API calls. Learn more in this [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-You must use a Profile schema that contains the "Profile test details" mixin. The testProfile flag is part of this mixin.
-
+You must use a Profile schema that contains the "Profile test details" field group. The testProfile flag is part of this field group.
 When creating a profile, make sure you pass the value: testProfile = true.
 
 Note that you can also update an existing profile to change its testProfile flag to "true".
