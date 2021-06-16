@@ -51,8 +51,7 @@ To create a message preset, follow these steps:
 
         >[!CAUTION]
         >
-        >Except for the **Reply to (forward email)** field, email addresses domain must use the current selected [delegated subdomain](
-        configuration/about-subdomain-delegation.md).
+        >Except for the **Reply to (forward email)** field, email addresses domain must use the current selected [delegated subdomain](about-subdomain-delegation.md).
 
         * **[!UICONTROL Sender name]**: Name of the sender, such as your brand's name.
 
