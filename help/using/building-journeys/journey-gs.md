@@ -38,7 +38,7 @@ Here are the main steps to send messages through journeys:
 
     ![](../assets/interface-journeys.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey. 
+1. Click **[!UICONTROL Create Journey]** to create a new journey. 
 
 1. Edit the journey's properties in the configuration pane displayed on the right side. Learn more in this [section](journey-gs.md#change-properties).
 
@@ -163,7 +163,7 @@ The **[!UICONTROL Stop]** and **[!UICONTROL Close to new entrances]** options al
 
 You can close a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
 
-When closed, a journey will have the status **[!UICONTROL Closed (no entrance)]**. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
+When closed, a journey will have the status **[!UICONTROL Closed]**. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 
 A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it. Only finished journeys can be deleted.
 
