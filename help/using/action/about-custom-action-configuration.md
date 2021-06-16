@@ -14,7 +14,7 @@ Limitations are listed in [this page](../building-journeys/limitations.md).
 
 Here are the main steps required to configure a custom action:
 
-1. In the ADMINISTRATION section, browse to **[!UICONTROL Configurations]**. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. Click **[!UICONTROL Create Action]** to create a new action. The action configuration pane opens on the right side of the screen. 
+1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. Click **[!UICONTROL Create Action]** to create a new action. The action configuration pane opens on the right side of the screen. 
 
     ![](../assets/custom2.png)
 

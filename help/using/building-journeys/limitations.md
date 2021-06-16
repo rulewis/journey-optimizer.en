@@ -32,9 +32,9 @@ Here are limitations related to the use of journeys.
 
 * a journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
 * a journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
-* The segment and namespace chosen in **Segment qualification** (first node) can not be changed in new versions.
+* The segment and namespace chosen in **Segment Qualification** (first node) can not be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
-* A journey starting with a **Read segment** cannot start with another event in next versions.
+* A journey starting with a **Read Segment** cannot start with another event in next versions.
  
 ## Custom actions limitations
 
@@ -64,7 +64,7 @@ You can choose from one of these two solutions:
 
 * Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
 
-## Read segment limitations
+## Read Segment limitations
 
 * It is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 * Streamed segments are always up-to-date but batch segments will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.

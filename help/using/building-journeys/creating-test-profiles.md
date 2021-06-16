@@ -26,7 +26,7 @@ In order to be able to create profiles, you first need to create a schema and a 
 
 First, you need to **create a schema**. Follow these steps:
 
-1. In the ADMINISTRATION section, click **[!UICONTROL Schemas]**.
+1. In the DATA MANAGEMENT menu section, click **[!UICONTROL Schemas]**.
     ![](../assets/test-profiles-0.png)
 1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **XDM Individual Profile**.
     ![](../assets/test-profiles-1.png)
@@ -43,9 +43,9 @@ First, you need to **create a schema**. Follow these steps:
 
 1. In the list of fields, click on the field that you want to define as the primary identity.
     ![](../assets/test-profiles-3.png)
-1. In the **[!UICONTROL Field properties]** right panel, check the ****[!UICONTROL Identity]** and ****[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **Email** namespace. Click **Apply**.
+1. In the **[!UICONTROL Field properties]** right panel, check the **[!UICONTROL Identity]** and **[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **[!UICONTROL Email]** namespace. Click **[!UICONTROL Apply]**.
     ![](../assets/test-profiles-4bis.png)
-1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]**.
+1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]** panel.
     ![](../assets/test-profiles-5.png) 
 1. Click **Save**.
 
@@ -102,9 +102,9 @@ After selecting the identity namespace and providing the CSV file based on the f
 
 You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-A simple way to do this is by using an **[!UICONTROL Update profile]** action activity in a journey and change the testProfile boolean field from false to true.
+A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the testProfile boolean field from false to true.
 
-Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICONTROL Update profile]** activity. You first need to create a segment targeting the profiles you want to turn into test profiles. 
+Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICONTROL Update Profile]** activity. You first need to create a segment targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
@@ -121,10 +121,10 @@ Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICO
     >
     > Segment calculation can take some time. Learn more on segments in [this section](../segment/about-segments.md).
 
-1. Now create a new journey and start with a **[!UICONTROL Read segment]** orchestration activity.
+1. Now create a new journey and start with a **[!UICONTROL Read Segment]** orchestration activity.
 1. Choose the previously created segment and the namespace that your profiles use.
     ![](../assets/test-profiles-25.png)
-1. Add an **[!UICONTROL Update profile]** action activity. 
+1. Add an **[!UICONTROL Update Profile]** action activity. 
 1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
     ![](../assets/test-profiles-26.png)
 1. Add an **End** activity and click **[!UICONTROL Publish]**.
@@ -133,7 +133,7 @@ Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICO
 
     >[!NOTE]
     >
-    > For more information on the **[!UICONTROL Update profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
+    > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
 
 ## Create a test profile using a csv file{#create-test-profiles-csv}
 
@@ -155,7 +155,7 @@ In Adobe Experience Platform, you can create profiles by uploading a csv file co
     ![](../assets/test-profiles-18.png) 
 1. Map the source csv fields to the schema fields, then click **Finish**.
     ![](../assets/test-profiles-19.png) 
-1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview data set**, in the top right.
+1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview dataset**, in the top right.
     ![](../assets/test-profiles-20.png)
 1. Check that the test profiles have been correctly added.
     ![](../assets/test-profiles-21.png)

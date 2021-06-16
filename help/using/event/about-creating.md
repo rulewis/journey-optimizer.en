@@ -12,7 +12,7 @@ Unitary events are linked to a specific profile. They can be rule-based or syste
 
 Here are the first steps to configure a new event:
 
-1. In the ADMINISTRATION section, browse to **[!UICONTROL Configurations]**. In the  **[!UICONTROL Events]** section, click **[!UICONTROL Manage]**. The list of events is displayed. 
+1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Events]** section, click **[!UICONTROL Manage]**. The list of events is displayed. 
 
    ![](../assets/jo-event1.png)
 

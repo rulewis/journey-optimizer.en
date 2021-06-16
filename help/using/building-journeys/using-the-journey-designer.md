@@ -46,11 +46,11 @@ When you design your journey, the first question you want to ask is how profiles
 
 **Start with an event**: when a journey is set to listen to events, individuals enter the journey **unitarily** in real-time. Messages included in your journey are sent to the person currently flowing into the journey. [Learn more about events](../event/about-events.md)
 
-**Start with a Read segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
+**Start with a Read Segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
 
 ## Define the next steps
 
-After your first event or Read segment, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
+After your first event or Read Segment, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
 
 **Events**
 
@@ -60,11 +60,11 @@ You can add **several events** in your journey, as long as they use the same nam
 
 You can also add a **Reaction** event after a message to react to tracking data related to the message. This allows you, for example, to send another message if the individual opened the previous message or clicked inside it. Learn more in this [section](reaction-events.md).
 
-The **Segment qualification** event activity allows you to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](segment-qualification-events.md).
+The **Segment Qualification** event activity allows you to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](segment-qualification-events.md).
 
 **Orchestration**
 
-In the orchestration activities, you'll find the **Read segment** activity which allows you to set your journey to listen to an Adobe Experience Platform segment. [Learn more about the Read segment activity](read-segment.md).
+In the orchestration activities, you'll find the **Read Segment** activity which allows you to set your journey to listen to an Adobe Experience Platform segment. [Learn more about the Read Segment activity](read-segment.md).
 
 The other activities allow you to add conditions to your journey to define several paths, set a waiting time before executing the next activity, or end your journey. Learn more in this [section](about-journey-activities.md#orchestration-activities).
 
