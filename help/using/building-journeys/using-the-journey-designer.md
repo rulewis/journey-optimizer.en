@@ -32,7 +32,7 @@ The **canvas** is the central zone in the journey designer. It is in this zone t
 
 The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click on the **[!UICONTROL Delete]** icon to delete the activity. Click on **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. To delete activities, you can also select one activity (or several) and press the backspace key. Pressing the escape key will close the activity configuration pane. 
 
-By default, read-only fields are hidden. To display them, click the **Show read-only fields** icon in the top left of the activity configuration pane.
+By default, read-only fields are hidden. To show read-only fields, click the **Show read-only fields** icon at the top left of the activity configuration pane. This setting applies to all activities in all journeys. 
 
 ![](../assets/journey59bis.png)
 
