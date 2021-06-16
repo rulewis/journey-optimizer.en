@@ -29,7 +29,7 @@ You can select a time zone or choose to use the time zone defined in the user pr
 
 The time zone can also be fixed. Clear the pre-defined time zone and pick one from the drop-down list. If you use a fixed time zone, it will be the same for all individuals entering the journey.
 
-To do so, in the **[!UICONTROL Journey Properties]** panel, select a time zone. 
+To do so, in the **[!UICONTROL Journey Properties]** pane, select a time zone. 
 
 ![](../assets/journey72.png)
 

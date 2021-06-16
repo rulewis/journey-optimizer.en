@@ -37,7 +37,7 @@ For more information on the how to turn an existing profile into a test profile,
 
 1. Select a schema from the list.
 
-1. Click on **Fields** to select the field you want to update. Only one field can be selected.
+1. Click on **Field** to select the field you want to update. Only one field can be selected.
 
    ![](../assets/profileupdate2.png)
 

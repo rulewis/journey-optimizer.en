@@ -30,7 +30,7 @@ If you're using a third-party system to send your messages, you can create a cus
 
    ![](../assets/jo-message3.png)
 
-1. Choose a message and click **Select**. You can also create a new message directly from this screen by clicking **Create new**.
+1. Choose a message and click **Select**. You can also create a new message directly from this screen by clicking **Create message**.
 
    ![](../assets/jo-message4-ter.png)
 
