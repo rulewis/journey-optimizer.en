@@ -174,7 +174,7 @@ To close a journey from the list of journeys, click the **[!UICONTROL Ellipsis]*
 You can also:
 
 1. In the **[!UICONTROL Journeys]** list, click on the journey you want to close.
-1. On the top-right, click on the down arrow.
+1. On the top-right, click the down arrow.
 
     ![](../assets/finish_drop_down_list.png)
 
