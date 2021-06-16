@@ -14,7 +14,7 @@ If you're using a third-party system to send your messages, you can create a cus
 
 ## Adding a Message activity
 
-1. As always, start your journey with an event or a **Read segment** activity.
+1. As always, start your journey with an event or a **Read Segment** activity.
 
    ![](../assets/jo-message0.png)
 

@@ -155,7 +155,7 @@ In Adobe Experience Platform, you can create profiles by uploading a csv file co
     ![](../assets/test-profiles-18.png) 
 1. Map the source csv fields to the schema fields, then click **Finish**.
     ![](../assets/test-profiles-19.png) 
-1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview data set**, in the top right.
+1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview dataset**, in the top right.
     ![](../assets/test-profiles-20.png)
 1. Check that the test profiles have been correctly added.
     ![](../assets/test-profiles-21.png)

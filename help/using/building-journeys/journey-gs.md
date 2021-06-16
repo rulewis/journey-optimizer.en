@@ -34,7 +34,7 @@ This step is performed by the **business user**. This is where you create your j
 
 Here are the main steps to send messages through journeys:
 
-1. In the JOURNEY MANAGEMENT section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
+1. In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
 
     ![](../assets/interface-journeys.png)
 
@@ -44,7 +44,7 @@ Here are the main steps to send messages through journeys:
 
     ![](../assets/jo-properties.png)
 
-1. Start by drag and dropping an event or a **Read segment** activity from the palette into the canvas. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
+1. Start by drag and dropping an event or a **Read Segment** activity from the palette into the canvas. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
 
     ![](../assets/read-segment.png)
 
