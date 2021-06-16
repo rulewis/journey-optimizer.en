@@ -188,7 +188,6 @@ hide: yes
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration}
     + [Technical settings](using/administration/administration.md)
-    + [Create message presets](using/configuration/message-presets.md)
     + Push notification configuration{#push-config}
       + [Get started with push configuration](using/push-gs.md)
       + [Configure push notification channel](using/push-configuration.md)
@@ -204,6 +203,7 @@ hide: yes
         + [Manage suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
       + [Change email primary address](using/configuration/primary-email-addresses.md)
+    + [Create message presets](using/configuration/message-presets.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)

@@ -10,6 +10,19 @@ level: Beginner
 
 ![](using/assets/do-not-localize/banner-cjm.png) 
 
+
+## Get started
+
+* [What is Journey Optimizer?](using/get-started.md) </br> Discover key features and how to get started
+
+* [Design an email content](using/design-emails.md) </br>Design a new email or import an existing HTML content
+
+* [Send messages](using/building-journeys/journeys-message.md) </br> Learn how to add push and email messages in your customer journeys
+
+* [Create your first journey](using/building-journeys/journeys-uc.md) </br>Learn how to build and execute a journey
+
+* [Configure [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Learn key steps to configure Journey Optimizer
+
 ## What's new?
 
 * [Access control](using/administration/permissions-overview.md) </br> Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
@@ -24,15 +37,6 @@ level: Beginner
 
 * [Create test profiles](using/building-journeys/creating-test-profiles.md) </br> Create test profiles and use them to test your messages and journeys
 
-## Get started
-
-* [What is Journey Optimizer?](using/get-started.md) </br> Discover key features and how to get started
-
-* [Design an email content](using/design-emails.md) </br>Design a new email or import an existing HTML content
-
-* [Send messages](using/building-journeys/journeys-message.md) </br> Learn how to add push and email messages in your customer journeys
-
-* [Create your first journey](using/building-journeys/journeys-uc.md) </br>Learn how to build and execute a journey
 
 ## Additional Resources
 
