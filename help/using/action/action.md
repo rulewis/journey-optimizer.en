@@ -30,6 +30,6 @@ Custom actions enable you to configure connection of a third-party system to sen
 
 The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. See [this page](../building-journeys/about-journey-activities.md#action-activities).
 
-To view the action list or configure a new action, browse to **[!UICONTROL Configurations]** In the ADMINISTRATION menu section. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. The list of actions is displayed. See [this page](../user-interface.md) for more information on the interface.
+To view the action list or configure a new action, select **[!UICONTROL Configurations]** in the ADMINISTRATION menu section. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. The list of actions is displayed. See [this page](../user-interface.md) for more information on the interface.
 
 ![](../assets/custom1.png)
