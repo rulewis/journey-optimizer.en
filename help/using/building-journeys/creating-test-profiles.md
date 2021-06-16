@@ -26,7 +26,7 @@ In order to be able to create profiles, you first need to create a schema and a 
 
 First, you need to **create a schema**. Follow these steps:
 
-1. In the ADMINISTRATION section, click **[!UICONTROL Schemas]**.
+1. In the ADMINISTRATION menu section, click **[!UICONTROL Schemas]**.
     ![](../assets/test-profiles-0.png)
 1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **XDM Individual Profile**.
     ![](../assets/test-profiles-1.png)
