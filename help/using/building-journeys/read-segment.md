@@ -17,6 +17,8 @@ Let's take as an example the "Luma app opening and checkout" segment created in 
 >[!NOTE]
 >
 >It is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
+>
+>The Burst paid add-on allows very fast push message sending in large volumes for simple journeys that include a read segment and a simple push message. For more information, refer to [this section](../building-journeys/journey-gs.md#burst)
 
 ### Configure the activity {#configuring-segment-trigger-activity}
 
