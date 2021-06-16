@@ -27,6 +27,10 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 Before creating a mobile application, you first need to make sure that you have or assign the correct user permissions in **Adobe Experience Platform Launch**. Learn more in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html).
 
+>[!CAUTION]
+>
+>Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Adobe Experience Platform Launch** permissions in [this documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)
+
 <!--ou need to your have access to perform following roles :
 
 * Manage Datastreams
@@ -55,6 +59,8 @@ To assign **Property** and **Company** rights, follow the steps below:
     * **[!UICONTROL Manage Extensions]**
     * **[!UICONTROL Publish]**
 
+    These permissions are required to install and publish the Adobe Journey Optimizer extension and publish the app property in Adobe Experience Platform Mobile SDK.
+
 1. Then, select **[!UICONTROL Company rights]** in the left-hand menu.
 
     ![](assets/push_product_4.png)
@@ -63,6 +69,8 @@ To assign **Property** and **Company** rights, follow the steps below:
 
     * **[!UICONTROL Manage App Configurations]**
     * **[!UICONTROL Manage Properties]**
+
+    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Launch** and define Push Notification presets in **Adobe Journey Optimizer**.
 
     ![](assets/push_product_5.png)
 
@@ -160,10 +168,9 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## Step 2: Configure Adobe Journey Optimizer Extension in your mobile property
 
-The **Adobe Journey Optimizer** extension for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
+The **Adobe Journey Optimizer extension**  for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
 
-Learn how to install Journey Optimizer extension in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer).
-
+Learn how to setup Journey Optimizer extension in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
 
 
 <!-- 
@@ -242,23 +249,23 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 For this journey to work, you need to create an XDM schema. For more information, refer to [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion).
 
-1. In the left menu, click **[!UICONTROL Data]** then **[!UICONTROL Schemas]** under **[!UICONTROL Data management]** to create your XDM schema.
-
-    ![](assets/test_push_1.png)
+1. In the left menu, browse to **[!UICONTROL Schemas]**.
 
 1. Click **[!UICONTROL Create schema]** then select **[!UICONTROL XDM Experience event]**.
 
     ![](assets/test_push_2.png)
 
-1. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
+1. Select **[!UICONTROL Create a new field group]**. 
 
-1. In the left pane, click **[!UICONTROL Add]** under **[!UICONTROL Mixins]** and select  **[!UICONTROL Create a new Mixin]**. For more information on how to create mixin, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/create-mixin.html?lang=en#api).
+1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add field groups]** when done. For more information on how to create field groups, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html).
 
-    ![](assets/test_push_3.png)
-
-1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add mixin]** when done.
 
     ![](assets/test_push_4.png)
+
+1. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
+
+    ![](assets/test_push_4b.png)
+
 
 1. In the **[!UICONTROL Field properties]** window, add a **[!UICONTROL Field name]**, **[!UICONTROL Display name]** and select **[!UICONTROL String]** as **[!UICONTROL Type]**.
 
@@ -286,7 +293,7 @@ You then need to set up an **[!UICONTROL Event schema]** where you will set the 
 
 1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field.
 
-1. Drag and your previously added mixin to define the condition that will be used by the system to identify the events that will trigger your journey.
+1. Drag and your previously added field group to define the condition that will be used by the system to identify the events that will trigger your journey.
 
     ![](assets/test_push_8.png)
 

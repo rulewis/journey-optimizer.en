@@ -8,7 +8,7 @@ level: Intermediate
 ---
 # journeyStep events action execution fields {#sharing-execution-fields}
 
-This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
+This field group will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 If the step has an action to be processed, those fields will be added to the event payload. 
 
