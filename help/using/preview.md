@@ -28,6 +28,11 @@ You will then be able to [send proofs](#send-proofs) to your test profiles.
 
 In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to unlock Litmus Email Previews in [this section](#email-rendering)
 
+>[!CAUTION]
+>
+>When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey.
+>
+
 ## Select test profiles{#select-test-profiles}
 
 Use [Test profiles](building-journeys/creating-test-profiles.md) to target additional recipients who do not match the defined targeting criteria.

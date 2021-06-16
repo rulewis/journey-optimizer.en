@@ -82,6 +82,10 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_7.png)
 
+    >[!NOTE]
+    >
+    >Learn more about links and message tracking in [this page](message-tracking.md).
+
 1. If needed, you can switch to code editor to further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. For more information on the code editor, refer to this [page](existing-content.md#import-raw-html-code).
 
     >[!NOTE]
