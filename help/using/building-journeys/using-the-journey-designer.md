@@ -30,7 +30,7 @@ The **canvas** is the central zone in the journey designer. It is in this zone t
 
 ![](../assets/journey39.png)
 
-The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click on the **[!UICONTROL Delete]** icon to delete the activity. Click on **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. To delete activities, you can also select one activity (or several) and press the backspace key. Pressing the escape key will close the activity configuration pane. 
+The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click the **[!UICONTROL Delete]** icon to delete the activity. Click **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. To delete activities, you can also select one activity (or several) and press the backspace key. Pressing the escape key will close the activity configuration pane. 
 
 By default, read-only fields are hidden. To show read-only fields, click the **Show read-only fields** icon at the top left of the activity configuration pane. This setting applies to all activities in all journeys. 
 
@@ -80,11 +80,11 @@ Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiti
 
  ![](../assets/journey42.png)
 
-Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
+Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
 
 When listening to an event, we recommend that you do not wait for the event indefinitely. It is not mandatory, just a best practice. If you want to listen to one or several events only during a certain time, you will place one or several events and a wait activity in parallel. See [this section](../building-journeys/general-events.md#events-specific-time).
 
-To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
+To delete the path, place your cursor on it and click the **[!UICONTROL Delete path]** icon.
 
  ![](../assets/journey42ter.png)
 
