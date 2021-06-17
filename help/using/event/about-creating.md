@@ -44,7 +44,7 @@ Here are the first steps to configure a new event:
 
    >[!NOTE]
    >
-   >When you select the **[!UICONTROL System Generated]** type, only schemas that have the eventID type mixin are available. When you select the **[!UICONTROL Rule Based]** type, all Experience Event schemas are available.
+   >When you select the **[!UICONTROL System Generated]** type, only schemas that have the eventID type field are available. When you select the **[!UICONTROL Rule Based]** type, all Experience Event schemas are available.
 
 1. For rule-based events, click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition that will be used by the system to identify the events that will trigger your journey.
   ![](../assets/jo-event6.png)
@@ -77,7 +77,7 @@ The payload definition allows you to choose the information the system expects t
 
     >[!NOTE]
     >
-    >For system-generated events, make sure that you have added the "orchestration" mixin to the XDM schema. This will ensure that your schema contains all the required information to work with [!DNL Journey Optimizer].
+    >For system-generated events, make sure that you have added the "orchestration" field group to the XDM schema. This will ensure that your schema contains all the required information to work with [!DNL Journey Optimizer].
 
     ![](../assets/journey9.png)
 

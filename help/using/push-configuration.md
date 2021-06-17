@@ -27,6 +27,10 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 Before creating a mobile application, you first need to make sure that you have or assign the correct user permissions in **Adobe Experience Platform Launch**. Learn more in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html).
 
+>[!CAUTION]
+>
+>Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Adobe Experience Platform Launch** permissions in [this documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)
+
 <!--ou need to your have access to perform following roles :
 
 * Manage Datastreams
@@ -55,6 +59,8 @@ To assign **Property** and **Company** rights, follow the steps below:
     * **[!UICONTROL Manage Extensions]**
     * **[!UICONTROL Publish]**
 
+    These permissions are required to install and publish the Adobe Journey Optimizer extension and publish the app property in Adobe Experience Platform Mobile SDK.
+
 1. Then, select **[!UICONTROL Company rights]** in the left-hand menu.
 
     ![](assets/push_product_4.png)
@@ -63,6 +69,8 @@ To assign **Property** and **Company** rights, follow the steps below:
 
     * **[!UICONTROL Manage App Configurations]**
     * **[!UICONTROL Manage Properties]**
+
+    These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Launch** and define Push Notification presets in **Adobe Journey Optimizer**.
 
     ![](assets/push_product_5.png)
 
@@ -160,10 +168,9 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## Step 2: Configure Adobe Journey Optimizer Extension in your mobile property
 
-The **Adobe Journey Optimizer** extension for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
+The **Adobe Journey Optimizer extension**  for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
 
-Learn how to install Journey Optimizer extension in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer).
-
+Learn how to setup Journey Optimizer extension in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
 
 
 <!-- 
@@ -232,9 +239,9 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Step 3: Test your mobile app with custom action {#mobile-app-test}
+## Step 3: Test your mobile app with an event {#mobile-app-test}
 
-After configuring your mobile app in both Adobe Experience Platform and Adobe Launch, you can now test it before sending push notifications to your profiles. In this use case, we will create a journey to target our mobile app and set a custom action which will trigger the push notification.
+After configuring your mobile app in both Adobe Experience Platform and Adobe Launch, you can now test it before sending push notifications to your profiles. In this use case, we will create a journey to target our mobile app and set an event which will trigger the push notification.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -242,37 +249,37 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 For this journey to work, you need to create an XDM schema. For more information, refer to [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion).
 
-1. In the left menu, click **[!UICONTROL Data]** then **[!UICONTROL Schemas]** under **[!UICONTROL Data management]** to create your XDM schema.
+1. In the left menu, browse to **[!UICONTROL Schemas]**.
 
-    ![](assets/test_push_1.png)
-
-1. Click **[!UICONTROL Create schema]** then select **[!UICONTROL XDM Experience event]**.
+1. Click **[!UICONTROL Create schema]** then select **[!UICONTROL XDM ExperienceEvent]**.
 
     ![](assets/test_push_2.png)
 
-1. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
+1. Select **[!UICONTROL Create a new field group]**. 
 
-1. In the left pane, click **[!UICONTROL Add]** under **[!UICONTROL Mixins]** and select  **[!UICONTROL Create a new Mixin]**. For more information on how to create mixin, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/create-mixin.html?lang=en#api).
+1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add field groups]** when done. For more information on how to create field groups, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html).
 
-    ![](assets/test_push_3.png)
-
-1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add mixin]** when done.
 
     ![](assets/test_push_4.png)
 
-1. In the **[!UICONTROL Field properties]** window, add a **[!UICONTROL Field name]**, **[!UICONTROL Display name]** and select **[!UICONTROL String]** as **[!UICONTROL Type]**.
+1. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
+
+    ![](assets/test_push_4b.png)
+
+
+1. On the left side, select the field group, then click the + icon to create a new field. In the **[!UICONTROL Field groups properties]**, on the right side, type in a **[!UICONTROL Field name]**, **[!UICONTROL Display name]** and select **[!UICONTROL String]** as **[!UICONTROL Type]**.
 
     ![](assets/test_push_5.png)
 
 1. Check **[!UICONTROL Required]** and click **[!UICONTROL Apply]**.
 
-1. Click **[!UICONTROL Save]**. Your schema is now created and can be used in an **[!UICONTROL Event schema]**.
+1. Click **[!UICONTROL Save]**. Your schema is now created and can be used in an event.
 
-You then need to set up an **[!UICONTROL Event schema]** where you will set the custom action which you will need to enter in your mobile app to trigger your push notification.
+You then need to set up an event.
 
-1. From the left menu of the home page, click the **[!UICONTROL Admin]** icon, then click **[!UICONTROL Manage]** from the **[!UICONTROL Events]** card to create your new **[!UICONTROL Event schema]**.
+1. From the left menu of the home page, under ADMINISTRATION, select **[!UICONTROL Configurations]**. The click **[!UICONTROL Manage]** in the **[!UICONTROL Events]** section to create your new event.
 
-1. Click **[!UICONTROL Add]**, the event configuration pane opens on the right side of the screen.
+1. Click **[!UICONTROL Create Event]**, the event configuration pane opens on the right side of the screen.
 
     ![](assets/test_push_6.png)
 
@@ -280,13 +287,13 @@ You then need to set up an **[!UICONTROL Event schema]** where you will set the 
 
 1. In the **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
 
-1. In the **[!UICONTROL Parameters]**, select your previously created XDM event.
+1. In the **[!UICONTROL Parameters]**, select your previously created schema.
 
     ![](assets/test_push_7.png)
 
 1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field.
 
-1. Drag and your previously added mixin to define the condition that will be used by the system to identify the events that will trigger your journey.
+1. Drag and drop your previously added field group to define the condition that will be used by the system to identify the events that will trigger your journey.
 
     ![](assets/test_push_8.png)
 
@@ -298,15 +305,15 @@ You then need to set up an **[!UICONTROL Event schema]** where you will set the 
 
 1. Click **[!UICONTROL Ok]** then **[!UICONTROL Save]**.
 
-Your **[!UICONTROL Event schema]** is now created and can now be used in a journey.
+Your event is now created and can now be used in a journey.
 
-1. In the left menu from [!DNL Journey Optimizer] homepage, click **[!UICONTROL Journeys]**.
+1. In the left menu, click **[!UICONTROL Journeys]**.
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. Click **[!UICONTROL Create Journey]** to create a new journey.
 
 1. Edit the journey's properties in the configuration pane displayed on the right side. Learn more in this [section](building-journeys/journey-gs.md#change-properties).
 
-1. Start by drag and dropping the **[!UICONTROL Event schema]** created in the previous steps from the **[!UICONTROL Events]** drop-down.
+1. Start by drag and dropping the event created in the previous steps from the **[!UICONTROL Events]** drop-down.
 
     ![](assets/test_push_11.png)
 
@@ -316,11 +323,11 @@ Your **[!UICONTROL Event schema]** is now created and can now be used in a journ
 
 1. Drag and drop an **[!UICONTROL End]** activity to your journey.
 
-1. Activate **[!UICONTROL Test]** to your journey to start testing your push notifications and click **[!UICONTROL Trigger an event]**.
+1. Click the **[!UICONTROL Test]** toggle to start testing your push notifications and click **[!UICONTROL Trigger an event]**.
 
     ![](assets/test_push_12.png)
 
-1. Enter your ECID in the **[!UICONTROL Key]** field then your event that will trigger the push notification in our case **order confirmation**.
+1. Enter your ECID in the **[!UICONTROL Key]** field then type in **order confirmation** in the second field.
 
     ![](assets/test_push_13.png)
 

@@ -9,12 +9,13 @@ level: Intermediate
 
 # Create message presets
 
-With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more.
+With [!DNL Journey Optimizer], you can set up message presets that define all the technical parameters required for email and push notification message: email type, sender email and name, mobile apps, and more. 
 
 >[!CAUTION]
 >
-> Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
+> * Message presets configuration is restricted to Journey Administrators. [Learn more](../administration/ootb-product-profiles.md#journey-administrator)
 >
+> * You must perform Email and Push configuration steps before creating message presets.
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
@@ -57,9 +58,9 @@ To create a message preset, follow these steps:
 
         * **[!UICONTROL Sender email]**: The email address you want to use for your communications. For example, if the delegated subdomain is *marketing.luma.com*, you can use *contact@marketing.luma.com*.
 
-        * **[!UICONTROL Reply to (name)]**: The name that will be used when the recipient clicks the **Reply** button in their e-mail client software.
+        * **[!UICONTROL Reply to (name)]**: The name that will be used when the recipient clicks the **Reply** button in their email client software.
 
-        * **[!UICONTROL Reply to (email)]**: The email address that will be used when the recipient clicks the **Reply** button in their e-mail client software. The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. You must use an address defined on the delegated subdomain (for example, *reply@marketing.luma.com*), otherwise the emails will be dropped.
+        * **[!UICONTROL Reply to (email)]**: The email address that will be used when the recipient clicks the **Reply** button in their email client software. The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. You must use an address defined on the delegated subdomain (for example, *reply@marketing.luma.com*), otherwise the emails will be dropped.
 
         * **[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.
 
