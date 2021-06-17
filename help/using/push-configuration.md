@@ -262,7 +262,7 @@ For this journey to work, you need to create an XDM schema. For more information
 
     ![](assets/test_push_4.png)
 
-1. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
+1. On the left side, select the schema. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
 
     ![](assets/test_push_4b.png)
 
@@ -291,9 +291,11 @@ You then need to set up an event.
 
     ![](assets/test_push_7.png)
 
-1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field.
+1. In the list of fields, check that the field created in the schema field group is selected.
 
-1. Drag and drop your previously added field group to define the condition that will be used by the system to identify the events that will trigger your journey.
+    ![](assets/test_push_7b.png)
+
+1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field. Drag and drop your previously added field group to define the condition that will be used by the system to identify the events that will trigger your journey.
 
     ![](assets/test_push_8.png)
 
