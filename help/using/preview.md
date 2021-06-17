@@ -127,7 +127,7 @@ You need to send proofs after any modification to the message content.
 
 >[!NOTE]
 >
-> In the proof that is received, the mirror page links may be inactive.
+> In the proof sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
 ## Email rendering{#email-rendering}
 

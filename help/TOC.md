@@ -15,7 +15,6 @@ hide: yes
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
-  + [Known issues](using/known-issues.md)
 + Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
@@ -186,7 +185,6 @@ hide: yes
 + Configuration{#get-started}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration}
-    + [Technical settings](using/administration/administration.md)
     + Push notification configuration{#push-config}
       + [Get started with push configuration](using/push-gs.md)
       + [Configure push notification channel](using/push-configuration.md)
