@@ -10,10 +10,6 @@ level: Intermediate
 
 Here are limitations related to the use of journeys.
 
-## Journey list limitations
-
-* In the journeys list, filters, searches and column selection are reset at page refresh.
-
 ## General actions limitations
 
 * There is no sending throttling. 
