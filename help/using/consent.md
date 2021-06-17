@@ -123,6 +123,14 @@ Request body:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
+<!--## Unsubscribe email {#unsubscribe-email}
+
+If the recipients' email client software supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link.
+
+For example, in a Gmail inbox the unsubscribe link will display like this:
+
+![](assets/unsubscribe-email.png)-->
+
 ## Push opt-out management {#push-opt-out-management}
 
 Push recipients can unsubscribe through their devices themselves.
