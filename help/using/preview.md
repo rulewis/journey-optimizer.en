@@ -125,6 +125,10 @@ Once [test profiles](#select-test-profiles) are selected, you can send proofs.
 
 You need to send proofs after any modification to the message content.
 
+>[!NOTE]
+>
+> In the proof that is received, the mirror page links may be inactive.
+
 ## Email rendering{#email-rendering}
 
 You can leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients.
