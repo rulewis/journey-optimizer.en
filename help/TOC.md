@@ -5,7 +5,6 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Use Journey Optimizer to deliver connected, contextual, and personalized experiences to customers
 type: Documentation
 solution: Journey Optimizer
-hide: yes
 ---
 
 # [!DNL Journey Optimizer] Help {#using}
