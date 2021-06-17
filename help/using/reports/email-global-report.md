@@ -36,6 +36,20 @@ The email **[!UICONTROL Global report]** is divided into different widgets detai
 
 * **[!UICONTROL Unsubscribe Rate]**: Percentage of unique unsubscriptions compared to the number of delivered messages. This indicator does not rely on the number of clicks on the unsubscription link but is based on the number of unsubscriptions initiated by recipients. Learn more about unsubscriptions in this [page](../consent.md).
 
+The **[!UICONTROL Email - Tracking statistics]** contains the available data for recipient activity for your delivery:
+
+* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
+
+* **[!UICONTROL Unique Opens]**: Percentage of opened deliveries.
+
+* **[!UICONTROL Open Rate]**: Total number of opened emails compared to the number of delivered emails.
+
+* **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
+
+* **[!UICONTROL Unique Clicks]**:Number of recipients who clicked on a content in an email.
+
+* **[!UICONTROL Click through rate]**: Percentage of users who interacted with the journey.
+
 The **[!UICONTROL Sending Statistics]** graph details the success of your delivery:
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
@@ -43,6 +57,8 @@ The **[!UICONTROL Sending Statistics]** graph details the success of your delive
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+![](../assets/global_report_5.png)
 
 The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widgets contain the data available related to bounced messages, such as:
 
@@ -54,27 +70,13 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 For more information on bounces, refer to the [Suppression list](../suppression-list.md) page.
 
-![](../assets/global_report_5.png)
-
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
-
-The **[!UICONTROL Email - Best recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 
 ![](../assets/global_report_6.png)
 
-The **[!UICONTROL Email - Tracking statistics]** table contains the available data for recipient activity for your delivery:
+The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 
-* **[!UICONTROL Opens]**: Number of times the delivery was opened in a delivery.
-
-* **[!UICONTROL Unique Opens]**: Number of recipients who opened the delivery.
-
-* **[!UICONTROL Open Rate]**: Percentage of opened messages.
-
-* **[!UICONTROL Clicks]**: Number of times a content was clicked in an email.
-
-* **[!UICONTROL Unique Clicks]**:Number of recipients who clicked on a content in an email.
-
-* **[!UICONTROL Click through rate]**: Percentage of clicks in a delivery.
+The **[!UICONTROL Email - Top Url]** graph and table details which URLs from your delivery are the most visited.
 
 The **[!UICONTROL Open vs Click]** identifies your recipients' interaction with the delivery:
 
@@ -82,4 +84,4 @@ The **[!UICONTROL Open vs Click]** identifies your recipients' interaction with 
 
 * **[!UICONTROL Unique Opens]**: Number of recipients who opened the delivery.
 
-The **[!UICONTROL Email - Top Url]** graph and table details which URLs from your delivery are the most visited.
+

@@ -123,13 +123,17 @@ Request body:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-<!--## Unsubscribe email {#unsubscribe-email}
+## Unsubscribe link in header {#unsubscribe-email}
 
 If the recipients' email client software supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link.
 
-For example, in a Gmail inbox the unsubscribe link will display like this:
+For example, the unsubscribe link will display like this in Gmail:
 
-![](assets/unsubscribe-email.png)-->
+![](assets/unsubscribe-email.png)
+
+If a recipient clicks this link, the corresponding profile is immediately opted out and this choice is updated in Experience Platform.
+
+Clicking the unsubscribe link from the header has the same effect as clicking the unsubscribe link in the email content. Learn more on opt-out management in [this section](#opt-out-management).
 
 ## Push opt-out management {#push-opt-out-management}
 
