@@ -39,15 +39,15 @@ To update a published message:
 
 1. Click **[!UICONTROL Modify]**.
 
-    ![](assets/message-modify.png)
+   ![](assets/message-modify.png)
 
 1. Confirm your choice. A draft version of the message is created.
 
-    ![](assets/message-modify-v2.png)
+   ![](assets/message-modify-v2.png)
 
 1. Edit the content or change the settings as desired.
 1. Click **[!UICONTROL Publish]**. This action will publish the new version of the message that will be used for the next executions.
 
 As soon as the new version is published, upon the next API call, a new message execution will be generated. The next incoming profile will receive the new version.
 
-<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version.-->
+<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version. -->
