@@ -65,7 +65,7 @@ See [Condition activity](../building-journeys/condition-activity.md#about_condit
 
 ![](../assets/segment8.png)
 
-A new journey that includes a segment qualification event is operational ten minutes after you have published it. This time interval corresponds to the cache refresh interval of the projection service. Therefore, you must wait ten minutes before using this journey.
+A new journey that includes a segment qualification event is operational ten minutes after you have published it. This time interval corresponds to the cache refresh interval of the dedicated service. Therefore, you must wait ten minutes before using this journey.
 
 ## Best practices {#best-practices-segments}
 
