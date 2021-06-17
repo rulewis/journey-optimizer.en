@@ -16,6 +16,9 @@ For example, you can add a decision that will display in your email a special di
 
 For more on how to create and manage offers, refer to [this section](offers/get-started/starting-offer-decisioning.md).
 
+For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
+
+
 ## Insert a decision in an email {#insert-offers}
 
 >[!CAUTION]
@@ -50,7 +53,6 @@ To insert a decision into an email message, follow the steps below:
 
 The offer activity is now added to the component.
     
-For a full end-to-end example showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
 
 ## Preview offers in an email {#preview-offers-in-email}
 
