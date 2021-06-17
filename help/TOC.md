@@ -110,9 +110,8 @@ hide: yes
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
-    + [Glossary](using/offers/get-started/glossary.md)
     + [Key steps to create and manage offers](using/offers/offer-library/key-steps.md)
-    + [End-to-end example: use offers in an email](using/offers/offers-e2e.md)
+    + [Use case: insert offers in an email](using/offers/offers-e2e.md)
   + Create components {#create-components}
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
