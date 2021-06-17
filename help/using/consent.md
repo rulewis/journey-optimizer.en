@@ -125,15 +125,17 @@ Request body:
 
 ## Unsubscribe link in header {#unsubscribe-email}
 
-If the recipients' email client software supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link.
+If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link.
 
 For example, the unsubscribe link will display like this in Gmail:
 
 ![](assets/unsubscribe-email.png)
 
-If a recipient clicks this link, the corresponding profile is immediately opted out and this choice is updated in Experience Platform.
+Depending on the email client, clicking the unsubscribe link from the header will have one of the following impacts:
 
-Clicking the unsubscribe link from the header has the same effect as clicking the unsubscribe link in the email content. Learn more on opt-out management in [this section](#opt-out-management).
+* The corresponding profile is immediately opted out and this choice is updated in Experience Platform. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+
+* It has the same effect as clicking the unsubscribe link from the email content: the recipient is redirected to a landing page including a button to confirm opting out. Learn more on opt-out management in [this section](#opt-out-management).
 
 ## Push opt-out management {#push-opt-out-management}
 
