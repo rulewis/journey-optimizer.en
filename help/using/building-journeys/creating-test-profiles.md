@@ -8,21 +8,25 @@ level: Intermediate
 ---
 # Create test profiles {#create-test-profiles}
 
-![](../assets/do-not-localize/badge.png)
+Test profiles are required when using the test mode To learn how to use the [test mode](../building-journeys/testing-the-journey.md) in a journey, and to [preview and test your messages](../preview.md).
 
-Test profiles are required when using the test mode in a journey. You can either turn an [existing profile](../building-journeys/creating-test-profiles.md#turning-profile-into-test) into a test profile, or [create a test profile](../building-journeys/creating-test-profiles.md#create-test-profiles-csv). To learn how to use the test mode, refer to [this section](../building-journeys/testing-the-journey.md).
+Available methods to create test profiles are detailed below:
 
-There are different ways to create a test profile in Adobe Experience Platform. In this documentation, we focus on two methods: uploading a [csv file](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) and using [API calls](../building-journeys/creating-test-profiles.md#create-test-profiles-api). You can also upload a json file in a dataset, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+* You can turn an [existing profile](#turning-profile-into-test) into a test profile
 
-Creating a test profile is similar to creating regular profiles in Adobe Experience Platform. For more information, refer to the [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+* You can create a test profile by uploading a [csv file](#create-test-profiles-csv) or using [API calls](#create-test-profiles-api). In addition to these two methods, Adobe Journey Optimizer comes with a specific [in-product use case](#use-case-1) to facilitate test profile creation.
 
-## Prerequisites{#test-profile-prerequisites}
+* You can also upload a json file in a dataset. For more on this, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+
+Note that creating a test profile is similar to creating regular profiles in Adobe Experience Platform. For more information, refer to the [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+
+## Prerequisites {#test-profile-prerequisites}
 
 In order to be able to create profiles, you first need to create a schema and a dataset in Adobe [!DNL Journey Optimizer].
 
 First, you need to **create a schema**. Follow these steps:
 
-1. In the ADMINISTRATION section, click **[!UICONTROL Schemas]**.
+1. In the DATA MANAGEMENT menu section, click **[!UICONTROL Schemas]**.
     ![](../assets/test-profiles-0.png)
 1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **XDM Individual Profile**.
     ![](../assets/test-profiles-1.png)
@@ -39,9 +43,9 @@ First, you need to **create a schema**. Follow these steps:
 
 1. In the list of fields, click on the field that you want to define as the primary identity.
     ![](../assets/test-profiles-3.png)
-1. In the **[!UICONTROL Field properties]** right panel, check the ****[!UICONTROL Identity]** and ****[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **Email** namespace. Click **Apply**.
-    ![](../assets/test-profiles-4.png)
-1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]**.
+1. In the **[!UICONTROL Field properties]** right pane, check the **[!UICONTROL Identity]** and **[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **[!UICONTROL Email]** namespace. Click **[!UICONTROL Apply]**.
+    ![](../assets/test-profiles-4bis.png)
+1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]** pane.
     ![](../assets/test-profiles-5.png) 
 1. Click **Save**.
 
@@ -66,17 +70,45 @@ Then you need to **create the dataset** in which the profiles will be imported. 
 >
 > For more information on dataset creation, refer to the [Catalog Service documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
 
+## In-product use case{#use-case-1}
+
+From Adobe Journey Optimizer home page, you can leverage the test profiles in-product use case. This use case facilitates the creation of test profiles used for testing journeys before publishing.
+
+![](../assets/use-cases-home.png)
+
+Click the **[!UICONTROL Begin]** button to start the use case.
+
+The following information is required:
+
+1. **Identity namespace**: The [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
+
+2. **CSV file**: A comma separated file containing the list of test profiles to create. The use case expects a predefined format for the CSV file that contains the list of test profiles to create. Each row in the file should include the following fields in the correct order as follows:
+
+    1. **Person Id**: Unique identifier of the test profile. The values of this field should reflect the identity namespace that was selected. (As an example, if **Phone** is selected for the identity namespace, then the values of this field should be phone numbers. Similarly if **Email** is selected, then the values of this field should be emails)
+    1. **Email**: Test profile email address. (The **Person Id** field and the **Email** field could potentially contain the same values if **Email** is selected as the identity namespace)
+    1. **First Name**: Test profile first name.
+    1. **Last Name**: Test profile last name.
+    1. **City**: Test profile city of residence
+    1. **Country**: Test profile country of residence
+    1. **Gender**: Test profile gender. Available values are **male**, **female** and **non_specified**
+
+After selecting the identity namespace and providing the CSV file based on the format above, click on **[!UICONTROL Run]** button at the top right. The use case might take a few minutes to complete. Once the use case completes processing and creating the test profiles, a notification will be sent to notify the user.
+ 
+>[!NOTE]
+>
+>Test profiles may override existing profiles. Before executing the use case make sure the CSV contains test profiles only and that it is executed against the correct sandbox.
+
 ## Turn a profile into a test profile{#turning-profile-into-test}
 
 You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-A simple way to do this is by using an **[!UICONTROL Update profile]** action activity in a journey and change the testProfile boolean field from false to true.
+A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the testProfile boolean field from false to true.
 
-Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICONTROL Update profile]** activity. You first need to create a segment targeting the profiles you want to turn into test profiles. 
+Your journey will be composed of a **[!UICONTROL Read Segment]** and an **[!UICONTROL Update Profile]** activity. You first need to create a segment targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
-> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** mixin. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Browse to **Segments**, then **Create segment**, in the top right.
     ![](../assets/test-profiles-22.png) 
@@ -89,10 +121,10 @@ Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICO
     >
     > Segment calculation can take some time. Learn more on segments in [this section](../segment/about-segments.md).
 
-1. Now create a new journey and start with a **[!UICONTROL Read segment]** orchestration activity.
+1. Now create a new journey and start with a **[!UICONTROL Read Segment]** orchestration activity.
 1. Choose the previously created segment and the namespace that your profiles use.
     ![](../assets/test-profiles-25.png)
-1. Add an **[!UICONTROL Update profile]** action activity. 
+1. Add an **[!UICONTROL Update Profile]** action activity. 
 1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
     ![](../assets/test-profiles-26.png)
 1. Add an **End** activity and click **[!UICONTROL Publish]**.
@@ -101,7 +133,7 @@ Your journey will be composed of a **[!UICONTROL Read segment]** and an **[!UICO
 
     >[!NOTE]
     >
-    > For more information on the **[!UICONTROL Update profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
+    > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
 
 ## Create a test profile using a csv file{#create-test-profiles-csv}
 
@@ -123,7 +155,7 @@ In Adobe Experience Platform, you can create profiles by uploading a csv file co
     ![](../assets/test-profiles-18.png) 
 1. Map the source csv fields to the schema fields, then click **Finish**.
     ![](../assets/test-profiles-19.png) 
-1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview data set**, in the top right.
+1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview dataset**, in the top right.
     ![](../assets/test-profiles-20.png)
 1. Check that the test profiles have been correctly added.
     ![](../assets/test-profiles-21.png)
@@ -137,8 +169,7 @@ Your test profiles are added and can now be used when testing a journey. Refer t
 
 You can also create test profiles via API calls. Learn more in this [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-You must use a Profile schema that contains the "Profile test details" mixin. The testProfile flag is part of this mixin.
-
+You must use a Profile schema that contains the "Profile test details" field group. The testProfile flag is part of this field group.
 When creating a profile, make sure you pass the value: testProfile = true.
 
 Note that you can also update an existing profile to change its testProfile flag to "true".

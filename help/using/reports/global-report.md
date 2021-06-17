@@ -8,19 +8,17 @@ level: Intermediate
 ---
 # Global Report {#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > If custom queries are made through APIs when using Query service, please expect some delay for your reports.
 
-The **[!UICONTROL Global report]** allows you to measure the effectiveness of your journeys and deliveries over a selected time period.
+Use the **[!UICONTROL Global report]** to measure the impact of your journeys and deliveries over a selected time period.
 
-* If you want to target a journey or deliveries in a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL Global report]** icon. You can then find the Journey, Email and Push **[!UICONTROL Global report]**.
+* If you want to target a journey or deliveries in the context of a journey, from the **[!UICONTROL Journeys]** menu, access your journey and click the **[!UICONTROL Global report]** icon. You can then find the Journey, Email and Push **[!UICONTROL Global report]**.
 
 * If you want to target a specific delivery, from the **[!UICONTROL Global view]** of the **[!UICONTROL Executions]** tab of your messages, select **[!UICONTROL Global Report]** from the advanced menu of your selected delivery.
 
-## Modify dashboard {#modify-dashboard}
+## Customize dashboard {#modify-dashboard}
 
 Each reporting dashboard can be modified by resizing or removing widgets or changing the targeted time frame. Changing the widgets only impacts the current user's dashboard. Other users will see their own dashboards or the ones set by default. 
 
@@ -30,7 +28,7 @@ Each reporting dashboard can be modified by resizing or removing widgets or chan
 
     ![](../assets/global_report_6.png)
 
-1. click **[!UICONTROL Modify dashboard]**.
+1. click **[!UICONTROL Modify]**.
 
     ![](../assets/global_report_8.png)
 

@@ -8,8 +8,6 @@ level: Experienced
 ---
 # String Functions {#string}
 
-![](../../assets/do-not-localize/badge.png)
-
 Learn how to use String functions in the Expression Editor.
 
 ## Camel Case {#camelCase}

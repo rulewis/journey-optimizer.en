@@ -8,8 +8,6 @@ level: Beginner
 ---
 # Get started with messages {#get-sarted-contents-messages}
 
-![](assets/do-not-localize/badge.png)
-
 Use [!DNL Journey Optimizer] to leverage multiple resources like assets and contents in a single place, and create and publish personalized push notifications and email messages.
 
 * Leverage [!DNL Journey Optimizer] **email designing capabilities** to create or import responsive emails.

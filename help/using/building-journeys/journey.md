@@ -8,8 +8,6 @@ level: Beginner
 ---
 # General principle{#jo-general-principle}
 
-![](../assets/do-not-localize/badge.png)
-
 [!DNL Journey Optimizer] allow you to build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
 Design multistep advanced scenarios powered by following capabilities:

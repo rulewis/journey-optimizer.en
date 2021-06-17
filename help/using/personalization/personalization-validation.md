@@ -9,8 +9,6 @@ level: Intermediate
 
 # Personalization validation {#personalization-validation}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Validation mechanisms
 
 In the Expression editor screen, the **Validate** button allows you to validate your personalization syntax.

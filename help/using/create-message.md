@@ -8,8 +8,6 @@ level: Beginner
 ---
 # Create a message {#create-message}
 
-![](assets/do-not-localize/badge.png)
-
 Messages are available from the **[!UICONTROL Messages]** shortcut on the left navigation. All messages are listed, sorted by publication date (for published messages) or creation date (for draft messages).
 
 >[!NOTE]

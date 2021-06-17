@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Condition activity{#section_e2n_pft_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 Four types of conditions are available:
 
 * [Data Source condition](#data_source_condition) 
@@ -70,6 +68,8 @@ This allows you to perform different actions according to the hour of the day an
 ## Percentage split {#percentage_split}
 
 This option allows you to randomly split the audience to define a different action for each group. Define the number of splits and the repartition for each path. The split calculation is statistical as the system cannot anticipate how many people will flow in this activity of the journey. As a result, the split has a very low error margin. This function is based on a Java random mechanism (see this [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+In test mode, when reaching a split, the top branch is always chosen. You can reorganize the position of the split branches if you want the test to choose a different path. Refer to [this page](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >

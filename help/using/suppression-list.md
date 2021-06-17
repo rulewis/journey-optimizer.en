@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Suppression list {#suppression-list}
 
-![](assets/do-not-localize/badge.png)
-
 A suppression list consists of email addresses that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates.
 
 The [!DNL Journey Optimizer] suppression list is managed at your own environment level.

@@ -8,15 +8,13 @@ level: Intermediate
 ---
 # Get started with journeys{#jo-quick-start}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Pre-requisites
 
 In order to send messages with journeys, the following configuration is required:
 
 1. **Configure an event**: if you want to trigger your journeys unitarily when an event is received, you need to configure an event. You define the expected information and how to process it. This step is performed by a **technical user**. [Read more](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)  
+   ![](../assets/jo-event7bis.png)  
  
 1. **Create a segment**: your journey can also listen to Adobe Experience Platform segments in order to send messages in batch to a specified set of profiles. For this, you need to create segments. [Read more](../segment/about-segments.md).
 
@@ -36,17 +34,17 @@ This step is performed by the **business user**. This is where you create your j
 
 Here are the main steps to send messages through journeys:
 
-1. In the JOURNEY MANAGEMENT section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
+1. In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. The list of journeys is displayed.
 
     ![](../assets/interface-journeys.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey. 
+1. Click **[!UICONTROL Create Journey]** to create a new journey. 
 
 1. Edit the journey's properties in the configuration pane displayed on the right side. Learn more in this [section](journey-gs.md#change-properties).
 
     ![](../assets/jo-properties.png)
 
-1. Start by drag and dropping an event or a **Read segment** activity from the palette into the canvas. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
+1. Start by drag and dropping an event or a **Read Segment** activity from the palette into the canvas. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
 
     ![](../assets/read-segment.png)
 
@@ -76,7 +74,7 @@ The **Copy technical details** allows you to copy technical information about th
 
 By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.
 
-When a journey "ends", it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
+When a journey "ends", it will have the status **[!UICONTROL Closed]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
 
 After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 
@@ -108,6 +106,32 @@ You can enter a fixed time zone or use Adobe Experience Platform profiles to def
 
 For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
 
+### Burst mode {#burst}
+
+Burst mode is a paid add-on that allows very fast push message sending in large volumes. It is used for simple journeys that include a read segment and a simple push message. Burst is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
+
+Limitations:
+
+* The journey must start with a read segment. Events are not allowed.
+* The next step must be a push message. No other activity or step is allowed (except the optional end activity):
+   * Push channel only
+   * No personalization is allowed in the message
+   * The message must be small (<2KB)
+
+Important note:
+
+If any of the requirements is not fullfilled, burst mode will not be available in the journey.
+
+To activate Burst mode, open your journey and click the pencil icon, in the top right to access the journey's properties. Then, activate the **Enable burst mode** toggle.
+
+![](../assets/burst.png)
+
+Burst mode will be deactivated if you modify a burst journey and add an activity that is not compliant with burst (message, any other action, an event etc.). A message will be displayed.
+
+![](../assets/burst2.png)
+
+Then test and publish your journey normally. Test mode messages are not sent via the burst mode.
+
 ## Ending a journey
 
 A journey can end for an individual because of two reasons:
@@ -123,7 +147,7 @@ A journey can close because of the following reasons:
 * A one-shot segment based journey that has finished executing.
 * After the last occurence of a recurring segment based journey.
 
-When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
+When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 
 In case you need to stop the progress of all individuals in the journey, you can stop it. Stopping the journey will timeout all individuals in the journey.
 
@@ -139,18 +163,18 @@ The **[!UICONTROL Stop]** and **[!UICONTROL Close to new entrances]** options al
 
 You can close a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
 
-When closed, a journey will have the status **[!UICONTROL Closed (no entrance)]**. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
+When closed, a journey will have the status **[!UICONTROL Closed]**. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 
 A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it. Only finished journeys can be deleted.
 
-You can close a journey by clicking **[!UICONTROL Close to new entrances]** while hovering over a journey in the list of journeys.
+To close a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Close to new entrances]**.
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 You can also:
 
 1. In the **[!UICONTROL Journeys]** list, click on the journey you want to close.
-1. On the top-right, click on the down arrow.
+1. On the top-right, click the down arrow.
 
     ![](../assets/finish_drop_down_list.png)
 
@@ -165,9 +189,9 @@ A stopped journey version cannot be restarted.
 
 When stopped, a journey will have the status **[!UICONTROL Stopped]**. 
 
-You can stop a journey (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **[!UICONTROL Stop]** while hovering over a journey in the list of journeys.
+You can stop a journey, for example, if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly. To stop a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Stop]**.
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 You can also:
 

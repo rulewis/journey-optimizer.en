@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Get started with email design {#get-started-content-design}
 
-![](assets/do-not-localize/badge.png)
-
 When creating email content with [!DNL Journey Optimizer], you can:
 
 * **Design your email from scratch** through the email designer's interface and leverage images from [Adobe Experience Manager Assets Essentials](assets-essentials.md). Learn how to design your email content or use built-in templates [in this section](create-email-content.md).

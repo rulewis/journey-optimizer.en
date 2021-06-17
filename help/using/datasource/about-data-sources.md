@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # About data sources {#concept_s1s_dqt_52b}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="About data sources"

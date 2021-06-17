@@ -8,17 +8,17 @@ level: Intermediate
 ---
 # User interface {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
-This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from your user interface.
-
-## Workspace {#cjm-workspace}
-
 Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse to [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Key concepts when browsing the user interface are detailled in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide).
+>* Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) for more details.
+>
+>* This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
+>
+> * Components and capabilities available in the UI depend on your permissions and on your licencing package. For any question, reach out to your Adobe Customer Success Manager.
+
+## Left navigation
 
 Use the links on the left to browse capabilities. 
 
@@ -78,9 +78,39 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more about sandboxes in this documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
 
-## Browser and language support 
+
+## In-product use cases
+
+Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
+
+![](assets/use-cases-home.png)
+
+Available use cases are:
+
+* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [in this page](building-journeys/creating-test-profiles.md#use-case-1).
+* **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. (coming soon)
+* **Send emails to enboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
+* **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)
+
+Click **[!UICONTROL View details]** to learn more about each use case.
+
+Click the **[!UICONTROL Begin]** button to start the use case.
+
+You can access executed use cases from the **[!UICONTROL View use case library]** button.
+
+## Find help and support
+
+Access Adobe Journey Optimizer key help pages from the lower section of the home page.
+
+Use the **Help** icon to access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+
+![](assets/ajo-help.png)
+
+## Supported browsers
 
 Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+
+## Language preferences
 
 User interface is currently available in the following languages:
 
@@ -100,7 +130,7 @@ To change your language:
 
 ## Search
 
-Use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages accross your sandboxes. Start entering content to display top results.
+Anywhere from Adobe Journey Optimizer interface, use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages accross your sandboxes. Start entering content to display top results.
 
 ![](assets/unified-search.png)
 
@@ -132,17 +162,3 @@ In the Event, Data source and Action configuration panes, the **[!UICONTROL Used
 In the different lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
 
 ![](assets/journey4.png)
-
-## Browse through Adobe Experience Platform fields {#friendly-names-display}
-
-When defining [event payload](event/about-creating.md#define-the-payload-fields), [field group payload](datasource/configure-data-sources.md#define-field-groups) and selecting fields in the [expression editor](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html), the display name is displayed in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model.
-
-If descriptors such as "xdm:alternateDisplayInfo" are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with “eVars” and generic fields. You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
-
-![](assets/xdm-from-descriptors.png) 
-
-If a friendly name is available, then the field will be displayed as `<friendly-name>(<name>)`. If no friendly name is available, the display name will appear, for example `<display-name>(<name>)`. If none of them are defined, only the technical name of the field will be displayed `<name>`.
-
->[!NOTE]
->
->Friendly names are not retrieved when you select fields from a union of schemas.

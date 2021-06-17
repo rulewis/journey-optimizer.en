@@ -9,13 +9,11 @@ level: Intermediate
 ---
 # General events {#section_ofg_jss_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [this page](../event/about-events.md).
 
 ![](../assets/general-events.png)
 
-When you drop a business event, it automatically adds a **Read segment** activity. For more information on business events, refer to [this section](../event/about-events.md) 
+When you drop a business event, it automatically adds a **Read Segment** activity. For more information on business events, refer to [this section](../event/about-events.md) 
 
 ## Listening to events during a specific time {#events-specific-time}
 
@@ -25,11 +23,11 @@ The journey will then listen to the event during the time specified in the timeo
 
 To configure a timeout for an event, follow these steps:
 
-1. Activate the **[!UICONTROL Enable the event timeout]** option from the event properties.
+1. Activate the **[!UICONTROL Define the event timeout]** option from the event properties.
 
 1. Specify the amount of time the journey will wait for the event.
 
-1. If you want to send the individuals into a timeout path when no event is received within the specified timeout, enable the **[!UICONTROL Set the timeout path]** option. If this option is not enabled, the journey will end for the individual once the timeout is reached.
+1. If you want to send the individuals into a timeout path when no event is received within the specified timeout, enable the **[!UICONTROL Set a timeout path]** option. If this option is not enabled, the journey will end for the individual once the timeout is reached.
 
     ![](../assets/event-timeout.png)
 

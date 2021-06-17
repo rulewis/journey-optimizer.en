@@ -9,9 +9,6 @@ level: Experienced
 
 # Helpers {#gs-helpers}
 
-![](../../assets/do-not-localize/badge.png)
-
-
 ## Conditions{#if-function}
 
 The `if` helper is used to define a conditional block.

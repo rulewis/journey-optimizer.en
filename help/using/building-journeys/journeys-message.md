@@ -8,15 +8,13 @@ level: Intermediate
 ---
 # Add a message in a journey
 
-![](../assets/do-not-localize/badge.png)
-
 [!DNL Journey Optimizer] message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). Then you simply add, in your journey, a push or email message designed using Journey Optimizer. 
 
 If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md).
 
 ## Adding a Message activity
 
-1. As always, start your journey with an event or a **Read segment** activity.
+1. As always, start your journey with an event or a **Read Segment** activity.
 
    ![](../assets/jo-message0.png)
 
@@ -32,7 +30,7 @@ If you're using a third-party system to send your messages, you can create a cus
 
    ![](../assets/jo-message3.png)
 
-1. Choose a message and click **Select**. You can also create a new message directly from this screen by clicking **Create new**.
+1. Choose a message and click **Select**. You can also create a new message directly from this screen by clicking **Create message**.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -42,10 +40,10 @@ If you're using a third-party system to send your messages, you can create a cus
 
 1. Add the next steps to your journey.
 
-## Channel parameters
+## Email parameters and push parameters
 
-The **Channel** parameters are displayed. These fields are read-only. This configuration is performed when creating the message. See [this section](../get-started-content.md). 
+The **[!UICONTROL Email parameters]** and **[!UICONTROL Push parameters]** sections show read-only fields. You typically perform this configuration when creating the message. See [this section](../get-started-content.md). 
 
 ![](../assets/jo-message4.png)
 
-You can use the **Enable editing field** icon on the right side of the field to force a specific value. This can be useful for testing purposes. For example, for an email, you can add your email address. When publishing the journey, the email will be sent to you.
+To force a specific value, you can use the **Enable parameter override** icon to the right of the field. This option may be useful for testing purposes. For example, for an email, you can add your email address. After you have published the journey, the email is sent to you.

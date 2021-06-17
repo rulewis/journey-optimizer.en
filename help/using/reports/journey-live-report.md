@@ -1,5 +1,5 @@
 ---
-title: Journey ive report
+title: Journey live report
 description: Learn how to use data from the journey live report
 feature: Reporting
 topic: Content Management
@@ -7,8 +7,6 @@ role: User
 level: Intermediate
 ---
 # Journey live report {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 Journey live report can be accessed directly from your journey with the **[!UICONTROL Live report]** button. 
 
@@ -58,7 +56,7 @@ For a detailed report on a specific email delivery, refer to the [Email live rep
 
 ![](../assets/report_email_1.png)
 
-The **[!UICONTROL Sending Statistics]** and **[!UICONTROL Sending metrics by Email]** widgets details the success of your delivery:
+The **[!UICONTROL Email Sending Statistics]** widget details the main information relative to your message:
 
 * **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
 
@@ -66,9 +64,7 @@ The **[!UICONTROL Sending Statistics]** and **[!UICONTROL Sending metrics by Ema
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
 
-<!--Hard and bounce - by Email-->
-
-The **[!UICONTROL Email summary]** graph details the main information relative to your message:
+The **[!UICONTROL Sending metrics by Email]** table and **[!UICONTROL Email Summary]** graph details the success of your delivery:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
 
@@ -82,9 +78,13 @@ The **[!UICONTROL Email summary]** graph details the main information relative t
 
 * **[!UICONTROL Clicks]**: Number of times a content was clicked in a delivery.
 
+* **[!UICONTROL Unsubscribe]**: Number of clicks on the unsubscription link.
+
+* **[!UICONTROL Spam complaints]**: Number of times a message was declared as spam or junk.
+
 ![](../assets/report_email_2.png)
 
-The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widgets contain the data available related to bounced messages, such as:
+The **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** and **[!UICONTROL Hard and bounce - by Email]** widgets contain the data available related to bounced messages, such as:
 
 * **[!UICONTROL Hard bounce]**: The total number of permanent errors, such as a wrong email address. This involves an error message that explicitly states that the address is invalid, such as Unknown user.
 

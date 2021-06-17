@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Wait activity{#section_rlm_nft_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * [Duration](#duration) 

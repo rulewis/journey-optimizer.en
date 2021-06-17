@@ -6,20 +6,13 @@ topic: Administration
 role: Administrator
 level: Intermediate
 ---
-# Push notification configuration {#get-started-push}
-
-![](assets/do-not-localize/badge.png)
+# Get started with push configuration {#get-started-push}
 
 Push notifications help you reach your mobile app users at any time - especially when they are not actively using your app. Push notifications may help you achieve a variety of use cases such as providing updates about your service, ask a user to take action, alert the user to a new deal, etc. Device platforms require opt-in before end-users may receive or view your notifications. User opt-in may be received as early as after the app is launched for the first time post-install or in a subsequent session or workflow as appropriate. [!DNL Journey Optimizer] supports push notifications and helps you send highly relevant notifications at industry-leading throughput rates. Push notifications may include personalization and Journey-based context in order to leverage data insights your brand has with Adobe Experience Cloud.
 
 This page will help you setup and understand key services & workflows involved with push notifications in [!DNL Journey Optimizer].
 
-## Set Push Notifications with Adobe Journey Optimizer
-
-To send push notifications with Adobe Journey Optimizer, you'll need to complete the following steps:
-
-1. Follow documentation to get setup with [Adobe Journey Optimizer & Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) in your app.
-1. Create [preset for the push messaging channel](configuration/message-presets.md)
+Steps to configure push channel in [!DNL Adobe Journey Optimizer] are detailed in [this page](push-configuration.md).
 
 ## Push Notifications and Adobe Journey Optimizer
 
@@ -65,4 +58,3 @@ The following pictorial shows the systems and services involved with associated 
 The following pictorial shows the various steps, end-to-end, involved in configuring the components that form the skeleton of push data flow. The action items have been categorized based on the role performing the configuration and the component being configured. 
 
 ![](assets/user-flow.png)
-

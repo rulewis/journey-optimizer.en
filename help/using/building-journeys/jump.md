@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Jumping from one journey to another {#jump}
 
-![](../assets/do-not-localize/badge.png)
-
 The **[!UICONTROL Jump]** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
 * simplify the design of very complex journeys by splitting them into several ones  
@@ -49,8 +47,8 @@ In journey B, the first event is triggered internally, via the **[!UICONTROL Jum
 
 * The **[!UICONTROL Jump]** activity is only available in journeys that use a namespace.
 * You can only jump to a journey that uses the same namespace as the origin journey.
-* You cannot jump to a journey that starts with a **Segment qualification** event or **Read segment**. 
-* You cannot have a **[!UICONTROL Jump]** activity and a **Segment qualification** event or **Read segment** in the same journey.
+* You cannot jump to a journey that starts with a **Segment Qualification** event or **Read Segment**. 
+* You cannot have a **[!UICONTROL Jump]** activity and a **Segment Qualification** event or **Read Segment** in the same journey.
 * You can include as many **[!UICONTROL Jump]** activities as you need in a journey. After a **[!UICONTROL Jump]**, you can add any activity needed.
 * You can have as many jump levels as needed. For example, Journey A jumps to journey B, which jumps to journey C, and so on.
 * The target journey can also include as many **[!UICONTROL Jump]** activities as needed.
@@ -72,7 +70,7 @@ In journey B, the first event is triggered internally, via the **[!UICONTROL Jum
    ![](../assets/jump2.png)
 
 1. Click inside the **Target journey** field. 
-   The list displays all journey versions that are draft, live or in test mode. Journeys that use a different namespace or that start with a **Segment qualification** event are not available. Target journeys that would create a loop pattern are also filtered out.
+   The list displays all journey versions that are draft, live or in test mode. Journeys that use a different namespace or that start with a **Segment Qualification** event are not available. Target journeys that would create a loop pattern are also filtered out.
 
    ![](../assets/jump3.png)
 

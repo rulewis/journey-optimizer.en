@@ -6,11 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 ---
-# Journey use case
+# Send multi-channel messages
 
-![](../assets/do-not-localize/badge.png)
-
-This section presents a use case that combines a Read segment, an event, reaction events and email/push messages.
+This section presents a use case that combines a Read Segment, an event, reaction events and email/push messages.
 
 ![](../assets/jo-uc1.png)
 
@@ -38,7 +36,9 @@ In our journey, we want to leverage a specific segment of customers. All individ
 
 For more information on segments, refer to this [page](../segment/about-segments.md).
 
-1. From the **[!UICONTROL Segments]** menu, click **[!UICONTROL Create segment]**.
+1. From the CUSTOMER menu section, select **[!UICONTROL Segments]**.
+
+1. Click the **[!UICONTROL Create segment]** button that is located at the top right of the segment list.
 
 1. In the **[!UICONTROL Segment properties]** pane, enter a name for the segment.
 
@@ -48,7 +48,7 @@ For more information on segments, refer to this [page](../segment/about-segments
 
    ![](../assets/add-attributes.png)
 
-The segment is now created and ready to be used in your journey. Using a **Read segment** activity, you can make all individuals belonging to the segment enter the journey. 
+The segment is now created and ready to be used in your journey. Using a **Read Segment** activity, you can make all individuals belonging to the segment enter the journey. 
 
 ### Configure the event
 
@@ -56,7 +56,7 @@ You need to configure an event that is sent to your journey when a customer make
 
 For this, we use a rule-based event. For more information on events, refer to this [page](../event/about-events.md).
 
-1. In the ADMINISTRATION section, browse to **[!UICONTROL Configurations]**, then click **[!UICONTROL Events]**. Click **[!UICONTROL Add]** to create a new event. 
+1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**, then click **[!UICONTROL Events]**. Click **[!UICONTROL Create event]** to create a new event. 
 
 1. Enter the name of your event.
 
@@ -66,7 +66,7 @@ For this, we use a rule-based event. For more information on events, refer to th
 
 1. In the **[!UICONTROL Event ID condition]** field, define the condition used by the system to identify the events that trigger your journey. For example, you can add a `purchaseMessage` field and define the following rule: `purchaseMessage="thank you"`
 
-1. Define the **[!UICONTROL Namespace]** and **[!UICONTROL Key]**.
+1. Define the **[!UICONTROL Namespace]** and **[!UICONTROL Profile Identifier]**.
 
 1. Click **[!UICONTROL Save]**. 
 
@@ -88,7 +88,7 @@ Refer to this [section](../segment/about-segments.md) to learn how to design and
 
 ## Design the journey
 
-1. Start the journey with a **Read segment** activity. Select the segment created previously. All individuals belonging to the segment enter the journey.
+1. Start the journey with a **Read Segment** activity. Select the segment created previously. All individuals belonging to the segment enter the journey.
 
    ![](../assets/jo-uc4.png)
 

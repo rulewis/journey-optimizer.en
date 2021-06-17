@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Testing the journey{#testing_the_journey}
 
-![](../assets/do-not-localize/badge.png)
-
 Before being able to test your journey, you must resolve all errors if any. See [this section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
@@ -55,6 +53,7 @@ To use the test mode, follow these steps:
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
+* When reaching a split, the top branch is always chosen. You can reorganize the position of the split branches if you want the test to choose a different path. 
 
 ## Firing your events {#firing_events}
 

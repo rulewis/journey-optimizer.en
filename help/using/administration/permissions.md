@@ -19,8 +19,6 @@ level: Intermediate
 ---
 # Manage users and product profiles {#manage-permissions}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!IMPORTANT]
 >
 > Each of the procedures detailed below can only be carried out by a **[!UICONTROL Product]** or **[!UICONTROL System]** administrator. For more information on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
@@ -81,7 +79,7 @@ Note that if you modify an out-of-the-box or custom **[!UICONTROL Product profil
 
 1. Select the **[!UICONTROL Permissions]** tab.
 
-    The **[!UICONTROL Permissions]** tab displays the list of capabilities that apply to the ***[!UICONTROL Experience Cloud - Platform powered applications]** product.
+    The **[!UICONTROL Permissions]** tab displays the list of capabilities that apply to the **[!UICONTROL Experience Cloud - Platform powered applications]** product.
 
     ![](../assets/access_control_5.png)
 

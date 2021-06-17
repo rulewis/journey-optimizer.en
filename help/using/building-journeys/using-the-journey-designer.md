@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Design your journey
 
-![](../assets/do-not-localize/badge.png)
-
 The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available. Each activity has a specific role and place in the process. The activities are sequenced. When an activity is finished, the flow continues and processes the next activity, and so on. 
 
 ## Get started with journey design 
@@ -32,9 +30,9 @@ The **canvas** is the central zone in the journey designer. It is in this zone t
 
 ![](../assets/journey39.png)
 
-The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click on the **[!UICONTROL Delete]** icon to delete the activity. Click on **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. To delete activities, you can also select one activity (or several) and press the backspace key. Pressing the escape key will close the activity configuration pane. 
+The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click the **[!UICONTROL Delete]** icon to delete the activity. Click **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. To delete activities, you can also select one activity (or several) and press the backspace key. Pressing the escape key will close the activity configuration pane. 
 
-By default, read-only fields are hidden. To display them, click the **Show read-only fields** icon in the top left of the activity configuration pane.
+By default, read-only fields are hidden. To show read-only fields, click the **Show read-only fields** icon at the top left of the activity configuration pane. This setting applies to all activities in all journeys. 
 
 ![](../assets/journey59bis.png)
 
@@ -48,11 +46,11 @@ When you design your journey, the first question you want to ask is how profiles
 
 **Start with an event**: when a journey is set to listen to events, individuals enter the journey **unitarily** in real-time. Messages included in your journey are sent to the person currently flowing into the journey. [Learn more about events](../event/about-events.md)
 
-**Start with a Read segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
+**Start with a Read Segment**: you can set your journey to listen to Adobe Experience Platform segments. In this case, all individuals belonging to the specified segment enter the journey. Messages included in your journey are sent to the individuals belonging to the segment. [Learn more about reading segments](read-segment.md).
 
 ## Define the next steps
 
-After your first event or Read segment, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
+After your first event or Read Segment, you can combine the different activities to build your multi-step cross-channel scenarios. Choose, from the palette, the steps you need.
 
 **Events**
 
@@ -62,11 +60,11 @@ You can add **several events** in your journey, as long as they use the same nam
 
 You can also add a **Reaction** event after a message to react to tracking data related to the message. This allows you, for example, to send another message if the individual opened the previous message or clicked inside it. Learn more in this [section](reaction-events.md).
 
-The **Segment qualification** event activity allows you to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](segment-qualification-events.md).
+The **Segment Qualification** event activity allows you to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. You can make all new silver customers enter a journey and send personalized messages. Learn more in this [section](segment-qualification-events.md).
 
 **Orchestration**
 
-In the orchestration activities, you'll find the **Read segment** activity which allows you to set your journey to listen to an Adobe Experience Platform segment. [Learn more about the Read segment activity](read-segment.md).
+In the orchestration activities, you'll find the **Read Segment** activity which allows you to set your journey to listen to an Adobe Experience Platform segment. [Learn more about the Read Segment activity](read-segment.md).
 
 The other activities allow you to add conditions to your journey to define several paths, set a waiting time before executing the next activity, or end your journey. Learn more in this [section](about-journey-activities.md#orchestration-activities).
 
@@ -82,11 +80,11 @@ Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiti
 
  ![](../assets/journey42.png)
 
-Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
+Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
 
 When listening to an event, we recommend that you do not wait for the event indefinitely. It is not mandatory, just a best practice. If you want to listen to one or several events only during a certain time, you will place one or several events and a wait activity in parallel. See [this section](../building-journeys/general-events.md#events-specific-time).
 
-To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
+To delete the path, place your cursor on it and click the **[!UICONTROL Delete path]** icon.
 
  ![](../assets/journey42ter.png)
 

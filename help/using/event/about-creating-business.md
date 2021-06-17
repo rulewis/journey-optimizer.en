@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Configure a business event {#configure-a-business-event}
 
-![](../assets/do-not-localize/badge.png)
-
 Unlike unitary events, business events are not linked to a specific profile. The event ID type is always rule-based. Read more on business events in [this section](../event/about-events.md). 
 
 Read segment based journeys can be triggered in one-shot, by a scheduler on a regular basis or by a business event, when the event occurs.
@@ -31,11 +29,11 @@ Business events can be "a product is back in stock", "the stock price of a compa
 
 Here are the first steps to configure a business event:
 
-1. In the ADMINISTRATION section, browse to **[!UICONTROL Configurations]**, then click **[!UICONTROL Events]**. The list of events is displayed. 
+1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Events]** section, click **[!UICONTROL Manage]**. The list of events is displayed. 
 
    ![](../assets/jo-event1.png)
 
-1. Click **[!UICONTROL Add]** to create a new event. The event configuration pane opens on the right side of the screen.
+1. Click **[!UICONTROL Create Event]** to create a new event. The event configuration pane opens on the right side of the screen.
 
    ![](../assets/jo-event2.png)
 
@@ -76,7 +74,7 @@ Here are the first steps to configure a business event:
 
 The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. For more information on XDM, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
-1. Select an XDM schema from the list and click on the **[!UICONTROL Payload]** field or on the **[!UICONTROL Edit]** icon.
+1. Select an XDM schema from the list and click on the **[!UICONTROL Fields]** field or on the **[!UICONTROL Edit]** icon.
 
     ![](../assets/journey8-business.png)
 
@@ -86,11 +84,9 @@ The payload definition allows you to choose the information the system expects t
 
 1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. 
 
-    ![](../assets/journey10-business.png)
-
 1. When you're done selecting the needed fields, click **[!UICONTROL Save]** or press **[!UICONTROL Enter]**.
 
-    The number of selected fields appears in the **[!UICONTROL Payload]** field.
+    The number of selected fields appears in the **[!UICONTROL Fields]** field.
 
     ![](../assets/journey12-business.png)
 

@@ -8,9 +8,7 @@ level: Experienced
 ---
 # Maps Functions{#maps}
 
-![](../../assets/do-not-localize/badge.png)
-
-[!DNL Profile Query Language] (PQL) offers functions to make interaction with maps easier. 
+Use Map functions in personalization to make interaction with maps easier. 
 
 ## Get{#get}
 

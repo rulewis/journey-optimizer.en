@@ -8,8 +8,6 @@ level: Experienced
 ---
 # Operators {#operators}
 
-![](../../assets/do-not-localize/badge.png)
-
 ## Boolean functions
 
 Boolean functions are used to perform boolean logic on different elements.

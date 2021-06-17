@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Manage opt-out {#consent}
 
-![](assets/do-not-localize/badge.png)
-
 Use [!DNL Journey Optimizer] to track your recipients' consent for communication and understand how they want to engage with your brand by managing their preferences and subscriptions. <!--Their preferences and subscriptions are handled through Consent management.-->
 
 Regulations such as GDPR state that you must comply with specific requirements before being able to use information from Data Subjects. Moreover, Data Subjects should be able to modify their consent at any time.
@@ -124,6 +122,18 @@ Request body:
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## Unsubscribe link in header {#unsubscribe-email}
+
+If the recipients' email client software supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link.
+
+For example, the unsubscribe link will display like this in Gmail:
+
+![](assets/unsubscribe-email.png)
+
+If a recipient clicks this link, the corresponding profile is immediately opted out and this choice is updated in Experience Platform.
+
+Clicking the unsubscribe link from the header has the same effect as clicking the unsubscribe link in the email content. Learn more on opt-out management in [this section](#opt-out-management).
 
 ## Push opt-out management {#push-opt-out-management}
 

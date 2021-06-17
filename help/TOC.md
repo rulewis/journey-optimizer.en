@@ -15,7 +15,6 @@ hide: yes
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
-  + [Known issues](using/known-issues.md)
 + Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
@@ -29,8 +28,7 @@ hide: yes
     + [Import or code your email content](using/existing-content.md)
     + [Use email designer content components](using/content-components.md)
   + Personalization{#personalization}
-    + [Get started](using/personalization/personalize.md)
-    + [Personalization areas](using/personalization/personalization-aeras.md)
+    + [Get started with personalization](using/personalization/personalize.md)
     + [Personalization syntax](using/personalization/personalization-syntax.md)
     + [Personalization validation](using/personalization/personalization-validation.md) 
     + [Personalization use case](using/personalization/personalization-use-case.md) 
@@ -78,23 +76,25 @@ hide: yes
     + [Read segment](using/building-journeys/read-segment.md)
     + [Message](using/building-journeys/journeys-message.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
+    + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
     + [Update profile](using/building-journeys/update-profiles.md)
   + Use cases {#journey-use-cases}
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
+    + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Track and monitor {#reporting}
   + [Message tracking](using/message-tracking.md)
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
-    + [Overview](using/reports/live-report.md)
-    + [Journey live report](using/reports/journey-live-report.md)
-    + [Email live report](using/reports/email-live-report.md)
-    + [Push live report](using/reports/push-live-report.md)
+    + [Access Live report dashboard](using/reports/live-report.md)
+    + [Journey Live report](using/reports/journey-live-report.md)
+    + [Email Live report](using/reports/email-live-report.md)
+    + [Push Live report](using/reports/push-live-report.md)
   + Global report {#global-report}
-    + [Overview](using/reports/global-report.md)
-    + [Journey global report](using/reports/journey-global-report.md)
-    + [Email global report](using/reports/email-global-report.md)
-    + [Push global report](using/reports/push-global-report.md)
+    + [Access Global report dashboard](using/reports/global-report.md)
+    + [Journey Global report](using/reports/journey-global-report.md)
+    + [Email Global report](using/reports/email-global-report.md)
+    + [Push Global report](using/reports/push-global-report.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
     + [Journey fields](using/reports/sharing-journey-fields.md)
@@ -106,19 +106,20 @@ hide: yes
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
 + Decision management {#offer-decisioniong}
-  + Get started with Decision Management {#get-started}
+  + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
-    + [Glossary](using/offers/get-started/glossary.md)
-  + Create and manage offers {#managing-offers-in-the-offer-library}
-    + [Key steps to create an offer](using/offers/offer-library/key-steps.md)
+    + [Key steps to create and manage offers](using/offers/offer-library/key-steps.md)
+    + [Use case: insert offers in an email](using/offers/offers-e2e.md)
+  + Create components {#create-components}
     + [Create placements](using/offers/offer-library/creating-placements.md)
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
+    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+  + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)
     + [Create collections](using/offers/offer-library/creating-collections.md)
-    + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
@@ -184,10 +185,9 @@ hide: yes
 + Configuration{#get-started}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration}
-    + [Technical settings](using/administration/administration.md)
-    + [Create message presets](using/configuration/message-presets.md)
-    + [Configure push channel](using/push-configuration.md)
-    + [Push notification configuration](using/push-gs.md)
+    + Push notification configuration{#push-config}
+      + [Get started with push configuration](using/push-gs.md)
+      + [Configure push notification channel](using/push-configuration.md)
     + Email configuration {#email-config}
       + Delegate subdomains {#delegate-subdomains}
         + [Get started with subdomain delegation](using/configuration/about-subdomain-delegation.md)
@@ -199,7 +199,8 @@ hide: yes
       + Monitor email addresses {#monitor-reputation}  
         + [Manage suppression list](using/configuration/manage-suppression-list.md)
         + [Retries](using/configuration/retries.md)
-      + [Change email primary address](using/configuration/primary-email-addresses.md) 
+      + [Change email primary address](using/configuration/primary-email-addresses.md)
+    + [Create message presets](using/configuration/message-presets.md)
   + Configure journeys {#configure-journeys}
     + [About Data Sources, Events and Actions](using/configuration/about-data-sources-events-actions.md)
     + [Integrate with external systems](using/configuration/external-systems.md)
@@ -219,6 +220,7 @@ hide: yes
     + Action configuration {#action-journeys}
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
+      + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
 + Access control {#administration}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)

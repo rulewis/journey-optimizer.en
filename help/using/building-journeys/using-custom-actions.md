@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Use custom actions {#section_f2c_hbg_nhb}
 
-![](../assets/do-not-localize/badge.png)
-
 If you're using a custom action, you will see, in read-only, the **[!UICONTROL URL Configuration]** and **[!UICONTROL Authentication]** parameters defined in the action configuration screen (see [this page](../action/about-custom-action-configuration.md)).
 
 >[!NOTE]

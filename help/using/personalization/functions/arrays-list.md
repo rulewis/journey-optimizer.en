@@ -8,8 +8,6 @@ level: Experienced
 ---
 # Arrays and list functions {#arrays}
 
-![](../../assets/do-not-localize/badge.png)
-
 Use these functions to make interaction with arrays, lists, and strings easier.
 
 ## Distinct{#distinct}

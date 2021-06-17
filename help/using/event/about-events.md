@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # About events{#concept_gfj_fqt_52b}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="About events"
@@ -45,6 +43,8 @@ For unitary events, there are two types of event ID:
    >A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 5000 per seconds for a given Organization (ORG). It corresponds to Journey Optimizer SLAs. See this [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
 * **System-generated** events: these events require an eventID. This eventID field is automatically generated when creating the event. The system pushing the event should not generate an ID, it should pass the one available in the payload preview. 
+
+Journey Optimizer requires events to be streamed or batched into Adobe Experience Platform. This data does not necessarily need to go to the Real-Time Profile. If you would like to use the events for segmentation or lookup in a separate journey, we recommend you enable the dataset for profile.
 
 ## Data cycle {#section_r1f_xqt_pgb}
 

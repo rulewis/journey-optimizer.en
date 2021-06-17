@@ -8,15 +8,16 @@ level: Intermediate
 ---
 # Preview and test your messages{#preview-and-proof}
 
-![](assets/do-not-localize/badge.png)
-
 Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](personalization/personalize.md), you will be able to check how this content is displayed in the message, leveraging test profile data.
 
 To detect possible errors in email content or personalization settings, send proofs to test profiles. A proof should be sent each time a change is made, to validate latest content. 
 
 >[!CAUTION]
 >
->You need to have test profiles available to be able to preview your messages and send proofs. Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md).
+>You need to have test profiles available to be able to preview your messages and send proofs. 
+>
+>Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md). 
+
 
 To test your message content, you need to:
 
@@ -27,13 +28,18 @@ You will then be able to [send proofs](#send-proofs) to your test profiles.
 
 In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to instantly preview your **email rendering** in popular email clients. You can then ensure your email content looks great and works properly in every inbox. Learn how to unlock Litmus Email Previews in [this section](#email-rendering)
 
+>[!CAUTION]
+>
+>When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](personalization/personalization-use-case.md).
+>
+
 ## Select test profiles{#select-test-profiles}
 
 Use [Test profiles](building-journeys/creating-test-profiles.md) to target additional recipients who do not match the defined targeting criteria.
 
 To select test profiles, follow the steps below: 
 
-1. In the message interface or in the email designer, click the **[!UICONTROL Preview]** button to access the test profile selection.
+1. In the message interface or in the email designer, click the **[!UICONTROL Show preview]** button to access the test profile selection.
 
     ![](assets/email-preview-button.png)
 
@@ -118,6 +124,10 @@ Once [test profiles](#select-test-profiles) are selected, you can send proofs.
     ![](assets/send-proof-view.png)
 
 You need to send proofs after any modification to the message content.
+
+>[!NOTE]
+>
+> In the proof sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
 ## Email rendering{#email-rendering}
 

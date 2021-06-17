@@ -32,7 +32,7 @@ The **[!UICONTROL Status]** column provides information on the subdomain delegat
 
 To access detailed information about a subdomain, open it from the list. You can:
     
-* Retrieve the subdomain name (read-only) configured during the delegation process, as well as the generated URLs (resources, mirror page, tracking URLs),
+* Retrieve the subdomain name (read-only) configured during the delegation process, as well as the generated URLs (resources, mirror pages, tracking URLs),
 
 * Add a Google site verification TXT record to your subdomain to ensure that it is verified (see [Add a Google TXT record to a subdomain](google-txt.md)). 
     

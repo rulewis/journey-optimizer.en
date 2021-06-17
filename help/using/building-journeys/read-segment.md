@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 
-![](../assets/do-not-localize/badge.png)
-
 ## About the Read Segment activity {#about-segment-trigger-actvitiy}
 
 The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
@@ -19,10 +17,12 @@ Let's take as an example the "Luma app opening and checkout" segment created in 
 >[!NOTE]
 >
 >It is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
+>
+>The Burst paid add-on allows very fast push message sending in large volumes for simple journeys that include a read segment and a simple push message. For more information, refer to [this section](../building-journeys/journey-gs.md#burst)
 
 ### Configure the activity {#configuring-segment-trigger-activity}
 
-The steps to configure the Read segment activity are as follows:
+The steps to configure the Read Segment activity are as follows:
 
 1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Read Segment]** activity into your canvas.
 
@@ -95,7 +95,7 @@ Once the tests are successfull, you can publish your journey (see [Publishing th
 
 ## Audience targeting in segment-based journeys
 
-Segment-based journeys always start with a **Read segment** activity to retrieve individuals belonging to an Adobe Experience Platform segment.
+Segment-based journeys always start with a **Read Segment** activity to retrieve individuals belonging to an Adobe Experience Platform segment.
 
 The audience belonging to the segment is retrieved once or on a regular basis.
 

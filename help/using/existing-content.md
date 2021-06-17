@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Import or code your email content {#existing-content}
 
-![](assets/do-not-localize/badge.png)
-
 Journey Optimizer allows you to import existing HTML content to design your emails. This content can be raw HTML code or content from an existing HTML file or a zip folder.
 
 To code HTML content or import existing content, follow the steps below:
@@ -51,7 +49,6 @@ Use the **[!UICONTROL Code your own]** mode to can import raw HTML and/or code y
 1. Once your code is ready, click **[!UICONTROL Save]** then go back to the message creation screen to finalize your message.
 
     ![](assets/code-editor-save.png)
-
 
 ## Import HTML {#import-html-content-from-file}
 

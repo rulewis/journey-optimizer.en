@@ -9,8 +9,6 @@ level: Intermediate
 ---
 # About actions {#about_actions}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!CONTEXTUALHELP]
 >id="jo_actions"
 >title="About actions"
@@ -19,6 +17,8 @@ level: Intermediate
 Actions are connections through which you deliver personalized, real-time experiences to customers such as push notifications, email, SMS, or any other means of digital engagement you use in your business.
 
 [!DNL Journey Optimizer] comes with built-in message capability. Refer to [this section](../get-started-content.md).
+
+If you have Adobe Campaign v7 or v8, an integration is available upon request. Refer to [this page](../action/acc-action.md).
 
 If you're using a third-party system to send messages such as Epsilon, Facebook, Adobe.io, Firebase, etc, you need to add and configure a custom action. Refer to [this page](../action/about-custom-action-configuration.md).
 
@@ -30,6 +30,6 @@ Custom actions enable you to configure connection of a third-party system to sen
 
 The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. See [this page](../building-journeys/about-journey-activities.md#action-activities).
 
-To view the action list or configure a new action, browse to **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** in the left navigation. The list of actions is displayed. See [this page](../user-interface.md) for more information on the interface.
+To view the action list or configure a new action, select **[!UICONTROL Configurations]** in the ADMINISTRATION menu section. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. The list of actions is displayed. See [this page](../user-interface.md) for more information on the interface.
 
 ![](../assets/custom1.png)

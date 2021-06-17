@@ -13,7 +13,6 @@ level: Intermediate
 >title="About Content components"
 >abstract="Content components are empty content placeholders that you can use to create the layout of an email."
 
-![](assets/do-not-localize/badge.png)
 
 When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
 You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
@@ -98,8 +97,6 @@ To simply make an external content compliant with the Email Designer, Adobe reco
 
 1. Copy-paste the HTML code you want to add to your email and click **[!UICONTROL Save]**.
 
-    ![](assets/email_designer_24.png)
-
 1. You can now further personalize your HTML by changing the **[!UICONTROL Style]**, **[!UICONTROL Margin]** and **[!UICONTROL Border]** for example or adding a link to redirect your audience to another content.
 
 ## Image {#image}
@@ -110,9 +107,9 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
     ![](assets/email_designer_9.png)
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your computer.
+1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
 
-    You can also click **[!UICONTROL Asset Picker]** to add an asset to your email. For more information on Assets, refer to this [section](assets-essentials.md).
+   To learn more on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
 1. Click on your newly added component to start configuring your **[!UICONTROL Content Components]** and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
 

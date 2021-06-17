@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Build segments {#build-segments}
 
-![](../assets/do-not-localize/badge.png)
-
 In this example, we will build a segment to target all customers living in Atlanta, San Francisco, or Seattle and born after 1980. All these customers should have opened the Luma application within the last 7 days, then made a purchase within 2 hours after opening the application.
 
 1. Access the **[!UICONTROL Segments]** menu, then click the **[!UICONTROL Create segment]** button.

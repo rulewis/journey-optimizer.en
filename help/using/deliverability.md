@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # Manage deliverability {#manage-deliverability}
 
-![](assets/do-not-localize/badge.png)
-
 Deliverability is a measure of the success of your deliveries reaching your recipients inboxes.
 
 **Email deliverability** refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.

@@ -9,8 +9,6 @@ level: Intermediate
 ---
 # Publish your messages {#publish-manage-messages}
 
-![](assets/do-not-localize/badge.png)
-
 ## Publish a message {#publish-message}
 
 Once your message has been created, you can publish it to make it available for execution.

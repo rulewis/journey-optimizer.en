@@ -8,35 +8,26 @@ level: Intermediate
 ---
 # Limitations {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 Here are limitations related to the use of journeys.
-
-## Journey list limitations
-
-* In the journeys list, filters, searches and column selection are reset at page refresh.
 
 ## General actions limitations
 
 * There is no sending throttling. 
-* Two retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
+* Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
 * The built-in **Reaction** event allows you to react to out-of-the-box actions (see this [page](../building-journeys/reaction-events.md)). If you want to react to a message sent via a custom action, you need to configure a dedicated event. 
-* There is no Adobe Campaign Classic productized integration.
 * You cannot place two actions in parallel, you must add them one after the other.
 
 ## Message action limitations
-
-* The **Message** activity does not allow you to use contextual data coming from the journey. The personalization of messages is performed directly when designing the message in Journey Optimizer.
 
 * When you add a multichannel message, two messages will be sent.
 
 ## Journey versions limitations {#journey-versions-limitations}
 
-* a journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
-* a journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
-* The segment and namespace chosen in **Segment qualification** (first node) can not be changed in new versions.
+* A journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
+* A journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
+* The segment and namespace chosen in **Segment Qualification** (first node) can not be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
-* A journey starting with a **Read segment** cannot start with another event in next versions.
+* A journey starting with a **Read Segment** cannot start with another event in next versions.
  
 ## Custom actions limitations
 

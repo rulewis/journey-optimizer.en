@@ -8,8 +8,6 @@ level: Intermediate
 ---
 # About journey activities {#about-journey-activities}
 
-![](../assets/do-not-localize/badge.png)
-
 Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 
 ## Events activities {#event-activities}
@@ -18,7 +16,7 @@ The events configured by the technical user (see [this page](../event/about-even
 
 * [General events](../building-journeys/general-events.md)
 * [Reaction](../building-journeys/reaction-events.md)
-* [Segment qualification](../building-journeys/segment-qualification-events.md)
+* [Segment Qualification](../building-journeys/segment-qualification-events.md)
 
  ![](../assets/journey43.png)
 
@@ -33,7 +31,7 @@ From the palette, on the left-hand side of the screen, the following orchestrati
 * [Condition](../building-journeys/condition-activity.md)
 * [End](../building-journeys/end-activity.md)
 * [Wait](../building-journeys/wait-activity.md)
-* [Read segment](../building-journeys/read-segment.md)
+* [Read Segment](../building-journeys/read-segment.md)
 
 ![](../assets/journey49.png)
 

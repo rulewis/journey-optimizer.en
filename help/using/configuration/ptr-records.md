@@ -27,7 +27,7 @@ With PTR records, receiving mail servers can check the authenticity of sending m
 
 ## Access your subdomains' PTR records
 
-Once a subdomain is delegated in Customer Jourrney Management, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** / **[!UICONTROL PTR records]** menu.
+Once a subdomain is delegated in Customer Jourrney Management, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** menu.
 
 ![](../assets/ptr-records.png)
 
