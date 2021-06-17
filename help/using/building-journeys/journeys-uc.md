@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 ---
-# Journey use case
+# Send multi-channel messages
 
 This section presents a use case that combines a Read Segment, an event, reaction events and email/push messages.
 
