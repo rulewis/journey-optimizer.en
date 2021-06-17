@@ -23,19 +23,9 @@ level: Beginner
 
 * [Configure [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Learn key steps to configure Journey Optimizer
 
-## What's new?
-
-* [Access control](using/administration/permissions-overview.md) </br> Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
-
-* [Helper functions](using/personalization/functions/functions.md) </br> Leverage Helper functions in the Expression editor to personalize message content
+* [Grant access to [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
 
 * [Decision management](using/offers/get-started/starting-offer-decisioning.md) </br> Create offers and deliver the best offer and experience to your customers
-
-* [Preview and test messages](using/preview.md) </br> Use test profiles to preview messages, send proofs and control email rendering
-
-* [Live reports](using/reports/live-report.md) and [Global reports](using/reports/global-report.md)</br> Discover reporting capabilities to track and measure the effectiveness of your journeys and messages
-
-* [Create test profiles](using/building-journeys/creating-test-profiles.md) </br> Create test profiles and use them to test your messages and journeys
 
 
 ## Additional Resources
