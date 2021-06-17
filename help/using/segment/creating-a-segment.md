@@ -32,10 +32,11 @@ In this example, we will build a segment to target all customers living in Atlan
 
     In this example, we need to rely on **Attributes** and **Events** fields to build the segment:
 
-    * **Attributes**: profiles living in Atlanta, San Francisco or Seattle born after 1980,
-    * **Events**: profiles who opened the Luma application within the last 7 days, then made a purchase within 2 hours after opening the application.
+    * **Attributes**: profiles living in Atlanta, San Francisco or Seattle born after 1980
 
         ![](../assets/add-attributes.png)
+        
+    * **Events**: profiles who opened the Luma application within the last 7 days, then made a purchase within 2 hours after opening the application.
 
         ![](../assets/add-events.png)
 
