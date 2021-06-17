@@ -79,7 +79,7 @@ Note that if you modify an out-of-the-box or custom **[!UICONTROL Product profil
 
 1. Select the **[!UICONTROL Permissions]** tab.
 
-    The **[!UICONTROL Permissions]** tab displays the list of capabilities that apply to the ***[!UICONTROL Experience Cloud - Platform powered applications]** product.
+    The **[!UICONTROL Permissions]** tab displays the list of capabilities that apply to the **[!UICONTROL Experience Cloud - Platform powered applications]** product.
 
     ![](../assets/access_control_5.png)
 

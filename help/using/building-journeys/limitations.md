@@ -64,7 +64,7 @@ You can choose from one of these two solutions:
 
 * Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
 
-## Read Segment limitations
+## Read segment limitations
 
 * It is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 * Streamed segments are always up-to-date but batch segments will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.
