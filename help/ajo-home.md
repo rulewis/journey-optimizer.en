@@ -27,7 +27,6 @@ level: Beginner
 
 * [Decision management](using/offers/get-started/starting-offer-decisioning.md) </br> Create offers and deliver the best offer and experience to your customers
 
-
 ## Additional Resources
 
 * [Adobe Experience Platform Guide](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)
