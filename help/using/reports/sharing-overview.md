@@ -12,7 +12,7 @@ In addition to [real-time reports](live-report.md) and built-in [global reportin
 
 >[!NOTE]
 >
->This feature is activated by default on all instances for journey steps events. For journey profile step events, the activation is upon request. You cannot modify or update the schemas and datasets that have been created during provisioning for step events. By default, these datasets and schemas are in read-only mode.
+>This feature is activated by default on all instances for journey steps events. For journey profile step events, the activation is upon request. You cannot modify or update the schemas and datasets that have been created during provisioning for step events. By default, these schemas and datasets are in read-only mode.
 
 For example, you have set up a journey that sends multiple emails. This capability allows you to combine [!DNL Journey Optimizer] data with downstream event data like how many conversions occurred, how much engagement happened on the website, or how many transactions happened in the store. The journey information can be combined with data on Adobe Experience Platform, either from other digital properties or from offline properties to give a more comprehensive view of performance.
 
