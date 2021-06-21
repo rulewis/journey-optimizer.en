@@ -2,7 +2,7 @@
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
 feature: Application Settings
-topic: Administration
+topic: Push
 role: Administrator
 level: Intermediate
 ---
