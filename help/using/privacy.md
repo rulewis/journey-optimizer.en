@@ -1,11 +1,14 @@
 ---
-title: Privacy
+title: Privacy in [!DNL Journey Optimizer] 
 description: Learn how to manage privacy
+topic: Privacy
+role: User
+level: Intermediate
 ---
 
-# Privacy {#privacy}
+# Privacy management with [!DNL Journey Optimizer]{#privacy}
 
-[!DNL Journey Optimizer] is a powerful tool for processing large amounts of data, including personal information and sensitive data.
+[!DNL Journey Optimizer] is a powerful tool for processing large amounts of data, including personal information and sensitive data. In order to deliver better customer experiences, you need to collect and store your customers’ personal data. When using this data, it is important to understand and respect your customers’ privacy. New legal and organizational regulations are giving users the right to access or delete their personal data from your data stores upon request.
 
 * **Personal Data** is information that can directly or indirectly identify a living individual.
 * **Sensitive Personal Data** is information related to an individual’s race, political views, religious beliefs, criminal background, genetic information, health data, sexual preference, biometric information, as well as trade union membership.

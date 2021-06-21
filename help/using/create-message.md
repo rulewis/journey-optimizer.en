@@ -12,7 +12,7 @@ Messages are available from the **[!UICONTROL Messages]** shortcut on the left n
 
 >[!NOTE]
 >
->Every user can access, create, edit and publish messages. Learn more about user permissions [in this section](../using/administration/permissions.md).
+>Users can access, create, edit and/or publish messages depending on their product profile. Learn more about user permissions [in this section](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
