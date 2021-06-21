@@ -85,7 +85,7 @@ The following information is required:
 2. **CSV file**: A comma separated file containing the list of test profiles to create. The use case expects a predefined format for the CSV file that contains the list of test profiles to create. Each row in the file should include the following fields in the correct order as follows:
 
     1. **Person Id**: Unique identifier of the test profile. The values of this field should reflect the identity namespace that was selected. (As an example, if **Phone** is selected for the identity namespace, then the values of this field should be phone numbers. Similarly if **Email** is selected, then the values of this field should be emails)
-    1. **Email**: Test profile email address. (The **Person Id** field and the **Email** field could potentially contain the same values if **Email** is selected as the identity namespace)
+    1. **Email**: Test profile email address. (The **Person Id** field and the **Email Address** field could potentially contain the same values if **Email** is selected as the identity namespace)
     1. **First Name**: Test profile first name.
     1. **Last Name**: Test profile last name.
     1. **City**: Test profile city of residence
