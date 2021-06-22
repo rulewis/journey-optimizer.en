@@ -1,16 +1,6 @@
 ---
 title: Manage users and product profiles
 description: Learn how to manage permissions
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Control Groups
 topic: Administration
