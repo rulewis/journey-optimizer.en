@@ -18,7 +18,7 @@ For more detailed procedures on [!DNL Assets Essentials], refer to [Adobe Experi
 
 To upload files in the [!DNL Assets Essentials], you first need to browse or create the folder it will be stored into. You will then be able to insert them to your email content.
 
-For more information on how to upload assets, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
+For more information on how to upload assets, refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
 
 1. From [!DNL Adobe Journey Optimizer] home page, select the **[!UICONTROL Assets]** tab under the **[!UICONTROL Content management]** menu to access [!DNL Assets Essentials].
 
