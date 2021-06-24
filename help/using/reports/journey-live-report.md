@@ -26,9 +26,9 @@ From your journey **[!UICONTROL Live report]**, the **[!UICONTROL Journey]** tab
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Journey`s performance]** allows you to see the path of your targeted profiles step-by-step through your journey.
+**[!UICONTROL Journey Performance]** allows you to see the path of your targeted profiles step-by-step through your journey.
 
-The **[!UICONTROL Journey`s statistics]** widget displays the following KPIs:
+The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 * **[!UICONTROL Entered profiles]**: Total number of individuals who reached the entry event of the journey.
 
