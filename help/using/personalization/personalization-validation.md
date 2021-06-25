@@ -11,16 +11,16 @@ level: Intermediate
 
 ## Validation mechanisms
 
-In the Expression editor screen, the **Validate** button allows you to validate your personalization syntax.
+In the **Expression Editor** screen, use the **Validate** button to check your personalization syntax.
 
 >[!NOTE]
-> The validation is automatically performed when you click on **Add** to close the editor window.
+> The validation is automatically executed when you click on the **Add** button to close the editor window.
 >
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> If the personalization syntax is not valid, you can't close the expression editor window.
+> If the personalization syntax is not valid, you cannot close the expression editor window.
 >
 
 ## Common errors
@@ -65,7 +65,7 @@ In this case **firstName1** is not defined as attribute in the profile schema:
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### Specific errors related to offers
+## Specific errors related to offers
 
 The errors related to offers integration in an Email or Push message have the following pattern : 
 

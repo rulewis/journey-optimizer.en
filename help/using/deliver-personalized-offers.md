@@ -8,9 +8,7 @@ level: Intermediate
 ---
 # Add personalized offers {#deliver-personalized-offers}
 
-## About Decision Management {#about-offer-decisioning}
-
-With [!DNL Journey Optimizer], you can insert in your email messages decisions (previously known as offer activities) that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
+In [!DNL Journey Optimizer] email messages, you can insert decisions (previously known as 'offer activities') that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
 
 For example, you can add a decision that will display in your email a special discount offer that will vary according to the recipient's loyalty level.
 
@@ -23,7 +21,7 @@ For a **full end-to-end example** showing how to configure offers, use them in a
 
 >[!CAUTION]
 >
->You need to first define an offer decision. Learn how to create decisions in [this section](offers/offer-activities/create-offer-activities.md).
+>Before starting, you must [define an offer decision](offers/offer-activities/create-offer-activities.md).
 
 To insert a decision into an email message, follow the steps below:
 

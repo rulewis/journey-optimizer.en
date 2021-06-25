@@ -7,13 +7,17 @@ role: Data Engineer
 level: Experienced
 ---
 
-# Templating language and helper functions {#functionsL}
+# Helper functions library{#functionsL}
 
-Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn  personalization syntax guidelines in [this page](../personalization-syntax.md).
+Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn personalization syntax guidelines in [this page](../personalization-syntax.md).
+
+[!DNL :arrow_forward:] [Discover how to use helper functions in video](#video)
 
 Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
 
 ![](../assets/access-helper-functions.png)
+
+
 
 In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
 
@@ -273,3 +277,8 @@ Comparison functions are used to compare between different expressions and value
     </tr>
 </table>
 
+## How-to video{#video}
+
+Learn how to transform personalization values using personalization helper functions and understand different use cases for helper functions.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
