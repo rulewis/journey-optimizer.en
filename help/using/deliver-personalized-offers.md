@@ -16,6 +16,8 @@ For more on how to create and manage offers, refer to [this section](offers/get-
 
 For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
 
+[!DNL :arrow_forward:] [Learn how add offers as personalization in this video](#video-offers)
+
 
 ## Insert a decision in an email {#insert-offers}
 
@@ -95,3 +97,9 @@ To display the different offers that are part of the decision with a customer pr
     ![](assets/deliver-offer-test-profile-male-preview.png)
 
 Learn more on the detailed steps to check the message preview in [this section](#preview-your-messages).
+
+## How-to video{#video-offers}
+
+Learn how to add an offer decisioning component to messages in [!DNL Journey Optimizer].
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
