@@ -66,7 +66,7 @@ Follow these steps:
 4. Remove the placeholder "string" from the expression.
 5. Add the personalization token for the customer's first name:
    1. Select **[!UICONTROL Profile]** in the list.
-   2. Navigate to **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   2. Select **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    3. Add the **[!UICONTROL First name]** token to the expression.
       
       The Expression editor shows this expression:
@@ -135,7 +135,7 @@ Because the cart content is contextual information from the journey, you must ad
    
       The **[!UICONTROL Context]** option is available in the list only after you have added the message to a journey.
    
-   3. Navigate to **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
+   3. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
       In this example, *event_name* represents the name of your event.
 
@@ -233,7 +233,7 @@ Because the cart content is contextual information from the journey, you must ad
 5. Add the personalization token to the condition:
    1. Remove the placeholder "condition1" from the expression.
    2. Select **[!UICONTROL Context]** in the list.
-   3. Navigate to **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
+   3. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
       In this example, *event_name* represents the name of your event.
 
