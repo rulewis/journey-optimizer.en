@@ -321,4 +321,4 @@ Because the cart content is contextual information from the journey, you must ad
 
 ## Tutorial video{#helper-functions-video}
 
->[!VIDEO](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/personalize-content/use-helper-functions-for-personalization.html)
