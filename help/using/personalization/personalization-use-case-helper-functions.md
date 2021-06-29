@@ -57,7 +57,7 @@ Follow these steps:
 
       The Expression editor shows this expression:
 
-      ```handlebars
+      ```javascript
       {%= upperCase(string) %}
       ``` 
       
@@ -71,7 +71,7 @@ Follow these steps:
       
       The Expression editor shows this expression:
 
-      ```handlebars
+      ```javascript
       {%= upperCase(profile.person.name.firstName) %}
       ``` 
    
@@ -212,7 +212,7 @@ Because the cart content is contextual information from the journey, you must ad
    3. From the search results, add the `if` helper.
 
       The Expression editor shows this expression:
-      ```handlebars
+      ```javascript
       {%#if condition1%} render_1
          {%else if condition2%} render_2
          {%else%} default_render
@@ -224,7 +224,7 @@ Because the cart content is contextual information from the journey, you must ad
 
    This example shows the modified expression:
 
-   ```handlebars
+   ```javascript
    {%#if condition1%} render_1
       {%else%} default_render
    {%/if%}
@@ -240,7 +240,7 @@ Because the cart content is contextual information from the journey, you must ad
    4. Add the **[!UICONTROL Name]** token to the expression.
 
       The Expression editor shows this expression:
-      ```handlebars
+      ```javascript
       {%#if context.journey.events.`event_ID`.productListItems.name%}
          render_1
          {%else%} default_render
@@ -258,7 +258,7 @@ Because the cart content is contextual information from the journey, you must ad
       ```
 
       Example:
-      ```handlebars
+      ```javascript
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
          render_1
          {%else%} default_render
@@ -268,7 +268,7 @@ Because the cart content is contextual information from the journey, you must ad
    2. Enter the text of the note.
          
       Example:
-      ```handlebars
+      ```javascript
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
          Due to longer than usual lead times on the Juno Jacket, please expect item to ship two weeks after purchase.
          {%else%} default_render
