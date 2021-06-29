@@ -290,7 +290,7 @@ Because the cart content is contextual information from the journey, you must ad
 
    ![](../assets/personalization-uc-helpers-15.png)
 
-3. Enter the input values, then click **[!UICONTROL Send]**.
+3. In the **[!UICONTROL Event configuration]** window, enter the input values, then click **[!UICONTROL Send]**.
    
    The test mode only works with test profiles.
 
