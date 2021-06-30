@@ -9,12 +9,12 @@ level: Intermediate
 
 # Personalization use case: configuration of a cart abandonment email {#personalization-use-case-helper-functions}
 
-In this example, you will personalize the body of an email message. This message is for customers who have left items in their shopping cart, but have not completed the purchase.
+In this example, you will personalize the body of an email message. This message is sent to customers who have left items in their shopping cart, but have not completed the purchase.
 
 You will use these types of helper functions:
 
 * The `upperCase` string function, to insert the customer's first name in capital letters. [Learn more](functions/string.md#upper).
-* The `each` helper, to insert the list of items in the cart. [Learn more](functions/helpers.md#each).
+* The `each` helper, to list the items that are in the cart. [Learn more](functions/helpers.md#each).
 * The `if` helper, to insert a product-specific note if the related product is in the cart. [Learn more](functions/helpers.md#if-function).
 <!-- **Context**: personalization based on contextual data from the journey -->
 
@@ -63,9 +63,9 @@ Follow these steps:
       
       ![](../assets/personalization-uc-helpers-4.png)
    
-4. Remove the placeholder "string" from the expression.
-5. Add the personalization token for the customer's first name:
-   1. Select **[!UICONTROL Profile]** in the list.
+4. Remove the "string" placeholder from the expression.
+5. Add the first name token:
+   1. In the list, select **[!UICONTROL Profile]**.
    2. Select **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    3. Add the **[!UICONTROL First name]** token to the expression.
       
@@ -86,20 +86,22 @@ Follow these steps:
 
 ## Step 3: Creating the initial event and the related journey {#create-context}
 
-Because the cart content is contextual information from the journey, you must add the email to a journey before you can personalize it with cart-specific information.
+The cart content is contextual information from the journey. Therefore, you must add an initial event and the email to a journey before you can add cart-specific information to the email.
 
-1. Create an event whose schema includes the `productListItems` array. Define all the fields from this array as payload fields.
-   
+1. Create an event whose schema includes the `productListItems` array.
+2. Define all the fields from this array as payload fields for this event.
 
    Learn more about the [product list item data type](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html).
 
-2. Create a journey that starts with this event. Add the message to the journey. End the journey with an end activity.
+3. Create a journey that starts with this event.
+4. Add the message to the journey.
+5. End the journey with an end activity.
 
    Because you have not yet published the message, you cannot neither test nor publish the journey.
    
    ![](../assets/personalization-uc-helpers-7.png)
 
-3. Click **[!UICONTROL OK]**.
+6. Click **[!UICONTROL OK]**.
 
    A message informs you that the journey context has been passed to the message.
 
@@ -130,10 +132,10 @@ Because the cart content is contextual information from the journey, you must ad
 
 5. Add the `productListItems` array to the expression:
 
-   1. Remove the placeholder "someArray" from the expression.
-   2. Select **[!UICONTROL Context]** in the list.
+   1. Remove the "someArray" placeholder from the expression.
+   2. In the list, select **[!UICONTROL Context]**.
    
-      The **[!UICONTROL Context]** option is available in the list only after you have added the message to a journey.
+      The **[!UICONTROL Context]** option is available only after the journey context has been passed to the message.
    
    3. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
@@ -151,8 +153,8 @@ Because the cart content is contextual information from the journey, you must ad
       ![](../assets/personalization-uc-helpers-10.png)
 
    5. Modify the expression:
-      1. Remove the string ".product".
-      2. Replace the placeholder "variable" with "product".
+      1. Remove the ".product" string.
+      2. Replace the "variable" placeholder with "product".
 
       This example shows the modified expression:
 
@@ -220,7 +222,11 @@ Because the cart content is contextual information from the journey, you must ad
       ```
       ![](../assets/personalization-uc-helpers-12.png)
 
-4. Remove this condition from the expression: `{%else if condition2%} render_2`.
+4. Remove this condition from the expression:
+   
+   ```handlebars
+   {%else if condition2%} render_2
+   ```
 
    This example shows the modified expression:
 
@@ -230,9 +236,9 @@ Because the cart content is contextual information from the journey, you must ad
    {%/if%}
    ```
 
-5. Add the personalization token to the condition:
-   1. Remove the placeholder "condition1" from the expression.
-   2. Select **[!UICONTROL Context]** in the list.
+5. Add the product name token to the condition:
+   1. Remove the "condition1" placeholder from the expression.
+   2. In the list, select **[!UICONTROL Context]**.
    3. Select **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, then expand the **[!UICONTROL productListItems]** node.
    
       In this example, *event_name* represents the name of your event.
@@ -251,7 +257,7 @@ Because the cart content is contextual information from the journey, you must ad
 6. Modify the expression:
    1. In the Expression editor, specify the product name after the `name` token.
          
-      Use this syntax, where &lt;product name&gt; represents the name of your product:
+      Use this syntax, where *&lt;product name&gt;* represents the name of your product:
 
       ```javascript
       = "<product name>"
@@ -265,7 +271,7 @@ Because the cart content is contextual information from the journey, you must ad
       {%/if%}
       ```
 
-   2. Enter the text of the note.
+   2. Replace the "render_1" placeholder with the text of the note.
          
       Example:
       ```handlebars
@@ -274,19 +280,19 @@ Because the cart content is contextual information from the journey, you must ad
          {%else%} default_render
       {%/if%}
       ```
-   3. Remove the placeholder "default_render".
+   3. Remove the "default_render" placeholder from the expression.
 7. Click **[!UICONTROL Validate]**, then click **[!UICONTROL Save]**.
 
    ![](../assets/personalization-uc-helpers-14.png)
 
-8. Save and publish the message.
+8.  Save and publish the message.
 
 ## Step 6: Testing and publishing the journey {#test-and-publish}
 
 1. Open the journey. If the journey is already open, then refresh the page.
-2. Click the **[!UICONTROL Test]** button, then click **[!UICONTROL Trigger an event]**.
+2. Turn on the **[!UICONTROL Test]** toggle, then click **[!UICONTROL Trigger an event]**.
 
-   You can turn the test mode only after you have published the message.
+   You can turn on the test mode only after you have published the message.
 
    ![](../assets/personalization-uc-helpers-15.png)
 
