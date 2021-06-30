@@ -16,8 +16,6 @@ Let's take as an example the "Luma app opening and checkout" segment created in 
 
 >[!NOTE]
 >
->It is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
->
 >The Burst paid add-on allows very fast push message sending in large volumes for simple journeys that include a read segment and a simple push message. For more information, refer to [this section](../building-journeys/journey-gs.md#burst)
 
 ### Configure the activity {#configuring-segment-trigger-activity}
@@ -56,7 +54,7 @@ The steps to configure the Read Segment activity are as follows:
 
     ![](../assets/read-segment-schedule.png)
 
-    By default, segments enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
+    By default, segments enter the journey **[!UICONTROL As soon as possible]**. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
 
     >[!NOTE]
     >
@@ -87,8 +85,6 @@ Once the test is running, the **[!UICONTROL Show logs]** button allows you to se
 Once the tests are successfull, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
 >[!NOTE]
->
->When a segment-based journey that is not recurrent ("starting as soon as possible" or "once") is executed, its status is automatically changed to "closed".
 >
 >For recurring segment-based journeys, the journey will automatically close once its last occurrence is executed. If no end date/time has been specified, you will have to close the journey to new entrances manually to end it.
 
