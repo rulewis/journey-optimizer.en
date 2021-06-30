@@ -19,6 +19,8 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
+![](../assets/do-not-localize/how-to-video.png) [Learn how to create and use email presets in this video](#video-presets)
+
 ## Create a message preset {#create-message-preset}
 
 To create a message preset, follow these steps:
@@ -140,3 +142,8 @@ To edit a message preset, you first need to de-activate it to make it unavailabl
     >
     >Deactivated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
 
+## How-to video{#video-presets}
+
+Learn how to create message presets, how to use them and how to delegate a subdomain and create an IP pool.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
