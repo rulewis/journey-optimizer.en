@@ -9,7 +9,7 @@ level: Intermediate
 
 # Personalization use case: configuration of a cart abandonment email {#personalization-use-case-helper-functions}
 
-In this example, you will personalize the body of an email message. This message is sent to customers who have left items in their shopping cart, but have not completed the purchase.
+In this example, you will personalize the body of an email message. This message targets customers who have left items in their shopping cart, but have not completed their purchase.
 
 You will use these types of helper functions:
 
@@ -51,7 +51,7 @@ Follow these steps:
    ![](../assets/personalization-uc-helpers-3.png)
 
 3. In the **[!UICONTROL Edit HTML]** window, add the `upperCase` string function:
-   1. Select **[!UICONTROL Helper functions]** in the list.
+   1. In the list, select **[!UICONTROL Helper functions]**.
    2. Use the search field to find "uppercase".
    3. From the search results, add the `upperCase` function. To do this, click the Plus (+) sign next to `{%= upperCase(string) %}: string]`.
 
@@ -119,7 +119,7 @@ The cart content is contextual information from the journey. Therefore, you must
    ![](../assets/personalization-uc-helpers-3.png)
 
 4. In the **[!UICONTROL Edit HTML]** window, add the `each` helper:
-   1. Select **[!UICONTROL Helper functions]** in the list.
+   1. In the list, select **[!UICONTROL Helper functions]**.
    2. Use the search field to find "each".
    3. From the search results, add the `each` helper.
 
@@ -209,7 +209,7 @@ The cart content is contextual information from the journey. Therefore, you must
    ![](../assets/personalization-uc-helpers-3.png)
 
 3. In the **[!UICONTROL Edit HTML]** window, add the `if` helper:
-   1. Select **[!UICONTROL Helper functions]** in the list.
+   1. In the list, select **[!UICONTROL Helper functions]**.
    2. Use the search field to find "if".
    3. From the search results, add the `if` helper.
 
@@ -263,7 +263,7 @@ The cart content is contextual information from the journey. Therefore, you must
       = "<product name>"
       ```
 
-      Example:
+      In this example, the product name is "Juno Jacket":
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
          render_1
@@ -298,13 +298,13 @@ The cart content is contextual information from the journey. Therefore, you must
 
 3. In the **[!UICONTROL Event configuration]** window, enter the input values, then click **[!UICONTROL Send]**.
    
-   The test mode only works with test profiles.
+   The test mode works only with test profiles.
 
    ![](../assets/personalization-uc-helpers-16.png)
 
    The email is sent to the address of the test profile.
    
-   In this example, the email contains the product-specific note only if the related product is in the cart.
+   In this example, the email contains the note about the Juno Jacket because this product is in the cart:
 
    ![](../assets/personalization-uc-helpers-17.png)
 
