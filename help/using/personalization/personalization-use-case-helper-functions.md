@@ -174,6 +174,7 @@ The cart content is contextual information from the journey. Therefore, you must
       </tbody>
    </table>
    ```
+
 7. Add the personalization tokens for the item name, the quantity, and the price:
 
    1. Remove the placeholder "#name" from the HTML table.
