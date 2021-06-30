@@ -92,7 +92,7 @@ level: Beginner
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
     </li>
     <li>
-      <a href="using/create-messages.md">Messages</a>
+      <a href="using/create-message.md">Messages</a>
     </li>
     <p>
     <p>DECISION MANAGEMENT</p>
