@@ -32,7 +32,7 @@ Follow these steps:
 5. [Insert a product-specific note](#if-helper).
 6. [Test and publish the journey](#test-and-publish).
 
-## Step 1: Creating the email{#configure-email}
+## Step 1: Create the email{#configure-email}
 
 1. Create or modify an email message, then click **[!UICONTROL Email Designer]**.
    ![](../assets/personalization-uc-helpers-1.png)
@@ -43,7 +43,7 @@ Follow these steps:
 
    ![](../assets/personalization-uc-helpers-2.png)
 
-## Step 2: Inserting the customer's first name in capital letters {#uppercase-function}
+## Step 2: Insert the customer's first name in capital letters {#uppercase-function}
 
 1. On the Email Designer home page, click on the HTML component where you want to add the customer's first name.
 2. On the contextual toolbar, click **[!UICONTROL Show the source code]**.
@@ -84,7 +84,7 @@ Follow these steps:
    ![](../assets/personalization-uc-helpers-6.png)
 7. Save the message.
 
-## Step 3: Creating the initial event and the related journey {#create-context}
+## Step 3: Create the initial event and the related journey {#create-context}
 
 The cart content is contextual information from the journey. Therefore, you must add an initial event and the email to a journey before you can add cart-specific information to the email.
 
@@ -107,7 +107,7 @@ The cart content is contextual information from the journey. Therefore, you must
 
    ![](../assets/personalization-uc-helpers-8.png)
 
-## Step 4: Inserting the list of items from the cart {#each-helper}
+## Step 4: Insert the list of items from the cart {#each-helper}
 
 1. Reopen the message.
    
@@ -201,7 +201,7 @@ The cart content is contextual information from the journey. Therefore, you must
 8. Click **[!UICONTROL Validate]**, then click **[!UICONTROL Save]**.
    ![](../assets/personalization-uc-helpers-11.png)
    
-## Step 5: Inserting a product-specific note {#if-helper}
+## Step 5: Insert a product-specific note {#if-helper}
 
 1. On the Email Designer home page, click on the HTML component where you want to insert the note.
 2. On the contextual toolbar, click **[!UICONTROL Show the source code]**.
@@ -287,7 +287,7 @@ The cart content is contextual information from the journey. Therefore, you must
 
 8.  Save and publish the message.
 
-## Step 6: Testing and publishing the journey {#test-and-publish}
+## Step 6: Test and publish the journey {#test-and-publish}
 
 1. Open the journey. If the journey is already open, then refresh the page.
 2. Turn on the **[!UICONTROL Test]** toggle, then click **[!UICONTROL Trigger an event]**.
