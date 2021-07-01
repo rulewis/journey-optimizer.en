@@ -146,7 +146,7 @@ level: Beginner
       <a href="using/configuration/get-started-configuration.md">Channels</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html">Sandboxes</a>
+      <a href="using/administration/sandboxes.md">Sandboxes</a>
     </li>
   </td>
 </tr>
