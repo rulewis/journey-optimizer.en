@@ -64,11 +64,9 @@ level: Beginner
     <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform documentation</a>
     </div>
-    <p>
       <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html">Adobe Experience Platform access overview</a>
     </div>
-    <p>
       <div>
       <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform developers resources</a>
     </div>
