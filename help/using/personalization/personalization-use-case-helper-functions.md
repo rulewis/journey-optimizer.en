@@ -1,5 +1,5 @@
 ---
-title: Personalization use case&colon; configuration of a cart abandonment email
+title: Personalization use case&colon; cart abandonment email
 description: Learn how to personalize a message using helper functions
 feature: Personalization
 topic: Personalization
@@ -53,7 +53,7 @@ Follow these steps:
 3. In the **[!UICONTROL Edit HTML]** window, add the `upperCase` string function:
    1. In the list, select **[!UICONTROL Helper functions]**.
    2. Use the search field to find "uppercase".
-   3. From the search results, add the `upperCase` function. To do this, click the Plus (+) sign next to `{%= upperCase(string) %}: string]`.
+   3. From the search results, add the `upperCase` function. To do this, click the Plus (+) sign next to `{%= upperCase(string) %}: string`.
 
       The Expression editor shows this expression:
 
@@ -258,10 +258,10 @@ The cart content is contextual information from the journey. Therefore, you must
 6. Modify the expression:
    1. In the Expression editor, specify the product name after the `name` token.
          
-      Use this syntax, where *&lt;product name&gt;* represents the name of your product:
+      Use this syntax, where *product_name* represents the name of your product:
 
       ```javascript
-      = "<product name>"
+      = "product_name"
       ```
 
       In this example, the product name is "Juno Jacket":
