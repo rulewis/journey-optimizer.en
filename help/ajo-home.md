@@ -23,60 +23,52 @@ level: Beginner
     <div>
       <a href="using/get-started.md">What is Journey Optimizer?</a>
     </div>
-    <p>
-    <em>Discover key features and how to get started</em>
+    <p>Discover key features and how to get started
     <p>
     <div>
       <a href="using/design-emails.md">Design an email content</a>
     </div>
     <p>
-    <em>Design a new email or import an existing HTML content</em>
+    Design a new email or import an existing HTML content
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">Send messages</a>
     </div>
-    <p>
-    <em>Learn how to add push and email messages in your customer journeys
-    </em>
+    <p>Learn how to add push and email messages in your customer journeys
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Create your first journey</a>
     </div>
-    <p>
-    <em>Learn how to build and execute a journey
-    </em>
+    <p>Learn how to build and execute a journey
     <p>
     <div>
     <a href="using/configuration/get-started-configuration.md">Configure [!DNL Journey Optimizer]</a>
     </div>
-    <p>
-    <em>Learn key steps to configure [!DNL Journey Optimizer]
-    </em>
+    <p>Learn key steps to configure [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Grant access to [!DNL Journey Optimizer]</a>
     </div>
-    <p>
-    <em>Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
-    </em>
+    <p>Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Decision management</a>
     </div>
+    <p>Create offers and deliver the best offer and experience to your customers
     <p>
-    <em>Create offers and deliver the best offer and experience to your customers
-    </em>
+    <p>
     <div><strong>Additional resources</strong>
     </div>
     <p>
-    <em></em>
     <p>
     <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform documentation</a>
     </div>
+    <p>
       <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html">Adobe Experience Platform access overview</a>
     </div>
+    <p>
       <div>
       <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform developers resources</a>
     </div>
