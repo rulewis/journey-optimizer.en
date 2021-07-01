@@ -1,17 +1,6 @@
 ---
 title: Sandboxes management
 description: Learn how to manage sandboxes
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
-exl-id:
 feature: Control Groups
 topic: Administration
 role: Administrator
