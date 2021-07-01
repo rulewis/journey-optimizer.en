@@ -7,7 +7,7 @@ role: Data Engineer
 level: Intermediate
 ---
 
-# Personalization use case: configuration of a cart abandonment email {#personalization-use-case-helper-functions}
+# Personalization use case: cart abandonment email {#personalization-use-case-helper-functions}
 
 In this example, you will personalize the body of an email message. This message targets customers who have left items in their shopping cart, but have not completed their purchase.
 
