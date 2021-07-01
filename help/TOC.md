@@ -182,7 +182,7 @@ solution: Journey Optimizer
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + [Schemas](using/get-started-schemas.md)
-+ [Datasets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)
++ [Datasets](using/get-started-datasets.md)
 + [Queries](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html)
 + [Monitoring](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html)
 + [Sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
