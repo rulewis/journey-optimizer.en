@@ -9,7 +9,7 @@ level: Beginner
 
 All data that is ingested into Adobe Experience Platform is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows).
 
-Learn how to create datasets in [this page](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}
+Learn how to create datasets in [this documentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 
 Adding data to Adobe Experience Platform is the foundation to building a Profile. You will then be able to leverage profiles in Adobe Journey Optimizer. First define schemas, use ETL tools to prepare and standardize your data, then create datasets based on your schemas.
 
@@ -19,9 +19,9 @@ The **Datasets** workspace in the Adobe Journey Optimizer user interface allows 
 
 ![](assets/datasets-home.png)
 
-Learn how to use Datasets UI in the [Data Ingestion overview section](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}
+Learn how to use Datasets UI in the [Data Ingestion overview documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
-Step by step documentation to map a CSV file to an XDM Schema is available in [this page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
+Step by step documentation to map a CSV file to an XDM Schema is available in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
 
 
 ## How-to video{#video-dataset}

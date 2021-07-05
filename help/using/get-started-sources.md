@@ -11,4 +11,4 @@ Adobe Experience Platform allows data to be ingested from external sources while
 
 ![](assets/sources-home.png)
 
-Learn more how to ingest data from external sources with Source connectors in [this section](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html){target="_blank"}.
+Learn more how to ingest data from external sources with Source connectors in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html){target="_blank"}.
