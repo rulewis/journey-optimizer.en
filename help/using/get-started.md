@@ -46,7 +46,7 @@ Key capabilities include:
 
 ## Architecture
 
-Understand the basic architecture of Adobe Journey Optimizer, the points of integration, and the relationship of Journey Optimizer with other Adobe applications.
+Understand the basic architecture of [!DNL Adobe Journey Optimizer], the points of integration, and the relationship of [!DNL Journey Optimizer] with other Adobe applications.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 

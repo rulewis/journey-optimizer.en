@@ -11,7 +11,7 @@ An identity is data that is unique to an entity, typically an individual person.
 
 Personally Identifiable Information (PII) such as email address and phone number, serves to directly identify a customer. As a result, PII is used to match a customer’s multiple identities across systems.
 
-In Adobe Journey Optimizer, **Identities** link consumers across devices and channels, the result is an [identity graph](#id-graph). The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.
+In [!DNL Adobe Journey Optimizer], **Identities** link consumers across devices and channels, the result is an [identity graph](#id-graph). The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.
 
 ![](assets/identities-home.png)
 
@@ -27,7 +27,7 @@ Learn more about **Identity namespaces** in [this documentation](https://experie
 
 The **Identity Graph** is a map of relationships between different identities for a particular customer, providing you with a visual representation of how your customer interacts with your brand across different channels. All customer identity graphs are collectively managed and updated by Adobe Experience Platform Identity Service in near real-time, in response to customer activity.
 
-The identity graph viewer in Adobe Journey Optimizer user interface allows you to visualize and better understand what customer identities are stitched together, and in what ways. The viewer allows you to drag and interact with different parts of the graph, allowing you to examine complex identity relationships, debug more efficiently, and benefit from increased transparency with how information is being utilized.
+The identity graph viewer in [!DNL Adobe Journey Optimizer] user interface allows you to visualize and better understand what customer identities are stitched together, and in what ways. The viewer allows you to drag and interact with different parts of the graph, allowing you to examine complex identity relationships, debug more efficiently, and benefit from increased transparency with how information is being utilized.
 
 Learn more about **Identity Graph** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target="_blank"}.
 

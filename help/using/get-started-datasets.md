@@ -11,11 +11,11 @@ All data that is ingested into Adobe Experience Platform is persisted within the
 
 Learn how to create datasets in [this documentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 
-Adding data to Adobe Experience Platform is the foundation to building a Profile. You will then be able to leverage profiles in Adobe Journey Optimizer. First define schemas, use ETL tools to prepare and standardize your data, then create datasets based on your schemas.
+Adding data to Adobe Experience Platform is the foundation to building a Profile. You will then be able to leverage profiles in [!DNL Adobe Journey Optimizer]. First define schemas, use ETL tools to prepare and standardize your data, then create datasets based on your schemas.
 
 [!DNL :arrow_forward:] [Learn how create and configure a dataset](#video-dataset)
 
-The **Datasets** workspace in the Adobe Journey Optimizer user interface allows you to explore data and create datasets. 
+The **Datasets** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to explore data and create datasets. 
 
 ![](assets/datasets-home.png)
 

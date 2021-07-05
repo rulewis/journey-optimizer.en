@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 ---
-# Adobe Journey Optimizer Documentation {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer]Documentation {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png) 
 
@@ -20,7 +20,7 @@ level: Beginner
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">What is Journey Optimizer?</a>
+      <a href="using/get-started.md">What is [!DNL Journey Optimizer]?</a>
     </div>
     <p>Discover key features and how to get started
     <p>
