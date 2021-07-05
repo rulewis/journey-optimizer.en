@@ -183,6 +183,12 @@ solution: Journey Optimizer
     + Offer delivery using APIs {#offer-delivery}
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
++ [Schemas](using/get-started-schemas.md)
++ [Datasets](using/get-started-datasets.md)
++ [Queries](using/get-started-queries.md)
++ [Sources](using/get-started-sources.md)
++ [Profiles](using/get-started-profiles.md)
++ [Identity](using/get-started-identity.md)
 + Configuration{#get-started}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration}
