@@ -10,7 +10,7 @@ level: Intermediate
 
 The fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.
 
-[!DNL :arrow_forward:] [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of fallback offers is accessible in the **[!UICONTROL Offers]** menu.
 

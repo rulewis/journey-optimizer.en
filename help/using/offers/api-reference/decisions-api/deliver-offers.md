@@ -14,7 +14,7 @@ You can create and deliver offers by making a POST request to the [!DNL Decision
 
 This tutorial requires a working understanding of APIs, specifically with regards to Decision Management. For more information, see the [Decision Management API developer guide](../getting-started.md). This tutorial also requires that you have a unique placement ID and decision ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating a decision](../activities-api/activities/create.md).
 
-[!DNL :arrow_forward:]  [Discover this feature in video](#video)
+➡️  [Discover this feature in video](#video)
 
 ## Accept and Content-Type headers
 
