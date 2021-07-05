@@ -24,7 +24,7 @@ Benefits include:
 * Improved workflows: instead of creating multiple deliveries or campaigns, marketing teams can improve workflows by creating a single delivery and vary the offers in different parts of the template,
 * Control over the number of times an offer is shown across campaigns and customers.
 
-[!DNL :arrow_forward:] [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
+➡️ [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
 
 ## About offers and decisions {#offers-offer-activities}
 

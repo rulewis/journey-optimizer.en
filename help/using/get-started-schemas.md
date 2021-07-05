@@ -9,7 +9,7 @@ level: Beginner
 
 Schemas are the standard way of describing data in Experience Platform, allowing all data that conforms to schemas to be reused across an organization without conflicts, or even shared between multiple organizations.
 
-[!DNL :arrow_forward:] [Learn how create and configure a schema](#video-schema)
+➡️ [Learn how create and configure a schema](#video-schema)
 
 A schema is a set of rules that represent and validate the structure and format of data. At a high level, schemas provide an abstract definition of a real-world object (such as a person) and outline what data should be included in each instance of that object (such as first name, last name, birthday, and so on).
 

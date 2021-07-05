@@ -14,7 +14,7 @@ Before creating an offer, make sure that you created:
 * A **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../offer-library/creating-decision-rules.md).
 * One or several **tags** that you want to associate to the offer. See [Create tags](../offer-library/creating-tags.md).
 
-[!DNL :arrow_forward:] [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of personalized offers is accessible in the **[!UICONTROL Offers]** menu.
 

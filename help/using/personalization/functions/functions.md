@@ -11,7 +11,7 @@ level: Experienced
 
 Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn personalization syntax guidelines in [this page](../personalization-syntax.md).
 
-[!DNL :arrow_forward:] [Discover how to use helper functions in video](#video)
+➡️ [Discover how to use helper functions in video](#video)
 
 Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
 

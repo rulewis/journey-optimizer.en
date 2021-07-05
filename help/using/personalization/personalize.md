@@ -10,7 +10,7 @@ level: Beginner
 
 Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about him/her. It can be his first name, his interests, where he lives, what he bought, and more.
 
-[!DNL :arrow_forward:] [Learn how to personalize a message in these videos](#video-perso)
+➡️ [Learn how to personalize a message in these videos](#video-perso)
 
 [!DNL Journey Optimizer] uses an **inline** simple personalization syntax based on Handlebars which allows you to create expressions with contents enclosed by double curly braces **{{}}**. You can add multiple expressions in the same content or field without restrictions. Learn more in [Personalization syntax](personalization-syntax.md).
 
