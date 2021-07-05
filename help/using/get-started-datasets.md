@@ -13,6 +13,8 @@ Learn how to create datasets in [this page](https://experienceleague-review.corp
 
 Adding data to Adobe Experience Platform is the foundation to building a Profile. You will then be able to leverage profiles in Adobe Journey Optimizer. First define schemas, use ETL tools to prepare and standardize your data, then create datasets based on your schemas.
 
+[!DNL :arrow_forward:] [Learn how create and configure a dataset](#video-dataset)
+
 The **Datasets** workspace in the Adobe Journey Optimizer user interface allows you to explore data and create datasets. 
 
 ![](assets/datasets-home.png)
@@ -21,8 +23,16 @@ Learn how to use Datasets UI in the [Data Ingestion overview section](https://ex
 
 Step by step documentation to map a CSV file to an XDM Schema is available in [this page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
 
+
+## How-to video{#video-dataset}
+
+Learn how to create a dataset, map it to a schema, add data to it, and confirm that the data has been ingested.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+
 **See also**
 
+* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Streaming ingestion overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target="_blank"}
 * [Ingest data into Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target="_blank"}
 

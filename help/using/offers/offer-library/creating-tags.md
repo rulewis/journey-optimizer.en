@@ -12,7 +12,7 @@ Associating tags to your offers make it easier to keep them organized. For examp
 
 Tags can also be used to group offers together into offer collections. See [Create collections](../offer-library/creating-collections.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+[!DNL :arrow_forward:] [Discover this feature in video](#video)
 
 The list of created tags is accessible in the **[!UICONTROL Components]** menu.
 
