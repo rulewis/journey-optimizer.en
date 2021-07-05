@@ -9,7 +9,7 @@ solution: Journey Optimizer
 
 # [!DNL Journey Optimizer] Help {#using}
 
-+ [Product documentation](ajo-home.md)
++ [Journey Optimizer documentation](ajo-home.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
