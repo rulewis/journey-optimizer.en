@@ -64,7 +64,7 @@ The `elseif` statement will specify a new condition to test if the first stateme
 
 1. **Add a conditional link**
 
-    The following operation will add a link to the 'www.adobe.com/academia' website for profiles with '.edu' email adresses only, to the 'www.adobe.com/org' website for profiles with '.org' email addresses, and the default URL 'www.adobe.com/users' for all other profiles:
+    The following operation will add a link to the 'www.adobe.com/academia' website for profiles with '.edu' email addresses only, to the 'www.adobe.com/org' website for profiles with '.org' email addresses, and the default URL 'www.adobe.com/users' for all other profiles:
 
     ```sql
     {%#if contains(profile.personalEmail.address, ".edu")%}

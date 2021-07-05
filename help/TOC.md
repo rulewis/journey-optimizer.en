@@ -35,7 +35,9 @@ solution: Journey Optimizer
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization syntax](using/personalization/personalization-syntax.md)
   + [Personalization validation](using/personalization/personalization-validation.md) 
-  + [Use case: add personalization in a push notification](using/personalization/personalization-use-case.md) 
+  + Use cases{#personalization-use-cases}
+    + [Order status notification](using/personalization/personalization-use-case.md)
+    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Helper functions{#functions}
     + [List of helper functions](using/personalization/functions/functions.md)
     + [Aggregation functions](using/personalization/functions/aggregation.md)
