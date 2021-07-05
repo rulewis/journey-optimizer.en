@@ -7,11 +7,11 @@ level: Beginner
 ---
 # Get Started with Profiles {#profiles-gs}
 
-Leverage Real-time Customer Profile in Journey Optimizer to see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. **Profiles** allows you to consolidate your customer data into a unified view offering an actionable, timestamped account of every customer interaction. 
+Leverage Real-time Customer Profile in [!DNL Adobe Journey Optimizer] to see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. **Profiles** allows you to consolidate your customer data into a unified view offering an actionable, timestamped account of every customer interaction. 
 
 >[!NOTE]
 >
->If your organization is new to Platform and does not yet have active Profile datasets or merge policies created, the Profiles dashboard is not visible. Instead, the Overview tab displays links and documentation to help you get started with Real-time Customer Profile.
+>If your organization is new to [!DNL Adobe Journey Optimizer] and does not yet have active Profile datasets or merge policies created, the **Profiles** dashboard is not visible. Instead, the **Overview** tab displays links to Adobe Experience Platform documentation to help you get started with Real-time Customer Profile.
 
 ![](assets/profiles-home.png)
 

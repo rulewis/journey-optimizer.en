@@ -15,7 +15,7 @@ A schema is a set of rules that represent and validate the structure and format 
 
 Learn how to build schemas in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}
 
-The **Schemas** workspace in the Adobe Journey Optimizer user interface allows you to manage Experience Data Model (XDM) resources, including schemas, classes, schema field groups, and data types. You can view and explore core resources provided by Adobe, and create custom resources and schemas for your organization.
+The **Schemas** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to manage Experience Data Model (XDM) resources, including schemas, classes, schema field groups, and data types. You can view and explore core resources provided by Adobe, and create custom resources and schemas for your organization.
 
 ![](assets/schemas-home.png)
 

@@ -49,9 +49,12 @@ solution: Journey Optimizer
     + [Object functions](using/personalization/functions/objects.md)
     + [String functions](using/personalization/functions/string.md) 
   + [Add personalized offers](using/deliver-personalized-offers.md)  
-+ Segments{#segment}
-  + [About segments](using/segment/about-segments.md)
-  + [Build segments](using/segment/creating-a-segment.md)
++ Segments, profiles and identity{#segment}
+  + Segments {#segments}
+    + [About segments](using/segment/about-segments.md)
+    + [Build segments](using/segment/creating-a-segment.md)
+  + [Profiles](using/get-started-profiles.md)
+  + [Identity](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
@@ -183,12 +186,10 @@ solution: Journey Optimizer
     + Offer delivery using APIs {#offer-delivery}
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
-+ [Schemas](using/get-started-schemas.md)
-+ [Datasets](using/get-started-datasets.md)
-+ [Queries](using/get-started-queries.md)
-+ [Sources](using/get-started-sources.md)
-+ [Profiles](using/get-started-profiles.md)
-+ [Identity](using/get-started-identity.md)
++ Data management {#data-management}
+  + [Schemas](using/get-started-schemas.md)
+  + [Datasets](using/get-started-datasets.md)
+  + [Queries](using/get-started-queries.md)
 + Configuration{#get-started}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration}
@@ -228,6 +229,7 @@ solution: Journey Optimizer
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
+    + [Sources](using/get-started-sources.md)
 + Access control {#administration}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
