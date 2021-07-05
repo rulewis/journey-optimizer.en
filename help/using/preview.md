@@ -18,7 +18,6 @@ To detect possible errors in email content or personalization settings, send pro
 >
 >Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md). 
 
-
 To test your message content, you need to:
 
 * [select test profiles](#select-test-profiles)

@@ -41,6 +41,10 @@ To delegate a new subdomain, follow the steps below:
 
     ![](../assets/subdomain-name.png)
 
+    >[!CAUTION]
+    >
+    >Make sure you entered a valid subdomain, such as marketing.company.com. Delegating an invalid subdomain to Adobe is not allowed.
+
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
     Make sure that all the DNS records have been generated into your domain hosting solution. If everything is configured properly, check the box "I confirm...", then click **[!UICONTROL Submit]**.
