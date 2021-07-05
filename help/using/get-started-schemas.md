@@ -9,6 +9,8 @@ level: Beginner
 
 Schemas are the standard way of describing data in Experience Platform, allowing all data that conforms to schemas to be reused across an organization without conflicts, or even shared between multiple organizations.
 
+[!DNL :arrow_forward:] [Learn how create and configure a schema](#video-schema)
+
 A schema is a set of rules that represent and validate the structure and format of data. At a high level, schemas provide an abstract definition of a real-world object (such as a person) and outline what data should be included in each instance of that object (such as first name, last name, birthday, and so on).
 
 Learn how to build schemas in [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}
@@ -21,8 +23,16 @@ Learn how to use Schemas UI in [this section](https://experienceleague.adobe.com
 
 Step by step documentation to create a schema using the Schema Editor is available in [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}
 
+
+## How-to video{#video-schema}
+
+Learn how to create a schema, add field groups, create, and configure custom field groups.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+
 **See also**
 
+* [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [XDM System overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}
 * [Best practices for data modeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
 * [Create a schema using the Schema Registry API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}

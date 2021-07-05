@@ -11,7 +11,6 @@ level: Beginner
 ![](using/assets/do-not-localize/banner-cjm.png) 
 
 
-
 <table style="table-layout:fixed">
 <tr>
   <td>

@@ -9,7 +9,7 @@ solution: Journey Optimizer
 
 # [!DNL Journey Optimizer] Help {#using}
 
-+ [Product documentation](ajo-home.md)
++ [Journey Optimizer documentation](ajo-home.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
@@ -185,11 +185,10 @@ solution: Journey Optimizer
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
 + [Schemas](using/get-started-schemas.md)
 + [Datasets](using/get-started-datasets.md)
-+ [Queries](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html)
-+ [Monitoring](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html)
-+ [Sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
-+ [Profiles](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html)
-+ [Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html)
++ [Queries](using/get-started-queries.md)
++ [Sources](using/get-started-sources.md)
++ [Profiles](using/get-started-profiles.md)
++ [Identity](using/get-started-identity.md)
 + Configuration{#get-started}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration}

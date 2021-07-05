@@ -16,7 +16,7 @@ For more on how to create and manage offers, refer to [this section](offers/get-
 
 For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
 
-![](assets/do-not-localize/how-to-video.png) [Learn how add offers as personalization in this video](#video-offers)
+[!DNL :arrow_forward:] [Learn how add offers as personalization in this video](#video-offers)
 
 ## Insert a decision in an email {#insert-offers}
 
