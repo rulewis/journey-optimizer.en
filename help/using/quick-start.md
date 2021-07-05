@@ -20,6 +20,8 @@ Before starting using [!DNL Adobe Journey Optimizer], you need to:
 
 * **Set user permissions**: log in to [!DNL Adobe Journey Optimizer] and give access to your team members. [Read more](../using/administration/permissions.md)
 
+* **Deploy [!DNL Adobe Experience Manager Assets Essentials]**: to manage assets and images in your messages, you will need to deploy [!DNL Assets Essentials] for your organization and make sure that you are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+
 * **Configure your channels**: define your email and push notification settings. [Read more](../using/configuration/get-started-configuration.md)
 
 * **Define your presets**: create your presets and configure your branding parameters. [Read more](../using/configuration/message-presets.md)
