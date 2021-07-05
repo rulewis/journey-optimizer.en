@@ -15,8 +15,19 @@ In Adobe Journey Optimizer, **Identities** link consumers across devices and cha
 
 ![](assets/identities-home.png)
 
-Learn more about **Identity Service** in [this section](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
+Learn more about **Identity Service** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
+
+## Identity Namespaces
 
 **Identity namespaces** are a component of Identity Service that serve as indicators of the context to which an identity relates. For example, they distinguish a value of `name@email.com` as an email address or `443522` as a numeric CRM ID. Working with identity namespaces requires an understanding of the various Adobe Experience Platform services involved. Before beginning to work with namespaces, please review the documentation for the following services:
 
-Learn more about **Identity namespaces** in [this section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
+Learn more about **Identity namespaces** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
+
+## Identity Graph
+
+The **Identity Graph** is a map of relationships between different identities for a particular customer, providing you with a visual representation of how your customer interacts with your brand across different channels. All customer identity graphs are collectively managed and updated by Adobe Experience Platform Identity Service in near real-time, in response to customer activity.
+
+The identity graph viewer in Adobe Journey Optimizer user interface allows you to visualize and better understand what customer identities are stitched together, and in what ways. The viewer allows you to drag and interact with different parts of the graph, allowing you to examine complex identity relationships, debug more efficiently, and benefit from increased transparency with how information is being utilized.
+
+Learn more about **Identity Graph** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target="_blank"}.
+

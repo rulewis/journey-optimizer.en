@@ -20,3 +20,8 @@ To learn how to access and work with the **Profile dashboard** and detailed info
 You can bring data fragments together from multiple sources and combine them in order to see a complete view of each of your individual customers. When bringing this data together, merge policies are the rules used to determine how data will be prioritized and what data will be combined to create the unified view.
 
 Learn more about **Merge policies** in this [documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}.
+
+**See also**
+
+* [Real-time Cistomer Profile documentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target="_blank"}
+* [Real-time Cistomer Profile overview video](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}
