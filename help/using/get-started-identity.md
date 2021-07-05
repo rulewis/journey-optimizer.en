@@ -11,7 +11,7 @@ An identity is data that is unique to an entity, typically an individual person.
 
 Personally Identifiable Information (PII) such as email address and phone number, serves to directly identify a customer. As a result, PII is used to match a customer’s multiple identities across systems.
 
-In Adobe Journey Optimizer, **Identities** link consumers across devices and channels, the result is an identity graph. The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.
+In Adobe Journey Optimizer, **Identities** link consumers across devices and channels, the result is an [identity graph](#id-graph). The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.
 
 ![](assets/identities-home.png)
 
@@ -23,7 +23,7 @@ Learn more about **Identity Service** in [this documentation](https://experience
 
 Learn more about **Identity namespaces** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
 
-## Identity Graph
+## Identity Graph{#id-graph}
 
 The **Identity Graph** is a map of relationships between different identities for a particular customer, providing you with a visual representation of how your customer interacts with your brand across different channels. All customer identity graphs are collectively managed and updated by Adobe Experience Platform Identity Service in near real-time, in response to customer activity.
 
