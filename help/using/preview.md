@@ -18,7 +18,6 @@ To detect possible errors in email content or personalization settings, send pro
 >
 >Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md). 
 
-
 To test your message content, you need to:
 
 * [select test profiles](#select-test-profiles)
@@ -31,7 +30,8 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 >[!CAUTION]
 >
 >When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](personalization/personalization-use-case.md).
->
+
+![](assets/do-not-localize/how-to-video.png) [Learn how to preview, proof, and publish your email in this video](#video-preview)
 
 ## Select test profiles{#select-test-profiles}
 
@@ -159,4 +159,9 @@ Then, follow the steps below:
 >[!CAUTION]
 >
 >When connecting your **Litmus** account with [!DNL Journey Optimizer], you agree that test messages are sent to Litmus: once sent, these emails are no longer managed by Adobe. As a consequence, Litmus data retention email policy applies to these emails, including personalization data that may be included in these test messages.
->
+
+## How-to video{#video-preview}
+
+Learn how to test email rendering across inboxes, how to preview your personalized emails against test profiles, send proofs, and publish your email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

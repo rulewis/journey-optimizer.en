@@ -15,7 +15,7 @@ Once your message has been created, you can publish it to make it available for 
 
 >[!CAUTION]
 >
->Before publishing, check and resolve alerts. [Learn more](alerts.md).
+>Before publishing, check and resolve alerts. [Learn more](alerts.md)
 
 ![](assets/publish-message.png)
 

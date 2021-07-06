@@ -47,3 +47,7 @@ In this example, we will build a segment to target all customers living in Atlan
 1. Once the segment is ready, click **[!UICONTROL Save]**. It displays in the list of Adobe Experience Platform segments. Note that a search bar is available to help you search a specific segment in the list.
 
 The segment can now be used in your journeys. For more on this, refer to [this section](../segment/about-segments.md).
+
+## Tutorial video{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

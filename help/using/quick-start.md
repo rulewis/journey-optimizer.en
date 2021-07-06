@@ -51,4 +51,4 @@ Refer to the following sections to set up your first journey and send messages:
 
 * **Create journeys**: send messages, leverage contextual data, refine audiences, design and execute multi-step use case. [Read more](building-journeys/journey.md)
 
-* **Monitor messages and journeys**: control message execution, check messsage and journey reports, follow-up deliverability metrics. [Read more](message-monitoring.md)
+* **Monitor messages and journeys**: control message execution, check message and journey reports, follow-up deliverability metrics. [Read more](message-monitoring.md)
