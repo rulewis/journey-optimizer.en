@@ -229,7 +229,7 @@ solution: Journey Optimizer
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
-    + [Sources](using/get-started-sources.md)
+  + [Sources](using/get-started-sources.md)
 + Access control {#administration}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)
