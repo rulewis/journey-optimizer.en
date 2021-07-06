@@ -102,7 +102,7 @@ To create a message preset, follow these steps:
     * IP pool verification
     * A/PTR record, t/m/res subdomain verification
 
-1. Once the checks are successfull, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+1. Once the checks are successful, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
     <!-- later on, users will be notified in Pulse -->
 
