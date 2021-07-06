@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 ---
-# Adobe [!DNL Journey Optimizer]Documentation {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png) 
 
@@ -61,16 +61,24 @@ level: Beginner
     <p>
     <p>
     <div>
+    <li>
       <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer product description</a>
+    </li>
     </div>
     <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform documentation</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html">Adobe Experience Platform access overview</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform developers resources</a>
+    </li>
     </div>
   </td>
    <td>
