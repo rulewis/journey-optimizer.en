@@ -61,7 +61,7 @@ Before creating a decision, make sure that the components below have been create
     
     Add one or several segments from the left pane, combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators, then click **[!UICONTROL Select]** to confirm.
 
-    For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
 
     ![](../../assets/activity_constraint_segment2.png)
 
@@ -96,7 +96,7 @@ For more on to deliver offers, refer to these sections:
 
 >[!NOTE]
 >
->Once a decision has been created, you can click its name in the list to access detailed information, and visualize all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and decisions changes log](../get-started/user-interface.md#changes-log)). 
+>Once a decision has been created, you can click its name in the list to access detailed information, and visualize all the changes that have been made to it using the **[!UICONTROL Change log]** tab. [Learn more](../get-started/user-interface.md#changes-log). 
 
 ## Tutorial video {#video}
 

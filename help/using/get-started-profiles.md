@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 ---
-# Get Started with Profiles {#profiles-gs}
+# Get Started with profiles {#profiles-gs}
 
 Leverage Real-time Customer Profile in [!DNL Adobe Journey Optimizer] to see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. **Profiles** allows you to consolidate your customer data into a unified view offering an actionable, timestamped account of every customer interaction. 
 

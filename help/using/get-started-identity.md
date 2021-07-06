@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 ---
-# Get Started with Identities {#identities-gs}
+# Get Started with identities {#identities-gs}
 
 An identity is data that is unique to an entity, typically an individual person. An identity such as a login ID, ECID, or loyalty ID is referred to as a known identity.
 
@@ -17,13 +17,13 @@ In [!DNL Adobe Journey Optimizer], **Identities** link consumers across devices 
 
 Learn more about **Identity Service** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
 
-## Identity Namespaces
+## Identity namespaces
 
 **Identity namespaces** are a component of Identity Service that serve as indicators of the context to which an identity relates. For example, they distinguish a value of `name@email.com` as an email address or `443522` as a numeric CRM ID. Working with identity namespaces requires an understanding of the various Adobe Experience Platform services involved. Before beginning to work with namespaces, please review the documentation for the following services:
 
 Learn more about **Identity namespaces** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
 
-## Identity Graph{#id-graph}
+## Identity graph{#id-graph}
 
 The **Identity Graph** is a map of relationships between different identities for a particular customer, providing you with a visual representation of how your customer interacts with your brand across different channels. All customer identity graphs are collectively managed and updated by Adobe Experience Platform Identity Service in near real-time, in response to customer activity.
 

@@ -38,7 +38,7 @@ A capping rule is specific to one endpoint but global to all the journeys of a s
 
 For example, let's say that you have defined a capping rule of 100 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 200 calls per second, it will use the 100 slots available and discard the 100 remaining slots. Since the maximum rate has exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
 
-To learn more on the capping API and how to configure capping rules, refer to [this page](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html). 
+To learn more on the capping API and how to configure capping rules, refer to [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 
 
 ## Timeout and retries{#timeout}
 
@@ -66,7 +66,7 @@ Let's take an example for a timeout of 5 seconds.
 
 **How can I configure a capping rule? Is there a default capping rule?**
 
-By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../configuration/external-systems.md#capping) and [this page](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html). 
+By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../configuration/external-systems.md#capping) and [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 
 
 **How many retries are performed? Can I change the number of retries or define a minimum wait period between retries?**
 

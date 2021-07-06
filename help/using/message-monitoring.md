@@ -81,6 +81,6 @@ For each message execution, a number of indicators are displayed:
 
 * **[!UICONTROL Errors]**: Number of messages that cannot be sent because of a technical failure.
 
-* **[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. [Learn more on complaints](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. Learn more on complaints in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target="_blank"}.
 
 Clicking each hyperlink will open the corresponding message summary view. [Learn more on messages](create-message.md).

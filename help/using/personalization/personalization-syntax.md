@@ -21,7 +21,7 @@ Simple expression sample:
 where:
 
 * `profile` is a namespace.
-* `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+* `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 ## Syntax general rules
 
@@ -39,7 +39,7 @@ In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. I
 
 ## Profile
 
-This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
 

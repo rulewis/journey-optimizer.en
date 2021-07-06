@@ -47,7 +47,7 @@ This type of event can be positioned as the first step or later in the journey.
 
    >[!NOTE]
    >
-   >Note that **[!UICONTROL Enter]** and **[!UICONTROL Exit]** correspond to the **Realized** and **Exited** segment participation statuses from Adobe Experience Platform. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
+   >Note that **[!UICONTROL Enter]** and **[!UICONTROL Exit]** correspond to the **Realized** and **Exited** segment participation statuses from Adobe Experience Platform. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target="_blank"}. 
 
 1. Select a namespace. This is only needed if the event is positioned as the first step of the journey.
 
@@ -83,7 +83,7 @@ Moreover, if the batch segment is newly created and immediately used in a journe
 
 When using segment qualification for streamed segments, there is less risk of getting large peaks of entrances/exits due to the continuous evaluation of the segment. Still, if the segment definition leads to making a large volume of customers qualify at the same time, there might be a peak too. 
 
-For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+For more information on streaming segmentation, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### How to avoid overloads{#overloads-speed-segment-qualification}
 
@@ -93,7 +93,7 @@ Do not use, in a **[!UICONTROL Segment Qualification]** activity, a batch segmen
 
 ![](../assets/segment-error.png)
 
-Put in place a capping rule for data sources and actions used in journeys to avoid overloading them (refer to this [section](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). Note that the capping rule has no retry. If you need to retry, you must use an alternative path in the journey by checking the box **[!UICONTROL Add an alternative path in case of a timeout or an error]** in conditions or actions.
+Put in place a capping rule for data sources and actions used in journeys to avoid overloading them. Learn more in [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Note that the capping rule has no retry. If you need to retry, you must use an alternative path in the journey by checking the box **[!UICONTROL Add an alternative path in case of a timeout or an error]** in conditions or actions.
 
 Before using the segment in a production journey, always evaluate first the volume of individuals qualifying for this segment every day. To do so, you can check the **[!UICONTROL Segments]** menu, open the segment then look at the **[!UICONTROL Profiles over time]** graph.
 

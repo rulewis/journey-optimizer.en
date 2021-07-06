@@ -52,7 +52,7 @@ solution: Journey Optimizer
   + [Add personalized offers](using/deliver-personalized-offers.md)  
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
-    + [About segments](using/segment/about-segments.md)
+    + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
   + [Profiles](using/get-started-profiles.md)
   + [Identity](using/get-started-identity.md)

@@ -14,7 +14,7 @@ In this example, we will build a segment to target all customers living in Atlan
     
     ![](../assets/create-segment.png)
 
-    The segment definition screen allows you to configure all the required fields to define your segment. Learn how to configure segments in the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+    The segment definition screen allows you to configure all the required fields to define your segment. Learn how to configure segments in the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
     ![](../assets/segment-builder.png)
 
@@ -26,7 +26,7 @@ In this example, we will build a segment to target all customers living in Atlan
 
     >[!NOTE]
     >
-    >Note that the fields available in the left pane vary depending on how the **XDM Individual Profile** and **XDM ExperienceEvent** schemas have been configured for your organization.  Learn more in the [Experience Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+    >Note that the fields available in the left pane vary depending on how the **XDM Individual Profile** and **XDM ExperienceEvent** schemas have been configured for your organization.  Learn more in the [Experience Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
     ![](../assets/drag-fields.png)
 

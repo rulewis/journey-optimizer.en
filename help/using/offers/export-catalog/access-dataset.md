@@ -20,4 +20,4 @@ The **[!UICONTROL Preview dataset]** button allows you to display the most recen
 
 ![](../../assets/dataset-preview.png)
 
-For more information on how to browse and use datasets, refer to [Adobe Experience Platform datasets documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#getting-started).
+For more information on how to browse and use datasets, refer to [this page](../../get-started-datasets.md).

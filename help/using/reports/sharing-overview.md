@@ -52,4 +52,4 @@ The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 * [journeyStep event identity fields](../reports/sharing-identity-fields.md)
 * [journey fields](../reports/sharing-journey-fields.md)
 
-For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target="_blank"}.
