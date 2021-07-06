@@ -61,6 +61,9 @@ level: Beginner
     <p>
     <p>
     <div>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer product description</a>
+    </div>
+    <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform documentation</a>
     </div>
       <div>
