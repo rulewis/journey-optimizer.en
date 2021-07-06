@@ -38,4 +38,4 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 
 The ranking formula is now associated to the placement.
 
-If mutiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.
+If multiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.

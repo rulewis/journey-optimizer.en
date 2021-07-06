@@ -23,7 +23,7 @@ The **[!UICONTROL Update Profile]** action activity allows you to update an exis
 
 In test mode, the profile update will not be simulated. The update will be performed on the test profile. 
 
-Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. In Adobe Experience Platorm, you can update profiles attributes via a csv file import or API calls. A simpler method is to use an **Update Profile** action activity and change the test profile boolean field from false to true.
+Only test profiles can enter a journey in test mode. You can either create a new test profile or turn an existing profile into a test profile. In Adobe Experience Platform, you can update profiles attributes via a csv file import or API calls. A simpler method is to use an **Update Profile** action activity and change the test profile boolean field from false to true.
 
 For more information on the how to turn an existing profile into a test profile, refer to this [section](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 

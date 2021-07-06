@@ -96,7 +96,7 @@ For more on to deliver offers, refer to these sections:
 
 >[!NOTE]
 >
->Once a decision has been created, you can click its name in the list to access detailed information, and vizualise all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and decisions changes log](../get-started/user-interface.md#changes-log)). 
+>Once a decision has been created, you can click its name in the list to access detailed information, and visualize all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and decisions changes log](../get-started/user-interface.md#changes-log)). 
 
 ## Tutorial video {#video}
 

@@ -71,7 +71,7 @@ To delegate a new subdomain, follow the steps below:
 
     ![](../assets/subdomain-processing.png)
 
-1. Once the checks are successfull, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to deliver messages.
+1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to deliver messages.
 
     <!-- later on, users will be notified in Pulse -->
 

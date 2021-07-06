@@ -117,7 +117,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     * **resolveURL**
 
         **Field:** resolveURL
-        **Description:** An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset whithout the client understanding where the asset is managed and what APIs to call. This is similar to a HAL link, but the semantic is simpler and more purposeful.
+        **Description:** An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset without the client understanding where the asset is managed and what APIs to call. This is similar to a HAL link, but the semantic is simpler and more purposeful.
         **Type:** string
         **Example:** "https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;"
 

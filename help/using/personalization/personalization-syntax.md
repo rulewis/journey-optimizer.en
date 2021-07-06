@@ -101,11 +101,11 @@ All the references are validated against Offers Schema with a validation mechani
 
     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Text content of the offer coming from the decisionning engine:
+* Text content of the offer coming from the decisioning engine:
 
     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML content of the offer coming from the decisionning engine:
+* HTML content of the offer coming from the decisioning engine:
 
     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 

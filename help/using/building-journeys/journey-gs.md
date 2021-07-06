@@ -80,7 +80,7 @@ When a journey "ends", it will have the status **[!UICONTROL Closed]**. The jour
 
 After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 
-### Timeout and error in journey activitites {#timeout_and_error}
+### Timeout and error in journey activities {#timeout_and_error}
 
 When editing an action or condition activity, you can define an alternative path in case of error or timeout. If the processing of the activity interrogating a third-party system exceeds the timeout duration defined in the journey's properties (**[!UICONTROL Timeout and  error]** field), the second path will be chosen to perform a potential fallback action. 
 
@@ -92,7 +92,7 @@ Journeys also uses a global timeout. See the [next section](#global_timeout).
 
 ### Global journey timeout {#global_timeout}
 
-In addition to the [timeout](#timeout_and_error) used in journey activitites, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
+In addition to the [timeout](#timeout_and_error) used in journey activities, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Limitations:
 
 Important note:
 
-If any of the requirements is not fullfilled, burst mode will not be available in the journey.
+If any of the requirements is not fulfilled, burst mode will not be available in the journey.
 
 To activate Burst mode, open your journey and click the pencil icon, in the top right to access the journey's properties. Then, activate the **Enable burst mode** toggle.
 
@@ -147,7 +147,7 @@ A journey can close because of the following reasons:
 
 * The journey is closed manually via the **[!UICONTROL Close to new entrances]** button. 
 * A one-shot segment based journey that has finished executing.
-* After the last occurence of a recurring segment based journey.
+* After the last occurrence of a recurring segment based journey.
 
 When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
 

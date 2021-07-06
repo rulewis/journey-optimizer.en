@@ -29,5 +29,5 @@ While these requirements are being managed through components hosted by both Ado
 **Learn more**
 
 * Learn how to [delegate your subdomains](delegate-subdomain.md) directly from the interface
-* Learn how to [add Google TXT records](google-txt.md) to your subdomains to ensure the successfull delivery of emails to Gmail addresses
+* Learn how to [add Google TXT records](google-txt.md) to your subdomains to ensure the successful delivery of emails to Gmail addresses
 * Learn how to [access the PTR records](ptr-records.md) generated for your subdomains, allowing them to be verified by sending mail servers
