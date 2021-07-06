@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 ---
-# Adobe Journey Optimizer Documentation {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer]Documentation {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png) 
 
@@ -20,7 +20,7 @@ level: Beginner
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">What is Journey Optimizer?</a>
+      <a href="using/get-started.md">What is [!DNL Journey Optimizer]?</a>
     </div>
     <p>Discover key features and how to get started
     <p>
@@ -61,6 +61,9 @@ level: Beginner
     <p>
     <p>
     <div>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer product description</a>
+    </div>
+    <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform documentation</a>
     </div>
       <div>
@@ -99,13 +102,13 @@ level: Beginner
     <p>
     <p>DATA MANAGEMENT</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html">Schemas</a>
+      <a href="using/get-started-schemas.md">Schemas</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html">Datasets</a>
+      <a href="using/get-started-datasets.md">Datasets</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html">Queries</a>
+      <a href="using/get-started-queries.md">Queries</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html">Monitoring</a>
@@ -113,7 +116,7 @@ level: Beginner
     <p>
     <p>CONNECTIONS</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html">Sources</a>
+      <a href="using/get-started-sources.md">Sources</a>
     </li>
     <p>
     <p>CUSTOMER</p>
@@ -121,10 +124,10 @@ level: Beginner
       <a href="using/segment/about-segments.md">Segments</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html">Profiles</a>
+      <a href="using/get-started-profiles.md">Profiles</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">Identity</a>
+      <a href="using/get-started-identity.md">Identity</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>

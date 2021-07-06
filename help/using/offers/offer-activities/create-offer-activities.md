@@ -10,7 +10,7 @@ level: Intermediate
 
 Decisions (previously known as offer activities) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
-![](../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of decisions is accessible in the **[!UICONTROL Offers]** menu / **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
 

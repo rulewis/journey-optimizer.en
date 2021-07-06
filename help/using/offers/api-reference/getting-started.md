@@ -10,7 +10,7 @@ level: Intermediate
 
 This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the Decision Management Engine.
 
-![](../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 ## Prerequisites
 
