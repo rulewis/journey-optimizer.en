@@ -1,6 +1,7 @@
 ---
 keywords: Journey Optimizer;home;popular topics
 title: Journey Optimizer product documentation
+description: Adobe Journey Optimizer product help center
 feature: Overview
 topic: Content Management
 role: User

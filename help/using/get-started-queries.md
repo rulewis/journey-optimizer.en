@@ -18,5 +18,5 @@ Learn how to use the Query Editor in [this documentation](https://experienceleag
 
 **See also**
 
-* [Query Service documentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target="_blank"}
-* [Query Service overview video](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target="_blank"}
+* [Query Service documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target="_blank"}
+* [Query Service overview video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target="_blank"}
