@@ -1,18 +1,18 @@
 ---
-title: Personalization use case
-description: Personalization use case
+title: Personalization use case&colon; order status notification
+description: Learn how to personalize a message with profile, offer decision, and context information
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 ---
 
-# Personalization use case {#personalization-use-case}
+# Personalization use case: order status notification {#personalization-use-case}
 
 In this use case, you will see how to use multiple types of personalization in a single push notification message. Three types of personalization will be used:
 
 * **Profile**: message personalization based on a profile field
-* **Offer decision**: personalization based on offer decisionning variables
+* **Offer decision**: personalization based on offer decisioning variables
 * **Context**: personalization based on contextual data from the journey
 
 The goal of this example is to push an event to [!DNL Journey Optimizer] every time a customer order is updated. A push notification is then sent to the customer with information on the order and a personalized offer.
@@ -110,7 +110,7 @@ For this use case, the following prerequisites are needed:
 
    ![](assets/perso-uc17.png)
 
-1. Enter the different values to pass in the test. Test mode only works with test profiles. The profile identifier needs to correspong to a test profile. Click **Send**.
+1. Enter the different values to pass in the test. Test mode only works with test profiles. The profile identifier needs to correspond to a test profile. Click **Send**.
 
    ![](assets/perso-uc18.png)
 

@@ -26,6 +26,7 @@ solution: Journey Optimizer
     + [Design your email content in the UI](using/create-email-content.md)
     + [Import or code your email content](using/existing-content.md)
     + [Use email designer content components](using/content-components.md)
+  + [Add links and track messages](using/message-tracking.md)
   + Validate and publish {#create-message}
     + [Preview and proofs](using/preview.md)
     + [Check alerts](using/alerts.md)
@@ -35,7 +36,9 @@ solution: Journey Optimizer
   + [Get started with personalization](using/personalization/personalize.md)
   + [Personalization syntax](using/personalization/personalization-syntax.md)
   + [Personalization validation](using/personalization/personalization-validation.md) 
-  + [Use case: add personalization in a push notification](using/personalization/personalization-use-case.md) 
+  + Use cases{#personalization-use-cases}
+    + [Order status notification](using/personalization/personalization-use-case.md)
+    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Helper functions{#functions}
     + [List of helper functions](using/personalization/functions/functions.md)
     + [Aggregation functions](using/personalization/functions/aggregation.md)
@@ -85,7 +88,6 @@ solution: Journey Optimizer
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Track and monitor {#reporting}
-  + [Message tracking](using/message-tracking.md)
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)

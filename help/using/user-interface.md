@@ -89,7 +89,7 @@ Available use cases are:
 
 * **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [in this page](building-journeys/creating-test-profiles.md#use-case-1).
 * **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. (coming soon)
-* **Send emails to enboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
+* **Send emails to onboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
 * **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)
 
 Click **[!UICONTROL View details]** to learn more about each use case.
@@ -130,7 +130,7 @@ To change your language:
 
 ## Search
 
-Anywhere from Adobe Journey Optimizer interface, use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages accross your sandboxes. Start entering content to display top results.
+Anywhere from Adobe Journey Optimizer interface, use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages across your sandboxes. Start entering content to display top results.
 
 ![](assets/unified-search.png)
 

@@ -69,7 +69,7 @@ In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped 
         <td><a href="aggregation.md#max">Maximum</a></td><td>This function returns the largest of all the selected values within an array</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset of</a></td><td>This function termines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B</td>
+    <td><a href="arrays-list.md#superset">Superset of</a></td><td>This function determines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B</td>
     </tr>
 </table>
 
