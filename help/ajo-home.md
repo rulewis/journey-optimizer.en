@@ -62,22 +62,22 @@ level: Beginner
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer product description</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer product description</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform documentation</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Adobe Experience Platform documentation</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html">Adobe Experience Platform access overview</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html" target="_blank">Adobe Experience Platform access overview</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform developers resources</a>
+      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform developers resources</a>
     </li>
     </div>
   </td>
@@ -119,7 +119,7 @@ level: Beginner
       <a href="using/get-started-queries.md">Queries</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html">Monitoring</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">Monitoring</a>
     </li>
     <p>
     <p>CONNECTIONS</p>
