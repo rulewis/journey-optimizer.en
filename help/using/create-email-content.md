@@ -64,7 +64,7 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_3.png)
 
-1. Each component can be further customized with the **[!UICONTROL Component settings]** section. For example, you can change your text style, the padding or margin of your component. Learn more about styles in the Email Editor in [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target="_blank"}.
+1. Each component can be further customized with the **[!UICONTROL Component settings]** section. For example, you can change your text style, the padding or margin of your component. [Learn more about alignment and padding](#adjusting-vertical-alignment-and-padding).
 
     ![](assets/email_designer_4.png)
 
