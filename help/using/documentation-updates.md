@@ -25,4 +25,5 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added external system integration best practices. [Read more](configuration/external-systems.md)
 * New Intelligent Services integration. [Read more](building-journeys/ai-services-overview.md#orchestrate-journeys)
 * Updated Push configuration section. [Read more](push-configuration.md)
+* Updated Configure offers selection in decisions section. [Read more](offers/offer-activities/configure-offer-selection.md)
  
