@@ -9,7 +9,7 @@ level: Beginner
 ---
 # Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}
 
-![](using/assets/do-not-localize/banner-cjm.png) 
+![](using/assets/do-not-localize/banner-cjm.jpg) 
 
 
 <table style="table-layout:fixed">
