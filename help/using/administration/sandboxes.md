@@ -3,7 +3,7 @@ title: Sandboxes management
 description: Learn how to manage sandboxes
 feature: Control Groups
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Sandboxes management {#sandboxes}

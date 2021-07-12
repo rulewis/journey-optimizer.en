@@ -3,7 +3,7 @@ title: Adobe Campaign v7/v8 actions
 description: Learn about Adobe Campaign v7/v8 actions
 feature: Actions
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Adobe Campaign v7/v8 actions {#using_campaign_classic} 

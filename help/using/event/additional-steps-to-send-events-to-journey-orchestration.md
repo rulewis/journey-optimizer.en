@@ -3,7 +3,7 @@ title: Additional steps to send events to a journey
 description: Learn additional steps to send events to a journey
 feature: Events
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Additional steps to send events {#concept_xrz_n1q_y2b}

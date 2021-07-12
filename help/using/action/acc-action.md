@@ -3,7 +3,7 @@ title: Integrate with Adobe Campaign v7/v8
 description: Learn how to integrate with Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Integrate with Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}

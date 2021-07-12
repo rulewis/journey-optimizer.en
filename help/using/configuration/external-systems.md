@@ -4,7 +4,7 @@ solution: Journey Optimizer
 title: Integrating with external systemps
 description: Learn the best practices when integrating external systems
 feature: Journey Optimizer
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---

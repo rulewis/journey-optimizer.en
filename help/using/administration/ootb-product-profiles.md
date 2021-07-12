@@ -14,7 +14,7 @@ snippet: y
 exl-id:
 feature: Control Groups
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Built-in product profiles {#ootb-product-profiles}

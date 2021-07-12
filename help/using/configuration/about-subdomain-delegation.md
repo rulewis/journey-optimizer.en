@@ -5,7 +5,7 @@ internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 

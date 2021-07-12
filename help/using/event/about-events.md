@@ -3,7 +3,7 @@ title: About events
 description: Learn about events
 feature: Events
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # About events{#concept_gfj_fqt_52b}

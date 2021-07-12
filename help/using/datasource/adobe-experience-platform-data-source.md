@@ -3,7 +3,7 @@ title: Adobe Experience Platform data source
 description: Learn how to configure Adobe Experience Platform data source
 feature: Data Sources
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}
