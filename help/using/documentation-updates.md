@@ -9,7 +9,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## July 2021
 
-* Added direct links to all Experience Platform services docs in [!DNL Journey Optimizer] documentation home page and table of content
+* Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of content
 * Added links to [!DNL Journey Optimizer] product description in the home page
 * Added tutorial videos in doc pages
 * Optimized home page imagery
