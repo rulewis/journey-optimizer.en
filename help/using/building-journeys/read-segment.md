@@ -50,6 +50,8 @@ The steps to configure the Read Segment activity are as follows:
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
 
+1. In the **[!UICONTROL Throttling rate]** field, define the throughput of the Read segment activity. This value is stored in the journey version payload. The default value is 17.000 and must be between 500 and 17000.
+
 1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
     ![](../assets/read-segment-schedule.png)
