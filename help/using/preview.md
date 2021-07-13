@@ -31,7 +31,7 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 >
 >When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](personalization/personalization-use-case.md).
 
-![](assets/do-not-localize/how-to-video.png) [Learn how to preview, proof, and publish your email in this video](#video-preview)
+➡️ [Learn how to preview, proof, and publish your email in this video](#video-preview)
 
 ## Select test profiles{#select-test-profiles}
 
