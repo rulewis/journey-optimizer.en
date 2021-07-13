@@ -9,9 +9,10 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## July 2021
 
-* Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of content
+* Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of contents
+* New landing pages for Experience Platform services available in [!DNL Journey Optimizer] 
 * Added links to [!DNL Journey Optimizer] product description in the home page
-* Added tutorial videos in doc pages
+* Added tutorial videos in multiple pages
 * Optimized home page imagery
 * Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](message-tracking.md)
 * Added a subsection on mirror pages. [Read more](message-tracking.md#mirror-page)
