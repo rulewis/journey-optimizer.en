@@ -71,3 +71,7 @@ For a given call, a maximum of three retries can be performed after the first ca
 **Where can I configure the timeout? Is there a maximum value?**
 
 In each journey, you can define a timeout duration. Timeout duration is configured in the properties of a journey. Timeout duration must be between 1 second and 30 seconds. Refer to [this section](../configuration/external-systems.md#timeout) and [this page](../building-journeys/journey-gs.md#timeout_and_error). 
+
+**How is DULE applied to data from External Sources?**
+
+No. You are responsible for the proper use of any data you retrieve or send to an external system. As an administrator, you can configure what is variable and can be sent in an Action. You can also configure what data comes back and how its surfaced in a data source. 
