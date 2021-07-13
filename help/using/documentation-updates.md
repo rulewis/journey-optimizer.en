@@ -13,8 +13,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added links to [!DNL Journey Optimizer] product description in the home page
 * Added tutorial videos in doc pages
 * Optimized home page imagery
-* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](message-tracking)
-* Added a subsection on mirror pages. [Read more](message-tracking#mirror-page)
+* Moved, improved and renamed 'Message tracking' section to 'Add links and track messages'. [Read more](message-tracking.md)
+* Added a subsection on mirror pages. [Read more](message-tracking.md#mirror-page)
 * Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](offers/get-started/starting-offer-decisioning.md)
 * New use case: [personalize a message with helper functions](personalization/personalization-use-case-helper-functions.md)
 * For external data sources, a capping rule of 15 calls per second is now automatically defined. [Read more](configuration/external-systems.md#capping)
