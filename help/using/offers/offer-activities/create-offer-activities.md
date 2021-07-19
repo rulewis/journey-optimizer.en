@@ -25,7 +25,7 @@ Before creating a decision, make sure that the components below have been create
 
 ## Create the decision {#create-activity}
 
-1. Access the decisions list, then click **[!UICONTROL Create activity]**.
+1. Access the decisions list, then click **[!UICONTROL Create decision]**.
 
 1. Specify the decision's name as well as its start and end date and time, then click **[!UICONTROL Next]**.
 
