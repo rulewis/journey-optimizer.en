@@ -20,8 +20,6 @@ Business events can be "a product is back in stock", "the stock price of a compa
 * Business events can only be dropped as the first step of a journey.
 * When dropping a business event as the first step of a journey, the scheduler type of the journey will be "business event".
 * Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
-* Business events cannot be triggered more frequently than one hour.
-* After a business event is triggered, there will be a delay to have the segment exported from 15 minutes to up to one hour.
 * When testing a business event, you have to pass the event parameters and the identifier of the test profile that will enter the journey in test. Also, when testing a business event based journey, you can only trigger single profile entrance. See [this section](../building-journeys/testing-the-journey.md#test-business). In test mode, there is no "Code view" mode available.
 * What happens to individuals that are currently in the journey if a new business event arrives? It behaves the same way as when individuals are still in a recurring journey when a new recurrence happens. Their path is ended. As a result, marketers must pay attention to avoid building too long journeys if they expect frequent business events.
 
