@@ -20,7 +20,7 @@ Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse 
 
 ## Left navigation
 
-Use the links on the left to browse capabilities. 
+Use the links on the left to browse capabilities.
 
 ![](assets/ajo-home.png)
 
@@ -39,7 +39,7 @@ You can find below the full list of services and capabilities available in the l
 * **[!UICONTROL Journeys]** - Create, configure and orchestrate your customer journeys. Learn more [in this section](building-journeys/journey-gs.md#jo-build)
 
 * **[!UICONTROL Messages]** - Create, design, test and publish email and push messages. Learn more [in this section](create-message.md)
-        
+
 **[!UICONTROL DECISION MANAGEMENT]**
 
 * **[!UICONTROL Offers]** - Access your recent sources and datasets from this menu. Use this section to create new offers. [Learn more](offers/offer-library/creating-personalized-offers.md)
@@ -76,8 +76,7 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Journey Administration]** - Use this menu to configure [events](event/about-events.md), [data sources](datasource/about-data-sources.md) and [actions](action/action.md) to use in your journeys.
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more about sandboxes in this documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}
-
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more about sandboxes in this documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
 
 ## In-product use cases
 
@@ -97,6 +96,28 @@ Click **[!UICONTROL View details]** to learn more about each use case.
 Click the **[!UICONTROL Begin]** button to start the use case.
 
 You can access executed use cases from the **[!UICONTROL View use case library]** button.
+
+## Accessibility
+
+Accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
+
+* Keyboard accessibility
+* Color contrast
+* Validation of required fields
+
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=en){target="_blank"}.
+
+You can use these common keyboard shortcuts in Adobe Journey Optimizer:
+
+| Action | Shortcut |
+| --- | --- |
+| Move between user interface elements, sections, and menu groups | Tab |
+| Move backwards between user interface elements, sections, and menu groups | Shift + Tab |
+| Move within sections to set focus to individual elements | Arrow |
+| Select or clear an element that is in focus | Enter or Spacebar |
+| Cancel a selection, collapse an in-focus panel or close a dialog box | Esc |
+
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=en) {target="_blank"}.
 
 ## Find help and support
 
@@ -134,10 +155,9 @@ Anywhere from Adobe Journey Optimizer interface, use the Adobe Experience Cloud 
 
 ![](assets/unified-search.png)
 
-Press **Enter** to access all results and filter. 
+Press **Enter** to access all results and filter.
 
 ![](assets/search-and-filter.png)
-
 
 ## Filter lists{#section_lgm_hpz_pgb}
 
