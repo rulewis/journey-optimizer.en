@@ -34,5 +34,5 @@ Learn how to create a dataset, map it to a schema, add data to it, and confirm t
 
 * [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Streaming ingestion overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target="_blank"}
-* [Ingest data into Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target="_blank"}
+* [Ingest data into Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}
 
