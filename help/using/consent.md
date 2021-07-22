@@ -121,7 +121,8 @@ Request body:
 }
 ```
 
-<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
+<!--and provide an answer back to the landing page.-->
 
 ## Unsubscribe link in header {#unsubscribe-email}
 
