@@ -43,11 +43,8 @@ To delegate a new subdomain, follow the steps below:
 
     >[!CAUTION]
     >
-    >Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com. Delegating an invalid subdomain to Adobe is not allowed.
-
-    >[!NOTE]
-    >
-    >Multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >Note that multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
