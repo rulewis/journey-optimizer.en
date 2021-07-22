@@ -44,4 +44,14 @@ Any XDM schema that will be used for [!DNL Journey Optimizer] events should meet
 
    ![](../assets/schema8.png)
 
-## Leverage 
+## Leverage schema relationships
+
+Adobe Experience Platorm allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
+
+Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create a segment for all customers who bought a laptop, for example, without having to explicitely list out all laptop IDs or capture every singe product details in transactionnal systems.
+
+To define a relationship, needs to be a dedicated field in the source schema, in this case the product SKU field in both the in-store purchases and web events schemas. This field needs to reference another field in the detination schema. whish is oing to be the product SKU field in the product catalago schema; Also the source and destination tables must be enabled for real time customer profile and the destination scehma must have that common field defined as its primary identity. 
+
+product catalalog schema enabled for profile with the product SKU as the primay identity. 
+
+In my store purchase shema I select the product SKU field and in the field properties check the relationship checkbox. I enter the product catalog schema as the reference schema and select the identity name space for the product. Ibn this case it's a custom non peple id defined called luma product sku. we can see the relation ship in the schema editor. I can do the same in the web event checma. You could do the same for the store ID and the promotion ID. 
