@@ -46,23 +46,23 @@ Any XDM schema that will be used for [!DNL Journey Optimizer] events should meet
 
 ## Leverage schema relationships{#leverage_schema_relationships}
 
-Adobe Experience Platorm allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
+Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
 
-Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create a segment for all customers who bought a laptop, for example, without having to explicitely list out all laptop IDs or capture every singe product details in transactionnal systems.
+Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create a segment for all customers who bought a laptop, for example, without having to explicitly list out all laptop IDs or capture every single product details in transactional systems.
 
 To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
 
-Here is the product catalog schema enabled for profile with the product ID defined as the primay identity. 
+Here is the product catalog schema enabled for profile with the product ID defined as the primary identity. 
 
 ![](../assets/schema9.png)
 
-Here is the purchase shema with the relationship defined on the product ID field.
+Here is the purchase schema with the relationship defined on the product ID field.
 
 ![](../assets/schema10.png)
 
->[!CAUTION]
+>[!NOTE]
 >
->Learn more on schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)  configuration is **mandatory** and must be performed by a **technical user**.
+>Learn more on schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
