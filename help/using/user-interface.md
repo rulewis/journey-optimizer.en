@@ -99,13 +99,13 @@ You can access executed use cases from the **[!UICONTROL View use case library]*
 
 ## Accessibility
 
-Accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
+The accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
 
 * Keyboard accessibility
 * Color contrast
 * Validation of required fields
 
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=en){target="_blank"}.
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentation.
 
 You can use these common keyboard shortcuts in Adobe Journey Optimizer:
 
@@ -115,9 +115,9 @@ You can use these common keyboard shortcuts in Adobe Journey Optimizer:
 | Move backwards between user interface elements, sections, and menu groups | Shift + Tab |
 | Move within sections to set focus to individual elements | Arrow |
 | Select or clear an element that is in focus | Enter or Spacebar |
-| Cancel a selection, collapse an in-focus panel or close a dialog box | Esc |
+| Cancel a selection, collapse a panel or close a dialog box | Esc |
 
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=en) {target="_blank"}.
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"}.
 
 ## Find help and support
 
