@@ -23,7 +23,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * For live journeys, the journey properties screen now displays the publication date and the name of the user who published the journey. [Read more](building-journeys/journey-gs.md#change-properties)
 * In the journey list screen, the journey type filter has been added. [Read more](user-interface.md#section_lgm_hpz_pgb)
 * Updated the Journey limitations. [Read more](building-journeys/limitations.md)
-* The [!UICONTROL Throttling rate] parameter has been in the Read segment activity. [Read more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* The [!UICONTROL Throttling rate] parameter has been added in the Read segment activity. [Read more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Updated 'Configure offers selection in decisions' section. [Read more](offers/offer-activities/configure-offer-selection.md)
 * Added a warning to mention that event-based offers are not currently supported. [Read more](offers/offer-library/creating-personalized-offers.md#eligibility)
  
