@@ -60,6 +60,10 @@ Here is the purchase shema with the relationship defined on the product ID field
 
 ![](../assets/schema10.png)
 
+>[!CAUTION]
+>
+>Learn more on schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)  configuration is **mandatory** and must be performed by a **technical user**.
+
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
 * when configuring a unitary event
