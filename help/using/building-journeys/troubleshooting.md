@@ -55,7 +55,7 @@ Here are a few things and administrator should check:
 * Does your event payload contain an event id?
 * Did you hit the right URL?
 * Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [this page](../event/about-creating.md#preview-the-payload).
-* Did you use the right key/value pairs in the header of your event?
+* Did you use the right key-value pairs in the header of your event?
 
     ```
     X-gw-ims-org-id - your ORGID
