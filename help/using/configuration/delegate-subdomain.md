@@ -47,7 +47,7 @@ To delegate a new subdomain, follow the steps below:
 
     >[!NOTE]
     >
-    >Subdomains such as email.marketing.yourcompany.com are currently not supported.
+    >Multi-level subdomains such as email.marketing.yourcompany.com are currently not supported.
 
 1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file, then navigate to your domain hosting solution to generate the matching DNS records.
 
