@@ -3,7 +3,7 @@ title: About ExperienceEvent Schemas for journey events
 description: Learn about ExperienceEvent Schemas for journey events
 feature: Schemas
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # About ExperienceEvent Schemas for [!DNL Journey Optimizer] Events 

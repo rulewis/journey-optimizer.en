@@ -14,7 +14,7 @@ snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Configure journeys

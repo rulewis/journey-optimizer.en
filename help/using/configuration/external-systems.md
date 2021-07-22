@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 solution: Journey Optimizer
-title: Integrating with external systemps
-description: Learn the best practices when integrating external systems
+title: Integrate Journey Optimizer with external systemps
+description: Learn the best practices when integrating Journey Optimizer with external systems
 feature: Journey Optimizer
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---
-# Integrating with external systems {#external-systems}
+# Integrate with external systems {#external-systems}
 
 This page presents the different guardrails provided by Journey Optimizer when integrating an external system, as well as best practices: how to optimize the protection of your external system using the capping API, how to configure journey timeout, and how retries work. 
 

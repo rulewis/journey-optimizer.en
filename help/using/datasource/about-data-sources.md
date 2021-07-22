@@ -3,7 +3,7 @@ title: About data sources
 description: Learn how to configure a data source
 feature: Data Sources
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # About data sources {#concept_s1s_dqt_52b}

@@ -3,7 +3,7 @@ title: Send a message using Campaign v7/v8
 description: Learn how to send a message using Campaign v7/v8
 feature: Actions
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 

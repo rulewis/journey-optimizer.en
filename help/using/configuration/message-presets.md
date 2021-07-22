@@ -3,7 +3,7 @@ title: Create message presets
 description: Learn how to configure and monitor message presets
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 
@@ -19,7 +19,7 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
-![](../assets/do-not-localize/how-to-video.png) [Learn how to create and use email presets in this video](#video-presets)
+➡️ [Learn how to create and use email presets in this video](#video-presets)
 
 ## Create a message preset {#create-message-preset}
 

@@ -3,7 +3,7 @@ title: Configure a unitary event
 description: Learn how to configure a unitary event
 feature: Events
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Configure a unitary event {#configure-an-event}
