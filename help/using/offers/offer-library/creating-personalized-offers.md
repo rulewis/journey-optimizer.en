@@ -112,19 +112,68 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
 ## Review the offer {#review}
 
-Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to users, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
+Once eligibility rules and constraints have been defined, a summary of the offer properties displays.
 
-You can also save the offer as a draft, in order to edit and approve it later on. 
+1. Make sure everything is configured properly.
 
-![](../../assets/offer_review.png)
+1. When your offer is ready to be presented to users, click **[!UICONTROL Finish]**.
 
-The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on whether you approved it or not in the previous step.
+1. Select **[!UICONTROL Save and approve]**.
 
-It is now ready to be delivered to users. You can select it to display its properties and edit or suppress it.
+    ![](../../assets/offer_review.png)
+
+    You can also save the offer as a draft, in order to edit and approve it later on. 
+
+The offer displays in the list with the **[!UICONTROL Approved]** or **[!UICONTROL Draft]** status, depending on whether you approved it or not in the previous step.
+
+It is now ready to be delivered to users.
 
 ![](../../assets/offer_created.png)
 
-Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab. [Learn more](../get-started/user-interface.md#monitoring-changes).
+## Offer list {#offer-list}
+    
+From the offer list, you can select the offer to display its properties. You can also edit it, change its status (**Draft**, **Approved**, **Archived**), duplicate the offer, or delete it.
+
+![](../../assets/offer_created.png)
+
+Select the **[!UICONTROL Edit]** button to go back to the offer edition mode, where you can modify the offer's [details](#create-offer), [representations](#representations), as well as edit the [eligibility rules and constraints](#eligibility). 
+
+Select an approved offer and click **[!UICONTROL Undo approve]** to set the offer status back to **[!UICONTROL Draft]**.
+
+To set again the status to **[!UICONTROL Approved]**, select the corresponding button that is now displayed.
+
+![](../../assets/offer_approve.png)
+
+The **[!UICONTROL More actions]** button enables the actions described below.
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status.
+* **[!UICONTROL Delete]**: removes the offer from the list.
+
+    >[!CAUTION]
+    >
+    >The offer and its content will not be accessible anymore. This action cannot be undone.
+    >
+    >If the offer is used in a collection or a decision, it cannot be deleted. You must remove the offer from any objects first.
+
+* **[!UICONTROL Archive]**: sets the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
+
+You can also delete or change the status of multiple offers at the same time by selecting the corresponding checkboxes.
+
+![](../../assets/offer_multiple-selection.png)
+
+If you want to change the status of several offers whith different statuses, only the relevant statuses will be changed.
+
+![](../../assets/offer_change-status.png)
+
+Once an offer has been created, you can click its name from the list.
+
+![](../../assets/offer_click-name.png)
+
+This enables you to access detailed information for that offer. Select the **[!UICONTROL Change log]** tab to [monitor all the changes](../get-started/user-interface.md#monitoring-changes) that have been made to the offer.
+
+![](../../assets/offer_information.png)
 
 ## Tutorial video {#video}
 
