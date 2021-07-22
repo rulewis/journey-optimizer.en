@@ -20,7 +20,7 @@ Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse 
 
 ## Left navigation
 
-Use the links on the left to browse capabilities. 
+Use the links on the left to browse capabilities.
 
 ![](assets/ajo-home.png)
 
@@ -78,7 +78,6 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more](administration/sandboxes.md)
 
-
 ## In-product use cases
 
 Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
@@ -97,6 +96,28 @@ Click **[!UICONTROL View details]** to learn more about each use case.
 Click the **[!UICONTROL Begin]** button to start the use case.
 
 You can access executed use cases from the **[!UICONTROL View use case library]** button.
+
+## Accessibility
+
+Accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
+
+* Keyboard accessibility
+* Color contrast
+* Validation of required fields
+
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=en){target="_blank"}.
+
+You can use these common keyboard shortcuts in Adobe Journey Optimizer:
+
+| Action | Shortcut |
+| --- | --- |
+| Move between user interface elements, sections, and menu groups | Tab |
+| Move backwards between user interface elements, sections, and menu groups | Shift + Tab |
+| Move within sections to set focus to individual elements | Arrow |
+| Select or clear an element that is in focus | Enter or Spacebar |
+| Cancel a selection, collapse an in-focus panel or close a dialog box | Esc |
+
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=en) {target="_blank"}.
 
 ## Find help and support
 
@@ -134,10 +155,9 @@ Anywhere from Adobe Journey Optimizer interface, use the Adobe Experience Cloud 
 
 ![](assets/unified-search.png)
 
-Press **Enter** to access all results and filter. 
+Press **Enter** to access all results and filter.
 
 ![](assets/search-and-filter.png)
-
 
 ## Filter lists{#section_lgm_hpz_pgb}
 
