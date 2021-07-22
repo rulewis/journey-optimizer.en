@@ -50,13 +50,13 @@ Adobe Experience Platorm allows you to define relationships between schemas in o
 
 Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create a segment for all customers who bought a laptop, for example, without having to explicitely list out all laptop IDs or capture every singe product details in transactionnal systems.
 
-To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in purchase schema. This field needs to reference the product ID field in the detination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
+To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
 
-Here is the product catalalog schema enabled for profile with the product ID defined as the primay identity. 
+Here is the product catalog schema enabled for profile with the product ID defined as the primay identity. 
 
 ![](../assets/schema9.png)
 
-In the purchase shema, I select the product ID field and define the relationship.
+Here is the purchase shema with the relationship defined on the product ID field.
 
 ![](../assets/schema10.png)
 
@@ -77,6 +77,8 @@ The linked fields are not available:
 * in event id condition (rule-based events)
 * in business events
 
+To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
+
 ### Journey conditions using event context
 
 You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
@@ -85,14 +87,20 @@ Add a condition in a journey, edit the expression and unfold the event node in t
 
 ![](../assets/schema12.png)
 
+To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
+
 ### Message personalization
 
 The linked fields are available in when personalizing a message.
 
 ![](../assets/schema14.png)
 
+To learn how to personalize a message, refer to this [page](../personalization/personalize.md).
+
 ### Custom action personalization with journey event context
 
-The linked fields are available in the action parameters of a journey action. 
+The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
 ![](../assets/schema13.png)
+
+To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).
