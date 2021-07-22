@@ -60,7 +60,12 @@ Here is the purchase shema with the relationship defined on the product ID field
 
 ![](../assets/schema10.png)
 
-In Journey Optimizer, you can then leverage all the fields from the linked tables.
+In Journey Optimizer, you can then leverage all the fields from the linked tables:
+
+* when configuring a unitary event
+* when using conditions in a journey
+* in message personalization
+* in custom action personalization
 
 ### Unitary event configuration
 
@@ -91,11 +96,11 @@ To learn how to define journey conditions, refer to this [page](../building-jour
 
 ### Message personalization
 
-The linked fields are available in when personalizing a message.
+The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
 ![](../assets/schema14.png)
 
-To learn how to personalize a message, refer to this [page](../personalization/personalize.md).
+To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
 ### Custom action personalization with journey event context
 
