@@ -90,6 +90,8 @@ This information is stored with the user's profile and is referenced at journey 
 
 Enable Send-Time Optimization on an email or push message by selecting the **Send-Time Optimization** switch from the Message activity parameters. 
 
+![](../assets/jo-message5.png)
+
 For email messages, choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. Push messages defaults to the opens option, as clicks are not applicable for push messaging. 
 
 You can also choose to bracket the send times used by the system by entering a value for the **Send within the next** option. If you choose "six hours" as the value, Adobe Journey Optimizer will check each user profile to see if the optimal send time occurs within six hours from the journey execution time and select the Send-Time Optimization-determined time. If that time is not within the next six hours, Adobe Journey Optimizer will default to sending the message at journey execution time. 
