@@ -66,12 +66,12 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
-* when configuring a unitary event
-* when using conditions in a journey
-* in message personalization
-* in custom action personalization
+* when configuring a unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
+* when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
+* in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
+* in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
-### Unitary event configuration
+### Unitary event configuration{#unitary_event_configuration}
 
 The linked schema fields are available in unitary event configuration:
 
@@ -88,7 +88,7 @@ The linked fields are not available:
 
 To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
-### Journey conditions using event context
+### Journey conditions using event context{#journey_conditions_using_event_context}
 
 You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
 
@@ -98,7 +98,7 @@ Add a condition in a journey, edit the expression and unfold the event node in t
 
 To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
 
-### Message personalization
+### Message personalization{#message_personalization}
 
 The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
@@ -106,7 +106,7 @@ The linked fields are available when personalizing a message. The related fields
 
 To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
-### Custom action personalization with journey event context
+### Custom action personalization with journey event context{#custom_action_personalization_with_journey_event_context}
 
 The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
