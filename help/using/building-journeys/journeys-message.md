@@ -12,7 +12,7 @@ level: Intermediate
 
 If you're using a third-party system to send your messages, you can create a custom action. Learn more in this [section](../action/action.md).
 
-## Adding a Message activity
+## Add a Message activity
 
 1. As always, start your journey with an event or a **Read Segment** activity.
 
@@ -48,9 +48,9 @@ The **[!UICONTROL Email parameters]** and **[!UICONTROL Push parameters]** secti
 
 To force a specific value, you can use the **Enable parameter override** icon to the right of the field. This option may be useful for testing purposes. For example, for an email, you can add your email address. After you have published the journey, the email is sent to you.
 
-## Send time optimization
+## Send time optimization{#send-time-optimization}
 
-### About Sent time optimization
+### About Sent time optimization{#about-send-time-optimization}
 >[!CONTEXTUALHELP]
 >id="jo_bestSendTime_disabled"
 >title="About Sent time optimization"
@@ -71,13 +71,13 @@ The model varies whether you are talking about scoring or training. Training is 
 
 This information is stored with the user's profile and is referenced at journey execution to tell Adobe Journey Optimizer when to send your message. 
 
-## Important notes
+## Important notes{#send-time-optimization-notes}
 
 * This feature is only available for mono-channel messages on email and push with tracking enabled.
 * The message must be published.
 * This feature is not compatible with burst mode.
 
-## Activate Sent time optimization
+## Activate Sent time optimization{#activate-send-time-optimization}
 >[!CONTEXTUALHELP]
 >id="jo_bestSendTime_email"
 >title="Activate Sent time optimization"

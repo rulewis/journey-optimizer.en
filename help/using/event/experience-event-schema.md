@@ -43,3 +43,5 @@ Any XDM schema that will be used for [!DNL Journey Optimizer] events should meet
    ![](../assets/schema7.png)
 
    ![](../assets/schema8.png)
+
+## Leverage 
