@@ -16,6 +16,8 @@ From the **[!UICONTROL Executions]** tab of the **[!UICONTROL Messages]** menu, 
 
 The email **[!UICONTROL Live report]** is divided into different widgets detailing your delivery's success and errors. Each widget can be resized and deleted if needed. For more information on this refer to this [section](live-report.md#modify-dashboard).
 
+![](../assets/live_report_5.png)
+
 **[!UICONTROL Email performance]** and **[!UICONTROL Email summary]** widgets details the main information relative to your message with a graph and KPIs:
 
 * **[!UICONTROL Sent]**: Total number of sends for the delivery.
@@ -37,6 +39,8 @@ The **[!UICONTROL Sending Statistics]** graph details the success of your delive
 * **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 * **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+
+![](../assets/live_report_6.png)
 
 The **[!UICONTROL Error Reasons]** graph and table allow you to see which error occurred during your delivery.
 

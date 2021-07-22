@@ -29,9 +29,9 @@ Personal and sensitive data needs to be managed carefully. Follow the general pr
 
 * Refrain from sending unsolicited messages ("spam"). Adobe strongly believes in the principles of permission marketing in fostering customer lifetime value and loyalty, and therefore strictly forbids the use of [!DNL Adobe Journey Optimizer] in sending unsolicited messages.
 
-[!DNL Journey Optimizer] provides you with the ability to manage the rights assigned to your users via different pre-built or custom product profiles. This allows you to manage who within your company can access, modify or export different types of data. Lean more about managing user access rights in [Manage permissions](../administration/permissions.md).
+[!DNL Journey Optimizer] provides you with the ability to manage the rights assigned to your users via different pre-built or custom product profiles. This allows you to manage who within your company can access, modify or export different types of data. Learn how to manage user permissions in [this page](administration/permissions.md).
 
-[!DNL Journey Optimizer] also enables you to track the messages sent and the behavior of your recipients through openings and clicks on links. [Learn more about tracking management](message-tracking.md).
+[!DNL Journey Optimizer] also enables you to track the messages sent and the behavior of your recipients through openings and clicks on links. Learn more about tracking management in [this page](message-tracking.md).
 
 ## Privacy management {#privacy-management}
 
@@ -48,7 +48,7 @@ Therefore, to correctly handle privacy and manage personal data, you must work w
 
 [!DNL Journey Optimizer] inherits most dataset changes made in Adobe Experience Platform.
 
-Consequently, Privacy requests (Right to Access and Right to be Forgotten) are managed through Experience Platform. You need to send your requests using [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html), and select **Profile** and **AEP Data Lake** from the product list when [creating your privacy request](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+Consequently, Privacy requests (Right to Access and Right to be Forgotten) are managed through Experience Platform. You need to send your requests using [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}, and select **Profile** and **AEP Data Lake** from the product list when [creating your privacy request](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target="_blank"}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Consequently, Privacy requests (Right to Access and Right to be Forgotten) are m
 
 ## Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
-[!DNL Journey Optimizer] is part of the Adobe Experience Cloud solutions. The way privacy is handled obeys the Adobe Experience Cloud general principles. [Learn more about Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html).
+[!DNL Journey Optimizer] is part of the Adobe Experience Cloud solutions. The way privacy is handled obeys the Adobe Experience Cloud general principles. Learn more about Adobe Experience Cloud privacy in [this page](https://www.adobe.com/privacy/marketing-cloud.html).
 
 As a company using Adobe Experience Cloud solutions, you choose what information to collect and send to your Adobe Experience Cloud account. Examples of the types of information that may be collected include web browsing activity, IP addresses, location information from mobile devices, campaign success rates, items purchased or placed in shopping cart, etc. For more on this, see the [Adobe Privacy Policy](https://www.adobe.com/privacy/policy.html).
 

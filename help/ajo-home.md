@@ -1,14 +1,15 @@
 ---
 keywords: Journey Optimizer;home;popular topics
 title: Journey Optimizer product documentation
+description: Adobe Journey Optimizer product help center
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 ---
-# Adobe [!DNL Journey Optimizer]Documentation {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] Documentation {#cjm-documentation}
 
-![](using/assets/do-not-localize/banner-cjm.png) 
+![](using/assets/do-not-localize/banner-cjm.jpg) 
 
 
 <table style="table-layout:fixed">
@@ -61,13 +62,24 @@ level: Beginner
     <p>
     <p>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform documentation</a>
+    <li>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer product description</a>
+    </li>
+    </div>
+    <div>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Adobe Experience Platform documentation</a>
+    </li>
     </div>
       <div>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html">Adobe Experience Platform access overview</a>
+      <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html" target="_blank">Adobe Experience Platform access overview</a>
+    </li>
     </div>
       <div>
-      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform developers resources</a>
+      <li>
+      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform developers resources</a>
+    </li>
     </div>
   </td>
    <td>
@@ -108,7 +120,7 @@ level: Beginner
       <a href="using/get-started-queries.md">Queries</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html">Monitoring</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">Monitoring</a>
     </li>
     <p>
     <p>CONNECTIONS</p>

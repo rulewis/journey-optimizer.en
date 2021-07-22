@@ -3,7 +3,7 @@ title: About events
 description: Learn about events
 feature: Events
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # About events{#concept_gfj_fqt_52b}
@@ -21,7 +21,7 @@ The event configuration allows you to define the information [!DNL Journey Optim
 
 You can  configure two types of events:
 
-* **Unitary** events: these event are linked to a person. They relate to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions. Unirary events can be rule-based or system generated. To learn how to create a unitary event, refer to this [page](../event/about-creating.md).
+* **Unitary** events: these event are linked to a person. They relate to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Optimizer] will listen to in journeys to orchestrate the best next actions. Unitary events can be rule-based or system generated. To learn how to create a unitary event, refer to this [page](../event/about-creating.md).
 
 * **Business** events: a business event is an event that, in contrast to a unitary event, is not linked to a specific profile. For example, it can be a news alert, a sports update, a flight change or cancellation, an inventory update, weather events, etc. While these events are not specific to a profile, they may be of interest to any number of profiles: individuals subscribed to particular news topics, passengers on a flight, shoppers interested in an out-of-stock product, etc. Business events are always rule-based. When you drop a business event in a journey, it automatically adds a **Read segment** activity right after. To learn how to create a business event, refer to this [page](../event/about-creating-business.md).
 

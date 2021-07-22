@@ -1,14 +1,14 @@
 ---
 title: Track your messages
-description: Learn how to track sent messages
+description: Learn how to add links and track sent messages
 feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 ---
-# Message tracking {#tracking}
+# Add links and track messages {#tracking}
 
-Use [!DNL Journey Optimizer] to track the messages sent and the behavior of your recipients.
+Use [!DNL Journey Optimizer] to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 
 ## Enable tracking {#enable-tracking}
 
@@ -44,7 +44,7 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Unsubscription link]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
 
-    * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser.
+    * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
 
     ![](assets/message-tracking-links.png)
 
@@ -58,6 +58,28 @@ To insert links into your email content, follow the steps below:
     * You can choose to underline the link or not by checking the corresponding option.
 
     ![](assets/message-tracking-link-settings.png)
+
+## Link to a mirror page {#mirror-page}
+
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+
+To add a link to a mirror page in your email, [insert a link](#insert-links) and select **[!UICONTROL Mirror page]** as the type of link.
+
+![](assets/message-tracking-mirror-page.png)
+
+The mirror page is automatically created.
+
+>[!NOTE]
+>
+>You cannot edit the auto-generated link.
+
+Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
+
+>[!NOTE]
+>
+>In the [proof](preview.md#send-proofs) sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+
+The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
 
 ## Manage tracking {#manage-tracking}
 

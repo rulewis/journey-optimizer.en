@@ -34,7 +34,7 @@ The steps to configure the Read Segment activity are as follows:
 
     >[!NOTE]
     >
-    >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
+    >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target="_blank"}. 
 
     ![](../assets/read-segment-selection.png)
 
@@ -49,6 +49,8 @@ The steps to configure the Read Segment activity are as follows:
     >[!NOTE]
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
+
+1. In the **[!UICONTROL Throttling rate]** field, define the throughput of the Read segment activity. This value is stored in the journey version payload. The default value is 17.000 and must be between 500 and 17000.
 
 1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
@@ -82,7 +84,7 @@ Once the test is running, the **[!UICONTROL Show logs]** button allows you to se
 
     ![](../assets/read-segment-log.png)
 
-Once the tests are successfull, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
+Once the tests are successful, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
 >[!NOTE]
 >

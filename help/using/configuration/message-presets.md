@@ -3,7 +3,7 @@ title: Create message presets
 description: Learn how to configure and monitor message presets
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 
@@ -19,7 +19,7 @@ With [!DNL Journey Optimizer], you can set up message presets that define all th
 
 Once message presets have been configured, you be able to select them when creating messages from the **[!UICONTROL Presets]** list.
 
-![](../assets/do-not-localize/how-to-video.png) [Learn how to create and use email presets in this video](#video-presets)
+➡️ [Learn how to create and use email presets in this video](#video-presets)
 
 ## Create a message preset {#create-message-preset}
 
@@ -102,7 +102,7 @@ To create a message preset, follow these steps:
     * IP pool verification
     * A/PTR record, t/m/res subdomain verification
 
-1. Once the checks are successfull, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+1. Once the checks are successful, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
     <!-- later on, users will be notified in Pulse -->
 

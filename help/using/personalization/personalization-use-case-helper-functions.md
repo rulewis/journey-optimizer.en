@@ -77,7 +77,7 @@ Follow these steps:
    
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Learn more about the [person name data type](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html).
+      Learn more about the person name data typein [Adobe Experience Plaform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 6. Click **[!UICONTROL Validate]**, then click **[!UICONTROL Save]**.
    
@@ -91,7 +91,7 @@ The cart content is contextual information from the journey. Therefore, you must
 1. Create an event whose schema includes the `productListItems` array.
 2. Define all the fields from this array as payload fields for this event.
 
-   Learn more about the [product list item data type](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html).
+   Learn more about the product list item data typein [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 3. Create a journey that starts with this event.
 4. Add the message to the journey.
@@ -316,15 +316,15 @@ The cart content is contextual information from the journey. Therefore, you must
 
 ### Handlebars functions
 
-[Helpers](functions/helpers.md)
+* [Helpers](functions/helpers.md)
 
-[String functions](functions/string.md)
+* [String functions](functions/string.md)
 
 ### Use cases
 
-[Personalization with profile information, context, and offer](personalization-use-case.md)
+* [Personalization with profile information, context, and offer](personalization-use-case.md)
 
-[Personalization with decision-based offer](../offers/offers-e2e.md)
+* [Personalization with decision-based offer](../offers/offers-e2e.md)
 
 ## Tutorial video{#helper-functions-video}
 

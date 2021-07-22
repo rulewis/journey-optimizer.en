@@ -84,7 +84,7 @@ Eligibility rules and constrains allow you to define the conditions under which 
     
     You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
-    For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
     
     ![](../../assets/offer-eligibility-segment.png)
 
@@ -124,7 +124,7 @@ It is now ready to be delivered to users. You can select it to display its prope
 
 ![](../../assets/offer_created.png)
 
-Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and decisions](../get-started/user-interface.md#monitoring-changes)).
+Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab. [Learn more](../get-started/user-interface.md#monitoring-changes).
 
 ## Tutorial video {#video}
 

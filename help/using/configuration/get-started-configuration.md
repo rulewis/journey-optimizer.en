@@ -3,7 +3,7 @@ title: Journey Optimizer settings and configuration guidelines
 description: Learn message and journey configuration guidelines
 audience: administrators
 content-type: reference
-role: Administrator
+role: Admin
 level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer

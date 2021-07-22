@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 ---
-# Get Started with Profiles {#profiles-gs}
+# Get Started with profiles {#profiles-gs}
 
 Leverage Real-time Customer Profile in [!DNL Adobe Journey Optimizer] to see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. **Profiles** allows you to consolidate your customer data into a unified view offering an actionable, timestamped account of every customer interaction. 
 
@@ -23,5 +23,5 @@ Learn more about **Merge policies** in this [documentation](https://experiencele
 
 **See also**
 
-* [Real-time Cistomer Profile documentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target="_blank"}
-* [Real-time Cistomer Profile overview video](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}
+* [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target="_blank"}
+* [Real-time Customer Profile overview video](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}

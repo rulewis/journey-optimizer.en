@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 solution: Journey Optimizer
-title: Integrating with external systemps
-description: Learn the best practices when integrating external systems
+title: Integrate Journey Optimizer with external systemps
+description: Learn the best practices when integrating Journey Optimizer with external systems
 feature: Journey Optimizer
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---
-# Integrating with external systems {#external-systems}
+# Integrate with external systems {#external-systems}
 
 This page presents the different guardrails provided by Journey Optimizer when integrating an external system, as well as best practices: how to optimize the protection of your external system using the capping API, how to configure journey timeout, and how retries work. 
 
@@ -38,7 +38,7 @@ A capping rule is specific to one endpoint but global to all the journeys of a s
 
 For example, let's say that you have defined a capping rule of 100 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 200 calls per second, it will use the 100 slots available and discard the 100 remaining slots. Since the maximum rate has exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
 
-To learn more on the capping API and how to configure capping rules, refer to [this page](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html). 
+To learn more on the capping API and how to configure capping rules, refer to [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 
 
 ## Timeout and retries{#timeout}
 
@@ -60,15 +60,15 @@ Let's take an example for a timeout of 5 seconds.
 * The first call lasts longer 5 seconds: the call is cancelled and there is no retry. It is counted as a timeout error in reporting. 
 * The first call fails after 2 seconds (the external system returns an error): 3 seconds are left for retries, if capping slots are available.
     * If one of the three retries is successful before the end of the 5 seconds, the call is performed, and there is no error.
-    * If the end of the timeout duration is reached during the retries, the call is cancelled andcounted as a timeout error in reporting. 
+    * If the end of the timeout duration is reached during the retries, the call is cancelled and counted as a timeout error in reporting. 
 
 ## Frequently asked questions{#faq}
 
 **How can I configure a capping rule? Is there a default capping rule?**
 
-By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../configuration/external-systems.md#capping) and [this page](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html). 
+By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../configuration/external-systems.md#capping) and [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 
 
-**How many retries are performed? Can I change the number of retries or define a minumim wait period between retries?**
+**How many retries are performed? Can I change the number of retries or define a minimum wait period between retries?**
 
 For a given call, a maximum of three retries can be performed after the first call, until the end of timeout duration is reached. The number of retries and the time between each retry cannot be changed. Refer to [this section](../configuration/external-systems.md#timeout). 
 

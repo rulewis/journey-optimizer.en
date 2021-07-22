@@ -10,6 +10,7 @@ solution: Journey Optimizer
 # [!DNL Journey Optimizer] Help {#using}
 
 + [Journey Optimizer documentation](ajo-home.md)
++ [Latest updates](using/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
@@ -26,6 +27,7 @@ solution: Journey Optimizer
     + [Design your email content in the UI](using/create-email-content.md)
     + [Import or code your email content](using/existing-content.md)
     + [Use email designer content components](using/content-components.md)
+  + [Add links and track messages](using/message-tracking.md)
   + Validate and publish {#create-message}
     + [Preview and proofs](using/preview.md)
     + [Check alerts](using/alerts.md)
@@ -51,7 +53,7 @@ solution: Journey Optimizer
   + [Add personalized offers](using/deliver-personalized-offers.md)  
 + Segments, profiles and identity{#segment}
   + Segments {#segments}
-    + [About segments](using/segment/about-segments.md)
+    + [Get started with segments](using/segment/about-segments.md)
     + [Build segments](using/segment/creating-a-segment.md)
   + [Profiles](using/get-started-profiles.md)
   + [Identity](using/get-started-identity.md)
@@ -87,7 +89,6 @@ solution: Journey Optimizer
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Track and monitor {#reporting}
-  + [Message tracking](using/message-tracking.md)
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
@@ -229,7 +230,7 @@ solution: Journey Optimizer
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
-    + [Sources](using/get-started-sources.md)
+  + [Sources](using/get-started-sources.md)
 + Access control {#administration}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)

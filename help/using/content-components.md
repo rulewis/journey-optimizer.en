@@ -109,7 +109,7 @@ Use the **[!UICONTROL Image]** component to insert an image file from your compu
 
 1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
 
-   To learn more on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+   To learn more on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Click on your newly added component to start configuring your **[!UICONTROL Content Components]** and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
 

@@ -18,7 +18,6 @@ To detect possible errors in email content or personalization settings, send pro
 >
 >Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md). 
 
-
 To test your message content, you need to:
 
 * [select test profiles](#select-test-profiles)
@@ -32,7 +31,7 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 >
 >When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](personalization/personalization-use-case.md).
 
-![](assets/do-not-localize/how-to-video.png) [Learn how to preview, proof, and publish your email in this video](#video-preview)
+➡️ [Learn how to preview, proof, and publish your email in this video](#video-preview)
 
 ## Select test profiles{#select-test-profiles}
 
@@ -48,7 +47,7 @@ To select test profiles, follow the steps below:
 
     ![](assets/previewselect-namespace.png)
 
-    Learn more about Adobe Experience Platform identity namespaces [in this section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+    Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md){target="_blank"}.
     
     In the example below, we will use the **Email** namespace.
 

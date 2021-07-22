@@ -16,9 +16,9 @@ Available methods to create test profiles are detailed below:
 
 * You can create a test profile by uploading a [csv file](#create-test-profiles-csv) or using [API calls](#create-test-profiles-api). In addition to these two methods, Adobe Journey Optimizer comes with a specific [in-product use case](#use-case-1) to facilitate test profile creation.
 
-* You can also upload a json file in a dataset. For more on this, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+* You can also upload a json file in a dataset. For more on this, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
-Note that creating a test profile is similar to creating regular profiles in Adobe Experience Platform. For more information, refer to the [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Note that creating a test profile is similar to creating regular profiles in Adobe Experience Platform. For more information, refer to the [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
 
 ## Prerequisites {#test-profile-prerequisites}
 
@@ -51,7 +51,7 @@ First, you need to **create a schema**. Follow these steps:
 
 >[!NOTE]
 >
->For more information on schema creation, refer to the [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
+>For more information on schema creation, refer to the [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 Then you need to **create the dataset** in which the profiles will be imported. Follow these steps:
 
@@ -68,7 +68,7 @@ Then you need to **create the dataset** in which the profiles will be imported. 
 
 >[!NOTE]
 >
-> For more information on dataset creation, refer to the [Catalog Service documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
+> For more information on dataset creation, refer to the [Catalog Service documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## In-product use case{#use-case-1}
 
@@ -80,7 +80,7 @@ Click the **[!UICONTROL Begin]** button to start the use case.
 
 The following information is required:
 
-1. **Identity namespace**: The [identity namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
+1. **Identity namespace**: The [identity namespace](../get-started-identity.md) used to uniquely identify the test profiles. For example, if email is used to identify the test profiles, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
 
 2. **CSV file**: A comma separated file containing the list of test profiles to create. The use case expects a predefined format for the CSV file that contains the list of test profiles to create. Each row in the file should include the following fields in the correct order as follows:
 
@@ -163,11 +163,11 @@ In Adobe Experience Platform, you can create profiles by uploading a csv file co
 Your test profiles are added and can now be used when testing a journey. Refer to [this section](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> For more information on csv imports, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
+> For more information on csv imports, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## Create test profiles using API calls{#create-test-profiles-api}
 
-You can also create test profiles via API calls. Learn more in this [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+You can also create test profiles via API calls. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
 
 You must use a Profile schema that contains the "Profile test details" field group. The testProfile flag is part of this field group.
 When creating a profile, make sure you pass the value: testProfile = true.

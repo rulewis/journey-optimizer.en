@@ -26,7 +26,7 @@ To create a decision rule, follow these steps:
 
 1. Name your rule and provide a description, then configure the rule according to your needs.
     
-    To do this, the **Segment Builder** from Adobe Experience Platform is available to help you build the rule's conditions. For more on how to use it, refer to the [dedicated  documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+    To do this, the **Segment Builder** fis available to help you build the rule's conditions. [Learn more](../../segment/about-segments.md)
     
     In this example, the rule will target customers that have the "Gold" loyalty level.
 

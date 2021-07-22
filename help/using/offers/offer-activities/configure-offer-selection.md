@@ -8,27 +8,35 @@ level: Intermediate
 ---
 # Configure offers selection in decisions {#offers-selection-in-activities}
 
-## About Offers priority {#about-offers-priority}
+If several offers are eligible for a given placement, you can choose the method that will select the best offer for each profile when configuring a decision (previously known as offer activity). You can rank offers by:
+* Offer priority
+* Ranking formula
 
-By default, when several offers are eligible for a given placement in a decision (previously known as offer activity), the offers with the highest **priority** will be delivered to the customers first. Offers' priority scores are assigned when creating an offer (see [Create a personalized offer](../offer-library/creating-personalized-offers.md)).
+## Offer priority {#about-offers-priority}
+
+By default, when several offers are eligible for a given placement in a decision (previously known as offer activity), the offers with the highest **priority** will be delivered to the customers first.
 
 ![](../../assets/offer-priority.png)
 
-Additionally, Journey Optimizer allows you to create **ranking formulas**. These are formulas that determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores.
+Offers' priority scores are assigned when creating an offer. Learn how to create a personalized offer in [this section](../offer-library/creating-personalized-offers.md)).
 
-For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running". 
+## Ranking formula {#assign-ranking-formula}
 
-For more on how to create a ranking formula, refer to [this section](../offer-library/create-ranking-formulas.md).
+In addition to offer priority, Journey Optimizer allows you to create **ranking formulas**. These are formulas that determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores.
 
-## Assign a ranking formula to a placement {#assign-ranking-formula}
+For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running".
 
-Once a ranking formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
+Learn how to create a ranking formula in [this section](../offer-library/create-ranking-formulas.md).
 
-1. Create a decision or edit an existing one, then create the placements that will contain your offers (see [Create decisions](../offer-activities/create-offer-activities.md)).
+Once a ranking formula has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this, follow the steps below:
 
-1. For each placement, select **[!UICONTROL Ranking]** from the drop-down list.
+1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
 
-1. Click **[!UICONTROL Add ranking]**.
+1. Add the placements that will contain your offers. See [Create placements](../offer-library/creating-placements.md).
+
+1. For each placement, add a collection. See [Create collections](../offer-library/creating-collections.md).
+
+1. Choose to rank offers by **[!UICONTROL Ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
 
     ![](../../assets/offer-activity-ranking.png)
 
@@ -38,4 +46,4 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 
 The ranking formula is now associated to the placement.
 
-If mutiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.
+If multiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.

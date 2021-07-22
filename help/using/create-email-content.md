@@ -64,7 +64,7 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_3.png)
 
-1. Each component can be further customized with the **[!UICONTROL Component settings]** section. For example, you can change your text style, the padding or margin of your component. [Learn more about styles in the Email Editor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html).
+1. Each component can be further customized with the **[!UICONTROL Component settings]** section. For example, you can change your text style, the padding or margin of your component. [Learn more about alignment and padding](#adjusting-vertical-alignment-and-padding).
 
     ![](assets/email_designer_4.png)
 
@@ -172,7 +172,7 @@ Your preheader is now configured for your email.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Background settings"
->abstract="The Email designer lets you personnalize background color or background image for your content.Note that background image is not supported by all email clients."
+>abstract="The Email designer lets you personalize background color or background image for your content.Note that background image is not supported by all email clients."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Additional info"
 
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
