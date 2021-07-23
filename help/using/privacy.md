@@ -48,7 +48,7 @@ Therefore, to correctly handle privacy and manage personal data, you must work w
 
 [!DNL Journey Optimizer] inherits most dataset changes made in Adobe Experience Platform.
 
-Consequently, Privacy requests (Right to Access and Right to be Forgotten) are managed through Experience Platform. You need to send your requests using [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}, and select **Profile** and **AEP Data Lake** from the product list when [creating your privacy request](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target="_blank"}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+Consequently, Privacy requests (Right to Access and Right to be Forgotten) are managed through Experience Platform. You need to send your requests using [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}, and select **Profile** and **AEP Data Lake** from the product list when [creating your privacy request](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
