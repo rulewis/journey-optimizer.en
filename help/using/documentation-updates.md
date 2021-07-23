@@ -9,6 +9,13 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## July 2021
 
+* Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates. [Read more](building-journeys/journeys-message.md#send-time-optimization)
+* Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. Journey Orchestration can now leverage data coming from a linked schema. [Read more](event/experience-event-schema.md#unitary_event_configuration)
+* You can now search for journeys using the unified search.
+* Packages?
+* Throttling?
+* Custom action enhancements/dynamic headers?
+* Hide cache?
 * Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of contents
 * New landing pages for Experience Platform services available in [!DNL Journey Optimizer] 
 * Added links to [!DNL Journey Optimizer] product description in the home page
