@@ -53,7 +53,7 @@ To force a specific value, you can use the **Enable parameter override** icon to
 ### About Sent time optimization{#about-send-time-optimization}
 
 >[!CONTEXTUALHELP]
->id="jo_bestSendTime_disabled"
+>id="jo_bestsendtime_disabled"
 >title="About Sent time optimization"
 >abstract="Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates."
 
@@ -81,12 +81,12 @@ This information is stored with the user's profile and is referenced at journey 
 ## Activate Sent time optimization{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
->id="jo_bestSendTime_email"
+>id="jo_bestsendtime_email"
 >title="Activate Sent time optimization"
 >abstract="Choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. You can also choose to bracket the send times used by the system by entering a value for the Send within the next option."
 
 >[!CONTEXTUALHELP]
->id="jo_bestSendTime_push"
+>id="jo_bestsendtime_push"
 >title="Activate Sent time optimization"
 >abstract="Push messages defaults to the opens option, as clicks are not applicable for push messaging. You can also choose to bracket the send times used by the system by entering a value for the Send within the next option."
 
