@@ -84,7 +84,7 @@ The linked fields are not available:
 
 * in the event key formula
 * in event id condition (rule-based events)
-* in business events
+* in business events (coming later)
 
 To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
