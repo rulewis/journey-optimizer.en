@@ -44,7 +44,7 @@ For more information on how to upload assets, refer to [Adobe Experience Manager
 
 1. Select the file you want to upload. When done, click **[!UICONTROL Upload]**. 
 
-    To learn more on how to manage your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+    To learn more on how to manage your assets, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Once your asset is uploaded, you can now insert your assets in one of your messages via the Email designer.
 

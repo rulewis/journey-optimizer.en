@@ -12,6 +12,8 @@ The Offer Library allows you to create and manage your placements and offers in 
 
 Use the  **[!UICONTROL Offers]** menu to manage personalized and fallback offers, organize them into collections, and deliver them by creating decisions:
 
+* **[!UICONTROL Overview]**: New to [!DNL Offer Decisioning]? Follow the on-screen steps to get started with setting up placements, offers, and collections. When already familiar with [!DNL Offer Decisioning], get an overview on your most recent offers, collections and decisions. See [Overview](#overview).
+
 * **[!UICONTROL Offers]**: Access your personalized and fallback offers or create new ones. See [Creating an offer](../offer-library/creating-personalized-offers.md) and [Creating a fallback offer](../offer-library/creating-fallback-offers.md).
 
 * **[!UICONTROL Collections]**: Create and manage static and dynamic offer collections. See [About offer collections](../offer-library/creating-collections.md).
@@ -31,6 +33,30 @@ Use the  **[!UICONTROL Components]** menu to manage the components required to c
 * **[!UICONTROL Rankings]**: Create and manage ranking formulas to determine which offer should be presented first for a given placement. See [Create ranking formulas](../offer-library/create-ranking-formulas.md).
 
 ![](../../assets/offer_activities.png)
+
+## Overview {#overview}
+
+When you are new to [!DNL Offer Decisioning], the **[!UICONTROL Overview]** tab guides you through the main steps needed to start building your first offer decision.
+
+![](../../assets/overview_onboarding.png)
+
+Follow the on-screen steps to start creating placements, offers, and collections.
+
+Once you are done with these first steps, you are prompted to created offer decisions (previously known as offer activities).
+
+![](../../assets/overview_collection-created.png)
+
+>[!NOTE]
+>
+>The main steps to create offers and use them in a decision are presented in [this section](../offer-library/key-steps.md).
+
+When you are more familiar with [!DNL Offer Decisioning] and you have already created at least one offer decision, the **[!UICONTROL Overview]** tab displays your most recent offers, collections and decisions.
+
+Click an offer or a decision to directly access the selected item's details.
+
+Click the **[!UICONTROL View all]** button to access the offer, collection, or decision lists.
+
+![](../../assets/overview_view-all.png)
 
 ## Search and filter information
 
