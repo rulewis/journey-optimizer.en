@@ -31,6 +31,6 @@ For each data source, you define the information to retrieve using field groups.
 
 >[!NOTE]
 >
->Schema relationships are now supported.
+>Schema relationships are now supported for data sources.
 
 For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target="_blank"}.
