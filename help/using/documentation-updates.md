@@ -26,4 +26,6 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * The [!UICONTROL Throttling rate] parameter has been added in the Read segment activity. [Read more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Updated 'Configure offers selection in decisions' section. [Read more](offers/offer-activities/configure-offer-selection.md)
 * Added a warning to mention that event-based offers are not currently supported. [Read more](offers/offer-library/creating-personalized-offers.md#eligibility)
+* The Decision Management new [!UICONTROL Overview] tab has been documented. [Read more](offers/get-started/user-interface.md#overview)
+* New sections have been added to describe the actions available from the offer and decision lists: [Offer list](offers/offer-library/creating-personalized-offers.md#offer-list) and [Decision list](offers/offer-activities/create-offer-activities.md#decision-list).
  
