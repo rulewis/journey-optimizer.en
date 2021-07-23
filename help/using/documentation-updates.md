@@ -13,9 +13,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. Journey Orchestration can now leverage data coming from a linked schema. [Read more](event/experience-event-schema.md#unitary_event_configuration)
 * You can now search for journeys using the unified search.
 * Packages?
-* Throttling?
-* Custom action enhancements/dynamic headers?
-* Hide cache?
+* The overall throttling rate of all the read segments that run simultaneously in the same sandbox is limited to 17,000 messages per second. [Read more](building-journeys/read-segment.md)
+* You can configure dynamic headers for HTTP request messages. Read more [here](action/about-custom-action-configuration.md) and [here](building-journeys/using-custom-actions.md).
+* The **Cache duration** field has been removed from the data source configuration pane. [Read more](datasource/about-data-sources.md)
 * Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of contents
 * New landing pages for Experience Platform services available in [!DNL Journey Optimizer] 
 * Added links to [!DNL Journey Optimizer] product description in the home page
