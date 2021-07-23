@@ -11,8 +11,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates. [Read more](building-journeys/journeys-message.md#send-time-optimization)
 * Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. Journey Orchestration can now leverage data coming from a linked schema. [Read more](event/experience-event-schema.md#unitary_event_configuration)
+* Several Journey Optimizer packages are available, each of them offering specific features. LINK TO ADD
 * You can now search for journeys using the unified search.
-* Packages?
 * The overall throttling rate of all the read segments that run simultaneously in the same sandbox is limited to 17,000 messages per second. [Read more](building-journeys/read-segment.md)
 * You can configure dynamic headers for HTTP request messages. Read more [here](action/about-custom-action-configuration.md) and [here](building-journeys/using-custom-actions.md).
 * The **Cache duration** field has been removed from the data source configuration pane. [Read more](datasource/about-data-sources.md)
