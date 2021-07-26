@@ -1,6 +1,6 @@
 ---
 title: Allow list
-description: Learn how to use the allow list.
+description: Learn how to use the allowed list.
 feature: Deliverability
 topic: Content Management
 role: User
@@ -8,11 +8,33 @@ level: Intermediate
 ---
 # Allowed list {#allow-list}
 
-It is now possible to define a specific sending-safe list at the [sandbox](administration/sandboxes.md) level. This allows you to have a safe environment, for testing purpose for example (on a non-production instance, where mistakes can occur), where you have no risk of sending out unwanted messages to your customers.
+It is now possible to define a specific sending-safe list at the [sandbox](administration/sandboxes.md) level, to have a safe environment for testing purpose. On a non-production instance, where mistakes can occur, the allowed list ensures you have no risk of sending out unwanted messages to your customers.
 
-The **allowed list** enables you to specify individual email addresses or domains that will be the only recipients or domains allowed to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment.
+>[!CAUTION]
+>
+>This feature is not available on production sandboxes.
 
-## Add entities to the allowed list
+The allowed list enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment.
+
+>[!NOTE]
+>
+>This feature only applies to the email channel.
+
+## Enable the allowed list {#enable-allow-list}
+
+To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+
+* Using this API, you can also disable the feature at any time.
+
+* You can update the allowed list before or after enabling the feature.
+
+* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in [this section](#logic).
+
+>[!NOTE]
+>
+>When enabled, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](preview.md#send-proofs) and testing journeys using the [test mode](building-journeys/testing-the-journey.md).
+
+## Add entities to the allowed list {#add-entities}
 
 To add new email addresses or domains to the allowed list for a specific sandbox, you must call the suppression API with the 'allowed'' value for the **listType** attribute. For example:
 
@@ -22,23 +44,21 @@ You can perform the **Add**, **Delete** and **Get** operations.
 
 >[!NOTE]
 >
->The allowed list maximum can contain up to 1,000 entries.
+>The allowed list can contain up to 1,000 entries.
 
-If you want to [send proofs](preview.md#send-proofs), you must also add the email addresses or domains of your [test profiles](building-journeys/creating-test-profiles.md).
+Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).
 
-## Allowed list logic
+## Allowed list logic {#logic}
 
-When it comes to allowed list, the logic below is applied.
+When the allowed list is [enabled](#enable-allow-list) at the sandbox level using the API call above, the following applies.
 
-* If the allowed list is empty, the allowed list logic is not applied. This means that you can send emails to any profiles, provided they are not on the [suppression list](suppression-list.md).
+1. When the allowed list is **empty**, the allowed list logic is not applied. This means that you can send emails to any profiles, provided they are not on the [suppression list](suppression-list.md).
 
-* If the allowed list is **not** empty and the entity is not on the allowed list, the entity is considered as suppressed. The corresponding recipient will not receive the email.
+1. When the allowed list is **not empty**, the allowed list logic is applied:
 
-* If the allowed list is **not** empty and the entity is on the allowed list, the email can be sent to the corresponding recipient.
+    * If an entity is **not on the allowed list**, and not on the suppression list, the corresponding recipient will not receive the email, the reason being **[!UICONTROL Not allowed]**.
 
-* If an entity is on the allowed list **and** on the suppression list, the corresponding recipient will not receive the email.
-
-
+    * If an entity is **on the allowed list**, and not on the suppression list, the email can be sent to the corresponding recipient. However, if the entity is also on the [suppression list](suppression-list.md), the corresponding recipient will not receive the email, the reason being **[!UICONTROL Suppressed]**.
 
 
 
