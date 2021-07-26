@@ -129,7 +129,7 @@ solution: Journey Optimizer
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
-  + Create Decision Management reports {create-reports}
+  + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
     + [Access events XDM fields](using/offers/reports/xdm-fields.md)
