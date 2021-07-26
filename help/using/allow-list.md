@@ -1,6 +1,6 @@
 ---
 title: Allow list
-description: Learn how to use the allow list.
+description: Learn how to use the allowed list.
 feature: Deliverability
 topic: Content Management
 role: User
