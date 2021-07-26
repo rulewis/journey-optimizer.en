@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide:yes
-hidefromtoc:yes
+hide: yes
+hidefromtoc: yes
 ---
+
 # Add a message in a journey
 
 [!DNL Journey Optimizer] message capabilities are built-in, you just need to design your content and publish your message. See [this section](../get-started-content.md). Then you simply add, in your journey, a push or email message designed using Journey Optimizer. 
