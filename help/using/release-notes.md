@@ -5,10 +5,10 @@ description: Journey Optimizer Release notes
 
 # Release Notes {#release-notes}
 
-This page lists all the new features and improvements for Journey Orchestration.
-You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
+This page lists all the new features and improvements for Journey Optimizer.
+You can also consult the latest [Documentation Updates](documentation-updates.md).
 
-## July 2021 Release {#june-2021-release}
+## July 2021 Release {#july-2021-release}
 
 <table>
 <thead>
