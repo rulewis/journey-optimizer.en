@@ -20,8 +20,25 @@ You can also consult the latest [Documentation Updates](documentation-updates.md
 <tr>
 <td>
 <p>Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. Journey Optimizer can now leverage data coming from a linked schema.</p>
-<p>These fields are available in unitary event configuration, journey conditions, message personalization and custom action personalization.
+<p>These fields are available in unitary event configuration, journey conditions, message personalization and custom action personalization.</p>
 <p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Allowed list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define a specific sending-safe list at the sandbox level to avoid sending unwanted emails to your recipients in a testing environment for example.
+</p>
+<p>For more information, refer to the <a href="allow-list.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
