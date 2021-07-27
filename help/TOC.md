@@ -10,6 +10,7 @@ solution: Journey Optimizer
 # [!DNL Journey Optimizer] Help {#using}
 
 + [Journey Optimizer documentation](ajo-home.md)
++ [Release notes](using/release-notes.md)
 + [Latest updates](using/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
@@ -111,6 +112,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
+    + [Allowed list](using/allow-list.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
