@@ -76,7 +76,7 @@ A silent push notification (or background notification) is a hidden instruction 
 
 Select the **[!UICONTROL Silent Notification]** option to silently notify the application: in this case, the notification is transferred directly to the application. No alert is displayed on the device screen.
 
-Use the **[!UICONTROL Custom data]** section to add key-value pairs.
+Use the **[!UICONTROL Custom data]** section to add key/value pairs.
 
 ## Custom data
 
