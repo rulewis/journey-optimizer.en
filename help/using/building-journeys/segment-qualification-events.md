@@ -47,7 +47,7 @@ This type of event can be positioned as the first step or later in the journey.
 
    >[!NOTE]
    >
-   >Note that **[!UICONTROL Enter]** and **[!UICONTROL Exit]** correspond to the **Realized** and **Exited** segment participation statuses from Adobe Experience Platform. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target="_blank"}. 
+   >Note that **[!UICONTROL Enter]** and **[!UICONTROL Exit]** correspond to the **Realized** and **Exited** segment participation statuses from Adobe Experience Platform. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
 
 1. Select a namespace. This is only needed if the event is positioned as the first step of the journey.
 

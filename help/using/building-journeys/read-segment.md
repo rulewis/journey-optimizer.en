@@ -34,7 +34,7 @@ The steps to configure the Read Segment activity are as follows:
 
     >[!NOTE]
     >
-    >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target="_blank"}. 
+    >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
 
     ![](../assets/read-segment-selection.png)
 
