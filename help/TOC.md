@@ -111,6 +111,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
+    + [Allowed list](using/allow-list.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
