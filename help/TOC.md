@@ -10,7 +10,9 @@ solution: Journey Optimizer
 # [!DNL Journey Optimizer] Help {#using}
 
 + [Journey Optimizer documentation](ajo-home.md)
-+ [Latest updates](using/documentation-updates.md)
++ What's new? {#whats-new}
+  + [Release notes](using/release-notes.md)
+  + [Latest updates](using/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
@@ -81,6 +83,7 @@ solution: Journey Optimizer
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
     + [Message](using/building-journeys/journeys-message.md)
+    + [Message test](using/building-journeys/journeys-message-test.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
