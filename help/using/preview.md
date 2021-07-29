@@ -115,7 +115,11 @@ Once [test profiles](#select-test-profiles) are selected, you can send proofs.
 
     ![](assets/send-proof-button.png)
 
-1. Select the test profiles who will receive the proof and click **[!UICONTROL Send proof]**. You can add a prefix to the subject line of the proof if needed.
+1. From the **[!UICONTROL Send proof]** window, in addition to the test profiles, you can also choose to send the proof to yourself or members of your organizations. Type in your recipient's email and click **[!UICONTROL Add]**.
+
+    Note that you can add up to 10 recipients for your proof delivery.
+
+1. Then, select the test profiles who will receive the proof and click **[!UICONTROL Send proof]**. You can add a prefix to the subject line of the proof if needed. Only alphanumeric characters and special characters e.g., ! _ @ # ? [ ], are allowed as prefix to the subject line.
 
     ![](assets/send-proof-select.png)
 
