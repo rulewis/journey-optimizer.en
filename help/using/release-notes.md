@@ -58,7 +58,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
     * Characters allowed for Subject line prefix in proofs are now limited. [Read more](preview.md)
 
 * **Personalization expression editor**
-    * The helper drop-down list  has been renamed and reordered.
+    * The helper drop-down list has been renamed and reordered.
 
 ### Fixes 
 
