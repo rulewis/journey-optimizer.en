@@ -53,9 +53,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
     * The **[!UICONTROL Throttling rate]** parameter has been added in the Read segment activity. [Read more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 * **Preview and test**
-    * Identity and namespace are now visible in the **[!UICONTROL Preview]** screen.
+    * Identity and namespace are now visible in the **[!UICONTROL Preview]** screen. [Read more](preview.md#preview-your-messages)
     * The number of test emails for proofs is now restricted to 10.
-    * Characters allowed for Subject line prefix in proofs are now limited. [Read more](preview.md)
+    * Characters allowed for the **Subject line prefix** in proofs are now limited. [Read more](preview.md#send-proofs)
 
 * **Personalization expression editor**
     * The helper drop-down list has been renamed and reordered.
