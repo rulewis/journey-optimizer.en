@@ -30,7 +30,7 @@ Before starting using [!DNL Adobe Journey Optimizer], you need to:
 
     * Learn how to preview and create a dataset in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html){target="_blank"}
 
-    * Learn how to create an identity namespace in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces){target="_blank"}
+    * Learn how to create an identity namespace in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target="_blank"}
 
     * Learn how to create test profiles in [this page](../using/building-journeys/creating-test-profiles.md)
     

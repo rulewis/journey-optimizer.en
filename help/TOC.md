@@ -10,7 +10,9 @@ solution: Journey Optimizer
 # [!DNL Journey Optimizer] Help {#using}
 
 + [Journey Optimizer documentation](ajo-home.md)
-+ [Latest updates](using/documentation-updates.md)
++ What's new? {#whats-new}
+  + [Release notes](using/release-notes.md)
+  + [Latest updates](using/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
@@ -81,6 +83,7 @@ solution: Journey Optimizer
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
     + [Message](using/building-journeys/journeys-message.md)
+    + [Message test](using/building-journeys/journeys-message-test.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
@@ -110,6 +113,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
+    + [Allowed list](using/allow-list.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -128,7 +132,7 @@ solution: Journey Optimizer
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
-  + Create Decision Management reports {create-reports}
+  + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
     + [Access events XDM fields](using/offers/reports/xdm-fields.md)
