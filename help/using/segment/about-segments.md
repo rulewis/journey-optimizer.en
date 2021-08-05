@@ -21,18 +21,3 @@ You can leverage segments in journeys in different ways:
 * Use the **Segment qualification** event activity to make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. For example, you can make all new silver customers enter a journey and send them messages. For more on how to use this activity, refer to [this section](../building-journeys/segment-qualification-events.md).
 
 * Build **complex conditions** in your journeys using the simple or advanced expression editor. Learn more in [this section](../building-journeys/condition-activity.md#using-a-segment).
-
-## Evaluation method in Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
-
-In Adobe Journey Optimizer, audiences are generated from segment definitions using one of these evaluation methods:
-
-* Streaming segmentation — the audience list for the segment is kept up-to-date in real time while new data flows into the system.
-* Batch segmentation — the audience list for the segment is updated on an hourly basis, based on data that has arrived in the past hour.
-
-The determination between batch segmentation and streaming segmentation is made by the system for each segment definition, based on the complexity and the cost of evaluating the segment rule.
-
-You can view the evaluation method for each segment in the **[!UICONTROL Evaluation method]** column of the segment list.
-
-After you have first defined a segment, profiles are added to the audience when they qualify.
-
-Backfilling the audience from prior data can take up to 24&nbsp;hours. After the audience has been backfilled, the audience is continuously kept up-to-date and is always ready for targeting.

@@ -52,7 +52,7 @@ Decision Management capabilities and integration with Adobe Experience Platform 
 
 * Decision Management also helps you enhance your customers' experience when contacting your support team. Decision Management APIs allow you to display in your call center agents' portal information about the customer's redeemed and next best offers.
 
-    ![](../../assets/call-center.png) 
+    ![](../../assets/do-not-localize/call-center.png)
 
 
 ## Glossary {#glossary}
