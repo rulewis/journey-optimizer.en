@@ -40,27 +40,6 @@ To enable the allowed list on a non-production sandbox, you need to make an Adob
 >
 >This feature is **not** available on production sandboxes. It only applies to email channel.
 
-
-## Enable the allowed list {#enable-allow-list}
-
-To enable the allowed list on a non-production sandbox, update the allow list so that it in no longer empty. To disable the feature, clear up the list such that it is again empty.
-
-<!--
-you need to make an Adobe API call.
-
-* Using this API, you can also disable the feature at any time.
-
-* You can update the allowed list before or after enabling the feature.
-
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in \[this section\]\(\add link here\).
-
---> 
->[!NOTE]
->
->When enabled, the allowed list feature is honored when executing journeys, but also when testing messages with [proofs](preview.md#send-proofs) and testing journeys using the [test mode](building-journeys/testing-the-journey.md).
-
-## Add entities to the allowed list {#add-entities}
-
 To add new email addresses or domains to the allowed list for a specific sandbox, you must call the suppression API with the `ALLOWED` value for the `listType` attribute. For example:
 
 ![](assets/allow-list-api.png)
