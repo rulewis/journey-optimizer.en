@@ -29,7 +29,7 @@ you need to make an Adobe API call.
 
 * You can update the allowed list before or after enabling the feature.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in \[this section\]\(\#logic\).
+* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in \[this section\]\(\add link here\).
 
 --> 
 >[!NOTE]
@@ -55,7 +55,7 @@ Learn more on making Adobe API calls in the [Experience Platform documentation](
 
 ## Allowed list logic {#logic}
 
-<!-- When the allowed list is \[enabled\]\(\#enable-allow-list\) at the sandbox level using the API call above, the following applies.-->
+<!-- When the allowed list is \[enabled\]\(\add link here\) at the sandbox level using the API call above, the following applies.-->
 
 When the allowed list is **empty**, the allowed list logic is not applied. This means that you can send emails to any profiles, provided they are not on the [suppression list](suppression-list.md).
 
