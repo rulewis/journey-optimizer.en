@@ -70,7 +70,7 @@ For each email address that is listed, you can also check the **[!UICONTROL Reas
 The possible reasons for a delivery failure are:
 
 | Reason | Description | Suppression category |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Message Transfer Agent (MTA) could not be identified. | Ignored |
 | **[!UICONTROL Invalid Recipient]** | The recipient is invalid or does not exist. | Hard |
 | **[!UICONTROL Soft Bounce]** | The message soft bounced for a reason other than the soft errors listed in this table, such as when sending over the allowed rate recommended by an ISP. | Soft |
