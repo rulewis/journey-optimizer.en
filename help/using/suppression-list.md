@@ -45,7 +45,7 @@ For each address, the basic reason for being suppressed and the suppression cate
 
 >[!NOTE]
 >
->The profiles with **[!UICONTROL Suppressed]** status are excluded during the message sending process. Therefore, while the Journey Report will show these profiles as having moved through the journey (read segment and message action), the Email report will not show them in the Sent metrics, because they get filtered out prior to email sending.
+>The profiles with **[!UICONTROL Suppressed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](/building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
 >
 >Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md).
 
