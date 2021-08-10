@@ -62,6 +62,11 @@ When the allowed list is **not empty**, the allowed list logic is applied:
 
 * If an entity is **on the allowed list**, and not on the suppression list, the email can be sent to the corresponding recipient. However, if the entity is also on the [suppression list](suppression-list.md), the corresponding recipient will not receive the email, the reason being **[!UICONTROL Suppressed]**.
 
+>[!NOTE]
+>
+>The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process, just like the profiles with **[!UICONTROL Suppressed]** status. Therefore, while the Journey Report will show these profiles as having moved through the journey (read segment and message action), the Email report will not show them in the Sent metrics, because they get filtered out prior to email sending.
+>
+>Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md).
 
 
 
