@@ -48,7 +48,9 @@ You can perform the **Add**, **Delete** and **Get** operations.
 >
 >The allowed list can contain up to 1,000 entries.
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## Allowed list logic {#logic}
 
@@ -64,7 +66,7 @@ When the allowed list is **not empty**, the allowed list logic is applied:
 
 >[!NOTE]
 >
->The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](/building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
 >
 >Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md).
 
