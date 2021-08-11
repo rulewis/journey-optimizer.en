@@ -43,6 +43,12 @@ For each address, the basic reason for being suppressed and the suppression cate
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
+>[!NOTE]
+>
+>The profiles with **[!UICONTROL Suppressed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>
+>Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md).
+
 ### Delivery failures {#delivery-failures}
 
 There are three types of errors when a delivery fails:
