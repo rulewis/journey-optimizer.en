@@ -86,7 +86,7 @@ Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provid
 
 Available use cases are:
 
-* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [in this page](building-journeys/creating-test-profiles.md#use-case-1).
+* **Create test profiles**, to create test profiles using our CSV template to test personalized messages and journeys. Learn how to implement this use case [on this page](building-journeys/creating-test-profiles.md#use-case-1).
 * **Send a birthday message to customers**, to automatically send an email to wish your customers around their birthday. (coming soon)
 * **Send emails to onboard new customers**, to easily send up to two emails to welcome your newly registered customers. (coming soon)
 * **Send push messages to imported list of customers**, to quickly send a push notification to a list of customers imported from a CSV file. (coming soon)
@@ -112,12 +112,121 @@ You can use these common keyboard shortcuts in Adobe Journey Optimizer:
 | Action | Shortcut |
 | --- | --- |
 | Move between user interface elements, sections, and menu groups | Tab |
-| Move backwards between user interface elements, sections, and menu groups | Shift + Tab |
+| Move backward between user interface elements, sections, and menu groups | Shift + Tab |
 | Move within sections to set focus to individual elements | Arrow |
 | Select or clear an element that is in focus | Enter or Spacebar |
-| Cancel a selection, collapse a panel or close a dialog box | Esc |
+| Cancel a selection, collapse a panel, or close a dialog box | Esc |
 
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"}.
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentation.
+
+You can use these shortcuts in specific parts of Journey Optimizer:
+
+<table>
+  <thead>
+    <tr>
+      <th>Interface element</th>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>List of journeys, actions, data sources, or events</td>
+    <td>Create a journey, an action, a data source, or an event</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Journey canvas in draft status</td>
+    <td>Add an activity from the left palette at the first available position, from top to bottom</td>
+    <td>Double-click on the activity</td>
+  </tr>
+  <tr>
+    <td>Select all the activities</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Delete the selected activities</td>
+    <td>Delete or Backspace, then Enter to confirm the deletion</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+  
+  Configuration pane of these elements:
+
+  * Activity in a journey
+  * Event
+  * Data source
+  * Action
+
+  </td>
+    <td>Move to the next field to be configured</td>
+    <td>Tab</td>
+  </tr>
+  <tr>
+    <td>Save changes and close the configuration pane</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Discard changes and close the configuration pane</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Journey in test mode</td>
+    <td>Enable or disable the test mode</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Trigger an event in an event-based journey</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+  Trigger an event in a segment-based journey for which the **[!UICONTROL Single profile at a time]** option is turned on
+
+  </td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Display the test logs</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Text field</td>
+    <td>Select all the text in the selected field</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Pop-up window</td>
+    <td>Save changes or confirm the action</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Close the window</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Simple expression editor</td>
+    <td>Select and add a field</td>
+    <td>Double-click on a field</td>
+  </tr>
+  <tr>
+    <td>Browsing through XDM fields</td>
+    <td>Select all the fields of a node</td>
+    <td>Select the parent node</td>
+  </tr>
+  <tr>
+    <td>Payload preview</td>
+    <td>Select the payload</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+</table>
 
 ## Find help and support
 
