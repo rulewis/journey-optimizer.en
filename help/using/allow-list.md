@@ -84,5 +84,5 @@ To get the **list of email addresses** that were not sent because the recipients
 
 ```
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE _experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
-````
+```
 
