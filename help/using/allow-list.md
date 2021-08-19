@@ -70,5 +70,19 @@ When the allowed list is **not empty**, the allowed list logic is applied:
 >
 >Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md).
 
+## Exclusion reporting {#reporting}
 
+When this feature is enabled on a non-production sandbox, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list.
+
+To get the **number of emails** that were not sent because the recipients were not on the allowed list, use the following query:
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE _experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+To get the **list of email addresses** that were not sent because the recipients were not on the allowed list, use the following query:
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE _experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+````
 
