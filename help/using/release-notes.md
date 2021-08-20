@@ -100,27 +100,27 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Journeys**
 
 * **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](documentation-updates.md)
-* **Collections in actions** - You can now add collections in custom actions and expression editor. Note that only simple arrays are supported for now.
+* **Collections in actions** - You can now add collections in custom actions and expression editor. Note that only simple arrays are supported for now. [Learn more](documentation-updates.md)
 
 **User interface**
 
-* **Search** - You can now filter search results directly from the search field.
-* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations.
+* **Search** - You can now filter search results directly from the search field. [Learn more](documentation-updates.md)
+* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](documentation-updates.md)
 
 **Content Design**
 
-* **Background** - Journey Optimizer email designer now supports background images.
+* **Background** - Journey Optimizer email designer now supports background images. [Learn more](documentation-updates.md)
 
 **Personalization**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display.
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)
 
 **Email configuration**
 
-* **Retry** - You can now define the retry period on a per preset basis to control your message sending by ensuring that retry attempts are not attempted when no longer needed. For example, you may set the retry period to 24 hours for a transactional message related to password reset containing a link valid for only a day.
-* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload.
-* **Allowed list** - The allowed list is now enabled on a non-production sandbox through an API call.
-* **Message preset** - You can now find out the reason why a message preset creation failed.
+* **Retry** - You can now define the retry period on a per preset basis to control your message sending by ensuring that retry attempts are not attempted when no longer needed. For example, you may set the retry period to 24 hours for a transactional message related to password reset containing a link valid for only a day. [Learn more](documentation-updates.md)
+* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](documentation-updates.md)
+* **Allowed list** - The allowed list is now enabled on a non-production sandbox through an API call. [Learn more](documentation-updates.md)
+* **Message preset** - You can now find out the reason why a message preset creation failed. [Learn more](documentation-updates.md)
 * **Navigation** - The suppression list which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access.
 
 
