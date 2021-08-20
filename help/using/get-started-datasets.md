@@ -1,7 +1,6 @@
 ---
 title: Get Started with Datasets
 description: Learn how to use Adobe Experience Platform Datasets in Adobe Journey Optimizer
-feature: Datasets
 role: User
 level: Beginner
 ---
