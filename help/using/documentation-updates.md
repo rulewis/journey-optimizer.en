@@ -7,6 +7,11 @@ description: Learn about latest documentation updates
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## August 2021
+
+* Updated Decision management permissions. [Read more](administration/ootb-product-profiles.md)
+* Updated Email designer screenshots with latest UI.
+
 ## July 2021
 
 * Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of contents
