@@ -10,6 +10,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## August 2021 Release {#august-2021-release}
 
+### New capabilities
+
 <table>
 <thead>
 <tr>
@@ -59,7 +61,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -75,7 +76,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -133,6 +133,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 
 ## July 2021 Release {#july-2021-release}
+
+### New capabilities
 
 <table>
 <thead>
