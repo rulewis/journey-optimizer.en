@@ -126,12 +126,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ### Fixes 
 
-* FIX
-* FIX
-* FIX
-* FIX
-* FIX
-* FIX
+* Fixed an accessibility issue in message tab navigation.
+* Fixed a localization issue in the email designer labels.
+* Fixed an issue when selecting more than one node in a journey and clicking 'Delete' on the property panel.
+* Fixed an issue which prevented from adding a new header to an action used in a journey.
 
 
 ## July 2021 Release {#july-2021-release}
