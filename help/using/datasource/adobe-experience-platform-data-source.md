@@ -3,12 +3,12 @@ title: Adobe Experience Platform data source
 description: Learn how to configure Adobe Experience Platform data source
 feature: Data Sources
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Adobe Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
 
 >[!NOTE]
 >
@@ -32,7 +32,6 @@ Here are the main steps to add field groups to the build-in data source.
 
 1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in Adobe Experience Platform. Schema creation is not performed in [!DNL Journey Optimizer]. It’s performed in Adobe Experience Platform.
 1. Select the fields you want to use.
-1. Define the cache duration.
 1. Click on **[!UICONTROL Save]**.
 
 When you place the cursor on the name of a field group, you’ll see two icons on the right. They allow you to delete and duplicate the field group. Note that the **[!UICONTROL Delete]** icon is only available if the field group is not used in any live or draft journey (information displayed in the **[!UICONTROL Used in]** field).

@@ -17,7 +17,7 @@ Regulations such as GDPR state that you must comply with specific requirements b
 * Failing to comply with these regulations introduces regulatory legal risks for your brand.
 * It helps you avoid sending unsolicited communications to your recipients, which could make them mark your messages as spam and harm your reputation.
 
-Learn more on managing Privacy and the applicable regulations in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
+Learn more on managing Privacy and the applicable regulations in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -25,7 +25,7 @@ Learn more on managing Privacy and the applicable regulations in the [Experience
 
 ## Opt-out management {#opt-out-management}
 
-Providing the capability to recipients to unsubscribe from receiving communications from a brand is a legal requirement. Learn more about the applicable legislation in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en#regulations).
+Providing the capability to recipients to unsubscribe from receiving communications from a brand is a legal requirement. Learn more about the applicable legislation in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
 
 Therefore, you must always include an **unsubscribe link** in every email sent out to recipients:
 * Upon clicking this link, the recipients will be directed to a landing page including a button to confirm opting out.
@@ -73,7 +73,7 @@ To add an unsubscribe link, follow the steps below:
 
     As a result, this user will not receive communication from your brand unless subscribed again.
 
-To check that the corresponding profile's choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+To check that the corresponding profile's choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -121,7 +121,8 @@ Request body:
 }
 ```
 
-<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
+<!--and provide an answer back to the landing page.-->
 
 ## Unsubscribe link in header {#unsubscribe-email}
 
@@ -133,7 +134,7 @@ For example, the unsubscribe link will display like this in Gmail:
 
 Depending on the email client, clicking the unsubscribe link from the header will have one of the following impacts:
 
-* The corresponding profile is immediately opted out and this choice is updated in Experience Platform. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+* The corresponding profile is immediately opted out and this choice is updated in Experience Platform. Learn more in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
 * It has the same effect as clicking the unsubscribe link from the email content: the recipient is redirected to a landing page including a button to confirm opting out. Learn more on opt-out management in [this section](#opt-out-management).
 

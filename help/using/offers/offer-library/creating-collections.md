@@ -10,7 +10,7 @@ level: Intermediate
 
 Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a "sport" collection that will contain sport-related offers only. 
 
-[!DNL :arrow_forward:] [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of offer collections is accessible in the **[!UICONTROL Offers]** menu.   
 

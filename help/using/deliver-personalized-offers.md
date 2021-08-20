@@ -16,7 +16,7 @@ For more on how to create and manage offers, refer to [this section](offers/get-
 
 For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
 
-[!DNL :arrow_forward:] [Learn how add offers as personalization in this video](#video-offers)
+➡️ [Learn how to add offers as personalization in this video](#video-offers)
 
 ## Insert a decision in an email {#insert-offers}
 
@@ -73,7 +73,7 @@ To display the different offers that are part of the decision with a customer pr
 
     >[!NOTE]
     >
-    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md).
 
 1. In the list of identity namespaces, select **[!UICONTROL Email]** and click **[!UICONTROL Select]**.
 

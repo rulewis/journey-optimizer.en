@@ -13,7 +13,7 @@ internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 
@@ -70,15 +70,15 @@ For each email address that is listed, you can also check the **[!UICONTROL Reas
 The possible reasons for a delivery failure are:
 
 | Reason | Description | Suppression category |
----------|----------|--------- |
-| **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Messsage Transfer Agent (MTA) could not be identified. | Ignored |
+| --- | --- | --- |
+| **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Message Transfer Agent (MTA) could not be identified. | Ignored |
 | **[!UICONTROL Invalid Recipient]** | The recipient is invalid or does not exist. | Hard |
 | **[!UICONTROL Soft Bounce]** | The message soft bounced for a reason other than the soft errors listed in this table, such as when sending over the allowed rate recommended by an ISP. | Soft |
 | **[!UICONTROL DNS Failure]** | The message bounced due to a DNS failure. | Soft |
 | **[!UICONTROL Mailbox Full]** | The message bounced due to the mailbox of the recipient being full and unable to accept more messages. | Soft |
 | **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. [Retries](retries.md) will be performed: you can edit the message size and re-inject it for delivery. | Ignored |
 | **[!UICONTROL Timeout]** | The message timed out, meaning it soft bounced and reached the message retry limit (3.5 days). | Ignored |
- **[!UICONTROL Admin Failure]** | The message was failed according to the policies configured by the sending system administrator. <!--For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used.--> | Ignored |
+| **[!UICONTROL Admin Failure]** | The message was failed according to the policies configured by the sending system administrator. <!--For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used.--> | Ignored |
 | **[!UICONTROL Generic Bounce: No RCPT]** | No recipient could be determined for the message. | Ignored |
 | **[!UICONTROL Generic Bounce]** | The message failed for unspecified reasons. | Ignored |
 | **[!UICONTROL Mail Block]** | The message was blocked by the receiver (i.e. recipient MTA). | Ignored |

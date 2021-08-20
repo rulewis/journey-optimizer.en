@@ -78,7 +78,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
     **Field:** optionSelectionType
     **Title:** Profile Constraint Type
-    **Description:** Determines if any constraints are currently set and how the contraints are expressed. It could be through a filter query or through one or more segment memberships.
+    **Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a filter query or through one or more segment memberships.
     **Type:** string
     **Possible values:** "none" (default), "directList", "filter"
 
@@ -108,7 +108,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** profileConstraints
 **Title:** Profile Constraint
-**Description:** The profile constraint decides if an option selection is eligible for this profile identity at this moment, in this context. If the profile constraint does not need to consider values of each of the option, i.e. it is invariant of the options from the option selection, the profile constraint that evaluates to 'false' cancels out the entire option selection. On the other hand, a profile constraint rule that takes an option as a parameter is evaluated for each qualifiying option of the option selection.
+**Description:** The profile constraint decides if an option selection is eligible for this profile identity at this moment, in this context. If the profile constraint does not need to consider values of each of the option, i.e. it is invariant of the options from the option selection, the profile constraint that evaluates to 'false' cancels out the entire option selection. On the other hand, a profile constraint rule that takes an option as a parameter is evaluated for each qualifying option of the option selection.
 **Type:** object
 
 * **_experience > decisioning > criteria > profileConstraints > Description**
@@ -129,7 +129,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
     **Field:** profileConstraintType
     **Title:** Profile Constraint Type
-    **Description:** Determines if any constraints are currently set and how the contraints are expressed. It could be through a rule or through one or more segment memberships.
+    **Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a rule or through one or more segment memberships.
     **Type:** string
     **Possible values:**
     * "none" (default)
@@ -214,7 +214,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
     **Field:** priority
     **Title:** Priority
-    **Description:** The priority of a single decision option relative to all other options. Options for which no order function is given are prioritized using this propery. Options with higher priority values are selected before any lower priority options. If two or more qualifying options share the highest priority value, one is chosen at uniform random and used for the decision proposition.
+    **Description:** The priority of a single decision option relative to all other options. Options for which no order function is given are prioritized using this property. Options with higher priority values are selected before any lower priority options. If two or more qualifying options share the highest priority value, one is chosen at uniform random and used for the decision proposition.
     **Type:** integer
     **Minimum value:** 0
     **Default value:** 0

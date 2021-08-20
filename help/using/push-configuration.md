@@ -3,12 +3,12 @@ title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
 feature: Application Settings
 topic: Push
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Configure push notification channel {#push-notification-configuration}
 
-[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app, and in [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. To understand the Push Notifications data flow in Adobe Journey optimizer please refer to [this page](push-gs.md). 
+[!DNL Journey Optimizer] allows you to create your journeys and send messages to targeted audience. Before beginning to send push notifications with [!DNL Journey Optimizer], you need to ensure configurations and integrations are in place on the mobile app, and in [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. To understand the Push Notifications data flow in [!DNL Adobe Journey Optimizer] please refer to [this page](push-gs.md). 
 
 ## Before starting
 
@@ -25,11 +25,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Set up permissions
 
-Before creating a mobile application, you first need to make sure that you have or assign the correct user permissions in **Adobe Experience Platform Launch**. Learn more in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html).
+Before creating a mobile application, you first need to make sure that you have or assign the correct user permissions in **Adobe Experience Platform Launch**. Learn more in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Adobe Experience Platform Launch** permissions in [this documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)
+>Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Adobe Experience Platform Launch** permissions in [this documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -46,7 +46,7 @@ To assign **Property** and **Company** rights, follow the steps below:
 
     ![](assets/push_product_1.png)
 
-1. Select an existing **[!UICONTROL Product Profile]** or create a new one with the **[!UICONTROL New profile]** button. Learn how to create a new **[!UICONTROL New profile]** in the [Admin console documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui).
+1. Select an existing **[!UICONTROL Product Profile]** or create a new one with the **[!UICONTROL New profile]** button. Learn how to create a new **[!UICONTROL New profile]** in the [Admin console documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. From the **[!UICONTROL Permissions]** tab, select **[!UICONTROL Property rights]**.
 
@@ -102,14 +102,14 @@ The technical setup involves close collaboration between the app developer and b
 
 Follow implementation steps detailed in the links below:
 
-* For **Apple iOS**: Learn how to register your app with APNs in [Apple Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)
-* For **Google Android**: Learn how to setup up a Firebase Cloud Messaging client app on Android in [Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client)
+* For **Apple iOS**: Learn how to register your app with APNs in [Apple Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* For **Google Android**: Learn how to setup up a Firebase Cloud Messaging client app on Android in [Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 ### Integrate your mobile app with Adobe Experience Platform SDK
 
-Adobe Experience Platform Mobile SDK provides client-side integration APIs for your mobiles via Android and iOS compatible SDKs. Follow [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/overview) to get setup with Adobe Experience Platform Mobile SDKs in your app.
+Adobe Experience Platform Mobile SDK provides client-side integration APIs for your mobiles via Android and iOS compatible SDKs. Follow [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} to get setup with Adobe Experience Platform Mobile SDKs in your app.
 
-By the end of this, you should have also created and configured a mobile property in Adobe Experience Platform Launch. You will typically create a mobile property for each mobile application you want to manage. Learn how to create and configure a mobile property in [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+By the end of this, you should have also created and configured a mobile property in Adobe Experience Platform Launch. You will typically create a mobile property for each mobile application you want to manage. Learn how to create and configure a mobile property in [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
 
 
 ## Step 1: Add your app push credentials in Adobe Experience Platform Launch {#push-credentials-launch}
@@ -132,7 +132,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
         1. Provide the **[!UICONTROL App ID (Android package name)]**: usually the package name is the app id in your `build.gradle` file.
 
-        1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+        1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
     
     * **For iOS**
 
@@ -170,7 +170,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 The **Adobe Journey Optimizer extension**  for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
 
-Learn how to setup Journey Optimizer extension in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+Learn how to setup Journey Optimizer extension in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target="_blank"}.
 
 
 <!-- 
@@ -247,7 +247,7 @@ After configuring your mobile app in both Adobe Experience Platform and Adobe La
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-For this journey to work, you need to create an XDM schema. For more information, refer to [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion).
+For this journey to work, you need to create an XDM schema. For more information, refer to [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
 1. In the left menu, browse to **[!UICONTROL Schemas]**.
 
@@ -257,7 +257,7 @@ For this journey to work, you need to create an XDM schema. For more information
 
 1. Select **[!UICONTROL Create a new field group]**. 
 
-1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add field groups]** when done. For more information on how to create field groups, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html).
+1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add field groups]** when done. For more information on how to create field groups, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}.
 
 
     ![](assets/test_push_4.png)

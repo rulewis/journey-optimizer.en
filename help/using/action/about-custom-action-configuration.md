@@ -4,7 +4,7 @@ title: About custom action configuration
 description: Learn how to configure a custom action
 feature: Actions
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Configure an action {#configure-an-action}
@@ -68,7 +68,7 @@ In the **[!UICONTROL Action parameters]** section, paste an example of the JSON 
 
 >[!NOTE]
 >
->Field names in the payload cannot contain a "." character.
+>Field names in the payload cannot contain a "." character. They cannot start with a "$" character.
 
 You will be able to define the parameter type (e.g.: string, integer, etc.).
 

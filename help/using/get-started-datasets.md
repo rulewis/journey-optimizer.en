@@ -9,13 +9,13 @@ level: Beginner
 
 All data that is ingested into Adobe Experience Platform is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows).
 
-Learn how to create datasets in [this documentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
+Learn how to create datasets in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 
-Adding data to Adobe Experience Platform is the foundation to building a Profile. You will then be able to leverage profiles in Adobe Journey Optimizer. First define schemas, use ETL tools to prepare and standardize your data, then create datasets based on your schemas.
+Adding data to Adobe Experience Platform is the foundation to building a Profile. You will then be able to leverage profiles in [!DNL Adobe Journey Optimizer]. First define schemas, use ETL tools to prepare and standardize your data, then create datasets based on your schemas.
 
-[!DNL :arrow_forward:] [Learn how create and configure a dataset](#video-dataset)
+➡️ [Learn how create and configure a dataset](#video-dataset) (video)
 
-The **Datasets** workspace in the Adobe Journey Optimizer user interface allows you to explore data and create datasets. 
+The **Datasets** workspace in the [!DNL Adobe Journey Optimizer] user interface allows you to explore data and create datasets. 
 
 ![](assets/datasets-home.png)
 
@@ -34,5 +34,5 @@ Learn how to create a dataset, map it to a schema, add data to it, and confirm t
 
 * [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Streaming ingestion overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target="_blank"}
-* [Ingest data into Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target="_blank"}
+* [Ingest data into Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}
 

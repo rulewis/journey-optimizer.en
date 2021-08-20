@@ -21,7 +21,7 @@ Simple expression sample:
 where:
 
 * `profile` is a namespace.
-* `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+* `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 ## Syntax general rules
 
@@ -39,7 +39,7 @@ In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. I
 
 ## Profile
 
-This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
 
@@ -101,11 +101,11 @@ All the references are validated against Offers Schema with a validation mechani
 
     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Text content of the offer coming from the decisionning engine:
+* Text content of the offer coming from the decisioning engine:
 
     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML content of the offer coming from the decisionning engine:
+* HTML content of the offer coming from the decisioning engine:
 
     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 

@@ -19,7 +19,7 @@ In the target journey, the first event triggered internally by the **[!UICONTROL
 
 >[!NOTE]
 >
->Also refer to the tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>Also refer to the Journey Orchestration tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target="_blank"}
 
 ## Lifecycle
 

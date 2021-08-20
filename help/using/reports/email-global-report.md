@@ -32,7 +32,7 @@ The email **[!UICONTROL Global report]** is divided into different widgets detai
 
 * **[!UICONTROL Click Rate]**: Percentage of clicks in a delivery.
 
-* **[!UICONTROL Spam Complaint Rate]**: Percentage of emails that were marked as spam by recipients compared to the delivered messages. For more information on complaints, refer to this [page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam Complaint Rate]**: Percentage of emails that were marked as spam by recipients compared to the delivered messages. For more information on complaints, refer to the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target="_blank"}.
 
 * **[!UICONTROL Unsubscribe Rate]**: Percentage of unique unsubscriptions compared to the number of delivered messages. This indicator does not rely on the number of clicks on the unsubscription link but is based on the number of unsubscriptions initiated by recipients. Learn more about unsubscriptions in this [page](../consent.md).
 

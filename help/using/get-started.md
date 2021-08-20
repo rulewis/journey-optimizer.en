@@ -19,7 +19,7 @@ level: Beginner
 
 [!DNL Adobe Journey Optimizer] is built natively on the [!DNL Adobe Experience Platform] and combines a unified, real-time customer profile, an API-first open framework, centralized offer decisioning, and artificial intelligence (AI) and machine learning (ML) for personalization and optimization. Journey Optimizer allows brands to intelligently determine the next best interaction with scale, speed, and flexibility across the entire customer journey. With [!DNL Adobe Journey Optimizer], companies can create and deliver both scheduled marketing campaigns (such as weekly promotions for a retail store) and tailored individual communications (like a push notification for an item that a loyalty app customer may have looked at that was previously out of stock) within the same application.
 
-[!DNL :arrow_forward:] [Discover Journey Optimizer in video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"}
+➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"} (video)
 
 
 ## Use cases
@@ -46,7 +46,7 @@ Key capabilities include:
 
 ## Architecture
 
-Understand the basic architecture of Adobe Journey Optimizer, the points of integration, and the relationship of Journey Optimizer with other Adobe applications.
+Understand the basic architecture of [!DNL Adobe Journey Optimizer], the points of integration, and the relationship of [!DNL Journey Optimizer] with other Adobe applications.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 
