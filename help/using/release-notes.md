@@ -70,7 +70,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now use Journey Optimizer to assemble and present content experiences with attributes whose value are resolved at runtime from profile data, context data, experience events and attributes stored in decision objects.</p>
+<p>You can now use Journey Optimizer to assemble and present content experiences with attributes for which values are resolved at runtime from profile data, context data, experience events and attributes stored in decision objects.</p>
 <p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -111,17 +111,19 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Background** - Journey Optimizer email designer now supports background images. [Learn more](documentation-updates.md)
 
+* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](documentation-updates.md)
+
 **Personalization**
 
 * **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)
 
 **Email configuration**
 
-* **Retry** - You can now define the retry period on a per preset basis to control your message sending by ensuring that retry attempts are not attempted when no longer needed. For example, you may set the retry period to 24 hours for a transactional message related to password reset containing a link valid for only a day. [Learn more](documentation-updates.md)
+* **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](documentation-updates.md)
 * **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](documentation-updates.md)
-* **Allowed list** - The allowed list is now enabled on a non-production sandbox through an API call. [Learn more](documentation-updates.md)
-* **Message preset** - You can now find out the reason why a message preset creation failed. [Learn more](documentation-updates.md)
-* **Navigation** - The suppression list which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access.
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](documentation-updates.md)
+* **Message preset** - You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface. [Learn more](documentation-updates.md)
+* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access.
 
 
 ### Fixes 
