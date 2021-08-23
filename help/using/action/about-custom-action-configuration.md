@@ -129,15 +129,11 @@ To pass a collection field, paste an example of the JSON payload containing the 
 }
 ```
 
-The following field types are supported for collections:
-
-string, integer, decimal, boolean, dateTime, dateTimeOnly, dateOnly, listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
-
 1. Paste the JSON example in the **[!UICONTROL Action parameters]** section of the custom action.
 
 ![](../assets/custom-collection1.png)
 
-2. Set the field type.
+2. Set the field type. The following field types are supported for collections: string, integer, decimal, boolean, dateTime, dateTimeOnly, dateOnly, listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
 3. Define the collection field as a variable 
 
