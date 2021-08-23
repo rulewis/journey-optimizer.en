@@ -120,30 +120,18 @@ You can pass a collection in custom action parameters. For the moment only simpl
 
 To pass a collection field, paste an example of the JSON payload containing the collection. Here is an example of a payload:
 
+```
 {
     "deviceTypes": [
         "android",
         "ios"
     ]
 }
+```
 
 The following field types are supported for collections:
 
-string
-integer
-decimal
-boolean
-dateTime
-dateTimeOnly
-dateOnly
-listString
-listInteger
-listDecimal
-listBoolean
-listDateTime
-listDateTimeOnly
-listDateOnly
-listObject
+string, integer, decimal, boolean, dateTime, dateTimeOnly, dateOnly, listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
 1. Paste the JSON example in the **[!UICONTROL Action parameters]** section of the custom action.
 
