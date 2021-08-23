@@ -24,27 +24,27 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 * Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
-<!--Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md). NOT TRUE as confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
-
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
 
 ## Access the suppression list {#access-suppression-list}
 
-To access the detailed list of excluded email addresses, open the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, then click the **[!UICONTROL View suppression lists]** link.
+To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
-![](../assets/suppression-list-link.png)
+![](../assets/suppression-list-access.png)
 
 Filters are available to help you browse through the list.
 
 ![](../assets/suppression-list-filters.png)
 
-<!--suppression date,  category and reason, but on staging, only creation date filter is available-->
+You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
 
-<!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
+![](../assets/suppression-list-filtering-example.png)
+
+Once selected, you can clear each filter or all filters displayed on top of the list.
 
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
-When a message fails to be delivered to an email address, Journey Optimizer determines why the delivery failed and associates it with a suppression category.
+When a message fails to be delivered to an email address, [!DNL Journey Optimizer] determines why the delivery failed and associates it with a **[!UICONTROL Suppression category]**.
 
 The suppression categories are as follows:
 
@@ -56,16 +56,15 @@ The suppression categories are as follows:
     * When the error occurred for a valid email address but is known to be temporary, such as a failed connection attempt or a temporary technical issue, the email address is added to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md).
     * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
 
-<!--**Manual**: You can also manually add an email address to the suppression list. => Manual category will be available when manually adding an address to the suppression list (via API)-->
+* **Manual**: You can also manually add an email address or a domain to the suppression list. [Learn more](#add-addresses-and-domains)
 
 >[!NOTE]
 >
 >Learn more on soft bounces and hard bounces in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
 
-For each email address that is listed, you can also check the **[!UICONTROL Reason]** for excluding it and the date/time it was added to the suppression list.
+For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 
-![](../assets/suppression-list-temp.png)
-<!--to replace with suppression-list.png when Manual category is available (through API)-->
+![](../assets/suppression-list.png)
 
 The possible reasons for a delivery failure are:
 
@@ -102,4 +101,68 @@ Removed from the table provided by SparkPost/Momentum:
 
 <!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
 
+## Manually add addresses and domains {#add-addresses-and-domains}
 
+When a message fails to be delivered to an email address, this address is automatically added to the suppression list.
+
+However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
+
+You may add email addresses or domains [one at a time](#add-one-address-or-domain), or [in bulk mode](#upload-csv-file) through a CSV file upload.
+
+To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
+
+![](../assets/suppression-list-add-email.png)
+
+### Add one address or domain {#add-one-address-or-domain}
+
+1. Select the **[!UICONTROL One by one]** option.
+
+    ![](../assets/suppression-list-add-email-address.png)
+
+1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+
+1. Enter the email address or domain you want to exclude from your sending.
+
+    >[!NOTE]
+    >
+    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+
+1. Specify a reason if needed.
+
+1. Click **[!UICONTROL Submit]**.
+
+### Upload a CSV file {#upload-csv-file}
+
+1. Select the **[!UICONTROL Upload CSV]** option.
+
+    ![](../assets/suppression-list-upload-csv.png)
+
+1. Dowload the CSV template to use. You can also create your own CSV file, but it must have the columns and format below:
+
+    ```
+    TYPE,VALUE,COMMENT
+    EMAIL,abc@somedomain.com,Comment
+    DOMAIN,somedomain.com,Comment
+    ```
+
+    >[!CAUTION]
+    >
+    >Do not change the names of the columns in the CSV template.
+    >
+    >The file size should not exceed 50KB.
+
+1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
+
+1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+
+    ![](../assets/suppression-list-upload-file-button.png)
+
+1. Click **[!UICONTROL Submit]**.
+
+You can check the list of the latest CSV files you uploaded, included their status.
+
+![](../assets/suppression-list-recent-uploads.png)
+
+To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
+
+![](../assets/suppression-list-recent-uploads-button.png)
