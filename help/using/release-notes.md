@@ -70,7 +70,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now use Journey Optimizer to assemble and present content experiences with attributes for which values are resolved at runtime from profile data, context data, experience events and attributes stored in decision objects.</p>
+<p>You can now use the Journey Optimizer's Expression Editor to personalize the content of your offers with data from the Experience Cloud Platform database, which allows you to adapt your offers to each specific recipient.</p>
 <p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
 </td>
 </tr>
