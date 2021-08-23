@@ -48,7 +48,6 @@ Here are the main steps to create and configure a new external data source:
 
 1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In our example, we choose:
 
-
     * **[!UICONTROL Type]**: "API key"
     * **[!UICONTROL Name]**: "appid" (this is the API key parameter name)
     * **[!UICONTROL Value]**: "1234" (this is the value of our API key)
@@ -62,7 +61,6 @@ For the "long/lat" parameter set, we create a field group with the following inf
 
 * **[!UICONTROL Used in]**: displays the number of journeys that use a field group. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this field group.
 * **[!UICONTROL Method]**: select the POST or GET method. In our case, we select the GET method.
-* **[!UICONTROL Cache duration]**: in our case, we want the weather to be cached for 10 minutes.
 * **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
 * **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
 * **[!UICONTROL Sent Payload]**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.

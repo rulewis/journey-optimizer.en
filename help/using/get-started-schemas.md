@@ -19,7 +19,7 @@ The **Schemas** workspace in the [!DNL Adobe Journey Optimizer] user interface a
 
 ![](assets/schemas-home.png)
 
-Learn how to use Schemas user interface in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target="_blank"}
+Learn how to use Schemas user interface in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
 Step by step documentation to create a schema using the Schema Editor is available in [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}
 
