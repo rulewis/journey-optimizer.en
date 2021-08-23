@@ -88,7 +88,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **User interface**
 
-* **Search** - You can now filter search results directly from the search field. [Learn more](documentation-updates.md)
+* **Search** - On every page, you can now search business objects and help articles directly from the Unified Experience Cloud search field. [Learn more](user-interface.md#unified-search)
 * **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](action/about-custom-action-configuration.md#passing-collection)
 
 **Content Design**
