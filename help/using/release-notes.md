@@ -93,7 +93,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Content Design**
 
-* **Background** - Background images are now supported in live preview. [Learn more](documentation-updates.md)
+* **Background** - Background images are now supported in live preview. [Learn more](preview.md)
 
 * **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](documentation-updates.md)
 
@@ -102,7 +102,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)
 
 **Email configuration**
-
 
 * **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](configuration/retries.md)
 * **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)
