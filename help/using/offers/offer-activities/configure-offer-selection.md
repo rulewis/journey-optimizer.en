@@ -18,7 +18,7 @@ By default, when several offers are eligible for a given placement in a decision
 
 ![](../../assets/offer-priority.png)
 
-Offers' priority scores are assigned when creating an offer. Learn how to create a personalized offer in [this section](../offer-library/creating-personalized-offers.md)).
+Offers' priority scores are assigned when creating an offer. Learn how to create a personalized offer in [this section](../offer-library/creating-personalized-offers.md).
 
 ## Ranking formula {#assign-ranking-formula}
 

@@ -26,7 +26,7 @@ To create a decision rule, follow these steps:
 
 1. Name your rule and provide a description, then configure the rule according to your needs.
     
-    To do this, the **Segment Builder** fis available to help you build the rule's conditions. [Learn more](../../segment/about-segments.md)
+    To do this, the **Segment Builder** is available to help you build the rule's conditions. [Learn more](../../segment/about-segments.md)
     
     In this example, the rule will target customers that have the "Gold" loyalty level.
 
@@ -41,6 +41,10 @@ To create a decision rule, follow these steps:
 1. Once the rule is created, it displays in the rules list. You can select it to display its properties and edit or delete it.
 
     ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
 
 ## Tutorial video {#video}
 
