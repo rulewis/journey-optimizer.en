@@ -83,7 +83,6 @@ solution: Journey Optimizer
     + [Wait](using/building-journeys/wait-activity.md)
     + [Read segment](using/building-journeys/read-segment.md)
     + [Message](using/building-journeys/journeys-message.md)
-    + [Message test](using/building-journeys/journeys-message-test.md)
     + [Custom actions](using/building-journeys/using-custom-actions.md)
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
