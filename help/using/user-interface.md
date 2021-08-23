@@ -152,10 +152,12 @@ You can use these shortcuts in specific parts of Journey Optimizer:
   
   Configuration pane of these elements:
 
-  * Activity in a journey
-  * Event
-  * Data source
-  * Action
+<ul>
+  <li>Activity in a journey</li>
+  <li>Event</li>
+  <li>Data source</li>
+  <li>Action</li>
+</ul>
 
   </td>
     <td>Move to the next field to be configured</td>
