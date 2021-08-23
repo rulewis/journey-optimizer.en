@@ -15,8 +15,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
+
 <th><strong>Send-Time Optimization</strong><br/></th>
-</tr>
 </thead>
 <tbody>
 <tr>
@@ -24,7 +24,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <p>Adobe Journey Optimizer Send-Time Optimization capability, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
 <p>For more information, refer to the <a href="building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
-
 </td>
 </tr>
 </tbody>
@@ -55,7 +54,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>Experience events often contain identifiers related to a behavior (a hotel ID for a hotel reservation, a list of SKUs for a purchase, an account ID for a bank account creation, etc.). This ID can be linked to various details, stored in different tables. You can now leverage data from a linked schema in your journey business events.</p>
 <p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -119,6 +117,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)
 
 **Email configuration**
+
 
 * **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](configuration/retries.md)
 * **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)
