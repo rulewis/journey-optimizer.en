@@ -97,7 +97,7 @@ Click the **[!UICONTROL Begin]** button to start the use case.
 
 You can access executed use cases from the **[!UICONTROL View use case library]** button.
 
-## Accessibility
+## Accessibility{#accessibility}
 
 The accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
 
