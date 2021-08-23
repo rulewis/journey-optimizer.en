@@ -63,22 +63,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Offer Decision content personalization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use the Journey Optimizer's Expression Editor to personalize the content of your offers with data from the Experience Cloud Platform database, which allows you to adapt your offers to each specific recipient.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Customer Alerts</strong><br/></th>
 </tr>
 </thead>
