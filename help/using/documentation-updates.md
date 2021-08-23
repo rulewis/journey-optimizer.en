@@ -11,7 +11,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Updated Decision management permissions. [Read more](administration/ootb-product-profiles.md)
 * Updated Email designer screenshots with latest UI.
-* Updated the configuration of custom actions with dynamic URL paths and dynamic headers. [Read more](action/about-custom-action-configuration.md#url-configuration)
+* Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](action/about-custom-action-configuration.md#url-configuration)
 * Added a section about accessibility features and shortcuts. [Read more](user-interface.md#accessibility)
 * Added a section about segment evaluation methods. [Read more](segment/about-segments.md#evaluation-method-in-journey-optimizer)
 
