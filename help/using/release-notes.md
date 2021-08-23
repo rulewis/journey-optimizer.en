@@ -15,15 +15,15 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Send time optimization</strong><br/></th>
-</tr>
+
+<th><strong>Send-Time Optimization</strong><br/></th>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Adobe Journey Optimizer Send-Time Optimization capability, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -54,24 +54,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>Experience events often contain identifiers related to a behavior (a hotel ID for a hotel reservation, a list of SKUs for a purchase, an account ID for a bank account creation, etc.). This ID can be linked to various details, stored in different tables. You can now leverage data from a linked schema in your journey business events.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Offer Decision content personalization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use Journey Optimizer to assemble and present content experiences with attributes whose value are resolved at runtime from profile data, context data, experience events and attributes stored in decision objects.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +72,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <p>You can now subscribe to event-based alerts regarding Adobe Journey Optimizer activities. The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
 </p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html">Adobe Experience Platform documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -105,11 +88,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **User interface**
 
 * **Search** - You can now filter search results directly from the search field. [Learn more](documentation-updates.md)
-* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](documentation-updates.md)
+* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](action/about-custom-action-configuration.md#passing-collection)
 
 **Content Design**
 
-* **Background** - Journey Optimizer email designer now supports background images. [Learn more](documentation-updates.md)
+* **Background** - Background images are now supported in live preview. [Learn more](documentation-updates.md)
+
+* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](documentation-updates.md)
 
 **Personalization**
 
@@ -117,11 +102,12 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Email configuration**
 
-* **Retry** - You can now define the retry period on a per preset basis to control your message sending by ensuring that retry attempts are not attempted when no longer needed. For example, you may set the retry period to 24 hours for a transactional message related to password reset containing a link valid for only a day. [Learn more](documentation-updates.md)
-* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](documentation-updates.md)
-* **Allowed list** - The allowed list is now enabled on a non-production sandbox through an API call. [Learn more](documentation-updates.md)
-* **Message preset** - You can now find out the reason why a message preset creation failed. [Learn more](documentation-updates.md)
-* **Navigation** - The suppression list which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access.
+
+* **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](configuration/retries.md)
+* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
+* **Message preset** - You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface. [Learn more](configuration/message-presets.md#monitor-message-presets)
+* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)
 
 
 ### Fixes 
