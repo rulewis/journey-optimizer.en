@@ -50,8 +50,6 @@ To force a specific value, you can use the **Enable parameter override** icon to
 
 ## Send-Time Optimization{#send-time-optimization}
 
-### About Send-Time optimization{#about-send-time-optimization}
-
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="About Sent time optimization"
@@ -76,15 +74,14 @@ The model varies whether you are talking about scoring or training. Training is 
 
 This information is stored with the user's profile and is referenced at journey execution to tell Adobe Journey Optimizer when to send your message. 
 
-### Important notes{#send-time-optimization-notes}
-
-* This feature is only available for mono-channel messages on email and push with tracking enabled.
-* The message must be published.
-* This feature is not compatible with burst mode.
+>[!CAUTION]
+>
+>* This feature is only available for mono-channel messages on email and push with tracking enabled.
+>* The message must be published.
+>* This feature is not compatible with burst mode.
 
 
 ### Activate Send-Time Optimization{#activate-send-time-optimization}
-
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
