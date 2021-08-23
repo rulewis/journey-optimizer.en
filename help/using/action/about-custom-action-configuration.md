@@ -61,6 +61,8 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
        If you have selected **[!UICONTROL Variable]**, then you will specify this variable when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
+       ![](../assets/journeyurlconfiguration2.png)
+
    1. To delete a header field, point to the header field and click the **[!UICONTROL Delete]** icon.
 
     The **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** header fields are set by default. You cannot modify or delete these fields.

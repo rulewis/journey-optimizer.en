@@ -16,6 +16,7 @@ If required, specify the value of dynamic header fields:
 
 1. Select the custom action in the journey.
 1. In the configuration pane, click the pencil icon next to the header field in the **[!UICONTROL URL Configuration]** section.
+   ![](../assets/journey-dynamicheaderfield.png)
 1. Select a field and click **[!UICONTROL OK]**.
 
 >[!NOTE]
