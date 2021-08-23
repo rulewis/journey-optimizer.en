@@ -14,7 +14,7 @@ Limitations are listed in [this page](../building-journeys/limitations.md).
 
 Here are the main steps required to configure a custom action:
 
-1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. Click **[!UICONTROL Create Action]** to create a new action. The action configuration pane opens on the right side of the screen. 
+1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. In the  **[!UICONTROL Actions]** section, click **[!UICONTROL Manage]**. Click **[!UICONTROL Create Action]** to create a new action. The action configuration pane opens on the right side of the screen.
 
     ![](../assets/custom2.png)
 
@@ -50,13 +50,28 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >We strongly recommend using HTTPS for security reasons. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
-1. In the **[!UICONTROL Headers]** section, click **[!UICONTROL Add a header field]** to define a new key/value pair. They correspond to the HTTP headers of the request made to the external service. To delete key/value pairs, place your cursor on the header field and click on the **[!UICONTROL Delete]** icon.
+1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
+   1. To add a header field, click **[!UICONTROL Add a header field]**.
+   1. Enter the key of the header field.
+   1. To set a dynamic value for the key-value pair, select **[!UICONTROL Variable]**. Otherwise, select **[!UICONTROL Constant]**.
 
-    **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** are set by default and cannot be deleted or overridden.
+        For example, for a timestamp, you can set a dynamic value.
+
+   1. If you have selected **[!UICONTROL Constant]**, then enter the constant value.
+
+       If you have selected **[!UICONTROL Variable]**, then you will specify this variable when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
+
+       ![](../assets/journeyurlconfiguration2.png)
+
+   1. To delete a header field, point to the header field and click the **[!UICONTROL Delete]** icon.
+
+    The **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** header fields are set by default. You cannot modify or delete these fields.
+
+    After you have added the custom action to a journey, you can still add header fields to it if the journey is in draft status. If you do not want the journey to be affected by configuration changes, duplicate the custom action and add the header fields to the new custom action.
 
     >[!NOTE]
     >
-    >Headers are validated according to the following [parsing rules](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+    >Headers are validated according to field parsing rules. [Learn more](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
 ## Define the action parameters {#define-the-message-parameters}
 
@@ -78,3 +93,7 @@ You will also have a choice between specifying if a parameter is a constant or a
 * Variable means the value of the parameter will vary. The marketer using this custom action in a journey will be free to pass the value he wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label the marketer will see in the journey to name this parameter.
 
 ![](../assets/customactionpayloadmessage2.png)
+
+**Related topics**
+
+[Use custom actions](../building-journeys/using-custom-actions.md)
