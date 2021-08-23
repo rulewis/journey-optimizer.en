@@ -128,9 +128,11 @@ Request body:
 
 ## One-click opt-out {#one-click-opt-out}
 
-As many customers expect to speed up the process of opting out, you can also add a one-click opt-out link into your email content. This link will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they will need to confirm opting out.
+As many customers look for an easier process to unsubscribe, you can also add a one-click opt-out link into your email content. This link will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out.
 
 Learn how to add an opt-out link to your message content in [this section](message-tracking.md#one-click-opt-out-link).
+
+Once your message is sent through a [journey](building-journeys/journey.md), if a recipient clicks the opt-out link, he is immediately opted out.
 
 ## Unsubscribe link in header {#unsubscribe-email}
 
