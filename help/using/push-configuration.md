@@ -1,8 +1,8 @@
 ---
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
-feature: Application Settings
-topic: Push
+topic: Mobile
+feature: Push
 role: Admin
 level: Intermediate
 ---
@@ -25,11 +25,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Set up permissions
 
-Before creating a mobile application, you first need to make sure that you have or assign the correct user permissions in **Adobe Experience Platform Launch**. Learn more in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target="_blank"}.
+Before creating a mobile application, you first need to make sure that you have or assign the correct user permissions in **Adobe Experience Platform Launch**. Learn more in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Adobe Experience Platform Launch** permissions in [this documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target="_blank"}.
+>Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Journey Optimizer** administrator. Learn more about **Adobe Experience Platform Launch** permissions in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 

@@ -84,4 +84,8 @@ The **[!UICONTROL Open vs Click]** identifies your recipients' interaction with 
 
 * **[!UICONTROL Unique Opens]**: Number of recipients who opened the delivery.
 
-
+>[!NOTE]
+>
+>The profiles with **[!UICONTROL Suppressed]** or **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [Message](../building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>
+>Learn more on the [Suppression list](../suppression-list.md) and [Allowed list](../allow-list.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).

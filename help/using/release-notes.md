@@ -7,7 +7,120 @@ description: Journey Optimizer Release notes
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
 
+
+## August 2021 Release {#august-2021-release}
+
+### New capabilities
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Send-Time Optimization</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer Send-Time Optimization capability, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<p>For more information, refer to the <a href="building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalized URLs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
+<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Lookup table management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Alerts</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now subscribe to event-based alerts regarding Adobe Journey Optimizer activities. The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
+</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html">Adobe Experience Platform documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**Journeys**
+
+* **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](documentation-updates.md)
+* **Collections in actions** - You can now add collections in custom actions and expression editor. Note that only simple arrays are supported for now. [Learn more](documentation-updates.md)
+
+**User interface**
+
+* **Search** - You can now filter search results directly from the search field. [Learn more](documentation-updates.md)
+* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](documentation-updates.md)
+
+**Content Design**
+
+* **Background** - Background images are now supported in live preview. [Learn more](documentation-updates.md)
+
+* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](documentation-updates.md)
+
+**Personalization**
+
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)
+
+**Email configuration**
+
+
+* **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](configuration/retries.md)
+* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
+* **Message preset** - You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface. [Learn more](configuration/message-presets.md#monitor-message-presets)
+* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)
+
+
+### Fixes 
+
+* Fixed an accessibility issue in message tab navigation.
+* Fixed a localization issue in the email designer labels.
+* Fixed an issue when selecting more than one node in a journey and clicking 'Delete' on the property panel.
+* Fixed an issue which prevented from adding a new header to an action used in a journey.
+
+
 ## July 2021 Release {#july-2021-release}
+
+### New capabilities
 
 <table>
 <thead>

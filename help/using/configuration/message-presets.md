@@ -108,7 +108,7 @@ To create a message preset, follow these steps:
 
     ![](../assets/preset-active.png)
 
-## Monitor message presets
+## Monitor message presets {#monitor-message-presets}
 
 All your message presets display in the **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** menu. Filters are available to help you browse through the list (channel type, user, status).
 
