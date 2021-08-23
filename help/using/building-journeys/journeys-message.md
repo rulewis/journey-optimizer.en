@@ -48,9 +48,9 @@ The **[!UICONTROL Email parameters]** and **[!UICONTROL Push parameters]** secti
 
 To force a specific value, you can use the **Enable parameter override** icon to the right of the field. This option may be useful for testing purposes. For example, for an email, you can add your email address. After you have published the journey, the email is sent to you.
 
-## Send time optimization{#send-time-optimization}
+## Send-Time optimization{#send-time-optimization}
 
-### About Sent time optimization{#about-send-time-optimization}
+### About Send-Time optimization{#about-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
@@ -82,7 +82,7 @@ This information is stored with the user's profile and is referenced at journey 
 * The message must be published.
 * This feature is not compatible with burst mode.
 
-### Activate Sent time optimization{#activate-send-time-optimization}
+### Activate Send-time optimization{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
