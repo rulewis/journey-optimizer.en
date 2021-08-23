@@ -46,6 +46,8 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
 
+    * **[!UICONTROL Opt-out]**: Insert a direct link to quicly unsubscribe from receiving communications from your brand, without being redirected to a landing page where you need to submit your choice. Learn more in [this section](#one-click-opt-out-link).
+
     ![](assets/message-tracking-links.png)
 
 1. You can personalize your links, using a simple expression only. Learn more on personalization in [this section](personalization/personalization-syntax.md).
@@ -80,6 +82,24 @@ Once the email is sent, when the recipients click the mirror page link, the cont
 >In the [proof](preview.md#send-proofs) sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
 The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
+
+## One-click opt-out link {#one-click-opt-out-link}
+
+To enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they will need to confirm opting out, you can insert a one-click opt-out link into your email content.
+
+To add an opt-out link in your email:
+
+1. [Insert a link](#insert-links) and select **[!UICONTROL Opt-out]** as the type of link.
+
+    ![](assets/message-tracking-opt-out.png)
+
+1. Select how you want to apply the opting out: at the channel, profile, or subscription level.
+
+    ![](assets/message-tracking-opt-out-level.png)
+
+1. Enter the URL of the landing page where the user will be redirected once opted out. This page is only here to confirm to the user that opting out was successful.
+
+    ![](assets/message-tracking-opt-out-confirmation.png)
 
 ## Manage tracking {#manage-tracking}
 
