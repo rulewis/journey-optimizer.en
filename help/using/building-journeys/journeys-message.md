@@ -50,7 +50,7 @@ To force a specific value, you can use the **Enable parameter override** icon to
 
 ## Send-Time Optimization{#send-time-optimization}
 
-### About Sent time optimization{#about-send-time-optimization}
+### About Send-Time optimization{#about-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
@@ -82,7 +82,9 @@ This information is stored with the user's profile and is referenced at journey 
 * The message must be published.
 * This feature is not compatible with burst mode.
 
+
 ### Activate Send-Time Optimization{#activate-send-time-optimization}
+
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

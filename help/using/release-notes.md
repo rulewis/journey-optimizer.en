@@ -23,7 +23,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>Adobe Journey Optimizer Send-Time Optimization capability, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="../building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -55,7 +56,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Experience events often contain identifiers related to a behavior (a hotel ID for a hotel reservation, a list of SKUs for a purchase, an account ID for a bank account creation, etc.). This ID can be linked to various details, stored in different tables. You can now leverage data from a linked schema in your journey business events.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
