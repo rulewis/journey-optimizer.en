@@ -48,7 +48,7 @@ The **[!UICONTROL Email parameters]** and **[!UICONTROL Push parameters]** secti
 
 To force a specific value, you can use the **Enable parameter override** icon to the right of the field. This option may be useful for testing purposes. For example, for an email, you can add your email address. After you have published the journey, the email is sent to you.
 
-## Send time optimization{#send-time-optimization}
+## Send-Time Optimization{#send-time-optimization}
 
 ### About Sent time optimization{#about-send-time-optimization}
 
@@ -82,16 +82,16 @@ This information is stored with the user's profile and is referenced at journey 
 * The message must be published.
 * This feature is not compatible with burst mode.
 
-### Activate Sent time optimization{#activate-send-time-optimization}
+### Activate Send-Time Optimization{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Activate Sent time optimization"
+>title="Activate Send-Time Optimization"
 >abstract="Choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. You can also choose to bracket the send times used by the system by entering a value for the Send within the next option."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Activate Sent time optimization"
+>title="Activate Send-Time Optimization"
 >abstract="Push messages defaults to the opens option, as clicks are not applicable for push messaging. You can also choose to bracket the send times used by the system by entering a value for the Send within the next option."
 
 Enable Send-Time Optimization on an email or push message by selecting the **Send-Time Optimization** switch from the Message activity parameters. 
@@ -100,5 +100,5 @@ Enable Send-Time Optimization on an email or push message by selecting the **Sen
 
 For email messages, choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. Push messages defaults to the opens option, as clicks are not applicable for push messaging. 
 
-You can also choose to bracket the send times used by the system by entering a value for the **Send within the next** option. If you choose "six hours" as the value, Adobe Journey Optimizer will check each user profile to see if the optimal send time occurs within six hours from the journey execution time and select the Send-Time Optimization-determined time. If that time is not within the next six hours, Adobe Journey Optimizer will default to sending the message at journey execution time. 
+You can also choose to bracket the send times used by the system by entering a value for the **Send within the next** option. If you choose "six hours" as the value, [!DNL Journey Optimizer]will check each user profile to see if the optimal send time occurs within six hours from the journey execution time and select the Send-Time Optimization-determined time. If that time is not within the next six hours, [!DNL Journey Optimizer] will default to sending the message at journey execution time. 
 

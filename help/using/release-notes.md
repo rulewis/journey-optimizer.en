@@ -15,7 +15,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Send time optimization</strong><br/></th>
+<th><strong>Send-Time Optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -23,7 +23,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <td>
 <p>Adobe Journey Optimizer Send-Time Optimization capability, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
