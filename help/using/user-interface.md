@@ -265,11 +265,13 @@ To change your language:
 
 ## Search{#unified-search}
 
-Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experience Cloud search capability on the center of the top bar to find assets, journeys, datasets, messages, and more across your sandboxes. Start entering content to display top results. Help articles about the entered keywords also show up in the results.
+Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experience Cloud search capability on the center of the top bar to find assets, journeys, datasets, messages, and more across your sandboxes. 
+
+Start entering content to display top results. Help articles about the entered keywords also show up in the results.
 
 ![](assets/unified-search.png)
 
-Press **Enter** to access all results and filter.
+Press **Enter** to access all results and filter by business object.
 
 ![](assets/search-and-filter.png)
 
