@@ -159,10 +159,18 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
 1. Click **[!UICONTROL Submit]**.
 
-You can check the list of the latest CSV files you uploaded, included their status.
+### Check recent uploads status {#recent-uploads}
 
-![](../assets/suppression-list-recent-uploads.png)
+You can check the list of the latest CSV files you uploaded.
 
 To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
 
 ![](../assets/suppression-list-recent-uploads-button.png)
+
+The latest uploads you submitted and their corresponding statuses are displayed.
+
+If an error report is associated with a file, you can download it to check the errors encountered.
+
+![](../assets/suppression-list-recent-uploads-error.png)
+
+
