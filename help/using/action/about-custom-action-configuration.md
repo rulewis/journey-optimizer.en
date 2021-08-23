@@ -141,7 +141,7 @@ To pass a collection field, paste an example of the JSON payload containing the 
 
    ![](../assets/custom-collection2.png)
 
-5. Add the custom action to your journey and map each action parameter to a field from an event or data source. When mapping the collection field, the advanced editor is displayed.
+5. Add the custom action to your journey and map each action parameter to a field from an event or data source. When mapping the collection field, the advanced editor is displayed. [Learn more](../building-journeys/using-custom-actions.md).
 
 **Related topics**
 
