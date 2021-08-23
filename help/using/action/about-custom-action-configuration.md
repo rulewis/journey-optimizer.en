@@ -116,6 +116,9 @@ You will also have a choice between specifying if a parameter is a constant or a
 
 ![](../assets/customactionpayloadmessage2.png)
 
+
+## Passing a simple collection {#passing-collection}
+
 You can pass a collection in custom action parameters. For the moment, only simple collections are supported. More complex collection fields (arrays of objects) are not supported. 
 
 To pass a collection field, paste an example of the JSON payload containing the collection. Here is an example of a payload:
