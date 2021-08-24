@@ -66,12 +66,12 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
-* when configuring a unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
+* when configuring a business or unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
 * when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
 * in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
 * in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
-### Unitary event configuration{#unitary_event_configuration}
+### Event configuration{#unitary_event_configuration}
 
 The linked schema fields are available in unitary and business event configuration:
 
