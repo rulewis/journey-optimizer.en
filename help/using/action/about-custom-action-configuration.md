@@ -18,8 +18,6 @@ Here are the main steps required to configure a custom action:
 
     ![](../assets/custom2.png)
 
-    <!-- Mettre à jour les captures de cette page avec le champ Path quand disponible -->
-
 1. Enter a name for your action.
 
     >[!NOTE]
@@ -45,31 +43,19 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Specify the URL of the external service.
+1. In the **[!UICONTROL URL]** field, specify the URL of the external service:
 
-    If the URL is static, enter the URL in the **[!UICONTROL URL]** field.
+    * If the URL is static, enter the URL in this field.
+
+    * If the URL includes a dynamic path, enter only the static part of the URL, that is, the scheme, the host, and the port.
+
+        Example: `https://xxx.yyy.com:8080`
+
+        You will specify the dynamic path of the URL when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
     >[!NOTE]
     >
     >For security reasons, we strongly recommend that you use the HTTPS scheme for the URL. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
-
-    If the URL includes a dynamic path, specify this information:
-
-    1. In the **[!UICONTROL URL]** field, enter the static part of the URL, that is, the scheme, the host, and the port.
-
-        Example: `https://xxx.yyy.com:8080`
-
-    1. In the **[!UICONTROL Path]** section, turn on the toggle and click the pencil icon.
-
-    1. In the pop-up window, specify the dynamic path, then click **[!UICONTROL OK]**.
-
-        To concatenate fields and plain text strings, use the Plus sign (+). Enclose plain text strings in single quotation marks (').
-
-        Example of dynamic path configuration: `The campaign_id of fieldgroup14 + '/messages'`
-
-        Example of concatenated URL: `https://xxx.yyy.com:8080/`\<campaign ID\>`/messages`
-
-    <!-- Ajouter une capture quand le champ Path sera disponible. Exemple ici : https://xd.adobe.com/view/fc70786f-d965-451d-9e77-5e17e2dd8384-a923/screen/2f32e6ae-3c22-4093-82be-158d0b3c52d8/ -->
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
 1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
