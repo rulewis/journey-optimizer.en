@@ -47,9 +47,9 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
     * If the URL is static, enter the URL in this field.
 
-    * If the URL includes a dynamic path, enter only the static part of the URL, that is, the scheme, the host, and the port.
+    * If the URL includes a dynamic path, enter only the static part of the URL, that is, the scheme, the host, the port, and, optionally, a static part of the path.
 
-        Example: `https://xxx.yyy.com:8080`
+        Example: `https://xxx.yyy.com:8080/somethingstatic/`
 
         You will specify the dynamic path of the URL when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
