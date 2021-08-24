@@ -24,18 +24,18 @@ If the URL includes a dynamic path, specify the path in the **[!UICONTROL Path]*
 >
 >You cannot set up the static part of the URL in the journey, but in the global configuration of the custom action. [Learn more](../action/about-custom-action-configuration.md).
 
-To concatenate fields and plain text strings, use the Plus sign (+) in the advanced expression editor. Enclose plain text strings in single quotation marks ('). [Learn more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
+To concatenate fields and plain text strings, use the String functions or the Plus sign (+) in the advanced expression editor. Enclose plain text strings in single quotation marks (') or in double quotation marks ("). [Learn more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
 
 This table shows an example of configuration:
 
 | Field | Value |
 | --- | --- |
-| URL | `https://xxx.yyy.com:8080/` |
+| URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | Path | `The id of marketingCampaign + '/messages'` |
 
 The concatenated URL has this form:
 
-`https://xxx.yyy.com:8080/`\<campaign ID\>`/messages` 
+`https://xxx.yyy.com:8080/somethingstatic/`\<campaign ID\>`/messages` 
 
 ![](../assets/journey-custom-action-url.png)
 
