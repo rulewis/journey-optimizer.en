@@ -95,7 +95,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Background** - Background images are now supported in live preview. [Learn more](preview.md)
 
-* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](documentation-updates.md)
+* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](message-tracking.md#one-click-opt-out-link)
 
 **Personalization**
 
