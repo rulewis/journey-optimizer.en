@@ -154,10 +154,6 @@ level: Beginner
      <li>
       <a href="using/administration/sandboxes.md">Sandboxes</a>
     </li>
-    </li>
-     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html">Alerts</a>
-    </li>
   </td>
 </tr>
 </table>
