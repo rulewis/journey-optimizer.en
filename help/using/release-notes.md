@@ -45,12 +45,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-
+<!--
 <table>
 <thead>
 <tr>
-
-<!--
 <th><strong>Personalized URLs</strong><br/></th>
 </tr>
 </thead>
