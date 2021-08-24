@@ -55,11 +55,11 @@ To force a specific value, you can use the **Enable parameter override** icon to
 >title="About Sent time optimization"
 >abstract="Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates."
 
+Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates. Use our machine-learning model to schedule personalized send times for each user to grow the open and click rates of your messages.
+
 >[!NOTE]
 >
 >This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
-
-Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates. Use our machine-learning model to schedule personalized send times for each user to grow the open and click rates of your messages.
 
 The Send-Time Optimization model ingests your Adobe Journey Optimizer data and looks at user-level open (for email and push) and click (for email) rates to determine when your customers are most likely to engage with your messaging. Send-Time Optimization requires a minimum of one month of message-tracking data to make informed recommendations. For each user, the model outputs the following predictive data:
 
@@ -79,7 +79,6 @@ This information is stored with the user's profile and is referenced at journey 
 >* This feature is only available for mono-channel messages on email and push with tracking enabled.
 >* The message must be published.
 >* This feature is not compatible with burst mode.
-
 
 ### Activate Send-Time Optimization{#activate-send-time-optimization}
 
