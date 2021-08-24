@@ -19,9 +19,13 @@ level: Intermediate
 
 # Retries {#retries}
 
-When a message fails due to a temporary **Soft bounce** or **Ignored** error, several retries are performed. Each error increments an error counter. When this counter reaches the limit threshold, the address is added to the suppression list.
+When an email message fails due to a temporary **Soft bounce** or **Ignored** error, several retries are performed. Each error increments an error counter. When this counter reaches the limit threshold, the address is added to the suppression list.
 
-In the default configuration<!--so can you edit this setting or not?? contradictory information was given-->, the threshold is set at three errors:
+>[!NOTE]
+>
+>Learn more on the types of errors in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
+
+In the default configuration, the threshold is set at three errors:
 
 * For the same delivery, at the third encountered error, the address is suppressed.
 
@@ -29,14 +33,26 @@ In the default configuration<!--so can you edit this setting or not?? contradict
 
 If a delivery is successful after a retry, the error counter of the address is reinitialized.
 
-You can modify the limit threshold using the **[!UICONTROL Edit]** button from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu.<!--currently you can edit this in staging // now I see in UI: Suppression rule > Bounce days??? > 4-->
+You can modify the limit threshold using the **[!UICONTROL Edit]** button from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu.
 
 ![](../assets/retries-edition.png)
 
-## Message retry duration {#retry-duration}
+<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
-Retries will be performed for **3.5 days** from the time the message was added to the email queue.
+## Retry time period {#retry-duration}
 
-The minimum delay between retries and the maximum number of retries to be performed are <!--managed by the Enhanced MTA,--> based on how well an IP is performing, both historically and currently at a given domain.
+The **retry time period** is the timeframe in which any message of the delivery that encountered a temporary error or soft bounce will be retried.
 
-After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.<!--???-->
+By default, retries will be performed for **3.5 days** (or **84 hours**) from the time the message was added to the email queue.
+
+However, to ensure that retry attempts are not performed anymore when no longer needed, you can change this setting according to your needs when creating or editing a [message preset](message-presets.md).
+
+For example, you may set the retry period to 24 hours for a transactional message relating to password reset and containing a link valid for only a day. Similarly, for a midnight sale, you may want to define a retry period of 6 hours.
+
+>[!NOTE]
+>
+>The retry period cannot exceed 84 hours. The minimum retry period is 6 hours for marketing emails and 10 minutes for transactional emails.
+
+Learn how to adjust the email retry parameters when creating a message preset in [this section](message-presets.md#create-message-preset).
+
+<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->

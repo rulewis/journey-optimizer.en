@@ -37,7 +37,7 @@ To create a message preset, follow these steps:
     >
     > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
 
-1. Configure **email** settings.
+1. Configure the **email** settings.
 
     ![](../assets/preset-email.png)
 
@@ -50,7 +50,7 @@ To create a message preset, follow these steps:
     
     * Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
     * Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
-    * Enter the header parameters for the emails sent using the preset.
+    * Enter the header parameters for the emails sent using that preset.
 
         >[!CAUTION]
         >
@@ -74,7 +74,16 @@ To create a message preset, follow these steps:
         >
         >Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-1. Configure **push notification** settings.
+    * Configure the **email retry parameters**. By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
+
+        ![](../assets/preset-retry-paramaters.png)
+
+        You must enter an integer value (in hours or minutes) within the following range:
+        * For marketing email type, the minimum retry period is 6 hours.
+        * For transactional email type, the minimum retry period is 10 minutes.
+        * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
+
+1. Configure the **push notification** settings.
 
      ![](../assets/preset-push.png)
    
