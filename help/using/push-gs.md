@@ -1,8 +1,7 @@
 ---
 title: Get started with push configuration
 description: Understand push notification data flow and components
-feature: Application Settings
-topic: Push
+feature: Application Settings, Push
 role: Admin
 level: Intermediate
 ---
