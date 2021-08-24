@@ -26,6 +26,11 @@ level: Beginner
     <p>Discover key features and how to get started
     <p>
     <div>
+      <a href="using/release-notes.md">Release notes</a>
+    </div>
+    <p>Discover new capabilities, latest improvements and fixes
+    <p>
+    <div>
       <a href="using/design-emails.md">Design an email content</a>
     </div>
     <p>
@@ -148,6 +153,10 @@ level: Beginner
     </li>
      <li>
       <a href="using/administration/sandboxes.md">Sandboxes</a>
+    </li>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html">Alerts</a>
     </li>
   </td>
 </tr>

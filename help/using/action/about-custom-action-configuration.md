@@ -102,6 +102,36 @@ You will also have a choice between specifying if a parameter is a constant or a
 
 ![](../assets/customactionpayloadmessage2.png)
 
+
+## Passing a simple collection {#passing-collection}
+
+You can pass a collection in custom action parameters. For the moment, only simple collections are supported. More complex collection fields (arrays of objects) are not supported. 
+
+To pass a collection field, paste an example of the JSON payload containing the collection. Here is an example of a payload:
+
+```
+{
+    "deviceTypes": [
+        "android",
+        "ios"
+    ]
+}
+```
+
+1. Paste the JSON example in the **[!UICONTROL Action parameters]** section of the custom action.
+
+   ![](../assets/custom-collection1.png)
+
+2. Set the field type. The following field types are supported for collections: string, integer, decimal, boolean, dateTime, dateTimeOnly, dateOnly, listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
+
+3. Define the collection field as a variable.
+
+4. Define the variable label which will be displayed in the journey.
+
+   ![](../assets/custom-collection2.png)
+
+5. Add the custom action to your journey and map each action parameter to a field from an event or data source. When mapping the collection field, the advanced editor is displayed. [Learn more](../building-journeys/using-custom-actions.md).
+
 **Related topics**
 
 [Use custom actions](../building-journeys/using-custom-actions.md)
