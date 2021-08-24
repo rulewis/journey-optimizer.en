@@ -12,7 +12,7 @@ Use [!DNL Journey Optimizer] to add links to your content and track the messages
 
 ## Enable tracking {#enable-tracking}
 
-You can enable tracking at the message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](create-message.md).
+You can enable tracking at the email message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -93,9 +93,13 @@ To add an opt-out link in your email, follow the steps below.
 
     ![](assets/message-tracking-opt-out.png)
 
-1. Select how you want to apply the opting out: at the channel, profile ID, or subscription level.
+1. Select how you want to apply the opting out: at the channel, identity, or subscription level.
 
     ![](assets/message-tracking-opt-out-level.png)
+
+    * **[!UICONTROL Channel]**: The opt-out applies to future messages sent to the profile's target (i.e. email address) for the current channel. If several targets are associated with a profile, the opt-out applies to all targets (i.e. email addresses) in the profile for that channel.
+    * **[!UICONTROL Identity]**: The opt-out applies to future messages sent to the specific target (i.e. email address) being used for the current message.
+    * **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.
 
 1. Enter the URL of the landing page where the user will be redirected once unsubscribed. This page is only here to confirm that opting out was successful.
 
