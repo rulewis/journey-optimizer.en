@@ -9,6 +9,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## August 2021
 
+* All new features and improvements coming with [!DNL Journey Optimizer] August '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Updated Decision management permissions. [Read more](administration/ootb-product-profiles.md)
 * Updated Email designer screenshots with latest UI.
 * Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](action/about-custom-action-configuration.md#url-configuration)
@@ -17,6 +18,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## July 2021
 
+* All new features and improvements coming with [!DNL Journey Optimizer] July '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added direct links to Experience Platform services documentation in [!DNL Journey Optimizer] home page and table of contents
 * New landing pages for Experience Platform services available in [!DNL Journey Optimizer] 
 * Added links to [!DNL Journey Optimizer] product description in the home page
