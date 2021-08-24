@@ -116,7 +116,6 @@ You will also have a choice between specifying if a parameter is a constant or a
 
 ![](../assets/customactionpayloadmessage2.png)
 
-
 ## Passing a simple collection {#passing-collection}
 
 You can pass a collection in custom action parameters. For the moment, only simple collections are supported. More complex collection fields (arrays of objects) are not supported. 
@@ -132,11 +131,24 @@ To pass a collection field, paste an example of the JSON payload containing the 
 }
 ```
 
+Only payloads that define an object containing arrays are supported. Payloads that are composed of arrays are now supported. For example, the following payload is not supported:
+
+```
+[
+    "my field" : "value",
+    "my other field : "value"
+]
+```
+
 1. Paste the JSON example in the **[!UICONTROL Action parameters]** section of the custom action.
 
    ![](../assets/custom-collection1.png)
 
-2. Set the field type. The following field types are supported for collections: string, integer, decimal, boolean, dateTime, dateTimeOnly, dateOnly, listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
+2. Set the field type. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly
+
+>[!NOTE]
+>
+>The field type is automatically inferred according to the payload example.  names in the payload cannot contain a "." character. They cannot start with a "$" character.
 
 3. Define the collection field as a variable.
 
