@@ -32,6 +32,24 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
+
+<th><strong>Lookup table management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Adobe Journey Optimizer, you can now leverage Adobe Experience Platform capability to define relationships between schemas in order to use one dataset as a lookup table for another. You can then leverage all the fields from the linked tables when configuring a unitary event, when using conditions in a journey, in message personalization, and in custom action personalization.</p>
+<p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
 <th><strong>Personalized URLs</strong><br/></th>
 </tr>
 </thead>
@@ -48,14 +66,15 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Lookup table management</strong><br/></th>
+
+<th><strong>Email Retry</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Adobe Journey Optimizer, you can now leverage Adobe Experience Platform capability to define relationships between schemas in order to use one dataset as a lookup table for another. You can then leverage all the fields from the linked tables when configuring a unitary event, when using conditions in a journey, in message personalization, and in custom action personalization.</p>
-<p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
+<p>You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. Retry settings only apply to the email channel.</p>
+<p>For more information, refer to the <a href="configuration/retries.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,6 +103,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Journeys**
 
 * **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](action/about-custom-action-configuration.md#url-configuration)
+* **Dynamic URL paths** - You can now set up dynamic URL paths for custom actions. [Learn more](action/about-custom-action-configuration.md#url-configuration)
 * **Collections in actions** - You can now add collections in custom actions and expression editor. Note that only simple arrays are supported for now. [Learn more](action/about-custom-action-configuration.md#passing-collection)
 
 **User interface**
@@ -94,7 +114,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Content Design**
 
 * **Background** - Background images are now supported in live preview. [Learn more](preview.md)
-
 * **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](message-tracking.md#one-click-opt-out-link)
 
 **Personalization**
@@ -103,6 +122,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Email configuration**
 
+<!-- **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)--> 
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
 * **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](configuration/retries.md)
 * **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)

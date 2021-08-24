@@ -10,6 +10,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 ## August 2021
 
 * All new features and improvements coming with [!DNL Journey Optimizer] August '21 release have been detailed in the documentation. [Read more](release-notes.md)
+* You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface and improved documentation. [Learn more](configuration/message-presets.md#monitor-message-presets)
 * Updated Decision management permissions. [Read more](administration/ootb-product-profiles.md)
 * Updated Email designer screenshots with latest UI.
 * Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](action/about-custom-action-configuration.md#url-configuration)
