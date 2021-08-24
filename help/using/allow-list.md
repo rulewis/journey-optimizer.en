@@ -18,18 +18,17 @@ The allowed list enables you to specify individual email addresses or domains th
 
 ## Enable the allowed list {#enable-allow-list}
 
-To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
-
-Learn more on the allowed list logic in [this section](#logic).
-
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service.
 
 * Using this API, you can also disable the feature at any time.
 
 * You can update the allowed list before or after enabling the feature.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+* The allowed list logic applies when the feature is enabled **and** if the allowed list is **not** empty. Learn more in [this section](#logic).
+
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
+
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
