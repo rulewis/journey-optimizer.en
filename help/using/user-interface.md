@@ -78,6 +78,9 @@ You can find below the full list of services and capabilities available in the l
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform provides sandboxes which partition a single instance into separate virtual environments to help develop and evolve digital experience applications. [Learn more](administration/sandboxes.md)
 
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+
+
 ## In-product use cases
 
 Leverage [!DNL Adobe Journey Optimizer] use cases from the Home page, and provide a few quick inputs to create a customer journey.
@@ -260,13 +263,15 @@ To change your language:
 * Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your forst language.
     ![](assets/select-language.png)
 
-## Search
+## Search{#unified-search}
 
-Anywhere from Adobe Journey Optimizer interface, use the Adobe Experience Cloud search on the center of the top bar to find assets, journeys or messages across your sandboxes. Start entering content to display top results.
+Anywhere from Adobe Journey Optimizer interface, use the Unified Adobe Experience Cloud search capability on the center of the top bar to find assets, journeys, datasets, messages, and more across your sandboxes. 
+
+Start entering content to display top results. Help articles about the entered keywords also show up in the results.
 
 ![](assets/unified-search.png)
 
-Press **Enter** to access all results and filter.
+Press **Enter** to access all results and filter by business object.
 
 ![](assets/search-and-filter.png)
 
