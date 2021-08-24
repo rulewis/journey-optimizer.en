@@ -32,6 +32,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
+
 <th><strong>Lookup table management</strong><br/></th>
 </tr>
 </thead>
@@ -48,6 +49,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
+
 <th><strong>Personalized URLs</strong><br/></th>
 </tr>
 </thead>
@@ -64,6 +66,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
+
 <th><strong>Email Retry</strong><br/></th>
 </tr>
 </thead>
@@ -111,7 +114,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Content Design**
 
 * **Background** - Background images are now supported in live preview. [Learn more](preview.md)
-
 * **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](message-tracking.md#one-click-opt-out-link)
 
 **Personalization**
@@ -122,6 +124,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 <!-- **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)--> 
 * **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
+* **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](configuration/retries.md)
+* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
+* **Message preset** - You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface. [Learn more](configuration/message-presets.md#monitor-message-presets)
 * **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)
 
 
