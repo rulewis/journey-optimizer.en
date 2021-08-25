@@ -21,7 +21,8 @@ level: Intermediate
 
 With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey, such as:
 
-* Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
+* Addresses that are invalid (hard bounces).
+* Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
@@ -54,7 +55,7 @@ The suppression categories are as follows:
 
     >[!NOTE]
     >
-    >When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is also immediately sent to the suppression list.
+    >When the error is the result of a spam complaint, it also falls into the **Hard** category. The email address of the recipient who issued the complaint is immediately sent to the suppression list.
 
 * **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md)
 
