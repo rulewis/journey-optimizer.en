@@ -16,12 +16,12 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <thead>
 <tr>
 
-<th><strong>Send-Time Optimization</strong><br/></th>
+<th><strong>Send messages at the best time - Send-Time Optimization</strong><br/></th>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer Send-Time Optimization capability, powered by Adobe’s AI services, can predict the best time to send an email or push message to maximize engagement based on historical open and click rates.</p>
+<p>Automatically send your push or email at the best time for every customer you engage with Adobe Journey Optimizer. Send-Time Optimization, powered by Adobe’s AI services, predicts the best time to send an email or push message to maximize engagement based on historical open and click rates out of the box.</p>
 <p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
 <p>For more information, refer to the <a href="building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
 </td>
@@ -33,13 +33,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <thead>
 <tr>
 
-<th><strong>Lookup table management</strong><br/></th>
+<th><strong>Leverage schema relationships in business events - Lookup table management</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Adobe Journey Optimizer, you can now leverage Adobe Experience Platform capability to define relationships between schemas in order to use one dataset as a lookup table for another. You can then leverage all the fields from the linked tables when configuring a unitary event, when using conditions in a journey, in message personalization, and in custom action personalization.</p>
+<p>You can now leverage relationships between schemas when configuring a business events. This comes in addition to the ability to leverage fields from  linked tables when configuring a unitary event, when using conditions in a journey, in message personalization, and in custom action personalization.</p>
 <p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -66,7 +66,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Email Retry</strong><br/></th>
+<th><strong>Make sure your emails get to your users - Email Retry</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -105,6 +105,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](action/about-custom-action-configuration.md#url-configuration)
 * **Dynamic URL paths** - You can now set up dynamic URL paths for custom actions. [Learn more](action/about-custom-action-configuration.md#url-configuration)
 * **Collections in actions** - You can now add collections in custom actions and expression editor. Note that only simple arrays are supported for now. [Learn more](action/about-custom-action-configuration.md#passing-collection)
+* The overall throttling rate for read segments has been changed from 17,000 to 20,000 messages per second. [Read more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **User interface**
 
@@ -123,10 +124,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 **Email configuration**
 
 * **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
-* **Retry** - You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password reset transactional message containing a link valid for only a day. [Learn more](configuration/retries.md)
-* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)
-* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
-* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)
+<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
 
 
 ### Fixes 
@@ -145,14 +144,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Leverage schema relationships</strong><br/></th>
+<th><strong>Use metadata in your messages - Lookup table management</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. [!DNL Journey Optimizer] can now leverage data coming from a linked schema.</p>
-<p>These fields are available in unitary event configuration, journey conditions, message personalization and custom action personalization.</p>
+<p>Enrich your experiences with reference data you've loaded into Journey Optimizer. Examples include looking up metadata on a reservation ID in an experience event, or finding product information from a sku in an experience event for use in the canvas. </p>
+<p>You can now leverage relationships between schemas in order to use one dataset as a lookup table for another. You can then leverage all the fields from the linked tables when configuring a unitary event, when using conditions in a journey, in message personalization, and in custom action personalization.</p>
 <p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
 </td>
 </tr>
