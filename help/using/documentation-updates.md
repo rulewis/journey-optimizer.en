@@ -3,7 +3,7 @@ title: Documentation Updates
 description: Learn about latest documentation updates
 ---
 
-# Latest Updates in this documentation
+# Latest updates in this documentation
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
