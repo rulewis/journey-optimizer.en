@@ -30,6 +30,8 @@ Such email addresses are automatically collected into the Journey Optimizer **su
 
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
+<!--You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
+
 ![](../assets/suppression-list-access.png)
 
 Filters are available to help you browse through the list.
@@ -150,6 +152,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     EMAIL,abc@somedomain.com,Comment
     DOMAIN,somedomain.com,Comment
     ```
+    You can also download this template from the **[!UICONTROL Suppression list]** main view.
 
     >[!CAUTION]
     >
