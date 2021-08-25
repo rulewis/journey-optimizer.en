@@ -21,7 +21,8 @@ level: Intermediate
 
 With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey, such as:
 
-* Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
+* Addresses that are invalid (hard bounces).
+* Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
@@ -29,6 +30,8 @@ Such email addresses are automatically collected into the Journey Optimizer **su
 ## Access the suppression list {#access-suppression-list}
 
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
+
+<!--You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
 
 ![](../assets/suppression-list-access.png)
 
@@ -52,7 +55,7 @@ The suppression categories are as follows:
 
     >[!NOTE]
     >
-    >When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is also immediately sent to the suppression list.
+    >When the error is the result of a spam complaint, it also falls into the **Hard** category. The email address of the recipient who issued the complaint is immediately sent to the suppression list.
 
 * **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md)
 
@@ -150,6 +153,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     EMAIL,abc@somedomain.com,Comment
     DOMAIN,somedomain.com,Comment
     ```
+    You can also download this template from the **[!UICONTROL Suppression list]** main view.
 
     >[!CAUTION]
     >
@@ -180,7 +184,8 @@ If an error report is associated with a file, you can download it to check the e
 ![](../assets/suppression-list-recent-uploads-error.png)
 
 Below is an example of the type of entries you can find in the error report:
-````
+
+```
 type,value,comments,failureReason
 Email,examplemail.com,MANUAL,Invalid format for value: examplemail.com
 Email,examplemail,MANUAL,Invalid format for value: examplemail
@@ -188,7 +193,7 @@ Email,example@mail,MANUAL,Invalid format for value: example@mail
 Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
-````
+```
 
 
 
