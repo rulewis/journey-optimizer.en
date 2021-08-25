@@ -71,7 +71,7 @@ When the allowed list is **not empty**, the allowed list logic is applied:
 
 ## Exclusion reporting {#reporting}
 
-When this feature is enabled on a non-production sandbox, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) to make the API calls below.
+When this feature is enabled on a non-production sandbox, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} to make the API calls below.
 
 To get the **number of emails** that were not sent because the recipients were not on the allowed list, use the following query:
 

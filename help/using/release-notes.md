@@ -73,7 +73,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password-reset transactional message containing a link valid for only a day. Note that retry settings only apply to the email channel.</p>
-<p>For more information, refer to the <a href="configuration/retries.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="configuration/retries.md#retry-duration">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -104,7 +104,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](action/about-custom-action-configuration.md#url-configuration)
 * **Dynamic URL paths** - You can now set up dynamic URL paths for custom actions. [Learn more](action/about-custom-action-configuration.md#url-configuration)
-* The overall throttling rate for read segments has been changed from 17,000 to 20,000 messages per second. [Read more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* The overall throttling rate for read segments has been changed from 17,000 to 20,000 messages per second. [Learn more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **User interface**
 
