@@ -34,7 +34,7 @@ To create an **offer**, follow these steps:
 
     >[!NOTE]
     >
-    >The **[!UICONTROL Offer attributes]** section allows you to associate key value pairs with the offer for reporting and analysis purposes.
+    >The **[!UICONTROL Offer attributes]** section allows you to associate key-value pairs with the offer for reporting and analysis purposes.
 
 ## Configure the offer's representations {#representations}
 

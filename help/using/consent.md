@@ -31,6 +31,8 @@ Therefore, you must always include an **unsubscribe link** in every email sent o
 * Upon clicking this link, the recipients will be directed to a landing page including a button to confirm opting out.
 * Upon clicking the opt-out button, an Adobe I/O call will be made to update the profile data with this information. [Learn more about this](#consent-service-api).
 
+### Add an unsubscribe link {#add-unsubscribe-link}
+
 To add an unsubscribe link, follow the steps below:
 
 1. Build your unsubscription landing page.
@@ -81,7 +83,7 @@ In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL 
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## Opt-out API call {#opt-out-api}
+### Opt-out API call {#opt-out-api}
 
 Once the recipient has opted out by clicking the unsubscribe link, an Adobe I/O API <!--Consent service API to capture the encrypted data and-->is called to update the corresponding profile's preference.
 
@@ -123,6 +125,14 @@ Request body:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## One-click opt-out {#one-click-opt-out}
+
+As many customers look for an easier process to unsubscribe, you can also add a one-click opt-out link into your email content. This link will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out.
+
+Learn how to add an opt-out link to your message content in [this section](message-tracking.md#one-click-opt-out-link).
+
+Once your message is sent through a [journey](building-journeys/journey.md), if a recipient clicks the opt-out link, he is immediately opted out.
 
 ## Unsubscribe link in header {#unsubscribe-email}
 

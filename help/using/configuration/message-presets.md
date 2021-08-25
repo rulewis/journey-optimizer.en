@@ -37,7 +37,7 @@ To create a message preset, follow these steps:
     >
     > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
 
-1. Configure **email** settings.
+1. Configure the **email** settings.
 
     ![](../assets/preset-email.png)
 
@@ -50,7 +50,7 @@ To create a message preset, follow these steps:
     
     * Select the subdomain to use to send the emails. [Learn more](about-subdomain-delegation.md)
     * Select the IP pool to associate with the preset. [Learn more](ip-pools.md)
-    * Enter the header parameters for the emails sent using the preset.
+    * Enter the header parameters for the emails sent using that preset.
 
         >[!CAUTION]
         >
@@ -74,7 +74,16 @@ To create a message preset, follow these steps:
         >
         >Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters.
 
-1. Configure **push notification** settings.
+    * Configure the **email retry parameters**. By default, the [retry time period](retries.md#retry-duration) is set to 84 hours, but you can adjust this setting to better suit your needs.
+
+        ![](../assets/preset-retry-paramaters.png)
+
+        You must enter an integer value (in hours or minutes) within the following range:
+        * For marketing email type, the minimum retry period is 6 hours.
+        * For transactional email type, the minimum retry period is 10 minutes.
+        * For both email types, the maximum retry period is 84 hours (or 5040 minutes).
+
+1. Configure the **push notification** settings.
 
      ![](../assets/preset-push.png)
    
@@ -102,13 +111,17 @@ To create a message preset, follow these steps:
     * IP pool verification
     * A/PTR record, t/m/res subdomain verification
 
+    >[!NOTE]
+    >
+    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-message-presets).  
+
 1. Once the checks are successful, the message preset gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
 
     <!-- later on, users will be notified in Pulse -->
 
     ![](../assets/preset-active.png)
 
-## Monitor message presets
+## Monitor message presets {#monitor-message-presets}
 
 All your message presets display in the **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** menu. Filters are available to help you browse through the list (channel type, user, status).
 
@@ -122,11 +135,29 @@ Message presets can have the following statuses:
 * **[!UICONTROL Failed]**: One or several checks have failed during the message preset verification.
 * **[!UICONTROL De-activated]**: The message preset is de-activated. It cannot be used to create new messages.
 
+In case a message preset creation fails, the details on each possible failure reason are described below.
+
+If one of these errors occurs, contact the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+
+* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain.
+SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
+
+* **DKIM validation failed**: DKIM allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. 
+DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain. 
+
+* **MX record validation failed**: MX record validation failure means that the mail servers responsible for accepting inbound emails on behalf of a given subdomain are not correctly configured.
+
+* **Deliverability configurations failed**: Deliverability configurations failure can happen due to any of the following reasons:
+    * Blocklisting of the allocated IPs
+    * Invalid `helo` name
+    * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding preset
+    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+
 ## Edit message presets
 
 To edit a message preset, you first need to de-activate it to make it unavailable to create new messages (published messages using this preset will not be affected and will continue working). You then need to duplicate the message preset to create a new version that you will use to create new messages:
 
-1. Access the message presets list, then deactivate the message preset that you want to edit.
+1. Access the message presets list, then de-activate the message preset that you want to edit.
 
     ![](../assets/preset-deactivate.png)
 
@@ -140,7 +171,7 @@ To edit a message preset, you first need to de-activate it to make it unavailabl
 
     >[!NOTE]
     >
-    >Deactivated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
+    >De-activated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
 
 ## How-to video{#video-presets}
 

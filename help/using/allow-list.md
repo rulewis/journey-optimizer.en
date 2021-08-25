@@ -18,18 +18,17 @@ The allowed list enables you to specify individual email addresses or domains th
 
 ## Enable the allowed list {#enable-allow-list}
 
-To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
-
-Learn more on the allowed list logic in [this section](#logic).
-
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service.
 
 * Using this API, you can also disable the feature at any time.
 
 * You can update the allowed list before or after enabling the feature.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+* The allowed list logic applies when the feature is enabled **and** if the allowed list is **not** empty. Learn more in [this section](#logic).
+
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
+
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
@@ -48,7 +47,9 @@ You can perform the **Add**, **Delete** and **Get** operations.
 >
 >The allowed list can contain up to 1,000 entries.
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## Allowed list logic {#logic}
 
@@ -62,6 +63,31 @@ When the allowed list is **not empty**, the allowed list logic is applied:
 
 * If an entity is **on the allowed list**, and not on the suppression list, the email can be sent to the corresponding recipient. However, if the entity is also on the [suppression list](suppression-list.md), the corresponding recipient will not receive the email, the reason being **[!UICONTROL Suppressed]**.
 
+>[!NOTE]
+>
+>The profiles with **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>
+>Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md).
 
+## Exclusion reporting {#reporting}
 
+When this feature is enabled on a non-production sandbox, you can retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. To do this, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) to make the API calls below.
+
+To get the **number of emails** that were not sent because the recipients were not on the allowed list, use the following query:
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+To get the **list of email addresses** that were not sent because the recipients were not on the allowed list, use the following query:
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
 
