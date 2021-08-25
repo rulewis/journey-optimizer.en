@@ -103,7 +103,7 @@ Removed from the table provided by SparkPost/Momentum:
 
 ## Manually add addresses and domains {#add-addresses-and-domains}
 
-When a message fails to be delivered to an email address, this address is automatically added to the suppression list.
+When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 
 However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
 
@@ -137,7 +137,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
 
     ![](../assets/suppression-list-upload-csv.png)
 
-1. Dowload the CSV template to use. You can also create your own CSV file, but it must have the columns and format below:
+1. Download the CSV template to use, which includes the columns and format below:
 
     ```
     TYPE,VALUE,COMMENT
@@ -149,7 +149,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     >
     >Do not change the names of the columns in the CSV template.
     >
-    >The file size should not exceed 50KB.
+    >The file size should not exceed 50 MB.
 
 1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
 
@@ -172,5 +172,17 @@ The latest uploads you submitted and their corresponding statuses are displayed.
 If an error report is associated with a file, you can download it to check the errors encountered.
 
 ![](../assets/suppression-list-recent-uploads-error.png)
+
+Below is an example of the type of entries you can find in the error report:
+````
+type,value,comments,failureReason
+Email,examplemail.com,MANUAL,Invalid format for value: examplemail.com
+Email,examplemail,MANUAL,Invalid format for value: examplemail
+Email,example@mail,MANUAL,Invalid format for value: example@mail
+Domain,example,MANUAL,Invalid format for value: example
+Domain,example.!com,MANUAL,Invalid format for value: example.!com
+Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
+````
+
 
 
