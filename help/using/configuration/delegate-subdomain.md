@@ -59,19 +59,32 @@ To delegate a new subdomain, follow the steps below:
 
 1. Once the subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. For more on subdomains' statuses, refer to [this section](access-subdomains.md).
 
+    ![](../assets/subdomain-processing.png)
+
     The checks and actions below will be performed until the subdomain is verified and can be used to send messages.
     
-    This step is performed by Adobe and can take up to 3 hours.
+    These steps are performed by Adobe and can take up to 3 hours.
 
-    1. Check wether the subdomain has been delegated to Adobe DNS (NS record, SOA record, Zone setup, ownership record),
-    1. Configure DNS for the domain,
-    1. Create tracking and mirror URLs,
-    1. Provision CDN Cloud Front,
-    1. Create, validate and attach CDN SSL certificate,
-    1. Create Forward DNS,
-    1. Create PTR record.
+    1. Pre-validate: Adobe checks whether the subdomain has been delegated to Adobe DNS (NS record, SOA record, Zone setup, ownership record). If the pre-validation step fails, it returns an error and the corresponding reason, otherwise proceeds to the next step.
 
-    ![](../assets/subdomain-processing.png)
+    1. Configure DNS for the domain:
+
+        * **MX record**: Mail exchange record - Mail server record responsible for processing inbound emails send to customer sub-domain 
+        * **SPF record**: Sender Policy Framework record - Lists IPs of mail servers that can send emails from customer sub-domain 
+        * **DKIM record**: Domain key Identified Mail Standard record - use public-private key encryption to authenticate message to avoid spoofing 
+        * **A**: Default IP mapping
+
+    1. Create tracking and mirror URLs: if the domain is email.example.com, the tracking/mirror domain will be data.email.example.com. It is also secured by installing the SSL certificate.
+
+    1. Provision CDN Cloud Front: if CDN is not setup already, Adobe provisions it for the imsorg.
+
+    1. Create CND domain: if the domain is email.example.com, the CDN domain will be cdn.email.example.com.
+    
+    1. Create and attach CDN SSL certificate: Adobe creates the CDN certificate for the CDN domains and attaches it with your CDN.
+
+    1. Create Forward DNS: if this is the first subdomain that you are delegating, Adobe will create forward DNS required for creating PTR records, one for each of your IPs.
+
+    1. Create PTR record: PTR record is also known as reverse DNS record and is required by the ISPs so that they do not mark the emails as spam. Gmail also recommends having PTR records for each IP. We create PTR records only when you delegate the first subdomain, one for each IP, all pointing to first subdomain. For example, if the IP is 192.1.2.1 and the subdomain is email.example.com, then the PTR record will be: 192.1.2.1  PTR r1.email.example.com. You can later update the PTR record to point it to the new delegated domain.
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to deliver messages.
 
