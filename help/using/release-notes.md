@@ -104,7 +104,6 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](action/about-custom-action-configuration.md#url-configuration)
 * **Dynamic URL paths** - You can now set up dynamic URL paths for custom actions. [Learn more](action/about-custom-action-configuration.md#url-configuration)
-* **Collections in actions** - You can now add collections in custom actions and expression editor. Note that only simple arrays are supported for now. [Learn more](action/about-custom-action-configuration.md#passing-collection)
 * The overall throttling rate for read segments has been changed from 17,000 to 20,000 messages per second. [Read more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **User interface**
