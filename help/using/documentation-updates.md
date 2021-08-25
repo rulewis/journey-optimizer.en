@@ -19,7 +19,6 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added a new section to describe how to retrieve email addresses or domains that were excluded from a sending because they were not on the allowed list. [Read more](allow-list.md#reporting)
 * Updated the Enable the allow list section. [Learn more](allow-list.md#enable-allow-list)
 * Updated the Monitor message presets section with the possible preset creation failure reasons and details on such errors. [Read more](configuration/message-presets.md#monitor-message-presets)
-* Updated the Delegate a subdomain section with more detailed information on the configuration and validation process performed by Adobe. [Read more](configuration/delegate-subdomain.md)
 * Updated and renamed the Retry time period section to reflect the fact that you can now adjust the email retry setting in the message presets. [Read more](configuration/retries.md)
 * Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](message-tracking.md#one-click-opt-out-link)
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
