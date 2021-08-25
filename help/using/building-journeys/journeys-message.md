@@ -61,7 +61,7 @@ Adobe Journey Optimizer's Send-Time Optimization feature, powered by Adobe’s A
 >
 >This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
 
-The Send-Time Optimization model ingests your Adobe Journey Optimizer data and looks at user-level open (for email and push) and click (for email) rates to determine when your customers are most likely to engage with your messaging. Send-Time Optimization requires a minimum of one month of message-tracking data to make informed recommendations. For each user, the model outputs the following predictive data:
+The Send-Time Optimization model ingests your Adobe Journey Optimizer data and looks at user-level open (for email and push) and click (for email) rates to determine when your customers are most likely to engage with your messaging. Send-Time Optimization requires a minimum of one month of message-tracking data to make informed recommendations. For each user, the system will automatically pick the best time using the following scores:
 
 * The best hour of each day of the week to maximize engagement
 * The best day of the week to maximize engagement
