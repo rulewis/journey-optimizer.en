@@ -130,19 +130,19 @@ Only payloads that define an object containing arrays are supported. Payloads th
 
    ![](../assets/custom-collection1.png)
 
-2. Set the field type. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly
+1. Set the field type. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly
 
 >[!NOTE]
 >
 >The field type is automatically inferred according to the payload example.  names in the payload cannot contain a "." character. They cannot start with a "$" character.
 
-3. Define the collection field as a variable.
+1. Define the collection field as a variable.
 
-4. Define the variable label which will be displayed in the journey.
+1. Define the variable label which will be displayed in the journey.
 
    ![](../assets/custom-collection2.png)
 
-5. Add the custom action to your journey and map each action parameter to a field from an event or data source. When mapping the collection field, the advanced editor is displayed. [Learn more](../building-journeys/using-custom-actions.md).
+1. Add the custom action to your journey and map each action parameter to a field from an event or data source. When mapping the collection field, the advanced editor is displayed. [Learn more](../building-journeys/using-custom-actions.md).
 
 **Related topics**
 
