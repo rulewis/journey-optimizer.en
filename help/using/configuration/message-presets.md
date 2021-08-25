@@ -139,11 +139,9 @@ In case a message preset creation fails, the details on each possible failure re
 
 If one of these errors occurs, contact the [Adobe Customer Care Support Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
 
-* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain.
-SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
+* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
 
-* **DKIM validation failed**: DKIM allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. 
-DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain. 
+* **DKIM validation failed**: DKIM allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain. 
 
 * **MX record validation failed**: MX record validation failure means that the mail servers responsible for accepting inbound emails on behalf of a given subdomain are not correctly configured.
 
