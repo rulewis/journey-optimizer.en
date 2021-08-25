@@ -21,28 +21,34 @@ level: Intermediate
 
 With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey, such as:
 
-* Addresses that are invalid (hard bounces), or that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
+* Addresses that are invalid (hard bounces).
+* Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
 Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
 
 ## Access the suppression list {#access-suppression-list}
 
-To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
+To access the detailed list of excluded email addresses, open the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, then click the **[!UICONTROL View suppression lists]** link.
 
-<!--You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
+![](../assets/suppression-list-link.png)
 
-![](../assets/suppression-list-access.png)
+<!--To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
+You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.
+
+![](../assets/suppression-list-access-temp.png)-->
 
 Filters are available to help you browse through the list.
 
-![](../assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters-temp.png)
+
+<!--![](../assets/suppression-list-filters.png)
 
 You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Once selected, you can clear each filter or all filters displayed on top of the list.
+Once selected, you can clear each filter or all filters displayed on top of the list.-->
 
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
@@ -54,7 +60,7 @@ The suppression categories are as follows:
 
     >[!NOTE]
     >
-    >When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is also immediately sent to the suppression list.
+    >When the error is the result of a spam complaint, it also falls into the **Hard** category. The email address of the recipient who issued the complaint is immediately sent to the suppression list.
 
 * **Soft**: Soft errors send an address to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md)
 
@@ -72,7 +78,7 @@ The suppression categories are as follows:
 
 For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 
-![](../assets/suppression-list.png)
+<!--![](../assets/suppression-list.png)-->
 
 The possible reasons for a delivery failure are:
 
@@ -109,7 +115,7 @@ Removed from the table provided by SparkPost/Momentum:
 
 <!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
 
-## Manually add addresses and domains {#add-addresses-and-domains}
+<!--## Manually add addresses and domains {#add-addresses-and-domains}
 
 When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 
@@ -194,5 +200,6 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
+-->
 
 
