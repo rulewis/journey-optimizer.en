@@ -1,7 +1,6 @@
 ---
 title: Get started with push configuration
 description: Understand push notification data flow and components
-feature: Application Settings
 topic: Mobile
 feature: Push
 role: Admin

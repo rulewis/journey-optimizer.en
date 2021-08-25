@@ -1,8 +1,6 @@
 ---
 title: Push notification configuration
 description: Learn how to configure your environment to send push notifications with Journey Optimizer
-topic: Mobile
-feature: Push
 role: Admin
 level: Intermediate
 ---
