@@ -66,7 +66,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Email Retry</strong><br/></th>
+<th><strong>Make sure your emails get to your users - Email Retry</strong><br/></th>
 </tr>
 </thead>
 <tbody>
