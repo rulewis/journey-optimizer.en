@@ -183,7 +183,7 @@ If an error report is associated with a file, you can download it to check the e
 ![](../assets/suppression-list-recent-uploads-error.png)
 
 Below is an example of the type of entries you can find in the error report:
-````
+```
 type,value,comments,failureReason
 Email,examplemail.com,MANUAL,Invalid format for value: examplemail.com
 Email,examplemail,MANUAL,Invalid format for value: examplemail
@@ -191,7 +191,7 @@ Email,example@mail,MANUAL,Invalid format for value: example@mail
 Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
-````
+```
 
 
 
