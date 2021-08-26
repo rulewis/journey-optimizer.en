@@ -90,6 +90,7 @@ The possible reasons for a delivery failure are:
 | **[!UICONTROL Mailbox Full]** | The message bounced due to the mailbox of the recipient being full and unable to accept more messages. | Soft |
 | **[!UICONTROL Relaying Denied]** | The message was blocked by the receiver because relaying is not allowed. | Soft |
 | **[!UICONTROL Challenge-Response]** | The message is a challenge-response probe. | Soft |
+| **[!UICONTROL Spam Complaint]** | The message was blocked because marked as a spam by the recipient. | Hard |
 
 >[!NOTE]
 >
