@@ -61,7 +61,7 @@ To delegate a new subdomain, follow the steps below:
 
     ![](../assets/subdomain-processing.png)
 
-    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks. This step can take up to 3 hours. Learn more in [this section](#subdomain-validation).
+    Before being able to use that subdomain to send messages, you need to wait until Adobe performs the required checks, which can take up to 3 hours. Learn more in [this section](#subdomain-validation).
 
 1. Once the checks are successful, the subdomain gets the **[!UICONTROL Success]** status. It is ready to be used to deliver messages.
 
