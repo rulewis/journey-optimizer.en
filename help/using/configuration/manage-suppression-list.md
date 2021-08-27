@@ -29,26 +29,25 @@ Such email addresses are automatically collected into the Journey Optimizer **su
 
 ## Access the suppression list {#access-suppression-list}
 
-To access the detailed list of excluded email addresses, open the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, then click the **[!UICONTROL View suppression lists]** link.
+To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
 
-![](../assets/suppression-list-link.png)
+<!--![](../assets/suppression-list-link.png)
 
-<!--To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.
+You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
 
-![](../assets/suppression-list-access-temp.png)-->
+![](../assets/suppression-list-access.png)
 
 Filters are available to help you browse through the list.
 
-![](../assets/suppression-list-filters-temp.png)
+<!--![](../assets/suppression-list-filters-temp.png)-->
 
-<!--![](../assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
 You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Once selected, you can clear each filter or all filters displayed on top of the list.-->
+Once selected, you can clear each filter or all filters displayed on top of the list.
 
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
@@ -78,7 +77,7 @@ The suppression categories are as follows:
 
 For each email address that is listed, you can also check the **[!UICONTROL Type]** (email or domain), **[!UICONTROL Reason]** for excluding it, who added it, and the date/time it was added to the suppression list.
 
-<!--![](../assets/suppression-list.png)-->
+![](../assets/suppression-list.png)
 
 The possible reasons for a delivery failure are:
 
@@ -90,6 +89,7 @@ The possible reasons for a delivery failure are:
 | **[!UICONTROL Mailbox Full]** | The message bounced due to the mailbox of the recipient being full and unable to accept more messages. | Soft |
 | **[!UICONTROL Relaying Denied]** | The message was blocked by the receiver because relaying is not allowed. | Soft |
 | **[!UICONTROL Challenge-Response]** | The message is a challenge-response probe. | Soft |
+| **[!UICONTROL Spam Complaint]** | The message was blocked because marked as a spam by the recipient. | Hard |
 
 >[!NOTE]
 >
@@ -113,9 +113,9 @@ Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
 -->
 
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
 
-<!--## Manually add addresses and domains {#add-addresses-and-domains}
+## Manually add addresses and domains {#add-addresses-and-domains}
 
 When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 
@@ -200,6 +200,5 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
--->
 
 
