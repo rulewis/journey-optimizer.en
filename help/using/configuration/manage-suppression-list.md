@@ -25,7 +25,7 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 * Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
-Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on what the suppression list is and what's on it in [this section](../suppression-list.md).
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on the suppression list concept and usage in [this section](../suppression-list.md).
 
 ## Access the suppression list {#access-suppression-list}
 
@@ -33,7 +33,7 @@ To access the detailed list of excluded email addresses, go to **[!UICONTROL Adm
 
 >[!CAUTION]
 >
->Permissions to view, export and manage the suppression list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing the permissions assigned to users in the [Access control overview](../administration/permissions-overview.md) section.
+>Permissions to view, export and manage the suppression list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).
 
 <!--![](../assets/suppression-list-link.png)
 
@@ -47,13 +47,9 @@ Filters are available to help you browse through the list.
 
 ![](../assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
+You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion. Once selected, you can clear each filter or all filters displayed on top of the list.
 
 ![](../assets/suppression-list-filtering-example.png)
-
-Once selected, you can clear each filter or all filters displayed on top of the list.
-
-From the **[!UICONTROL Suppression list]** view, you can also edit suppression rules. Learn more in [this section](retries.md).
 
 If you manually add an email address or a domain by mistake, the **[!UICONTROL Delete]** button enables you to remove that entry.
 
@@ -63,11 +59,13 @@ If you manually add an email address or a domain by mistake, the **[!UICONTROL D
 
 ![](../assets/suppression-list-delete.png)
 
-Deleting an email address or a domain from the suppression list means that the system will start again delivering to this address or domain. Consequently, if you delete a suppressed address or domain, it can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../suppression-list.md).
+Deleting an email address or a domain from the suppression list means that you will start again delivering to this address or domain. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../suppression-list.md).
 
 >[!NOTE]
 >
 >Proceed with extra care when considering deleting any email address or domain. In case of any doubt, contact a deliverability expert.
+
+From the **[!UICONTROL Suppression list]** view, you can also edit suppression rules. [Learn more](retries.md)
 
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
@@ -113,7 +111,7 @@ The possible reasons for a delivery failure are:
 
 >[!NOTE]
 >
->Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. Learn more on [opting-out](../consent.md).
+>Unsubscribed users are not receiving emails from [!DNL Journey Optimizer], therefore their email addresses cannot be sent to the suppression list. Their choice is handled at the Experience Platform level. [Learn more on opting-out](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
