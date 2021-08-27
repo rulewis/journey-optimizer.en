@@ -25,25 +25,31 @@ When an email message fails due to a temporary **Soft bounce** error, several re
 >
 >Learn more on the types of errors in the [Delivery failure types](../suppression-list.md#delivery-failures) section.
 
-In the default configuration, the threshold is set at five errors:
+In the default configuration, the threshold is set to 5 errors.
 
 * For the same delivery, at the fifth encountered error within the [retry time period](#retry-duration), the address is suppressed.
 
-* If there are different deliveries and two errors occur at least 24 hours apart, the error counter is incremented upon each error and the address is also suppressed at the third attempt.
+* If there are different deliveries and two errors occur at least 24 hours apart, the error counter is incremented upon each error and the address is also suppressed at the fifth attempt.
 
 If a delivery is successful after a retry, the error counter of the address is reinitialized.
 
-You can modify the limit threshold using the **[!UICONTROL Edit suppression rules]** button from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]** menu.
+In case the default value of 5 does not suit your needs, you can modify the error threshold following the steps below.
 
-![](../assets/suppression-list-edit-retries.png)
+1. Go to **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
 
-Edit the number of soft bounces according to your needs and with the limitations below:
+1. Select the **[!UICONTROL Edit suppression rules]** button.
 
-* The soft bounce value must be between 1 and 20, meaning that the minimum value for consecutive soft bounces is 1 and the maximum value is 20.
-* By default, the value is set to 5.
-* Any value higher than 10 may cause deliverability reputation issues, as well as IP throttling or blocklisting by ISPs.
+    ![](../assets/suppression-list-edit-retries.png)
 
-![](../assets/suppression-list-edit-soft-bounces.png)
+1. Edit the allowed number of consecutive soft bounces according to your needs.
+
+    ![](../assets/suppression-list-edit-soft-bounces.png)
+
+    You must enter a value between 1 and 20, meaning that the minimum number of retries is 1 and the maximum number is 20.
+
+    >[!CAUTION]
+    >
+    >Any value higher than 10 may cause deliverability reputation issues, as well as IP throttling or blocklisting by ISPs. Learn more on [deliverability](deliverability.md)
 
 <!--![](../assets/retries-edition.png)-->
 
