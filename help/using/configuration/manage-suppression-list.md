@@ -25,11 +25,15 @@ With [!DNL Journey Optimizer], you can monitor all the email addresses that are 
 * Addresses that consistently soft-bounce, and could adversely affect your email reputation if you continue to include them in your deliveries.
 * Recipients who issue a spam complaint of some kind against one of your email messages.
 
-Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more in [this section](../suppression-list.md).
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. Learn more on what the suppression list is and what's on it in [this section](../suppression-list.md).
 
 ## Access the suppression list {#access-suppression-list}
 
 To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
+
+>[!CAUTION]
+>
+>Permissions to view, export and manage the suppression list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing the permissions assigned to users in the [Access control overview](../administration/permissions-overview.md) section.
 
 <!--![](../assets/suppression-list-link.png)
 
@@ -48,6 +52,22 @@ You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Addre
 ![](../assets/suppression-list-filtering-example.png)
 
 Once selected, you can clear each filter or all filters displayed on top of the list.
+
+From the **[!UICONTROL Suppression list]** view, you can also edit suppression rules. Learn more in [this section](retries.md).
+
+If you manually add an email address or a domain by mistake, the **[!UICONTROL Delete]** button enables you to remove that entry.
+
+>[!CAUTION]
+>
+>Never use the **[!UICONTROL Delete]** button to remove suppressed email addresses or domains.
+
+![](../assets/suppression-list-delete.png)
+
+Deleting an email address or a domain from the suppression list means that the system will start again delivering to this address or domain. Consequently, if you delete a suppressed address or domain, it can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Learn more on the importance of maintaining a suppression list in [this section](../suppression-list.md).
+
+>[!NOTE]
+>
+>Proceed with extra care when considering deleting any email address or domain. In case of any doubt, contact a deliverability expert.
 
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
