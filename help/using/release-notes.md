@@ -7,19 +7,150 @@ description: Journey Optimizer Release notes
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
 
-## July 2021 Release {#july-2021-release}
+
+## August 2021 Release {#august-2021-release}
+
+### New capabilities
 
 <table>
 <thead>
 <tr>
-<th><strong>Leverage schema relationships</strong><br/></th>
+
+<th><strong>Send messages at the best time - Send-Time Optimization</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Automatically send your push or email at the best time for every customer you engage with Adobe Journey Optimizer. Send-Time Optimization, powered by Adobe’s AI services, predicts the best time to send an email or push message to maximize engagement based on historical open and click rates out of the box.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<p>For more information, refer to the <a href="building-journeys/journeys-message.md#send-time-optimization">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Leverage schema relationships in business events - Lookup table management</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. [!DNL Journey Optimizer] can now leverage data coming from a linked schema.</p>
-<p>These fields are available in unitary event configuration, journey conditions, message personalization and custom action personalization.</p>
+<p>You can now leverage relationships between schemas when configuring a business events. This comes in addition to the ability to leverage fields from  linked tables when configuring a unitary event, when using conditions in a journey, in message personalization, and in custom action personalization.</p>
+<p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized URLs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
+<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Make sure your emails get to your users - Email Retry</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define the retry period on a per preset basis to ensure that retry attempts are not performed anymore when no longer needed. For example, you may set the retry period to 24 hours for a password-reset transactional message containing a link valid for only a day. Note that retry settings only apply to the email channel.</p>
+<p>For more information, refer to the <a href="configuration/retries.md#retry-duration">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Customer Alerts</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now subscribe to event-based alerts regarding Adobe Journey Optimizer activities. The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
+</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html">Adobe Experience Platform documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Improvements
+
+**Journeys**
+
+* **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Learn more](action/about-custom-action-configuration.md#url-configuration)
+* **Dynamic URL paths** - You can now set up dynamic URL paths for custom actions. [Learn more](action/about-custom-action-configuration.md#url-configuration)
+* The overall throttling rate for read segments has been changed from 17,000 to 20,000 messages per second. [Learn more](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**User interface**
+
+* **Search** - On every page, you can now search business objects and help articles directly from the Unified Experience Cloud search field. [Learn more](user-interface.md#unified-search)
+* **Recents** - The display of recents elements from Adobe Journey Optimizer home page is now extended to additional business objects. With this update, shortcuts to your recently accessed include Messages, Journeys, Segments, Schemas, Datasets, Data Sources, Events, Actions, Sources, and Destinations. [Learn more](action/about-custom-action-configuration.md#passing-collection)
+
+**Content Design**
+
+* **Background** - Background images are now supported in live preview. [Learn more](preview.md)
+* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](message-tracking.md#one-click-opt-out-link)
+
+<!--**Personalization**
+
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+
+**Email configuration**
+
+* **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
+<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
+
+
+### Fixes 
+
+* Fixed an accessibility issue in message tab navigation.
+* Fixed a localization issue in the email designer labels.
+* Fixed an issue when selecting more than one node in a journey and clicking 'Delete' on the property panel.
+* Fixed an issue which prevented from adding a new header to an action used in a journey.
+* You can now find out the reason why a message preset creation failed through a more explicit warning in the user interface.
+
+
+## July 2021 Release {#july-2021-release}
+
+### New capabilities
+
+<table>
+<thead>
+<tr>
+<th><strong>Use metadata in your messages - Lookup table management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Enrich your experiences with reference data you've loaded into Journey Optimizer. Examples include looking up metadata on a reservation ID in an experience event, or finding product information from a sku in an experience event for use in the canvas. </p>
+<p>You can now leverage relationships between schemas in order to use one dataset as a lookup table for another. You can then leverage all the fields from the linked tables when configuring a unitary event, when using conditions in a journey, in message personalization, and in custom action personalization.</p>
 <p>For more information, refer to the <a href="event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
 </td>
 </tr>

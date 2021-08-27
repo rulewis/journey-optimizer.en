@@ -30,9 +30,11 @@ Email addresses are added to the suppression list as follows:
 
 * All **hard bounces** and **spam complaints** automatically send the corresponding email addresses to the suppression list after a single occurrence.
 
-* **Soft bounces** and temporary **ignored** errors do not immediately send an email address to the suppression list, but they increment an error counter. Several retries are then performed, and when the error counter reaches the threshold, the address is added to the suppression list. Learn more on [retries](configuration/retries.md).
+* **Soft bounces** <!--and temporary **ignored** errors--> do not immediately send an email address to the suppression list, but they increment an error counter. Several [retries](configuration/retries.md) are then performed, and when the error counter reaches the threshold, the address is added to the suppression list.
 
-<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+* You can also [**manually** add an address or a domain](configuration/manage-suppression-list.md#add-addresses-and-domains) to the suppression list.
+
+Learn more on hard bounces and soft bounces in [this section](#delivery-failures).
 
 >[!NOTE]
 >
@@ -43,17 +45,23 @@ For each address, the basic reason for being suppressed and the suppression cate
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
+>[!NOTE]
+>
+>The profiles with **[!UICONTROL Suppressed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](building-journeys/read-segment.md) and [Message](building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.
+>
+>Learn more on the [Live Report](reports/live-report.md) and [Global Report](reports/global-report.md). To find out the reason for all exclusion cases, you can use the [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+
 ### Delivery failures {#delivery-failures}
 
-There are three types of errors when a delivery fails:
+There are two types of errors when a delivery fails:
 
-* **Hard bounce**. A hard bounce indicates an invalid email address (i.e. an email address that does not exist). This involves a bounce message from the receiving email server that explicitly states that the address is invalid, such as 'unknown user'.
+* **Hard bounce**. A hard bounce indicates an invalid email address (i.e. an email address that does not exist). This involves a bounce message from the receiving email server that explicitly states that the address is invalid.
 * **Soft bounce**. This is a temporary email bounce that occurred for a valid email address.
-* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.<!--does it exist in CJM?-->
+<!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 A **hard bounce** automatically adds the email address to the suppression list.
 
-A **soft bounce** or an **ignored** error that occurs too many times also sends the email address to the suppression list after several retries. [Learn more on retries](configuration/retries.md)
+A **soft bounce** <!--or an **ignored** error--> that occurs too many times also sends the email address to the suppression list after several retries. [Learn more on retries](configuration/retries.md)
 
 If you continue sending to these addresses, it may affect your delivery rates, because it tells ISPs that you may not be following email address list maintenance best practices, and therefore may not be a trustworthy sender.
 

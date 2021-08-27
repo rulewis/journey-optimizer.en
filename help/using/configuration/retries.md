@@ -41,13 +41,13 @@ You can modify the limit threshold using the **[!UICONTROL Edit]** button from t
 
 ## Retry time period {#retry-duration}
 
-The **retry time period** is the timeframe in which any message of the delivery that encountered a temporary error or soft bounce will be retried.
+The **retry time period** is the timeframe in which any email message of the delivery that encountered a temporary error or soft bounce will be retried.
 
 By default, retries will be performed for **3.5 days** (or **84 hours**) from the time the message was added to the email queue.
 
-However, to ensure that retry attempts are not performed anymore when no longer needed, you can change this setting according to your needs when creating or editing a [message preset](message-presets.md).
+However, to ensure that retry attempts are not performed anymore when no longer needed, you can change this setting according to your needs when creating or editing a [message preset](message-presets.md) applying to the email channel.
 
-For example, you may set the retry period to 24 hours for a transactional message relating to password reset and containing a link valid for only a day. Similarly, for a midnight sale, you may want to define a retry period of 6 hours.
+For example, you may set the retry period to 24 hours for a transactional email relating to password reset and containing a link valid for only a day. Similarly, for a midnight sale, you may want to define a retry period of 6 hours.
 
 >[!NOTE]
 >
