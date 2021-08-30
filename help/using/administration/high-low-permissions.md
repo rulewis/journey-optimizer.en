@@ -307,14 +307,16 @@ It includes the following low-level permissions:
 
 ### View PTR records permission {#view-ptr}
 
-The **[!UICONTROL View PTR records]** high-level permission allows users to view PTR records that have been configured based on subdomain and includes the following low-level permissions:
+The **[!UICONTROL View PTR records]** high-level permission allows users to view PTR records that have been configured based on the subdomain.
+
+It includes the following low-level permissions:
 
 * PTR_records.read
 * subdomains_delegation.read
 
 ### Manage IP pools permission {#manage-ip-pools}
 
-The **[!UICONTROL Manage IP pools]** high-level permission allows users to create, edit and delete affinity definition.
+The **[!UICONTROL Manage IP pools]** high-level permission allows users to create, edit and delete the affinity definition.
 
 It includes the following low-level permissions: 
 
@@ -324,7 +326,7 @@ It includes the following low-level permissions:
 
 ### Manage messages general settings permission {#manage-message-settings}
 
-The **[!UICONTROL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at sandbox level.
+The **[!UICONTROL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
 It includes the following low-level permissions: 
 
@@ -332,13 +334,12 @@ It includes the following low-level permissions:
   * messages_general_settings.read
   * messages_general_settings.write
   * messages_general_settings.delete
-
 * Adobe Experience Platform specific:
   * schemas.read
 
 ### View messages general settings permission {#view-message-settings}
 
-The **[!UICONTROL View messages general settings]** high-level permission allows users to view messages general settings such as suppression rules or execution address.
+The **[!UICONTROL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
 It includes the following low-level permissions:
 
@@ -349,7 +350,7 @@ It includes the following low-level permissions:
 
 ### Manage messages presets permission {#manage-message-presets}
 
-The **[!UICONTROL Manage messages presets]** high-level permission allows users to create, edit and delete message presets across channels at sandbox level.
+The **[!UICONTROL Manage messages presets]** high-level permission allows users to create, edit and delete message presets across channels at the sandbox level.
 
 It includes the following low-level permissions: 
 
@@ -372,9 +373,9 @@ It includes the following low-level permissions:
 * IP_pools.read
 * mobile_setting.read (from Adobe Experience Platform Launch)
 
-### Manage suppression {#manage-suppression}
+### Manage suppression permission {#manage-suppression}
 
-The **[!UICONTROL Manage suppression]** high-level permission allows users to define the number of bounces before the user's email address is added to the suppression list, as well as add email addresses and domains to the suppression list and delete entries from the suppression list.
+The **[!UICONTROL Manage suppression]** high-level permission allows users to define the number of bounces before an email address is added to the suppression list, as well as to add and delete entries to/from the suppression list.
 
 It includes the following low-level permissions: 
 
@@ -386,7 +387,7 @@ It includes the following low-level permissions:
 
 ### View suppression list permission {#view-suppresion-list}
 
-The **[!UICONTROL View suppression list]** high-level permission allows users to view messages configurations including messages presets and general message settings. 
+The **[!UICONTROL View suppression list]** high-level permission allows users to view the suppression list content and settings. 
 
 It includes the following low-level permissions: 
 
@@ -398,7 +399,7 @@ It includes the following low-level permissions:
 
 ### Export suppression list permission {#export-suppression-list}
 
-The **[!UICONTROL Export suppression list]** high-level permission allows users to configure messages configurations including message presets and general message settings.
+The **[!UICONTROL Export suppression list]** high-level permission allows users to download the suppression list as a CSV file.
 
 It includes the following low-level permissions:
 
