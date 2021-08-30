@@ -45,7 +45,7 @@ In case the default value of 5 does not suit your needs, you can modify the erro
 
     ![](../assets/suppression-list-edit-soft-bounces.png)
 
-    You must enter a value between 1 and 20, meaning that the minimum number of retries is 1 and the maximum number is 20.
+    You must enter an integer value between 1 and 20, meaning that the minimum number of retries is 1 and the maximum number is 20.
 
     >[!CAUTION]
     >
