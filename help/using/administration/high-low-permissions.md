@@ -372,15 +372,17 @@ It includes the following low-level permissions:
 * IP_pools.read
 * mobile_setting.read (from Adobe Experience Platform Launch)
 
-### Manage suppression rules permission {#manage-suppression-rules}
+### Manage suppression {#manage-suppression}
 
-The **[!UICONTROL Manage suppression rules]** high-level permission allows users to define the number of bounces before the user's email address is added to the suppression list. 
+The **[!UICONTROL Manage suppression]** high-level permission allows users to define the number of bounces before the user's email address is added to the suppression list, as well as add email addresses and domains to the suppression list and delete entries from the suppression list.
 
 It includes the following low-level permissions: 
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
 ### View suppression list permission {#view-suppresion-list}
 
@@ -400,6 +402,8 @@ The **[!UICONTROL Export suppression list]** high-level permission allows users 
 
 It includes the following low-level permissions:
 
+* Journey Optimizer specific: 
+  * suppression_list.export
 * Adobe Experience Platform specific:
   * profiles.read
   * datasets.read
