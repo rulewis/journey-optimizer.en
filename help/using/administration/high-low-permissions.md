@@ -297,7 +297,7 @@ It includes the following low-level permissions:
 
 ### Manage subdomains delegation permission {#manage-subdomain}
 
-The **[!UICONTROL Manage subdomains delegation]** high-level permission allows users to create, edit and delete subdomain delegation (including IP pool).
+The **[!UICONTROL Manage subdomains delegation]** high-level permission allows users to create, edit and delete subdomain delegations (including IP pool).
 
 It includes the following low-level permissions: 
 
