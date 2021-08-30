@@ -67,6 +67,10 @@ Deleting an email address or a domain from the suppression list means that you w
 
 From the **[!UICONTROL Suppression list]** view, you can also edit suppression rules. [Learn more](retries.md)
 
+To export the suppression list as a CSV file, select the **[!UICONTROL Download CSV]** button.
+
+![](../assets/suppression-list-download-csv.png)
+
 ## Suppression categories and reasons {#suppression-categories-and-reasons}
 
 When a message fails to be delivered to an email address, [!DNL Journey Optimizer] determines why the delivery failed and associates it with a **[!UICONTROL Suppression category]**.
