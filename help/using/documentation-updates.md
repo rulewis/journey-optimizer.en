@@ -22,7 +22,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated and renamed the Retry time period section to reflect the fact that you can now adjust the email retry setting in the message presets. [Read more](configuration/retries.md#retry-duration)
 * Added a new section to describe how to insert a one-click opt-out link into email content. [Read more](message-tracking.md#one-click-opt-out-link)
 * Updated the Delegate a subdomain section with more detailed information on the validation process performed by Adobe. [Read more](configuration/delegate-subdomain.md#subdomain-validation)
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* Updated the [Access the suppression list](configuration/manage-suppression-list.md#access-suppression-list) section and [Retries](configuration/retries.md) sections to reflect the new user interface.
 
 
 ## July 2021
@@ -37,9 +38,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added a subsection on mirror pages. [Read more](message-tracking.md#mirror-page)
 * Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](offers/get-started/starting-offer-decisioning.md)
 * New use case: [personalize a message with helper functions](personalization/personalization-use-case-helper-functions.md)
-* The Read segment documentation has been updated to reflect materialized segment impacts. [Read more](building-journeys/read-segment.md)
+* Updated the Read segment documentation to reflect materialized segment impacts. [Read more](building-journeys/read-segment.md)
 * Updated the Journey limitations. [Read more](building-journeys/limitations.md)
-* Updated 'Configure offers selection in decisions' section. [Read more](offers/offer-activities/configure-offer-selection.md)
+* Updated the Configure offers selection in decisions section. [Read more](offers/offer-activities/configure-offer-selection.md)
 * Added a warning to mention that event-based offers are not currently supported. [Read more](offers/offer-library/creating-personalized-offers.md#eligibility)
-* The Decision Management new [!UICONTROL Overview] tab has been documented. [Read more](offers/get-started/user-interface.md#overview)
-* New sections have been added to describe the actions available from the offer and decision lists: [Offer list](offers/offer-library/creating-personalized-offers.md#offer-list) and [Decision list](offers/offer-activities/create-offer-activities.md#decision-list).
+* Documented the Decision Management new **[!UICONTROL Overview]** tab. [Read more](offers/get-started/user-interface.md#overview)
+* Added new sections to describe the actions available from the offer and decision lists: [Offer list](offers/offer-library/creating-personalized-offers.md#offer-list) and [Decision list](offers/offer-activities/create-offer-activities.md#decision-list).
