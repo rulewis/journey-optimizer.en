@@ -98,5 +98,4 @@ Enable Send-Time Optimization on an email or push message by selecting the **Sen
 
 For email messages, choose whether to optimize on email opens or email click-throughs by selecting the appropriate radio button. Push messages defaults to the opens option, as clicks are not applicable for push messaging. 
 
-You can also choose to bracket the send times used by the system by entering a value for the **Send within the next** option. If you choose "six hours" as the value, [!DNL Journey Optimizer]will check each user profile to see if the optimal send time occurs within six hours from the journey execution time and select the Send-Time Optimization-determined time. If that time is not within the next six hours, [!DNL Journey Optimizer] will default to sending the message at journey execution time. 
-
+You can also choose to bracket the send times used by the system by entering a value for the **Send within the next** option. If you choose "six hours" as the value, [!DNL Journey Optimizer] will check each user profile and pick the optimal send time within six hours from the journey execution time.
