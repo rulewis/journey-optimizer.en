@@ -186,7 +186,7 @@ To do this, select the **[!UICONTROL Add email or domain]** button, then follow 
     >
     >Do not change the names of the columns in the CSV template.
     >
-    >The file size should not exceed 50 MB.
+    >The file size should not exceed 1 MB.
 
 1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
 
