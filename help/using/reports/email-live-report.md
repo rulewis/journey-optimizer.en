@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
 ---
 # Email live report {#email-live-report}
 

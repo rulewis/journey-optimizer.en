@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 ---
 # Time zone management {#timezone_management}
 

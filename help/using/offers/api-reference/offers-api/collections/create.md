@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 ---
 # Create a collection
 

@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 ---
 # About Adobe Experience Platform segments {#about-segments}
 

@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: c3b842ff-e4f8-4fac-968c-6d23abac408e
 ---
 # Adobe Experience Platform Web SDK
 

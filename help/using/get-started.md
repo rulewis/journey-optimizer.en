@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 ---
 # Get Started with Journey Optimizer {#cjm-gs}
 

@@ -1,10 +1,11 @@
 ---
-title: External data sources 
+title: External data sources
 description: Learn how to configure external data sources
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 ---
 # External data sources {#concept_t2s_kqt_52b}
 

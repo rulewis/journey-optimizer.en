@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Beginner
+exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 ---
 # Get started with Decision Management events {#monitor-offer-events}
 

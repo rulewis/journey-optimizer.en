@@ -6,6 +6,7 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 ---
 # Configure an action {#configure-an-action}
 

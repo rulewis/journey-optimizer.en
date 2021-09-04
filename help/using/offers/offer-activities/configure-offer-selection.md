@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 ---
 # Configure offers selection in decisions {#offers-selection-in-activities}
 

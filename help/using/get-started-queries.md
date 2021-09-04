@@ -4,6 +4,7 @@ description: Learn how to create queries in Adobe Journey Optimizer
 feature: Schemas
 role: User
 level: Beginner
+exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 ---
 # Get Started with Queries {#queries-gs}
 

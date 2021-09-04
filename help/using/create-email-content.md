@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 ---
 # Design your email content in the user interface {#create-email-content}
 
@@ -273,6 +274,3 @@ In the Email Designer interface, when you select an element and display its sett
 1. Modify the values of the existing attributes, or add new ones using the **+** button. You can add any attribute and value that is CSS-compliant.
 
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
-
-
-

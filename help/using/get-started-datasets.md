@@ -3,6 +3,7 @@ title: Get Started with Datasets
 description: Learn how to use Adobe Experience Platform Datasets in Adobe Journey Optimizer
 role: User
 level: Beginner
+exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 ---
 # Get Started with Datasets {#datasets-gs}
 
@@ -34,4 +35,3 @@ Learn how to create a dataset, map it to a schema, add data to it, and confirm t
 * [Create a schema, a dataset and ingest data to add Test profiles in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Streaming ingestion overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target="_blank"}
 * [Ingest data into Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}
-

@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 ---
 # Create a push notification {#create-push-notification}
 
@@ -108,4 +109,3 @@ You can configure **[!UICONTROL Advanced options]** for your push notification. 
 * [Configure push channel](push-gs.md)
 * [Create a new message](create-message.md)
 * [Add a message in a journey](building-journeys/journeys-message.md)
-

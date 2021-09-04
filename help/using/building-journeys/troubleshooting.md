@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 ---
 # Troubleshooting{#concept_nlv_bcv_2fb}
 

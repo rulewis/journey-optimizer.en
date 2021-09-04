@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 ---
 # Manage opt-out {#consent}
 

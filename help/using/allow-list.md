@@ -5,6 +5,7 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 ---
 # Allowed list {#allow-list}
 
@@ -90,4 +91,3 @@ _experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT
 _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
-

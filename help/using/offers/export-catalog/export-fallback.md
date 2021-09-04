@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 ---
 # Fallback offers dataset {#fallback-dataset}
 

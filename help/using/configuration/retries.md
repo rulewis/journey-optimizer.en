@@ -3,20 +3,20 @@ title: Retries
 description: Learn how retries are performed before sending an address to the suppression list
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 ---
-
 # Retries {#retries}
 
 When an email message fails due to a temporary **Soft bounce** error, several retries are performed. Each error increments an error counter. When this counter reaches the limit threshold, the address is added to the suppression list.

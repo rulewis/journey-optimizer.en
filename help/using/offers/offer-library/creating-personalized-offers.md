@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 ---
 # Create personalized offers {#creating-personalized-offers}
 

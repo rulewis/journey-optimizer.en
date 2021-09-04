@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 ---
 # Add personalized offers {#deliver-personalized-offers}
 

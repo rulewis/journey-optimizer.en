@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 ---
 # Get started with messages {#get-sarted-contents-messages}
 

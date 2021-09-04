@@ -1,22 +1,22 @@
 ---
 title: Manage the suppression list
-description: Learn how to access and manage the Journey Optimizer suppression list 
+description: Learn how to access and manage the Journey Optimizer suppression list
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 ---
-
 # Manage the suppression list {#manage-suppression-list}
 
 With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey, such as:
@@ -221,6 +221,3 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
-
-
-

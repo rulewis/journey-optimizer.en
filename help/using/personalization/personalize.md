@@ -5,6 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
+exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 ---
 # Get started with personalization{#add-personalization}
 

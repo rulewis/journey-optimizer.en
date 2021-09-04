@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 ---
 # Alerts on your messages {#publish-manage-messages}
 

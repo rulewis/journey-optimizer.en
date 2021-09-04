@@ -5,6 +5,7 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 ---
 # Add links and track messages {#tracking}
 
@@ -136,5 +137,3 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
 The number of messages that have been opened and the number of links that have been clicked are listed in the [Executions tab](message-monitoring.md).
 
 Reporting on openings and clicks is available in the [Email Live report](reports/email-live-report.md) and in the [Email Global report](reports/email-global-report.md).
-
-

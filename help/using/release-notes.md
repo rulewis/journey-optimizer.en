@@ -1,8 +1,8 @@
 ---
 title: Release notes
 description: Journey Optimizer Release notes
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
-
 # Release Notes {#release-notes}
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
@@ -218,5 +218,4 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * Fixed an issue where IP information was missing in PTR Records screen.
 * Localization in offer rail within Expression Editor is now implemented.
 * Fixed incorrect spacing in information popups.
-* Fixed an issue in the Email designer when uploading an HTML file where internal style sheet with `background-image` property was not supported. 
-
+* Fixed an issue in the Email designer when uploading an HTML file where internal style sheet with `background-image` property was not supported.

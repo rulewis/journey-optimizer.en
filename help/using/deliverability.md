@@ -5,6 +5,7 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 ---
 # Manage deliverability {#manage-deliverability}
 

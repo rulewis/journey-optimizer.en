@@ -5,8 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 ---
-
 # Personalization use case: cart abandonment email {#personalization-use-case-helper-functions}
 
 In this example, you will personalize the body of an email message. This message targets customers who have left items in their shopping cart, but have not completed their purchase.

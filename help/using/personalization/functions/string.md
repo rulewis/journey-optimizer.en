@@ -5,6 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 ---
 # String Functions {#string}
 

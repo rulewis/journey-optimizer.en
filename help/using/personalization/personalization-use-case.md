@@ -5,8 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 ---
-
 # Personalization use case: order status notification {#personalization-use-case}
 
 In this use case, you will see how to use multiple types of personalization in a single push notification message. Three types of personalization will be used:
@@ -118,5 +118,4 @@ For this use case, the following prerequisites are needed:
 
     ![](assets/perso-uc19.png)
 
-1. Verify that there is no error and publish the journey. 
-
+1. Verify that there is no error and publish the journey.

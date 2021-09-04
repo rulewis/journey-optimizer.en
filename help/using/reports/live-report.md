@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 ---
 # Get started with Live Report {#live-report}
 

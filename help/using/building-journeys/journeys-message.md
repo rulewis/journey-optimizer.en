@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 ---
 # Add a message in a journey
 

@@ -5,8 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 ---
-
 # Helpers {#gs-helpers}
 
 ## Conditions{#if-function}

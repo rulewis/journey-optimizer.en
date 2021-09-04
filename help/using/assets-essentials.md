@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 ---
 # Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
 

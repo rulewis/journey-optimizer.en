@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 ---
 # Global Report {#global-report}
 

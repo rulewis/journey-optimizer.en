@@ -5,6 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 ---
 # Aggregation Functions {#aggregation}
 

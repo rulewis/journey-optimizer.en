@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
 ---
 # Push Global report {#push-global-report}
 

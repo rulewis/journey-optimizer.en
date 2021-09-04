@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 ---
 # Build segments {#build-segments}
 

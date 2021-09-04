@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 ---
 # User interface {#cjm-user-interface}
 

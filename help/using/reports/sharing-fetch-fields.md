@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 ---
 # journeyStep events data fetch fields {#sharing-fetch-fields}
 

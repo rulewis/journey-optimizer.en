@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 ---
 # User Interface {#user-interface}
 

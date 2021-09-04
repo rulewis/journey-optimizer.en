@@ -5,8 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 ---
-
 # Personalization syntax {#personalization-syntax}
 
 Personalization in [!DNL Journey Optimizer] is based on the templating syntax called Handlebars.

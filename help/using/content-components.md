@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 ---
 # Use the Email designer content components {#content-components}
 
@@ -178,4 +179,3 @@ Related topics:
 
 * [Get started with Decision Management](offers/get-started/starting-offer-decisioning.md).
 * [Add personalized offers into messages](deliver-personalized-offers.md).
-

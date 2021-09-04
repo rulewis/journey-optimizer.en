@@ -5,6 +5,7 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 ---
 # Leverage Adobe Analytics data{#analytics-data}
 

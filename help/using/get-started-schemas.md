@@ -4,6 +4,7 @@ description: Learn how to use Adobe Experience Platform Schemas in Adobe Journey
 feature: Schemas
 role: User
 level: Beginner
+exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 ---
 # Get Started with Schemas {#schemas-gs}
 
@@ -37,4 +38,3 @@ Learn how to create a schema, add field groups, create, and configure custom fie
 * [Best practices for data modeling](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
 * [Create a schema using the Schema Registry API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}
 * [Define a relationship between two schemas using the Schema Editor](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target="_blank"}
-

@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 ---
 # General principle{#jo-general-principle}
 
