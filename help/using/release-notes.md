@@ -136,7 +136,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Personalization**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](personalization/functions/helper.md)
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](personalization/functions/helpers.md)
 
 **Email configuration**
 
