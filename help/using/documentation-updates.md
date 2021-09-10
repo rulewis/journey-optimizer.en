@@ -24,6 +24,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Updated the Delegate a subdomain section with more detailed information on the validation process performed by Adobe. [Read more](configuration/delegate-subdomain.md#subdomain-validation)
 * Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Updated the [Access the suppression list](configuration/manage-suppression-list.md#access-suppression-list) section and [Retries](configuration/retries.md) sections to reflect the new user interface.
+* The new flow to add and configure representations when creating an offer has been documented. [Read more](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## July 2021

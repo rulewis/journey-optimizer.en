@@ -142,7 +142,10 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
 * **Navigation** - The suppression list, which was accessible under the **Administration > Channels > Email configuration > General** menu, has been moved to the new **Suppression list** submenu, which gathers all related capabilities for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**Decision management**
+
+* The way you add and configure representations when creating an offer has been updated for improved user experience. In particular, the Asset library is now displayed only when you define image-type content for a representation. [Learn more](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Fixes 
 
