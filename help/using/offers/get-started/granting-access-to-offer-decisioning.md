@@ -10,13 +10,11 @@ exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 ---
 # Grant access to Decisioning management {#granting-acess-to-offer-decisioning}
 
-Permissions to access and use the Decisioning Management capabilities are managed by **[!UICONTROL Product administrators]** that have access to the Admin console. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Permissions to access and use the Decisioning Management capabilities are managed using the [Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
-* If you are a [!DNL Journey Optimizer] user, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing users and permission in [this section](../../administration/permissions.md).
+If you are a [!DNL Journey Optimizer] user, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
-* If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, users' permissions for [!DNL Offer Decisioning] are managed using the Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html){target="_blank"}.
-
-To grant access to the [!DNL Offer Decisioning] service, follow these steps:
+If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, follow the steps below to grant access to [!DNL Offer Decisioning].
 
 1. Open the Admin Console, then select **[!UICONTROL Adobe Experience Platform]**. 
 
