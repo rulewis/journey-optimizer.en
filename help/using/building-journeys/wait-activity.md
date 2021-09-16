@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 ---
 # Wait activity{#section_rlm_nft_dgb}
 

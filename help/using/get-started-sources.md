@@ -4,6 +4,7 @@ description: Learn how to ingest data from external sources in Adobe Journey Opt
 feature: Schemas
 role: User
 level: Beginner
+exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 ---
 # Get Started with Sources connectors {#sources-gs}
 

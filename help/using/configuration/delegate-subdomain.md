@@ -3,20 +3,20 @@ title: Delegate subdomains
 description: Learn how to delegate your subdomains
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 ---
-
 # Delegate a subdomain
 
 Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, if a customer is handling the zone “example.com”, he can delegate the sub-zone “marketing.example.com” to Adobe.

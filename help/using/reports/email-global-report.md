@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
 ---
 # Email Global report {#email-global-report}
 

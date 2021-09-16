@@ -5,8 +5,8 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 ---
-
 # Send a message using Campaign v7/v8 {#campaign-classic-use-case}
 
 This use case presents all the steps needed to send an email using the integration with Adobe Campaign Classic v7 and Adobe Campaign v8. 

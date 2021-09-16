@@ -4,6 +4,7 @@ description: Learn how to create and manage profiles in Adobe Journey Optimizer
 feature: Profiles
 role: User
 level: Beginner
+exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 ---
 # Get Started with profiles {#profiles-gs}
 

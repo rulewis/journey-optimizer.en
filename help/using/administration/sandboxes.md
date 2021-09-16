@@ -5,6 +5,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 ---
 # Sandboxes management {#sandboxes}
 

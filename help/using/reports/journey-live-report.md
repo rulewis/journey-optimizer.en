@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 ---
 # Journey live report {#journey-live-report}
 

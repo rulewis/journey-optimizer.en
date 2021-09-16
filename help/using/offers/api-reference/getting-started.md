@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 ---
 # Decision Management API developer guide
 

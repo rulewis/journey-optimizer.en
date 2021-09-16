@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 ---
 # Create decision rules {#creating-decision-rules}
 

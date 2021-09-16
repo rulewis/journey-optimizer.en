@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 ---
 # Update a decision rule
 

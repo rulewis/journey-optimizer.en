@@ -5,6 +5,7 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 ---
 # Suppression list {#suppression-list}
 

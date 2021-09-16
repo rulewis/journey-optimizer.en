@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 ---
 # Access events XDM fields {#decisioningevents-xdm-schema}
 

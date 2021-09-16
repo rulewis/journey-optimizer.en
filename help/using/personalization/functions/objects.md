@@ -5,6 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 ---
 # Object Functions {#objects}
 

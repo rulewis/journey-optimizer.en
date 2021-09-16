@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 ---
 # Create test profiles {#create-test-profiles}
 

@@ -5,6 +5,7 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 ---
 # Integrate with Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
@@ -63,5 +64,3 @@ In Journey Optimizer, you need to configure one action per transactional message
 1. Click **Save**.
 
 ![](../assets/accintegration1.png)
-
-

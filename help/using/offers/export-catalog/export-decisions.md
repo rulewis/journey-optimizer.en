@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 ---
 # Decisions dataset {#decisions-dataset}
 

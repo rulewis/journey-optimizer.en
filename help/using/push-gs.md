@@ -5,6 +5,7 @@ topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
+exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 ---
 # Get started with push configuration {#get-started-push}
 

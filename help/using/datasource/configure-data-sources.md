@@ -5,6 +5,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 ---
 # Configure a data source {#configure-data-source}
 

@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 ---
 # Get started with email design {#get-started-content-design}
 

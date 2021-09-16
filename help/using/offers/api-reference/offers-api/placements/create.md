@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 ---
 # Create a placement
 

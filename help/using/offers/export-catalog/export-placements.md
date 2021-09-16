@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 ---
 # Placements dataset {#placements-dataset}
 

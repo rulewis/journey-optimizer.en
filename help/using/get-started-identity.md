@@ -4,6 +4,7 @@ description: Learn how to manage identities in Adobe Journey Optimizer
 feature: Profiles
 role: User
 level: Beginner
+exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 ---
 # Get Started with identities {#identities-gs}
 
@@ -30,4 +31,3 @@ The **Identity Graph** is a map of relationships between different identities fo
 The identity graph viewer in [!DNL Adobe Journey Optimizer] user interface allows you to visualize and better understand what customer identities are stitched together, and in what ways. The viewer allows you to drag and interact with different parts of the graph, allowing you to examine complex identity relationships, debug more efficiently, and benefit from increased transparency with how information is being utilized.
 
 Learn more about **Identity Graph** in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target="_blank"}.
-

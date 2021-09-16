@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 ---
 # Deliver offers using the Decisions API
 

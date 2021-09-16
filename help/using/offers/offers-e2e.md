@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 ---
 # Use case: Configure personalized offers to use them in an email {#configure-add-personalized-offers-email}
 
@@ -259,4 +260,3 @@ After saving your changes and once the message is published, your offers are rea
 * Learn how to publish messages in [this section](../../using/publish-manage-message.md).
 
 * Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
-

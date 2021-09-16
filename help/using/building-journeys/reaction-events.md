@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 ---
 # Reaction events {#section_dhx_gss_dgb}
 

@@ -1,8 +1,8 @@
 ---
 title: Release notes
 description: Journey Optimizer Release notes
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
-
 # Release Notes {#release-notes}
 
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
@@ -134,15 +134,18 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * **Background** - Background images are now supported in live preview. [Learn more](preview.md)
 * **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**Personalization**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](personalization/functions/helpers.md)
 
 **Email configuration**
 
 * **Allowed list** - The allowed list can now be enabled and disabled on a non-production sandbox through an API call. [Learn more](allow-list.md#enable-allow-list)
 * **Navigation** - The suppression list, which was accessible under the **Administration > Channels > Email configuration > General** menu, has been moved to the new **Suppression list** submenu, which gathers all related capabilities for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**Decision management**
+
+* The way you add and configure representations when creating an offer has been updated for improved user experience. In particular, the Asset library is now displayed only when you define image-type content for a representation. [Learn more](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Fixes 
 
@@ -218,5 +221,4 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * Fixed an issue where IP information was missing in PTR Records screen.
 * Localization in offer rail within Expression Editor is now implemented.
 * Fixed incorrect spacing in information popups.
-* Fixed an issue in the Email designer when uploading an HTML file where internal style sheet with `background-image` property was not supported. 
-
+* Fixed an issue in the Email designer when uploading an HTML file where internal style sheet with `background-image` property was not supported.

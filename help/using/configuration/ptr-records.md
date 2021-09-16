@@ -3,20 +3,20 @@ title: PTR records
 description: "Learn how to manage ptr-records"
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 ---
-
 # PTR records
 
 ## About PTR records

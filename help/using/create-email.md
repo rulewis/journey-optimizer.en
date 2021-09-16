@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 ---
 # Create an email {#configure-email}
 

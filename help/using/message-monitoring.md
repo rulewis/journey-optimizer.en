@@ -5,6 +5,7 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 ---
 # Message monitoring {#monitor-message-execution}
 

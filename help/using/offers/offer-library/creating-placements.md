@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 ---
 # Create placements {#creating-placements}
 

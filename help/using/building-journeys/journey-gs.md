@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 ---
 # Get started with journeys{#jo-quick-start}
 

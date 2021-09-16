@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
 ---
 # Push live report {#push-live-report}
 

@@ -5,6 +5,7 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 ---
 # Additional steps to send events {#concept_xrz_n1q_y2b}
 

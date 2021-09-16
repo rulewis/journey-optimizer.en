@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 ---
 # Personalized offers dataset {#offers-dataset}
 
@@ -318,6 +319,3 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Title:** Decision Option ETag
 **Description:** The revision that the decision option object was at when the snapshot was taken.
 **Type:** string
-
-
-

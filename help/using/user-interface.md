@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 ---
 # User interface {#cjm-user-interface}
 
@@ -16,7 +17,7 @@ Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse 
 >
 >* This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 >
-> * Components and capabilities available in the UI depend on your permissions and on your licencing package. For any question, reach out to your Adobe Customer Success Manager.
+>* Components and capabilities available in the user interface depend on your [permissions](administration/permissions.md) and on your [licencing package](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. For any question, reach out to your Adobe Customer Success Manager.
 
 ## Left navigation
 
@@ -103,7 +104,7 @@ You can access executed use cases from the **[!UICONTROL View use case library]*
 
 ## Accessibility{#accessibility}
 
-The accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
+The accessibility features in [!DNL Adobe Journey Optimizer] are inherited from Adobe Experience Platform:
 
 * Keyboard accessibility
 * Color contrast
@@ -111,7 +112,7 @@ The accessibility features in Adobe Journey Optimizer are provided by Adobe Expe
 
 [Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentation.
 
-You can use these common keyboard shortcuts in Adobe Journey Optimizer:
+You can use these common keyboard shortcuts in [!DNL Journey Optimizer]:
 
 | Action | Shortcut |
 | --- | --- |

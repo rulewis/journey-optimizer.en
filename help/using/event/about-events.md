@@ -5,6 +5,7 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 ---
 # About events{#concept_gfj_fqt_52b}
 

@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
 ---
 # Create a message {#create-message}
 
