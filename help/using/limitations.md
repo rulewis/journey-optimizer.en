@@ -51,8 +51,8 @@ You will find below additional limitations when using [!DNL Adobe Journey Optimi
 
 * For system-generated events, streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
  
-## Data sources
-#
+### Data sources
+
 * External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
 
 ### Journeys starting at the same time as a profile creation {#journeys-limitation-profile-creation}
