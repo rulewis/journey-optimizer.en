@@ -5,6 +5,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 ---
 # User management overview {#permissions-overview}
 
