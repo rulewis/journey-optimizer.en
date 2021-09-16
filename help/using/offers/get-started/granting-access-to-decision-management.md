@@ -8,13 +8,19 @@ role: User
 level: Intermediate
 exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 ---
-# Grant access to Decisioning management {#granting-acess-to-offer-decisioning}
+# Grant access to Decision management {#granting-acess-to-decision-management}
 
-Permissions to access and use the Decisioning Management capabilities are managed using the [Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Permissions to access and use the Decision Management capabilities are managed using the [Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
-If you are a [!DNL Journey Optimizer] user, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
+* If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
-If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, follow the steps below to grant access to [!DNL Offer Decisioning].
+* If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, follow the steps [below](#granting-acess-to-offer-decisioning) to grant access to [!DNL Offer Decisioning].
+
+## Grant access to Offer Decisioning {#granting-acess-to-offer-decisioning}
+
+>[!NOTE]
+>
+>The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.
 
 1. Open the Admin Console, then select **[!UICONTROL Adobe Experience Platform]**. 
 

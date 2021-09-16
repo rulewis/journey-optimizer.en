@@ -13,7 +13,7 @@ The Offer Library allows you to create and manage your placements and offers in 
 
 >[!NOTE]
 >
->If you are an Adobe Experience Platform user and you are experiencing issues accessing the Offer Library or some of its features, check with an Admin user that you have been granted the required rights. See [Grant access to [!DNL Offer Decisioning]](granting-access-to-offer-decisioning.md)
+>If you are an Adobe Experience Platform user and you are experiencing issues accessing the Offer Library or some of its features, check with an Admin user that you have been granted the required rights. See [Grant access to Offer Decisioning](granting-access-to-decision-management.md#granting-acess-to-offer-decisioning).
 
 Use the  **[!UICONTROL Offers]** menu to manage personalized and fallback offers, organize them into collections, and deliver them by creating decisions:
 
