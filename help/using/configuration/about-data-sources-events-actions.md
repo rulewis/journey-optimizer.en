@@ -3,18 +3,19 @@ title: Administration and settings
 description: Learn administration and settings guidelines
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 ---
 # Configure journeys
 

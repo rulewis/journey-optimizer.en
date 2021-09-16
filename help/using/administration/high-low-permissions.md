@@ -3,18 +3,19 @@ title: Permission levels
 description: Learn about high and low level permissions
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 ---
 # Permission levels {#high-low-permissions}
 
