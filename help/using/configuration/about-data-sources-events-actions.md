@@ -1,16 +1,6 @@
 ---
 title: Administration and settings
 description: Learn administration and settings guidelines
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
