@@ -117,7 +117,7 @@ solution: Journey Optimizer
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
-    + [Grand access to Decision management](using/offers/get-started/granting-acess-to-decision-management)
+    + [Grand access to Decision management](using/offers/get-started/granting-acess-to-decision-management.md)
     + [Key steps to create and manage offers](using/offers/offer-library/key-steps.md)
     + [Use case: insert offers in an email](using/offers/offers-e2e.md)
   + Create components {#create-components}
