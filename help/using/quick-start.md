@@ -37,7 +37,7 @@ Learn more in the following pages:
 * **Manage sandboxes** to partition your instance into separated virtual environments. [Read more](../using/administration/sandboxes.md)
 
 
-##  Prepare your data and configure your journeys
+## Prepare your data and configure your journeys
 
 As a Data Administrator, you need to **identify data and create schema and dataset** to get your data into Adobe Experience Platform. 
 
