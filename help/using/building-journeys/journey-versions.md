@@ -19,7 +19,7 @@ If you need to modify to a live journey, you need to create a new version of you
 
 >[!NOTE]
 >
->To learn more on journey versions limitations, see [this page](../building-journeys/limitations.md#journey-versions-limitations)
+>To learn more on journey versions limitations, see [this page](../limitations.md#journey-versions-limitations)
 
 1. Open the latest version of your live journey, click **[!UICONTROL Create a new version]** and confirm.
 

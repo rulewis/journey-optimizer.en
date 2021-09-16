@@ -17,6 +17,7 @@ solution: Journey Optimizer
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
+  + [Limitations](using/limitations.md)
 + Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
@@ -62,7 +63,6 @@ solution: Journey Optimizer
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
-    + [Limitations](using/building-journeys/limitations.md)
     + [Journey versions](using/building-journeys/journey-versions.md)
     + [Test profiles](using/building-journeys/creating-test-profiles.md)  
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
