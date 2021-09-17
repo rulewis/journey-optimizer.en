@@ -57,6 +57,7 @@ In both cases, you access the personalization editor.
 
 ![](assets/perso_ee.png)
 
+You can also personalize the content of your offers when adding text-type content to your offers' representations. [Learn more](../../offers/offer-library/creating-personalized-offers.md#custom-text)
 
 ### Personalize your push notifications
 
@@ -72,7 +73,7 @@ You can also personalize your **Push notifications** in the following fields:
 
 Learn more about Push notification configuration in [this section](../push-gs.md).
 
-## Use the Expression Editor
+## Use the Expression Editor {#use-expression-editor}
 
 The expression editor is the centerpiece of the personalization in [!DNL Journey Optimizer].
 
