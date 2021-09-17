@@ -42,9 +42,9 @@ Permissions to access and use the Decision Management capabilities are managed u
 
     ![](../../assets/enable-services.png)
 
-1. In the **[!UICONTROL Decisioning]** , click the **+** button to assign permissions to the product profile, then click **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Decisioning]** section, click the **+** button to assign permissions to the product profile, then click **[!UICONTROL Save]**.
 
-    ![](../assets/configure-profile.png)
+    ![](../../assets/configure-profile.png)
 
     Available permissions are:
     
