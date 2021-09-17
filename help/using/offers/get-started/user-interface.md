@@ -11,6 +11,10 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 
 The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions (previously known as offer activities).
 
+>[!NOTE]
+>
+>If you are an Adobe Experience Platform user and you are experiencing issues accessing the Offer Library or some of its features, check with an Admin user that you have been granted the required rights. See [Grant access to Offer Decisioning](granting-access-to-decision-management.md#granting-access-to-offer-decisioning).
+
 Use the  **[!UICONTROL Offers]** menu to manage personalized and fallback offers, organize them into collections, and deliver them by creating decisions:
 
 * **[!UICONTROL Overview]**: New to [!DNL Offer Decisioning]? Follow the on-screen steps to get started with setting up placements, offers, and collections. When already familiar with [!DNL Offer Decisioning], get an overview on your most recent offers, collections and decisions. See [Overview](#overview).

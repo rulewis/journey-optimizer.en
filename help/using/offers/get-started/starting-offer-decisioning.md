@@ -9,7 +9,11 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 ---
 # About Decision Management {#about-offer-decision}
 
-Use [!DNL Journey Optimizer] to deliver the best offer and experience to your customers across all touch points at the right time. Once designed, target your audiences with personalized offers. 
+Use [!DNL Journey Optimizer] to deliver the best offer and experience to your customers across all touch points at the right time. Once designed, target your audiences with personalized offers.
+
+>[!NOTE]
+>
+>If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, most of the Decision Management features described in this section also apply to you.
 
 The Decision Management capability consists in two main components:
 
