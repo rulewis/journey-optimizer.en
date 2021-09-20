@@ -9,11 +9,15 @@ solution: Journey Optimizer
 
 # [!DNL Journey Optimizer] Help {#using}
 
-+ [Product documentation](ajo-home.md)
++ [Journey Optimizer documentation](ajo-home.md)
++ What's new? {#whats-new}
+  + [Release notes](using/release-notes.md)
+  + [Latest updates](using/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
+  + [Limitations](using/limitations.md)
 + Messages {#create-messages}
   + [Get started with messages](using/get-started-content.md)
   + Create messages {#create-message}
@@ -21,39 +25,44 @@ solution: Journey Optimizer
     + [Create an email](using/create-email.md)
     + [Create a push notification](using/create-push.md)
   + [Add and manage assets](using/assets-essentials.md)
-  + Email designer {#email-designer} 
+  + Design emails {#email-designer} 
     + [Get started with email design](using/design-emails.md)
     + [Design your email content in the UI](using/create-email-content.md)
     + [Import or code your email content](using/existing-content.md)
     + [Use email designer content components](using/content-components.md)
-  + Personalization{#personalization}
-    + [Get started with personalization](using/personalization/personalize.md)
-    + [Personalization syntax](using/personalization/personalization-syntax.md)
-    + [Personalization validation](using/personalization/personalization-validation.md) 
-    + [Personalization use case](using/personalization/personalization-use-case.md) 
-    + Helper functions{#functions}
-       + [List of helper functions](using/personalization/functions/functions.md)
-       + [Aggregation functions](using/personalization/functions/aggregation.md)
-       + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
-       + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-       + [Boolean and comparison functions](using/personalization/functions/operators.md)
-       + [Helpers](using/personalization/functions/helpers.md)
-       + [Map functions](using/personalization/functions/maps.md)
-       + [Object functions](using/personalization/functions/objects.md)
-       + [String functions](using/personalization/functions/string.md) 
-  + [Add personalized offers](using/deliver-personalized-offers.md)  
+  + [Add links and track messages](using/message-tracking.md)
   + Validate and publish {#create-message}
     + [Preview and proofs](using/preview.md)
     + [Check alerts](using/alerts.md)
     + [Publish messages](using/publish-manage-message.md)
   + [Manage opt-out](using/consent.md)
-+ Segments{#segment}
-  + [About segments](using/segment/about-segments.md)
-  + [Build segments](using/segment/creating-a-segment.md)
++ Personalization{#personalization}
+  + [Get started with personalization](using/personalization/personalize.md)
+  + [Personalization syntax](using/personalization/personalization-syntax.md)
+  + [Personalization validation](using/personalization/personalization-validation.md) 
+  + Use cases{#personalization-use-cases}
+    + [Order status notification](using/personalization/personalization-use-case.md)
+    + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
+  + Helper functions{#functions}
+    + [List of helper functions](using/personalization/functions/functions.md)
+    + [Aggregation functions](using/personalization/functions/aggregation.md)
+    + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
+    + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+    + [Boolean and comparison functions](using/personalization/functions/operators.md)
+    + [Helpers](using/personalization/functions/helpers.md)
+    + [Map functions](using/personalization/functions/maps.md)
+    + [Object functions](using/personalization/functions/objects.md)
+    + [String functions](using/personalization/functions/string.md) 
+  + [Add personalized offers](using/deliver-personalized-offers.md)  
++ Segments, profiles and identity{#segment}
+  + Segments {#segments}
+    + [Get started with segments](using/segment/about-segments.md)
+    + [Build segments](using/segment/creating-a-segment.md)
+  + [Profiles](using/get-started-profiles.md)
+  + [Identity](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
   + About journeys{#about-journeys}
     + [General principle](using/building-journeys/journey.md)
-    + [Limitations](using/building-journeys/limitations.md)
     + [Journey versions](using/building-journeys/journey-versions.md)
     + [Test profiles](using/building-journeys/creating-test-profiles.md)  
     + [Integrate with Intelligent Services](using/building-journeys/ai-services-overview.md) 
@@ -82,7 +91,6 @@ solution: Journey Optimizer
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Track and monitor {#reporting}
-  + [Message tracking](using/message-tracking.md)
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
     + [Access Live report dashboard](using/reports/live-report.md)
@@ -104,6 +112,7 @@ solution: Journey Optimizer
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
+    + [Allowed list](using/allow-list.md)
 + Decision management {#offer-decisioniong}
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
@@ -122,7 +131,7 @@ solution: Journey Optimizer
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
-  + Create Decision Management reports {create-reports}
+  + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
     + [Access events XDM fields](using/offers/reports/xdm-fields.md)
@@ -181,6 +190,10 @@ solution: Journey Optimizer
     + Offer delivery using APIs {#offer-delivery}
         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)  
++ Data management {#data-management}
+  + [Schemas](using/get-started-schemas.md)
+  + [Datasets](using/get-started-datasets.md)
+  + [Queries](using/get-started-queries.md)
 + Configuration{#get-started}
   + [Get started with Journey Optimizer configuration](using/configuration/get-started-configuration.md)
   + Configure messages {#configuration}
@@ -220,6 +233,7 @@ solution: Journey Optimizer
       + [About actions](using/action/action.md)
       + [Configure an action](using/action/about-custom-action-configuration.md)
       + [Integrate with Adobe Campaign v7/v8](using/action/acc-action.md)
+  + [Sources](using/get-started-sources.md)
 + Access control {#administration}
   + [Access control overview](using/administration/permissions-overview.md)
   + [Built-in product profiles](using/administration/ootb-product-profiles.md)

@@ -5,8 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Beginner
+exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 ---
-
 # About Decision Management {#about-offer-decision}
 
 Use [!DNL Journey Optimizer] to deliver the best offer and experience to your customers across all touch points at the right time. Once designed, target your audiences with personalized offers. 
@@ -24,7 +24,7 @@ Benefits include:
 * Improved workflows: instead of creating multiple deliveries or campaigns, marketing teams can improve workflows by creating a single delivery and vary the offers in different parts of the template,
 * Control over the number of times an offer is shown across campaigns and customers.
 
-![](../../assets/do-not-localize/how-to-video.png) [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
+➡️ [Watch these tutorial videos](#tutorial-videos) for more on Decision Management.
 
 ## About offers and decisions {#offers-offer-activities}
 
@@ -52,7 +52,7 @@ Decision Management capabilities and integration with Adobe Experience Platform 
 
 * Decision Management also helps you enhance your customers' experience when contacting your support team. Decision Management APIs allow you to display in your call center agents' portal information about the customer's redeemed and next best offers.
 
-    ![](../../assets/call-center.png) 
+    ![](../../assets/do-not-localize/call-center.png)
 
 
 ## Glossary {#glossary}

@@ -6,6 +6,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 ---
 # General events {#section_ofg_jss_dgb}
 

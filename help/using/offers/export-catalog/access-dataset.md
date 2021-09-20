@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 ---
 # Access the exported offer catalog {#access-exported-catalog}
 
@@ -20,4 +21,4 @@ The **[!UICONTROL Preview dataset]** button allows you to display the most recen
 
 ![](../../assets/dataset-preview.png)
 
-For more information on how to browse and use datasets, refer to [Adobe Experience Platform datasets documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#getting-started).
+For more information on how to browse and use datasets, refer to [this page](../../get-started-datasets.md).

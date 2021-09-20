@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 ---
 # Preview and test your messages{#preview-and-proof}
 
@@ -18,7 +19,6 @@ To detect possible errors in email content or personalization settings, send pro
 >
 >Learn how to create test profiles in [this page](building-journeys/creating-test-profiles.md). 
 
-
 To test your message content, you need to:
 
 * [select test profiles](#select-test-profiles)
@@ -31,7 +31,8 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 >[!CAUTION]
 >
 >When previewing a message or sending proofs, only profile personalization data is displayed. Personalization based on context data, such as event information, can only be tested in the context of a journey. Learn how to test personalization in [this use case](personalization/personalization-use-case.md).
->
+
+➡️ [Learn how to preview, proof, and publish your email in this video](#video-preview)
 
 ## Select test profiles{#select-test-profiles}
 
@@ -47,7 +48,7 @@ To select test profiles, follow the steps below:
 
     ![](assets/previewselect-namespace.png)
 
-    Learn more about Adobe Experience Platform identity namespaces [in this section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+    Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md){target="_blank"}.
     
     In the example below, we will use the **Email** namespace.
 
@@ -115,7 +116,13 @@ Once [test profiles](#select-test-profiles) are selected, you can send proofs.
 
     ![](assets/send-proof-button.png)
 
-1. Select the test profiles who will receive the proof and click **[!UICONTROL Send proof]**. You can add a prefix to the subject line of the proof if needed.
+1. From the **[!UICONTROL Send proof]** window, in addition to the test profiles, type in your recipient's email and click **[!UICONTROL Add]** to send the proof to yourself or members of your organizations.
+
+    Note that you can add up to 10 recipients for your proof delivery.
+
+    ![](assets/send-proof-button_2.png)
+
+1. Then, select the test profiles who will receive the proof and click **[!UICONTROL Send proof]**. You can add a prefix to the subject line of the proof if needed. Only alphanumeric characters and special characters e.g., . - _ ( ) [ ], are allowed as prefix to the subject line.
 
     ![](assets/send-proof-select.png)
 
@@ -159,4 +166,9 @@ Then, follow the steps below:
 >[!CAUTION]
 >
 >When connecting your **Litmus** account with [!DNL Journey Optimizer], you agree that test messages are sent to Litmus: once sent, these emails are no longer managed by Adobe. As a consequence, Litmus data retention email policy applies to these emails, including personalization data that may be included in these test messages.
->
+
+## How-to video{#video-preview}
+
+Learn how to test email rendering across inboxes, how to preview your personalized emails against test profiles, send proofs, and publish your email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

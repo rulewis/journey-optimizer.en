@@ -3,8 +3,9 @@ title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
 feature: Events
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 ---
 # Leverage Adobe Analytics data{#analytics-data}
 
@@ -26,4 +27,4 @@ This enables the Analytics source connector for that report suite. Whenever the 
 
 ![](../assets/jo-event9.png)
 
-Learn more about Adobe Analytics source connector in  [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Learn more about Adobe Analytics source connector in  [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.

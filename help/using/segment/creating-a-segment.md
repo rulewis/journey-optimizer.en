@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 ---
 # Build segments {#build-segments}
 
@@ -14,7 +15,7 @@ In this example, we will build a segment to target all customers living in Atlan
     
     ![](../assets/create-segment.png)
 
-    The segment definition screen allows you to configure all the required fields to define your segment. Learn how to configure segments in the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+    The segment definition screen allows you to configure all the required fields to define your segment. Learn how to configure segments in the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
     ![](../assets/segment-builder.png)
 
@@ -26,7 +27,7 @@ In this example, we will build a segment to target all customers living in Atlan
 
     >[!NOTE]
     >
-    >Note that the fields available in the left pane vary depending on how the **XDM Individual Profile** and **XDM ExperienceEvent** schemas have been configured for your organization.  Learn more in the [Experience Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+    >Note that the fields available in the left pane vary depending on how the **XDM Individual Profile** and **XDM ExperienceEvent** schemas have been configured for your organization.  Learn more in the [Experience Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
     ![](../assets/drag-fields.png)
 
@@ -47,3 +48,7 @@ In this example, we will build a segment to target all customers living in Atlan
 1. Once the segment is ready, click **[!UICONTROL Save]**. It displays in the list of Adobe Experience Platform segments. Note that a search bar is available to help you search a specific segment in the list.
 
 The segment can now be used in your journeys. For more on this, refer to [this section](../segment/about-segments.md).
+
+## Tutorial video{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

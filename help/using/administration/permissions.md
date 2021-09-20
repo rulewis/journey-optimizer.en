@@ -4,7 +4,7 @@ description: Learn how to manage permissions
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Control Groups
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
 ---
 # Manage users and product profiles {#manage-permissions}
@@ -33,17 +33,17 @@ To assign a **[!UICONTROL Product profile]**:
 
 1. Select a **[!UICONTROL Product profile]**.
 
-    ![](../assets/access_control_2.png)
+    ![](../assets/do-not-localize/access_control_2.png)
 
 1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add user]**.
 
-    ![](../assets/access_control_3.png)
+    ![](../assets/do-not-localize/access_control_3.png)
 
 1. Type in your user's name or email address and select the user.
 
    If the user was not previously created in the [!DNL Admin Console], refer to the [Add users documentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
-    ![](../assets/access_control_4.png)
+    ![](../assets/do-not-localize/access_control_4.png)
 
 1. Carry out the same steps as above to add other users to your **[!UICONTROL Product profile]**. Then, click **[!UICONTROL Save]**.
 
@@ -53,7 +53,7 @@ For more information on users management, refer to the [Admin Console documentat
 
 When accessing the instance, your user will see a specific view depending on the assigned permissions in the **[!UICONTROL Product profile]**. If the user does not have the right access to a feature, the following screen will appear.
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## Editing an existing product profile {#edit-product-profile}
 
@@ -71,23 +71,23 @@ Note that if you modify an out-of-the-box or custom **[!UICONTROL Product profil
 
     The **[!UICONTROL Permissions]** tab displays the list of capabilities that apply to the **[!UICONTROL Experience Cloud - Platform powered applications]** product.
 
-    ![](../assets/access_control_5.png)
+    ![](../assets/do-not-localize/access_control_5.png)
 
 1. Select the **[!UICONTROL Messages]** capability.
 
-    ![](../assets/access_control_6.png)
+    ![](../assets/do-not-localize/access_control_6.png)
 
 1. From the **[!UICONTROL Available Permission Items]** list, select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon. 
 
     Here, we add the **[!UICONTROL Publish messages]** permission.
 
-    ![](../assets/access_control_7.png)
+    ![](../assets/do-not-localize/access_control_7.png)
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
 
 1. When finished, click **[!UICONTROL Save]**.
 
-    ![](../assets/access_control_8.png)
+    ![](../assets/do-not-localize/access_control_8.png)
 
 If needed, you can also create new product profile with specific permissions. For more on this, refer to [Creating a product profile](#create-product-profile).
 
@@ -95,7 +95,7 @@ If needed, you can also create new product profile with specific permissions. Fo
 
 [!DNL Journey Optimizer] allows you to create your own **[!UICONTROL Product profiles]** and assign a set of permissions and sandboxes to your users. With **[!UICONTROL Product profiles]**, you can authorize or deny access to certain functionalities or objects in the interface.
 
-For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
 
 In this example, we will create a product profile named **Journeys read-only** where we will grant read-only rights to the Journey feature. Users will only be able to access and view journeys and will not be able to access other features such as **[!UICONTROL Decision management]** or **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
 
@@ -107,11 +107,11 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
 
 1. Click **[!UICONTROL New Profile]**.
 
-    ![](../assets/access_control_9.png)
+    ![](../assets/do-not-localize/access_control_9.png)
 
 1. Add a **[!UICONTROL Product Profile Name]**, **[!UICONTROL Display Name]** and **[!UICONTROL Description]** for your new **[!UICONTROL product profiles]**. 
 
-    ![](../assets/access_control_10.png)
+    ![](../assets/do-not-localize/access_control_10.png)
 
 1. In the **[!UICONTROL Notifications]** category, choose whether users will be notified by email when they are added or removed from this product profile.
 
@@ -123,19 +123,19 @@ To create our **Journeys read-only** **[!UICONTROL product profiles]**:
     
     Here we select the **[!UICONTROL Journeys]** capability.
 
-    ![](../assets/access_control_11.png)
+    ![](../assets/do-not-localize/access_control_11.png)
 
 1. From the **[!UICONTROL Available Permission Items]** list, select the permissions to assign to your **[!UICONTROL Product profile]** by clicking the plus (+) icon.
 
     Here we select **[!UICONTROL View journeys]** and **[!UICONTROL View journeys event, data sources, actions]**.
 
-    ![](../assets/access_control_12.png)
+    ![](../assets/do-not-localize/access_control_12.png)
 
 1. Select the **[!UICONTROL Sandbox access]** capability to choose which sandbox(es) to assign to your **[!UICONTROL Product profile]**. 
 
-    ![](../assets/access_control_13.png)
+    ![](../assets/do-not-localize/access_control_13.png)
 
-1. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. [Learn more about sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. [Learn more about sandboxes](sandboxes.md).
 
 1. When finished, click **[!UICONTROL Save]**.
 

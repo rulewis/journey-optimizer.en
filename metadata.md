@@ -5,6 +5,7 @@ git-repo: https://github.com/AdobeDocs/journey-optimizer.en
 index: yes
 product: Journey Optimizer
 solution: Journey Optimizer
+feature-set: Journey Optimizer
 solution-title: Journey Optimizer Documentation
 ---
 

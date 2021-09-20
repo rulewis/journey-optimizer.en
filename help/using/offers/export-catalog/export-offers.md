@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 ---
 # Personalized offers dataset {#offers-dataset}
 
@@ -137,7 +138,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     * **resolveURL**
         
         **Field:** resolveURL
-        **Description:** An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset whithout the client understanding where the asset is managed and what APIs to call. This is similar to a HAL link, but the semantic is simpler and more purposeful.
+        **Description:** An optional unique resource locator to read the asset in a content repository. This will make it easier to obtain the asset without the client understanding where the asset is managed and what APIs to call. This is similar to a HAL link, but the semantic is simpler and more purposeful.
         **Type:** string
         **Example:** "https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;"
 
@@ -187,7 +188,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** profileConstraints
 **Title:** Profile Constraint Details
-**Description:** The profile constraints decide if an option is eligible for this profile identity, at this moment, in this context. If the profile constraint does not need to consider values of each of the option, i.e. it is invariant of the options from the option selection, the profile constraint that evaluates to 'false' cancels out the entire option selection. On the other hand, a profile constraint rule that takes an option as a parameter is evaluated for each qualifiying option of the option selection.
+**Description:** The profile constraints decide if an option is eligible for this profile identity, at this moment, in this context. If the profile constraint does not need to consider values of each of the option, i.e. it is invariant of the options from the option selection, the profile constraint that evaluates to 'false' cancels out the entire option selection. On the other hand, a profile constraint rule that takes an option as a parameter is evaluated for each qualifying option of the option selection.
 **Type:** object
 
 **_experience > decisioning > profileConstraints > Description**
@@ -208,7 +209,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 
 **Field:** profileConstraintType
 **Title:** Profile Constraint Type
-**Description:** Determines if any constraints are currently set and how the contraints are expressed. It could be through a rule or through one or more segment memberships.
+**Description:** Determines if any constraints are currently set and how the constraints are expressed. It could be through a rule or through one or more segment memberships.
 **Type:** string
 **Possible values:**
 * "none" (default)
@@ -293,7 +294,7 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
     
 **Field:** priority
 **Title:** Priority
-**Description:** The priority of a single decision option relative to all other options. Options for which no order function is given are prioritized using this propery. Options with higher priority values are selected before any lower priority options. If two or more qualifying options share the highest priority value, one is chosen at uniform random and used for the decision proposition.
+**Description:** The priority of a single decision option relative to all other options. Options for which no order function is given are prioritized using this property. Options with higher priority values are selected before any lower priority options. If two or more qualifying options share the highest priority value, one is chosen at uniform random and used for the decision proposition.
 **Type:** integer
 **Minimum value:** 0
 **Default value:** 0
@@ -318,6 +319,3 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Title:** Decision Option ETag
 **Description:** The revision that the decision option object was at when the snapshot was taken.
 **Type:** string
-
-
-

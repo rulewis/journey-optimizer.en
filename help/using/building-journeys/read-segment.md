@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 ---
 # Use a segment in a journey {#segment-trigger-activity}
 
@@ -15,8 +16,6 @@ The Read Segment activity allows you to make all individuals belonging to an Ado
 Let's take as an example the "Luma app opening and checkout" segment created in the [Build segments](../segment/about-segments.md) use case. With the Read Segment activity, you can make all individuals belonging to this segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
 >[!NOTE]
->
->It is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 >
 >The Burst paid add-on allows very fast push message sending in large volumes for simple journeys that include a read segment and a simple push message. For more information, refer to [this section](../building-journeys/journey-gs.md#burst)
 
@@ -36,7 +35,7 @@ The steps to configure the Read Segment activity are as follows:
 
     >[!NOTE]
     >
-    >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
+    >Only the individuals with the **Realized** and **Existing** segment participation statuses will enter the journey. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}. 
 
     ![](../assets/read-segment-selection.png)
 
@@ -52,11 +51,19 @@ The steps to configure the Read Segment activity are as follows:
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
 
+1. Set the **[!UICONTROL Throttling rate]** field to the throughput limit of the read segment activity.
+
+    This value is stored in the journey version payload. The default value is 17,000 messages per second. You can modify this value from 500 to 17,000 messages per second.
+
+    >[!NOTE]
+    >
+    >The overall throttling rate per sandbox is set to 20,000 messages per second. Therefore, the throttling rate of all the read segments that run simultaneously in the same sandbox add up to at most 20,000 messages per second. You cannot modify this cap.
+
 1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
     ![](../assets/read-segment-schedule.png)
 
-    By default, segments enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
+    By default, segments enter the journey **[!UICONTROL As soon as possible]**. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
 
     >[!NOTE]
     >
@@ -84,11 +91,9 @@ Once the test is running, the **[!UICONTROL Show logs]** button allows you to se
 
     ![](../assets/read-segment-log.png)
 
-Once the tests are successfull, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
+Once the tests are successful, you can publish your journey (see [Publishing the journey](publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
 >[!NOTE]
->
->When a segment-based journey that is not recurrent ("starting as soon as possible" or "once") is executed, its status is automatically changed to "closed".
 >
 >For recurring segment-based journeys, the journey will automatically close once its last occurrence is executed. If no end date/time has been specified, you will have to close the journey to new entrances manually to end it.
 

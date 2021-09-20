@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 ---
 # Limitations {#journey-limitations}
 
@@ -59,5 +60,4 @@ You can choose from one of these two solutions:
 
 ## Read segment limitations
 
-* It is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 * Streamed segments are always up-to-date but batch segments will not be calculated at retrieval time. They are only evaluated every day at the daily batch evaluation time.

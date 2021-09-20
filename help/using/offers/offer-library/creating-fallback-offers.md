@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 ---
 # Create fallback offers {#creating-fallback-offers}
 
 The fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.
 
-![](../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of fallback offers is accessible in the **[!UICONTROL Offers]** menu.
 
@@ -40,7 +41,7 @@ To create a fallback offer, follow these steps:
 
     ![](../../assets/fallback_review.png)
 
-1. The fallback offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
+1. The fallback offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on whether you approved it or not in the previous step.
 
     It is now ready to be delivered to customers. You can select it to display its properties and edit it. <!-- no suppression? -->
 

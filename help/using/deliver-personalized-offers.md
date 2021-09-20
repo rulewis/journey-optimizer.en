@@ -5,12 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 ---
 # Add personalized offers {#deliver-personalized-offers}
 
-## About Decision Management {#about-offer-decisioning}
-
-With [!DNL Journey Optimizer], you can insert in your email messages decisions (previously known as offer activities) that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
+In [!DNL Journey Optimizer] email messages, you can insert decisions (previously known as 'offer activities') that will leverage the Offer Decision Engine in order to pick the best offer to deliver to your customers.
 
 For example, you can add a decision that will display in your email a special discount offer that will vary according to the recipient's loyalty level.
 
@@ -18,12 +17,13 @@ For more on how to create and manage offers, refer to [this section](offers/get-
 
 For a **full end-to-end example** showing how to configure offers, use them in a decision and leverage this decision in an email, check out [this section](offers/offers-e2e.md#insert-decision-in-email).
 
+➡️ [Learn how to add offers as personalization in this video](#video-offers)
 
 ## Insert a decision in an email {#insert-offers}
 
 >[!CAUTION]
 >
->You need to first define an offer decision. Learn how to create decisions in [this section](offers/offer-activities/create-offer-activities.md).
+>Before starting, you must [define an offer decision](offers/offer-activities/create-offer-activities.md).
 
 To insert a decision into an email message, follow the steps below:
 
@@ -74,7 +74,7 @@ To display the different offers that are part of the decision with a customer pr
 
     >[!NOTE]
     >
-    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+    >In this example, we will use the **Email** namespace. Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md).
 
 1. In the list of identity namespaces, select **[!UICONTROL Email]** and click **[!UICONTROL Select]**.
 
@@ -97,3 +97,9 @@ To display the different offers that are part of the decision with a customer pr
     ![](assets/deliver-offer-test-profile-male-preview.png)
 
 Learn more on the detailed steps to check the message preview in [this section](#preview-your-messages).
+
+## How-to video{#video-offers}
+
+Learn how to add an offer decisioning component to messages in [!DNL Journey Optimizer].
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

@@ -3,8 +3,9 @@ title: About data sources
 description: Learn how to configure a data source
 feature: Data Sources
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 ---
 # About data sources {#concept_s1s_dqt_52b}
 
@@ -29,4 +30,8 @@ There are two types of data sources:
 
 For each data source, you define the information to retrieve using field groups. Field groups are sets of fields that can be retrieved from a data source. See [this page](../datasource/configure-data-sources.md#define-field-groups).
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html).
+>[!NOTE]
+>
+>Schema relationships are now supported for data sources.
+
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target="_blank"}.

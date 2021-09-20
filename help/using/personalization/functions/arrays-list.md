@@ -5,6 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 ---
 # Arrays and list functions {#arrays}
 
@@ -227,10 +228,3 @@ The following operation defines people who have eaten sushi and pizza at least o
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-

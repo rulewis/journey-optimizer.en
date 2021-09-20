@@ -3,20 +3,20 @@ title: Delegate subdomains
 description: Learn how to delegate your subdomains
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 ---
-
 # Access delegated subdomains
 
 All your delegated subdomains display in the **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu. Filters are available to help you refine the list (delegation date, user or status).

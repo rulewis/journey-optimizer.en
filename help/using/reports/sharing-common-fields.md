@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 ---
 # journeysteps events common fields {#sharing-common-fields}
 

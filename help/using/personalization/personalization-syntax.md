@@ -5,8 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 ---
-
 # Personalization syntax {#personalization-syntax}
 
 Personalization in [!DNL Journey Optimizer] is based on the templating syntax called Handlebars.
@@ -21,7 +21,7 @@ Simple expression sample:
 where:
 
 * `profile` is a namespace.
-* `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+* `person.name` is a token composed by attributes. The attributes structure is defined in an Adobe Experience Platform XDM Schema. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 ## Syntax general rules
 
@@ -39,7 +39,7 @@ In Handlebars, the values returned by the {{expression}} are **HTML-escaped**. I
 
 ## Profile
 
-This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+This namespace allows you to reference all the attributes defined in the profile schema described in [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 The attributes need to be defined in the schema before being referenced in a [!DNL Journey Optimizer] personalization block.
 
@@ -101,11 +101,11 @@ All the references are validated against Offers Schema with a validation mechani
 
     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Text content of the offer coming from the decisionning engine:
+* Text content of the offer coming from the decisioning engine:
 
     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML content of the offer coming from the decisionning engine:
+* HTML content of the offer coming from the decisioning engine:
 
     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -115,7 +115,7 @@ All the references are validated against Offers Schema with a validation mechani
 A Handlebars helper is a simple identifier that may be followed by parameters.
 Each parameter is a Handlebars expression. These helpers can be accessed from any context in a template.
 
-These block helpers are identified by a # preceeding the helper name and require a matching closing /, of the same name. 
+These block helpers are identified by a # preceding the helper name and require a matching closing /, of the same name. 
 Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
 
@@ -138,3 +138,25 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 >[!CAUTION]
 >
 >The use of **xEvent** variable is not available in personalization expressions. Any reference to xEvent will result in validation failures.
+
+## URL Personalization{#perso-urls}
+
+Journey Orchestration allows you to personalize one or several URLs in your message by adding personalization fields to them. To do this:
+
+* Create a link in your Email or Push content. To know more about link creation, refer to [this page](../message-tracking.md#insert-links)).
+* Click on the personalization icon. This icon is available for these specific types of links: **External link**, **Unsubscription link** and **Opt-Out**.
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>
+>In the expression editor, when you edit a personnalized URL, helper functions and segments membership are disabled for security reasons.
+>
+
+** Sample personalized URLs **
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}` 
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+

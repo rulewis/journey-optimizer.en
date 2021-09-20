@@ -1,21 +1,11 @@
 ---
 title: User management overview
-description: Learn about permissions
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
-exl-id:
+description: Learn about permission
 feature: Control Groups
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 ---
 # User management overview {#permissions-overview}
 

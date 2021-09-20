@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 ---
 # Create tags {#creating-tags}
 
@@ -12,7 +13,7 @@ Associating tags to your offers make it easier to keep them organized. For examp
 
 Tags can also be used to group offers together into offer collections. See [Create collections](../offer-library/creating-collections.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of created tags is accessible in the **[!UICONTROL Components]** menu.
 

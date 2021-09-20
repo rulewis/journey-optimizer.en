@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 ---
 # Get started with offer catalog export {#export-catalog}
 

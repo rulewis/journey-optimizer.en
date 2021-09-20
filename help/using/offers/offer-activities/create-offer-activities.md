@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 ---
 # Create decisions {#create-offer-activities}
 
 Decisions (previously known as offer activities) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
-![](../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+➡️ [Discover this feature in video](#video)
 
 The list of decisions is accessible in the **[!UICONTROL Offers]** menu / **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
 
@@ -25,17 +26,21 @@ Before creating a decision, make sure that the components below have been create
 
 ## Create the decision {#create-activity}
 
-1. Access the decisions list, then click **[!UICONTROL Create activity]**.
+1. Access the decisions list, then click **[!UICONTROL Create decision]**.
 
 1. Specify the decision's name as well as its start and end date and time, then click **[!UICONTROL Next]**.
 
     ![](../../assets/activities-name.png)
 
-## Add offers {#add-offers}
+## Add decision scopes {#add-decision-scopes}
 
 1. Drag and drop a placement from the list to add it to the decision, then click **[!UICONTROL Add collection]**.
 
     ![](../../assets/activities-placement.png)
+
+    >[!NOTE]
+    >
+    >The same placement can be selected multiple times in the decision.
 
 1. Select the collection that contains the offers to consider, then click **[!UICONTROL Add]**.
 
@@ -57,7 +62,7 @@ Before creating a decision, make sure that the components below have been create
     
     Add one or several segments from the left pane, combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators, then click **[!UICONTROL Select]** to confirm.
 
-    For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
 
     ![](../../assets/activity_constraint_segment2.png)
 
@@ -73,26 +78,67 @@ Select the fallback offer that will be presented as a last resort to the custome
 
 ## Review and save the decision {#review}
 
-If everything is configured properly and your decision is ready to be used to  present offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
+If everything is configured properly, a summary of the decision properties displays. 
 
-You can also save the decision as draft, in order to edit and activate it later on.
+1. Make sure decision is ready to be used to  present offers to customers.
+1. Click **[!UICONTROL Finish]**.
+1. Then select **[!UICONTROL Save and activate]**.
 
-![](../../assets/save-activities.png)
+    ![](../../assets/save-activities.png)
+    
+    You can also save the decision as draft, in order to edit and activate it later on.
 
-The decision displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step. 
+The decision displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on whether you activated it or not in the previous step. 
 
-It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
+It is now ready to be used to deliver offers to customers.
 
-For more on to deliver offers, refer to these sections:
+## Decision list {#decision-list}
 
-* [Add personalized offers in messages](../../deliver-personalized-offers.md)
-* [Deliver offers using APIs](../api-reference/decisions-api/deliver-offers.md)
+From the decision list, you can select the decision to display its properties. From there you can also edit it, change its status (**Draft**, **Live**, **Complete**, **Archived**), duplicate the decision, or delete it.
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->Once a decision has been created, you can click its name in the list to access detailed information, and vizualise all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and decisions changes log](../get-started/user-interface.md#changes-log)). 
+Select the **[!UICONTROL Edit]** button to go back to the decision edition mode, where you can modify the decision's [details](#create-activity), [decision scopes](#add-decision-scopes) and [fallback offer](#add-fallback).
+
+Select a live decision and click **[!UICONTROL Deactivate]** to set the decision status back to **[!UICONTROL Draft]**.
+
+To set again the status to **[!UICONTROL Live]**, select the **[!UICONTROL Activate]** button that is now displayed.
+
+![](../../assets/decision_activate.png)
+
+The **[!UICONTROL More actions]** button enables the actions described below.
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Complete]**: sets the decision's status to **[!UICONTROL Complete]**, meaning the decision cannot be called anymore. This action is only available for activated decisions. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate, delete or archive it.
+
+* **[!UICONTROL Duplicate]**: creates a decision with the same properties, decision scopes and fallback offer. By default, the new decision has the **[!UICONTROL Draft]** status.
+
+* **[!UICONTROL Delete]**: removes the decision from the list.
+
+    >[!CAUTION]
+    >
+    >The decision and its content will not be accessible anymore. This action cannot be undone.
+    >
+    >If the decision is used in another object, it cannot be deleted.
+
+* **[!UICONTROL Archive]**: sets the decision status to **[!UICONTROL Archived]**. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
+
+You can also delete or change the status of multiple decisions at the same time by selecting the corresponding checkboxes.
+
+![](../../assets/decision_multiple-selection.png)
+
+If you want to change the status of several decisions whith different statuses, only the relevant statuses will be changed.
+
+![](../../assets/decision_change-status.png)
+
+Once a decision has been created, you can click its name from the list.
+
+![](../../assets/decision_click-name.png)
+
+This enables you to access detailed information for that decision. Select the **[!UICONTROL Change log]** tab to [monitor all the changes](../get-started/user-interface.md#changes-log) that have been made to the decision.
+
+![](../../assets/decision_information.png)
 
 ## Tutorial video {#video}
 

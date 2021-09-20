@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
 ---
 # Journey versions{#concept_ldc_k55_zgb}
 
@@ -18,7 +19,7 @@ If you need to modify to a live journey, you need to create a new version of you
 
 >[!NOTE]
 >
->To learn more on journey versions limitations, see [this page](../building-journeys/limitations.md#journey-versions-limitations)
+>To learn more on journey versions limitations, see [this page](../limitations.md#journey-versions-limitations)
 
 1. Open the latest version of your live journey, click **[!UICONTROL Create a new version]** and confirm.
 

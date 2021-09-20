@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 ---
 # Troubleshooting{#concept_nlv_bcv_2fb}
 
@@ -40,7 +41,7 @@ The starting point of a journey is always an event. You can perform tests using 
 
 You can check if the API call you send through these tools is sent correctly or not. If you get an error back, it means that your call has an issue. Check the payload again, the header (and especially the organization ID) and the destination URL. You can ask your administrator what is the right URL to hit.
 
-Events are not pushed directly from the source to journeys. Indeed, journeys rely on Adobe Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+Events are not pushed directly from the source to journeys. Indeed, journeys rely on Adobe Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} for Streaming ingestion APIs troubleshooting.
 
 ## Checking if people enter the journey{#section_x4v_zzs_dgb}
 
@@ -55,7 +56,7 @@ Here are a few things and administrator should check:
 * Does your event payload contain an event id?
 * Did you hit the right URL?
 * Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [this page](../event/about-creating.md#preview-the-payload).
-* Did you use the right key/value pairs in the header of your event?
+* Did you use the right key-value pairs in the header of your event?
 
     ```
     X-gw-ims-org-id - your ORGID

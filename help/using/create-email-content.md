@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 ---
 # Design your email content in the user interface {#create-email-content}
 
@@ -64,7 +65,7 @@ To start building your email content with the email designer, follow the steps b
 
     ![](assets/email_designer_3.png)
 
-1. Each component can be further customized with the **[!UICONTROL Component settings]** section. For example, you can change your text style, the padding or margin of your component. [Learn more about styles in the Email Editor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html).
+1. Each component can be further customized with the **[!UICONTROL Component settings]** section. For example, you can change your text style, the padding or margin of your component. [Learn more about alignment and padding](#adjusting-vertical-alignment-and-padding).
 
     ![](assets/email_designer_4.png)
 
@@ -172,7 +173,7 @@ Your preheader is now configured for your email.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Background settings"
->abstract="The Email designer lets you personnalize background color or background image for your content.Note that background image is not supported by all email clients."
+>abstract="The Email designer lets you personalize background color or background image for your content.Note that background image is not supported by all email clients."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Additional info"
 
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
@@ -207,20 +208,29 @@ Below are the available background settings that you can use.
 
 ## Adjust vertical alignment and padding {#adjusting-vertical-alignment-and-padding}
 
-You want to adjust padding and vertical alignment inside a structure component composed of three columns. To do this, follow the steps below:
+In this example, we will adjust padding and vertical alignment inside a structure component composed of three columns.
 
-1. Select the structure component directly in the email or using the structure tree available from the left **Palette**.
-1. From the **contextual toolbar**, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree.
+1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left-hand menu.
 
-   The editable parameters for that column are displayed in the **[!UICONTROL Settings]** pane on the right.
+   ![](assets/alignment_1.png)
 
-1. Under **[!UICONTROL Vertical alignment]**, select **[!UICONTROL Up]**.
+1. From the toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree.
 
-   The content component displays on top of the column.
+   The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu.
+
+   ![](assets/alignment_2.png)
+
+1. Under **[!UICONTROL Vertical alignment]**, select **[!UICONTROL Bottom]**.
+
+   The content component moves to the bottom of the column.
+
+   ![](assets/alignment_3.png)
 
 1. Under **[!UICONTROL Padding]**, define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
 
    Define the left and right padding for that column.
+
+   ![](assets/alignment_4.png)
 
 1. Proceed similarly to adjust the other columns' alignment and padding.
 
@@ -230,13 +240,25 @@ You want to adjust padding and vertical alignment inside a structure component c
 
 You can underline a link and select its color and target in the Email Designer.
 
-1. In a component where a link is inserted, select the label text of your link.
+1. In a Text **[!UICONTROL Content component]** where a link is inserted, select your link.
 
-1. In the component settings, check **[!UICONTROL Underline link]** to underline the label text of your link.
+1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to underline the label text of your link.
 
-1. To select in which browsing context your link will be opened select a **[!UICONTROL Target]**.
+   ![](assets/link_1.png)
+
+1. Choose how your audience will be redirected with the **[!UICONTROL Target]** drop-down:
+
+    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
+    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
+    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
+    * **[!UICONTROL Parent]**: opens the link in the parent frame.
+    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+
+   ![](assets/link_2.png)
 
 1. To change the color of your link, click on **[!UICONTROL Link color]**.
+
+   ![](assets/link_3.png)
 
 1. Pick the color you need.
 
@@ -252,6 +274,3 @@ In the Email Designer interface, when you select an element and display its sett
 1. Modify the values of the existing attributes, or add new ones using the **+** button. You can add any attribute and value that is CSS-compliant.
 
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
-
-
-

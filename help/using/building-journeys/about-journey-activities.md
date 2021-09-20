@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 ---
 # About journey activities {#about-journey-activities}
 

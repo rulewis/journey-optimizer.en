@@ -5,15 +5,19 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 ---
+# Helper functions library{#functionsL}
 
-# Templating language and helper functions {#functionsL}
+Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn personalization syntax guidelines in [this page](../personalization-syntax.md).
 
-Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn  personalization syntax guidelines in [this page](../personalization-syntax.md).
+➡️ [Discover how to use helper functions](#video) (video)
 
 Templating language is leveraged in helper functions available in personalization drop-down list of the Expression Editor, as below:
 
 ![](../assets/access-helper-functions.png)
+
+
 
 In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
 
@@ -65,7 +69,7 @@ In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped 
         <td><a href="aggregation.md#max">Maximum</a></td><td>This function returns the largest of all the selected values within an array</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset of</a></td><td>This function termines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B</td>
+    <td><a href="arrays-list.md#superset">Superset of</a></td><td>This function determines if a specific array (array A) is a superset of another array (array B), i.e. if that array A contains all elements in array B</td>
     </tr>
 </table>
 
@@ -273,3 +277,8 @@ Comparison functions are used to compare between different expressions and value
     </tr>
 </table>
 
+## How-to video{#video}
+
+Learn how to transform personalization values using personalization helper functions and understand different use cases for helper functions.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

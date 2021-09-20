@@ -1,21 +1,11 @@
 ---
 title: Built-in product profiles
 description: Learn about the built-in product profiles
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
-exl-id:
 feature: Control Groups
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 ---
 # Built-in product profiles {#ootb-product-profiles}
 
@@ -97,4 +87,4 @@ This product profile includes the following permissions:
 
 | Capability | Permissions|
 |-|-|
-|Decision management| <ul><li>**Manage decisions**: read, create, edit, and delete decisioning entities.</li><li>**View decisions**:  read-only access to decisioning entities.</li><li>**Manage ranking strategies**: read, create, edit, and delete custom messages reports and use action features.</li><li>**Publish decisions**: approve or un-approve decisioning activities.</li></ul>|
+|Decision management| <ul><li>**Manage decisions**: read, create, edit, and delete decisioning entities.</li><li>**View decisions**:  read-only access to decisioning entities.</li><li>**Manage ranking strategies**: read, create, edit, and delete custom messages reports and use action features.</li><li>**Publish decisions**: activate or deactivate decisioning activities.</li></ul>|

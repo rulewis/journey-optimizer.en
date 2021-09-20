@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
+exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 ---
 # List fallback offers
 

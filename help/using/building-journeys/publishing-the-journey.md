@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 ---
 # Publishing the journey{#concept_mtc_lrt_52b}
 

@@ -5,6 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 ---
 # Create a push notification {#create-push-notification}
 
@@ -24,9 +25,9 @@ To compose your message, click the **[!UICONTROL Title]** and **[!UICONTROL Body
     
 Use the device preview section to visualize how the push notification displays on iOS and Android devices.
 
-## On click behaviour {#on-click-behavior}
+## On click behavior {#on-click-behavior}
 
-Select the behaviour when a recipient clicks on the body of the push notification.
+Select the behavior when a recipient clicks on the body of the push notification.
 
 ![](assets/title-body-push.png)
 
@@ -72,11 +73,11 @@ Click **[!UICONTROL Expand view]** to preview your personalized buttons.
 
 ## Send a silent notification
 
-A silent push notification (or background notification) is a hidden instruction that is delivered to the application. It is used for example to notify your application about the availabilty of new content or initiate a download in the background.
+A silent push notification (or background notification) is a hidden instruction that is delivered to the application. It is used for example to notify your application about the availability of new content or initiate a download in the background.
 
 Select the **[!UICONTROL Silent Notification]** option to silently notify the application: in this case, the notification is transferred directly to the application. No alert is displayed on the device screen.
 
-Use the **[!UICONTROL Custom data]** section to add key/value pairs.
+Use the **[!UICONTROL Custom data]** section to add key-value pairs.
 
 ## Custom data
 
@@ -108,4 +109,3 @@ You can configure **[!UICONTROL Advanced options]** for your push notification. 
 * [Configure push channel](push-gs.md)
 * [Create a new message](create-message.md)
 * [Add a message in a journey](building-journeys/journeys-message.md)
-

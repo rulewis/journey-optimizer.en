@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
 ---
 # journeyStep event identity fields {#sharing-identity-fields}
 

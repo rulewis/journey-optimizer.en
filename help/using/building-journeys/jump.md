@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 ---
 # Jumping from one journey to another {#jump}
 
@@ -19,7 +20,7 @@ In the target journey, the first event triggered internally by the **[!UICONTROL
 
 >[!NOTE]
 >
->Also refer to the tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>Also refer to the Journey Orchestration tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target="_blank"}
 
 ## Lifecycle
 

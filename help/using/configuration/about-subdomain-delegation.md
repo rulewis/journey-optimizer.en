@@ -5,10 +5,10 @@ internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 ---
-
 # Subdomain delegation in [!DNL Journey Optimizer]
 
 Creating a subdomain for email campaigns allows brands to isolate varying types of traffic (marketing vs. corporate for example) into specific IP pools and with specific domains, which will speed the IP warming process and improve deliverability overall. If you share a domain and it gets blocked or added to the deny list, it could impact your corporate mail delivery. However, reputation issues or blocks on a domain specific to your email marketing communications will impact just that flow of email. Using your main domain as the sender or ‘From’ address for multiple mail streams could also break email authentication, causing your messages to be blocked or placed in the spam folder.
@@ -29,5 +29,5 @@ While these requirements are being managed through components hosted by both Ado
 **Learn more**
 
 * Learn how to [delegate your subdomains](delegate-subdomain.md) directly from the interface
-* Learn how to [add Google TXT records](google-txt.md) to your subdomains to ensure the successfull delivery of emails to Gmail addresses
+* Learn how to [add Google TXT records](google-txt.md) to your subdomains to ensure the successful delivery of emails to Gmail addresses
 * Learn how to [access the PTR records](ptr-records.md) generated for your subdomains, allowing them to be verified by sending mail servers

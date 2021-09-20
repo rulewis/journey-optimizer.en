@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 ---
 # Journey Global report {#journey-global-report}
 
@@ -26,9 +27,9 @@ From your journey **[!UICONTROL Global report]**, the **[!UICONTROL Journey]** t
 
 ![](../assets/global_report_2.png)
 
-The **[!UICONTROL Journey`s performance]** widget allows you to see the path of your targeted profiles step-by-step through your journey.
+The **[!UICONTROL Journey Performance]** widget allows you to see the path of your targeted profiles step-by-step through your journey.
 
-The **[!UICONTROL Journey`s statistics]** widget displays the following KPIs:
+The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 * **[!UICONTROL Entered profiles]**: Total number of individuals who reached the entry event of the journey.
 

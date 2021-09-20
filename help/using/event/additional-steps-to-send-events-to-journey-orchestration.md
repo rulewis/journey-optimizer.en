@@ -3,14 +3,15 @@ title: Additional steps to send events to a journey
 description: Learn additional steps to send events to a journey
 feature: Events
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 ---
 # Additional steps to send events {#concept_xrz_n1q_y2b}
 
 To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in [!DNL Journey Optimizer], you need to follow these steps:
 
-1. Get the inlet URL from Adobe Experience Platform APIs. Learn more in [Streaming Ingestion APIs overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
+1. Get the inlet URL from Adobe Experience Platform APIs. Learn more in [Streaming Ingestion APIs overview](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target="_blank"}.
 1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. Learn more in [this page](../event/about-creating.md#define-the-payload-fields).
 
 You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
@@ -78,6 +79,6 @@ Here is an example of a Streaming Ingestion APIs event:
 }
 ```
 
-To facilitate the identification of the place where to paste the "data" part, you can use a JSON visualization tool such as [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+To facilitate the identification of the place where to paste the "data" part, you can use a JSON visualization tool such as [JSON formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-To troubleshoot Streaming Ingestion APIs, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+To troubleshoot Streaming Ingestion APIs, refer to [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

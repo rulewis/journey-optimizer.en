@@ -3,9 +3,8 @@ title: Journey Optimizer settings and configuration guidelines
 description: Learn message and journey configuration guidelines
 audience: administrators
 content-type: reference
-role: Administrator
+role: Admin
 level: Intermediate
-product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings

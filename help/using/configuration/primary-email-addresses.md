@@ -3,20 +3,20 @@ title: General message settings
 description: Learn how to set email addresses
 page-status-flag: never-activated
 uuid: 
-contentOwner:
-products:
+contentOwner: 
+products: 
 audience: administrators
 content-type: reference
 topic-tags: 
-discoiquuid:
+discoiquuid: 
 internal: n
 snippet: y
 feature: Application Settings
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 ---
-
 # Change the primary email addresses
 
 When you target a profile, several email addresses may be available in the database (personal, professional email address, etc.).

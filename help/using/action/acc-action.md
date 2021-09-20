@@ -3,8 +3,9 @@ title: Integrate with Adobe Campaign v7/v8
 description: Learn how to integrate with Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 ---
 # Integrate with Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
@@ -30,7 +31,7 @@ For each action configured, an action activity is available in the journey desig
 
 ## Prerequisites
 
-In Campaign, you need to create and publish a transactional message and its associated event. Refer to the [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+In Campaign, you need to create and publish a transactional message and its associated event. Refer to the [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 You can build your JSON payload corresponding to each message following the pattern below. You will then paste this payload when configuring the action in Journey Orchestration (see below)
 
@@ -63,5 +64,3 @@ In Journey Optimizer, you need to configure one action per transactional message
 1. Click **Save**.
 
 ![](../assets/accintegration1.png)
-
-

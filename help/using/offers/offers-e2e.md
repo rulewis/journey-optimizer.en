@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 ---
 # Use case: Configure personalized offers to use them in an email {#configure-add-personalized-offers-email}
 
@@ -125,7 +126,7 @@ You can now create and configure your offers. In this example, you will create f
 
     ![](../assets/offers-e2e-representations.png)
 
-1. In the **[!UICONTROL Offer eligiblity]** section, select **[!UICONTROL By defined decision rule]** and drag and drop the rule of your choice.
+1. In the **[!UICONTROL Offer eligibility]** section, select **[!UICONTROL By defined decision rule]** and drag and drop the rule of your choice.
 
     ![](../assets/offers-e2e-eligibility.png)
 
@@ -198,7 +199,7 @@ To create and configure an offer decision, follow the main steps below:
 
     ![](../assets/offers-e2e-decision-collection.png)
 
-1. If you defined a ranking when [building your components](#define-components), you can assign it to a placement in the decision. If mutiple offers are eligible to be presented in this placement, the decision will use this formula to calculate which offer to deliver first.
+1. If you defined a ranking when [building your components](#define-components), you can assign it to a placement in the decision. If multiple offers are eligible to be presented in this placement, the decision will use this formula to calculate which offer to deliver first.
 
     The detailed steps to assign a ranking formula to a placement are described in [this section](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
@@ -259,4 +260,3 @@ After saving your changes and once the message is published, your offers are rea
 * Learn how to publish messages in [this section](../../using/publish-manage-message.md).
 
 * Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
-

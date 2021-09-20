@@ -6,6 +6,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
 ---
 # Publish your messages {#publish-manage-messages}
 
@@ -15,7 +16,7 @@ Once your message has been created, you can publish it to make it available for 
 
 >[!CAUTION]
 >
->Before publishing, check and resolve alerts. [Learn more](alerts.md).
+>Before publishing, check and resolve alerts. [Learn more](alerts.md)
 
 ![](assets/publish-message.png)
 

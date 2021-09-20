@@ -1,18 +1,19 @@
 ---
 title: Track your messages
-description: Learn how to track sent messages
+description: Learn how to add links and track sent messages
 feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 ---
-# Message tracking {#tracking}
+# Add links and track messages {#tracking}
 
-Use [!DNL Journey Optimizer] to track the messages sent and the behavior of your recipients.
+Use [!DNL Journey Optimizer] to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 
 ## Enable tracking {#enable-tracking}
 
-You can enable tracking at the message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](create-message.md).
+You can enable tracking at the email message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -44,11 +45,13 @@ To insert links into your email content, follow the steps below:
 
     * **[!UICONTROL Unsubscription link]**: Insert a link to unsubscribe from receiving communications from your brand. Learn more on opt-out management in [this section](consent.md#opt-out-management).
 
-    * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser.
+    * **[!UICONTROL Mirror page]**: Insert a link to display the email content in a web browser. Learn more in [this section](#mirror-page).
+
+    * **[!UICONTROL Opt-out]**: Insert a link to enable users to quickly unsubscribe from your communications without the need to confirm opting out. Learn more in [this section](#one-click-opt-out-link).
 
     ![](assets/message-tracking-links.png)
 
-1. You can personalize your links, using a simple expression only. Learn more on personalization in [this section](personalization/personalization-syntax.md).
+1. You can personalize your links. Learn more on personalized URLs in [this section](personalization/personalization-syntax.md#perso-urls).
 
 1. Save your changes.
 
@@ -58,6 +61,54 @@ To insert links into your email content, follow the steps below:
     * You can choose to underline the link or not by checking the corresponding option.
 
     ![](assets/message-tracking-link-settings.png)
+
+## Link to a mirror page {#mirror-page}
+
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+
+To add a link to a mirror page in your email, [insert a link](#insert-links) and select **[!UICONTROL Mirror page]** as the type of link.
+
+![](assets/message-tracking-mirror-page.png)
+
+The mirror page is automatically created.
+
+>[!NOTE]
+>
+>You cannot edit the auto-generated link.
+
+Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
+
+>[!NOTE]
+>
+>In the [proof](preview.md#send-proofs) sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+
+The retention period for a mirror page is 60 days. After that delay, the mirror page will no longer be available.
+
+## One-click opt-out link {#one-click-opt-out-link}
+
+To enable your recipients to quickly unsubscribe from receiving communications from your brand, you can insert a one-click opt-out link into your email content. This capacity prevents users from being redirected to a landing page where they need to confirm their choice, which speeds up the unsubscribe process.
+
+To add an opt-out link in your email, follow the steps below.
+
+1. [Insert a link](#insert-links) and select **[!UICONTROL Opt-out]** as the type of link.
+
+    ![](assets/message-tracking-opt-out.png)
+
+1. Select how you want to apply the opting out: at the channel, identity, or subscription level.
+
+    ![](assets/message-tracking-opt-out-level.png)
+
+    * **[!UICONTROL Channel]**: The opt-out applies to future messages sent to the profile's target (i.e. email address) for the current channel. If several targets are associated with a profile, the opt-out applies to all targets (i.e. email addresses) in the profile for that channel.
+    * **[!UICONTROL Identity]**: The opt-out applies to future messages sent to the specific target (i.e. email address) being used for the current message.
+    * **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.
+
+1. Enter the URL of the landing page where the user will be redirected once unsubscribed. This page is only here to confirm that opting out was successful.
+
+    ![](assets/message-tracking-opt-out-confirmation.png)
+
+1. Click **[!UICONTROL Save]**.
+
+Once your message is sent, if a recipient clicks the opt-out link, he is immediately opted out.
 
 ## Manage tracking {#manage-tracking}
 
@@ -86,5 +137,3 @@ The [Email Designer](create-email-content.md) allows you to manage the tracked U
 The number of messages that have been opened and the number of links that have been clicked are listed in the [Executions tab](message-monitoring.md).
 
 Reporting on openings and clicks is available in the [Email Live report](reports/email-live-report.md) and in the [Email Global report](reports/email-global-report.md).
-
-

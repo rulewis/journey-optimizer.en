@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 ---
 # End activity{#section_vqp_4ft_dgb}
 

@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 ---
 # Design your journey
 
