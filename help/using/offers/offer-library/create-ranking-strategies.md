@@ -14,7 +14,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 
 If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, you can use an trained model system that ranks offers to display for a given profile.
 
->[!NOTE]
+>[!CAUTION]
 >
 >The use of AI ranking in Offer Decisioning is currently available in early access to **Adobe Experience Platform select users** only.
 
