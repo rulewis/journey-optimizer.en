@@ -51,7 +51,7 @@ To insert links into your email content, follow the steps below:
 
     ![](assets/message-tracking-links.png)
 
-1. You can personalize your links. Learn more on personalized URLs in [this section](personalization/personalization-syntax.md).
+1. You can personalize your links. Learn more on personalized URLs in [this section](personalization/personalization-syntax.md#perso-urls).
 
 1. Save your changes.
 
