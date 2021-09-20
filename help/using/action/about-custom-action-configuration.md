@@ -207,9 +207,9 @@ You can see that "products" is an array of three objets, each of them containing
 
 1. Set the field type. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly
 
->[!NOTE]
->
->The field type is automatically inferred according to the payload example.
+   >[!NOTE]
+   >
+   >The field type is automatically inferred according to the payload example.
 
 1. Define the collection field as a variable.
 
