@@ -26,6 +26,18 @@ Business events can be "a product is back in stock", "the stock price of a compa
 * When testing a business event, you have to pass the event parameters and the identifier of the test profile that will enter the journey in test. Also, when testing a business event based journey, you can only trigger single profile entrance. See [this section](../building-journeys/testing-the-journey.md#test-business). In test mode, there is no "Code view" mode available.
 * What happens to individuals that are currently in the journey if a new business event arrives? It behaves the same way as when individuals are still in a recurring journey when a new recurrence happens. Their path is ended. As a result, marketers must pay attention to avoid building too long journeys if they expect frequent business events.
 
+## Multiple business events
+
+Here are a few important notes that apply when multiple business events are received in a row.
+
+**What is the behavior when receiving a business event while the journey is processing?**
+
+Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+
+**What are the guardrails to avoid over-loading materlized segments?**
+
+For business events, the topic reusability is set to one hour. This means that for a given journey, in a 1-hour time window, no new export job is created. Data pushed by the first event job is reused. For scheduled journeys, there is no guardrail.
+
 ## Get started with business events
 
 Here are the first steps to configure a business event:
