@@ -102,3 +102,174 @@ You will also have a choice between specifying if a parameter is a constant or a
 * Variable means the value of the parameter will vary. The marketer using this custom action in a journey will be free to pass the value he wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label the marketer will see in the journey to name this parameter.
 
 ![](../assets/customactionpayloadmessage2.png)
+
+## Passing collections {#passing-collection}
+
+You can pass a collection in custom action parameters. Two kinds of collections are supported:
+
+* simple collections: payloads that define an object containing arrays, for example: 
+
+   ```
+   {
+    "deviceTypes": [
+        "android",
+        "ios"
+    ]
+   }
+   ```
+* advanced collections: payloads that are composed of arrays, for example:
+
+   ```
+   [
+    "my field" : "value",
+    "my other field : "value"
+   ]
+   ```
+
+### Limitations {#limitations} 
+
+* Nested object arrays within an object array are not supported. For example:
+
+    ```
+    {
+   "products":[
+      {
+         "id":"productA",
+         "name":"A",
+         "price":20,
+         "locations": [{"name": "Paris"}, {"name": "London"}]
+      },
+      {
+         "id":"productB",
+         "name":"B",
+         "price":10
+      },
+      {
+         "id":"productC",
+         "name":"C",
+         "price":5
+      }
+     ]
+    }
+    ```
+
+* Payloads containing sub-objects are not supported. For example:
+
+    ```
+    {
+   "products":[
+      {
+         "id":"productA",
+         "name":"A",
+         "details": {
+            "color":"blue"
+         },
+         "price":20.0
+      }
+     ]
+    }
+    ```
+
+### General procedure {#general-procedure} 
+
+This section shows the generic procedure based on a simple collection. For more complex collection fields (arrays of objects), refer to this [section](../action/about-custom-action-configuration.md#advanced-collection).
+
+To pass a collection, you need to paste, in the action parameters, an example of the JSON payload containing the collection. Here is an example of a payload containing a simple collection:
+
+```
+{
+   "products":[
+      {
+         "id":"productA",
+         "name":"A",
+         "price":20.0
+      },
+      {
+         "id":"productB",
+         "name":"B",
+         "price":10.0
+      },
+      {
+         "id":"productC",
+         "name":"C",
+         "price":5.0
+      }
+   ]
+}
+```
+
+You can see that "products" is an array of three objets, each of them containing three fields: "id", "name" and "price".
+
+1. Create your custom action. 
+
+1. In the **[!UICONTROL Action parameters]** section, paste the JSON example. The displayed structure is static. When pasting the payload, all fields are defined as constants. Arrays are displayed under the field names. If you want to pass objects dynamically, you need to set them as variables. However the structure will remain static.
+
+   ![](../assets/custom-collection1.png)
+
+1. Set the field type. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly
+
+   >[!NOTE]
+   >
+   >The field type is automatically inferred according to the payload example.
+
+1. Define the collection field as a variable.
+
+1. For each field, define the label which will be displayed in the journey canvas.
+
+   ![](../assets/custom-collection2.png)
+
+1. Open your journey and add the custom action you created. 
+
+1. Map the collection field ("products" in our example) to a field from an event or data source. When mapping the collection field, the advanced editor is displayed. [Learn more](../building-journeys/using-custom-actions.md).
+
+1. For each object field, type the corresponding field name. Make sure you use the same names than the ones defined in the schema. 
+
+### Passing an advanced collection {#advanced-collection} 
+
+This section shows how to pass advanced collections.
+
+Here is an example of a payload containing advanced collections:
+
+```
+{
+  "group_id": "order_confirmed",
+  "recipients": {
+    "custom_ids": ["USER_ID"]
+  },
+  "message": {
+    "title": "Your order is confirmed!",
+    "body": "We will send you a shipping confirmation alert as soon as your order ships."
+  },
+  "landing": {
+    "theme": "MODAL-WITH-IMAGE",
+    "image": "test.jpg",
+    "tracking_id": "order confirmation",
+    "image_description": "Item preview",
+    "header": "Thank you!",
+    "title": "Your order has been confirmed!",
+    "body": "Check the status of your order now or keep shopping.",
+    "actions": [
+      {
+        "action": "batch.sending",
+        "label": "Check Status",
+        "args": {
+          "l": "https://adobe.com/test/order-status"
+        }
+      },
+      {
+        "action": "batch.dismiss",
+        "label": "Later"
+      }
+    ]
+  }
+}
+```
+
+You can see that it uses a dynamic list of customer IDs. 
+
+
+**Related topics**
+
+[Use custom actions](../building-journeys/using-custom-actions.md)
+
+
