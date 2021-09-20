@@ -109,6 +109,7 @@ solution: Journey Optimizer
     + [Action execution fields](using/reports/sharing-execution-fields.md)
     + [Data fetch fields](using/reports/sharing-fetch-fields.md)
     + [Identity fields](using/reports/sharing-identity-fields.md)
+    + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
