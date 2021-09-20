@@ -109,20 +109,20 @@ You can pass a collection in custom action parameters. Two kinds of collections 
 * simple collections: payloads that define an object containing arrays, for example: 
 
    ```
-{
+   {
     "deviceTypes": [
         "android",
         "ios"
     ]
-}
+   }
    ```
 * advanced collections: payloads that are composed of arrays, for example:
 
    ```
-[
+   [
     "my field" : "value",
     "my other field : "value"
-]
+   ]
    ```
 
 ### Limitations {#limitations} 
