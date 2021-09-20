@@ -34,7 +34,7 @@ Here are a few important notes that apply when multiple business events are rece
 
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 
-**What are the guardrails to avoid over-loading materlized segments?**
+**What are the guardrails to avoid over-loading materialized segments?**
 
 For business events, the topic reusability is set to one hour. This means that for a given journey, in a 1-hour time window, no new export job is created. Data pushed by the first event job is reused. For scheduled journeys, there is no guardrail.
 
