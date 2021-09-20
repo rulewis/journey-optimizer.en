@@ -209,4 +209,4 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-The query resturns, for the defined period, the count of unique journeys that triggered each day. A single journey triggering on multiple days will be counted once per day.
+The query returns, for the defined period, the count of unique journeys that triggered each day. A single journey triggering on multiple days will be counted once per day.
