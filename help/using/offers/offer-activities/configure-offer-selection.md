@@ -56,7 +56,7 @@ If multiple offers are eligible to be presented in this placement, the decision 
 
 If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, you can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
 
->[!NOTE]
+>[!CAUTION]
 >
 >The use of AI ranking in Offer Decisioning is currently available in early access to **Adobe Experience Platform select users** only.
 
