@@ -65,49 +65,49 @@ The result should be greater than 0. This will return the exact number of times 
 
 * Method 1: if the name of your message is not unique in the journey (it is used at multiple places).
 
-_Data Lake query_
+    _Data Lake query_
 
-```
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
-```
+    ```
+    SELECT count(distinct _id) FROM journey_step_events WHERE
+    _experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
+    _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+    ```
 
-_Example_
+    _Example_
+    
+    ```
+    SELECT count(distinct _id) FROM journey_step_events WHERE
+    _experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
+    _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
+    ```
 
-```
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+    The result should be greater than 0. This query only tells us whether the message action was successfully executed on the journey side.
 
-The result should be greater than 0. This query only tells us whether the message action was successfully executed on the journey side.
+* Method 2: If the node name of your message is unique in the journey
 
-Method 2: If the node name of your message is unique in the journey
+    _Data Lake query_
 
-_Data Lake query_
+    ```
+    SELECT count(distinct _id) FROM journey_step_events WHERE
+    _experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
+    _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+    ```
 
-```
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
-```
+    _Example_
 
-_Example_
-
-```
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+    ```
+    SELECT count(distinct _id) FROM journey_step_events WHERE
+    _experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
+    _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
+    _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
+    ```
 
 The query returns the list of all messages along with their count invoked for the selected profile.
 
