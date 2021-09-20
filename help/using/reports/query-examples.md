@@ -187,7 +187,7 @@ ORDER BY DATE(timestamp) desc
 
 The query resturns, for the defined period, the number of profiles that entered the journey each day. If a profile entered via multiple identities, it will be counted twice. If re-entrance is enabled, profile count might be duplicated accross different days if it re-entered the journey on different day.
 
-## Journey-based aueries
+## Journey-based queries
 
 ### Number of daily active journeys
 
