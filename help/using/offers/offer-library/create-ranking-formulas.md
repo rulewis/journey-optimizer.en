@@ -43,39 +43,41 @@ To create a ranking formula, follow the steps below:
 
 ## Ranking formula examples
 
-Below are some examples of ranking formula.
+Below are some examples of ranking formulas.
 
 ### Boost by offer ID
 
-Boost the priority of an offer with the offer ID xcore:personalized-offer:13d213cd4cb328ec by 5
+Boost the priority of an offer with the offer ID xcore:personalized-offer:13d213cd4cb328ec by 5.
 
-````
+Ranking formula:
+
+```
 if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec", offer.rank.priority + 5, offer.rank.priority)
-````
+```
 
-### Change offer priority based on a certain profile attribute
+### Change the offer priority based on a certain profile attribute
 
-Set the offer priority to 30 for offer xcore:personalized-offer:13d213cd4cb328ec if the user lives in the city of "Bondi"
+Set the offer priority to 30 for offer xcore:personalized-offer:13d213cd4cb328ec if the user lives in the city of "Bondi".
 
 Ranking formula:
 
-````
+```
 if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec" and homeAddress.city.equals("Bondi", false), 30, offer.rank.priority)
-````
+```
 
-### Boost multiple offers by Offer ID based on presence of a profile's segment membership
+### Boost multiple offers by Offer ID based on the presence of a profile's segment membership
 
-Boost the priority of offers based on whether the user is a member of a priority segment which is configured as an attribute in the offer 
+Boost the priority of offers based on whether the user is a member of a priority segment which is configured as an attribute in the offer.
 
 Ranking formula:
 
-````
+```
 if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
-````
+```
 
 ### Boost offers with certain offer attribute based on context data
 
-Boost certain offers based on the context data being passed in the decisioning call. For example, if the contextData.weather=hot is passed in the decisioning call, the priority of all offer with attribute=hot must be boosted.
+Boost certain offers based on the context data being passed in the decisioning call. For example, if the `contextData.weather=hot` is passed in the decisioning call, the priority of all offers with `attribute=hot` must be boosted.
 
 Ranking formula:
 
@@ -84,11 +86,9 @@ if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
 and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
->[!NOTE]
->
->when using the decisioning API - the context data is added to the profile element in the request body, for example:
+Note that when using the decisioning API, the context data is added to the profile element in the request body, such as in the example below.
 
-Ranking formula:
+Snippet from Request Body:
 
 ```
 "xdm:profiles": [
@@ -113,7 +113,7 @@ Ranking formula:
 
 ### Boost offers with certain offer attribute based on profile attribute
 
-If the person lives in the same city as the offer then double the priority for all offers in that city
+If the person lives in the same city as the offer, then double the priority for all offers in that city.
 
 Ranking formula:
 
@@ -131,7 +131,9 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### Boost offers based on the customers propensity (calculated by CustomerAI) to purchase the product being offered
 
-If we have 2 instances of CustomerAI calculating propensity for purchasing travelInsurance and extraBaggage for airline company.  The following ranking formula will boost the priority (by 50 points) of the offer specific to either insurance or baggage if the customer propensity score to purchase that product is higher than 90.    Unfortunately because CustomerAI instances each create their own object within the unified profile schema, there is no way to dynamically select the score based on the offer propensity type...  so you have to chain the if statements to first check the offer propensity type then extract the score from the appropriate profile field.   
+If we have 2 instances of *CustomerAI* calculating propensity for purchasing *travelInsurance* and *extraBaggage* for an airline company, the following ranking formula will boost the priority (by 50 points) of the offer specific to either insurance or baggage if the customer propensity score to purchase that product is higher than 90.
+
+Unfortunately, because each *CustomerAI* instance creates its own object within the unified profile schema, there is no way to dynamically select the score based on the offer propensity type. Thus you have to chain the `if` statements to first check the offer propensity type, then extract the score from the appropriate profile field.   
 
 Ranking formula:
 
