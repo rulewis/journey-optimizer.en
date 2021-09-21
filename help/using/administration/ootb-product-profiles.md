@@ -1,21 +1,11 @@
 ---
 title: Built-in product profiles
 description: Learn about the built-in product profiles
-page-status-flag: never-activated
-uuid: 
-contentOwner:
-products:
-audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid:
-internal: n
-snippet: y
-exl-id:
 feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
+exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 ---
 # Built-in product profiles {#ootb-product-profiles}
 

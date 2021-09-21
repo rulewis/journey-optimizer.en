@@ -7,6 +7,11 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+## September 2021
+
+* Added a new **Limitations** page. [Read more](limitations.md)
+* Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
+
 ## August 2021
 
 * All new features and improvements coming with [!DNL Journey Optimizer] August '21 release have been detailed in the documentation. [Read more](release-notes.md)
