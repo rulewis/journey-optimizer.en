@@ -136,7 +136,7 @@ You can also insert text-type content when selecting a compatible placement.
 
 ## Add eligibility rules and constraints {#eligibility}
 
-Eligibility rules and constrains allow you to define the conditions under which an offer will be displayed.
+Eligibility rules and constraints allow you to define the conditions under which an offer will be displayed.
 
 1. Configure the **[!UICONTROL Offer eligibility]**.
 
