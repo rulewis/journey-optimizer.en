@@ -47,9 +47,14 @@ To add one or multiple representations to your offer and configure them, follow 
 
     ![](../../assets/channel-placement.png)
 
-    Only the available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
+    >[!NOTE]
+    >
+    >Only the available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
 
-1. Select a placement from the list, or use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
+
+1. Select a placement from the list.
+
+    You can also use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
 
     ![](../../assets/browse-button-placements.png)
 
@@ -81,7 +86,7 @@ You can add different types of content to a representation.
 
 ### Add images
 
-If the selected placement is image-type, you can add content coming from the Adobe Experience Cloud Asset library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
+If the selected placement is image-type, you can add content coming from the **Adobe Experience Cloud Asset** library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
 
 >[!NOTE]
 >
@@ -111,20 +116,23 @@ You can also insert text-type content when selecting a compatible placement.
 
 1. Select the **[!UICONTROL Custom]** option and click **[!UICONTROL Add content]**.
 
-    <!--![](../../assets/offer-text-content.png)-->
     ![](../../assets/offer-add-content.png)
 
     >[!NOTE]
     >
     >This option is not available for image-type placements.
 
-1. Type the text that will display in the offer. You can add personalization. Learn more in [this section](../../personalization/personalize.md#use-expression-editor).
+1. Type the text that will display in the offer.
+
+    ![](../../assets/offer-text-content.png)
+
+1. You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
 
     ![](../../assets/offer-personalization.png)
 
->[!NOTE]
->
->Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are currently available.
+    >[!NOTE]
+    >
+    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
 
 ## Add eligibility rules and constraints {#eligibility}
 
