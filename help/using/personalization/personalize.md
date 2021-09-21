@@ -75,7 +75,7 @@ Learn more about Push notification configuration in [this section](../push-gs.md
 
 You can also access the personalization editor when adding text-type content to your offers' representations.
 
-Learn more on managing content with Decision management in [this section](../../offers/offer-library/creating-personalized-offers.md#custom-text).
+Learn more on managing content with Decision management in [this section](../offers/offer-library/creating-personalized-offers.md#custom-text).
 
 ## Use the Expression Editor {#use-expression-editor}
 
