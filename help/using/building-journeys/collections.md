@@ -51,7 +51,7 @@ You can pass a collection in custom action parameters that will be dynamically p
 
     ```
     {
-   "products":[
+    "products":[
       {
          "id":"productA",
          "name":"A",
@@ -68,7 +68,7 @@ You can pass a collection in custom action parameters that will be dynamically p
 
     ```
     {
-   "products":[
+    "products":[
       {
          "id":"productA",
          "name":"A",
