@@ -90,6 +90,7 @@ solution: Journey Optimizer
   + Use cases {#journey-use-cases}
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+    + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
 + Track and monitor {#reporting}
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
