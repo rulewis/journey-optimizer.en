@@ -56,7 +56,7 @@ You can pass a collection in custom action parameters that will be dynamically p
          "id":"productA",
          "name":"A",
          "details": {
-            "color":"blue"
+         "color":"blue"
          },
          "price":20.0
       }
@@ -143,7 +143,7 @@ You can see that "products" is an array of two objects. You need to have at leas
 
 ## Particular cases{#examples}
 
-For heterogeneous types and arrays of arrays, the array is defined with the listAny type because it contains heterogenous data types. You can only map individual items, but cannot change the array to variable.
+For heterogeneous types and arrays of arrays, the array is defined with the listAny type. You can only map individual items, but cannot change the array to variable.
 
 ![](../assets/uc-collection-heterogeneous.png)
 
