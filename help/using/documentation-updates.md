@@ -9,6 +9,8 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## September 2021
 
+* Added a new **Limitations** page. [Read more](limitations.md)
+* Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
 * Added a new section on how to define content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
 
 ## August 2021
@@ -44,7 +46,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Renamed 'offer activities' as 'decisions' and 'decisions' as 'decision scopes' in documentation and screens. [Read more](offers/get-started/starting-offer-decisioning.md)
 * New use case: [personalize a message with helper functions](personalization/personalization-use-case-helper-functions.md)
 * Updated the Read segment documentation to reflect materialized segment impacts. [Read more](building-journeys/read-segment.md)
-* Updated the Journey limitations. [Read more](building-journeys/limitations.md)
+* Updated the Journey limitations. [Read more](limitations.md)
 * Updated the Configure offers selection in decisions section. [Read more](offers/offer-activities/configure-offer-selection.md)
 * Added a warning to mention that event-based offers are not currently supported. [Read more](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documented the Decision Management new **[!UICONTROL Overview]** tab. [Read more](offers/get-started/user-interface.md#overview)

@@ -11,7 +11,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 # Configure an action {#configure-an-action}
 
 If you're using a third-party system to send messages or if you want journeys to send API calls to a third-party system, this is where you configure its connection to journeys. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-journey-activities.md#action-activities). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
-Limitations are listed in [this page](../building-journeys/limitations.md).
+Limitations are listed in [this page](../limitations.md).
 
 Here are the main steps required to configure a custom action:
 

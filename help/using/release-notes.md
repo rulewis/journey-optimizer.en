@@ -46,7 +46,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -57,12 +57,12 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="personalization/personalization-syntax.md#perso-urls">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
