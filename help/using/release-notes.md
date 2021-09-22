@@ -8,6 +8,72 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
 
 
+
+## September 2021 Release {#september-2021-release}
+
+### New capabilities
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Reporting - New metric available</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new metric is now available in reporting: targeted audience for email & push messages is visible in both live and global reports.</p>
+<p>A new column in the message Executions list displays the number of targeted profiles for each message execution. </p>
+<p>For more information, refer to the <a href="message-monitoring.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Pass collections dynamically using custom actions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now pass collections in custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported: simple collections and object collections. Previously created custom actions will continue working. </p>
+<p>For more information on collections, refer to the <a href="building-journeys/collections.md">detailed documentation</a>. </p>
+<p>The filter and intersect functions have been added to the list of functions available in the advanced expression editor. This will offer more possibilities for collection filtering and comparing.</p>
+<p>Consult the documentation on the <a href="https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functionfilter.md">filter</a> and <a href="https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functiontintersect.md">intersect</a> functions.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision content personalization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can personalize content added to your offers' representations using the Expression Editor.</p>
+<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Journeys**
+
+* The schemas and datasets that have been created during provisioning for step events are now in read-only mode.
+
+**Personalization**
+
+* Auto-complete of expressions improves customer experience, making it easier to quickly pull in different attributes without having to use the search. Auto-completion becomes much more important when working with an inline expression editor. The in-line expression editor will enable customers to work with personalization in a variety of text fields without having to jump into the full expression editor modal.
+
 ## August 2021 Release {#august-2021-release}
 
 ### New capabilities
