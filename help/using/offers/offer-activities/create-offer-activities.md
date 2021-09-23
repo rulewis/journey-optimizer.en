@@ -79,18 +79,21 @@ Before creating a decision, make sure that the components below have been create
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 <!--to move to create-offers?-->
 
-Applying a constraint enables you to restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or to use a **decision rule** to apply a constraint. The difference between those two usages are described below.
+Applying a constraint enables you to restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or to use a **decision rule** to apply a constraint, which correspond to different usages.
 
-**Segment**
-On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, it just uses it. Therefore the segment may not be up-to-date when presenting the offer.
-Learn more on segments in [this section](../../segment/about-segments.md).
+Basically, a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
 
-**Rule**
-On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown.
-Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which will ensure that each profile gets the latest and the best offer.
-Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
+* **Segments**
 
-Segments are lists of profiles, whereas rules are a function expressed as PQL and are executed on demand against a single profile during the decisioning process.
+    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
+
+    Learn more on segments in [this section](../../segment/about-segments.md).
+
+* **Decision rules**
+    
+    On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
+
+    Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
 
 ## Add a fallback offer {#add-fallback}
 
