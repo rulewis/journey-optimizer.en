@@ -77,6 +77,24 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
+### Boost offers with certain offer attribute based on profile attribute
+
+If the profile lives in the city corresponding to the offer, then double the priority for all offers in that city.
+
+**Ranking formula:**
+
+```
+if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
+```
+
+### Boost offers where the end date is less than 24 hours from now
+
+**Ranking formula:**
+
+```
+if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
+```
+
 ### Boost offers with certain offer attribute based on context data
 
 Boost certain offers based on the context data being passed in the decisioning call. For example, if the `contextData.weather=hot` is passed in the decisioning call, the priority of all offers with `attribute=hot` must be boosted.
@@ -111,24 +129,6 @@ Note that when using the decisioning API, the context data is added to the profi
         }
     ]
  }],
-```
-
-### Boost offers with certain offer attribute based on profile attribute
-
-If the profile lives in the city corresponding to the offer, then double the priority for all offers in that city.
-
-**Ranking formula:**
-
-```
-if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
-```
-
-### Boost offers where the end date is less than 24 hours from now
-
-**Ranking formula:**
-
-```
-if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
 ### Boost offers based on the customers propensity (calculated by CustomerAI) to purchase the product being offered
