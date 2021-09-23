@@ -46,7 +46,7 @@ To create a ranking formula, follow the steps below:
 You can create many different ranking formulas according to your needs. Below are some examples.
 
 <!--
-###Boost by offer ID
+Boost by offer ID
 
 Boost the priority of an offer with the offer ID *xcore:personalized-offer:13d213cd4cb328ec* by 5.
 
@@ -55,9 +55,8 @@ Boost the priority of an offer with the offer ID *xcore:personalized-offer:13d21
 ```
 if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec", offer.rank.priority + 5, offer.rank.priority)
 ```
--->
 
-### Change the offer priority based on a certain profile attribute
+Change the offer priority based on a certain profile attribute
 
 Set the offer priority to 30 for offer *xcore:personalized-offer:13d213cd4cb328ec* if the user lives in the city of Bondi.
 
@@ -66,8 +65,8 @@ Set the offer priority to 30 for offer *xcore:personalized-offer:13d213cd4cb328e
 ```
 if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec" and homeAddress.city.equals("Bondi", false), 30, offer.rank.priority)
 ```
-<!-->
-### Boost multiple offers by offer ID based on the presence of a profile's segment membership
+
+Boost multiple offers by offer ID based on the presence of a profile's segment membership
 
 Boost the priority of offers based on whether the user is a member of a priority segment, which is configured as an attribute in the offer.
 
