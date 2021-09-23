@@ -79,9 +79,9 @@ Before creating a decision, make sure that the components below have been create
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 <!--to move to create-offers?-->
 
-Applying a constraint enables you to restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or to use a **decision rule** to apply a constraint, which correspond to different usages.
+Applying a constraint enables you to restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or to use a **decision rule** to apply a constraint, both corresponding to different usages.
 
-Basically, a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
+Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
 
 * **Segments**
 
