@@ -66,13 +66,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
+### Improvements
+
 **Journeys**
 
 * The schemas and datasets that have been created during provisioning for step events are now in read-only mode.
-
-**Personalization**
-
-* Auto-completion of expressions improves customer experience, making it easier to quickly pull in different attributes without having to use the search. Auto-completion becomes much more important when working with an inline expression editor. The in-line expression editor enables customers to work with personalization in a variety of text fields without having to jump into the full expression editor modal.
 
 ## August 2021 Release {#august-2021-release}
 
