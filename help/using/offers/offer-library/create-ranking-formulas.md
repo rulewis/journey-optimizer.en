@@ -176,7 +176,7 @@ The offers would contain an attribute for *propensityType* which matches the cat
 
 ![](../../assets/ranking-example-propensityType.png)
 
-Your ranking formula can then set the priority of each offer to equal the customers propensityScore for that propensityType. If no score is found, use the static priority set on the offer:
+Your ranking formula can then set the priority of each offer to equal the customers *propensityScore* for that *propensityType*. If no score is found, use the static priority set on the offer:
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
