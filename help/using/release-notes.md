@@ -60,7 +60,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
