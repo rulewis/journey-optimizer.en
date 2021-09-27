@@ -77,6 +77,7 @@ Before creating a decision, make sure that the components below have been create
         Learn more on how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
 
 ### Using segments vs decision rules {#segments-vs-decision-rules}
+
 <!--to move to create-offers?-->
 
 To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
