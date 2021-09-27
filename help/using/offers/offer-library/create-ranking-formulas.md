@@ -41,7 +41,7 @@ To create a ranking formula, follow the steps below:
 
     ![](../../assets/ranking-formula-created.png)
 
-## Ranking formula examples
+## Ranking formula examples {#ranking-formula-examples}
 
 You can create many different ranking formulas according to your needs. Below are some examples.
 
