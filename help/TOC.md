@@ -119,6 +119,7 @@ solution: Journey Optimizer
   + Get started with Decision management {#get-started}
     + [About Decision management](using/offers/get-started/starting-offer-decisioning.md)
     + [User interface](using/offers/get-started/user-interface.md)
+    + [Grand access to Decision management](using/offers/get-started/granting-access-to-decision-management.md)
     + [Key steps to create and manage offers](using/offers/offer-library/key-steps.md)
     + [Use case: insert offers in an email](using/offers/offers-e2e.md)
   + Create components {#create-components}
@@ -126,6 +127,7 @@ solution: Journey Optimizer
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
     + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+    + [Create ranking strategies](using/offers/offer-library/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)
