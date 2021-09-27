@@ -53,13 +53,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Decision content personalization</strong><br/></th>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can personalize content added to your offers' representations using the expression editor.</p>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
 <p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
 </td>
 </tr>
