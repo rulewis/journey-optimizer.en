@@ -11,7 +11,14 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Added a new **Limitations** page. [Read more](limitations.md)
 * Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
-* Added a new section on how to define content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
+
+* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
+
+* The Offer Management section now applies to both Adobe Journey Optimizer and Adobe Experience Platform users. The differences are clearly pointed out, the main one being the AI rankings feature that currently only applies to Experience Platform early adopters. [Read more](offers/offer-library/create-ranking-strategies.md)
+
+* Added a subsection to clarify the differences between using segments versus decision rules when applying a constraint to restrict the selection of offers for a given placement. [Read more](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* Added specific ranking formula examples to illustrate some real-life use cases. [Read more](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
 
 ## August 2021
 

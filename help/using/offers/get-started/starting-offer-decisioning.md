@@ -13,7 +13,7 @@ Use [!DNL Journey Optimizer] to deliver the best offer and experience to your cu
 
 >[!NOTE]
 >
->If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, most of the Decision Management features described in this section also apply to you.
+>If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, the Decision Management features described in this section also apply to you.
 
 The Decision Management capability consists in two main components:
 
