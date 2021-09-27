@@ -47,9 +47,14 @@ To add one or multiple representations to your offer and configure them, follow 
 
     ![](../../assets/channel-placement.png)
 
-    Only the available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
+    >[!NOTE]
+    >
+    >Only the available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
 
-1. Select a placement from the list, or use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
+
+1. Select a placement from the list.
+
+    You can also use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
 
     ![](../../assets/browse-button-placements.png)
 
@@ -57,37 +62,7 @@ To add one or multiple representations to your offer and configure them, follow 
 
     ![](../../assets/browse-placements.png)
 
-1. Add content to your representation.
-
-    >[!NOTE]
-    >
-    >Only content corresponding to the placement's content type is available for use.
-    
-    * If the selected placement is image-type, you can add content coming from the Adobe Experience Cloud Asset library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
-
-        >[!NOTE]
-        >
-        > To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
-    
-        Choose the **[!UICONTROL Asset library]** option and select **[!UICONTROL Browse]**.
-
-        ![](../../assets/offer-browse-asset-library.png)
-
-        Browse the assets to select the image of your choice and click **[!UICONTROL Select]**.
-
-        ![](../../assets/offer-select-asset.png)
-
-    * To add content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
-
-        ![](../../assets/offer-content-url.png)
-
-    * You can also insert text-type content when selecting a compatible placement. Select the **[!UICONTROL Custom]** option and type the text that will display in the offer.
-
-        ![](../../assets/offer-text-content.png)
-
-        >[!NOTE]
-        >
-        >This option is not available for image-type placements.
+1. Add content to your representation. Learn how in [this section](#content).
 
 1. When you add content such as an image or URL, you can specify a **[!UICONTROL Destination link]**: the users who click the offer will be directed to the corresponding page.
 
@@ -101,25 +76,85 @@ To add one or multiple representations to your offer and configure them, follow 
 
 1. Once you added all your representations, select **[!UICONTROL Next]**.
 
+## Define content for your representations {#content}
+
+You can add different types of content to a representation.
+
+>[!NOTE]
+>
+>Only content corresponding to the placement's content type is available for use.
+
+### Add images
+
+If the selected placement is image-type, you can add content coming from the **Adobe Experience Cloud Asset** library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
+
+>[!NOTE]
+>
+> To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+    
+1. Choose the **[!UICONTROL Asset library]** option.
+
+1. Select **[!UICONTROL Browse]**.
+
+    ![](../../assets/offer-browse-asset-library.png)
+
+1. Browse the assets to select the image of your choice
+
+1. Click **[!UICONTROL Select]**.
+
+    ![](../../assets/offer-select-asset.png)
+
+### Add URLs
+
+To add content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
+
+![](../../assets/offer-content-url.png)
+
+### Add custom text {#custom-text}
+
+You can also insert text-type content when selecting a compatible placement.
+
+1. Select the **[!UICONTROL Custom]** option and click **[!UICONTROL Add content]**.
+
+    ![](../../assets/offer-add-content.png)
+
+    >[!NOTE]
+    >
+    >This option is not available for image-type placements.
+
+1. Type the text that will display in the offer.
+
+    ![](../../assets/offer-text-content.png)
+
+1. You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
+
+    ![](../../assets/offer-personalization.png)
+
+    >[!NOTE]
+    >
+    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
+
 ## Add eligibility rules and constraints {#eligibility}
 
-Eligibility rules and constrains allow you to define the conditions under which an offer will be displayed.
+Eligibility rules and constraints allow you to define the conditions under which an offer will be displayed.
 
-1. Configure the **[!UICONTROL Offer eligibility]**. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
+1. Configure the **[!UICONTROL Offer eligibility]**.
+
+    * By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
+
+    * You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+
+        For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
     
-    You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+        ![](../../assets/offer-eligibility-segment.png)
 
-    For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
-    
-    ![](../../assets/offer-eligibility-segment.png)
+    * If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
 
-    If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
+        ![](../../assets/offer_rule.png)
 
-    ![](../../assets/offer_rule.png)
-
-    >[!CAUTION]
-    >
-    >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
+        >[!CAUTION]
+        >
+        >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
 
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
 
