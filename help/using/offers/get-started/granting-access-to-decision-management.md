@@ -16,6 +16,14 @@ To grant access to the  Decision Management functionality, you need to create a 
 
 The permissions specific to Decision Management are listed in [this section](../../administration/high-low-permissions.md#manage-decisioning).
 
+<!--If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
+
+If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, follow the steps [below](#granting-acess-to-offer-decisioning) to grant access to [!DNL Offer Decisioning].
+
+Grant access to Offer Decisioning
+
+The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
+
 1. Open the [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), then select **[!UICONTROL Adobe Experience Platform]**. 
 
     <!--![](../../assets/offers_admin_console.png)-->
