@@ -13,7 +13,7 @@ Use [!DNL Journey Optimizer] to deliver the best offer and experience to your cu
 
 >[!NOTE]
 >
->If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, the Decision Management features described in this section also apply to you.
+>If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, all the Decision Management features described in this section also apply to you.
 
 The Decision Management capability consists in two main components:
 
@@ -58,6 +58,13 @@ Decision Management capabilities and integration with Adobe Experience Platform 
 
     ![](../../assets/do-not-localize/call-center.png)
 
+## Grant access to Decision Management {#granting-acess-to-decision-management}
+
+Permissions to access and use the offer decisioning capabilities are managed using the [Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html). 
+
+To grant access to the  Decision Management functionality, you need to create a **[!UICONTROL Product profile]** and assign the corresponding permissions to your users. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
+
+The permissions specific to Decision Management are listed in [this section](administration/high-low-permissions.md#manage-decisioning).
 
 ## Glossary {#glossary}
 
@@ -94,7 +101,7 @@ You can find below the list of the main concepts you will work with when using D
 
 >[!NOTE]
 >
->These videos apply to the Offer Decisioning application service built on Adobe Experience Platform, and are not specific to [!DNL Adobe Journey Optimizer]. However, it provides generic guidance to use Decision Management in the context of [!DNL Journey Optimizer].
+>These videos apply to the Offer Decisioning application service built on Adobe Experience Platform, and are not specific to [!DNL Adobe Journey Optimizer]. However, they provide generic guidance to use Decision Management in the context of [!DNL Journey Optimizer].
 
 ### What is Decision Management? {#what-is-offer-decisioning}
 
