@@ -19,7 +19,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 ---
 # Create IP pools
 
-## About IP pools
+## About IP pools {#about-ip-pools}
 
 With Journey Optimizer, you can create IP pools to group together the IP addresses of your subdomains.
 
@@ -27,7 +27,7 @@ Creating IP pools is strongly recommended for email deliverability. By doing so,
 
 For example, one best practice is to have one IP pool for your marketing messages, and another one for your transactional messages. This way, if one of your marketing messages performs badly and is declared as spam by a customer, this will not affect the transactional messages sent to this same customer, who will still receive transactional messages (purchase confirmations, password recovery messages etc.).
 
-## Create an IP pool
+## Create an IP pool {#create-ip-pool}
 
 To create an IP pool, follow these steps:
 
@@ -53,8 +53,14 @@ The IP pool is now created and displays in the list. You can select it to access
 
 ![](../assets/ip-pool-created.png)
 
+## Edit an IP pool {#edit-ip-pool}
+
 To edit an IP pool, open it, then edit its properties as desired.
 
 >[!NOTE]
 >
->If a message preset has been associated to the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.
+>If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.
+
+>[!CAUTION]
+>
+>Proceed with extra care when considering deleting an IP or an IP pool, as this will put additionnal load on the other IPs and may have severe impacts on your deliverability and IP reputation. In case of any doubt, contact a deliverability expert.
