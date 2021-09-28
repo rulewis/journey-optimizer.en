@@ -77,6 +77,10 @@ Here are the first steps to configure a business event:
 
    In our example, we wrote a condition based on the product's id. This means that whenever the system receives an event that matches this condition, it will pass it to journeys.
 
+   >[!NOTE]
+   >
+   >In the simple expression editor, only the "contains" and "equal to" operators are available.
+
 1. Click **[!UICONTROL Save]**.
 
     ![](../assets/journey7-business.png)
