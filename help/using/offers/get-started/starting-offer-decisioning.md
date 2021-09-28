@@ -64,7 +64,7 @@ Permissions to access and use the offer decisioning capabilities are managed usi
 
 To grant access to the  Decision Management functionality, you need to create a **[!UICONTROL Product profile]** and assign the corresponding permissions to your users. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
-The permissions specific to Decision Management are listed in [this section](administration/high-low-permissions.md#manage-decisioning).
+The permissions specific to Decision Management are listed in [this section](../../administration/high-low-permissions.md#manage-decisioning).
 
 ## Glossary {#glossary}
 
