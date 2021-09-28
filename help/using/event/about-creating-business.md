@@ -79,7 +79,7 @@ Here are the first steps to configure a business event:
 
    >[!NOTE]
    >
-   >In the simple expression editor, only the "contains" and "equal to" operators are available.
+   >In the simple expression editor, not all operators are available, they depend on the data type. For example, for a string type of field, you can use "contains" or "equal to".
 
 1. Click **[!UICONTROL Save]**.
 
