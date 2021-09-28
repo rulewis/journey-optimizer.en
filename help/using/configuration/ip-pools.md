@@ -61,16 +61,20 @@ To edit an IP pool:
 
     ![](../assets/ip-pool-list.png)
 
-1. Edit its properties as desired: name, description, and IP addresses.
+1. Edit its properties as desired. You can modify the name, the description, and add or remove IP addresses.
 
     ![](../assets/ip-pool-edit.png)
+
+    >[!CAUTION]
+    >
+    >Proceed with extra care when considering deleting an IP, as this will put additionnal load on the other IPs and may have severe impacts on your deliverability. In case of any doubt, contact a deliverability expert.
 
 1. Save your changes.
 
 The update is effective immediately or asynchronously, depending on the IP pool being associated to a [message preset](message-presets.md) or not:
 
-* If the IP pool is **not** selected in a message preset, the update is instantaneous.
-* If the IP pool **is** selected in a message preset, the update can take up to 4 days.
+* If the IP pool is **not** selected in a message preset, the update is instantaneous (**[!UICONTROL Success]** status).
+* If the IP pool **is** selected in a message preset, the update can take up to 4 days (**[!UICONTROL Processing]** status).
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
@@ -86,6 +90,3 @@ To check the IP pool update status, click the **[!UICONTROL More actions]** butt
 
 You can also use the **[!UICONTROL More actions]** button to delete an IP pool. 
 
->[!CAUTION]
->
->Proceed with extra care when considering deleting an IP or an IP pool, as this will put additionnal load on the other IPs and may have severe impacts on your deliverability. In case of any doubt, contact a deliverability expert.
