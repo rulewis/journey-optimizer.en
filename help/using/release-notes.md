@@ -73,7 +73,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * System generated schemas and datasets that have been created during provisioning for step events are now in read-only mode, safeguarding against any inadvertant modifications to critical schemas.
 * Cleanly label the **Wait** activity with a label that will be displayed in the canvas. The label is also used in reporting and test mode logs to clearly identify what you are doing.
 * Find your events and actions faster by filtering elements in the **Events** and **Action** categories using search. Orchestration activities are no longer filtered.
-* When defining an event ID condition in a used-based or business event, the "contains" operator is now available for string type of fields.  
+* When defining an event ID condition in a rule-based or business event, the "contains" operator is now available for string types of fields.  
 
 ## August 2021 Release {#august-2021-release}
 
