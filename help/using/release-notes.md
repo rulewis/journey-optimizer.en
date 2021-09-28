@@ -43,7 +43,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <p>You can now pass collections or a list of data in your custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported: simple collections and object collections. Previously created custom actions will continue working. </p>
 <p>For more information on collections, refer to the <a href="building-journeys/collections.md">detailed documentation</a>. </p>
 <p>The filter and intersect functions have been added to the list of functions available in the advanced expression editor. This offers more possibilities for collection filtering and comparing.</p>
-<p>Consult the documentation on the <a href="https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functionfilter.md">filter</a> and <a href="https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functiontintersect.md">intersect</a> functions.</p>
+<p>Consult the documentation on the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> and <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> functions.</p>
 </td>
 </tr>
 </tbody>
@@ -73,7 +73,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 * System generated schemas and datasets that have been created during provisioning for step events are now in read-only mode, safeguarding against any inadvertant modifications to critical schemas.
 * Cleanly label the **Wait** activity with a label that will be displayed in the canvas. The label is also used in reporting and test mode logs to clearly identify what you are doing.
 * Find your events and actions faster by filtering elements in the **Events** and **Action** categories using search. Orchestration activities are no longer filtered.
-* When defining an event ID condition in a rule-based or business event, the "contains" operator is now available for string types of fields.  
+* When defining an event ID condition in a rule-based or business event, the "contains" operator is now available for string types of fields. [Learn more](event/about-creating.md) 
 
 ## August 2021 Release {#august-2021-release}
 
