@@ -60,6 +60,8 @@ When configuring a custom action, you need to define the following **[!UICONTROL
     >[!NOTE]
     >
     >For security reasons, we strongly recommend that you use the HTTPS scheme for the URL. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
+    >
+    >Only the default ports are allowed when defining a custom action: 80 for http and 443 for https.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
 1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
