@@ -25,7 +25,7 @@ The **[!UICONTROL Filter items]** icon in the top left corner allows you to disp
 
 * **Show only recent items**: this filter allows you to only display the last five events and actions used, in addition to out-of-the-box ones. This is specific to each user. By default, all items are displayed.
 
-You can also use the **[!UICONTROL Search]** field.
+You can also use the **[!UICONTROL Search]** field. Only events and actions are filtered.
 
 The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. 
 

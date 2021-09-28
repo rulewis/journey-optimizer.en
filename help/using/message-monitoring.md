@@ -62,7 +62,7 @@ For each message execution, a number of indicators are displayed:
 
 * **[!UICONTROL Start date]**: Date and time when the message has been executed from the journey.
 
-  <!--Targeted: Number of targeted profiles for each message execution. To come?-->
+* **[!UICONTROL Targeted]**: Number of targeted profiles for each message execution.
 
 * **[!UICONTROL Excluded]**: Number of profiles that have been excluded from the initial target due to exclusion rules.
 

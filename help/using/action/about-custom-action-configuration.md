@@ -11,7 +11,10 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 # Configure an action {#configure-an-action}
 
 If you're using a third-party system to send messages or if you want journeys to send API calls to a third-party system, this is where you configure its connection to journeys. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-journey-activities.md#action-activities). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
+
 Limitations are listed in [this page](../limitations.md).
+
+You can pass collections dynamically using custom actions. Refer to this [use case](../limitations.md).
 
 Here are the main steps required to configure a custom action:
 
@@ -50,13 +53,15 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
     * If the URL includes a dynamic path, enter only the static part of the URL, that is, the scheme, the host, the port, and, optionally, a static part of the path.
 
-        Example: `https://xxx.yyy.com:8080/somethingstatic/`
+        Example: `https://xxx.yyy.com/somethingstatic/`
 
         You will specify the dynamic path of the URL when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
     >[!NOTE]
     >
     >For security reasons, we strongly recommend that you use the HTTPS scheme for the URL. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
+    >
+    >Only the default ports are allowed when defining a custom action: 80 for http and 443 for https.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
 1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
@@ -102,3 +107,4 @@ You will also have a choice between specifying if a parameter is a constant or a
 * Variable means the value of the parameter will vary. The marketer using this custom action in a journey will be free to pass the value he wants or to specify where to retrieve the value for this parameter (e.g. from the event, from the Adobe Experience  Platform, etc.). In that case, the field on the right of the toggle constant/variable is the label the marketer will see in the journey to name this parameter.
 
 ![](../assets/customactionpayloadmessage2.png)
+

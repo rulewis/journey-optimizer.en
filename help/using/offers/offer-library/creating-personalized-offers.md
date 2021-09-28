@@ -156,6 +156,8 @@ Eligibility rules and constraints allow you to define the conditions under which
         >
         >Event-based offers are currently not supported in [!DNL Journey Optimizer]. If you create a decision rule based on an [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, you will not be able to leverage it in an offer.
 
+    Learn more on using segments versus decision rules in [this section](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
+
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
 
 1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total across all users. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.

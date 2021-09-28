@@ -92,7 +92,7 @@ Once [test profiles](#select-test-profiles) are selected, you can preview your m
 
 For a push notification preview:
 
-1. Switch to the **[!UICONTROL Push]** channel from the **[!UICONTROL Channels]** drop-down list on the top left of the **[!UICONTROL Preview]** screen.
+1. Switch to the **[!UICONTROL Push]** channel from the **[!UICONTROL Channels]** drop-down list at the top right of the **[!UICONTROL Preview]** screen.
 
     ![](assets/preview-select-channel.png)
 
