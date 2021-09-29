@@ -12,7 +12,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 
 ## Get started with AI rankings
 
-You can use an trained model system that ranks offers to display for a given profile.
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
 >[!CAUTION]
 >

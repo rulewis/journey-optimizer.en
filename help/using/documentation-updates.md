@@ -9,10 +9,25 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## September 2021
 
+* The following function pages have been updated: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* The following functions have been added: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* The dateOnly date type has been added in the expression editor documentation. [Read more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Added information on custom action default ports. [Read more](action/about-custom-action-configuration.md)
+
+* Added information on multiple business event use cases. [Read more](event/about-creating-business.md#multiple-business-events)
+
+* Added commonly used examples to query Journey Step Events in Data Lake. [Read more](reports/query-examples.md)
+
 * Added a new **Limitations** page. [Read more](limitations.md)
+
 * Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
 
-* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
+    <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
 * Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application service. [Read more](offers/get-started/starting-offer-decisioning.md)
 

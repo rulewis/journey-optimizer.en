@@ -60,11 +60,11 @@ Decision Management capabilities and integration with Adobe Experience Platform 
 
 ## Grant access to Decision Management {#granting-acess-to-decision-management}
 
-Permissions to access and use the offer decisioning capabilities are managed using the [Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html). 
+Permissions to access and use the offer decisioning capabilities are managed using the [Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target="_blank"}. 
 
 To grant access to the  Decision Management functionality, you need to create a **[!UICONTROL Product profile]** and assign the corresponding permissions to your users. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
-The permissions specific to Decision Management are listed in [this section](../../administration/high-low-permissions.md#manage-decisioning).
+The permissions specific to Decision Management are listed in [this section](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Glossary {#glossary}
 
