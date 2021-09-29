@@ -70,7 +70,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Journeys**
 
-* System generated schemas and datasets that have been created during provisioning for step events are now in read-only mode, safeguarding against any inadvertant modifications to critical schemas.
+* System generated schemas and datasets that have been created during provisioning for step events are now in read-only mode, safeguarding against any inadvertent modifications to critical schemas. [Learn more](reports/sharing-overview.md) 
 * Cleanly label the **Wait** activity with a label that will be displayed in the canvas. The label is also used in reporting and test mode logs to clearly identify what you are doing. [Learn more](building-journeys/using-the-journey-designer.md) 
 * Find your events and actions faster by filtering elements in the **Events** and **Action** categories using search. Orchestration activities are no longer filtered. [Learn more](building-journeys/about-creating.md) 
 * When defining an event ID condition in a rule-based or business event, the "contains" operator is now available for string types of fields. [Learn more](event/about-creating.md) 
