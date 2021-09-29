@@ -17,7 +17,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* Added information on custom action default ports. [Read more](action/about-custom-action-configuration.md)
+* Added information on custom action default ports. [Read more](action/about-custom-action-configuration.md#url-configuration)
 
 * Added information on multiple business event use cases. [Read more](event/about-creating-business.md#multiple-business-events)
 
