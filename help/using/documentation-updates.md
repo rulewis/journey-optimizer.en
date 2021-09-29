@@ -27,7 +27,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
 
-* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
+    <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
 * Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application service. [Read more](offers/get-started/starting-offer-decisioning.md)
 

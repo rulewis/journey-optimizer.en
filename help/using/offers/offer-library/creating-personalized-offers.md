@@ -114,25 +114,27 @@ To add content from an external public location, select **[!UICONTROL URL]**, th
 
 You can also insert text-type content when selecting a compatible placement.
 
-1. Select the **[!UICONTROL Custom]** option and click **[!UICONTROL Add content]**.
+1. Select the **[!UICONTROL Custom]** option<!--and click **[!UICONTROL Add content]**-->.
 
-    ![](../../assets/offer-add-content.png)
+    <!--![](../../assets/offer-add-content.png)-->
 
     >[!NOTE]
     >
     >This option is not available for image-type placements.
 
-1. Type the text that will display in the offer.
+1. Type the text that will display in the offer in the dedicated area.
 
-    ![](../../assets/offer-text-content.png)
+    ![](../../assets/offer-text-content2.png)
 
-1. You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
+    <!--![](../../assets/offer-text-content.png)-->
+
+<!--1. You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
 
     ![](../../assets/offer-personalization.png)
 
     >[!NOTE]
     >
-    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.
+    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.-->
 
 ## Add eligibility rules and constraints {#eligibility}
 

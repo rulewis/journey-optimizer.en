@@ -49,7 +49,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-
+<!-->
 <table>
 <thead>
 <tr>
@@ -65,7 +65,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tr>
 </tbody>
 </table>
-
+-->
 ### Improvements
 
 **Journeys**
