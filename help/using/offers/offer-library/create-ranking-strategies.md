@@ -12,11 +12,11 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 
 ## Get started with AI rankings
 
-If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, you can use an trained model system that ranks offers to display for a given profile.
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
 >[!CAUTION]
 >
->The use of AI ranking in Offer Decisioning is currently available in early access to **Adobe Experience Platform select users** only.
+>The use of AI ranking is currently available in early access to select users only.
 
 This feature enables you to create different **ranking strategies** based on your business goals. Using these different goal-based strategies in a decision (formerly known as offer activity), the trained model system will help you understand how the different ranking strategies are impacting your goals.
 

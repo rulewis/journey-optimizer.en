@@ -12,7 +12,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 If several offers are eligible for a given placement, you can choose the method that will select the best offer for each profile when configuring a decision (previously known as offer activity). You can rank offers by:
 * Offer priority
 * Ranking formula
-* [AI ranking](#use-ranking-strategy) (for Adobe Experience Platform select users only)
+* [AI ranking](#use-ranking-strategy) (in early access for select users only)
 
 ![](../../assets/offer-rank-by.png)
 
@@ -54,11 +54,11 @@ If multiple offers are eligible to be presented in this placement, the decision 
 
 ## AI ranking {#use-ranking-strategy}
 
-If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service, you can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
->The use of AI ranking in Offer Decisioning is currently available in early access to **Adobe Experience Platform select users** only.
+>The use of AI ranking is currently available in early access to select users only.
 
 Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this this, follow the steps below:
 
