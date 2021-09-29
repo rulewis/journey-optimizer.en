@@ -61,7 +61,7 @@ To edit an IP pool:
 
     ![](../assets/ip-pool-list.png)
 
-1. Edit its properties as desired. You can modify the name, the description, and add or remove IP addresses.
+1. Edit its properties as desired. You can modify the description, and add or remove IP addresses.
 
     ![](../assets/ip-pool-edit.png)
 
