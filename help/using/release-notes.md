@@ -8,6 +8,78 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
 
 
+
+## September 2021 Release {#september-2021-release}
+
+### New capabilities
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Reporting - Better insight to targeted audience</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new metric is available in reporting: targeted audience for email & push messages is visible in both live and global reports.</p>
+<p>A new column in the message execution list displays the number of targeted profiles for each message execution. </p>
+<p>For more information, refer to the <a href="message-monitoring.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Pass lists of data dynamically using custom actions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now pass collections or a list of data in your custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported: simple collections and object collections. Previously created custom actions will continue working. </p>
+<p>For more information on collections, refer to the <a href="building-journeys/collections.md">detailed documentation</a>. </p>
+<p>The filter and intersect functions have been added to the list of functions available in the advanced expression editor. This offers more possibilities for collection filtering and comparing.</p>
+<p>Consult the documentation on the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> and <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> functions.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Improvements
+
+**Journeys**
+
+* System generated schemas and datasets that have been created during provisioning for step events are now in read-only mode, safeguarding against any inadvertent modifications to critical schemas. [Learn more](reports/sharing-overview.md) 
+* Cleanly label the **Wait** activity with a label that will be displayed in the canvas. The label is also used in reporting and test mode logs to clearly identify what you are doing. [Learn more](building-journeys/about-journey-activities.md#best-practices) 
+* Find your events and actions faster by filtering elements in the **Events** and **Action** categories using search. Orchestration activities are no longer filtered. [Learn more](building-journeys/using-the-journey-designer.md)
+* When defining an event ID condition in a rule-based or business event, the "contains" operator is now available for string types of fields. [Learn more](event/about-creating.md)
+
+**Email configuration**
+
+* When an IP pool has been associated with a message preset, you can now edit it, the update being asynchronous. You can also check each IP pool update status. [Learn more](configuration/ip-pools.md#edit-ip-pool)
+
 ## August 2021 Release {#august-2021-release}
 
 ### New capabilities

@@ -90,6 +90,7 @@ solution: Journey Optimizer
   + Use cases {#journey-use-cases}
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+    + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
 + Track and monitor {#reporting}
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
@@ -109,6 +110,7 @@ solution: Journey Optimizer
     + [Action execution fields](using/reports/sharing-execution-fields.md)
     + [Data fetch fields](using/reports/sharing-fetch-fields.md)
     + [Identity fields](using/reports/sharing-identity-fields.md)
+    + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
     + [Suppression list](using/suppression-list.md)
@@ -124,6 +126,7 @@ solution: Journey Optimizer
     + [Create decision rules](using/offers/offer-library/creating-decision-rules.md)
     + [Create tags](using/offers/offer-library/creating-tags.md)
     + [Create ranking formulas](using/offers/offer-library/create-ranking-formulas.md)
+    + [Create ranking strategies](using/offers/offer-library/create-ranking-strategies.md)
   + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Create personalized offers](using/offers/offer-library/creating-personalized-offers.md)
     + [Create fallback offers](using/offers/offer-library/creating-fallback-offers.md)

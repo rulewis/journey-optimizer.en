@@ -13,7 +13,7 @@ Decisions (previously known as offer activities) are containers for your offers 
 
 ➡️ [Discover this feature in video](#video)
 
-The list of decisions is accessible in the **[!UICONTROL Offers]** menu / **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
+The list of decisions is accessible in the **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
 
 ![](../../assets/activities-list.png)
 
@@ -28,7 +28,9 @@ Before creating a decision, make sure that the components below have been create
 
 1. Access the decisions list, then click **[!UICONTROL Create decision]**.
 
-1. Specify the decision's name as well as its start and end date and time, then click **[!UICONTROL Next]**.
+1. Specify the decision's name.
+
+1. Define a start and end date and time, then click **[!UICONTROL Next]**.
 
     ![](../../assets/activities-name.png)
 
@@ -46,29 +48,53 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../../assets/activities-collection.png)
 
-1. The selected offers are added to the placement. In this example, we selected two offers that will display into a JSON-type placement aimed at presenting offers into a call center solution.
+1. The selected offers are added to the placement.
+
+    In this example, we selected two offers that will display into a JSON-type placement aimed at presenting offers into a call center solution.
 
     ![](../../assets/offers-added.png)
 
 1. By default, if multiple offers are eligible for this placement, the offers with the highest priority score will be delivered to the customer.
 
-    If you want to use a specific formula to choose which eligible offer to deliver, select a ranking formula from the **[!UICONTROL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
+    If you want to use a specific formula or a ranking strategy to choose which eligible offer to deliver, select a ranking formula from the **[!UICONTROL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
 
-1. The **[!UICONTROL Constraint]** field restricts the selection of offers for this placement. This constraint can be applied by using a decision rule or one or several Adobe Experience Platform segments.
+1. The **[!UICONTROL Constraint]** field restricts the selection of offers for this placement. This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](#segments-vs-decision-rules).
 
-    To restrict the selection of the offers to the members of an Adobe Experience Platform segments, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
+    * To restrict the selection of the offers to the members of an Adobe Experience Platform segments, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
 
-    ![](../../assets/activity_constraint_segment.png)
+        ![](../../assets/activity_constraint_segment.png)
     
-    Add one or several segments from the left pane, combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators, then click **[!UICONTROL Select]** to confirm.
+        Add one or several segments from the left pane, combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators, then click **[!UICONTROL Select]** to confirm.
 
-    For more on how to work with segments, refer to [this page](../../segment/about-segments.md).
+        ![](../../assets/activity_constraint_segment2.png)
 
-    ![](../../assets/activity_constraint_segment2.png)
+        Learn more on how to work with segments in [this section](../../segment/about-segments.md).
 
-    If you want to add a selection constraint for this placement using a decision rule, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md). 
+    * If you want to add a selection constraint for this placement using a decision rule, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
 
-    ![](../../assets/activity_constraint_rule.png)
+        ![](../../assets/activity_constraint_rule.png)
+
+        Learn more on how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
+
+### Using segments vs decision rules {#segments-vs-decision-rules}
+
+<!--to move to create-offers?-->
+
+To apply a constraint, you can restrict the selection of offers to the members of one or several **Adobe Experience Platform segments**, or you can use a **decision rule**, both solutions corresponding to different usages.
+
+Basically, the output of a segment is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process. The difference between those two usages are detailed below.
+
+* **Segments**
+
+    On one hand, segments are a group of Adobe Experience Platform profiles that match a certain logic based on profile attributes and experience events. However, Offer Management does not recompute the segment, which may not be up-to-date when presenting the offer.
+
+    Learn more on segments in [this section](../../segment/about-segments.md).
+
+* **Decision rules**
+    
+    On the other hand, a decision rule is based on data available in Adobe Experience Platform and determines to whom an offer can be shown. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
+
+    Learn more on decision rules in [this section](../offer-library/creating-decision-rules.md).
 
 ## Add a fallback offer {#add-fallback}
 

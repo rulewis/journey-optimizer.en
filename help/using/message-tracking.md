@@ -106,7 +106,9 @@ To add an opt-out link in your email, follow the steps below.
 
     ![](assets/message-tracking-opt-out-confirmation.png)
 
-1. Click **[!UICONTROL Save]**.
+    You can personalize your links. Learn more on personalized URLs in [this section](personalization/personalization-syntax.md).
+
+1. Save your changes.
 
 Once your message is sent, if a recipient clicks the opt-out link, he is immediately opted out.
 
