@@ -126,15 +126,17 @@ You can also insert text-type content when selecting a compatible placement.
 
     ![](../../assets/offer-text-content2.png)
 
-    <!--![](../../assets/offer-text-content.png)-->
+<!--
 
-<!--1. You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
+![](../../assets/offer-text-content.png)
 
-    ![](../../assets/offer-personalization.png)
+You can personalize your content using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor).
 
-    >[!NOTE]
-    >
-    >Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.-->
+![](../../assets/offer-personalization.png)
+
+>[!NOTE]
+>
+>Only the **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** and **[!UICONTROL Helper functions]** sources are available for Decision Management.-->
 
 ## Add eligibility rules and constraints {#eligibility}
 
