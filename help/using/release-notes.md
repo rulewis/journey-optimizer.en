@@ -66,6 +66,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 -->
+
 ### Improvements
 
 **Journeys**
