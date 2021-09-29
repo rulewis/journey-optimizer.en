@@ -78,7 +78,7 @@ To edit an IP pool:
 The update is effective immediately or asynchronously, depending on the IP pool being associated to a [message preset](message-presets.md) or not:
 
 * If the IP pool is **not** selected in a message preset, the update is instantaneous (**[!UICONTROL Success]** status).
-* If the IP pool **is** selected in a message preset, the update can take up to 4 days (**[!UICONTROL Processing]** status).
+* If the IP pool **is** selected in a message preset, the update can take up to 7-10 business days (**[!UICONTROL Processing]** status).
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
