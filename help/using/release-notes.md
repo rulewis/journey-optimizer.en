@@ -22,7 +22,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>A new metric is available in reporting: targeted audience for email & push messages is visible in both live and global reports.</p>
+<p>New metrics are available in reporting: Targeted and Excluded for email & push messages are visible in both live and global reports. </br> To have access to the latest metrics, please note that you will have to reset the different reporting dashboards for each channel and reporting type. For more information on dashboard customization, refer to the <a href="reports/live-report.md">detailed documentation.</a></p>
 <p>A new column in the message execution list displays the number of targeted profiles for each message execution. </p>
 <p>For more information, refer to the <a href="message-monitoring.md">detailed documentation</a>.</p>
 </td>
