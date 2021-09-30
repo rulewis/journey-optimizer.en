@@ -24,11 +24,9 @@ You will then be able to assign team members to product profiles and **setup cha
 
 Learn more in the following pages:
 
-* **Get started with product profiles and permissions**
-
 * **Set user permissions** and give access to your team members. [Read more](../using/administration/permissions.md)
 
-* **Deploy [!DNL Adobe Experience Manager Assets Essentials]** to manage assets and images in your messages: users who need access to [!DNL Assets Essentials] must be a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}
+* **Deploy [!DNL Adobe Experience Manager Assets Essentials]** to manage assets and images in your messages: users who need access to [!DNL Assets Essentials] must be a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more in Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}
 
 * **Configure your channels** and define your email and push notification settings. [Read more](../using/configuration/get-started-configuration.md)
 
@@ -41,7 +39,7 @@ Learn more in the following pages:
 
 As a Data Administrator, you need to **identify data and create schema and dataset** to get your data into Adobe Experience Platform. 
 
-Steps to create an identity namespace and a dataset enabled for profiles, and create segments and test profiles are detailed in the sections below:
+Steps to create an identity namespace and a dataset enabled for profiles, create segments and test profiles are detailed in the sections below:
 
 * Learn how to preview and create a **dataset** in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html){target="_blank"}
 
@@ -57,7 +55,7 @@ In addition, to be able send messages in journeys, you must configure **[!UICONT
 
 ## Create messages, offers and journeys
 
-As a Journey Practicioner, refer to the following sections to set up your first journey, add offers, assets and send messages:
+As a Journey Practicioner, refer to the following sections to set up your first journey, add offers and assets, and send messages:
 
 * **Create messages**: access messages, design or load email and push content, add personalization and preview messages. [Read more](create-message.md)
 
