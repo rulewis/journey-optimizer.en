@@ -22,7 +22,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>A new metric is available in reporting: targeted audience for email & push messages is visible in both live and global reports.</p>
+<p>New metrics are available in reporting: Targeted and Excluded for email & push messages are visible in both live and global reports. </br> To have access to the latest metrics, please note that you will have to reset the different reporting dashboards for each channel and reporting type. For more information on dashboard customization, refer to the <a href="reports/live-report.md">detailed documentation.</a></p>
 <p>A new column in the message execution list displays the number of targeted profiles for each message execution. </p>
 <p>For more information, refer to the <a href="message-monitoring.md">detailed documentation</a>.</p>
 </td>
@@ -43,7 +43,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <p>You can now pass collections or a list of data in your custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported: simple collections and object collections. Previously created custom actions will continue working. </p>
 <p>For more information on collections, refer to the <a href="building-journeys/collections.md">detailed documentation</a>. </p>
 <p>The filter and intersect functions have been added to the list of functions available in the advanced expression editor. This offers more possibilities for collection filtering and comparing.</p>
-<p>Consult the documentation on the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> and <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> functions.</p>
+<p>Consult the documentation on the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> and <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> functions.</p>
 </td>
 </tr>
 </tbody>
