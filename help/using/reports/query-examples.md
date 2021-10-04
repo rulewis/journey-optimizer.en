@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 ---
 # Examples of queries{#query-examples}
 
