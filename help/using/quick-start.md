@@ -34,7 +34,7 @@ To learn and discover the power of Journey Optimizer with step-by-step guidance,
   </td>
   <td valign="bottom">
       <a href="path/marketer.md">
-       <img alt="Marketer" src="using/assets/do-not-localize/user-3.jpeg" />
+       <img alt="Marketer" src="../using/assets/do-not-localize/user-3.jpeg" />
        </a>
     <div><a href="path/marketer.md">I am a Marketer</a>
      <p>Design messages, add offers, assets, and build customer journeys
