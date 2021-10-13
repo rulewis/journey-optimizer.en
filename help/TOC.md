@@ -15,7 +15,7 @@ solution: Journey Optimizer
   + [Latest updates](using/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
-  + Quick Start {#quick-start}
+  + Quick Start{#quick-start}
     + [Overview](using/quick-start.md)
     + [Get Started as a Marketer](using/path/marketer.md)
     + [Get Started as a Data engineer](using/path/data-engineer.md)
