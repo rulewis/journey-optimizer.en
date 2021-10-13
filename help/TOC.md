@@ -17,10 +17,10 @@ solution: Journey Optimizer
   + [What is Journey Optimizer](using/get-started.md)
   + [Quick Start] {#quick-start}
     + [Overview](using/quick-start.md)
-    + [Get Started as a Marketer](using/marketer.md)
-    + [Get Started as a Data engineer](using/data-engineer.md)
-    + [Get Started as an Administrator](using/administrator.md)    
-    + [Get Started as a Developer](using/developer.md)      
+    + [Get Started as a Marketer](using/path/marketer.md)
+    + [Get Started as a Data engineer](using/path/data-engineer.md)
+    + [Get Started as an Administrator](using/path/administrator.md)    
+    + [Get Started as a Developer](using/path/developer.md)      
   + [User interface](using/user-interface.md)
   + [Limitations](using/limitations.md)
 + Messages {#create-messages}
