@@ -110,7 +110,7 @@ To add an opt-out link in your email, follow the steps below.
 
 1. Save your changes.
 
-Once your message is sent, if a recipient clicks the opt-out link, he is immediately opted out.
+Once your message is sent, if recipients click the opt-out link, they are immediately opted out.
 
 ## Manage tracking {#manage-tracking}
 

@@ -9,7 +9,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 ---
 # Get started with personalization{#add-personalization}
 
-Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about him/her. It can be his first name, his interests, where he lives, what he bought, and more.
+Discover [!DNL Adobe Journey Optimizer] personalization capabilities to adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and more.
 
 ➡️ [Learn how to personalize a message in these videos](#video-perso)
 

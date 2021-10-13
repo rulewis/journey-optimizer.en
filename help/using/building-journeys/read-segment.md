@@ -113,7 +113,7 @@ You can use conditions to perform segmentation using the **Condition** activity.
 The segmentation can be based on:
 
 * data source data
-* the context of events part of the journey data, for example: did a person click on the message she received an hour ago?
+* the context of events part of the journey data, for example: did a person click on the message received an hour ago?
 * a date, for example: are we in June when a person go through the journey?
 * a time, for example: is it morning in the person’s timezone?
 * an algorithm splitting the audience flowing in the journey based on a percentage, for example: 90% - 10% to exclude a control group

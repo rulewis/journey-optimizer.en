@@ -19,7 +19,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 ---
 # Delegate a subdomain
 
-Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, if a customer is handling the zone “example.com”, he can delegate the sub-zone “marketing.example.com” to Adobe.
+Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, as a customer, if you are handling the “example.com” zone, you can delegate the sub-zone “marketing.example.com” to Adobe.
 
 By delegating a subdomain for use with [!DNL Journey Optimizer], clients can rely on Adobe to maintain the DNS infrastructure required to meet industry-standard deliverability requirements for their email marketing sending domains, while continuing to maintain and control DNS for their internal email domains.
 
