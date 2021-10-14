@@ -116,13 +116,19 @@ Once [test profiles](#select-test-profiles) are selected, you can send proofs.
 
     ![](assets/send-proof-button.png)
 
-1. From the **[!UICONTROL Send proof]** window, in addition to the test profiles, type in your recipient's email and click **[!UICONTROL Add]** to send the proof to yourself or members of your organizations.
+1. From the **[!UICONTROL Send proof]** window, type in your recipient's email and click **[!UICONTROL Add]** to send the proof to yourself or members of your organizations.
 
-    Note that you can add up to 10 recipients for your proof delivery.
+    Note that you can add up to ten recipients for your proof delivery.
 
     ![](assets/send-proof-button_2.png)
 
-1. Then, select the test profiles who will receive the proof and click **[!UICONTROL Send proof]**. You can add a prefix to the subject line of the proof if needed. Only alphanumeric characters and special characters e.g., . - _ ( ) [ ], are allowed as prefix to the subject line.
+1. Then, select the **Test profiles** which will be used to personalize the message content. 
+    
+    Each recipient of the proof will receive as many messages as the number of selected test profiles. For example, if you added five recipient emails and selected ten test profiles, then you will send fifty proof messages, and each recipient will receive ten of them.
+
+1. You can add a prefix to the subject line of the proof if needed. Only alphanumeric characters and special characters e.g., . - _ ( ) [ ], are allowed as prefix to the subject line.
+
+1. Click **[!UICONTROL Send proof]**. 
 
     ![](assets/send-proof-select.png)
 
@@ -130,11 +136,11 @@ Once [test profiles](#select-test-profiles) are selected, you can send proofs.
 
     ![](assets/send-proof-view.png)
 
-You need to send proofs after any modification to the message content.
+It is recommended to send proofs after each modification to the message content.
 
 >[!NOTE]
 >
-> In the proof sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>In the proof sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
 ## Email rendering{#email-rendering}
 
