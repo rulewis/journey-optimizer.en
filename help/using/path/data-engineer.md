@@ -7,15 +7,15 @@ level: Intermediate
 
 ![data engineer](assets/do-not-localize/user-2-S.jpeg) 
 
-As an **Adobe Journey Optimizer Data Engineer**, prepare and maintain customer profile data used to power the experiences orchestrated by [!DNL Journey Optimizer], model customer and business data in schemas and configure source connectors for ingesting data.
+As an **Adobe Journey Optimizer Data Engineer**, prepare and maintain customer profile data to power the experiences orchestrated by [!DNL Journey Optimizer], model customer and business data in schemas and configure source connectors for ingesting data.
 
 Learn how to **identify data and create schema and dataset** to get your data into Adobe Experience Platform in this page. 
 
 >[!NOTE]
 >
->Learn more about **data ingestion** in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}
+>Learn more about **data ingestion** in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
-Steps to create an identity namespace and a dataset enabled for profiles, create segments and test profiles are detailed in the sections below:
+Steps to create an identity namespace and a dataset enabled for profiles, and test profiles are detailed in the sections below:
 
 1.  **Create an identity namespace**. In Adobe [!DNL Journey Optimizer], **Identities** link consumers across devices and channels, the result is an identity graph. The linked identity graph is used to personalize experiences based on interactions across all of your business touchpoints.  Learn more about identities and identity namespaces [in this page](../get-started-identity.md).
 

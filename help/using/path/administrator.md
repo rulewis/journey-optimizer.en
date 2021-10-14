@@ -9,7 +9,7 @@ level: Intermediate
 
 Before starting using [!DNL Adobe Journey Optimizer], several steps are required to prepare your environment.
 
-As a System Administrator, you need to **understand product profiles and assign permissions** for sandbox administration and channel configuration. You also need to setup sandbox(es) and manage them for the available product profiles.
+As a **System Administrator**, you need to **understand product profiles and assign permissions** for sandbox administration and channel configuration. You also need to setup sandbox(es) and manage them for the available product profiles.
 
 You will then be able to assign team members to product profiles.
 
@@ -25,13 +25,13 @@ Learn about access management in the following pages:
 
 1. **Manage sandboxes** to partition your instances into separate, isolated virtual environments. Learn more in the [Sandboxes](../../using/administration/sandboxes.md) section.
 
-In addition, you must * **Deploy [!DNL Adobe Experience Manager Assets Essentials]** to manage assets and images in your messages: users who need access to [!DNL Assets Essentials] must be a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more in Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}
+In addition, you must **Deploy [!DNL Adobe Experience Manager Assets Essentials]** to manage assets and images in your messages: users who need access to [!DNL Assets Essentials] must be a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more in Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
 
 When accessing [!DNL Journey Optimizer] for the first time, you are provisioned a production sandbox and allocated a certain number of IPs depending on your contract.
 
 To be able to create your journeys and send messages, you need to go though these configuration steps:
 
-1. **Configure messages and channels**: define presets, adapt and customize email and push messages
+1. **Configure messages and channels**: define presets, adapt and customize email and push messages settings
 
     * Define **push notifications settings** in both [!DNL Adobe Experience Platform] and [!DNL Adobe Experience Platform Launch]. [Learn more](../push-gs.md)
 
@@ -46,3 +46,14 @@ To be able to create your journeys and send messages, you need to go though thes
 1. **Create IP pools**: improve your email deliverability and reputation by grouping together IP addresses provisioned with your instance. [Learn more](ip-pools.md)
 
     ![](../assets/ip-pool.png)
+
+1. **Manage the suppression and allowed list**: improve your deliverability with suppression and allowed lists
+    
+    * A [suppression list](../suppression-list.md) consists of email addresses that you want to exclude from your deliveries, because sending to these contacts could hurt your sending reputation and delivery rates. You can monitor all the email addresses that are automatically excluded from sending in a journey, such as invalid addresses, addresses that consistently soft-bounce, and could adversely affect your email reputation, and recipients who issue a spam complaint of some kind against one of your email messages. Learn how to manage the [suppression list](../configuration/manage-suppression-list.md) and [retries](../configuration/retries.md).
+
+        ![](../assets/suppression-list-filtering-example.png)
+
+    * The [allowed list](../allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../allow-list.md).
+
+    Learn more about deliverability management in Adobe Journey Optimizer [in this page](../deliverability.md).
+
