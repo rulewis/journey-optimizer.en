@@ -13,8 +13,6 @@ With [!DNL Adobe Journey Optimizer], you can import existing message content or 
 
 Based on your organization, you can define several types of users and grant them access to certain capabilities depending on their permissions.
 
-![](../using/assets/do-not-localize/AJO-users.jpeg) 
-
 Just starting with [!DNL Journey Optimizer]? Experienced user with specific questions? Administrator of your company instance? Take your own path to get to your goals faster!
 
 To learn and discover the power of Journey Optimizer with step-by-step guidance, select your profile.
