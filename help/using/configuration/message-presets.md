@@ -153,7 +153,23 @@ If one of these errors occurs, contact the [Adobe Customer Care Support Team](ht
 
 ## Edit message presets
 
-To edit a message preset, you first need to de-activate it to make it unavailable to create new messages (published messages using this preset will not be affected and will continue working). You then need to duplicate the message preset to create a new version that you will use to create new messages:
+To edit a message preset, follow the steps below.
+
+1. From the list, click the message preset name to open it.
+
+1. Edit its properties as desired.
+
+    If a message preset is active, the name, channel and subdomain fields are not editable.
+
+    The SMS settings are not editable.
+
+1. Save your changes.
+
+To check the message preset update status, click the More actions button and select Recent updates.
+
+You cannot modify a message preset while edition is in progress.
+
+you first need to de-activate it to make it unavailable to create new messages (published messages using this preset will not be affected and will continue working). You then need to duplicate the message preset to create a new version that you will use to create new messages:
 
 1. Access the message presets list, then de-activate the message preset that you want to edit.
 
