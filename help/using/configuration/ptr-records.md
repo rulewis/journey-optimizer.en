@@ -39,6 +39,22 @@ The list shows the PTR records generated for each delegated subdomain, using the
 
 You can open a PTR record from the list to display the associated subdomain name and IP address.
 
->[!NOTE]
->
->Note that the PTR records are read-only and that you cannot modify the subdomain associated to an IP address.
+## Edit a PTR record
+
+You can modify PTR records to edit the subdomain associated to an IP address.
+
+1. From the list, click a PTR record name to open it.
+
+1. Edit the subdomain as desired.
+
+    >[!NOTE]
+    >
+    >You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
+
+1. Click **[!UICONTROL Update]** to save your changes.
+
+An **[!UICONTROL Updating]** icon displays next to the name of the PTR record in the list.
+
+To check the PTR record update details, click the **[!UICONTROL More actions]** button and select **[!UICONTROL Recent updates]**.
+
+You can see information such as the update status with the approximate remaining time before completion and the requested changes.
