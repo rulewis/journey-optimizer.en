@@ -13,6 +13,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 ## About simulations
 
 As a user, I want a way to simulate which offers will be delivered to a test profile for a given placement, so that I can validate my decisioning logic.
+This feature enables users to test their offers according to a test profile.
 
 ➡️ [Discover this feature in video](#video)
 
