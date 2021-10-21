@@ -76,7 +76,7 @@ For this use case, the following prerequisites are needed:
 1. Select the **Context** category. This item is only available if a journey has passed contextual data to the message. Click **Journey Orchestration**. The following contextual information appears:
 
    * **Events**: this category regroups all fields from the event(s) placed before the **Message** activity in the journey.
-   * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. Learn more in [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target="_blank"}.
+   * **Journey Properties**: the technical fields related to the journey for a given profile, for example the journey ID or the specific errors encountered. [Read more](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
