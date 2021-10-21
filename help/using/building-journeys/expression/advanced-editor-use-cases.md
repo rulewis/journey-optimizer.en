@@ -74,7 +74,7 @@ This expression returns a boolean.
 
 * And specify SKU, using the function `first` to retrieve the most recent "addToCart" interaction:  
 
-    ```
+    ```json
         #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent

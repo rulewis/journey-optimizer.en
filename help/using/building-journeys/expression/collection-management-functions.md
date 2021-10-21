@@ -55,7 +55,7 @@ These functions are explained below. In the following examples, let’s use the 
 
 The **[!UICONTROL all]** function enables the definition of a filter on a given collection by using a boolean expression.
 
-   ```
+   ```json
    <listExpression>.all(<condition>)
    ```
 
@@ -67,7 +67,7 @@ In a Data Source Condition activity you can check if the result of the **[!UICON
 
 We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the **[!UICONTROL count]** function to check that the returned list of tokens contains at least one element.
 
-   ```
+   ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
    ```
 
@@ -77,7 +77,7 @@ The result is true.
 
 Here we use the **[!UICONTROL count]** function to check if there are push notification tokens in the collection.
 
-   ```
+   ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
    ```
 
@@ -85,7 +85,7 @@ The result will be true.
 
 <!--Alternatively, you can check if there is no token in the collection:
 
-   ```
+   ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
    ```
 
@@ -111,7 +111,7 @@ earlier timestamp) in order to only consider prior events.-->
    >When the filtering condition in the **all()** function is empty, the filter will return all the elements in the list. **However, in order to count the number of elements of a collection, the all function is not required.**
 
 
-   ```
+   ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
    ```
 
@@ -176,7 +176,7 @@ _`<listExpression>.last(<condition>)`_
 
 This expression returns the first push notification token associated to mobile applications for which the version is 1.0.
 
-   ```
+   ```json
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
    ```
 
@@ -186,7 +186,7 @@ The result is "token_1".
 
 This expression returns the last push notification token associated to mobile applications for which the version is 1.0.
 
-   ```
+   ```json
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
    ```
 
@@ -203,7 +203,7 @@ This expression returns the last push notification token associated to mobile ap
 
 We check whether the first (most recent) Adobe Analytics event with a non-zero value for DMA ID has a value equal to 602.
 
-   ```
+   ```json
    #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
    currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
    ```
@@ -219,7 +219,7 @@ _`<listExpression>`.at(`<index>`)_
 
 This expression returns the second push notification token of the list.
 
-   ```
+   ```json
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
    ```
 
