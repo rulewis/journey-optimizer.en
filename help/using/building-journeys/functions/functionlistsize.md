@@ -1,0 +1,56 @@
+---
+title: listSize
+description: Learn about the function listSize
+feature: Journeys
+role: Data Engineer
+level: Experienced
+---
+# listSize {#listSize}
+
+Counts the number of elements in the list.
+
+## Category
+
+List
+
+## Function syntax
+
+`listSize(<parameters>)`
+
+## Parameters
+
+| Parameter | Type             |
+|-----------|------------------|
+| List      | listString       |
+| List      | listBoolean      |
+| List      | listInteger      |
+| List      | listDecimal      |
+| List      | listDuration     |
+| List      | listDateTime     |
+| List      | listDateTimeOnly |
+
+## Signatures and returned type
+
+`listSize(<listInteger>)`
+
+`listSize(<listDecimal>)`
+
+`listSize(<listString>)`
+
+`listSize(<listBoolean>)`
+
+`listSize(<listDateTimeOnly>)`
+
+`listSize(<listDateTime>)`
+
+`listSize(<listDuration>)`
+
+`listSize(<listPoint>)`
+
+Return an integer.
+
+## Example
+
+`listSize([10,2,3])`
+
+Returns 3.
