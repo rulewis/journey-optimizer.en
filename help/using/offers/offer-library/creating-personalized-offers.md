@@ -12,8 +12,8 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 Before creating an offer, make sure that you created:
 
 * A **placement** in which the offer will be displayed. See [Create placements](../offer-library/creating-placements.md)
-* If you want to add an eligibility condition: a **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../offer-library/creating-decision-rules.md).
-* One or several **tags** that you may want to associate to the offer. See [Create tags](../offer-library/creating-tags.md).
+* A **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../offer-library/creating-decision-rules.md).
+* One or several **tags** that you want to associate to the offer. See [Create tags](../offer-library/creating-tags.md).
 
 ➡️ [Discover this feature in video](#video)
 
