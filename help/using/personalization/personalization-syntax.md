@@ -150,7 +150,7 @@ Journey Orchestration allows you to personalize one or several URLs in your mess
 
 >[!NOTE]
 >
->In the expression editor, when you edit a personnalized URL, helper functions and segments membership are disabled for security reasons.
+>In the expression editor, when you edit a personalized URL, helper functions and segments membership are disabled for security reasons.
 >
 
 ** Sample personalized URLs **
