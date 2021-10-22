@@ -9,6 +9,96 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 
 
+## October 2021 Release {#oct-2021-release}
+
+### New capabilities
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Journeys - Subscription list messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a <bold>Read segment</bold> activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
+<!--<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Journeys - Counter condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <bold>Condition</bold> activity in a journey, you can now define a counter condition. This new condition type allows you to define a capping on how many times it can get executed. This allows you to optimize your IP ramp up. For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Offer Simulations</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now simulate which offers will be delivered to a test profile for a given placement and validate your decision logic.</p>
+<!--<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers (starting Nov 1st)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<!--<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+**Journeys**
+
+* **Accessibility** - Accessibility enhancements have been implemented in journeys
+
+* **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution. 
+
+* **Monitoring** - Step events for live journeys and test mode have been enhanced. This allows for an improved troubleshooting. 
+
+**Reporting**
+
+* **Custom column display** - You can now configure and sort columns in Journey Optimizer reports.
+
+* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. 
+
+**Administration**
+
+* **Edit message presets** - You can now edit message presets and PTR records, and also monitor their update status.
+
+
 ## September 2021 Release {#september-2021-release}
 
 ### New capabilities
