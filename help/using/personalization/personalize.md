@@ -39,7 +39,7 @@ In every fields with the editor icon, you can open the personalization editor (a
 
 ### Personalize your emails
 
-When you create an email, you can add personalization in the **Email subject** field of the message.
+When you create an email, you can add personalization in the **[!UICONTROL Subject line]** field of the message.
 
 ![](assets/perso_subject.png)
 
