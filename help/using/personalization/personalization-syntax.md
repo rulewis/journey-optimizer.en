@@ -141,9 +141,9 @@ Blocks are expressions that have a block opening ({{# }}) and closing ({{/}}).
 
 ## URL Personalization{#perso-urls}
 
-Journey Orchestration allows you to personalize one or several URLs in your message by adding personalization fields to them. To do this:
+Journey Optimizer allows you to personalize one or several URLs in your message by adding personalization fields to them. To do this:
 
-* Create a link in your Email or Push content. To know more about link creation, refer to [this page](../message-tracking.md#insert-links)).
+* Create a link in your Email or Push content. To know more about link creation, refer to [this page](../message-tracking.md#insert-links).
 * Click on the personalization icon. This icon is available for these specific types of links: **External link**, **Unsubscription link** and **Opt-Out**.
 
 ![](assets/perso-url.png)
@@ -153,7 +153,7 @@ Journey Orchestration allows you to personalize one or several URLs in your mess
 >In the expression editor, when you edit a personnalized URL, helper functions and segments membership are disabled for security reasons.
 >
 
-** Sample personalized URLs **
+**Sample personalized URLs**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}` 
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
