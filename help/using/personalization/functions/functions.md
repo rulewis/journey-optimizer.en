@@ -77,34 +77,34 @@ In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped 
 
 <table>
     <tr>
-        <td><a href="date.md#age">Age</a></td><td>This function retrieves the age from a given date</td>
+        <td><a href="dates.md#age">Age</a></td><td>This function retrieves the age from a given date</td>
     </tr>
     <tr>
-        <td><a href="date.md#current">Current time in milliseconds</a></td><td>This function retrieves current time in epoch millisecond</td>
+        <td><a href="dates.md#current">Current time in milliseconds</a></td><td>This function retrieves current time in epoch millisecond</td>
     </tr>
     <tr>
-        <td><a href="date.md#date-diff">Date difference</a></td><td>This function retrieves the difference between two dates in number of days</td>
+        <td><a href="dates.md#date-diff">Date difference</a></td><td>This function retrieves the difference between two dates in number of days</td>
     </tr>
     <tr>
-        <td><a href="date.md#day-week">Day of week</a></td><td>This function retrieves the day of week</td>
+        <td><a href="dates.md#day-week">Day of week</a></td><td>This function retrieves the day of week</td>
     </tr>
     <tr>
-        <td><a href="date.md#day-year">Day of year</a></td><td>This function retrieves the day of year</td>
+        <td><a href="dates.md#day-year">Day of year</a></td><td>This function retrieves the day of year</td>
     </tr>
     <tr>
-        <td><a href="date.md#format-date">Format date</a></td><td>This function formats a date time value</td>
+        <td><a href="dates.md#format-date">Format date</a></td><td>This function formats a date time value</td>
     </tr>
     <tr>
-        <td><a href="date.md#set-days">Set days</a></td><td>This function sets the day of the month for the given date-time</td>
+        <td><a href="dates.md#set-days">Set days</a></td><td>This function sets the day of the month for the given date-time</td>
     </tr>
     <tr>
-        <td><a href="date.md#set-hours">Set days</a></td><td>This function sets the hour of the date-time</td>
+        <td><a href="dates.md#set-hours">Set days</a></td><td>This function sets the hour of the date-time</td>
     </tr>
     <tr>
-        <td><a href="date.md#to-utc">To UTC</a></td><td>This function converts a datetime to UTC</td>
+        <td><a href="dates.md#to-utc">To UTC</a></td><td>This function converts a datetime to UTC</td>
     </tr>
     <tr>
-        <td><a href="date.md#week-of-year">Week of year</a></td><td>This function returns the week of the year</td>
+        <td><a href="dates.md#week-of-year">Week of year</a></td><td>This function returns the week of the year</td>
     </tr>
 </table>
 </table>
