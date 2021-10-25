@@ -92,7 +92,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Day of year{#day-week}
+## Day of year{#day-year}
 
 The `dayOfYear` function is used to retrieve the day of year.
 
@@ -121,6 +121,7 @@ The `formatDate` function is used to format a date time value. The format should
 ```sql
 {%= formatDate(date, format) %}
 ```
+
 Where the first string is the date attribute and the second value is how you would like the date to be converted and displayed.
 
 >[!NOTE]
