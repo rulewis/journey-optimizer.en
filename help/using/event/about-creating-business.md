@@ -21,7 +21,7 @@ Business events can be "a product is back in stock", "the stock price of a compa
 
 ## Important notes
 
-* The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
+*  Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
 * Business events can only be dropped as the first step of a journey.
 * When dropping a business event as the first step of a journey, the scheduler type of the journey will be "business event".
 * Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
@@ -40,7 +40,7 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 **What are the guardrails to avoid over-loading materialized segments?**
 
-In the case of a on-shot business event, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+In the case of on-shot business events, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Get started with business events
 
@@ -72,7 +72,7 @@ Here are the first steps to configure a business event:
 
    ![](../assets/jo-event5-business.png)
 
-   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity.
+   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
 
     ![](../assets/test-profiles-4.png)
 
