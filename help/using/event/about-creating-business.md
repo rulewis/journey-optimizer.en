@@ -17,7 +17,7 @@ Business events can be "a product is back in stock", "the stock price of a compa
 
 ## Important notes
 
-* The event schema must contain a primary identity.
+* The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
 * Business events can only be dropped as the first step of a journey.
 * When dropping a business event as the first step of a journey, the scheduler type of the journey will be "business event".
 * Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
@@ -36,7 +36,7 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 **What are the guardrails to avoid over-loading materialized segments?**
 
-For business events, the topic reusability is set to one hour. This means that for a given journey, in a 1-hour time window, no new export job is created. Data pushed by the first event job is reused. For scheduled journeys, there is no guardrail.
+In the case of a business event, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Get started with business events
 
@@ -98,6 +98,10 @@ The payload definition allows you to choose the information the system expects t
     All the fields defined in the schema are displayed. The list of fields varies from one schema to another. You can search for a specific field or use the filters to display all nodes and fields or only the selected fields. According to the schema definition, some fields may be mandatory and pre-selected. You cannot unselect them. All fields that are mandatory for the event to be received properly by journeys are selected by default.
 
     ![](../assets/journey9-business.png)
+
+    >[!NOTE]
+    >
+    > Make sure that the following fields are selected: `_id` and `timestamp`
 
 1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. 
 
