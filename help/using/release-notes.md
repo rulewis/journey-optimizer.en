@@ -96,11 +96,14 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
-* **Edit message presets** - You can now edit message presets.[ Learn more](configuration/message-presets.md)
+* **Edit message presets** - You can now edit and update message presets, and also monitor their update status. [Learn more](configuration/message-presets.md)
 
 * **Edit PTR records** - You can now edit PTR records, and also monitor their update status. [Learn more](configuration/ptr-records.md)
 
+**Personalization**
 
+* **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/functions.md#date-functions)
+ 
 ## September 2021 Release {#september-2021-release}
 
 ### New capabilities

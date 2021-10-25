@@ -53,6 +53,7 @@ solution: Journey Optimizer
     + [Aggregation functions](using/personalization/functions/aggregation.md)
     + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
     + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+    + [Date functions](using/personalization/functions/dates.md)
     + [Boolean and comparison functions](using/personalization/functions/operators.md)
     + [Helpers](using/personalization/functions/helpers.md)
     + [Map functions](using/personalization/functions/maps.md)
