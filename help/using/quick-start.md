@@ -51,7 +51,7 @@ To learn and discover the power of Journey Optimizer with step-by-step guidance,
     </div>
     <br>
   </td>
-    <td valign="bottom">
+    <!--td valign="bottom">
     <a href="path/developer.md">
       <img alt="Developer" src="../using/assets/do-not-localize/user-4.jpeg" />
     </a>
@@ -61,7 +61,7 @@ To learn and discover the power of Journey Optimizer with step-by-step guidance,
     <p>
     </div>
     <br>
-  </td>
+  </td-->
 </tr>
 </table>
 

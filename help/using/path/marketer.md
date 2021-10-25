@@ -8,7 +8,7 @@ level: Intermediate
 
 ![marketer](assets/do-not-localize/user-3-S.jpeg) 
 
-As a **Marketer** or a **Journey Practicioner**, you are responsible for creating messages, offers and journeys. 
+As a **Marketer** or a **Journey Practicionner**, you are responsible for creating messages, offers and journeys. 
 
 Refer to the following sections to set up your first journey, add offers and assets, and send messages:
 

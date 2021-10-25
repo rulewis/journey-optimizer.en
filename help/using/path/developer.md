@@ -2,6 +2,8 @@
 title: Get Started for Developers
 description: As a Developer, learn more how to work with Journey Optimizer
 level: Intermediate
+hide: yes
+hidefromtoc: yes
 ---
 # Get Started for Developers
 

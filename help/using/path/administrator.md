@@ -19,11 +19,16 @@ You will then be able to assign team members to product profiles.
 
 Learn about access management in the following pages:
 
+1. **Create sandboxes** to partition your instances into separate, isolated virtual environments. **Sandboxes** are created in [!DNL Journey Optimizer]. Learn more in the [Sandboxes](../../using/administration/sandboxes.md) section.
+    
+    >[!NOTE]
+    >As an Administrator, if you cannot see the **Sandboxes** menu in [!DNL Journey Optimizer], update your permissions in the Admin Console as detailed in [this page](../../using/administration/sandboxes.md) section.
+    >
+    
 1. **Understand product profiles**. Product profiles are a set of unitary rights which allows users access to certain functionalities or objects in the interface. Learn more in the [Out-of-the-box product profiles](../../using/administration/ootb-product-profiles.md) section.
 
-1. **Set user permissions** and give access to your team members.  Permissions are unitary rights that allow you to define the authorizations assigned to **[!UICONTROL Product profile]**. Each permission is gathered under capabilities, e.g. Journey, Messages or Offers, which represents the different functionalities or objects in [!DNL Journey Optimizer]. Learn more in the [Permission levels](../../using/administration/high-low-permissions.md) section.
+1. **Set permissions** for product profiles, including **Sandboxes**, and give access to your team members by assigning them to different product profiles. This step is performed in the [Admin Console](https://adminconsole.adobe.com/){_blank}. Permissions are unitary rights that allow you to define the authorizations assigned to **[!UICONTROL Product profile]**. Each permission is gathered under capabilities, e.g. Journey, Messages or Offers, which represents the different functionalities or objects in [!DNL Journey Optimizer]. Learn more in the [Permission levels](../../using/administration/high-low-permissions.md) section.
 
-1. **Manage sandboxes** to partition your instances into separate, isolated virtual environments. Learn more in the [Sandboxes](../../using/administration/sandboxes.md) section.
 
 In addition, you must **Deploy [!DNL Adobe Experience Manager Assets Essentials]** to manage assets and images in your messages: users who need access to [!DNL Assets Essentials] must be a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. [Read more in Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
 
