@@ -17,7 +17,7 @@ Business events can be "a product is back in stock", "the stock price of a compa
 
 >[!NOTE]
 >
->You can also watch the business event use case [tutorial](https://experienceleague.corp.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>You can also watch the business event use case [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 ## Important notes
 
