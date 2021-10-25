@@ -20,6 +20,7 @@ The `age` function is used to retrieve the age from a given date.
 ```sql
  {%= age(date) %}
  ```
+
 <!--
 **Example**
 
@@ -39,6 +40,7 @@ The `currentTimeInMillis` function is used to retrieve current time in epoch mil
 ```sql
 {%= currentTimeInMillis() %}
 ```
+
 <!--
 **Example**
 
@@ -58,6 +60,7 @@ The `dateDiff` function is used to retrieve the difference between two dates in 
 ```sql
 {%= dateDiff(datetime,datetime) %}
 ```
+
 <!--
 **Example**
 
@@ -78,6 +81,7 @@ The `dayOfWeek` function is used to retrieve the day of week.
 ```sql
 {%= dayOfWeek(datetime) %}
 ```
+
 <!--
 **Example**
 
@@ -97,6 +101,7 @@ The `dayOfYear` function is used to retrieve the day of year.
 ```sql
 {%= dayOfYear(datetime) %}
 ```
+
 <!--
 **Example**
 
@@ -142,6 +147,7 @@ The `setDays` function is used to set the day of the month for the given date-ti
 ```sql
 {%= setDays(date, day) %}
 ```
+
 <!--
 **Example**
 
@@ -161,6 +167,7 @@ The `setHours` function is used to set the hour of the date-time.
 ```sql
 {%= setHours(date, hour) %}
 ```
+
 <!--
 **Example**
 
@@ -182,6 +189,7 @@ The `toUTC` function is used to convert a datetime to UTC.
 ```sql
 {%= toUTC(datetime) %}
 ```
+
 <!--
 **Example**
 
@@ -202,6 +210,7 @@ The `weekOfYear` function is used to retrieve the week of the year.
 ```sql
 {%= weekOfYear(datetime) %}
 ```
+
 <!--
 **Example**
 
