@@ -1,16 +1,7 @@
 ---
 title: PTR records
-description: "Learn how to manage ptr-records"
-page-status-flag: never-activated
-uuid: 
-contentOwner: 
-products: 
+description: Learn how to manage PTR records
 audience: administrators
-content-type: reference
-topic-tags: 
-discoiquuid: 
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -27,7 +18,7 @@ With PTR records, receiving mail servers can check the authenticity of sending m
 
 ## Access your subdomains' PTR records
 
-Once a subdomain is delegated in Customer Jourrney Management, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** menu.
+Once a subdomain is delegated in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** menu.
 
 ![](../assets/ptr-records.png)
 

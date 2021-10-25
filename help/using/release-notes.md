@@ -96,7 +96,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Administration**
 
-* **Edit message presets** - You can now edit message presets and PTR records, and also monitor their update status.
+* **Edit message presets** - You can now edit message presets.[ Learn more](configuration/message-presets.md)
+
+* **Edit PTR records** - You can now edit PTR records, and also monitor their update status. [Learn more](configuration/ptr-records.md)
 
 
 ## September 2021 Release {#september-2021-release}
