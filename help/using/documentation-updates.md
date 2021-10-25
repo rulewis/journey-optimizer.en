@@ -7,6 +7,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 
 This page lists all the documentation updates for [!DNL Journey Optimizer].
 
+
+## October 2021
+
+* All new features and improvements coming with [!DNL Journey Optimizer] Oct '21 release have been detailed in the documentation. [Read more](release-notes.md)
+* Added **Date time function** list. [Read more](personalization/functions/dates.md)
+
+
 ## September 2021
 
 * The following function pages have been updated: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
@@ -27,7 +34,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
 
-    <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+<!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
 * Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application service. [Read more](offers/get-started/starting-offer-decisioning.md)
 
