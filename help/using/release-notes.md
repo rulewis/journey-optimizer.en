@@ -32,7 +32,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Journeys - Counter condition</strong><br/></th>
@@ -44,7 +44,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -102,7 +102,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Personalization**
 
-* **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/functions.md#date-functions)
+* **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
  
 ## September 2021 Release {#september-2021-release}
 
