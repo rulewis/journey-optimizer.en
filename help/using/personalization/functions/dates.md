@@ -19,7 +19,7 @@ The `age` function is used to retrieve the age from a given date.
 
 ```sql
  {%= age(date) %}
- ```
+```
 
 <!--
 **Example**
@@ -136,7 +136,6 @@ The following operation will return the date in the following format: MM/DD/YY.
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
-
 
 ## Set days{#set-days}
 
