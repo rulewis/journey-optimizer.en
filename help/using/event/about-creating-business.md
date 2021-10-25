@@ -15,6 +15,10 @@ Read segment based journeys can be triggered in one-shot, by a scheduler on a re
 
 Business events can be "a product is back in stock", "the stock price of a company reaches a certain value”, etc.
 
+>[!NOTE]
+>
+>You can also watch the business event use case [tutorial](https://experienceleague.corp.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+
 ## Important notes
 
 * The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
@@ -36,7 +40,7 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 **What are the guardrails to avoid over-loading materialized segments?**
 
-In the case of a business event, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+In the case of a on-shot business event, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Get started with business events
 
