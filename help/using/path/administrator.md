@@ -9,20 +9,16 @@ level: Intermediate
 
 Before starting using [!DNL Adobe Journey Optimizer], several steps are required to prepare your environment.
 
-As a **System Administrator**, you need to **understand product profiles and assign permissions** for sandbox administration and channel configuration. You also need to setup sandbox(es) and manage them for the available product profiles.
+As a **System Administrator**, you need to **understand product profiles and assign permissions** for sandbox administration and channel configuration. You also need to setup sandbox(es) and manage them for the available product profiles. You will then be able to assign team members to product profiles.
 
-You will then be able to assign team members to product profiles.
-
->[!NOTE]
->
->These capabilities can be managed by **[!UICONTROL Product administrators]** that have access to the Admin console. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target="_blank"}.
+These capabilities can be managed by **[!UICONTROL Product administrators]** that have access to the Admin console. [Learn more about Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target="_blank"}.
 
 Learn about access management in the following pages:
 
 1. **Create sandboxes** to partition your instances into separate, isolated virtual environments. **Sandboxes** are created in [!DNL Journey Optimizer]. Learn more in the [Sandboxes](../../using/administration/sandboxes.md) section.
     
     >[!NOTE]
-    >As an Administrator, if you cannot see the **Sandboxes** menu in [!DNL Journey Optimizer], update your permissions in the Admin Console as detailed in [this page](../../using/administration/sandboxes.md) section.
+    >As a **System Administrator**, if you cannot see the **Sandboxes** menu in [!DNL Journey Optimizer], update your permissions in the [Admin Console](https://adminconsole.adobe.com/){_blank} as detailed in [this page](../../using/administration/sandboxes.md).
     >
     
 1. **Understand product profiles**. Product profiles are a set of unitary rights which allows users access to certain functionalities or objects in the interface. Learn more in the [Out-of-the-box product profiles](../../using/administration/ootb-product-profiles.md) section.
