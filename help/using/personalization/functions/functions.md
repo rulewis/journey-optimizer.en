@@ -1,5 +1,5 @@
 ---
-title: Helper functions library
+title: Get started with Helper functions
 description: Journey Optimizer Helper functions library
 feature: Personalization
 topic: Personalization
@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 ---
-# Helper functions library{#functionsL}
+# Get started with Helper functions{#functionsL}
 
 Use [!DNL Journey Optimizer] templating language to perform operations on data, such as calculations, data formatting or conversions, conditions, and manipulate them in the context of personalization. Learn personalization syntax guidelines in [this page](../personalization-syntax.md).
 
@@ -17,9 +17,13 @@ Templating language is leveraged in helper functions available in personalizatio
 
 ![](../assets/access-helper-functions.png)
 
-
-
 In the [!DNL Journey Optimizer] Expression Editor, helper functions are grouped into three categories: [Functions](#functions-helper), [Helpers](#helper-helper) and [Operators](#operators-helper).
+
+Select a category, to access sub-categories and functions.
+
+Access to sub-categories by clicking the `>` icon. Select a function by clicking on the `+` icon: the function is automaticaly added to the personalization screen. 
+
+Click the `...` icon to view the description of the function and add it to your favorites. [Learn more](../personalize.md#fav)
 
 ## Functions{#functions-helper}
 

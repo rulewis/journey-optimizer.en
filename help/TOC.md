@@ -49,7 +49,7 @@ solution: Journey Optimizer
     + [Order status notification](using/personalization/personalization-use-case.md)
     + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Helper functions{#functions}
-    + [List of helper functions](using/personalization/functions/functions.md)
+    + [Get started with helper functions](using/personalization/functions/functions.md)
     + [Aggregation functions](using/personalization/functions/aggregation.md)
     + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
     + [Arrays and list functions](using/personalization/functions/arrays-list.md)
