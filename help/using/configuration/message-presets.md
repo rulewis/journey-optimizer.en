@@ -247,9 +247,11 @@ To make an active message preset unavailable to create new messages, you can dea
 >
 >Deactivated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
 
-You cannot directly edit a deactivated message preset. However, you can duplicate it and edit the copy to create a new version that you will use to create new messages:
+You cannot directly edit a deactivated message preset. However, you can duplicate it and edit the copy to create a new version that you will use to create new messages. You can also activate it again, and wait until the update is successful to edit it.
 
-1. Access the message presets list.
+![](../assets/preset-activate.png)
+
+<!--1. Access the message presets list.
 
 1. Deactivate the message preset that you want to edit.
 
@@ -259,7 +261,7 @@ You cannot directly edit a deactivated message preset. However, you can duplicat
 
 1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
 
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.
+1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## How-to video{#video-presets}
 
