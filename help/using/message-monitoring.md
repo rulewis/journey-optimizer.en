@@ -84,4 +84,8 @@ For each message execution, a number of indicators are displayed:
 
 * **[!UICONTROL Spam complaints]**: Number of messages that were marked as spam by recipients. Learn more on complaints in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target="_blank"}.
 
+You can select the columns to display in the table. To do so, click the **[!UICONTROL Customize table]** icon on top of the screen and select the columns you want to show.
+
+![](assets/message-execution-customize-table.png)
+
 Clicking each hyperlink will open the corresponding message summary view. [Learn more on messages](create-message.md).

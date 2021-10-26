@@ -30,7 +30,7 @@ The list shows the PTR records generated for each delegated subdomain, using the
 
 You can open a PTR record from the list to display the associated subdomain name and IP address.
 
-## Edit a PTR record
+## Edit a PTR record {#edit-ptr-record}
 
 You can modify a PTR record to edit the subdomain associated with an IP address.
 
