@@ -97,6 +97,7 @@ solution: Journey Optimizer
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
     + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
+    + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
 + Track and monitor {#reporting}
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
@@ -111,11 +112,14 @@ solution: Journey Optimizer
     + [Push Global report](using/reports/push-global-report.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
-    + [Journey fields](using/reports/sharing-journey-fields.md)
-    + [Common fields](using/reports/sharing-common-fields.md)
-    + [Action execution fields](using/reports/sharing-execution-fields.md)
-    + [Data fetch fields](using/reports/sharing-fetch-fields.md)
-    + [Identity fields](using/reports/sharing-identity-fields.md)
+    + [Step event field list](using/reports/sharing-field-list.md)
+    + Legacy step event fields {#legacy-step-event-fields}
+        + [About legacy fields](using/reports/sharing-legacy-fields.md)
+        + [Journey fields](using/reports/sharing-journey-fields.md)
+        + [Common fields](using/reports/sharing-common-fields.md)
+        + [Action execution fields](using/reports/sharing-execution-fields.md)
+        + [Data fetch fields](using/reports/sharing-fetch-fields.md)
+        + [Identity fields](using/reports/sharing-identity-fields.md)
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)

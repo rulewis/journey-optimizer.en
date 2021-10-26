@@ -9,9 +9,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 ## October 2021 Release {#oct-2021-release}
 
-### New capabilities
-
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Journeys - Target users in a subscription list</strong><br/></th>
@@ -21,11 +19,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
-<!--<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>-->
+<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -59,7 +57,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Decision Management - Personalize your offers (starting Nov 1st)</strong><br/></th>
@@ -83,7 +81,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 
-* **Monitoring** - Step events for live journeys and test mode have been enhanced. This allows for an improved troubleshooting. 
+* **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
+
+* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Read more](building-journeys/message-to-subscribers-uc.md) 
+
+* **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)
+
+* **Lists** - Lists screens have been improved for journeys, events, actions, data sources. 
 
 **Reporting**
 
@@ -108,8 +112,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * Fixed an issue which prevented the Journey list, Message list and Email designer from being displayed when the browser language was not English.
 * Fixed a syntax error which occured when adding personalization using an expression in the Email designer: characters were wrongly escaped.
+* Fixed an issue which led to a 404 error when navigating in the **Administration** menu.
+* Fixed an issue which triggered other live journeys when testing a journey using a business event.
 
- 
 ## September 2021 Release {#september-2021-release}
 
 ### New capabilities
