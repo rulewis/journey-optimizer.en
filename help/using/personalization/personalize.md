@@ -109,24 +109,6 @@ In the following example, the expression editor lets you select the profiles tha
 
  ![](assets/perso_ee2.png)
 
-### Add to favorites{#fav}
-
-Adding different attributes to your favorites menu provides quick access to your most frequency used items. To add an attribute to your favorites click the ellipse menu and choose **[!UICONTROL Add to favorites]**.
-
-![](assets/favorite-option.png)
-
-To access items you have favorited use the **[!UICONTROL Favorites]** menu option in the drop-down menu.
-
-![](assets/favorite-menu.png)
-
-From this list you can quickly add the personalization object to your current expression.
-
-![](assets/favorite-list.png)
-
-If you wish to no longer see an item in your favorites list you can remove from favorites.
-
-![](assets/favorite-remove.png)
-
 ## How-to videos{#video-perso}
 
 Learn how to use contextual event information from a journey to personalize a message.
