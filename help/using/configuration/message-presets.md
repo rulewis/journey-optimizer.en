@@ -207,7 +207,9 @@ Several deliverability checks will be performed to verify that the preset has be
 
 If you edit a preset that was already active:
 * Its status remains **[!UICONTROL Active]** while the validation process is in progress.
-* The **[!UICONTROL Updating]** icon displays next to the name of the preset in the message presets list.
+
+    <!--* The **[!UICONTROL Updating]** icon displays next to the name of the preset in the message presets list.-->
+
 * During the validation process, the messages configured using this preset are still using the older version of the preset.
 
 **Success**
@@ -225,9 +227,9 @@ If the validation process fails, the older version of the preset will still be u
 When the update fails, the preset becomes editable again. You can then click its name and update the settings that need to be fixed. <!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
 
 The possible update error types are as follows:
-**Authorization error**: the bearer token is invalid or not authorized.
-**Illegal modification**: an edit was performed on one or more non-allowed fields.
-**Precondition failed**: some fields can have only specific values and this has not been honored.
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.
 
 ## Deactivate a message preset
 
@@ -245,9 +247,11 @@ To make an active message preset unavailable to create new messages, you can dea
 >
 >Deactivated message presets cannot be deleted to avoid any issue in journeys using these presets to send messages.
 
-You cannot directly edit a deactivated message preset. However, you can duplicate it and edit the copy to create a new version that you will use to create new messages.
+You cannot directly edit a deactivated message preset. However, you can duplicate it and edit the copy to create a new version that you will use to create new messages:
 
-1. Access the message presets list, then deactivate the message preset that you want to edit.
+1. Access the message presets list.
+
+1. Deactivate the message preset that you want to edit.
 
 1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
 
