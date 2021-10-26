@@ -55,9 +55,9 @@ This mixin contains all fields corresponding to a profile export job.
 |---|---|------------|
 |ID|String|The identifier of the segment export job triggered|
 |status|String|The status of segment export job: queued, started, finished|
-|exportCountTotal|String|The max possible value of segment export job|
-|exportCountRealized|String|The actual number of segments exported through the job|
-|exportCountFailed|String|The number of segments failed while exporting through the job|
+|exportCountTotal|Integer|The max possible value of segment export job|
+|exportCountRealized|Integer|The actual number of segments exported through the job|
+|exportCountFailed|Integer|The number of segments failed while exporting through the job|
 |exportSegmentID|String|The identifier of the segment being exported|
 |eventType|String|The event type indicating whether it is an error event of info event: Info, Error|
 |eventCode|String|The error code indicating the reason for corresponding eventType|
