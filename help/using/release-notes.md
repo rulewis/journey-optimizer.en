@@ -17,7 +17,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Journeys - Subscription list messaging</strong><br/></th>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -46,7 +46,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Decision Management - Offer Simulations</strong><br/></th>
@@ -56,7 +56,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now simulate which offers will be delivered to a test profile for a given placement and validate your decision logic.</p>
-<!--<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -72,11 +72,11 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<!--<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 ### Improvements
 
@@ -84,7 +84,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Accessibility** - Accessibility enhancements have been implemented in journeys
 
-* **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution. 
+<!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. This allows for an improved troubleshooting. 
 
