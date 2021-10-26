@@ -57,7 +57,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
 <th><strong>Decision Management - Personalize your offers (starting Nov 1st)</strong><br/></th>
@@ -112,8 +112,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * Fixed an issue which prevented the Journey list, Message list and Email designer from being displayed when the browser language was not English.
 * Fixed a syntax error which occured when adding personalization using an expression in the Email designer: characters were wrongly escaped.
-* Fixed an issue which could lead to a 404 error when navigating in the **Administration** menu.
-* Fixed an issue which could trigger other live journeys when testing a journey using a business event.
+* Fixed an issue which led to a 404 error when navigating in the **Administration** menu.
+* Fixed an issue which triggered other live journeys when testing a journey using a business event.
 
 ## September 2021 Release {#september-2021-release}
 
