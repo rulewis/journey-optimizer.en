@@ -181,13 +181,19 @@ To edit a message preset, follow the steps below.
     >
     >You can also save the message preset as draft and resume update later on.
 
-Once the changes are submitted, the message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
+Once the changes are submitted, the message preset will go through a validation cycle similar to the validation steps of a [preset creation](#create-message-preset).
 
-<!--To check the message preset update details, click the **[!UICONTROL More actions]** button and select **[!UICONTROL Recent updates]**. (TBC)
+To check the message preset update details, click the **[!UICONTROL Recent update]** that is displayed next to the preset name.
 
-You can also access the update details from a message preset while update is in progress.(TBC)
+![](../assets/preset-recent-update-icon.png)
 
-You can see information such as the update status, the approximate remaining time before completion (if validation is in progress), and the list of requested changes. (TBC)-->
+You can also access the update details from a message preset while update is in progress.
+
+![](../assets/preset-view-update-details.png)
+
+You can see information such as the update status,<!--the approximate remaining time before completion (if validation is in progress)--> and the list of requested changes.
+
+![](../assets/preset-recent-update-screen.png)
 
 ### Update statuses
 
@@ -224,12 +230,14 @@ Once the validation process is successful, the new version of the preset is auto
 
 If the validation process fails, the older version of the preset will still be used.
 
-When the update fails, the preset becomes editable again. You can then click its name and update the settings that need to be fixed. <!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
-
 The possible update error types are as follows:
 * **Authorization error**: the bearer token is invalid or not authorized.
 * **Illegal modification**: an edit was performed on one or more non-allowed fields.
 * **Precondition failed**: some fields can only have specific values and this has not been honored.
+
+<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+
+Upon update failing, the preset becomes editable again. You can click its name and update the settings that need to be fixed.
 
 ## Deactivate a message preset
 
