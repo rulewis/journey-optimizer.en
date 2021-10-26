@@ -91,15 +91,15 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Reporting**
 
-* **Custom column display** - You can now configure the view and sort columns in Journey Optimizer reports.  The **Execution** tab can also show numbers in rates.
+* **Custom column display** - You can now configure the view and sort columns in Journey Optimizer reports. The **Execution** tab can also show numbers in rates. [Learn more](using/message-monitoring.md)
 
 * **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
 
 **Administration**
 
-* **Edit message presets** - You can now edit and update message presets, and also monitor their update status. [Learn more](configuration/message-presets.md)
+* **Edit message presets** - You can now edit message presets and monitor their update status. [Learn more](configuration/message-presets.md#edit-message-preset)
 
-* **Edit PTR records** - You can now edit PTR records, and also monitor their update status. [Learn more](configuration/ptr-records.md)
+* **Edit PTR records** - You can now edit PTR records and monitor their update status. [Learn more](configuration/ptr-records.md#edit-ptr-record)
 
 **Personalization**
 
