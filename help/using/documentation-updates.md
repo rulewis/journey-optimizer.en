@@ -12,6 +12,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 * All new features and improvements coming with [!DNL Journey Optimizer] Oct '21 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added **Date time function** list. [Read more](personalization/functions/dates.md)
+* New **Get Started sections per user persona**. Take your own path to get to your goals faster! [Read more](quick-start.md)
 
 
 ## September 2021
