@@ -20,6 +20,17 @@ To learn and discover the power of Journey Optimizer with step-by-step guidance,
 <table>
 <tr>
   <td valign="bottom">
+    <a href="path/administrator.md">
+      <img alt="Administrator" src="../using/assets/do-not-localize/user-2.jpeg" />
+    </a>
+    <div>
+    <a href="path/administrator.md">I am an Administrator</a>
+     <p>Prepare your environment, grant access, configure settings
+    <p>
+    </div>
+    <br>
+  </td>
+  <td valign="bottom">
     <a href="path/data-engineer.md">
       <img alt="Data Engineer" src="../using/assets/do-not-localize/user-1.jpeg"/>
     </a>
@@ -36,17 +47,6 @@ To learn and discover the power of Journey Optimizer with step-by-step guidance,
        </a>
     <div><a href="path/marketer.md">I am a Marketer</a>
      <p>Design messages, add offers, assets, and build customer journeys
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="Administrator" src="../using/assets/do-not-localize/user-2.jpeg" />
-    </a>
-    <div>
-    <a href="path/administrator.md">I am an Administrator</a>
-     <p>Prepare your environment, grant access, configure settings
     <p>
     </div>
     <br>

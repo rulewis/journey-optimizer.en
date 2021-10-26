@@ -7,7 +7,8 @@ level: Intermediate
 
 ![administrator](assets/do-not-localize/user-1-S.jpeg) 
 
-Before starting using [!DNL Adobe Journey Optimizer], several steps are required to prepare your environment.
+Before starting using [!DNL Adobe Journey Optimizer], several steps are required to prepare your environment.  You must perform these steps so that the [Data Engineer](data-engineer.md) and [Journey Practicionner](marketer.md) can start working with [!DNL Adobe Journey Optimizer].
+
 
 As a **System Administrator**, you need to **understand product profiles and assign permissions** for sandbox administration and channel configuration. You also need to setup sandbox(es) and manage them for the available product profiles. You will then be able to assign team members to product profiles.
 
