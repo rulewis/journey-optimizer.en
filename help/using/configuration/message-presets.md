@@ -103,7 +103,7 @@ To create a message preset, follow these steps:
     
 1. Once the message preset has been created, it displays in the list with the **[!UICONTROL Processing]** status.
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 days**.
+    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
 
     These checks include deliverability tests that are performed by Adobe deliverability team:
 
@@ -161,7 +161,7 @@ To edit a message preset, follow the steps below.
 
 >[!NOTE]
 >
->You can update most of the settings in a message preset, except the **[!UICONTROL Push notification settings]** fields which are not editable.
+>You cannot edit the **[!UICONTROL Push notification settings]**. If a message preset is only configured for the Push notification channel, it is not editable.
 
 1. From the list, click a message preset name to open it.
 
@@ -181,21 +181,23 @@ To edit a message preset, follow the steps below.
     >
     >You can also save the message preset as draft and resume update later on.
 
-Once the changes are submitted, the message preset will go through a validation cycle similar to the validation steps of a [preset creation](#create-message-preset).
+Once the changes are submitted, the message preset will go through a validation cycle similar to the one in place when [creating a preset](#create-message-preset).
 
-To check the message preset update details, click the **[!UICONTROL Recent update]** that is displayed next to the preset name.
+For message presets that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
 
-![](../assets/preset-recent-update-icon.png)
+* Click the **[!UICONTROL Recent update]** icon that is displayed next to the active preset name.
 
-You can also access the update details from a message preset while update is in progress.
+    ![](../assets/preset-recent-update-icon.png)
 
-![](../assets/preset-view-update-details.png)
+* You can also access the update details from an active message preset while update is in progress.
+    
+    ![](../assets/preset-view-update-details.png)
 
-You can see information such as the update status,<!--the approximate remaining time before completion (if validation is in progress)--> and the list of requested changes.
+On the **[!UICONTROL Recent update]** screen, you can see information such as the update status,<!--the approximate remaining time before completion (if validation is in progress)--> and the list of requested changes.
 
 ![](../assets/preset-recent-update-screen.png)
 
-### Update statuses
+### Update statuses {#update-statuses}
 
 A message preset update can have the following statuses:
 
@@ -205,16 +207,17 @@ A message preset update can have the following statuses:
 
 **Processing**
 
-Several deliverability checks will be performed to verify that the preset has been updated properly. The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
+Several deliverability checks will be performed to verify that the preset has been updated properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
 
 >[!NOTE]
 >
 >You cannot modify a message preset while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
 
 If you edit a preset that was already active:
+
 * Its status remains **[!UICONTROL Active]** while the validation process is in progress.
 
-    <!--* The **[!UICONTROL Updating]** icon displays next to the name of the preset in the message presets list.-->
+* The **[!UICONTROL Recent update]** icon displays next to the name of the preset in the message presets list.
 
 * During the validation process, the messages configured using this preset are still using the older version of the preset.
 
@@ -239,9 +242,13 @@ The possible update error types are as follows:
 
 Upon update failing, the preset becomes editable again. You can click its name and update the settings that need to be fixed.
 
-## Deactivate a message preset
+## Deactivate a message preset {#deactivate-preset}
 
-To make an active message preset unavailable to create new messages, you can deactivate it. However, the published messages using this preset will not be affected and will continue working.
+To make an **[!UICONTROL Active]** message preset unavailable to create new messages, you can deactivate it. However, the published messages using this preset will not be affected and will continue working.
+
+>[!NOTE]
+>
+>You cannot deactivate a message preset while an update is processing. You must wait until the update is successful or has failed. Learn more on [editing message presets](#edit-message-preset) and on the [update statuses](#update-statuses).
 
 1. Access the message presets list.
 
