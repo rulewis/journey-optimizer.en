@@ -77,35 +77,26 @@ table>
 
 **Journeys**
 
-* **Accessibility** - Accessibility enhancements have been implemented in journeys
-
+* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Learn more in this sample](building-journeys/message-to-subscribers-uc.md) 
 <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
-
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
-
-* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Read more](building-journeys/message-to-subscribers-uc.md) 
-
+* **Accessibility** - Accessibility enhancements have been implemented in journeys
 * **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)
-
 * **Lists** - Lists screens have been improved for journeys, events, actions, data sources. 
 
 **Reporting**
 
 * **Custom column display** - You can now configure the view and sort columns in Journey Optimizer reports. The **Execution** tab can also show numbers in rates. [Learn more](message-monitoring.md)
-
 * **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
 
 **Administration**
 
 * **Edit message presets** - You can now edit message presets and monitor their update status. [Learn more](configuration/message-presets.md#edit-message-preset)
-
 * **Edit PTR records** - You can now edit PTR records and monitor their update status. [Learn more](configuration/ptr-records.md#edit-ptr-record)
 
 **Personalization**
 
 * **Add to favorites** - To help improve efficiency when working with personalization we’ve introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](personalization/personalize.md#fav)
- 
-
 * **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
 
 ### Fixes 
