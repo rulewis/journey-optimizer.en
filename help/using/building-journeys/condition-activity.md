@@ -46,7 +46,7 @@ If you're using the [Adobe Experience Platform Segmentation Service](https://exp
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Adobe Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. [Read more](expression/expressionadvanced.md).
 
 When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 
@@ -54,7 +54,7 @@ In the simple editor, you will also find the Journey Properties category, below 
 
 ## Data Source condition {#data_source_condition}
 
-This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Adobe Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}. Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [this page](../datasource/external-data-sources.md).
+This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [this section](expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [this page](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
