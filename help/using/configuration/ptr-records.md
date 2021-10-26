@@ -41,7 +41,7 @@ You can open a PTR record from the list to display the associated subdomain name
 
 ## Edit a PTR record
 
-You can modify PTR records to edit the subdomain associated to an IP address.
+You can modify a PTR record to edit the subdomain associated with an IP address.
 
 1. From the list, click a PTR record name to open it.
 
@@ -55,7 +55,7 @@ You can modify PTR records to edit the subdomain associated to an IP address.
     >
     >You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
 
-1. Click **[!UICONTROL Update]** to save your changes.
+1. Click **[!UICONTROL SAve]** to confirm your changes.
 
 An **[!UICONTROL Updating]** icon displays next to the name of the PTR record in the list.
 
@@ -65,11 +65,11 @@ To check the PTR record update details, click the **[!UICONTROL Updating]** or *
 
 ![](../assets/ptr-record-recent-update.png)
 
-You can see information such as the update status and the requested changes.
+You can see information such as the update status, and the requested changes.
 
 ![](../assets/ptr-record-updates.png)
 
-### Update statuses
+## Update statuses
 
 A PTR record update can have the following statuses:
 
@@ -77,7 +77,7 @@ A PTR record update can have the following statuses:
 * **[!UICONTROL Success]**: The updated PTR record has been verified and the new subdomain is now associated with the IP address.
 * **[!UICONTROL Failed]**: One or several checks have failed during the PTR record update verification.
 
-**Processing**
+### Processing
 
 Several deliverability checks will be performed to verify that the new subdomain to associate with the IP address is valid. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
 
@@ -87,17 +87,17 @@ Several deliverability checks will be performed to verify that the new subdomain
 
 During the validation process, the old subdomain is still associated with the IP address.
 
-**Success**
+### Success
 
 Once the validation process is successful, the new subdomain is automatically associated with the IP address.
 
-**Failed**
+### Failed
 
 If the validation process fails, the older PTR record is displayed. The valid subdomain that was previously associated with the IP address remains unchanged.
 
-When the update fails, the PTR record becomes editable again. You can then click its name and update the subdomain again. <!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
-
 The possible update error types are as follows:
-* Failure to create a new forward DNS for PTR record
+* Failure to create a new forward DNS for the PTR record
 * Failure to update the record
 * Failure to re-onboard the affinities
+
+Upon update failing, the PTR record becomes editable again. You can click its name and update the subdomain again.
