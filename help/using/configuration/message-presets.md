@@ -25,7 +25,7 @@ Once message presets have been configured, you be able to select them when creat
 
 To create a message preset, follow these steps:
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create Message preset]**.
+1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** menu, then click **[!UICONTROL Create Message preset]**.
 
     ![](../assets/preset-create.png)
 
