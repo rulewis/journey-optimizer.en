@@ -17,7 +17,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Journeys - Subscription list messaging</strong><br/></th>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
 </tr>
 </thead>
 <tbody>
