@@ -15,7 +15,7 @@ Based on your organization, you can define several types of users and grant them
 
 Just starting with [!DNL Journey Optimizer]? Experienced user with specific questions? Administrator of your company instance? Take your own path to get to your goals faster!
 
-To learn and discover the power of Journey Optimizer with step-by-step guidance, select your profile.
+To learn and discover the power of Adobe Journey Optimizer with step-by-step guidance, select your profile.
 
 <table>
 <tr>
