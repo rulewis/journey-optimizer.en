@@ -109,7 +109,7 @@ In the following example, the expression editor lets you select the profiles tha
 
  ![](assets/perso_ee2.png)
 
- ### Add to favorites{#fav}
+### Add to favorites{#fav}
 
 Adding different attributes to your favorites menu provides quick access to your most frequency used items. To add an attribute to your favorites click the ellipse menu and choose **[!UICONTROL Add to favorites]**.
 
