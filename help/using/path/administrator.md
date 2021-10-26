@@ -41,11 +41,11 @@ To be able to create your journeys and send messages, you need to go though thes
 
     * Manage the number of days during which **retries** are performed before sending email addresses to the suppression list. [Learn more](../configuration/manage-suppression-list.md)
 
-1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](about-subdomain-delegation.md)
+1. **Delegate subdomains**: for any new subdomain to be used in Journey Optimizer, the first step will be to delegate it. [Learn more](../configuration/about-subdomain-delegation.md)
 
     ![](../assets/subdomain.png)
 
-1. **Create IP pools**: improve your email deliverability and reputation by grouping together IP addresses provisioned with your instance. [Learn more](ip-pools.md)
+1. **Create IP pools**: improve your email deliverability and reputation by grouping together IP addresses provisioned with your instance. [Learn more](../configuration/ip-pools.md)
 
     ![](../assets/ip-pool.png)
 
