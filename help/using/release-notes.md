@@ -5,14 +5,11 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
 # Release Notes {#release-notes}
 
-This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
-
-
+This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation Updates](documentation-updates.md).
 
 ## October 2021 Release {#oct-2021-release}
 
 ### New capabilities
-
 
 <table>
 <thead>
@@ -90,9 +87,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Reporting**
 
-* **Custom column display** - You can now configure and sort columns in Journey Optimizer reports.
+* **Custom column display** - You can now configure the view and sort columns in Journey Optimizer reports.  The **Execution** tab can also show numbers in rates.
 
-* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. 
+* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
 
 **Administration**
 
@@ -102,7 +99,16 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 **Personalization**
 
+* **Add to favorites** - To help improve efficiency when working with personalization we’ve introduced the concept of saving favorites. Adding different attributes to your favorites menu provides quick access to your most frequency used items. [Learn more](personalization/personalize.md#fav)
+ 
+
 * **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
+
+### Fixes 
+
+* Fixed an issue which prevented the Journey list, Message list and Email designer from being displayed when the browser language was not English.
+* Fixed a syntax error which occured when adding personalization using an expression in the Email designer: characters were wrongly escaped.
+
  
 ## September 2021 Release {#september-2021-release}
 
