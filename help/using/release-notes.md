@@ -83,10 +83,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 
-* **Monitoring** - Step events for live journeys and test mode have been enhanced. This allows for an improved troubleshooting. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. AAll previous step events fields are still available in the stepEvents category.
+* **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
 
-* **Collections** - Journey Optimizer now supports json object type for the field of an object part of a collection.
-
+* **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)
 
 **Reporting**
 
@@ -111,9 +110,8 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * Fixed an issue which prevented the Journey list, Message list and Email designer from being displayed when the browser language was not English.
 * Fixed a syntax error which occured when adding personalization using an expression in the Email designer: characters were wrongly escaped.
-* Fixed an issue with step event boolean fields
 * Fixed an issue which could lead to a 404 error when navigating in the **Administration** menu.
-* Fixed an issue which could trigger other live journeys when testing a journey using a business event 
+* Fixed an issue which could trigger other live journeys when testing a journey using a business event.
 
 ## September 2021 Release {#september-2021-release}
 
