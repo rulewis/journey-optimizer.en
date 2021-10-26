@@ -160,6 +160,3 @@ Journey Optimizer allows you to personalize one or several URLs in your message 
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
 
->[!CAUTION]
->
->Spaces are not supported in the personalization tokens used inside urls.
