@@ -91,7 +91,7 @@ table>
 
 **Reporting**
 
-* **Custom column display** - You can now configure the view and sort columns in Journey Optimizer reports. The **Execution** tab can also show numbers in rates. [Learn more](using/message-monitoring.md)
+* **Custom column display** - You can now configure the view and sort columns in Journey Optimizer reports. The **Execution** tab can also show numbers in rates. [Learn more](message-monitoring.md)
 
 * **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
 
