@@ -92,7 +92,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Custom column display** - You can now configure the view and sort columns in Journey Optimizer reports.  The **Execution** tab can also show numbers in rates.
 
-* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. 
+* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
 
 **Administration**
 
