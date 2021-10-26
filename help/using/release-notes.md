@@ -20,7 +20,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map. <a href="building-journeys/message-to-subscribers-uc.md">Read more</a></p>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
 <!--<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>-->
 </td>
 </tr>
@@ -85,7 +85,9 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
 
-* **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)
+* **Collections** - * As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. Also, arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)
+
+* **Lists** - Lists screens have been improved for journeys, events, actions, data sources. 
 
 **Reporting**
 
