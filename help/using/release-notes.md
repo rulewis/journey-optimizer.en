@@ -57,7 +57,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<!--table>
+table>
 <thead>
 <tr>
 <th><strong>Decision Management - Personalize your offers (starting Nov 1st)</strong><br/></th>
