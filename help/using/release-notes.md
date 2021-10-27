@@ -81,7 +81,7 @@ table>
     <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
 * **Accessibility** - Accessibility enhancements have been implemented in journeys. 
-<!-- * **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)-->
+    <!-- * **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)-->
 * **Lists** - Lists screens have been improved for journeys, events, actions, data sources.
 
 **Reporting**
