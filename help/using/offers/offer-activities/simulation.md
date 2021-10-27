@@ -18,6 +18,10 @@ To validate your decisioning logic, you can simulate which offers will be delive
 
 This enables you to test and refine various versions of your offers with no impact on the targeted recipients.
 
+>[!NOTE]
+>
+>This capability simulates a single request to the [!DNL Decisions] API. Learn more on [Deliver offers using the Decisions API](../api-reference/decisions-api/deliver-offers.md).
+
 To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** menu.
 
 ![](../../assets/offers_simulation-tab.png)
@@ -26,9 +30,39 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 ➡️ [Discover this feature in video](#video)
 -->
 
+## Select test profiles
+
+First you need to select the test profiles that you are going to use for simulation.
+
+1. Click **[!UICONTROL Manage profile]**.
+
+    ![](../../assets/offers_simulation-manage-profile.png)
+
+1. Select the identity namespace you want to use to identify test profiles. In this example, we will use the **Email** namespace.
+
+    >[!NOTE]
+    >
+    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md){target="_blank"}.
+
+1. Enter the identity value and click **[!UICONTROL View]** to list the available profiles.
+
+    ![](../../assets/offers_simulation-add-profile.png)
+
+1. Add other profiles if you want to test different profile data, and save your selection.
+
+    ![](../../assets/offers_simulation-save-profiles.png)
+
+1. Once added, all profiles are listed in the drop-down list under **[!UICONTROL Test profile]**. You can switch between the saved test profiles to display the results for each selected profile.
+
+    ![](../../assets/offers_simulation-saved-profiles.png)
+
+1. You can click the **[!UICONTROL Profile details]** link to display the selected profile data.
+
+<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+
 ## Add decision scopes
 
-First you need to select the offer decisions that you want to test.
+Now select the offer decisions that you want to simulate on your test profiles.
 
 1. Select **[!UICONTROL Add decision scope]**.
 
@@ -63,37 +97,7 @@ First you need to select the offer decisions that you want to test.
 
     >[!NOTE]
     >
-    >Even if you define several decision scopes, only one decisioning request is run.
-
-## Select test profiles
-
-Now you need to select test profiles to view the results of your offer decisions on them.
-
-1. Click **[!UICONTROL Manage profile]**.
-
-    ![](../../assets/offers_simulation-manage-profile.png)
-
-1. Select the identity namespace you want to use to identify test profiles. In this example, we will use the **Email** namespace.
-
-    >[!NOTE]
-    >
-    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md){target="_blank"}.
-
-1. Enter the identity value and click **[!UICONTROL View]** to list the available profiles.
-
-    ![](../../assets/offers_simulation-add-profile.png)
-
-1. Add other profiles if you want to test different profile data, and save your selection.
-
-    ![](../../assets/offers_simulation-save-profiles.png)
-
-1. Once added, all profiles are listed in the drop-down list under **[!UICONTROL Test profile]**. You can switch between the saved test profiles to display the results for each selected profile.
-
-    ![](../../assets/offers_simulation-saved-profiles.png)
-
-1. You can click the **[!UICONTROL Profile details]** link to display the selected profile data.
-
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+    >Even if you define several decision scopes, only one API request is simulated.
 
 ## View simulation results
 
