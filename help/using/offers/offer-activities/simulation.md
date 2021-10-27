@@ -26,11 +26,29 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Select profile
+## Add decision scopes
 
-Is it recommended to first select profiles or first add decision scopes?
+1. From the **[!UICONTROL Simulation]** tab, click **[!UICONTROL Add decision scope]**.
 
-1. From the **[!UICONTROL Simulation]** tab, click **[!UICONTROL Manage profile]**.
+1. Select a placement.
+
+    ![](../../assets/offers_simulation-add-decision-scope.png)
+
+1. The available decisions are displayed. Select the decision of your choice and click **[!UICONTROL Add]**.
+
+    ![](../../assets/offers_simulation-add-decision-scope-2.png)
+
+1. You can click the **[!UICONTROL Open offer decisions]** link to open the list of all the decisions that you created in another tab. Learn more on decisions in [this section](create-offer-activities.md).
+
+1. The decision scope displays in the center of the screen. You can adjust the number of offers you want to request? You can also add as many decisions as you need.
+
+    ![](../../assets/offers_simulation-decision-scope.png)
+
+## Select test profiles
+
+Now you need to select test profiles to view the results of offer decisions on them.
+
+1. Click **[!UICONTROL Manage profile]**.
 
     ![](../../assets/offers_simulation-manage-profile.png)
 
@@ -56,34 +74,21 @@ Is it recommended to first select profiles or first add decision scopes?
 
 1. **[!UICONTROL Settings]** button?
 
-***
+<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
 
-Learn more on [selecting test profiles](preview.md#select-test-profiles)
+## View simulation results
 
-## Add decision scopes
-
-1. Click **[!UICONTROL Add decision scope]**.
-
-1. Select a placement.
-
-    ![](../../assets/offers_simulation-add-decision-scope.png)
-
-1. The available decisions are displayed. Select the decision of your choice and click **[!UICONTROL Add]**.
-
-    ![](../../assets/offers_simulation-add-decision-scope-2.png)
-
-1. You can click the **[!UICONTROL Open offer decisions]** link to open the list of all the decisions that you created in another tab. Learn more on decisions in [this section](create-offer-activities.md).
-
-1. The decision scope displays in the center of the screen. You can adjust the number of offers you want to request? You can also add as many decisions as you need.
-
-    ![](../../assets/offers_simulation-decision-scope.png)
+Once you added a decision scope and selected a profile, you can view the results.
 
 1. Click **[!UICONTROL View results]** to display the scores for each decision according to the selected profile.
+
+
 
 1. Select another profile from the list to display the results of the offer decisions for a different test profile.
 
 ***
 
+Is it recommended to first select profiles or first add decision scopes?
 Nothing displays when I click View results? Can't see any score...
 What's the typical example? i.e. how many decisions do you select, and how do you compare scores?
 What do you learn from simulation? i.e. if I selected 2 decisions and I compare the scores, which one is better or should I use for my customers?
