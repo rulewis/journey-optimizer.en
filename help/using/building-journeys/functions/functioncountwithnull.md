@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: countWithNull
 description: Learn about the function countWithNull
 feature: Journeys
@@ -28,6 +29,7 @@ Aggregation
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signature and returned type
 

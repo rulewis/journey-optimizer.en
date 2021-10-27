@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: distinctCount
 description: Learn about the function distinctCount
 feature: Journeys
@@ -28,6 +29,7 @@ Aggregation
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signature and returned type
 

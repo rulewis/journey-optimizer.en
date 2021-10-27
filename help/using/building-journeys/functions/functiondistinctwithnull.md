@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: distinctWithNull
 description: Learn about the function distinctWithNull
 feature: Journeys
@@ -28,6 +29,7 @@ List
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signatures and returned types
 
@@ -50,6 +52,10 @@ Returns a list of datetimes without considering time zone.
 `distinctWithNull(<listDateTime>)`
 
 Returns a list of datetimes.
+
+`distinctWithNull(<listDateOnly>)`
+
+Returns a list of dates.
 
 `distinctWithNull(<listBoolean>)`
 

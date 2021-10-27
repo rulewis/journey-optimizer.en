@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: getListItem
 description: Learn about the function gstListItem
 feature: Journeys
@@ -28,7 +29,7 @@ List
 | list      | listDuration     |
 | list      | listDateTime     |
 | list      | listDateTimeOnly |
-| list      | listDateOnly |
+| list      | listDateOnly     |
 | index   | integer          |
 
 ## Signatures and returned type
@@ -52,6 +53,10 @@ Returns a datetime without considering time zone.
 `getListItem(<listDateTime>,<index>)`
 
 Returns a datetime.
+
+`getListItem(<listDateOnly>,<index>)`
+
+Returns a list of dates.
 
 `getListItem(<listBoolean>,<index>)`
 

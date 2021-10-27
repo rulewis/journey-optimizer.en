@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: count
 description: Learn about the function count
 feature: Journeys
@@ -28,6 +29,7 @@ Aggregation
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signatures and returned type
 

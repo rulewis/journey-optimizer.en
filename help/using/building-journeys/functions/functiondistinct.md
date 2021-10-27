@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: distinct
 description: Learn about the function distinct
 feature: Journeys
@@ -28,6 +29,7 @@ List
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signatures and returned types
 
@@ -50,6 +52,10 @@ Returns a list of datetimes without considering time zone.
 `distinct(<listDateTime>)`
 
 Returns a list of datetimes.
+
+`distinct(<listDateOnly>)`
+
+Returns a list of dates.
 
 `distinct(<listBoolean>)`
 

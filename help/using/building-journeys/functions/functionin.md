@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: in
 description: Learn about the function in
 feature: Journeys
@@ -37,6 +38,7 @@ List
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signature and returned type
 
@@ -51,6 +53,8 @@ List
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
 
 `in(<dateTime>,<listDateTime>)`
+
+`in(<dateOnly>,<listDateOnly>)`
 
 `in(<duration>,<listDuration>)`
 

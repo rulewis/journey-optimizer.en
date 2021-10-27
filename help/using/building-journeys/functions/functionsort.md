@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: sort
 description: Learn about the function sort
 feature: Journeys
@@ -28,6 +29,7 @@ List
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 | Boolean   | Boolean |
 
 ## Signature and returned type
@@ -51,6 +53,10 @@ Returns a list of datetimes without considering time zone.
 `sort(<listDateTime>,<boolean>)`
 
 Returns a list of datetimes.
+
+`sort(<listDateOnly>,<boolean>)`
+
+Returns a list of dates.
 
 `sort(<listBoolean>,<boolean>)`
 

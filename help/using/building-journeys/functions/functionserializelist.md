@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: serializeList
 description: Learn about the function serializeList
 feature: Journeys
@@ -31,6 +32,7 @@ List
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signature and returned type
 
@@ -45,6 +47,8 @@ List
 `serializeList(<listDateTimeOnly>,<string>,<boolean>)`
 
 `serializeList(<listDateTime>,<string>,<boolean>)`
+
+`serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
 
