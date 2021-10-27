@@ -128,9 +128,7 @@ Once you added a decision scope and selected a test profile, you can view the re
 * Error on Profile details link.
 * Is there a tutorial planned to be released?
 * Why still a big red frame when no profile is found?
--->
 
-<!-->
 ## Tutorial video {#video}
 
 >[!NOTE]
