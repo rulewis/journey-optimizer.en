@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: toDecimal
 description: Learn about the function toDecimal
 feature: Journeys

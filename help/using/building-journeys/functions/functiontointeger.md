@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: toInteger
 description: Learn about the function toInteger
 feature: Journeys

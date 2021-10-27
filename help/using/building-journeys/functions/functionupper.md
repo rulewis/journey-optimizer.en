@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: upper
 description: Learn about the function upper
 feature: Journeys

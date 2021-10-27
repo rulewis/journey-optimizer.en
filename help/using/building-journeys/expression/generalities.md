@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: Generalities
 description: Learn about advanced expression generalities
 feature: Journeys

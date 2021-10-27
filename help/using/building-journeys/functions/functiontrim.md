@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: trim
 description: Learn about the function trim
 feature: Journeys

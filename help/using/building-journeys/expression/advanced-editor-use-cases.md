@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: Using the advanced expression editor
 description: Learn how to build advanced expressions
 feature: Journeys
@@ -38,7 +39,7 @@ Then it selects all the addtocart events that did not transform into a completeP
 
 >[!NOTE]
 >
->To insert fields in the expression quickly, double-click on the field in the left panel of the editor.
+>To insert fields in the expression quickly, double-click the field in the left panel of the editor.
 
 The specified timestamp is acting as the date time value, the second is number of days.
 
@@ -68,7 +69,7 @@ This expression returns a boolean.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* On the right, necessary values are specified, here, we need to retrieve the location of the store, that is mapped from the location of the event "ArriveLumaStudio":
+* At the right, the necessary values are specified, here, we need to retrieve the location of the store, that is mapped from the location of the event "ArriveLumaStudio":
 
  `#{ArriveLumaStudio._acpevangelists1.location.location}`
 

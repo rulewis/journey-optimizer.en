@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: replaceAll
 description: Learn about the function replaceAll
 feature: Journeys

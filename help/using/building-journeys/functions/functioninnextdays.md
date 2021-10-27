@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inNextDays
 description: Learn about the function inNextDays
 feature: Journeys

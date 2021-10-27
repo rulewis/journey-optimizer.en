@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: Data types
 description: Learn about data types in advanced expressions
 feature: Journeys

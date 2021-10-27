@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inSegment
 description: Learn about the function inSegment
 feature: Journeys

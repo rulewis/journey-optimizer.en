@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: toDateOnly
 description: Learn about the function toDateOnly
 feature: Journeys

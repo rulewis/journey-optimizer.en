@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: uuid
 description: Learn about the function uuid
 feature: Journeys

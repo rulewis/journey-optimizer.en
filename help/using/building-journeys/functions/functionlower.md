@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: lower
 description: Learn about the function lower
 feature: Journeys

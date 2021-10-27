@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inLastHours
 description: Learn about the function inLastHours
 feature: Journeys

@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: length
 description: Learn about the function length
 feature: Journeys

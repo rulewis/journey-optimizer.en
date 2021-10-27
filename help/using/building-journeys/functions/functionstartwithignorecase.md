@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: startWithIgnoreCase
 description: Learn about the function startWithIgnoreCase
 feature: Journeys

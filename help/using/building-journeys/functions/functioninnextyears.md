@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inNextYears
 description: Learn about the function inNextYears
 feature: Journeys

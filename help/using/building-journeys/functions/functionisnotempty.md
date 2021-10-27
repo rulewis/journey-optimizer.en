@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: isNotEmpty
 description: Learn about the function isNotEmpty
 feature: Journeys

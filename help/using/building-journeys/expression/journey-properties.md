@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: Journey properties
 description: Learn about journey properties
 feature: Journeys

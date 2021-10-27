@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: avg
 description: Learn about the function avg
 feature: Journeys

@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: substr
 description: Learn about the function substr
 feature: Journeys

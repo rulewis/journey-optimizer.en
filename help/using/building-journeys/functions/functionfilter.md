@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: filter
 description: Learn about the function filter
 feature: Journeys

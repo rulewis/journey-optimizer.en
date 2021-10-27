@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: random
 description: Learn about the function random
 feature: Journeys

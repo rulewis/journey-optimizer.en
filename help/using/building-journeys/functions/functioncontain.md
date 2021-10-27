@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: contain
 description: Learn about the function contain
 feature: Journeys

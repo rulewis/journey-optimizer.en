@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: equalIgnoreCase
 description: Learn about the function equalIgnoreCase
 feature: Journeys

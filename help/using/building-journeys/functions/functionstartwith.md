@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: startWith
 description: Learn about the function startWith
 feature: Journeys

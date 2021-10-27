@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: Operators
 description: Learn about operators in advanced expressions
 feature: Journeys

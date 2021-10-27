@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inNextHours
 description: Learn about the function inNextHours
 feature: Journeys

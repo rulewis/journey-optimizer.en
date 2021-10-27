@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: replace
 description: Learn about the function replace
 feature: Journeys

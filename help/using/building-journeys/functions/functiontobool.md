@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: toBool
 description: Learn about the function toBool
 feature: Journeys

@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: concat
 description: Learn about the function concat
 feature: Journeys

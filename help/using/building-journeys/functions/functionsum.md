@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: sum
 description: Learn about the function sum
 feature: Journeys

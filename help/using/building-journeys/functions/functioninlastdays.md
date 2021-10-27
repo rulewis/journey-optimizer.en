@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inLastDays
 description: Learn about the function inLastDays
 feature: Journeys

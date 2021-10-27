@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: Functions
 description: Learn about functions
 feature: Journeys

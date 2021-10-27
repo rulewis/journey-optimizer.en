@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: toDuration
 description: Learn about the function toDuration
 feature: Journeys

@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: containIgnoreCase
 description: Learn about the function containIgnoreCase
 feature: Journeys

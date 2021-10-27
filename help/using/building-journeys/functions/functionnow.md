@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: now
 description: Learn about the function now
 feature: Journeys

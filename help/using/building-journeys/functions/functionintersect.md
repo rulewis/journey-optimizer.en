@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: intersect
 description: Learn about the function intersect
 feature: Journeys

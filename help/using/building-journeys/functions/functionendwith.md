@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: endWith
 description: Learn about the function endWith
 feature: Journeys

@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inNextMonths
 description: Learn about the function inNextMonths
 feature: Journeys

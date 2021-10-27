@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: currentTimeInMillis
 description: Learn about the function currentTimeInMillis
 feature: Journeys

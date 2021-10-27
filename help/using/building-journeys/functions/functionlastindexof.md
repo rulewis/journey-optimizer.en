@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: lastIndexOf
 description: Learn about the function lastIndexOf
 feature: Journeys

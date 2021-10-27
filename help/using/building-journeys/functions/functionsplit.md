@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: split
 description: Learn about the function split
 feature: Journeys

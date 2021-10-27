@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: indexOf
 description: Learn about the function indexOf
 feature: Journeys

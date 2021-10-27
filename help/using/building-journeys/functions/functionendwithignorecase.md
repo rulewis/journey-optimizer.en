@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: endWithIgnoreCase
 description: Learn about the function endWithIgnoreCase
 feature: Journeys

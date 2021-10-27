@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: inLastMonths
 description: Learn about the function inLastMonths
 feature: Journeys

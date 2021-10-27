@@ -1,4 +1,5 @@
 ---
+product: adobe campaign
 title: setHours
 description: Learn about the function setHours
 feature: Journeys
