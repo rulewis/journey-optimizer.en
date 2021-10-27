@@ -9,7 +9,7 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 ---
 # About legacy fields {#sharing-legacy-fields}
 
-This category contains the legacy step event fields. These fields are part of the following field groups:
+This category contains the original step event fields. These fields are part of the following field groups:
 
 * [journeySteps events common fields](../reports/sharing-common-fields.md)
 * [journeyStep events action execution fields](../reports/sharing-execution-fields.md)
