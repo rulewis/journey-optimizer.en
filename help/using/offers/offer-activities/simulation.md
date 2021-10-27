@@ -21,6 +21,8 @@ This enables you to test and refine various versions of your offers with no impa
 >[!NOTE]
 >
 >This capability simulates a single request to the [!DNL Decisions] API. Learn more on [Deliver offers using the Decisions API](../api-reference/decisions-api/deliver-offers.md).
+>
+>All De-duplication flags are enabled by default for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross decisions.
 
 To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** menu.
 
@@ -98,6 +100,8 @@ Now select the offer decisions that you want to simulate on your test profiles.
     >[!NOTE]
     >
     >Even if you define several decision scopes, only one API request is simulated.
+    >
+    >All De-duplication flags are enabled by default for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
 
 ## View simulation results
 
