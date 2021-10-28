@@ -119,7 +119,7 @@ The **[!UICONTROL Email - Top Url]** graph and table details which URLs from you
 
 The **[!UICONTROL Email - Top recipient domain]** graph and table details which domains are the most used by recipients to open the email.
 
-<!-->
+<!--
 ![](../assets/global_report_21.png)
 
 >[!NOTE]
