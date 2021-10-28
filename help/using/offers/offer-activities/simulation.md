@@ -26,7 +26,7 @@ To access this feature, select the **[!UICONTROL Simulation]** tab from the **[!
 
 ![](../../assets/offers_simulation-tab.png)
 
-<!-->
+<!--
 ➡️ [Discover this feature in video](#video)
 -->
 
