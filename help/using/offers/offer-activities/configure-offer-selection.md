@@ -40,7 +40,7 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 
 1. For each placement, add a collection. See [Create collections](../offer-library/creating-collections.md).
 
-1. Choose to rank offers by **[!UICONTROL Ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
+1. Select **[!UICONTROL Ranking formula]** as the ranking method, then click **[!UICONTROL Add ranking]**.
 
     ![](../../assets/offer-activity-ranking.png)
 
@@ -68,13 +68,9 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
 1. For each placement, add a collection. See [Create collections](../offer-library/creating-collections.md).
 
-1. Choose to rank offers by **[!UICONTROL AI ranking]** from the drop-down list.
+1. Choose to rank offers by **[!UICONTROL AI ranking]** from the drop-down list, and click **[!UICONTROL Add ranking]**.
 
     ![](../../assets/ranking-selection-ai-ranking.png)
-
-1. Click **[!UICONTROL Add ranking]**.
-
-    ![](../../assets/ranking-selection-ai-ranking-add.png)
 
 1. Select the ranking strategy that you created. All the details of the ranking strategy are displayed.
 
