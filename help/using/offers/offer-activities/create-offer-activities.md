@@ -58,7 +58,7 @@ Before creating a decision, make sure that the components below have been create
     >
     >You can click the **[!UICONTROL Open offer collections]** link to display the list of collections in a new tab, which enables you to browse the collections and the offers they contain.
 
-    The selected collection is added to the placement.
+    The selected collection is added to the criteria.
 
     ![](../../assets/activities-collection-added.png)
 
@@ -100,7 +100,7 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../../assets/activity_reorder-collections.png)
     
-1. You can also evaluate several criteria at the same time. To do so, drap and drop the collection on top of another.
+1. You can also evaluate several criteria at the same time. To do so, drag and drop the collection on top of another.
 
     ![](../../assets/activity_move-collection.png)
 
