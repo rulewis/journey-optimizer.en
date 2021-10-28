@@ -51,7 +51,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now simulate which offers will be delivered to a test profile for a given placement and validate your decision logic.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="offers/offer-activities/simulation.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -60,7 +60,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 table>
 <thead>
 <tr>
-<th><strong>Decision Management - Personalize your offers (starting Nov 1st)</strong><br/></th>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -97,6 +97,10 @@ table>
 **Personalization**
 
 * **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
+
+<!--**Decision management**
+
+The decision creation flow has been improved, including the ability to reorder the sequences for a decision scope, and easier navigation to the offers and between decision scopes. [Learn more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)-->
 
 ### Fixes 
 

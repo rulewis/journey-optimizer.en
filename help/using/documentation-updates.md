@@ -16,6 +16,9 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * New **Edit a message preset** section. [Read more](configuration/message-presets.md#edit-message-preset)
 * New **Edit a PTR record** section. [Read more](configuration/ptr-records.md#edit-ptr-record)
 * New **Deactivate a message preset** section. [Read more](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+<!--* New **Create simulations** section. [Read more](offers/offer-activities/simulation.md)
+* Updated **Add decision scopes** section. [Read more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Updated **Define content for your representations** section. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
 ## September 2021
 
