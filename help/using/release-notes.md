@@ -51,7 +51,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now simulate which offers will be delivered to a test profile for a given placement and validate your decision logic.</p>
-<p>For more information, refer to the <a href="offers/offer-activities/simulation.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -60,7 +60,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 table>
 <thead>
 <tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+<th><strong>Decision Management - Personalize your offers (starting Nov 1st)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +77,7 @@ table>
 
 **Journeys**
 
-* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Learn more in this sample](building-journeys/message-to-subscribers-uc.md) 
+* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Learn more in this sample](building-journeys/message-to-subscribers-uc.md)
     <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
 * **Accessibility** - Accessibility enhancements have been implemented in journeys. 
@@ -87,7 +87,7 @@ table>
 **Reporting**
 
 * **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](message-monitoring.md)
-    <!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
+* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
 
 **Administration**
 
@@ -97,10 +97,6 @@ table>
 **Personalization**
 
 * **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
-
-<!--**Decision management**
-
-The decision creation flow has been improved, including the ability to reorder the sequences for a decision scope, and easier navigation to the offers and between decision scopes. [Learn more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)-->
 
 ### Fixes 
 

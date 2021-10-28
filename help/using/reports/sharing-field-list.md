@@ -22,8 +22,6 @@ Step event fields are organized by category.
 |---|---|------------|
 |requestId|String|The request Id used by Journey Orchestration to track the flow of a request.|
 
-### VersionID
-
 ## journey
 
 This field group is used in the journey schema (in relation with journeyStepEvent). It contains the following fields:
@@ -64,4 +62,4 @@ This mixin contains all fields corresponding to a profile export job.
 
 ## stepEvents
 
-This category contains the original step event fields. Refer to this [section](../reports/sharing-legacy-fields.md).
+This category contains the original step event fields. Refer to this [section](../building-journeys/sharing-legacy-fields.md).
