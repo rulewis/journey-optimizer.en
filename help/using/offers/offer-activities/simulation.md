@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
+exl-id: 
 ---
 
 # Create simulations
@@ -42,7 +42,7 @@ First you need to select the test profiles that you are going to use for simulat
 
     >[!NOTE]
     >
-    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](get-started-identity.md){target="_blank"}.
+    >An identity namespace defines the context of an identifier such as an email address or CRM ID. Learn more about Adobe Experience Platform identity namespaces [in this section](../../get-started-identity.md){target="_blank"}.
 
 1. Enter the identity value and click **[!UICONTROL View]** to list the available profiles.
 
