@@ -22,8 +22,6 @@ Step event fields are organized by category.
 |---|---|------------|
 |requestId|String|The request Id used by Journey Orchestration to track the flow of a request.|
 
-### VersionID
-
 ## journey
 
 This field group is used in the journey schema (in relation with journeyStepEvent). It contains the following fields:

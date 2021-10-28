@@ -17,7 +17,7 @@ In this example, the **[!UICONTROL Consent and Preference Details]** field group
 To configure this journey, follow these steps:
 
 1. Create a journey that starts with a **[!UICONTROL Read]** activity. [Read more](journey-gs.md).
-1. Add a **[!UICONTROL Message]** activity to the journey. [Read more](journeys-message.md).
+1. Add a **[!UICONTROL Message]** activity, with an email, to the journey. [Read more](journeys-message.md).
 1. In the **[!UICONTROL Email parameters]** section of the **[!UICONTROL Message]** activity settings, replace the default email address (`PersonalEmail.adress`) with the email address of the list subscribers:
 
    1. Click the **[!UICONTROL Enable parameter override]** icon at the right of the **[!UICONTROL Address]** field, then click the **[!UICONTROL Edit]** icon.
@@ -26,7 +26,7 @@ To configure this journey, follow these steps:
 
       To be able to modify the email address, you must have previously published the message.
 
-   1. In the expression editor, enter the expression to refer to the subscribers' email addresses. [Read more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
+   1. In the expression editor, enter the expression to retrieve the subscribers' email addresses. [Read more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
 
       This example shows an expression that includes references to map fields:
 
@@ -39,11 +39,17 @@ To configure this journey, follow these steps:
       | Function | Description | Example |
       | --- | --- | --- |
       | `entry` | Refer to a map element according to the selected namespace | Refer to a specific subscription list |
-      | `firstEntryKey` | Refer to the first entry key of a map | Refer to the subscribers' email address |
+      | `firstEntryKey` | Retrieve the first entry key of a map | Retrieve the first email address of subscribers |
+
+      In this example, the subscription list is named `daily-email`. Email addresses are defined as keys in the `subscribers` map, which is linked to the subscription list map.
 
       Read more about [references to fields](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) in expressions.
 
       ![](../assets/message-to-subscribers-uc-2.png)
+
+    1. In the **[!UICONTROL Add an expression]** dialog box, click **[!UICONTROL Ok]**.
+
+      ![](../assets/message-to-subscribers-uc-3.png)
 
     1. End the journey with an **[!UICONTROL End]** activity.
 
