@@ -30,7 +30,7 @@ Before creating a decision, make sure that the components below have been create
 
 1. Specify the decision's name.
 
-1. Define a start and end date and time, then click **[!UICONTROL Next]**.
+1. Define a start and end date and time if needed, then click **[!UICONTROL Next]**.
 
     ![](../../assets/activities-name.png)
 
@@ -141,8 +141,8 @@ To do so, select it from the list of available fallback offers for the placement
 ![](../../assets/add-fallback-offer.png)
 
 >[!NOTE]
-    >
-    >You can click the **[!UICONTROL Open offer library]** link to display the list of offers in a new tab.
+>
+>You can click the **[!UICONTROL Open offer library]** link to display the list of offers in a new tab.
 
 ## Review and save the decision {#review}
 
@@ -157,7 +157,7 @@ If everything is configured properly, a summary of the decision properties displ
     ![](../../assets/review-decision-details.png)
 
 1. Click **[!UICONTROL Finish]**.
-1. Then select **[!UICONTROL Save and activate]**.
+1. Select **[!UICONTROL Save and activate]**.
 
     ![](../../assets/save-activities.png)
     
