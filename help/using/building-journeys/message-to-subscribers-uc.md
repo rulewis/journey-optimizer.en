@@ -12,7 +12,7 @@ The purpose of this use case is to create a journey to send a message to the sub
 
 In this example, the **[!UICONTROL Consent and Preference Details]** field group from [!DNL Adobe Experience Platform] is used. To find this field group, from the **[!UICONTROL Data Management]** menu, choose **[!UICONTROL Schemas]**. On the **[!UICONTROL Field groups]** tab, enter the name of the field group in the search field.
 
-![///This field group includes the subscriptions element](../assets/consent-and-preference-details-field-group.png)
+![This field group includes the subscriptions element](../assets/consent-and-preference-details-field-group.png)
 
 To configure this journey, follow these steps:
 
