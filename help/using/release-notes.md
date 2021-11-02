@@ -73,6 +73,8 @@ table>
 </tbody>
 </table-->
 
+See also [Adobe Experience Platform October Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"} for more changes.
+
 ### Improvements
 
 **Journeys**
