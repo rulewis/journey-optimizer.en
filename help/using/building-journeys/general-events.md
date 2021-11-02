@@ -20,7 +20,7 @@ When you drop a business event, it automatically adds a **Read Segment** activit
 
 An event activity positioned in the journey listens to events indefinitely. To listen to an event only during a certain time, you must configure a timeout for the event.
 
-The journey will then listen to the event during the time specified in the timeout. If an event is received during that period, the person will flow in the event path. If not, the customer will either flow into a timeout path, or end his journey.
+The journey will then listen to the event during the time specified in the timeout. If an event is received during that period, the person will flow in the event path. If not, the customer will either flow into a timeout path, or end their journey.
 
 To configure a timeout for an event, follow these steps:
 
