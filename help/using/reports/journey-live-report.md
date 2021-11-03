@@ -35,19 +35,33 @@ The **[!UICONTROL Journey Statistics]** widget displays the following KPIs:
 
 * **[!UICONTROL Exited profiles]**: Total number of individuals who exited the journey.
 
-* **[!UICONTROL Failed individual journey]**: Total number of individual journeys that were not successfully executed.
+* **[!UICONTROL Failed individual journeys]**: Total number of individual journeys that were not successfully executed.
 
 ![](../assets/report_journey_3.png)
 
-The **[!UICONTROL Event executed over the last 24 hours]**, **[!UICONTROL Events executed]** and **[!UICONTROL Events]** widgets allow you to see which one of your events was successfully executed through summary number, graph and table.
+The **[!UICONTROL Event executed over the last 24 hours]** and **[!UICONTROL Events]** widgets allow you to see which one of your events was successfully executed through summary number, graph and table.
 
 ![](../assets/report_journey_4.png)
 
-**[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Actions executed and errors]** widgets represent the most successful action and errors which occurred when your actions were triggered. The Action graph, table and summary numbers contain the data available for actions, such as:
+The **[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Actions executed and errors]** widgets represent the most successful action and errors which occurred when your actions were triggered. The Action graph, table and summary numbers contain the data available for actions, such as:
 
-* **[!UICONTROL Actions successfully executed]**: Total number of actions successfully executed for a journey.
+* **[!UICONTROL Actions executed]**: Total number of actions successfully executed for a journey.
 
-* **[!UICONTROL Error in action]**: Total number of errors that occurred for actions.
+* **[!UICONTROL Error in actions]**: Total number of errors that occurred for actions.
+
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
 
 ## Email tab {#email-live}
 
