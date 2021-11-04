@@ -51,7 +51,7 @@ To configure this journey, follow these steps:
 
       ![](../assets/message-to-subscribers-uc-3.png)
 
-    1. End the journey with an **[!UICONTROL End]** activity.
+1. End the journey with an **[!UICONTROL End]** activity.
 
 
 
