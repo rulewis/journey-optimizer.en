@@ -49,6 +49,7 @@ The **[!UICONTROL Action executed over the last 24 hours]** and **[!UICONTROL Ac
 
 * **[!UICONTROL Error in actions]**: Total number of errors that occurred for actions.
 
+<!--
 ![](../assets/live_report_7.png)
 
 >[!NOTE]
@@ -62,6 +63,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 * **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
 * **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## Email tab {#email-live}
 

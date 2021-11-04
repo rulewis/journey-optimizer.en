@@ -261,4 +261,8 @@ After saving your changes and once the message is published, your offers are rea
 
 * Learn how messages are triggered by one or more journeys in [this section](../building-journeys/journey.md).
 
+<!--
 * Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
+-->
+
+
