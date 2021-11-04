@@ -30,13 +30,13 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Journeys - Counter condition</strong><br/></th>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>When using a Condition activity in a journey, you can now define a counter condition. This new condition type allows you to define a capping on how many times it can get executed. This allows you to optimize your IP ramp up. For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+<p>When using a Condition activity in a journey, you can now define a Profile cap condition. This new condition type allows you to define a capping on how many times it can get executed. This allows you to optimize your IP ramp up. For exemple, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap}">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
 </td>
 </tr>
 </tbody>
