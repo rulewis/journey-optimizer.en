@@ -103,7 +103,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Decision Management**
 
-* **Evaluation sequencing** - The new and improved decision creation flow enables you to not only navigate between decision objects more seamlessly, but also gives you a complete control of how offer collections are evaluated by the decision engine. This includes which collections are evaluated together vs separately, and in what order the collections should be evaluated. [Learn more](offers/offer-activities/create-offers-activities.md#add-decision-scopes)
+* **Evaluation sequencing** - The new and improved decision creation flow enables you to not only navigate between decision objects more seamlessly, but also gives you a complete control of how offer collections are evaluated by the decision engine. This includes which collections are evaluated together vs separately, and in what order the collections should be evaluated. [Learn more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### Fixes 
 
