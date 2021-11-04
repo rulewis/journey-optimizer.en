@@ -25,7 +25,7 @@ The purpose of this use case is to create a journey to ramp up your email delive
 
    1. Set the **[!UICONTROL Limit]** field to the maximum number of recipients for this delivery.
 
-    ![](../assets/profile-limiter-activity.png)
+    ![](../assets/profile-cap-condition.png)
 
       You can gradually increase this limit up to the total number of your subscribers.
 

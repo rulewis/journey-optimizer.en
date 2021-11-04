@@ -102,7 +102,7 @@ The counter applies only to the selected journey version. By default, the counte
 
 The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
 
-![](../assets/profile-limiter-activity.png)
+![](../assets/profile-cap-condition.png)
 
 ## Using segments in conditions {#using-a-segment}
 
