@@ -17,9 +17,10 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * New **Edit a PTR record** section. [Read more](configuration/ptr-records.md#edit-ptr-record)
 * New **Deactivate a message preset** section. [Read more](configuration/message-presets.md#edit-message-preset#deactivate-preset)
 * New limitations added to the **Decision Management API developer guide** on offer constraints not supported with the mobile [!DNL Experience Edge] workflows. [Read more](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
-<!--* New **Create simulations** section. [Read more](offers/offer-activities/simulation.md)
+* New **Create simulations** section. [Read more](offers/offer-activities/simulation.md)
 * Updated **Add decision scopes** section. [Read more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Updated **Define content for your representations** section. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+* Updated **Define content for your representations** section. [Read more](offers/offer-library/creating-personalized-offers.md#content)
+* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
 
 ## September 2021
 
@@ -40,8 +41,6 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * Added a new **Limitations** page. [Read more](limitations.md)
 
 * Improved the **Quick start** page with steps for different personas. [Read more](quick-start.md)
-
-    <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
 * Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application service. [Read more](offers/get-started/starting-offer-decisioning.md)
 
