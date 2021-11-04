@@ -18,7 +18,7 @@ The event configuration allows you to define the information [!DNL Journey Optim
 
 >[!NOTE]
 >
->For more information on how to configure an event, watch the [tutorial](https://experienceleague.corp.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>For more information on how to configure an event, watch the [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >
