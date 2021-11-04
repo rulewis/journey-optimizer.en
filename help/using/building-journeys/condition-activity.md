@@ -80,13 +80,27 @@ In test mode, when reaching a split, the top branch is always chosen. You can re
 
 ## Date condition {#date_condition}
 
-This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a specific message. The rest of the year, you'll send another message.
+This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send them a specific message. The rest of the year, you'll send another message.
 
 >[!NOTE]
 >
 >The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. See [this page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
+
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+
+The default cap is 1000. You must set an integer value that is equal to or greater than 1.
+
+The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+
+The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+
+![](../assets/profile-limiter-activity.png)
 
 ## Using segments in conditions {#using-a-segment}
 

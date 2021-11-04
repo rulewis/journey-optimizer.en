@@ -133,7 +133,7 @@ As many customers look for an easier process to unsubscribe, you can also add a 
 
 Learn how to add an opt-out link to your message content in [this section](message-tracking.md#one-click-opt-out-link).
 
-Once your message is sent through a [journey](building-journeys/journey.md), if a recipient clicks the opt-out link, his profile is immediately opted out.
+Once your message is sent through a [journey](building-journeys/journey.md), if a recipient clicks the opt-out link, their profile is immediately opted out.
 
 ## Unsubscribe link in header {#unsubscribe-email}
 

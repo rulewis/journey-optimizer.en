@@ -23,6 +23,8 @@ The **deliverability rate** is the number of messages that hit the recipients' i
 
 To optimize the deliverability of your [!DNL Journey Optimizer] experiences, we recommend using the best practices listed in this section. Deliverability problems are generally linked to protection against spam implemented by Internet service providers (ISPs) and mail server administrators.
 
+For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}.
+
 ## Reduce complaint rate {#reduce-complaint-rate}
 
 ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests and therefore showing that you are a reliable sender, you can reduce complaint rates. [Learn more about opt-out management](consent.md#opt-out-management).
@@ -67,3 +69,9 @@ To improve your deliverability rate and make sure that your emails reach your re
 <!--**Use tools** offered by Journey Optimizer to optimize the content of your email (delivery analysis, anti-spam analysis).-->
 
 [Learn more about designing email content](design-emails.md).
+
+## Establish your reputation as a sender
+
+If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+
+To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).

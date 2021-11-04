@@ -19,7 +19,7 @@ This query allows you to list each error encountered in journeys while executing
 
 _Data Lake query_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -29,7 +29,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 _Example_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -45,7 +45,7 @@ This query returns all the different errors that occurred while executing an act
 
 _Data Lake query_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
@@ -54,7 +54,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Example_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
@@ -69,7 +69,7 @@ The result should be greater than 0. This query returns the exact number of time
 
 _Data Lake query_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -79,7 +79,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Example_
     
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -93,7 +93,7 @@ The result should be greater than 0. This query only tells us whether the messag
 
 _Data Lake query_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -103,7 +103,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Example_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -117,7 +117,7 @@ The query returns the list of all messages along with their count invoked for th
 
 _Data Lake query_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -128,7 +128,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 _Example_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -143,7 +143,7 @@ The query returns the list of all messages along with their count invoked for th
 
 _Data Lake query_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
@@ -153,7 +153,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 _Example_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
@@ -167,7 +167,7 @@ The query returns the list of all journey names along with the number of times t
 
 _Data Lake query_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
@@ -177,7 +177,7 @@ ORDER BY DATE(timestamp) desc
 
 _Example_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
@@ -193,7 +193,7 @@ The query resturns, for the defined period, the number of profiles that entered 
 
 _Data Lake query_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
@@ -202,7 +202,7 @@ ORDER BY DATE(timestamp) desc
 
 _Example_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 GROUP BY DATE(timestamp)
