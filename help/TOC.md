@@ -15,12 +15,7 @@ solution: Journey Optimizer
   + [Latest updates](using/documentation-updates.md)
 + Get started{#get-started}
   + [What is Journey Optimizer](using/get-started.md)
-  + Quick Start{#quick-start}
-    + [Overview](using/quick-start.md)
-    + [Get Started as a Marketer](using/path/marketer.md)
-    + [Get Started as a Data engineer](using/path/data-engineer.md)
-    + [Get Started as an Administrator](using/path/administrator.md)    
-    + [Get Started as a Developer](using/path/developer.md)      
+  + [Quick Start](using/quick-start.md)
   + [User interface](using/user-interface.md)
   + [Limitations](using/limitations.md)
 + Messages {#create-messages}
@@ -49,11 +44,10 @@ solution: Journey Optimizer
     + [Order status notification](using/personalization/personalization-use-case.md)
     + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Helper functions{#functions}
-    + [Get started with helper functions](using/personalization/functions/functions.md)
+    + [List of helper functions](using/personalization/functions/functions.md)
     + [Aggregation functions](using/personalization/functions/aggregation.md)
     + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
     + [Arrays and list functions](using/personalization/functions/arrays-list.md)
-    + [Date functions](using/personalization/functions/dates.md)
     + [Boolean and comparison functions](using/personalization/functions/operators.md)
     + [Helpers](using/personalization/functions/helpers.md)
     + [Map functions](using/personalization/functions/maps.md)
@@ -98,7 +92,6 @@ solution: Journey Optimizer
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
     + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
     + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
 + Track and monitor {#reporting}
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
@@ -113,14 +106,11 @@ solution: Journey Optimizer
     + [Push Global report](using/reports/push-global-report.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
-    + [Step event field list](using/reports/sharing-field-list.md)
-    + Legacy step event fields {#legacy-step-event-fields}
-        + [About legacy fields](using/reports/sharing-legacy-fields.md)
-        + [Journey fields](using/reports/sharing-journey-fields.md)
-        + [Common fields](using/reports/sharing-common-fields.md)
-        + [Action execution fields](using/reports/sharing-execution-fields.md)
-        + [Data fetch fields](using/reports/sharing-fetch-fields.md)
-        + [Identity fields](using/reports/sharing-identity-fields.md)
+    + [Journey fields](using/reports/sharing-journey-fields.md)
+    + [Common fields](using/reports/sharing-common-fields.md)
+    + [Action execution fields](using/reports/sharing-execution-fields.md)
+    + [Data fetch fields](using/reports/sharing-fetch-fields.md)
+    + [Identity fields](using/reports/sharing-identity-fields.md)
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)

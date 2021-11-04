@@ -19,8 +19,6 @@ Adobe Experience Platform sandboxes can be created or reset from your Adobe Expe
 
 You can find the sandbox switcher control at the top-left of your screen. To switch from one sandbox to another, click the currently active sandbox in the switcher and select another sandbox from the drop-down list.
 
-➡️ [Discover this feature in video](#video)
-
 ## Assign sandboxes {#assign-sandboxes}
 
 >[!IMPORTANT]
@@ -62,9 +60,3 @@ To configure your content accessibility, you need to assign a content shared fol
 Note that for your content to sync with the correct sandbox, you have to follow the same syntax as the sandbox e.g. if your sandbox is called development your shared folder should have the same name.
 
 [Learn how to manage shared folders](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
-
-## How-to video{#video}
-
-Understand what sandboxes are and how to distinguish between development and production sandboxes. Learn how to create, reset, and delete sandboxes.
-
->[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

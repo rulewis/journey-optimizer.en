@@ -29,7 +29,6 @@ Learn more on managing Privacy and the applicable regulations in the [Experience
 Providing the capability to recipients to unsubscribe from receiving communications from a brand is a legal requirement. Learn more about the applicable legislation in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
 
 Therefore, you must always include an **unsubscribe link** in every email sent out to recipients:
-
 * Upon clicking this link, the recipients will be directed to a landing page including a button to confirm opting out.
 * Upon clicking the opt-out button, an Adobe I/O call will be made to update the profile data with this information. [Learn more about this](#consent-service-api).
 
@@ -51,7 +50,7 @@ To add an unsubscribe link, follow the steps below:
 
     ![](assets/opt-out-link-type.png)
 
-1. In the **[!UICONTROL Link]** field, paste the link to your landing page.
+1. In the **[!UICONTROL Unsubscription page URL]** frame, copy the link to your landing page.
 
     ![](assets/opt-out-link-url.png)
 
@@ -94,7 +93,6 @@ This Adobe I/O POST call is as follows:
 Endpoint: cjm.adobe.io/imp/consent/preferences
 
 Query parameters:
-
 * **params**: contains the encrypted payload
 * **sig**: signature <!--which signature?-->
 * **pid**: encrypted profile ID
@@ -106,7 +104,6 @@ These parameters are available from the unsubscribe link sent to your recipient,
 <!--QUESTION: How do you get the URL built for each recipient? Do you have to wait until each targeted recipient receives the unsubscribe link or can you deduce it in advance? Is it done automatically upon the API call or do you have to do something manually for each profile? In other words will the LP automatically include the 3 parameters or do you have to insert something manually? Still not completely clear-->
 
 Header requirements:
-
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name 

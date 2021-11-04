@@ -16,10 +16,6 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 
 The event configuration allows you to define the information [!DNL Journey Optimizer] will receive as events. You can use multiple events (in different steps of a journey) and several journeys can use the same event.
 
->[!NOTE]
->
->For more information on how to configure an event, watch the [tutorial](https://experienceleague.corp.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
-
 >[!CAUTION]
 >
 >Event configuration is **mandatory** and must be performed by a **technical user**.
