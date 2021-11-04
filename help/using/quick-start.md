@@ -21,7 +21,7 @@ To learn and discover the power of Adobe Journey Optimizer with step-by-step gui
 <tr>
   <td valign="bottom">
     <a href="path/administrator.md">
-      <img alt="Administrator" src="../using/assets/do-not-localize/user-2.jpeg" />
+      <img alt="Administrator" src="../using/assets/do-not-localize/user-2.png" />
     </a>
     <div>
     <a href="path/administrator.md">I am an Administrator</a>
@@ -32,7 +32,7 @@ To learn and discover the power of Adobe Journey Optimizer with step-by-step gui
   </td>
   <td valign="bottom">
     <a href="path/data-engineer.md">
-      <img alt="Data Engineer" src="../using/assets/do-not-localize/user-1.jpeg"/>
+      <img alt="Data Engineer" src="../using/assets/do-not-localize/user-1.png"/>
     </a>
     <div>
     <a href="path/data-engineer.md">I am a Data Engineer</a>
@@ -43,7 +43,7 @@ To learn and discover the power of Adobe Journey Optimizer with step-by-step gui
   </td>
   <td valign="bottom">
       <a href="path/marketer.md">
-       <img alt="Marketer" src="../using/assets/do-not-localize/user-3.jpeg" />
+       <img alt="Marketer" src="../using/assets/do-not-localize/user-3.png" />
        </a>
     <div><a href="path/marketer.md">I am a Marketer</a>
      <p>Design messages, add offers, assets, and build customer journeys
@@ -53,7 +53,7 @@ To learn and discover the power of Adobe Journey Optimizer with step-by-step gui
   </td>
     <!--td valign="bottom">
     <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-4.jpeg" />
+      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
     </a>
     <div>
     <a href="path/developer.md">I am a Developer</a>

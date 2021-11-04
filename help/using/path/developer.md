@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # Get Started for Developers
 
-![developer](assets/do-not-localize/user-4-S.jpeg) 
+![developer](assets/do-not-localize/user-3.png) 
 
 ## Integrate your mobile app
 

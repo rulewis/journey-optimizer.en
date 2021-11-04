@@ -5,7 +5,7 @@ level: Intermediate
 ---
 # Get Started for System Administrators
 
-![administrator](assets/do-not-localize/user-1-S.jpeg) 
+![administrator](assets/do-not-localize/user-2.png) 
 
 Before starting using [!DNL Adobe Journey Optimizer], several steps are required to prepare your environment.  You must perform these steps so that the [Data Engineer](data-engineer.md) and [Journey Practicionner](marketer.md) can start working with [!DNL Adobe Journey Optimizer].
 

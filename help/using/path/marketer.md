@@ -6,7 +6,7 @@ level: Intermediate
 
 # Get started for Marketers
 
-![marketer](assets/do-not-localize/user-3-S.jpeg) 
+![marketer](assets/do-not-localize/user-3.png) 
 
 As a **Marketer** or a **Journey Practicionner**, you are responsible for creating messages, offers and journeys. You can start working with [!DNL Adobe Journey Optimizer] once the [System Administrator](administrator.md) and the [Data Engineer](data-engineer.md) granted you access and prepared your environment.
 

@@ -5,7 +5,7 @@ level: Intermediate
 ---
 # Get Started for Data Engineer {#data-engineer}
 
-![data engineer](assets/do-not-localize/user-2-S.jpeg) 
+![data engineer](assets/do-not-localize/user-1.png) 
 
 As an **Adobe Journey Optimizer Data Engineer**, prepare and maintain customer profile data to power the experiences orchestrated by [!DNL Journey Optimizer], model customer and business data in schemas and configure source connectors for ingesting data. You can start working with [!DNL Adobe Journey Optimizer] once the [System Administrator](administrator.md) granted you access and prepared your environment.
 
