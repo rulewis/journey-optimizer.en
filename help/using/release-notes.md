@@ -41,7 +41,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Decision Management - Offer Simulations</strong><br/></th>
@@ -50,28 +50,29 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now simulate which offers will be delivered to a test profile for a given placement and validate your decision logic.</p>
+<p>You can now simulate which offers will be delivered to a test profile for a given placement in the Journey Optimizer UI. This allows you to validate your decisioning logic including eligibility constraints and ranking algorithms easily before you put them in production. Providing this testing capability allows non-technical and technical users to quickly test offer decisioning and troubleshoot potential problems.</p>
+<p>For more information, refer to the <a href="offers/offer-activities/simulation.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize the content of your offers using Adobe Experience Platform profile attributes and segments, using the same expression editor component found throughout Journey Optimizer UI. </p>
 <p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers (starting Nov 1st)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 See also [Adobe Experience Platform October Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"} for more changes.
 
@@ -99,6 +100,10 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Personalization**
 
 * **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
+
+**Decision Management**
+
+* **Evaluation sequencing** - The new and improved decision creation flow enables you to not only navigate between decision objects more seamlessly, but also gives you a complete control of how offer collections are evaluated by the decision engine. This includes which collections are evaluated together vs separately, and in what order the collections should be evaluated.
 
 ### Fixes 
 
@@ -147,23 +152,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 ### Improvements
 
