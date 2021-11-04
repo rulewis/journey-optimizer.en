@@ -50,7 +50,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>You can now simulate which offers will be delivered to a test profile for a given placement in the Journey Optimizer UI. This allows you to validate your decisioning logic including eligibility constraints and ranking algorithms easily before you put them in production. Providing this testing capability allows non-technical and technical users to quickly test offer decisioning and troubleshoot potential problems.</p>
+<p>You can now simulate which offers will be delivered to a test profile for a given placement in the Journey Optimizer UI. This allows you to validate your decisioning logic including eligibility constraints and ranking algorithms easily before you put them in production. This capability allows non-technical and technical users to quickly test offer decisioning and troubleshoot potential problems.</p>
 <p>For more information, refer to the <a href="offers/offer-activities/simulation.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -103,7 +103,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 
 **Decision Management**
 
-* **Evaluation sequencing** - The new and improved decision creation flow enables you to not only navigate between decision objects more seamlessly, but also gives you a complete control of how offer collections are evaluated by the decision engine. This includes which collections are evaluated together vs separately, and in what order the collections should be evaluated.
+* **Evaluation sequencing** - The new and improved decision creation flow enables you to not only navigate between decision objects more seamlessly, but also gives you a complete control of how offer collections are evaluated by the decision engine. This includes which collections are evaluated together vs separately, and in what order the collections should be evaluated. [Learn more](offers/offer-activities/create-offers-activities.md#add-decision-scopes)
 
 ### Fixes 
 
