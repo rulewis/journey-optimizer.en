@@ -91,7 +91,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 **Reporting**
 
 * **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](message-monitoring.md)
-* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Administration**
 
