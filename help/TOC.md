@@ -6,7 +6,6 @@ user-guide-description: Use Journey Optimizer to deliver connected, contextual, 
 type: Documentation
 solution: Journey Optimizer
 ---
-
 # Adobe Journey Optimizer Help {#using}
 
 + [Journey Optimizer documentation](ajo-home.md)
