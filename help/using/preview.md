@@ -36,6 +36,15 @@ In addition, leverage your **Litmus** account into [!DNL Journey Optimizer] to i
 
 ## Select test profiles{#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Preview and test your messages"
+>abstract="Once your message content has been defined, you can use test profiles to preview and test it."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Email rendering"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Preview"
+
+
+
 Use [Test profiles](building-journeys/creating-test-profiles.md) to target additional recipients who do not match the defined targeting criteria.
 
 To select test profiles, follow the steps below: 
@@ -96,7 +105,7 @@ For a push notification preview:
 
     ![](assets/preview-select-channel.png)
 
-1. Apply the same steps as described above to select a test profile, and select the type of device to preview content: **[!UICONTROL iOS]** or **[!UICONTROL Android]**
+1. Apply the same steps as described above to select a test profile, and select the type of device to preview content: **[!UICONTROL iOS]** or **[!UICONTROL Android]**.
 
     ![](assets/preview-iOS.png)
 

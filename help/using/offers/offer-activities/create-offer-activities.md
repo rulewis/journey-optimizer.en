@@ -26,55 +26,91 @@ Before creating a decision, make sure that the components below have been create
 
 ## Create the decision {#create-activity}
 
-1. Access the decisions list, then click **[!UICONTROL Create decision]**.
+1. Access the decision list, then click **[!UICONTROL Create decision]**.
 
 1. Specify the decision's name.
 
-1. Define a start and end date and time, then click **[!UICONTROL Next]**.
+1. Define a start and end date and time if needed, then click **[!UICONTROL Next]**.
 
     ![](../../assets/activities-name.png)
 
-## Add decision scopes {#add-decision-scopes}
+## Define decision scopes {#add-decision-scopes}
 
-1. Drag and drop a placement from the list to add it to the decision, then click **[!UICONTROL Add collection]**.
+1. Select a placement from the drop-down list. It will be added to the first decision scope in your decision.
 
     ![](../../assets/activities-placement.png)
 
+1. Click **[!UICONTROL Add]** to select evaluation criteria for this placement.
+
+    ![](../../assets/activities-evaluation-criteria.png)
+
+    Each criteria consists in an offer collection associated with an eligibility constraint and a ranking method to determine the offers to be shown in the placement.
+    
     >[!NOTE]
     >
-    >The same placement can be selected multiple times in the decision.
+    >At least one evaluation criteria is required.
 
-1. Select the collection that contains the offers to consider, then click **[!UICONTROL Add]**.
+1. Select the offer collection that contains the offers to consider, then click **[!UICONTROL Add]**.
 
     ![](../../assets/activities-collection.png)
 
-1. The selected offers are added to the placement.
+    >[!NOTE]
+    >
+    >You can click the **[!UICONTROL Open offer collections]** link to display the list of collections in a new tab, which enables you to browse the collections and the offers they contain.
 
-    In this example, we selected two offers that will display into a JSON-type placement aimed at presenting offers into a call center solution.
+    The selected collection is added to the criteria.
 
-    ![](../../assets/offers-added.png)
+    ![](../../assets/activities-collection-added.png)
 
-1. By default, if multiple offers are eligible for this placement, the offers with the highest priority score will be delivered to the customer.
+1. Use the **[!UICONTROL Eligibility]** field to restrict the selection of offers for this placement.
 
-    If you want to use a specific formula or a ranking strategy to choose which eligible offer to deliver, select a ranking formula from the **[!UICONTROL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
+    This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](#segments-vs-decision-rules).
 
-1. The **[!UICONTROL Constraint]** field restricts the selection of offers for this placement. This constraint can be applied by using a **decision rule**, or one or several **Adobe Experience Platform segments**. Both are detailed in [this section](#segments-vs-decision-rules).
-
-    * To restrict the selection of the offers to the members of an Adobe Experience Platform segments, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
+    * To restrict the selection of the offers to the members of an Experience Platform segment, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
 
         ![](../../assets/activity_constraint_segment.png)
     
-        Add one or several segments from the left pane, combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators, then click **[!UICONTROL Select]** to confirm.
+        Add one or several segments from the left pane, and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
         ![](../../assets/activity_constraint_segment2.png)
 
-        Learn more on how to work with segments in [this section](../../segment/about-segments.md).
+        Learn how to work with segments in [this section](../../segment/about-segments.md).
 
-    * If you want to add a selection constraint for this placement using a decision rule, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area.
+    * If you want to add a selection constraint with a decision rule, use the **[!UICONTROL Decision rule]** option and select the rule of your choice.
 
         ![](../../assets/activity_constraint_rule.png)
 
-        Learn more on how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
+        Learn how to create a decision rule in [this section](../offer-library/creating-decision-rules.md).
+
+1. Define the ranking method you want to use to select the best offer for each profile.
+
+    ![](../../assets/activity_ranking-method.png)
+
+    * By default, if multiple offers are eligible for this placement, the offer with the highest priority score will be delivered to the customer.
+
+    * If you want to use a specific formula to choose which eligible offer to deliver, select **[!UICONTROL Ranking formula]**. Learn how to rank offers in [this section](../offer-activities/configure-offer-selection.md).
+
+1. Click **[!UICONTROL Add]** to define more criteria for the same placement.
+
+    ![](../../assets/activity_add-collection.png)
+
+1. When you add several criteria, they will be evaluated in a specific order. The first collection that was added to the sequence will be evaluated first, and so on.
+    
+    To change the default sequence, you can drag and drop the collections to reorder them as wanted.
+
+    ![](../../assets/activity_reorder-collections.png)
+    
+1. You can also evaluate several criteria at the same time. To do so, drag and drop the collection on top of another.
+
+    ![](../../assets/activity_move-collection.png)
+
+    They now have the same rank and thus will be evaluated at the same time.
+
+    ![](../../assets/activity_same-rank-collections.png)
+
+1. To add another placement for your offers as part of this decision, use the **[!UICONTROL New scope]** button. Repeat the steps above for each decision scope.
+
+    ![](../../assets/activity_new-scope.png)
 
 ### Using segments vs decision rules {#segments-vs-decision-rules}
 
@@ -98,17 +134,30 @@ Basically, the output of a segment is a list of profiles, whereas a decision rul
 
 ## Add a fallback offer {#add-fallback}
 
-Select the fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints, then click **[!UICONTROL Next]**.
+Once you defined the decision scopes, define the fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints.
+
+To do so, select it from the list of available fallback offers for the placements defined in the decision, then click **[!UICONTROL Next]**.
 
 ![](../../assets/add-fallback-offer.png)
+
+>[!NOTE]
+>
+>You can click the **[!UICONTROL Open offer library]** link to display the list of offers in a new tab.
 
 ## Review and save the decision {#review}
 
 If everything is configured properly, a summary of the decision properties displays. 
 
-1. Make sure decision is ready to be used to  present offers to customers.
+1. Make sure the decision is ready to be used to  present offers to customers. All the decision scopes and the fallback offer it contains are displayed.
+
+    ![](../../assets/review-decision.png)
+
+    You can expand or collapse each placement. You can also preview the available offers, eligibility and ranking details for each placement.
+
+    ![](../../assets/review-decision-details.png)
+
 1. Click **[!UICONTROL Finish]**.
-1. Then select **[!UICONTROL Save and activate]**.
+1. Select **[!UICONTROL Save and activate]**.
 
     ![](../../assets/save-activities.png)
     

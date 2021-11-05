@@ -6,8 +6,7 @@ user-guide-description: Use Journey Optimizer to deliver connected, contextual, 
 type: Documentation
 solution: Journey Optimizer
 ---
-
-# [!DNL Journey Optimizer] Help {#using}
+# Adobe Journey Optimizer Help {#using}
 
 + [Journey Optimizer documentation](ajo-home.md)
 + What's new? {#whats-new}
@@ -44,10 +43,11 @@ solution: Journey Optimizer
     + [Order status notification](using/personalization/personalization-use-case.md)
     + [Cart abandonment email](using/personalization/personalization-use-case-helper-functions.md)
   + Helper functions{#functions}
-    + [List of helper functions](using/personalization/functions/functions.md)
+    + [Get started with helper functions](using/personalization/functions/functions.md)
     + [Aggregation functions](using/personalization/functions/aggregation.md)
     + [Arithmetic functions](using/personalization/functions/arithmetic-functions.md)
     + [Arrays and list functions](using/personalization/functions/arrays-list.md)
+    + [Date functions](using/personalization/functions/dates.md)
     + [Boolean and comparison functions](using/personalization/functions/operators.md)
     + [Helpers](using/personalization/functions/helpers.md)
     + [Map functions](using/personalization/functions/maps.md)
@@ -87,95 +87,11 @@ solution: Journey Optimizer
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
     + [Update profile](using/building-journeys/update-profiles.md)
-  + Using the advanced expression editor {#building-advanced-conditions-journeys}
-    + [About the advanced expression editor](using/building-journeys/expression/expressionadvanced.md)
-    + Syntax {#syntax}
-        + [Generalities](using/building-journeys/expression/generalities.md)
-        + [Conditional instruction](using/building-journeys/expression/conditional-instruction.md)
-        + [Data types](using/building-journeys/expression/data-types.md)
-        + [Field references](using/building-journeys/expression/field-references.md)
-        + [Collection management functions](using/building-journeys/expression/collection-management-functions.md)
-        + [Operators](using/building-journeys/expression/operators.md)
-        + [Journey properties](using/building-journeys/expression/journey-properties.md)
-        + [Examples](using/building-journeys/expression/advanced-editor-use-cases.md)
-    + Functions {#main-functions-journey}
-      + [Main Functions](using/building-journeys/expression/functions.md)
-      + Adobe Experience Platform {#adobe-experience-platform}
-        + [inSegment](using/building-journeys/functions/functioninsegment.md)
-      + Aggregation {#aggregation}
-        + [avg](using/building-journeys/functions/functionavg.md)
-        + [count](using/building-journeys/functions/functioncount.md)
-        + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
-        + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
-        + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
-        + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
-        + [max](using/building-journeys/functions/functionmax.md)
-        + [min](using/building-journeys/functions/functionmin.md)
-        + [sum](using/building-journeys/functions/functionsum.md)
-      + Conversion {#conversion}
-        + [toBool](using/building-journeys/functions/functiontobool.md)
-        + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
-        + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
-        + [toDateTimeOnly](using/building-journeys/functions/functiontodatetimeonly.md)
-        + [toDecimal](using/building-journeys/functions/functiontodecimal.md)
-        + [toDuration](using/building-journeys/functions/functiontoduration.md)
-        + [toInteger](using/building-journeys/functions/functiontointeger.md)
-        + [toString](using/building-journeys/functions/functiontostring.md)
-      + Date {#date}
-        + [currentTime​InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
-        + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-        + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
-        + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-        + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
-        + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-        + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-        + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-        + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
-        + [now](using/building-journeys/functions/functionnow.md)
-        + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
-        + [setHours](using/building-journeys/functions/functionsethours.md)
-        + [setDays](using/building-journeys/functions/functionsetdays.md)
-      + List {#list}
-        + [distinct](using/building-journeys/functions/functiondistinct.md)
-        + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
-        + [filter](using/building-journeys/functions/functionfilter.md)
-        + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-        + [in](using/building-journeys/functions/functionin.md)
-        + [intersect](using/building-journeys/functions/functionintersect.md)
-        + [listSize](using/building-journeys/functions/functionlistsize.md)
-        + [serializeList](using/building-journeys/functions/functionserializelist.md)
-        + [sort](using/building-journeys/functions/functionsort.md)
-      + Math {#math}
-        + [random](using/building-journeys/functions/functionrandom.md)
-        + [round](using/building-journeys/functions/functionround.md)
-      + String {#string}
-        + [concat](using/building-journeys/functions/functionconcat.md)
-        + [contain](using/building-journeys/functions/functioncontain.md)
-        + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
-        + [endWith](using/building-journeys/functions/functionendwith.md)
-        + [endWithIgnorecase](using/building-journeys/functions/functionendwithignorecase.md)
-        + [equalIgnoreCase](using/building-journeys/functions/functionequalignorecase.md)
-        + [indexOf](using/building-journeys/functions/functionindexof.md)
-        + [isEmpty](using/building-journeys/functions/functionisempty.md)
-        + [isNotEmpty](using/building-journeys/functions/functionisnotempty.md)
-        + [lastIndexOf](using/building-journeys/functions/functionlastindexof.md)
-        + [length](using/building-journeys/functions/functionlength.md)
-        + [lower](using/building-journeys/functions/functionlower.md)
-        + [matchRegExp](using/building-journeys/functions/functionmatchregexp.md)
-        + [notEqualIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
-        + [replace](using/building-journeys/functions/functionreplace.md)
-        + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
-        + [split](using/building-journeys/functions/functionsplit.md)
-        + [startWith](using/building-journeys/functions/functionstartwith.md)
-        + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
-        + [substr](using/building-journeys/functions/functionsubstr.md)
-        + [trim](using/building-journeys/functions/functiontrim.md)
-        + [upper](using/building-journeys/functions/functionupper.md)
-        + [uuid](using/building-journeys/functions/functionuuid.md)
   + Use cases {#journey-use-cases}
     + [Send multi-channel messages](using/building-journeys/journeys-uc.md)
     + [Send a message using Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
     + [Pass collections dynamically using custom actions](using/building-journeys/collections.md)
+    + [Send a message to subscribers](using/building-journeys/message-to-subscribers-uc.md)
 + Track and monitor {#reporting}
   + [Message monitoring](using/message-monitoring.md)
   + Live report {#live-report}
@@ -190,11 +106,14 @@ solution: Journey Optimizer
     + [Push Global report](using/reports/push-global-report.md)
   + Journey reports {#reports}
     + [Create journey reports](using/reports/sharing-overview.md)
-    + [Journey fields](using/reports/sharing-journey-fields.md)
-    + [Common fields](using/reports/sharing-common-fields.md)
-    + [Action execution fields](using/reports/sharing-execution-fields.md)
-    + [Data fetch fields](using/reports/sharing-fetch-fields.md)
-    + [Identity fields](using/reports/sharing-identity-fields.md)
+    + [Step event field list](using/reports/sharing-field-list.md)
+    + Legacy step event fields {#legacy-step-event-fields}
+        + [About legacy fields](using/reports/sharing-legacy-fields.md)
+        + [Journey fields](using/reports/sharing-journey-fields.md)
+        + [Common fields](using/reports/sharing-common-fields.md)
+        + [Action execution fields](using/reports/sharing-execution-fields.md)
+        + [Data fetch fields](using/reports/sharing-fetch-fields.md)
+        + [Identity fields](using/reports/sharing-identity-fields.md)
     + [Examples of queries](using/reports/query-examples.md)
   + Deliverability {#deliverability}
     + [Get started with deliverability](using/deliverability.md)
@@ -219,6 +138,7 @@ solution: Journey Optimizer
   + Create and manage decisions {#create-manage-activities}
     + [Create decisions](using/offers/offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](using/offers/offer-activities/configure-offer-selection.md)
+    + [Create simulations](using/offers/offer-activities/simulation.md)
   + Create Decision Management reports {#create-reports}
     + [Get started with Decision management events](using/offers/reports/get-started-events.md)
     + [Decision Management events key information](using/offers/reports/key-information.md)
