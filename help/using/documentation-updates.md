@@ -24,11 +24,11 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 
 ## September 2021
 
-* The following function pages have been updated: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+* The following function pages have been updated: [sethours](building-journeys/functions/functionsethours.md), [getListItem](building-journeys/functions/functiongetlistitem.md), [inSegment](building-journeys/functions/functioninsegment.md)
 
-* The following functions have been added: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+* The following functions have been added: [filter](building-journeys/functions/functionfilter.md), [intersect](building-journeys/functions/functionintersect.md), [toDateOnly](building-journeys/functions/functiontodateonly.md)
 
-* The dateOnly date type has been added in the expression editor documentation. [Read more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* The dateOnly date type has been added in the expression editor documentation. [Read more](building-journeys/expression/data-types.md)
 
 * Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
