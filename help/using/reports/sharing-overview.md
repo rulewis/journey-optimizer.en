@@ -47,10 +47,7 @@ The following datasets are passed:
 
 The lists of XDM fields passed to Adobe Experience Platform are detailed here:
 
-* [journeySteps events common fields](../reports/sharing-common-fields.md)
-* [journeyStep events action execution fields](../reports/sharing-execution-fields.md)
-* [journeyStep events data fetch fields](../reports/sharing-fetch-fields.md)
-* [journeyStep event identity fields](../reports/sharing-identity-fields.md)
-* [journey fields](../reports/sharing-journey-fields.md)
+* [Step event field list](../reports/sharing-field-list.md)
+* [Legacy step event fields](../reports/sharing-legacy-fields.md)
 
 For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target="_blank"}.

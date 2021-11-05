@@ -15,9 +15,13 @@ Read segment based journeys can be triggered in one-shot, by a scheduler on a re
 
 Business events can be "a product is back in stock", "the stock price of a company reaches a certain value”, etc.
 
+>[!NOTE]
+>
+>You can also watch the business event use case [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+
 ## Important notes
 
-* The event schema must contain a primary identity.
+*  Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
 * Business events can only be dropped as the first step of a journey.
 * When dropping a business event as the first step of a journey, the scheduler type of the journey will be "business event".
 * Only a read segment activity can be dropped after a business event. It is automatically added as the next step.
@@ -36,7 +40,7 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 **What are the guardrails to avoid over-loading materialized segments?**
 
-For business events, the topic reusability is set to one hour. This means that for a given journey, in a 1-hour time window, no new export job is created. Data pushed by the first event job is reused. For scheduled journeys, there is no guardrail.
+In the case of on-shot business events, for a given journey, data pushed by the first event job is reused during a 1-hour time window. For scheduled journeys, there is no guardrail. Learn more on segments in the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Get started with business events
 
@@ -68,7 +72,7 @@ Here are the first steps to configure a business event:
 
    ![](../assets/jo-event5-business.png)
 
-   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity.
+   Only time series schemas are available. Experience Events, Decision Events and Journey Step Events schemas are not available. The event schema must contain a primary identity. The following fields must be set as required: `_id` and `timestamp`
 
     ![](../assets/test-profiles-4.png)
 
@@ -99,6 +103,10 @@ The payload definition allows you to choose the information the system expects t
 
     ![](../assets/journey9-business.png)
 
+    >[!NOTE]
+    >
+    > Make sure that the following fields are selected: `_id` and `timestamp`
+
 1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. 
 
 1. When you're done selecting the needed fields, click **[!UICONTROL Save]** or press **[!UICONTROL Enter]**.
@@ -121,4 +129,4 @@ The payload preview allows you to validate the payload definition.
 
 1. Check the preview to validate the payload definition.
 
-1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to [!DNL Journey Optimizer]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help them design the setup of an event pushing to [!DNL Journey Optimizer]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

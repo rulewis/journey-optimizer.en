@@ -5,9 +5,113 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 ---
 # Release Notes {#release-notes}
 
-This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the latest [Documentation Updates](documentation-updates.md).
+This page lists all the new features and improvements for [!DNL Journey Optimizer]. You can also consult the [latest documentation Updates](documentation-updates.md).
+
+## October 2021 Release {#oct-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
+<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+</td>
+</tr>
+</tbody>
+</table-->
 
 
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Offer Simulations</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now simulate which offers will be delivered to a test profile for a given placement in the Journey Optimizer UI. This allows you to validate your decisioning logic including eligibility constraints and ranking algorithms easily before you put them in production. This capability allows non-technical and technical users to quickly test offer decisioning and troubleshoot potential problems.</p>
+<p>For more information, refer to the <a href="offers/offer-activities/simulation.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize the content of your offers using Adobe Experience Platform profile attributes and segments, using the same expression editor component found throughout Journey Optimizer UI. </p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+See also [Adobe Experience Platform October Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"} for more changes.
+
+### Improvements
+
+**Journeys**
+
+* **Expression editor** - As a power user, you can now use functions to work with maps. This capability can be leveraged with the subscription lists. As an example, from a segment, you can now get an email address from a subscription list. [Learn more in this sample](building-journeys/message-to-subscribers-uc.md)
+    <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
+* **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](reports/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories. All previous step events fields are still available in the [stepEvents](reports/sharing-legacy-fields.md) category. 
+* **Accessibility** - Accessibility enhancements have been implemented in journeys. 
+* **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](building-journeys/collections.md)
+* **Lists** - Lists screens have been improved for journeys, events, actions, data sources.
+
+**Reporting**
+
+* **Data format in Global view** - You can now toggle between numbers and percentages in the **Global view** of the **Execution** tab. [Learn more](message-monitoring.md)
+* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)
+
+**Administration**
+
+* **Edit message presets** - You can now edit message presets and monitor their update status. [Learn more](configuration/message-presets.md#edit-message-preset)
+* **Edit PTR records** - You can now edit PTR records and monitor their update status. [Learn more](configuration/ptr-records.md#edit-ptr-record)
+
+**Personalization**
+
+* **New helper function for date formatting** - You can now specify how a date string should be represented. [Learn more](personalization/functions/dates.md#format-date)
+
+**Decision Management**
+
+* **Evaluation sequencing** - The new and improved decision creation flow enables you to not only navigate between decision objects more seamlessly, but also gives you a complete control of how offer collections are evaluated by the decision engine. This includes which collections are evaluated together vs separately, and in what order the collections should be evaluated. [Learn more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+
+### Fixes 
+
+* Fixed an issue which prevented the Journey list, Message list and Email designer from being displayed when the browser language was not English.
+* Fixed a syntax error which occured when adding personalization using an expression in the Email designer: characters were wrongly escaped.
+* Fixed an issue which led to a 404 error when navigating in the **Administration** menu.
+* Fixed an issue which triggered other live journeys when testing a journey using a business event.
 
 ## September 2021 Release {#september-2021-release}
 
@@ -49,23 +153,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 ### Improvements
 
