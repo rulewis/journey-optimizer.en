@@ -7,7 +7,7 @@ type: Documentation
 solution: Journey Optimizer
 ---
 
-# [!DNL Journey Optimizer] Help {#using}
+# Adobe Journey Optimizer Help {#using}
 
 + [Journey Optimizer documentation](ajo-home.md)
 + What's new? {#whats-new}
