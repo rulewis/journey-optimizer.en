@@ -9,8 +9,6 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 ---
 # Quick Start {#cjm-quick-start}
 
-## Key steps to start {#cjm-key-steps}
-
 With [!DNL Adobe Journey Optimizer], you can import existing message content or design a new content, personalize messages with customer profile data, create events to trigger messages, define segments and refine audiences, send multi-channel messages, create and add offers, and access a complete set of reporting and monitoring tools to measure the impact of your messages and customer journeys.
 
 Based on your organization, you can define several types of users and grant them access to certain capabilities depending on their permissions.
@@ -66,5 +64,3 @@ To learn and discover the power of Adobe Journey Optimizer with step-by-step gui
   </td-->
 </tr>
 </table>
-
-* **Monitor messages and journeys**: control message execution, check message and journey reports, follow-up deliverability metrics. [Read more](message-monitoring.md)
