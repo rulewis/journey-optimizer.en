@@ -207,7 +207,9 @@ A message preset update can have the following statuses:
 * **[!UICONTROL Success]**: The updated message preset has been verified and can be selected to create messages.
 * **[!UICONTROL Failed]**: One or several checks have failed during the message preset update verification.
 
-**Processing**
+Each status is detailed below.
+
+### Processing
 
 Several deliverability checks will be performed to verify that the preset has been updated properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
 
@@ -223,7 +225,7 @@ If you edit a preset that was already active:
 
 * During the validation process, the messages configured using this preset are still using the older version of the preset.
 
-**Success**
+### Success
 
 Once the validation process is successful, the new version of the preset is automatically used in all messages using this preset. However, you may have to wait:
 * a few minutes before it is consumed by the unitary messages,
@@ -231,7 +233,7 @@ Once the validation process is successful, the new version of the preset is auto
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**Failed**
+### Failed
 
 If the validation process fails, the older version of the preset will still be used.
 
