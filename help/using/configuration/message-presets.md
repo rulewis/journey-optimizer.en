@@ -185,6 +185,10 @@ To edit a message preset, follow the steps below.
 
 Once the changes are submitted, the message preset will go through a validation cycle similar to the one in place when [creating a preset](#create-message-preset).
 
+>[!NOTE]
+>
+>If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+
 For message presets that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
 
 * Click the **[!UICONTROL Recent update]** icon that is displayed next to the active preset name.
@@ -211,11 +215,13 @@ Each status is detailed below.
 
 ### Processing
 
-Several deliverability checks will be performed to verify that the preset has been updated properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
+Several deliverability checks will be performed to verify that the preset has been updated properly.
 
 >[!NOTE]
 >
->You cannot modify a message preset while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
+>If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+
+The processing time is around **48h-72h**, and can take up to **7-10 business days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).
 
 If you edit a preset that was already active:
 
@@ -224,6 +230,10 @@ If you edit a preset that was already active:
 * The **[!UICONTROL Recent update]** icon displays next to the name of the preset in the message presets list.
 
 * During the validation process, the messages configured using this preset are still using the older version of the preset.
+
+>[!NOTE]
+>
+>You cannot modify a message preset while update is in progress. You can still click its name, but all the fields are greyed out. The changes will not be reflected until the update is successful.
 
 ### Success
 
@@ -237,12 +247,12 @@ Once the validation process is successful, the new version of the preset is auto
 
 If the validation process fails, the older version of the preset will still be used.
 
-The possible update error types are as follows:
+<!--The possible update error types are as follows:
 * **Authorization error**: the bearer token is invalid or not authorized.
 * **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+Learn more on the possible failure reasons in [this section](#monitor-message-presets).
 
 Upon update failing, the preset becomes editable again. You can click its name and update the settings that need to be fixed.
 
