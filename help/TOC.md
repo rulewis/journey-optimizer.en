@@ -219,7 +219,7 @@ solution: Journey Optimizer
         + [Delegate a subdomain](using/configuration/delegate-subdomain.md)
         + [Access delegated subdomains](using/configuration/access-subdomains.md)
         + [Add a Google TXT record](using/configuration/google-txt.md)
-        + [Access PTR records](using/configuration/ptr-records.md)
+        + [Access and edit PTR records](using/configuration/ptr-records.md)
       + [Create IP pools](using/configuration/ip-pools.md)
       + Monitor email addresses {#monitor-reputation}  
         + [Manage suppression list](using/configuration/manage-suppression-list.md)
