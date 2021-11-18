@@ -14,7 +14,7 @@ If you're using a third-party system to send messages or if you want journeys to
 
 Limitations are listed in [this page](../limitations.md).
 
-You can pass collections dynamically using custom actions. Refer to this [use case](../building-journeys/collections.md).
+You can pass collections dynamically using custom actions. Refer to this [use case](../limitations.md).
 
 Here are the main steps required to configure a custom action:
 

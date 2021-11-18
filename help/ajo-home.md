@@ -24,19 +24,12 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <div>
       <a href="using/get-started.md">What is [!DNL Journey Optimizer]?</a>
     </div>
-    <p>Discover key features and use cases
+    <p>Discover key features and how to get started
     <p>
     <div>
       <a href="using/release-notes.md">Release notes</a>
     </div>
-    <p>New capabilities, latest improvements and fixes
-   <p>
-    <div>
-      <a href="using/quick-start.md">Quick start guide</a>
-    </div>
-    <p>
-    Learn how to start as an Administrator, Data engineer or Journey practicionner
-    <p>
+    <p>Discover new capabilities, latest improvements and fixes
     <p>
     <div>
       <a href="using/design-emails.md">Design an email content</a>
@@ -62,7 +55,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
     <div>
     <a href="using/administration/permissions-overview.md">Grant access to [!DNL Journey Optimizer]</a>
     </div>
-    <p>Define and manage the permissions assigned to [!DNL Journey Optimizer] users
+    <p>Learn how to define and manage the permissions assigned to [!DNL Journey Optimizer] users
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Decision management</a>

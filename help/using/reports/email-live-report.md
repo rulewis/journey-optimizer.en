@@ -61,20 +61,6 @@ The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widge
 
 * **[!UICONTROL Ignored]**: The total number of temporary, such as Out of office, or a technical error, for example if the sender type is postmaster.
 
-![](../assets/live_report_8.png)
-
->[!NOTE]
->
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
-
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
-
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
-
 >[!NOTE]
 >
 >The profiles with **[!UICONTROL Suppressed]** or **[!UICONTROL Not allowed]** status are excluded during the message sending process. Therefore, while the **Journey reports** will show these profiles as having moved through the journey ([Read Segment](../building-journeys/read-segment.md) and [Message](../building-journeys/journeys-message.md) activities), the **Email reports** will not include them in the **[!UICONTROL Sent]** metrics as they are filtered out prior to email sending.

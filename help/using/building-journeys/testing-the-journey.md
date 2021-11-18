@@ -133,6 +133,8 @@ Here are the different statuses of an individual's journey:
 
 When an event is triggered using the test mode, a dataset is automatically generated with the name of the source.
 
+When an event is triggered using the test mode, a dataset is automatically generated with the name of the source.
+
 The test mode automatically creates an Experience Event and sends it to Adobe Experience Platform. The name of the source for this experience Event is "Journey Orchestration Test Events".
 
 In the case of multiple events triggered from multiple journeys

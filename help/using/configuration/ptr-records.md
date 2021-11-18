@@ -1,7 +1,16 @@
 ---
 title: PTR records
-description: Learn how to manage PTR records
+description: "Learn how to manage ptr-records"
+page-status-flag: never-activated
+uuid: 
+contentOwner: 
+products: 
 audience: administrators
+content-type: reference
+topic-tags: 
+discoiquuid: 
+internal: n
+snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -18,7 +27,7 @@ With PTR records, receiving mail servers can check the authenticity of sending m
 
 ## Access your subdomains' PTR records
 
-Once a subdomain is delegated in Adobe Journey Optimizer, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Once a subdomain is delegated in Customer Jourrney Management, a PTR record is automatically created and associated with this subdomain. You can access it from the **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** menu.
 
 ![](../assets/ptr-records.png)
 
@@ -74,21 +83,4 @@ Several deliverability checks will be performed to verify that the new subdomain
 
 >[!NOTE]
 >
->You cannot modify a PTR record while update is in progress. You can still click its name, but the **[!UICONTROL Subdomain]** field is greyed out. The changes will not be reflected until the update is successful.
-
-During the validation process, the old subdomain is still associated with the IP address.
-
-### Success
-
-Once the validation process is successful, the new subdomain is automatically associated with the IP address.
-
-### Failed
-
-If the validation process fails, the older PTR record is displayed. The valid subdomain that was previously associated with the IP address remains unchanged.
-
-The possible update error types are as follows:
-* Failure to create a new forward DNS for the PTR record
-* Failure to update the record
-* Failure to re-onboard the affinities
-
-Upon update failing, the PTR record becomes editable again. You can click its name and update the subdomain again.
+>Note that the PTR records are read-only and that you cannot modify the subdomain associated to an IP address.

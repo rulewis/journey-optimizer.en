@@ -19,7 +19,7 @@ Once you [created a message](create-message.md), use the **[!UICONTROL Email]** 
 
 The steps to configure an email are as follows:
 
-1. Specify the email subject in the **[!UICONTROL Subject line]** field. To do this, click the button on the right-hand side to open the Expression editor and compose the email subject. Learn how to add personalization in [this section](personalization/personalize.md)
+1. Specify the **[!UICONTROL Email subject]**. To do this, click the button on the right-hand side to open the Expression editor and compose the email subject. Learn how to add personalization in [this section](personalization/personalize.md)
 
 1. Click the **[!UICONTROL Email Designer]** button to design your email. Learn how to design emails in [this section](design-emails.md).
 
