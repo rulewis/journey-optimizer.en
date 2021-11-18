@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 ---
 # User interface {#cjm-user-interface}
 
-Once connected to [Adobe Experience Cloud](http://experience.adobe.com), browse to [!DNL Journey Optimizer].
+Connect to [Adobe Experience Cloud](http://experience.adobe.com) and browse to [!DNL Journey Optimizer].
 
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} for more details.
 

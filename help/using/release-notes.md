@@ -68,7 +68,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now personalize the content of your offers using Adobe Experience Platform profile attributes and segments, using the same expression editor component found throughout Journey Optimizer UI. </p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#custom-text">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

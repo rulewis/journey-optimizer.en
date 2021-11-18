@@ -46,7 +46,7 @@ You can modify a PTR record to edit the subdomain associated with an IP address.
     >
     >You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
 
-1. Click **[!UICONTROL SAve]** to confirm your changes.
+1. Click **[!UICONTROL Save]** to confirm your changes.
 
 An **[!UICONTROL Updating]** icon displays next to the name of the PTR record in the list.
 

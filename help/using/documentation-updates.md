@@ -19,8 +19,7 @@ This page lists all the documentation updates for [!DNL Journey Optimizer].
 * New limitations added to the **Decision Management API developer guide** on offer constraints not supported with the mobile [!DNL Experience Edge] workflows. [Read more](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * New **Create simulations** section. [Read more](offers/offer-activities/simulation.md)
 * Updated **Add decision scopes** section. [Read more](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Updated **Define content for your representations** section. [Read more](offers/offer-library/creating-personalized-offers.md#content)
-* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)
+* Updated **Define content for your representations** section, including a new [subsection](offers/offer-library/creating-personalized-offers.md#custom-text) on how to define and personalize custom text. [Read more](offers/offer-library/creating-personalized-offers.md#content)
 
 ## September 2021
 
