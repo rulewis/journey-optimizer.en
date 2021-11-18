@@ -22,6 +22,7 @@ You can enable tracking at the email message level by checking the **[!UICONTROL
 >Both options are enabled by default.
 
 This will let you track the behavior of your recipients through:
+
 * **[!UICONTROL Open Tracking for email]**: Messages that have been opened.
 * **[!UICONTROL Click Tracking for email]**: Clicks on links in an email.
 

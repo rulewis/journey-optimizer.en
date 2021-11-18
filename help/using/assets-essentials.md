@@ -17,8 +17,6 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 >
 > To work with [!DNL Adobe Experience Manager Assets Essentials], you will need to deploy [!DNL Assets Essentials] for your organization and make sure that users, who need access to [!DNL Assets Essentials], are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. <br> For more information on this, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
 
-[!DNL Adobe Experience Manager Assets Essentials] provides a single, centralized repository of assets that you can use to populate your messages. It can be accessed directly from [!DNL Adobe Journey Optimizer] through the **[!UICONTROL Assets]** section. You can also access assets and folders when designing an email content. [Learn more about email design](design-emails.md).
-
 For more detailed procedures on [!DNL Assets Essentials], refer to [Adobe Experience Manager Assets Essentials documentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 ## Upload and insert assets{#add-asset}
