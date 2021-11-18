@@ -95,7 +95,7 @@ Example :
 
 ### `entry` function
 
-In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [this page](../event/selecting-the-namespace.md).
+In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. For more information, see [this page](../../event/about-creating.md#select-the-namespace).
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
