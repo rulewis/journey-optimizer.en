@@ -64,4 +64,3 @@ To learn and discover the power of Adobe Journey Optimizer with step-by-step gui
   </td-->
 </tr>
 </table>
-

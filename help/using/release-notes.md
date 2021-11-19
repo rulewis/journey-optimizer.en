@@ -19,7 +19,7 @@ This page lists all the new features and improvements for [!DNL Journey Optimize
 <tr>
 <td>
 <p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
-<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+<p>Learn more in the <a href="building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
 </td>
 </tr>
 </tbody>
@@ -147,7 +147,7 @@ See also [Adobe Experience Platform October Release Notes](https://experiencelea
 <p>You can now pass collections or a list of data in your custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported: simple collections and object collections. Previously created custom actions will continue working. </p>
 <p>For more information on collections, refer to the <a href="building-journeys/collections.md">detailed documentation</a>. </p>
 <p>The filter and intersect functions have been added to the list of functions available in the advanced expression editor. This offers more possibilities for collection filtering and comparing.</p>
-<p>Consult the documentation on the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> and <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> functions.</p>
+<p>Consult the documentation on the <a href="building-journeys/functions/functionfilter.md">filter</a> and <a href="building-journeys/functions/functionintersect.md">intersect</a> functions.</p>
 </td>
 </tr>
 </tbody>

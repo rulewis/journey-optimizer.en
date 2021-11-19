@@ -27,7 +27,7 @@ To configure this journey, follow these steps:
 
       To be able to modify the email address, you must have previously published the message.
 
-   1. In the expression editor, enter the expression to retrieve the subscribers' email addresses. [Read more](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target="_blank"}.
+   1. In the expression editor, enter the expression to retrieve the subscribers' email addresses. [Read more](expression/expressionadvanced.md).
 
       This example shows an expression that includes references to map fields:
 
@@ -44,7 +44,7 @@ To configure this journey, follow these steps:
 
       In this example, the subscription list is named `daily-email`. Email addresses are defined as keys in the `subscribers` map, which is linked to the subscription list map.
 
-      Read more about [references to fields](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) in expressions.
+      Read more about [references to fields](expression/field-references.md) in expressions.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
