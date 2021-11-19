@@ -2,8 +2,8 @@
 title: Journey Optimizer Get started for Marketers
 description: As a Journey Practicioner, learn more how to work with Journey Optimizer
 level: Intermediate
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 ---
-
 # Get started for Marketers
 
 ![marketer](assets/do-not-localize/user-3.png) 
@@ -45,4 +45,3 @@ Refer to the following sections to set up your first journey, add offers and ass
     Learn how to design and execute journeys [in this section](../building-journeys/journey-gs.md)
 
 1. **Monitor messages and journeys**. To make sure your messages are successfully executed, sent and delivered, [!DNL Journey Optimizer] offers capabilities to monitor the messages that are currently published and triggered. Learn how to monitor performances [in this section](../message-monitoring.md).
-

@@ -5,6 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 8cad0a6e-fd5c-44ae-9ce4-44d99504b855
 ---
 # About legacy fields {#sharing-legacy-fields}
 

@@ -2,6 +2,7 @@
 title: Journey Optimizer Get Started for Data Engineer
 description: As a Data Engineer, learn more how to work with Journey Optimizer
 level: Intermediate
+exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 ---
 # Get Started for Data Engineer {#data-engineer}
 
