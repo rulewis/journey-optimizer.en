@@ -2,6 +2,7 @@
 title: Journey Optimizer Get Started for System Admin
 description: As a System Administrator, learn more how to work with Journey Optimizer
 level: Intermediate
+exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 ---
 # Get Started for System Administrators
 
@@ -64,4 +65,3 @@ Follow the steps listed below:
     * The [allowed list](../allow-list.md) enables you to specify individual email addresses or domains that will be the only recipients or domains authorized to receive the emails you are sending from a specific sandbox. This can prevent you from sending emails accidentally to real customer addresses when you are in a testing environment. Learn how to [enable the allowed list](../allow-list.md).
 
     Learn more about deliverability management in [!DNL Adobe Journey Optimizer] [in this page](../deliverability.md).
-

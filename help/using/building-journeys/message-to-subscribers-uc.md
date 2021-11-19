@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 ---
 # Send a message to the subscribers of a list
 
@@ -52,7 +53,3 @@ To configure this journey, follow these steps:
       ![](../assets/message-to-subscribers-uc-3.png)
 
 1. End the journey with an **[!UICONTROL End]** activity.
-
-
-
-

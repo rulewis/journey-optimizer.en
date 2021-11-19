@@ -4,6 +4,7 @@ description: As a Developer, learn more how to work with Journey Optimizer
 level: Intermediate
 hide: yes
 hidefromtoc: yes
+exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 ---
 # Get Started for Developers
 

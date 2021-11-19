@@ -5,6 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
+exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 ---
 # Date Time Functions{#date-time}
 
