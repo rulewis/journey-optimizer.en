@@ -92,8 +92,8 @@ solution: Journey Optimizer
     + [Adobe Campaign v7/v8 actions](using/building-journeys/using-adobe-campaign-classic.md)
     + [Jump](using/building-journeys/jump.md)
     + [Update profile](using/building-journeys/update-profiles.md)
-  + Using the advanced expression editor {#building-advanced-conditions-journeys}
-    + [About the advanced expression editor](using/building-journeys/expression/expressionadvanced.md)
+  + Build expressions {#building-advanced-conditions-journeys}
+    + [Overview](using/building-journeys/expression/expressionadvanced.md)
     + Syntax {#syntax}
         + [Generalities](using/building-journeys/expression/generalities.md)
         + [Conditional instruction](using/building-journeys/expression/conditional-instruction.md)
@@ -140,6 +140,7 @@ solution: Journey Optimizer
         + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
         + [setHours](using/building-journeys/functions/functionsethours.md)
         + [setDays](using/building-journeys/functions/functionsetdays.md)
+        + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
       + List {#list}
         + [distinct](using/building-journeys/functions/functiondistinct.md)
         + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
