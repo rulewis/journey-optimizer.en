@@ -5,6 +5,7 @@ description: Learn about the function contain
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8855c382-a91a-4fe2-92db-91ce6dfab3b0
 ---
 # contain {#contain}
 

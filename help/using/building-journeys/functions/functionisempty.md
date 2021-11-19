@@ -5,6 +5,7 @@ description: Learn about the function isEmpty
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
 ---
 # isEmpty {#isEmpty}
 

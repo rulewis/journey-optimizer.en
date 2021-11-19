@@ -5,6 +5,7 @@ description: Learn about the function indexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 ---
 # indexOf {#indexOf}
 

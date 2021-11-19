@@ -5,6 +5,7 @@ description: Learn about the function containIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 26074584-a215-4515-8a61-7460bd9d4447
 ---
 # containIgnoreCase {#containIgnoreCase}
 

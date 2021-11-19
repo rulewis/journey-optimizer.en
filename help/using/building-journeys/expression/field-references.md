@@ -5,6 +5,7 @@ description: Learn about field references in advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 ---
 # Field references {#concept_fkj_ll5_dgb}
 

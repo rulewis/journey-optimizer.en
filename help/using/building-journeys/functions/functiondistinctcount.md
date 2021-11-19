@@ -5,6 +5,7 @@ description: Learn about the function distinctCount
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
 ---
 # distinctCount{#distinctCount}
 

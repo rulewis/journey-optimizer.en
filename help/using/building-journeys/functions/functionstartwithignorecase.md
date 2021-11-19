@@ -5,6 +5,7 @@ description: Learn about the function startWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: b6bd9f77-272f-4c2b-b085-20ab5f043793
 ---
 # startWithIgnoreCase {#startWithIgnoreCase}
 

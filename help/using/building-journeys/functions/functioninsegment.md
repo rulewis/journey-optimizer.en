@@ -5,6 +5,7 @@ description: Learn about the function inSegment
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 ---
 # inSegment {#inSegment}
 

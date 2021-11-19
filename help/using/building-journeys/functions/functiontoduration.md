@@ -5,6 +5,7 @@ description: Learn about the function toDuration
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 ---
 # toDuration {#toDuration}
 

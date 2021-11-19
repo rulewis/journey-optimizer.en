@@ -5,6 +5,7 @@ description: Learn about the function split
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 ---
 # split {#split}
 

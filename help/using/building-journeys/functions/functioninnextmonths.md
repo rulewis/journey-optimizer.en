@@ -5,6 +5,7 @@ description: Learn about the function inNextMonths
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: e2e520ec-ae9e-4ed6-b50d-606fc6861d56
 ---
 # inNextMonths {#inNextMonths}
 

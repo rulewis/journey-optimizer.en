@@ -5,6 +5,7 @@ description: Learn about the function uuid
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: ac3bc4e7-7097-4efb-a6f7-22aa00d01380
 ---
 # uuid {#uuid}
 

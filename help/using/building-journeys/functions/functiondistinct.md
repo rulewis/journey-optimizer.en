@@ -5,6 +5,7 @@ description: Learn about the function distinct
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 ---
 # distinct {#distinct}
 

@@ -5,6 +5,7 @@ description: Learn about the function now
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 ---
 # now {#now}
 

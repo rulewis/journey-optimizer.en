@@ -5,6 +5,7 @@ description: Learn about data types in advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 ---
 # Data types {#concept_gp3_rj5_dgb}
 

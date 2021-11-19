@@ -5,6 +5,7 @@ description: Learn about the function inLastMonths
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 4933ef43-66b8-462d-867c-03edd4c34947
 ---
 # inLastMonths {#inLastMonths}
 

@@ -5,6 +5,7 @@ description: Learn about the function distinctCountWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 ---
 # distinctCountWithNull {#distinctCountWithNull}
 

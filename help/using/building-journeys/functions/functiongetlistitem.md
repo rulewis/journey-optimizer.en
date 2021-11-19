@@ -5,6 +5,7 @@ description: Learn about the function gstListItem
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 ---
 # getListItem {#gestListItem}
 

@@ -5,6 +5,7 @@ description: Learn about the function inLastDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 ---
 # inLastDays {#inLastDays}
 

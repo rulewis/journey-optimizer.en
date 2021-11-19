@@ -5,6 +5,7 @@ description: Learn about the function nowWithDelta
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
 ---
 # nowWithDelta {#nowWithDelta}
 

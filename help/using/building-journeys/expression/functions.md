@@ -5,6 +5,7 @@ description: Learn about functions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 ---
 # Functions {#concept_p1r_qj5_dgb}
 

@@ -5,6 +5,7 @@ description: Learn about the function toDecimal
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
 ---
 # toDecimal {#toDecimal}
 

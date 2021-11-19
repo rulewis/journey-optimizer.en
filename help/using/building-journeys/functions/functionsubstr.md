@@ -5,6 +5,7 @@ description: Learn about the function substr
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 58a3107a-b4f3-43da-b454-5ce597515847
 ---
 # substr {#substr}
 

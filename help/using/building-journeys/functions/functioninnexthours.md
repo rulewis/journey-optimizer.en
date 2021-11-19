@@ -5,6 +5,7 @@ description: Learn about the function inNextHours
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
 ---
 # inNextHours {#inNextHours}
 

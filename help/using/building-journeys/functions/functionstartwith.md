@@ -5,6 +5,7 @@ description: Learn about the function startWith
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 1abdf947-2873-4e45-a26c-cb895980e76a
 ---
 # startWith {#startWith}
 

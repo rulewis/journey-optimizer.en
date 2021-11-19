@@ -5,6 +5,7 @@ description: Learn about the function currentTimeInMillis
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8deec661-d504-4764-85d7-afe80b62c477
 ---
 # currentTimeInMillis {#currentTimeInMillis}
 

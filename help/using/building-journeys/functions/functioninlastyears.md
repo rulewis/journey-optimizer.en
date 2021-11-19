@@ -5,6 +5,7 @@ description: Learn about the function inLastYears
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
 ---
 # inLastYears {#inLastYears}
 

@@ -5,6 +5,7 @@ description: Learn about journey properties
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 ---
 # Journey properties attributes {#journey-properties}
 

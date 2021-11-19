@@ -5,6 +5,7 @@ description: Learn about the function avg
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 ---
 # avg {#avg}
 

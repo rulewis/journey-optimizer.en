@@ -5,6 +5,7 @@ description: Learn about data types in collection management functions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 ---
 # Collection management functions {#collection-management-functions}
 

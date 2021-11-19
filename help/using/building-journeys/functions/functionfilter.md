@@ -5,6 +5,7 @@ description: Learn about the function filter
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 ---
 # filter{#filter}
 

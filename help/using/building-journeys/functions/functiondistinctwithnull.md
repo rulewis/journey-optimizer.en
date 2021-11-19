@@ -5,6 +5,7 @@ description: Learn about the function distinctWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 ---
 # distinctWithNull {#distinctWithNull}
 

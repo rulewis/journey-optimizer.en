@@ -5,6 +5,7 @@ description: Learn about the function sort
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 ---
 # sort {#sort}
 

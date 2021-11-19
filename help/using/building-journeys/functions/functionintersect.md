@@ -5,6 +5,7 @@ description: Learn about the function intersect
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 ---
 # intersect{#intersect}
 

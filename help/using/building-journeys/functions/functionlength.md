@@ -5,6 +5,7 @@ description: Learn about the function length
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
 ---
 # length {#length}
 

@@ -5,6 +5,7 @@ description: Learn about the function inNextDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
 ---
 # inNextDays {#inNextDays}
 

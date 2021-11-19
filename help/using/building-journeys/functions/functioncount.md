@@ -5,6 +5,7 @@ description: Learn about the function count
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 ---
 # count {#count}
 

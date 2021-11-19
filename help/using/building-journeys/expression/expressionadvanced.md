@@ -5,6 +5,7 @@ description: Learn how to build advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 ---
 # About the advanced expression editor {#concept_uyj_trt_52b}
 

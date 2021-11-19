@@ -5,6 +5,7 @@ description: Learn about the function countWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
 ---
 # countWithNull {#countWithNull}
 

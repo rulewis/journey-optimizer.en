@@ -5,6 +5,7 @@ description: Learn how to build advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 ---
 # Advanced expression examples
 

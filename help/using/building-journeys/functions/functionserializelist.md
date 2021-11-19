@@ -5,6 +5,7 @@ description: Learn about the function serializeList
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 ---
 # serializeList {#serializeList}
 

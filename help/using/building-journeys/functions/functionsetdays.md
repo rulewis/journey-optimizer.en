@@ -5,6 +5,7 @@ description: Learn about the function setDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 ---
 # setDays {#setDays}
 

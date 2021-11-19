@@ -5,6 +5,7 @@ description: Learn about the function inNextYears
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 ---
 # inNextYears {#inNextYears}
 
