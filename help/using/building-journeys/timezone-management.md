@@ -40,7 +40,7 @@ If the entry event of the journey has a namespace, meaning that the journey can 
 
 If a time zone is defined in Adobe Experience Platform profile, it can be retrieved in the journey.
 
-If the individual's profile does not contain a time zone, the timezone retrieved will be the one defined in the timezone field.
+If the individual's profile does not contain a time zone, the timezone used will be the one set in the Journey properties.
 
 To do so, in **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
